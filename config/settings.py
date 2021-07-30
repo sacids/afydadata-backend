@@ -48,10 +48,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+
+    #libraries
+    "rest_framework",
+
+    
     #custom apps
-    'accounts',
-    'surveys',
-    'projects',
+    'accounts.apps.AccountsConfig',
+    'surveys.apps.SurveysConfig',
+    'projects.apps.ProjectsConfig',
 ]
 
 MIDDLEWARE = [
@@ -69,7 +74,9 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 os.path.join(BASE_DIR, 'templates', 'the_folder_you_created')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -19,3 +19,5 @@ class SurveyResponsesSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model   = SurveyResponses
         fields  = ('survey','instance_id','response','created_by','created_on')
+
+

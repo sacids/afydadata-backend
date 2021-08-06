@@ -10,6 +10,7 @@ class Project(models.Model):
     class Meta:
         db_table    = 'ad_projects'
         managed     = True
+        app_label   = 'projects'
 
 
 class ProjectMembers(models.Model):
@@ -18,3 +19,4 @@ class ProjectMembers(models.Model):
     class Meta:
         db_table    = 'ad_projectMembers'
         managed     = True
+        app_label   = 'projects'

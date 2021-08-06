@@ -35,7 +35,7 @@ SECRET_KEY = '7h009#6!lic!o_2o@-p*7594%z$+(jnm4av)a!o3v75q4k(fyw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -54,9 +54,12 @@ INSTALLED_APPS = [
 
     
     #custom apps
-    'accounts.apps.AccountsConfig',
-    'surveys.apps.SurveysConfig',
-    'projects.apps.ProjectsConfig',
+    #'src.accounts.apps.AccountsConfig',
+    #'src.surveys.apps.SurveysConfig',
+    #'src.projects.apps.ProjectsConfig',
+    'accounts',
+    'projects',
+    'surveys',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +145,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+
+
+
+# default content length for submission requests
+DEFAULT_CONTENT_LENGTH = 10000
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = 'media/'
+
+
+DIGEST_REALM    = 'AFYADATA.SACIDS.ORG'

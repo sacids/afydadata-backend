@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 import src.surveys.urls
+from rest_framework import renderers
 
 from rest_framework import routers
 from src.accounts   import api as api_accounts
@@ -31,8 +32,14 @@ router.register(r'surveys', api_surveys.SurveyViewSet)
 router.register(r'surveyQns', api_surveys.SurveyQuestionsViewSet)
 router.register(r'surveyRsp', api_surveys.SurveyResponsesViewSet)
 
+
+
+
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path("survey/", include(src.surveys.urls)),
+    path('submission',api_surveys.form_submission,name="form_submission"),
+    path('formList',api_surveys.form_list, name="form_list"),
+    path('formGet/<id>', api_surveys.form_get, name="form_get")
 ]

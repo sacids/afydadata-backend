@@ -8,6 +8,7 @@ from django.shortcuts import render
 import os
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from django.views.generic import *
+import random
 
 
 import pyxform
@@ -17,29 +18,46 @@ from django.urls import reverse
 import xml.etree.ElementTree as ET
 
 # Create your views here.
-
 def xform_json(request):
 
-    file_path   = os.path.join(settings.BASE_DIR, 'src/assets/xform/data/Clinicians Form_2021-07-29_15-12-33.xml')
+    sr      = SurveyResponses.objects.filter(response__village='Test')
+    print(sr)
+    d  = random.randint(10,50)
+    s  = Survey.objects.get(pk=18)
+    sr  = SurveyResponses.objects.create(
+                    survey=s,
+                    instance_id=d,
+                    response={'name':'eric','age':d,'sex':'Male'},
+                    created_by=request.user)
+
+    return HttpResponse(1)
+
+
+def xform_json1(request):
+
+    file_path   = os.path.join(settings.BASE_DIR, 'src/assets/xform/data/TestAfyaData.xml')
     xf          = readFile(file_path)
     tree        = ET.parse(file_path)
     root        = tree.getroot()
 
     response    = 0
+    d  = random.randint(1,500)
 
     tmp         = {}
     for elem in root.iter():
         if elem.tag == 'data':
             #print('id '+str(elem.attrib['id']))
             form_id     = elem.attrib['id']
-            tmp['id']   = form_id
+            tmp['id']   = form_id+str(d)
         if elem.tag == 'instanceID':
-            instance_id = elem.text.strip()
+            instance_id = elem.text.strip()+str(d)
         if elem.text.strip() != '':
             #print(elem.tag+' '+elem.text.strip())
             tmp[elem.tag]   = elem.text.strip()
 
-    json_object = json.dumps(tmp)
+    #json_object = json.dumps(tmp)
+    json_object = tmp
+    print(tmp)
     
     s  = Survey.objects.filter(form_id=form_id)[0]
     try:
@@ -52,9 +70,7 @@ def xform_json(request):
         response = 1
     except:
         response = 2
-        
-
-
+     
     return HttpResponse(response)
 
 

@@ -4,12 +4,14 @@ from django.contrib.contenttypes.models import ContentType
 from _datetime import timedelta
 from django.urls import reverse
 from django.utils.text import slugify
+from projects.models import Project
 
 # Create your models here.
 class Survey(models.Model):
+    project     = models.ForeignKey('projects.Project', related_name='project',default=1, on_delete=models.CASCADE)
     title       = models.CharField(max_length=50)
-    form_id     = models.CharField(max_length=50)
-    xform       = models.FileField(upload_to='xform/defn/', max_length=100)
+    form_id     = models.CharField(max_length=250)
+    xform       = models.FileField(upload_to='media/xform/defn/', max_length=100)
     description = models.TextField()
     created_on  = models.DateTimeField(auto_now=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
@@ -17,6 +19,7 @@ class Survey(models.Model):
     class Meta:
         db_table = 'ad_surveys'
         managed = True
+        app_label = 'surveys'
 
     def __str__(self):
         return self.title if self.title else self.pk
@@ -50,15 +53,21 @@ class SurveyQuestions(models.Model):
     class Meta:
         db_table = 'ad_surveyQuestions'
         managed = True
+        app_label = 'surveys'
 
 
 class SurveyResponses(models.Model):
     survey          = models.ForeignKey('Survey', related_name='survey_responses', on_delete=models.CASCADE)
-    instance_id     = models.CharField(max_length=100,blank=False,null=False,unique=True)
-    response        = models.JSONField()
+    instance_id     = models.CharField(max_length=100,blank=False,null=False)
+    response        = models.JSONField(null=False)
     created_on      = models.DateTimeField(auto_now=True)
     created_by      = models.ForeignKey(User, on_delete=models.DO_NOTHING)
 
     class Meta:
         db_table = 'ad_surveyResponses'
         managed = True
+        app_label = 'surveys'
+
+    
+    def __str__(self):
+        return self.instance_id if self.instance_id else self.pk

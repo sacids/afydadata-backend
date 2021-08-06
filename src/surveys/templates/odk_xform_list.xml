@@ -1,0 +1,17 @@
+
+{% load filters %}
+
+<xforms xmlns="http://openrosa.org/xforms/xformsList">
+{% if surveys %}
+  {% for survey in surveys %}
+    <xform>
+        <formID>{{survey.form_id}}</formID>
+        <name>{{survey.title}}</name>
+        <version>1.1</version>
+        <hash>md5: {{survey|md5}}</hash>
+        <descriptionText>{{survey.description}}</descriptionText>
+        <downloadUrl>{{ request.scheme }}://{{ request.get_host }}{% url 'form_get' survey.id %}</downloadUrl>
+    </xform>
+  {% endfor %}
+{% endif %}
+</xforms>

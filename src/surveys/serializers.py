@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from surveys.models import Survey, SurveyQuestions, SurveyResponses
+from surveys.models import Survey, SurveyQuestions, SurveyResponses, SurveyFilter
 
 
 class SurveySerializer(serializers.HyperlinkedModelSerializer):
@@ -19,5 +19,12 @@ class SurveyResponsesSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model   = SurveyResponses
         fields  = ('survey','instance_id','response','created_by','created_on')
+
+
+
+class SurveyFilterSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model   = SurveyFilter
+        fields  = ('survey','title','data_filter')
 
 

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from projects.models import Project, ProjectMembers
+from projects.models import Project, ProjectMember
 
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
@@ -9,5 +9,5 @@ class ProjectSerializer(serializers.HyperlinkedModelSerializer):
 
 class ProjectMembersSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = ProjectMembers # this is the model that is being serialized
-        fields = ('project', 'member')
+        model = ProjectMember # this is the model that is being serialized
+        fields = ('projectGroup', 'member')

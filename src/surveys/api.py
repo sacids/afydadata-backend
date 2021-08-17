@@ -11,8 +11,8 @@ from rest_framework.mixins import CreateModelMixin
 from rest_framework import renderers
 from rest_framework.parsers import JSONParser
 
-from .serializers import SurveyQuestionsSerializer, SurveySerializer, SurveyResponsesSerializer
-from surveys.models import Survey, SurveyQuestions, SurveyResponses
+from .serializers import SurveyQuestionsSerializer, SurveySerializer, SurveyResponsesSerializer, SurveyFilterSerializer
+from surveys.models import Survey, SurveyQuestions, SurveyResponses, SurveyFilter
 from surveys.utils import * 
 from django.template import RequestContext, loader
 from django.contrib.auth import login
@@ -65,6 +65,15 @@ class SurveyResponsesViewSet(viewsets.ReadOnlyModelViewSet):
     """
     queryset = SurveyResponses.objects.all()
     serializer_class = SurveyResponsesSerializer
+    #permission_classes = [permissions.IsAuthenticated]
+
+
+class SurveyFilterViewset(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = SurveyFilter.objects.all()
+    serializer_class = SurveyFilterSerializer
     #permission_classes = [permissions.IsAuthenticated]
 
 

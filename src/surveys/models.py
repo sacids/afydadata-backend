@@ -4,7 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 from _datetime import timedelta
 from django.urls import reverse
 from django.utils.text import slugify
-from projects.models import Project
+from projects.models import Project, ProjectGroup
 
 # Create your models here.
 class Survey(models.Model):
@@ -71,3 +71,27 @@ class SurveyResponses(models.Model):
     
     def __str__(self):
         return self.instance_id if self.instance_id else self.pk
+
+
+class SurveyFilter(models.Model):
+    survey          = models.ForeignKey('Survey', related_name='survey_filters', on_delete=models.CASCADE)
+    title           = models.CharField(max_length=100,blank=False,null=False)
+    data_filter     = models.TextField()
+    class Meta:
+        db_table = 'ad_surveyFilters'
+        managed = True
+        app_label = 'surveys'
+    
+    def __str__(self):
+        return self.title if self.title else self.pk
+
+
+class SurveyPerm(models.Model):
+    survey          = models.ForeignKey('Survey', related_name='survey_perms', on_delete=models.CASCADE)
+    project_group   = models.ForeignKey('projects.ProjectGroup', related_name='project_group', on_delete=models.CASCADE)
+    data_filter     = models.ForeignKey('SurveyFilter', related_name='filter', on_delete=models.DO_NOTHING)
+
+    class Meta:
+        db_table = 'ad_surveyPerms'
+        managed = True
+        app_label = 'surveys'

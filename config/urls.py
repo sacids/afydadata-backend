@@ -47,6 +47,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("survey/", include(src.surveys.urls)),
     path('submission',api_surveys.form_submission,name="form_submission"),
+    path('changePassword',api_accounts.ChangePasswordView.as_view(),name="change_password"),
 
 
 

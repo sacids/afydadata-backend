@@ -77,7 +77,7 @@ def init_xform(filename):
         qns_dict    = {}
         qns_dict['col_name']    = col_name
         qns_dict['col_type']    = col_type
-        qns_dict['relevant']    = relevant
+        qns_dict['constraints']    = relevant
         qns_dict['ref']         = nodeset
         survey_cfg['qns'].append(qns_dict)
 

@@ -5,8 +5,8 @@ from surveys.models import Survey, SurveyQuestions, SurveyResponses, SurveyFilte
 class SurveySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Survey # this is the model that is being serialized
-        fields = ('title','form_id','xform','description','created_by','created_on')
-        read_only_fields =  ('form_id',)
+        fields = ('project','title','form_id','xform','description','created_by','created_on')
+        read_only_fields =  ('form_id','project')
 
 
 class SurveyQuestionsSerializer(serializers.HyperlinkedModelSerializer):

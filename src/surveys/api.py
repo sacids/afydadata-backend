@@ -2,7 +2,7 @@ from django.http import Http404, HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect, get_object_or_404, render
 
-from rest_framework import status, viewsets
+from rest_framework import status, viewsets, generics
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import permissions
@@ -184,3 +184,19 @@ def form_get(request, id):
 
 
     
+
+
+
+
+
+
+class SurveyList(generics.ListAPIView):
+    serializer_class = SurveySerializer
+
+    def get_queryset(self):
+        """
+        This view should return a list of all the surveys for
+        the project as determined by the project_id portion of the URL.
+        """
+        project_id = self.kwargs['project_id']
+        return Survey.objects.filter(project_id=project_id)

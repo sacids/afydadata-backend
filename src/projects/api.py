@@ -1,15 +1,17 @@
 from rest_framework import viewsets
-from rest_framework import permissions
+from rest_framework import permissions, generics
 from .serializers import ProjectSerializer, ProjectMembersSerializer
+from accounts.serializers import UserSerializer
 from projects.models import Project, ProjectMember, ProjectGroup
 import operator
 from django.db.models import Q
 from functools import reduce
+from django.contrib.auth.models import User, Group
 
 
 class ProjectViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows users to be viewed or edited.
+    API endpoint that allows projects to be viewed or edited.
     """
     queryset = Project.objects.all().order_by('-created_on')
     serializer_class = ProjectSerializer
@@ -30,6 +32,18 @@ class ProjectMemberViewSet(viewsets.ModelViewSet):
     serializer_class = ProjectMembersSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+
+class ProjectMemberList(generics.ListAPIView):
+    serializer_class = UserSerializer
+
+    def get_queryset(self):
+        """
+        This view should return a list of all the surveys for
+        the project as determined by the project_id portion of the URL.
+        """
+        project_id  = self.kwargs['project_id']
+        members     = ProjectMember.objects.filter(projectGroup__project_id=project_id).values_list('member', flat=True)
+        return User.objects.filter(pk__in=members)
 
 
 

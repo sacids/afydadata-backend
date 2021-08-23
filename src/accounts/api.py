@@ -24,6 +24,8 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
+
+
 #@csrf_exempt
 class ChangePasswordView(generics.UpdateAPIView):
         """

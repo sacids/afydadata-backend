@@ -50,6 +50,12 @@ urlpatterns = [
     path('changePassword',api_accounts.ChangePasswordView.as_view(),name="change_password"),
 
 
+    path('project/<project_id>/surveys',api_surveys.SurveyList.as_view(),name="list_surveys"),
+    path('project/<project_id>/members',api_projects.ProjectMemberList.as_view(),name="list_surveys"),
+
+
+
+
 
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),

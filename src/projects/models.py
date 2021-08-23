@@ -32,7 +32,7 @@ class ProjectGroup(models.Model):
         return self.project.title+' : '+self.title if self.title else self.pk
 
 class ProjectMember(models.Model):
-    projectGroup    = models.ForeignKey(ProjectGroup, related_name='project_members', on_delete=models.CASCADE)
+    projectGroup    = models.ForeignKey(ProjectGroup, related_name='pm_groups', on_delete=models.CASCADE)
     member          = models.ForeignKey(User, on_delete=models.DO_NOTHING)
     class Meta:
         db_table    = 'ad_projectMembers'

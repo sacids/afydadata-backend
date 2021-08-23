@@ -13,7 +13,7 @@ admin.site.register(SurveyPerm)
 
 
 class SurveyQuestionsAdmin(admin.ModelAdmin):
-    list_display = ['survey','ref' ,'col_name' ,'col_type' ,'page' ,'order' ]
+    list_display = ['survey','ref' ,'col_name' ,'col_type','constraints','page' ,'order' ]
     list_filter = ['survey']
 
 admin.site.register(SurveyQuestions,SurveyQuestionsAdmin)

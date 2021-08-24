@@ -73,19 +73,39 @@ def xform_json1(request):
      
     return HttpResponse(response)
 
+def etree_to_dict(t):
+    d = {t.tag : map(etree_to_dict, t.iter())}
+    d.update(('@' + k, v) for k, v in t.attrib.items())
+    d['mtext'] = t.text
+    return d
 
 def init_xform(filename):
 
     filename    = os.path.join(settings.MEDIA_ROOT, 'xform/defn/Dalili_za_Binadamudemo_3SjQ12t.xml')
     file_path   = os.path.join(settings.BASE_DIR, filename)
     xf          = readFile(file_path)
+
+
     contents    = xform2json.XFormToDictBuilder(xf)
 
     zote        = contents.__dict__
-    zote        = contents.translations[1]['text']
+    ref_order   = contents.ordered_binding_refs
+    group       = contents.body['group']
+
+    pages       = {}
+    page_num    = 1
+    for x in group:
+        r           = x['ref']
+        pages[r]    = page_num
+        page_num    = page_num + 1
+
+    #zote        = contents.translations[1]['text']
     trans       = contents.translations
     
     holder      = {}
+
+    #return HttpResponse(zote,content_type="application/json")
+    #return HttpResponse(json.dumps(zote, sort_keys=True, indent=4), content_type="application/json")
 
     for itext in trans:
         lang    = itext['lang']
@@ -127,14 +147,31 @@ def init_xform(filename):
         col_name    = nodeset.rsplit('/', 1)[-1]
         col_type    = item['type']
         relevant    = ''
+        required    = False
+        page        = 0
+        order       = 0
+
+        for p in pages:
+            if nodeset.find(p) > -1:
+                page    = pages[p]
+
         if "relevant" in item:
             relevant    = item['relevant']
+        if "required" in item:
+            required    = item['required']
+        if nodeset in ref_order:
+            order = ref_order.index(nodeset) + 1
+            print(nodeset,' - ',order)
 
+        
         qns_dict    = {}
         qns_dict['col_name']    = col_name
         qns_dict['col_type']    = col_type
         qns_dict['relevant']    = relevant
+        qns_dict['required']    = required
         qns_dict['ref']         = nodeset
+        qns_dict['page']        = page
+        qns_dict['order']       = order
 
         if nodeset in holder:
             qns_dict['hint']        = holder[nodeset]['hint']
@@ -147,6 +184,8 @@ def init_xform(filename):
 
         survey_cfg['qns'].append(qns_dict)
 
+    #print(survey_cfg)
+    return HttpResponse(json.dumps(survey_cfg, sort_keys=True, indent=4), content_type="application/json")
     return survey_cfg
 
 def readFile(filename):
@@ -162,11 +201,6 @@ class SurveyCreateView(CreateView):
     template_name = "create.html"
     fields          = ['title','xform','description']
 
-    #def form_valid(self, form):
-        #self.object = form.save(commit=False)
-        #print(self.object.filename)
-        #self.object.save()
-        #return HttpResponseRedirect(self.get_success_url())
     def form_valid(self, form):
         form.instance.created_by = self.request.user
         return super().form_valid(form)

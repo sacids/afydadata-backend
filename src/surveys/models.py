@@ -48,6 +48,7 @@ class SurveyQuestions(models.Model):
     hint        = models.TextField(null=True,blank=True)
     label       = models.TextField(null=True,blank=True)
     constraints = models.TextField(blank=True, null=True)
+    required    = models.CharField(max_length=1,default=0)
     order       = models.IntegerField(blank=True, null=True,default=0)
     page        = models.CharField(max_length=2,blank=True, null=True)
 

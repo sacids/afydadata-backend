@@ -46,8 +46,11 @@ class SurveyViewSet(viewsets.ModelViewSet):
                 col_name=obj['col_name'],
                 col_type=obj['col_type'],
                 constraints=obj['relevant'],
+                required=obj['required'],
                 hint=obj['hint'],
                 options=obj['options'],
+                page=obj['page'],
+                order=obj['order'],
                 label=obj['label'])
 
 

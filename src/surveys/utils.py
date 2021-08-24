@@ -57,8 +57,17 @@ def init_xform(filename):
     xf          = readFile(file_path)
     contents    = xform2json.XFormToDictBuilder(xf)
     trans       = contents.translations
+    group       = contents.body['group']
+    ref_order   = contents.ordered_binding_refs
     
     holder      = {}
+    pages       = {}
+    page_num    = 1
+
+    for x in group:
+        r           = x['ref']
+        pages[r]    = page_num
+        page_num    = page_num + 1
 
     for itext in trans:
         lang    = itext['lang']
@@ -97,14 +106,32 @@ def init_xform(filename):
         col_name    = nodeset.rsplit('/', 1)[-1]
         col_type    = item['type']
         relevant    = ''
+        required    = 0
+        page        = 0
+        order       = 0
+
+        for p in pages:
+            if nodeset.find(p) > -1:
+                page    = int(pages[p])
+
+
         if "relevant" in item:
             relevant    = item['relevant']
+
+        if "required" in item:
+            if item['required'] == 'true()':
+                required = 1
+        if nodeset in ref_order:
+            order = ref_order.index(nodeset) + 1
 
         qns_dict    = {}
         qns_dict['col_name']    = col_name
         qns_dict['col_type']    = col_type
         qns_dict['relevant']    = relevant
+        qns_dict['required']    = required
         qns_dict['ref']         = nodeset
+        qns_dict['page']        = page
+        qns_dict['order']       = order
 
         if nodeset in holder:
             qns_dict['hint']        = holder[nodeset]['hint']

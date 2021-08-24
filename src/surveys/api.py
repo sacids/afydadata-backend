@@ -200,3 +200,30 @@ class SurveyList(generics.ListAPIView):
         """
         project_id = self.kwargs['project_id']
         return Survey.objects.filter(project_id=project_id)
+
+
+
+
+class SurveyResponseList(generics.ListAPIView):
+    serializer_class = SurveyResponsesSerializer
+
+    def get_queryset(self):
+        """
+        This view should return a list of all the surveys for
+        the project as determined by the project_id portion of the URL.
+        """
+        survey_id = self.kwargs['survey_id']
+        return SurveyResponses.objects.filter(survey=survey_id)
+
+
+
+class SurveyConfig(generics.ListAPIView):
+    serializer_class = SurveyQuestionsSerializer
+
+    def get_queryset(self):
+        """
+        This view should return a list of all the surveys for
+        the project as determined by the project_id portion of the URL.
+        """
+        survey_id = self.kwargs['survey_id']
+        return SurveyQuestions.objects.filter(survey=survey_id)

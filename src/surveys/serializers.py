@@ -12,7 +12,7 @@ class SurveySerializer(serializers.ModelSerializer):
 class SurveyQuestionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = SurveyQuestions # this is the model that is being serialized
-        fields = ('survey', 'ref', 'col_name', 'col_type', 'qn_options', 'constraints','page','created_on','created_by')
+        fields = ('survey', 'ref', 'col_name', 'col_type', 'hint', 'label', 'options', 'constraints','page')
 
 
 class SurveyResponsesSerializer(serializers.ModelSerializer):

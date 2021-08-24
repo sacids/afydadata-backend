@@ -11,7 +11,7 @@ class Survey(models.Model):
     project     = models.ForeignKey('projects.Project', related_name='project',default=1, on_delete=models.CASCADE)
     title       = models.CharField(max_length=50)
     form_id     = models.CharField(max_length=250)
-    xform       = models.FileField(upload_to='media/xform/defn/', max_length=100)
+    xform       = models.FileField(upload_to='xform/defn/', max_length=100)
     description = models.TextField()
     created_on  = models.DateTimeField(auto_now=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
@@ -44,12 +44,12 @@ class SurveyQuestions(models.Model):
     ref         = models.CharField(max_length=100,blank=True, null=True)
     col_name    = models.CharField(max_length=50)
     col_type    = models.CharField(max_length=10,choices=QN_OPTIONS,default='TEXT')
-    qn_options  = models.TextField(null=True,blank=True)
+    options     = models.TextField(null=True,blank=True)
+    hint        = models.TextField(null=True,blank=True)
+    label       = models.TextField(null=True,blank=True)
     constraints = models.TextField(blank=True, null=True)
     order       = models.IntegerField(blank=True, null=True,default=0)
     page        = models.CharField(max_length=2,blank=True, null=True)
-    created_on  = models.DateTimeField(auto_now=True)
-    created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
 
     class Meta:
         db_table = 'ad_surveyQuestions'

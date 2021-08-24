@@ -18,7 +18,7 @@ from django.urls import reverse
 import xml.etree.ElementTree as ET
 
 # Create your views here.
-def xform_json(request):
+def xform_json1(request):
 
     sr      = SurveyResponses.objects.filter(response__village='Test')
     print(sr)
@@ -35,7 +35,7 @@ def xform_json(request):
 
 def xform_json1(request):
 
-    file_path   = os.path.join(settings.BASE_DIR, 'src/assets/xform/data/TestAfyaData.xml')
+    file_path   = os.path.join(settings.BASE_DIR, 'src/media/xform/data/Dalili_za_Binadamudemo_BjRiogz.xml')
     xf          = readFile(file_path)
     tree        = ET.parse(file_path)
     root        = tree.getroot()
@@ -76,11 +76,44 @@ def xform_json1(request):
 
 def init_xform(filename):
 
+    filename    = os.path.join(settings.MEDIA_ROOT, 'xform/defn/Dalili_za_Binadamudemo_3SjQ12t.xml')
     file_path   = os.path.join(settings.BASE_DIR, filename)
     xf          = readFile(file_path)
     contents    = xform2json.XFormToDictBuilder(xf)
 
     zote        = contents.__dict__
+    zote        = contents.translations[1]['text']
+    trans       = contents.translations
+    
+    holder      = {}
+
+    for itext in trans:
+        lang    = itext['lang']
+        text    = itext['text']
+        for item in text:
+        #for item in vitem:
+            tmp     = item['id'].split(":")
+            ref     = tmp[0]
+            anchor  = tmp[1]
+
+            if ref not in holder:
+                holder[ref] = {
+                    'option'    :{},
+                    'label'     :{},
+                    'hint'      :{},
+                }
+            
+            if anchor[0:6] == 'option':
+                if lang not in holder[ref]['option']:
+                    holder[ref]['option'][lang] = []
+                holder[ref]['option'][lang].append(item['value'])
+            else:
+                if lang not in holder[ref][anchor]:
+                    holder[ref][anchor][lang] = ''
+                holder[ref][anchor][lang] = item['value']
+
+        #print(item['value'])
+
     children    = contents.children
     model       = contents.model["bind"]
     form_id     = contents.model["instance"]["data"]["id"]
@@ -102,6 +135,16 @@ def init_xform(filename):
         qns_dict['col_type']    = col_type
         qns_dict['relevant']    = relevant
         qns_dict['ref']         = nodeset
+
+        if nodeset in holder:
+            qns_dict['hint']        = holder[nodeset]['hint']
+            qns_dict['options']     = holder[nodeset]['option']
+            qns_dict['label']       = holder[nodeset]['label']
+        else:
+            qns_dict['hint']        = ''
+            qns_dict['options']     = ''
+            qns_dict['label']       = ''
+
         survey_cfg['qns'].append(qns_dict)
 
     return survey_cfg
@@ -124,6 +167,9 @@ class SurveyCreateView(CreateView):
         #print(self.object.filename)
         #self.object.save()
         #return HttpResponseRedirect(self.get_success_url())
+    def form_valid(self, form):
+        form.instance.created_by = self.request.user
+        return super().form_valid(form)
 
     def get_success_url(self):
         print(self.object.xform)
@@ -140,7 +186,10 @@ class SurveyCreateView(CreateView):
                 ref=obj['ref'],
                 col_name=obj['col_name'],
                 col_type=obj['col_type'],
-                created_by=self.request.user)
+                constraints=obj['relevant'],
+                hint=obj['hint'],
+                options=obj['options'],
+                label=obj['label'])
         
 
 class SurveyListView(ListView):

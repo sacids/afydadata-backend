@@ -30,8 +30,8 @@ class SurveyViewSet(viewsets.ModelViewSet):
     #permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, obj):
-        cur_obj     = obj.save()
-        survey_cfg              = init_xform(cur_obj.xform.name)
+        cur_obj             = obj.save()
+        survey_cfg          = init_xform(cur_obj.xform.name)
         cur_obj.form_id     = survey_cfg['form_id']
         cur_obj.save()
         #print(survey_cfg)
@@ -45,7 +45,10 @@ class SurveyViewSet(viewsets.ModelViewSet):
                 ref=obj['ref'],
                 col_name=obj['col_name'],
                 col_type=obj['col_type'],
-                created_by=self.request.user)
+                constraints=obj['relevant'],
+                hint=obj['hint'],
+                options=obj['options'],
+                label=obj['label'])
 
 
 

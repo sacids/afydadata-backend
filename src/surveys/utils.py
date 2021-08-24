@@ -53,11 +53,37 @@ DIGEST_AUTHENTICATION   = 'Digest realm="'+settings.DIGEST_REALM+'",qop="auth",n
 
 def init_xform(filename):
 
-    file_path   = os.path.join(settings.BASE_DIR, filename)
+    file_path   = os.path.join(settings.MEDIA_ROOT, filename)
     xf          = readFile(file_path)
     contents    = xform2json.XFormToDictBuilder(xf)
+    trans       = contents.translations
+    
+    holder      = {}
 
-    zote        = contents.__dict__
+    for itext in trans:
+        lang    = itext['lang']
+        text    = itext['text']
+        for item in text:
+            tmp     = item['id'].split(":")
+            ref     = tmp[0]
+            anchor  = tmp[1]
+
+            if ref not in holder:
+                holder[ref] = {
+                    'option'    :{},
+                    'label'     :{},
+                    'hint'      :{},
+                }
+            
+            if anchor[0:6] == 'option':
+                if lang not in holder[ref]['option']:
+                    holder[ref]['option'][lang] = []
+                holder[ref]['option'][lang].append(item['value'])
+            else:
+                if lang not in holder[ref][anchor]:
+                    holder[ref][anchor][lang] = ''
+                holder[ref][anchor][lang] = item['value']
+
     children    = contents.children
     model       = contents.model["bind"]
     form_id     = contents.model["instance"]["data"]["id"]
@@ -77,8 +103,18 @@ def init_xform(filename):
         qns_dict    = {}
         qns_dict['col_name']    = col_name
         qns_dict['col_type']    = col_type
-        qns_dict['constraints']    = relevant
+        qns_dict['relevant']    = relevant
         qns_dict['ref']         = nodeset
+
+        if nodeset in holder:
+            qns_dict['hint']        = holder[nodeset]['hint']
+            qns_dict['options']     = holder[nodeset]['option']
+            qns_dict['label']       = holder[nodeset]['label']
+        else:
+            qns_dict['hint']        = ''
+            qns_dict['options']     = ''
+            qns_dict['label']       = ''
+
         survey_cfg['qns'].append(qns_dict)
 
     return survey_cfg

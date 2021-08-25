@@ -38,8 +38,8 @@ class CurrentUser(APIView):
         """
         Return current user.
         """
-        user1    = User.objects.select_related('profile').filter(pk=request.user.id).values('id','username','first_name','last_name','email','profile__gender','profile__pic','profile__location')
-        return Response(user1)
+        user    = User.objects.select_related('profile').filter(pk=request.user.id).values('id','username','first_name','last_name','email','profile__gender','profile__pic','profile__location')
+        return Response(user)
 
 
 #@csrf_exempt

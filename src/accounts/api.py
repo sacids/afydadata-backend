@@ -1,9 +1,12 @@
 from django.contrib.auth.models import User, Group
+from accounts.models import Profile
 from rest_framework import viewsets
 from rest_framework import permissions, status, generics
 from .serializers import UserSerializer, GroupSerializer, ChangePasswordSerializer
 from rest_framework.response import Response
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.views import APIView
+from django.forms.models import model_to_dict
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -24,39 +27,52 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
+class CurrentUser(APIView):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    #authentication_classes = [authentication.TokenAuthentication]
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, format=None):
+        """
+        Return current user.
+        """
+        user1    = User.objects.select_related('profile').filter(pk=request.user.id).values('id','username','first_name','last_name','email','profile__gender','profile__pic','profile__location')
+        return Response(user1)
 
 
 #@csrf_exempt
 class ChangePasswordView(generics.UpdateAPIView):
-        """
-        An endpoint for changing password.
-        """
-        serializer_class = ChangePasswordSerializer
-        model = User
-        permission_classes = (permissions.IsAuthenticated,)
+    """
+    An endpoint for changing password.
+    """
+    serializer_class = ChangePasswordSerializer
+    model = User
+    permission_classes = (permissions.IsAuthenticated,)
 
-        def get_object(self, queryset=None):
-            obj = self.request.user
-            return obj
+    def get_object(self, queryset=None):
+        obj = self.request.user
+        return obj
 
-        def update(self, request, *args, **kwargs):
-            self.object = self.get_object()
-            serializer = self.get_serializer(data=request.data)
+    def update(self, request, *args, **kwargs):
+        self.object = self.get_object()
+        serializer = self.get_serializer(data=request.data)
 
-            if serializer.is_valid():
-                # Check old password
-                if not self.object.check_password(serializer.data.get("old_password")):
-                    return Response({"old_password": ["Wrong password."]}, status=status.HTTP_400_BAD_REQUEST)
-                # set_password also hashes the password that the user will get
-                self.object.set_password(serializer.data.get("new_password"))
-                self.object.save()
-                response = {
-                    'status': 'success',
-                    'code': status.HTTP_200_OK,
-                    'message': 'Password updated successfully',
-                    'data': []
-                }
+        if serializer.is_valid():
+            # Check old password
+            if not self.object.check_password(serializer.data.get("old_password")):
+                return Response({"old_password": ["Wrong password."]}, status=status.HTTP_400_BAD_REQUEST)
+            # set_password also hashes the password that the user will get
+            self.object.set_password(serializer.data.get("new_password"))
+            self.object.save()
+            response = {
+                'status': 'success',
+                'code': status.HTTP_200_OK,
+                'message': 'Password updated successfully',
+                'data': []
+            }
 
-                return Response(response)
+            return Response(response)
 
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

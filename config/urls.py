@@ -54,6 +54,7 @@ urlpatterns = [
     path('project/<project_id>/members',api_projects.ProjectMemberList.as_view(),name="list_surveys"),
     path('survey/<survey_id>/data',api_surveys.SurveyResponseList.as_view(),name="survey_data"),
     path('survey/<survey_id>/config',api_surveys.SurveyConfig.as_view(),name="survey_config"),
+    path('current_user/',api_accounts.CurrentUser.as_view(),name="current_user"),
 
 
 

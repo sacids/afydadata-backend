@@ -1,12 +1,118 @@
 {% extends 'layout/base.html' %}
-{% load static %}
-{% load humanize %}
-{% load filters %}
+
+
+
+{% block nav %}
+
+<p class="h-12 pt-2 text-3xl text-rose-700"> Project Title </p>
+
+<ul class="h-6 flex w-full space-x-4 text-sm text-slate-700">
+    <li class=""> link 1 </li>
+    <li class="border-b-2 border-rose-700"> link 2 </li>
+    <li class=""> link 3 </li>
+    <li class=""> link 4 </li>
+    <li class=""> link 5 </li>
+</ul>
+
+{% endblock %}
 
 
 {% block contents %}
 
-<div>
-contents
+<div class="h-full w-full">
+
+
+    <div class="flex-1 table-responsive h-full w-full overflow-hidden" x-data="manageTable()">
+        <table id="datatable" class="table border=1 w-full table-striped table-bordered dt-responsive compact nowrap text-sm">
+        </table>
+    </div>
+
 </div>
+
+
+<!-- Datatable config -->
+<script language="javascript">
+
+    $(document).ready(function() {
+        AjaxDatatableViewUtils.initialize_table(
+            $('#datatable'),
+            "{% url 'ui:surveylist' %}",
+            {
+                // extra_options (example)
+                processing: false,
+                autoWidth: false,
+                full_row_select: false,
+                scrollX: false,
+                dom: 'rtip',
+                responsive: false,
+            }, {
+                // extra_data
+                status: 'NEW',
+            },
+        );
+
+        $('#myInputTextField').keyup(function(){
+            tt = $('#datatable').DataTable();
+            tt.search($(this).val()).draw()
+        })
+    });
+
+
+    function manageTable(){
+        return{
+
+            dataDetail(id){
+                
+                $('#data-detail').html(id);
+            }
+        }
+    }
+
+</script>
+
+{% endblock %}
+
+
+{% block sidebar %}
+
+<div class="border-b h-10 flex justify-between">
+
+    <div class="">
+        <button type="button" class="border-r hover:bg-slate-200  text-sm px-5 py-2.5 text-center inline-flex items-center">
+            <svg class="w-4 h-4 mr-2 -ml-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
+            Action 1
+        </button>
+
+        <button type="button" class="border-r hover:bg-slate-200  text-sm px-5 py-2.5 text-center inline-flex items-center">
+            <svg class="w-4 h-4 mr-2 -ml-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
+            Action 2
+        </button>
+
+        <button type="button" class="border-r hover:bg-slate-200  text-sm px-5 py-2.5 text-center inline-flex items-center">
+            <svg class="w-4 h-4 mr-2 -ml-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
+            Action 3
+        </button>
+    </div>
+
+    <div class="">
+        <button type="button" class="border-l hover:text-gray-100 hover:bg-rose-600 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center" @click="sidebar = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>              
+        </button>
+    </div>
+
+</div>
+
+
+
+<div
+    class="h-full overflow-y-scroll p-4"
+    id="data-detail"
+    >
+
+    <p> a whole lot of data in here that should scroll by itself {% lorem 9 p random %}</p>
+
+</div>
+
 {% endblock %}

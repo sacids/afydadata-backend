@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AfyaData | {{heading}}</title>
 
-    <!-- App favicon -->
-    <link rel="icon" type="image/png" href="{% static 'images/CoatofArms_Lg.png' %}">
-    <link href="{% static 'css/tailwind.css' %}" rel="stylesheet">
     <!-- Icons Css -->
-    <link href="{% static 'css/icons.min.css' %}" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
     <!--./jquery -->
-    <script src="{% static 'libs/jquery/jquery.min.js' %}"></script>
-    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'datatables.net/js/jquery.dataTables.min.js' %}"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <!-- Ajax data tables -->
+    <script type="text/javascript" src="{% static 'ajax_datatable/js/utils.js' %}"></script>
+    <link href="{% static 'ajax_datatable/css/style.css' %}" rel="stylesheet" />
 
     <!-- Leaflets Maps-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
@@ -41,17 +41,36 @@
 
 <body>
     <!-- Begin page -->
-    <div class="h-screen flex flex-col text-slate-700">
-        <div class="flex">
-            {% include 'partials2/header.html' %}
+    <div class="h-screen w-screen flex flex-col text-slate-700" x-data="{sidebar: false}">
+        <div class="h-12 border-b px-10">
+            {% include 'partials/header.html' %}
         </div>
-        <div class="flex h-full overflow-hidden">
+
+        <div class="h-20 border-b bg-slate-100 px-10">
+            {% block nav %}{% endblock %}
+        </div>
+
+        <div 
+            class="relative flex h-full w-full overflow-hidden px-10">
+            
             {% block contents %}{% endblock %}
+
+            <div    
+                class="h-full w-0 border-l bg-white shadow-sm overflow-hidden absolute top-0 right-0 transition-all duration-500" 
+                :class="{ 'md:w-5/12 w-11/12' : sidebar}"
+                id="sidebar">
+
+                {% block sidebar %}{% endblock %}
+
+            </div>
+
         </div>
+
+        
     </div>
 
     <!--./alpine js -->
-    <script src="{% static 'js/alpine.min.js'%}"></script>
+    <script src="{% static 'alpine/alpine.min.js'%}"></script>
     {% block extrajs %}{% endblock %}
     
 

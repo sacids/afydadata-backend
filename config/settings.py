@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
     #libraries
     "rest_framework",
+    'ajax_datatable',
 
     
     #custom apps
@@ -146,9 +147,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.0/howto/static-files/
+STATICFILES_DIRS = [
+    "assets",
+]
 STATIC_URL = '/static/'
-
-
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
 

@@ -1,0 +1,219 @@
+
+.dataTables_wrapper .daterange input {
+    width: 150px;
+    padding: 5px;
+    margin: 0 4px;
+    border: 1px solid #e5e6e7;
+    border-radius: 4px;
+}
+
+.dataTables_wrapper #datatable_filter input[type="search"] {
+    border-radius: 4px;
+}
+
+.dataTables_wrapper thead .datatable-column-filter-row th input {
+    width: 100%;
+}
+
+.dataTables_wrapper thead .datatable-column-filter-row th i {
+    font-size: 18px;
+    color: #999;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.dataTables_wrapper thead .datatable-column-filter-row input::placeholder {
+    color: #ccc;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+
+.dataTables_wrapper td.dataTables_row-tools {
+    /*cursor: pointer;*/
+}
+.dataTables_wrapper td.dataTables_row-tools div {
+    white-space: nowrap;
+}
+.dataTables_wrapper td.dataTables_row-tools .minus { display: none; }
+.dataTables_wrapper td.dataTables_row-tools .plus { display: inline; }
+
+.dataTables_wrapper tr.shown td.dataTables_row-tools .minus { display: inline; }
+.dataTables_wrapper tr.shown td.dataTables_row-tools .plus { display: none; }
+
+.dataTables_wrapper .dataTables_row-tools a {
+    border: 1px solid #ccc;
+    padding: 0px 4px 2px 4px;
+}
+
+/*table.details {
+    padding-left: 80px;
+    background-color: #fff;
+}
+
+table.details td {
+    padding: 0 !important;
+    color: #999;
+}
+*/
+
+
+/*
+ * Experimental: Optionally control the (minimum) width of each single column
+ */
+
+/* This is required to optionally control the width of a single column         */
+/* with the 'width' option (will act more as a 'min-width', though)            */
+/* See: https://datatables.net/forums/discussion/30530/set-fixed-column-width  */
+
+table.dataTable {
+    /*table-layout: fixed;*/
+    font-size: 12px;
+    line-height: 14px;
+    background-color: white;
+}
+
+/* However, both <th> and <td> elements within the dataTables wrapper need      */
+/* a CSS styling rule of "box-sizing: content-box" applied. This seems to       */
+/* be required for the JS to correctly calculate th widths in the docked header */
+/* See: https://datatables.net/forums/discussion/14342/column-header-not-aligned-with-column-data-with-horizontal-scrolling/p2  */
+
+/* I still notice some problems with Safari when during windows resizing, */
+/* however, all in all, still seems a good deal ;)                        */
+
+table.dataTable,
+table.dataTable th,
+table.dataTable td {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.table.dataTable.compact td, .table.dataTable.compact th {
+    /*padding: .75rem;*/
+    padding: .4rem;
+}
+
+.table.dataTable.super-compact td, .table.dataTable.supercompact th {
+    padding: 0 4px;
+    font-size: 12px;
+}
+
+
+table.dataTable .row-details {
+    padding: 0;
+    margin: 0;
+    margin-left: 4px;
+    border-collapse: collapse;
+}
+
+table.dataTable .row-details tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.dataTable .row-details td {
+    padding: 6px 12px;
+}
+
+/*
+    "header width issue" fix
+    https://datatables.net/forums/discussion/2148/header-width-issue
+*/
+
+div.dataTables_sort_wrapper {white-space:nowrap !important;}
+th {
+    white-space:nowrap !important;
+}
+
+
+div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+Overriding styles Afyadata
+*/
+
+
+table.dataTable {
+    /*table-layout: fixed;*/
+    font-size: 14px;
+    border-bottom:#e5e7eb  solid 1px;
+}
+
+table.dataTable th {
+    border-bottom: 1px solid #e5e7eb ;
+}
+
+table.dataTable tbody tr:hover{
+    background-color: #fff1f2;
+}
+
+
+table.dataTable tbody tr{
+    border-right:#e5e7eb  solid 1px;
+    border-left:#e5e7eb  solid 1px;
+}
+
+.table.dataTable.compact td, .table.dataTable.compact th {
+    padding: 10px 10px;
+    border-bottom:#e5e7eb solid 1px;
+}
+
+.table.dataTable.compact th {
+    padding: 11px 10px;
+    border-bottom:#e5e7eb solid 1px;
+}
+
+.dataTables_paginate{
+    margin-top: 10px;
+}
+
+.paginate_button{
+    padding: 7px 10px;
+    background-color: #ffffff; 
+    color: #6B7280; 
+    border-right: 0px;
+    border-width: 1px; 
+    border-color: #D1D5DB;     
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+
+.previous{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem; 
+}
+
+.next{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; 
+    border-right: 1px solid #D1D5DB; ;
+
+}
+
+.current{
+    background-color:#fff1f2; 
+}

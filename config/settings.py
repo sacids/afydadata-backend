@@ -14,6 +14,7 @@ import os
 import environ
 import sys
 from datetime import timedelta
+from decouple import config
 
 env = environ.Env()
 environ.Env.read_env()
@@ -53,6 +54,7 @@ INSTALLED_APPS = [
     #libraries
     "rest_framework",
     'ajax_datatable',
+    'corsheaders',
 
     
     #custom apps
@@ -66,6 +68,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -103,10 +107,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
         'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DATABASE_NAME'),
-        'USER': env('DATABASE_USER'),
-        'PASSWORD': env('DATABASE_PASS'),
+        'ENGINE': config('ENGINE'),
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT')
         }
     }
 
@@ -202,3 +208,12 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_LIFETIME': timedelta(days=10),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=20),
 }
+
+CORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3030',
+] # If this is used, then not need to use `CORS_ALLOW_ALL_ORIGINS = True`
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    'http://localhost:3030',
+]

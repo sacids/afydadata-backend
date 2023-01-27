@@ -5,6 +5,8 @@ from _datetime import timedelta
 from django.urls import reverse
 from django.utils.text import slugify
 from projects.models import Project, ProjectGroup
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 # Create your models here.
 class Survey(models.Model):

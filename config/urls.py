@@ -46,6 +46,8 @@ urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path("survey/", include(src.surveys.urls)),
+    path("ui/", include(src.ui.urls)),
+    
     path('submission',api_surveys.form_submission,name="form_submission"),
     path('changePassword',api_accounts.ChangePasswordView.as_view(),name="change_password"),
 
@@ -60,11 +62,13 @@ urlpatterns = [
 
 
 
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/token', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh', TokenRefreshView.as_view(), name='token_refresh'),
 
 
 
     path('formList',api_surveys.form_list, name="form_list"),
     path('formGet/<id>', api_surveys.form_get, name="form_get")
+    
+    
 ]

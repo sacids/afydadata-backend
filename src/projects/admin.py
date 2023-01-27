@@ -11,6 +11,7 @@ admin.site.register(ProjectMember)
 
 class ProjectGroupInline(admin.StackedInline):
     model = ProjectGroup
+    
 class ProjectAdmin(admin.ModelAdmin):
     inlines =[ProjectGroupInline]
     

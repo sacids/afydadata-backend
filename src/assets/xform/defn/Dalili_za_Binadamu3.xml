@@ -262,7 +262,7 @@
     </model>
   </h:head>
   <h:body>
-    <group appearance="field-list">
+    <group ref="/data/taarifa_awali" appearance="field-list">
       <label ref="jr:itext('/data/taarifa_awali:label')"/>
       <select1 appearance="minimal" ref="/data/taarifa_awali/Wilaya">
         <label ref="jr:itext('/data/taarifa_awali/Wilaya:label')"/>
@@ -314,7 +314,7 @@
         <hint ref="jr:itext('/data/taarifa_awali/Namba_ya_mkuu_kaya:hint')"/>
       </input>
     </group>
-    <group appearance="field-list">
+    <group ref="/data/Taarifa_za_mgonjwa" appearance="field-list">
       <label ref="jr:itext('/data/Taarifa_za_mgonjwa:label')"/>
       <select1 ref="/data/Taarifa_za_mgonjwa/Jinsia">
         <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Jinsia:label')"/>
@@ -351,7 +351,7 @@
         </item>
       </select1>
     </group>
-    <group appearance="field-list">
+    <group ref="'/data/Dalili" appearance="field-list">
       <label ref="jr:itext('/data/Dalili:label')"/>
       <select appearance="minimal" ref="/data/Dalili/Dalili">
         <label ref="jr:itext('/data/Dalili/Dalili:label')"/>
@@ -486,7 +486,7 @@
         <hint ref="jr:itext('/data/Dalili/zingine:hint')"/>
       </input>
     </group>
-    <group appearance="field-list">
+    <group ref="/data/Utambuzi" appearance="field-list">
       <label ref="jr:itext('/data/Utambuzi:label')"/>
       <upload ref="/data/Utambuzi/picha" mediatype="image/*">
         <label ref="jr:itext('/data/Utambuzi/picha:label')"/>

@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfyaData | {{heading}}</title>
+
+    <!-- App favicon -->
+    <link rel="icon" type="image/png" href="{% static 'images/CoatofArms_Lg.png' %}">
+    <link href="{% static 'css/tailwind.css' %}" rel="stylesheet">
+    <!-- Icons Css -->
+    <link href="{% static 'css/icons.min.css' %}" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!--./jquery -->
+    <script src="{% static 'libs/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <!-- Leaflets Maps-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+
+    <!-- map Css -->
+    <link href="{% static 'css/map.css' %}" rel="stylesheet" type="text/css" />
+
+    <!-- htmx -->
+    <script src="https://unpkg.com/htmx.org@1.8.5" integrity="sha384-7aHh9lqPYGYZ7sTHvzP1t3BAfLhYSTy9ArHdP3Xsr9/3TlGurYgcPBoFmXX2TX/w" crossorigin="anonymous"></script>
+
+    {% block extrastyle %} {% endblock %}
+    
+</head>
+
+<body>
+    <!-- Begin page -->
+    <div class="h-screen flex flex-col text-slate-700">
+        <div class="flex">
+            {% include 'partials2/header.html' %}
+        </div>
+        <div class="flex h-full overflow-hidden">
+            {% block contents %}{% endblock %}
+        </div>
+    </div>
+
+    <!--./alpine js -->
+    <script src="{% static 'js/alpine.min.js'%}"></script>
+    {% block extrajs %}{% endblock %}
+    
+
+</body>
+
+</html>

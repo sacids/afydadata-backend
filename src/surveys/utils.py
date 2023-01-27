@@ -51,7 +51,7 @@ DIGEST_AUTHENTICATION   = 'Digest realm="'+settings.DIGEST_REALM+'",qop="auth",n
 
 
 
-def init_xform(filename):
+def init_xform(filename, filetype="xform"):
 
     file_path   = os.path.join(settings.MEDIA_ROOT, filename)
     xf          = readFile(file_path)

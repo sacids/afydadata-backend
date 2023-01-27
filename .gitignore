@@ -105,6 +105,10 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+xform/
+media/xform/data/
+src/assets/xform
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

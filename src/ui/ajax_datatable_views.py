@@ -34,7 +34,7 @@ class SurveyList(AjaxDatatableView):
     title                       = 'Survey'
     show_column_filters         = False
     initial_order               = [["created_on", "desc"], ]
-    length_menu                 = [[14, 50, 100, -1], [14, 50, 100, 'all']]
+    length_menu                 = [[12, 50, 100, -1], [12, 50, 100, 'all']]
     search_values_separator     = '+'
     full_row_select             = False
     

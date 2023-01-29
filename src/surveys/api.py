@@ -1,5 +1,11 @@
 from django.http import Http404, HttpResponse, JsonResponse
+
+
 from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.clickjacking import xframe_options_exempt
+
+
+
 from django.shortcuts import redirect, get_object_or_404, render
 
 from rest_framework import status, viewsets, generics
@@ -17,6 +23,11 @@ from surveys.utils import *
 from django.template import RequestContext, loader
 from django.contrib.auth import login
 from src.surveys.utils import do_authenticate, process_odk_submission
+
+from django.utils.decorators import decorator_from_middleware
+from django.conf import settings
+#import corsheaders.middleware.CorsMiddleware
+from django.middleware.common import CommonMiddleware
 
 
 
@@ -82,8 +93,18 @@ class SurveyFilterViewset(viewsets.ModelViewSet):
     serializer_class = SurveyFilterSerializer
     #permission_classes = [permissions.IsAuthenticated]
 
+'''
+@modify_settings(MIDDLEWARE={
+            'remove': 'corsheaders.middleware.CorsMiddleware',
+            'remove': 'django.middleware.common.CommonMiddleware',
+            'remove': 'django.middleware.csrf.CsrfViewMiddleware',
+            'remove': 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+        })
+
+'''
 
 @csrf_exempt
+@xframe_options_exempt
 def form_submission(request):
     
     if request.method == 'HEAD':
@@ -117,6 +138,7 @@ def form_submission(request):
         return response
     
     # process submission
+    
 
     result  = process_odk_submission(request)
 
@@ -129,9 +151,12 @@ def form_submission(request):
 
         response    = render(request,'odk_submission.xml',context, content_type="text/xml; charset=utf-8",status=201)
         response    = attach_openRosaHeader(response)
-        response['Location'] = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
-
-        return response
+        response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
+        
+        return response 
+        
+        
+    
     else:
         resp = BadRequest("Submission Error.")
         resp.status_code = 500

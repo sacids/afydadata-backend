@@ -165,7 +165,7 @@ def process_odk_submission(request):
     s  = Survey.objects.filter(form_id=xf_dict['id'])
     if s.count() == 0:
         # survey not found
-        print('survey not found')
+        #print('survey not found')
         return False
     
     # check if user has permission to submit
@@ -182,9 +182,9 @@ def process_odk_submission(request):
                     instance_id=xf_dict['instanceID'],
                     response=xf_dict,
                     created_by=request.user)
-        return sr
+        return 1
     except Exception as e:
-        print(type(e))
+        #print(type(e))
         return False
     
 
@@ -293,12 +293,13 @@ class BaseOpenRosaResponse(HttpResponse):
     def __init__(self, *args, **kwargs):
         super(BaseOpenRosaResponse, self).__init__(*args, **kwargs)
 
-        self[OPEN_ROSA_VERSION_HEADER] = OPEN_ROSA_VERSION
+       # self[OPEN_ROSA_VERSION_HEADER] = OPEN_ROSA_VERSION
         tz = pytz.timezone(settings.TIME_ZONE)
         dt = datetime.now(tz).strftime('%a, %d %b %Y %H:%M:%S %Z')
         self['Date'] = dt
-        self['X-OpenRosa-Accept-Content-Length'] = DEFAULT_CONTENT_LENGTH
-        self['Content-Type'] = DEFAULT_CONTENT_TYPE
+        self['X-OpenRosa-Version'] = "1.0"
+        self['X-OpenRosa-Accept-Content-Length'] = ""
+        
 
 
 class OpenRosaResponse(BaseOpenRosaResponse):
@@ -308,6 +309,17 @@ class OpenRosaResponse(BaseOpenRosaResponse):
         super(OpenRosaResponse, self).__init__(*args, **kwargs)
         # wrap content around xml
         self.content = '<?xml version="1.0" encoding="UTF-8" ?><OpenRosaResponse xmlns="http://openrosa.org/http/response"><message>Success</message></OpenRosaResponse>'
+
+
+
+class OpenRosaResponseSuccess(BaseOpenRosaResponse):
+    status_code = 201
+
+    def __init__(self, *args, **kwargs):
+        super(OpenRosaResponseSuccess, self).__init__(*args, **kwargs)
+        # wrap content around xml
+        #self.content = '<?xml version="1.0" encoding="UTF-8" ?><OpenRosaResponse xmlns="http://openrosa.org/http/response"><message nature="submit_success">Success</message></OpenRosaResponse>'
+        self.content = '<OpenRosaResponse xmlns="http://openrosa.org/http/response"><message nature="submit_success">Success</message></OpenRosaResponse>'
 
 
 class OpenRosaResponseNotFound(OpenRosaResponse):
@@ -329,7 +341,7 @@ class RequestAuthentication(BaseOpenRosaResponse):
 
 
 def OpenRosaSuccessResponse(message):
-    return '<OpenRosaResponse xmlns="http://openrosa.org/http/response"><message nature="submit_success">'+message+'</message></OpenRosaResponse>'
+    return '<OpenRosaResponse xmlns="http://openrosa.org/http/response"><message nature="submit_success">Success</message></OpenRosaResponse>'
 
 
 
@@ -354,7 +366,7 @@ def handle_response_files(xml, media_files):
 
 
 def calculate_digest(username,password):
-    print(password)
+    #print(password)
     tmp         = username+":"+settings.DIGEST_REALM+":kitimoto"
     digest      = hashlib.md5(tmp.encode()).hexdigest()
     return digest
@@ -383,7 +395,7 @@ def do_authenticate(request):
     A3      = hashlib.md5((A1+":"+parts['nonce']+":"+parts['nc']+":"+parts['cnonce']+":"+parts['qop']+":"+A2).encode()).hexdigest()
 
     if A3   == parts['response']:
-        print('authentication success')
+        #print('authentication success')
         return u
     else:
         return False
@@ -416,7 +428,10 @@ def attach_openRosaHeader(response):
     response[OPEN_ROSA_VERSION_HEADER] = OPEN_ROSA_VERSION
     tz = pytz.timezone(settings.TIME_ZONE)
     dt = datetime.now(tz).strftime('%a, %d %b %Y %H:%M:%S %Z')
+    #dt = datetime.now(tz=ZoneInfo('UTC')).strftime('%a, %d %b %Y %H:%M:%S %Z')
     response['Date'] = dt
     response['X-OpenRosa-Accept-Content-Length'] = DEFAULT_CONTENT_LENGTH
-    #response['Content-Type'] = DEFAULT_CONTENT_TYPE
+    response['Content-Type'] = DEFAULT_CONTENT_TYPE
+        
+        
     return response

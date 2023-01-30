@@ -25,6 +25,9 @@ class Survey(models.Model):
 
     def __str__(self):
         return self.title if self.title else self.pk
+    
+    def get_absolute_url(self):
+        return reverse('form_data', args={'pk': self.id, 'project_id':self.project.id})
 
 class SurveyQuestions(models.Model):
 

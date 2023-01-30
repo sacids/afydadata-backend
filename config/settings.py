@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     "rest_framework",
     'ajax_datatable',
     'corsheaders',
+    "crispy_forms",
+    "crispy_tailwind",
 
     
     #custom apps
@@ -220,3 +222,5 @@ CORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will
     
     
 APPEND_SLASH = False
+CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
+CRISPY_TEMPLATE_PACK = "tailwind"

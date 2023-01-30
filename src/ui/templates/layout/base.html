@@ -46,7 +46,7 @@
             {% include 'partials/header.html' %}
         </div>
 
-        <div class="h-20 border-b bg-slate-100 px-10">
+        <div class="h-20 bg-slate-100 px-10">
             {% block nav %}{% endblock %}
         </div>
 
@@ -56,8 +56,8 @@
             {% block contents %}{% endblock %}
 
             <div    
-                class="h-full w-0 border-l bg-white shadow-sm overflow-hidden absolute top-0 right-0 transition-all duration-500" 
-                :class="{ 'md:w-5/12 w-11/12' : sidebar}"
+                class="h-full w-0 border-l bg-white shadow-md overflow-hidden absolute top-0 right-0 transition-all duration-500" 
+                :class="{ 'md:w-1/2 w-11/12' : sidebar}"
                 id="sidebar">
 
                 {% block sidebar %}{% endblock %}

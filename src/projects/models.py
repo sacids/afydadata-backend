@@ -9,14 +9,17 @@ class Project(models.Model):
     description     = models.TextField()
     created_on      = models.DateTimeField(auto_now=True,null=True)
     created_by      = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+    
     class Meta:
         db_table    = 'ad_projects'
         managed     = True
         app_label   = 'projects'
-
     
     def __str__(self):
         return self.title if self.title else self.pk
+    
+    def get_absolute_url(self):
+        return reverse('project_detail', args={'pk': self.id})
 
 
 

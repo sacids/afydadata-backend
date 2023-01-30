@@ -26,7 +26,6 @@ from src.surveys.utils import do_authenticate, process_odk_submission
 
 from django.utils.decorators import decorator_from_middleware
 from django.conf import settings
-#import corsheaders.middleware.CorsMiddleware
 from django.middleware.common import CommonMiddleware
 
 

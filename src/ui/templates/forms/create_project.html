@@ -1,0 +1,30 @@
+{% load tailwind_filters %}
+
+<div id="create_project_div">
+    {% if messages %}
+    <ul class="mb-2">
+        {% for message in messages %}
+        <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-3" role="alert">
+            <p class="font-bold">{{ message.tags }}</p>
+            <p>{{message}}</p>
+        </div>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <form hx-post="{% url 'create_project' %}" hx-target='#create_project_div' >
+    
+        <!-- Security token -->
+        {% csrf_token %}
+        {{ form|crispy }}
+
+        <div class="flex items-center justify-between">
+            <button
+                hx-post="{% url 'create_project' %}" hx-target='#create_project_div'
+                class="bg-rose-900 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>

@@ -7,11 +7,11 @@
 <p class="h-12 pt-2 text-3xl text-rose-900"> {{title}} </p>
 
 <div class="h-6 flex w-full space-x-4 text-sm text-slate-700">
-    {% with request.get_full_path as route %}
+    {% with request.resolver_match.url_name as url_name %}
         {% for key, value in links.items %}
             <a     
-                class="{% if route == value %} border-b-2 border-rose-900{% endif %}"
-                href={{value}}>{{key}} </a>
+                class="{% if url_name == value %} border-b-2 border-rose-900{% endif %}"
+                href={% url value %}>{{key}} </a>
         {% endfor %}
     {% endwith %}
 </div>
@@ -34,11 +34,25 @@
                 <input type="text" id="datatable-search" class="border border-slate-200 text-slate-800 text-sm rounded-sm focus:ring-slate-300 focus:border-slate-300 block w-full pl-10 p-1 " placeholder="Search" required>
             </div>
 
-            {% for key, value in pg_actions.items %}
-            <button class="flex p-1 ml-2 px-3 text-sm font-medium text-gray-500 bg-gray-100 rounded-sm border border-gray-200 hover:bg-gray-200 hover:text-gray-700 focus:ring-2 focus:outline-none ">
-                <span class="whitespace-nowrap"  @click="sidebar=true; $('#sidebar-title').html('{{key}}')" hx-get="{{value}}" hx-target="#data-detail"> {{key}} </span>
-            </button>
-            {% endfor %}
+            {% if pg_actions|length > 1 %}
+                <select x-model="pg_actions_url">
+                {% for key, value in pg_actions.items %}
+                    <option value="{{value}}">{{key}}</option>
+                {% endfor %}
+                </select>
+                <button 
+                    class="whitespace-nowrap flex p-1 ml-2 px-3 text-sm font-medium text-gray-500 bg-gray-100 rounded-sm border border-gray-200 hover:bg-gray-200 hover:text-gray-700 focus:ring-2 focus:outline-none "
+                    @click="sidebar=true; $('#sidebar-title').html('{{key}}')" 
+                    :hx-get="pg_actions_url" 
+                    hx-target="#data-detail"> Go </button>
+                    
+            {% else %}
+                {% for key, value in pg_actions.items %}
+                <button class="flex p-1 ml-2 px-3 text-sm font-medium text-gray-500 bg-gray-100 rounded-sm border border-gray-200 hover:bg-gray-200 hover:text-gray-700 focus:ring-2 focus:outline-none ">
+                    <span class="whitespace-nowrap"  @click="sidebar=true; $('#sidebar-title').html('{{key}}')" hx-get="{{value}}" hx-target="#data-detail"> {{key}} </span>
+                </button>
+                {% endfor %}
+            {% endif %}
         </div>
 
         <table id="datatable" class="table border=1 w-full table-striped table-bordered dt-responsive compact nowrap text-sm">

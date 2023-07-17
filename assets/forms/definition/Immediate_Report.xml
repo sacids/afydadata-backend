@@ -1,0 +1,524 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Immediate Report</h:title>
+    <model>
+      <instance>
+        <data id="build_Immediate-Report_1509539442">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+            <OutbreakID/>
+          </meta>
+          <initialInformation>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+            <onset_date/>
+            <Location/>
+          </initialInformation>
+          <DiseaseAndSpeciesInformation>
+            <suspected_disease/>
+            <Species/>
+            <Age/>
+            <Sex/>
+            <NumberAffected/>
+            <NumberOfDeaths>
+              0
+            </NumberOfDeaths>
+            <NumberAtRisk>
+              0
+            </NumberAtRisk>
+            <NumberTreated>
+              0
+            </NumberTreated>
+            <NumberVaccinated>
+              0
+            </NumberVaccinated>
+            <NumberDestroyed>
+              0
+            </NumberDestroyed>
+            <ProductionSystem/>
+          </DiseaseAndSpeciesInformation>
+          <DiagnosisAndIntervention>
+            <BasisOfDiagnosis/>
+            <InterventionDone_Undertaken/>
+            <OtherInterventionDone/>
+          </DiagnosisAndIntervention>
+          <DateofReport/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/initialInformation:label">
+            <value>Initial Information</value>
+          </text>
+          <text id="/data/initialInformation/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/initialInformation/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/initialInformation/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/initialInformation/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/initialInformation/onset_date:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/initialInformation/onset_date:hint">
+            <value></value>
+          </text>
+          <text id="/data/initialInformation/Location:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/initialInformation/Location:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation:label">
+            <value>Disease and Species Information</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:label">
+            <value>Suspected disease</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option0">
+            <value>Rabies</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option1">
+            <value>Brucellosis</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option2">
+            <value>Anthrax</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option3">
+            <value>Avian influenza</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option4">
+            <value>RVF</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option5">
+            <value>AT</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option6">
+            <value>FMD</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option7">
+            <value>CBPP</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option8">
+            <value>PPR</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option9">
+            <value>ASF</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option10">
+            <value>NCD</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/suspected_disease:option11">
+            <value>CCPP</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:label">
+            <value>Species</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option2">
+            <value>Goat</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option4">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option5">
+            <value>Pig</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option6">
+            <value>Duck</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Species:option7">
+            <value>Donkey </value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Age:option0">
+            <value>Young</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Age:option1">
+            <value>Adult</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/Sex:option2">
+            <value>Castrate</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberAffected:label">
+            <value>Number Affected</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberOfDeaths:label">
+            <value>Number of deaths</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberAtRisk:label">
+            <value>Number at risk</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberTreated:label">
+            <value>Number treated</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberVaccinated:label">
+            <value>Number vaccinated</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/NumberDestroyed:label">
+            <value>Number destroyed</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/ProductionSystem:label">
+            <value>Production system</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/ProductionSystem:option0">
+            <value>Intensive</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/ProductionSystem:option1">
+            <value>Semi-intensive</value>
+          </text>
+          <text id="/data/DiseaseAndSpeciesInformation/ProductionSystem:option2">
+            <value>Extensive</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention:label">
+            <value>Diagnosis and Intervention</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/BasisOfDiagnosis:label">
+            <value>Basis of diagnosis</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/BasisOfDiagnosis:option0">
+            <value>Postmortem</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/BasisOfDiagnosis:option1">
+            <value>Clinical signs</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/BasisOfDiagnosis:option2">
+            <value>Laboratory</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/BasisOfDiagnosis:option3">
+            <value>Meat Inspection</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:label">
+            <value>Intervention Done/Undertaken</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option0">
+            <value>Treated</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option1">
+            <value>Quarantine</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option2">
+            <value>Ban meat consumption</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option3">
+            <value>Disposal of carcass and contaminated materials</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option4">
+            <value>Animal vaccination</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option5">
+            <value>Separation of sick from healthy animals</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option6">
+            <value>Ban on milk consumption</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option7">
+            <value>Public health education</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/DiagnosisAndIntervention/OtherInterventionDone:label">
+            <value>Other Intervention Done</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/initialInformation/region" type="string" required="true()"/>
+      <bind nodeset="/data/initialInformation/district" type="string" required="true()"/>
+      <bind nodeset="/data/initialInformation/ward" type="string" required="true()"/>
+      <bind nodeset="/data/initialInformation/village" type="string" required="true()"/>
+      <bind nodeset="/data/initialInformation/onset_date" type="date" required="true()"/>
+      <bind nodeset="/data/initialInformation/Location" type="geopoint" required="true()" jr:requiredMsg="jr:itext('/data/initialInformation/Location:requiredMsg')"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/suspected_disease" type="select1" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/Species" type="select1" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/Age" type="select" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/Sex" type="select" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberAffected" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberOfDeaths" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberAtRisk" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberTreated" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberVaccinated" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/NumberDestroyed" type="int" required="true()"/>
+      <bind nodeset="/data/DiseaseAndSpeciesInformation/ProductionSystem" type="select1" required="true()"/>
+      <bind nodeset="/data/DiagnosisAndIntervention/BasisOfDiagnosis" type="select" required="true()"/>
+      <bind nodeset="/data/DiagnosisAndIntervention/InterventionDone_Undertaken" type="select" required="true()"/>
+      <bind nodeset="/data/DiagnosisAndIntervention/OtherInterventionDone" type="string" relevant="(selected(/data/DiagnosisAndIntervention/InterventionDone_Undertaken, 'Treated'))"/>
+      <bind nodeset="/data/DateofReport" type="date" jr:preload="date" jr:preloadParams="today"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('IR:',/data/meta/OutbreakID)" readonly="true()" type="string"/>
+
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+      <bind nodeset="/data/meta/OutbreakID" type="string" calculate="concat(/data/initialInformation/village,'/', format-date(/data/DateofReport, '%y%m%d'))"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/initialInformation:label')"/>
+      <input ref="/data/initialInformation/region">
+        <label ref="jr:itext('/data/initialInformation/region:label')"/>
+      </input>
+      <input ref="/data/initialInformation/district">
+        <label ref="jr:itext('/data/initialInformation/district:label')"/>
+      </input>
+      <input ref="/data/initialInformation/ward">
+        <label ref="jr:itext('/data/initialInformation/ward:label')"/>
+      </input>
+      <input ref="/data/initialInformation/village">
+        <label ref="jr:itext('/data/initialInformation/village:label')"/>
+      </input>
+      <input ref="/data/initialInformation/onset_date" appearance="no-calendar">
+        <label ref="jr:itext('/data/initialInformation/onset_date:label')"/>
+        <hint ref="jr:itext('/data/initialInformation/onset_date:hint')"/>
+      </input>
+      <input ref="/data/initialInformation/Location">
+        <label ref="jr:itext('/data/initialInformation/Location:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/DiseaseAndSpeciesInformation:label')"/>
+      <select1 ref="/data/DiseaseAndSpeciesInformation/suspected_disease" appearance="minimal">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option0')"/>
+          <value>Rabies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option1')"/>
+          <value>Brucellosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option2')"/>
+          <value>Anthrax</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option3')"/>
+          <value>Avian_influenza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option4')"/>
+          <value>RVF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option5')"/>
+          <value>AT</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option6')"/>
+          <value>FMD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option7')"/>
+          <value>CBPP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option8')"/>
+          <value>PPR</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option9')"/>
+          <value>ASF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option10')"/>
+          <value>NCD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/suspected_disease:option11')"/>
+          <value>CCPP</value>
+        </item>
+      </select1>
+      <select1 ref="/data/DiseaseAndSpeciesInformation/Species" appearance="minimal">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option0')"/>
+          <value>Cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option1')"/>
+          <value>Sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option2')"/>
+          <value>Goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option3')"/>
+          <value>Dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option4')"/>
+          <value>Chicken</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option5')"/>
+          <value>Pig</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option6')"/>
+          <value>Duck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Species:option7')"/>
+          <value>Donkey</value>
+        </item>
+      </select1>
+      <select ref="/data/DiseaseAndSpeciesInformation/Age">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Age:option0')"/>
+          <value>Young</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Age:option1')"/>
+          <value>Adult</value>
+        </item>
+      </select>
+      <select ref="/data/DiseaseAndSpeciesInformation/Sex">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Sex:option1')"/>
+          <value>Female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/Sex:option2')"/>
+          <value>Castrate</value>
+        </item>
+      </select>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberAffected">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberAffected:label')"/>
+      </input>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberOfDeaths">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberOfDeaths:label')"/>
+      </input>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberAtRisk">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberAtRisk:label')"/>
+      </input>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberTreated">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberTreated:label')"/>
+      </input>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberVaccinated">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberVaccinated:label')"/>
+      </input>
+      <input ref="/data/DiseaseAndSpeciesInformation/NumberDestroyed">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/NumberDestroyed:label')"/>
+      </input>
+      <select1 ref="/data/DiseaseAndSpeciesInformation/ProductionSystem">
+        <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/ProductionSystem:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/ProductionSystem:option0')"/>
+          <value>intensive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/ProductionSystem:option1')"/>
+          <value>semi-intensive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiseaseAndSpeciesInformation/ProductionSystem:option2')"/>
+          <value>extensive</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/DiagnosisAndIntervention:label')"/>
+      <select ref="/data/DiagnosisAndIntervention/BasisOfDiagnosis">
+        <label ref="jr:itext('/data/DiagnosisAndIntervention/BasisOfDiagnosis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/BasisOfDiagnosis:option0')"/>
+          <value>Postmortem</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/BasisOfDiagnosis:option1')"/>
+          <value>ClinicalSigns</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/BasisOfDiagnosis:option2')"/>
+          <value>Laboratory</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/BasisOfDiagnosis:option3')"/>
+          <value>MeatInspection</value>
+        </item>
+      </select>
+      <select ref="/data/DiagnosisAndIntervention/InterventionDone_Undertaken">
+        <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option0')"/>
+          <value>Treated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option1')"/>
+          <value>Quarantine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option2')"/>
+          <value>Ban_meat_consumption</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option3')"/>
+          <value>DisposalCarcassContaminated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option4')"/>
+          <value>AnimalVaccination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option5')"/>
+          <value>SeparationOfSickFromHealthy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option6')"/>
+          <value>BanMilkConsumption</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option7')"/>
+          <value>PublicHealthEducation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisAndIntervention/InterventionDone_Undertaken:option8')"/>
+          <value>Other</value>
+        </item>
+      </select>
+      <input ref="/data/DiagnosisAndIntervention/OtherInterventionDone">
+        <label ref="jr:itext('/data/DiagnosisAndIntervention/OtherInterventionDone:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

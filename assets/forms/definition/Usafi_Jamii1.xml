@@ -1,0 +1,394 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Usafi Jamii</h:title>
+    <model>
+      <instance>
+        <data id="build_Usafi-Jamii_1524059728">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Taarifa_za_awali>
+            <Wilaya/>
+            <Kata/>
+            <Kijiji/>
+            <Kitongoji/>
+            <Tarehe/>
+          </Taarifa_za_awali>
+          <Taarifa_za_Kaya>
+            <Mkuu_wa_Kaya/>
+            <idadi_ya_watu_ktk_kaya/>
+            <Kichanja/>
+            <Shimo_la_taka/>
+          </Taarifa_za_Kaya>
+          <Taarifa_za_Choo>
+            <Aina_ya_choo/>
+            <Sakafu_Safi_na_iliyosakafiwa_na_saruji/>
+            <Tundu_lina_mifuniko/>
+            <Usiri_kuna_mlango_na_paa/>
+          </Taarifa_za_Choo>
+          <TaarifaZamwisho>
+            <Sehemu_ya_kunawia_mikono/>
+            <Kujisaidia_nje_ya_choo/>
+          </TaarifaZamwisho>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Taarifa_za_awali:label">
+            <value>Taarifa Za awali</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:option0">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:option1">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:option2">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:option3">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Wilaya:option4">
+            <value>Morogoro Vijijini</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Kata:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Kata:hint">
+            <value></value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Kijiji:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Kitongoji:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/Taarifa_za_awali/Tarehe:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya:label">
+            <value>Taarifa Za Kaya</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Mkuu_wa_Kaya:label">
+            <value>Jina la Mkuu wa kaya</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/idadi_ya_watu_ktk_kaya:label">
+            <value>Idadi ya watu katika Kaya</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Kichanja:label">
+            <value>Kichanja</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Kichanja:option0">
+            <value>Kipo</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Kichanja:option1">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Shimo_la_taka:label">
+            <value>Shimo la Taka</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Shimo_la_taka:option0">
+            <value>Lipo</value>
+          </text>
+          <text id="/data/Taarifa_za_Kaya/Shimo_la_taka:option1">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo:label">
+            <value>Taarifa za choo</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:label">
+            <value>Aina ya Choo</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option0">
+            <value>Asili</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option1">
+            <value>Kilochoboreshwa</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option2">
+            <value>Chenye Bomba</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option3">
+            <value>Cha maji</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option4">
+            <value>Ikologia</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Aina_ya_choo:option5">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:label">
+            <value>Sakafu</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:hint">
+            <value>Safi na iliyosakafiwa na saruji</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Tundu_lina_mifuniko:label">
+            <value>Tundu</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Tundu_lina_mifuniko:hint">
+            <value>Lina mfuniko (Kwa Asili na Kilichoboreshwa tu)</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Tundu_lina_mifuniko:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Tundu_lina_mifuniko:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:label">
+            <value>Usiri</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:hint">
+            <value>Kuna mlango na paa</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/TaarifaZamwisho:label">
+            <value>Taarifa Za mwisho</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:label">
+            <value>Sehemu ya kunawia Mikono</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option0">
+            <value>Njee ya Choo</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option1">
+            <value>Maji tiririka</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option2">
+            <value>Sabuni</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option3">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:label">
+            <value>Kujisaidia Nje ya Choo</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option0">
+            <value>Kuna Kinyesi kwenye sakafu, ukuta na kuzunguka tundu</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option1">
+            <value>Kuna Kinyesi Kuzunguka Choo</value>
+          </text>
+          <text id="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option2">
+            <value>Hakuna</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Taarifa_za_awali/Wilaya" type="select1" required="true()" jr:requiredMsg="Jina la Wilaya linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_awali/Kata" type="string" required="true()" jr:requiredMsg="Jina la Kata linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_awali/Kijiji" type="string" required="true()" jr:requiredMsg="Jina la Kijiji linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_awali/Kitongoji" type="string" required="true()" jr:requiredMsg="Jina la Kitongoji linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_awali/Tarehe" type="date" required="true()" jr:requiredMsg="Tarehe inahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Kaya/Mkuu_wa_Kaya" type="string" required="true()" jr:requiredMsg="Jina la Mkuu wa kaya linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Kaya/idadi_ya_watu_ktk_kaya" type="int" required="true()" jr:requiredMsg="Idadi ya watu katika kaya inahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Kaya/Kichanja" type="select1" required="true()" jr:requiredMsg="Jibu la kichanja linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Kaya/Shimo_la_taka" type="select1" required="true()" jr:requiredMsg="Jibu la shimo taka linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Choo/Aina_ya_choo" type="select1" required="true()" jr:requiredMsg="Aina ya choo inahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji" type="select1" required="true()" jr:requiredMsg="Jibu la sakafu linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Choo/Tundu_lina_mifuniko" type="select1" required="true()" jr:requiredMsg="Jibu la tundu na mfuniko linahitajika"/>
+      <bind nodeset="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa" type="select1" required="true()" jr:requiredMsg="Jibu la usiri wa choo linahitajika"/>
+      <bind nodeset="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono" type="select" required="true()" jr:requiredMsg="Sehemu ya kunawia mikono inahitajika"/>
+      <bind nodeset="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo" type="select" required="true()" jr:requiredMsg="Jibu la kujisaidia nje ya choo linahitajika"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Usafi Jamii',': ',/data/Taarifa_za_Kaya/Mkuu_wa_Kaya)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_awali:label')"/>
+      <select1 appearance="minimal" ref="/data/Taarifa_za_awali/Wilaya">
+        <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:option0')"/>
+          <value>Ulanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:option1')"/>
+          <value>Malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:option2')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:option3')"/>
+          <value>Morogoro_Mjini</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_awali/Wilaya:option4')"/>
+          <value>Morogoro_vijijini</value>
+        </item>
+      </select1>
+      <input ref="/data/Taarifa_za_awali/Kata">
+        <label ref="jr:itext('/data/Taarifa_za_awali/Kata:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_awali/Kata:hint')"/>
+      </input>
+      <input ref="/data/Taarifa_za_awali/Kijiji">
+        <label ref="jr:itext('/data/Taarifa_za_awali/Kijiji:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_awali/Kitongoji">
+        <label ref="jr:itext('/data/Taarifa_za_awali/Kitongoji:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_awali/Tarehe" appearance="no-calendar">
+        <label ref="jr:itext('/data/Taarifa_za_awali/Tarehe:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_Kaya:label')"/>
+      <input ref="/data/Taarifa_za_Kaya/Mkuu_wa_Kaya">
+        <label ref="jr:itext('/data/Taarifa_za_Kaya/Mkuu_wa_Kaya:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_Kaya/idadi_ya_watu_ktk_kaya">
+        <label ref="jr:itext('/data/Taarifa_za_Kaya/idadi_ya_watu_ktk_kaya:label')"/>
+      </input>
+      <select1 ref="/data/Taarifa_za_Kaya/Kichanja">
+        <label ref="jr:itext('/data/Taarifa_za_Kaya/Kichanja:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Kaya/Kichanja:option0')"/>
+          <value>Kipo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Kaya/Kichanja:option1')"/>
+          <value>Hakuna</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_Kaya/Shimo_la_taka">
+        <label ref="jr:itext('/data/Taarifa_za_Kaya/Shimo_la_taka:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Kaya/Shimo_la_taka:option0')"/>
+          <value>Lipo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Kaya/Shimo_la_taka:option1')"/>
+          <value>Hakuna</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_Choo:label')"/>
+      <select1 appearance="minimal" ref="/data/Taarifa_za_Choo/Aina_ya_choo">
+        <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option0')"/>
+          <value>Asili</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option1')"/>
+          <value>Kilichoboreshwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option2')"/>
+          <value>Chenye_Bomba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option3')"/>
+          <value>Cha_Maji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option4')"/>
+          <value>Ikologia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Aina_ya_choo:option5')"/>
+          <value>Hakuna</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji">
+        <label ref="jr:itext('/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:option0')"/>
+          <value>Ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Sakafu_Safi_na_iliyosakafiwa_na_saruji:option1')"/>
+          <value>Hapan</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_Choo/Tundu_lina_mifuniko">
+        <label ref="jr:itext('/data/Taarifa_za_Choo/Tundu_lina_mifuniko:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_Choo/Tundu_lina_mifuniko:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Tundu_lina_mifuniko:option0')"/>
+          <value>Ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Tundu_lina_mifuniko:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa">
+        <label ref="jr:itext('/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:option0')"/>
+          <value>Ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_Choo/Usiri_kuna_mlango_na_paa:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/TaarifaZamwisho:label')"/>
+      <select appearance="minimal" ref="/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono">
+        <label ref="jr:itext('/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:label')"/>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option0')"/>
+          <value>Nje_ya_choo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option1')"/>
+          <value>Maji_tiririka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option2')"/>
+          <value>Sabuni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Sehemu_ya_kunawia_mikono:option3')"/>
+          <value>Hakuna</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo">
+        <label ref="jr:itext('/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option0')"/>
+          <value>sakafuni_ukutaninakuzungukatundu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option1')"/>
+          <value>Kuna_Kinyesi_Kuzunguka_Choo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/TaarifaZamwisho/Kujisaidia_nje_ya_choo:option2')"/>
+          <value>Hakuna</value>
+        </item>
+      </select>
+    </group>
+  </h:body>
+</h:html>

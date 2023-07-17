@@ -1,0 +1,223 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mazingira Test</h:title>
+    <model>
+      <instance>
+        <data id="build_Mazingira_14782574200">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Taarifa_za_eneo>
+            <Wilaya/>
+            <Kata/>
+            <Kijiji_Mtaa/>
+            <Kitongoji/>
+          </Taarifa_za_eneo>
+          <Viashiria>
+            <Orodha/>
+            <Viashiria_vingine/>
+            <Picha/>
+            <Gps/>
+          </Viashiria>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Taarifa_za_eneo:label">
+            <value>Taarifa za eneo husika</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option0">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option1">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option2">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option3">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option4">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Wilaya:option5">
+            <value>Temeke</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Kata:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Kijiji_Mtaa:label">
+            <value>Kijiji / Mtaa</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Kitongoji:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/Taarifa_za_eneo/Kitongoji:hint">
+            <value>Sehemu / Eneo maarufu</value>
+          </text>
+          <text id="/data/Viashiria:label">
+            <value>Viashiria vya kutokea kwa kipindupindu vinavyoonekana</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:label">
+            <value>Orodha</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:hint">
+            <value>Chagua Viashiria</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option0">
+            <value>Uchafu Kurundikana</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option1">
+            <value>Kupasuka kwa bomba la maji safi</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option2">
+            <value>Kupasuka kwa bomba la maji machafu/maji machafu kutuama</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option3">
+            <value>Jamii kutotumia choo/kinyesi cha binadamu kuonekana katika mazingira</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option4">
+            <value>Jamii kuoga/kunya katika vyanzo vya maji</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option5">
+            <value>Kukosekana kwa huduma ya maji iliyokuwepo katika jamii</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option6">
+            <value>Huduma ya chakula, matunda na maji kutolewa katika mazingira machafu</value>
+          </text>
+          <text id="/data/Viashiria/Orodha:option7">
+            <value>Viashiria Vingine</value>
+          </text>
+          <text id="/data/Viashiria/Viashiria_vingine:label">
+            <value>Viashiria vingine</value>
+          </text>
+          <text id="/data/Viashiria/Viashiria_vingine:hint">
+            <value>Kama kuna viashiria vingine mbali ya vilivyotajwa hapo juu.</value>
+          </text>
+          <text id="/data/Viashiria/Picha:label">
+            <value>Picha</value>
+          </text>
+          <text id="/data/Viashiria/Picha:hint">
+            <value>ya eneo / kiashiria kinachoonekana (Pale TU inapowezekana)</value>
+          </text>
+          <text id="/data/Viashiria/Gps:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Taarifa_za_eneo/Wilaya" type="select1" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_eneo/Kata" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_eneo/Kijiji_Mtaa" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_eneo/Kitongoji" type="string" required="true()"/>
+      <bind nodeset="/data/Viashiria/Orodha" type="select" required="true()"/>
+      <bind nodeset="/data/Viashiria/Viashiria_vingine" type="string"/>
+      <bind nodeset="/data/Viashiria/Picha" type="binary"/>
+      <bind nodeset="/data/Viashiria/Gps" type="geopoint" required="true()"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Mazingira',': ',/data/Taarifa_za_eneo/Kitongoji)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_eneo:label')"/>
+      <select1 appearance="minimal" ref= "/data/Taarifa_za_eneo/Wilaya">
+        <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option0')"/>
+          <value>Morogoro_mjini</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option1')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option2')"/>
+          <value>Mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option3')"/>
+          <value>Kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option4')"/>
+          <value>Ilala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_eneo/Wilaya:option5')"/>
+          <value>Temeke</value>
+        </item>
+      </select1>
+      <input ref="/data/Taarifa_za_eneo/Kata">
+        <label ref="jr:itext('/data/Taarifa_za_eneo/Kata:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_eneo/Kijiji_Mtaa">
+        <label ref="jr:itext('/data/Taarifa_za_eneo/Kijiji_Mtaa:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_eneo/Kitongoji">
+        <label ref="jr:itext('/data/Taarifa_za_eneo/Kitongoji:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_eneo/Kitongoji:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Viashiria:label')"/>
+      <select appearance="minimal" ref="/data/Viashiria/Orodha">
+        <label ref="jr:itext('/data/Viashiria/Orodha:label')"/>
+        <hint ref="jr:itext('/data/Viashiria/Orodha:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option0')"/>
+          <value>Uchafu_Kurundikana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option1')"/>
+          <value>Kupasuka_kwa_bomba_la_maji_safi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option2')"/>
+          <value>maji_machafu_kutuama_ktk_bomba_lililopasuka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option3')"/>
+          <value>Kutotumia_choo_au_kinyesi_cha_binadamu_katika_mazingira</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option4')"/>
+          <value>Jamii_kuoga_au_kunya_katika_vyanzo_vya_maji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option5')"/>
+          <value>Kukosekana_kwa_huduma_ya_maji_iliyokuwepo_katika_jamii</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option6')"/>
+          <value>Huduma_ya_chakula_matunda_na_maji_kutolewa_katika_mazingira_machafu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Viashiria/Orodha:option7')"/>
+          <value>Viashiria_vingine</value>
+        </item>
+      </select>
+      <input ref="/data/Viashiria/Viashiria_vingine">
+        <label ref="jr:itext('/data/Viashiria/Viashiria_vingine:label')"/>
+        <hint ref="jr:itext('/data/Viashiria/Viashiria_vingine:hint')"/>
+      </input>
+      <upload ref="/data/Viashiria/Picha" mediatype="image/*">
+        <label ref="jr:itext('/data/Viashiria/Picha:label')"/>
+        <hint ref="jr:itext('/data/Viashiria/Picha:hint')"/>
+      </upload>
+      <input ref="/data/Viashiria/Gps">
+        <label ref="jr:itext('/data/Viashiria/Gps:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

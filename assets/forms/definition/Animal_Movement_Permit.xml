@@ -1,0 +1,322 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Animal Movement Permit</h:title>
+    <model>
+      <instance>
+        <data id="build_Animal-Movement-Permit_1509520760">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <initialDetails>
+            <permitDate/>
+            <ownerName/>
+          </initialDetails>
+          <animalSource>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+          </animalSource>
+          <animalLastDestination>
+            <destinationRegion/>
+            <destinationDistrict/>
+            <destinationWard/>
+            <destinationVillage/>
+            <marketFarmName/>
+            <destinationCountry/>
+          </animalLastDestination>
+          <animalInformation>
+            <movementPurpose/>
+            <transportMechanism/>
+            <routes/>
+          </animalInformation>
+          <numberAnimalTransport>
+            <cattle>
+              0
+            </cattle>
+            <goats>
+              0
+            </goats>
+            <sheep>
+              0
+            </sheep>
+            <pigs>
+              0
+            </pigs>
+            <chicken>
+              0
+            </chicken>
+            <other>
+              0
+            </other>
+          </numberAnimalTransport>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/initialDetails:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/initialDetails/permitDate:label">
+            <value>Permit Date</value>
+          </text>
+          <text id="/data/initialDetails/permitDate:hint">
+            <value>Please select permit date</value>
+          </text>
+          <text id="/data/initialDetails/ownerName:label">
+            <value>Name of Owner</value>
+          </text>
+          <text id="/data/animalSource:label">
+            <value>Animal Source</value>
+          </text>
+          <text id="/data/animalSource/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/animalSource/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/animalSource/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/animalSource/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/animalLastDestination:label">
+            <value>Animal Last Destination</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationRegion:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationDistrict:label">
+            <value>District</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationWard:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationVillage:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/animalLastDestination/marketFarmName:label">
+            <value>Market/Farm name</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationCountry:label">
+            <value>Country</value>
+          </text>
+          <text id="/data/animalLastDestination/destinationCountry:hint">
+            <value>If outside the country, please specify</value>
+          </text>
+          <text id="/data/animalInformation:label">
+            <value>Animal Information</value>
+          </text>
+          <text id="/data/animalInformation/movementPurpose:label">
+            <value>Movement purpose </value>
+          </text>
+          <text id="/data/animalInformation/movementPurpose:option0">
+            <value>Slaughter</value>
+          </text>
+          <text id="/data/animalInformation/movementPurpose:option1">
+            <value>Oxen</value>
+          </text>
+          <text id="/data/animalInformation/movementPurpose:option2">
+            <value>Drought mitigation</value>
+          </text>
+          <text id="/data/animalInformation/movementPurpose:option3">
+            <value>Dowry</value>
+          </text>
+          <text id="/data/animalInformation/transportMechanism:label">
+            <value>Transport mechanism </value>
+          </text>
+          <text id="/data/animalInformation/transportMechanism:option0">
+            <value>Trekking</value>
+          </text>
+          <text id="/data/animalInformation/transportMechanism:option1">
+            <value>Vehicle</value>
+          </text>
+          <text id="/data/animalInformation/transportMechanism:option2">
+            <value>Rail</value>
+          </text>
+          <text id="/data/animalInformation/transportMechanism:option3">
+            <value>Ship</value>
+          </text>
+          <text id="/data/animalInformation/routes:label">
+            <value>Routes</value>
+          </text>
+          <text id="/data/animalInformation/routes:hint">
+            <value>Specify by districts</value>
+          </text>
+          <text id="/data/numberAnimalTransport:label">
+            <value>Number of animal transported</value>
+          </text>
+          <text id="/data/numberAnimalTransport/cattle:label">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/numberAnimalTransport/goats:label">
+            <value>Goats</value>
+          </text>
+          <text id="/data/numberAnimalTransport/sheep:label">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/numberAnimalTransport/pigs:label">
+            <value>Pigs</value>
+          </text>
+          <text id="/data/numberAnimalTransport/chicken:label">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/numberAnimalTransport/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/numberAnimalTransport/other:hint">
+            <value>Please specify if any</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/initialDetails/permitDate" type="date" required="true()"/>
+      <bind nodeset="/data/initialDetails/ownerName" type="string" required="true()"/>
+      <bind nodeset="/data/animalSource/region" type="string" required="true()"/>
+      <bind nodeset="/data/animalSource/district" type="string" required="true()"/>
+      <bind nodeset="/data/animalSource/ward" type="string" required="true()"/>
+      <bind nodeset="/data/animalSource/village" type="string" required="true()"/>
+      <bind nodeset="/data/animalLastDestination/destinationRegion" type="string"/>
+      <bind nodeset="/data/animalLastDestination/destinationDistrict" type="string"/>
+      <bind nodeset="/data/animalLastDestination/destinationWard" type="string"/>
+      <bind nodeset="/data/animalLastDestination/destinationVillage" type="string"/>
+      <bind nodeset="/data/animalLastDestination/marketFarmName" type="string"/>
+      <bind nodeset="/data/animalLastDestination/destinationCountry" type="string"/>
+      <bind nodeset="/data/animalInformation/movementPurpose" type="select" required="true()"/>
+      <bind nodeset="/data/animalInformation/transportMechanism" type="select1" required="true()"/>
+      <bind nodeset="/data/animalInformation/routes" type="string"/>
+      <bind nodeset="/data/numberAnimalTransport/cattle" type="int" required="true()"/>
+      <bind nodeset="/data/numberAnimalTransport/goats" type="int" required="true()"/>
+      <bind nodeset="/data/numberAnimalTransport/sheep" type="int" required="true()"/>
+      <bind nodeset="/data/numberAnimalTransport/pigs" type="int" required="true()"/>
+      <bind nodeset="/data/numberAnimalTransport/chicken" type="int" required="true()"/>
+      <bind nodeset="/data/numberAnimalTransport/other" type="int"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Animal Movement Permit',': ',/data/initialDetails/ownerName)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/initialDetails:label')"/>
+      <input ref="/data/initialDetails/permitDate" appearance="no-calendar">
+        <label ref="jr:itext('/data/initialDetails/permitDate:label')"/>
+        <hint ref="jr:itext('/data/initialDetails/permitDate:hint')"/>
+      </input>
+      <input ref="/data/initialDetails/ownerName">
+        <label ref="jr:itext('/data/initialDetails/ownerName:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/animalSource:label')"/>
+      <input ref="/data/animalSource/region">
+        <label ref="jr:itext('/data/animalSource/region:label')"/>
+      </input>
+      <input ref="/data/animalSource/district">
+        <label ref="jr:itext('/data/animalSource/district:label')"/>
+      </input>
+      <input ref="/data/animalSource/ward">
+        <label ref="jr:itext('/data/animalSource/ward:label')"/>
+      </input>
+      <input ref="/data/animalSource/village">
+        <label ref="jr:itext('/data/animalSource/village:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/animalLastDestination:label')"/>
+      <input ref="/data/animalLastDestination/destinationRegion">
+        <label ref="jr:itext('/data/animalLastDestination/destinationRegion:label')"/>
+      </input>
+      <input ref="/data/animalLastDestination/destinationDistrict">
+        <label ref="jr:itext('/data/animalLastDestination/destinationDistrict:label')"/>
+      </input>
+      <input ref="/data/animalLastDestination/destinationWard">
+        <label ref="jr:itext('/data/animalLastDestination/destinationWard:label')"/>
+      </input>
+      <input ref="/data/animalLastDestination/destinationVillage">
+        <label ref="jr:itext('/data/animalLastDestination/destinationVillage:label')"/>
+      </input>
+      <input ref="/data/animalLastDestination/marketFarmName">
+        <label ref="jr:itext('/data/animalLastDestination/marketFarmName:label')"/>
+      </input>
+      <input ref="/data/animalLastDestination/destinationCountry">
+        <label ref="jr:itext('/data/animalLastDestination/destinationCountry:label')"/>
+        <hint ref="jr:itext('/data/animalLastDestination/destinationCountry:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/animalInformation:label')"/>
+      <select ref="/data/animalInformation/movementPurpose">
+        <label ref="jr:itext('/data/animalInformation/movementPurpose:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/movementPurpose:option0')"/>
+          <value>slaughter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/movementPurpose:option1')"/>
+          <value>oxen</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/movementPurpose:option2')"/>
+          <value>droughtMitigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/movementPurpose:option3')"/>
+          <value>dowry</value>
+        </item>
+      </select>
+      <select1 ref="/data/animalInformation/transportMechanism">
+        <label ref="jr:itext('/data/animalInformation/transportMechanism:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/transportMechanism:option0')"/>
+          <value>trekking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/transportMechanism:option1')"/>
+          <value>vehicle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/transportMechanism:option2')"/>
+          <value>rail</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animalInformation/transportMechanism:option3')"/>
+          <value>ship</value>
+        </item>
+      </select1>
+      <input ref="/data/animalInformation/routes">
+        <label ref="jr:itext('/data/animalInformation/routes:label')"/>
+        <hint ref="jr:itext('/data/animalInformation/routes:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/numberAnimalTransport:label')"/>
+      <input ref="/data/numberAnimalTransport/cattle">
+        <label ref="jr:itext('/data/numberAnimalTransport/cattle:label')"/>
+      </input>
+      <input ref="/data/numberAnimalTransport/goats">
+        <label ref="jr:itext('/data/numberAnimalTransport/goats:label')"/>
+      </input>
+      <input ref="/data/numberAnimalTransport/sheep">
+        <label ref="jr:itext('/data/numberAnimalTransport/sheep:label')"/>
+      </input>
+      <input ref="/data/numberAnimalTransport/pigs">
+        <label ref="jr:itext('/data/numberAnimalTransport/pigs:label')"/>
+      </input>
+      <input ref="/data/numberAnimalTransport/chicken">
+        <label ref="jr:itext('/data/numberAnimalTransport/chicken:label')"/>
+      </input>
+      <input ref="/data/numberAnimalTransport/other">
+        <label ref="jr:itext('/data/numberAnimalTransport/other:label')"/>
+        <hint ref="jr:itext('/data/numberAnimalTransport/other:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

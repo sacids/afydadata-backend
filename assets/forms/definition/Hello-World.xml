@@ -1,0 +1,60 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Hello-World</h:title>
+    <model>
+      <instance>
+        <data id="build_Hello-World_1463466865">
+          <meta>
+            <instanceID/>
+          </meta>
+          <username/>
+          <dob/>
+          <location/>
+          <comment/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/username:label">
+            <value>jina la mtumia</value>
+          </text>
+          <text id="/data/username:constraintMsg">
+            <value>jina la mtumia</value>
+          </text>
+          <text id="/data/dob:label">
+            <value>Tarehe ya kuzaliwa</value>
+          </text>
+          <text id="/data/dob:hint">
+            <value></value>
+          </text>
+          <text id="/data/location:label">
+            <value>Eneo la tukio</value>
+          </text>
+          <text id="/data/comment:label">
+            <value>Maoni yako</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/username" type="string" required="true()" constraint="(regex(., &quot;^.{3,}$&quot;))" jr:constraintMsg="jr:itext('/data/username:constraintMsg')"/>
+      <bind nodeset="/data/dob" type="date" required="true()"/>
+      <bind nodeset="/data/location" type="geopoint" required="true()"/>
+      <bind nodeset="/data/comment" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/username">
+      <label ref="jr:itext('/data/username:label')"/>
+    </input>
+    <input ref="/data/dob">
+      <label ref="jr:itext('/data/dob:label')"/>
+      <hint ref="jr:itext('/data/dob:hint')"/>
+    </input>
+    <input ref="/data/location">
+      <label ref="jr:itext('/data/location:label')"/>
+    </input>
+    <input ref="/data/comment">
+      <label ref="jr:itext('/data/comment:label')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -2,12 +2,21 @@ from django.shortcuts import render
 from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
+from django import forms
 
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
+from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
+from django.template.response import TemplateResponse
+from django.db.models import Q
+from .forms import *
+from functools import reduce
+import operator
+import json
 
 # Create your views here.
 
+CHEVRON     = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>'
 
 
 class start(generic.TemplateView):
@@ -18,6 +27,10 @@ class start(generic.TemplateView):
         context = super(start, self).get_context_data(**kwargs)
         
         context['title']    = 'Community Based One Health Security'
+        
+        context['breadcrumb']            = {
+            'Community Based One Health Security': 0,
+        }
         context['datatable_list']    = "surveylist"
         
         context['links']    = {
@@ -44,6 +57,11 @@ class list_projects(generic.TemplateView):
         context = super(list_projects, self).get_context_data(**kwargs)
         
         context['title']            = 'My Projects'
+        
+        context['breadcrumb']            = {
+            'My Projects': 0,
+        }
+        
         context['datatable_list']   = "projectList"
         #context['datatable_delete]
         #context['datatable_detail]
@@ -140,22 +158,38 @@ class project_detail(generic.TemplateView):
         project_id                  = self.kwargs['pk']
         cur_project                 = Project.objects.get(pk=project_id)
         
-        context['title']            = cur_project.title
-        context['datatable_list']    = "surveylist"
-        #context['datatable_delete]
-        #context['datatable_detail]
+        context['title']            = cur_project.title   
+        context['breadcrumb']       = {
+            cur_project.title: 0,
+        }
+        
         
         context['links']    = {
             'Dashboard':    reverse('project_dashboard'),
-            'Projects':     reverse('project_dashboard'),
-            'Members':      reverse('project_dashboard'),
+            'Members':      reverse('list_members', kwargs={'pk':project_id}),
+            'Groups':      reverse('list_groups', kwargs={'pk':project_id}),
         }
         
-        context['pg_actions']   = {
-            'Add XForm': reverse('create_xform', args=[project_id]),
-            'Add Form': reverse('create_xform', args=[project_id]),
-            #'Add Form': "'create_xform' pk="+project_id,
-        }
+        
+        j = self.request.path.split('/')
+        j.reverse()
+        if(j[0] == 'members'):
+            
+            context['datatable_list']    = "projectMemberslist"
+            context['pg_actions']   = {
+                'Add Member': reverse('create_xform', args=[project_id]),
+            }
+        else:
+            
+            context['datatable_list']    = "surveylist"
+            context['pg_actions']   = {
+                'Add XForm': reverse('create_xform', args=[project_id]),
+                'Add Form': reverse('create_xform', args=[project_id]),
+                #'Add Form': "'create_xform' pk="+project_id,
+            }
+            
+        
+        
         
         context['extra_data']   = {
             'project_id': project_id,
@@ -163,11 +197,17 @@ class project_detail(generic.TemplateView):
         
         return context
                                                        
-                                                     
+def manage_project_member(request, pk):
+    
+    context             = {}
+    context['member']   = ProjectMember.objects.get(pk=pk)
+    
+    template            = 'pages/project/manage_member.html'
+    return TemplateResponse(request,template,context)                                        
                                     
                                                
 class form_data(generic.TemplateView):
-    template_name = "pages/start.html"
+    template_name = "pages/data.html"
     
     def get_context_data(self, **kwargs):
         context = super(form_data, self).get_context_data(**kwargs)
@@ -175,23 +215,21 @@ class form_data(generic.TemplateView):
         form_id                     = self.kwargs['pk']
         cur_form                    = Survey.objects.get(pk=form_id)
         
-        context['title']            = cur_form.project.title+': '+cur_form.title
-        context['datatable_list']   = "formData"
-        #context['datatable_delete]
-        #context['datatable_detail]
-        
-        context['links']    = {
-            'Dashboard':    reverse('form_dashboard', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-            'Data':         reverse('form_data', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-            'Map':          reverse('form_map', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-            'Chart':        reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+        context['breadcrumb']            = {
+            cur_form.project.title: reverse('project_detail', kwargs={'pk':cur_form.project.id}), 
+            cur_form.title: 0,
         }
         
-        context['pg_actions']   = {
+        context['datatable_list']   = reverse('form_data_list', kwargs={'pk':form_id})
+        context['links']            = _get_form_links_context(cur_form,form_id)
+        context['tbl_header']       = SurveyQuestions.objects.filter(survey__id=form_id)
+        context['pg_actions']       = {
             #'Add XForm': reverse('create_xform', args=[project_id]),
             #'Add Form': reverse('create_xform', args=[project_id]),
             #'Add Form': "'create_xform' pk="+project_id,
         }
+        
+        
         
         context['extra_data']   = {
             'project_id': cur_form.project.id,
@@ -199,6 +237,197 @@ class form_data(generic.TemplateView):
         }
         
         return context
-                                                       
+
+   
                                                      
-                                        
+class form_mapping(generic.TemplateView):
+    template_name = "pages/start.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super(form_mapping, self).get_context_data(**kwargs)
+        
+        
+        form_id                     = self.kwargs['pk']
+        cur_form                    = Survey.objects.get(pk=form_id)
+        
+        context['breadcrumb']            = {
+            cur_form.project.title: reverse('project_detail', kwargs={'pk':cur_form.project.id}), 
+            cur_form.title: 0,
+        }
+        
+        context['datatable_list']   = 'FormMappingList'
+        context['links']            = _get_form_links_context(cur_form,form_id)
+        
+        print(context['links'])
+        
+        context['pg_actions']   = {
+            #'Add Form': "'create_xform' pk="+project_id,
+        }
+         
+        context['extra_data']   = {
+            'project_id': cur_form.project.id,
+            'form_id': form_id,
+        }
+        
+        return context           
+     
+                            
+def form_data_list(request, pk):
+    
+    # get data
+    
+    start               = int(request.GET.get('start',0))
+    length              = int(request.GET.get('length',5))
+    draw                = int(request.GET.get('draw',1))
+    search              = request.GET.get('search[value]')
+    
+    
+    
+    #req_val             = request.GET   
+    #for i,j in req_val.items():
+    #    print(i,' - ',j)
+        
+    sort_col            = int(request.GET.get('order[0][column]',-1))
+    sort_dir            = request.GET.get('order[0][dir]',-1)
+    
+    cols            = SurveyQuestions.objects.filter(survey__id=pk).values("col_name")  
+    adata           = SurveyResponses.objects.filter(survey__id=pk)
+    recordsTotal    = adata.count()
+    
+    
+    if search:
+        or_filter   = []
+        for k in cols:
+            or_filter.append(("response__"+k['col_name']+"__icontains",search))
+        
+        q_list  = [Q(x) for x in or_filter]
+        adata    = adata.filter(reduce(operator.or_, q_list))
+    
+    if sort_col > -1:
+        if sort_dir == 'desc':
+            sd = "-"+"response__"+cols[0]['col_name']
+        else:
+            sd = "response__"+cols[0]['col_name']
+            
+        adata   = adata.order_by(sd)
+    
+    
+    
+    recordsFiltered     = adata.count()
+    data                = adata[start:start+length]
+    
+    bb      = []
+    for r in data:
+        jj      = [r.id]
+        for k in cols:
+            jj.append(r.response.get(k['col_name'],""))
+        bb.append(jj)
+    
+    jan = {
+        "draw": draw,
+        "recordsTotal": recordsTotal,
+        "recordsFiltered": recordsFiltered,
+        "data": bb
+        }
+    
+    return JsonResponse(jan,safe=False)
+      
+
+                                              
+class data_instance_wrp(generic.TemplateView):
+    
+    template_name = "pages/instance.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super(data_instance_wrp, self).get_context_data(**kwargs)
+        id      = self.kwargs['pk']
+        con     = get_data_from_instance(id)
+        context['id']   = id
+        for k,v in con.items():
+            context[k]  = v
+        
+        return context
+                                                       
+def instance_data(request,pk):
+    context     = {}
+    context     = get_data_from_instance(pk)
+    
+    return render(request, 'pages/instance_data.html', context)
+
+                                             
+def instance_messages(request,pk):
+    context     = {}
+    context     = get_data_from_instance(pk)
+    
+    return render(request, 'pages/instance_messages.html', context)
+
+                                             
+def instance_location(request,pk):
+    pass 
+
+                                             
+def instance_media(request,pk):
+    pass 
+
+def get_data_from_instance(pk):
+    instance                    = SurveyResponses.objects.get(pk=pk)
+    questions                   = SurveyQuestions.objects.filter(survey__id=instance.survey.id).order_by('order').values()
+    
+    qn  = []
+    tmp     = {}
+    for que in questions:
+        j = que['ref'].split('/')
+        if j[2] not in tmp:
+            tmp[j[2]]   = []
+            
+        tmp[j[2]].append(que)
+    qn.append(tmp)
+    
+    context     = {}
+    context['data_instance']    = instance.response
+    context['data_questions']   = qn
+        
+    return context
+                                 
+                                              
+class data_chat(generic.TemplateView):
+    template_name = "pages/chat.html"
+    
+    
+
+
+def _get_form_links_context(cur_form,form_id):
+    
+    links = {
+                'Dashboard':    reverse('form_dashboard', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Data':         reverse('form_data', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Map':          reverse('form_map', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Chart':        reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Mapping Fields':        reverse('form_mapping', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Permissions':        reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Triggers and Alerts':     reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+            }
+    
+    return links
+
+
+
+
+
+
+class SurveyQuestionsUpdateView(generic.UpdateView):
+    model           = SurveyQuestions
+    form_class      = UpdateMappingForm
+    template_name   = 'forms/update_mapping.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(SurveyQuestionsUpdateView, self).get_context_data(**kwargs)
+        context['btn_create'] = "Update"
+        
+        return context
+    
+    def get_success_url(self):
+        pk = self.kwargs['pk']
+        return reverse('update_mapping', kwargs={'pk': pk})
+        
+        

@@ -1,0 +1,84 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Sample receipt form</h:title>
+    <model>
+      <instance>
+        <data id="build_Sample-receipt-form_15897020200518">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <sample_receipt>
+            <barcode/>
+            <sample_condition/>
+            <comment/>
+          </sample_receipt>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/sample_receipt:label">
+            <value>Receipt details</value>
+          </text>
+          <text id="/data/sample_receipt/barcode:label">
+            <value>Scan sample barcode</value>
+          </text>
+          <text id="/data/sample_receipt/barcode:hint">
+            <value>Received sample</value>
+          </text>
+          <text id="/data/sample_receipt/sample_condition:label">
+            <value>Received Sample </value>
+          </text>
+          <text id="/data/sample_receipt/sample_condition:option0">
+            <value>Accepted</value>
+          </text>
+          <text id="/data/sample_receipt/sample_condition:option1">
+            <value>Rejected</value>
+          </text>
+          <text id="/data/sample_receipt/comment:label">
+            <value>Lab tech comments</value>
+          </text>
+          <text id="/data/sample_receipt/comment:hint">
+            <value>If there is any comment about sample, labelling, packaging</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/sample_receipt/barcode" type="barcode" required="true()" jr:requiredMsg="Barcode is required"/>
+      <bind nodeset="/data/sample_receipt/sample_condition" type="select1" required="true()" jr:requiredMsg="Sample condition is required"/>
+      <bind nodeset="/data/sample_receipt/comment" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('SUA-Lab Bruc sample receipt ',': ',/data/sample_receipt/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/sample_receipt" appearance="field-list">
+      <label ref="jr:itext('/data/sample_receipt:label')"/>
+      <input ref="/data/sample_receipt/barcode">
+        <label ref="jr:itext('/data/sample_receipt/barcode:label')"/>
+        <hint ref="jr:itext('/data/sample_receipt/barcode:hint')"/>
+      </input>
+      <select1 ref="/data/sample_receipt/sample_condition">
+        <label ref="jr:itext('/data/sample_receipt/sample_condition:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_receipt/sample_condition:option0')"/>
+          <value>accepted</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_receipt/sample_condition:option1')"/>
+          <value>rejected</value>
+        </item>
+      </select1>
+      <input ref="/data/sample_receipt/comment">
+        <label ref="jr:itext('/data/sample_receipt/comment:label')"/>
+        <hint ref="jr:itext('/data/sample_receipt/comment:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

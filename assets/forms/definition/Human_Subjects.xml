@@ -1,0 +1,3763 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Human Subjects</h:title>
+    <model>
+      <instance>
+        <data id="build_Human-Subjects_1582799994">
+          <meta>
+            <instanceID/>
+          </meta>
+          <basic_info>
+            <study_districts/>
+            <village/>
+            <ward/>
+            <region/>
+            <sampling_location/>
+            <date/>
+            <untitled5/>
+          </basic_info>
+          <demographic_inf>
+            <sex/>
+            <age_month/>
+            <age_yrs>
+              0
+            </age_yrs>
+            <occupation/>
+          </demographic_inf>
+          <other_occupation/>
+          <edu_level/>
+          <awareness>
+            <do_know_mosq/>
+          </awareness>
+          <awareness1>
+            <human_disease_cased_by_mosq/>
+          </awareness1>
+          <other_human_disease_cased_by_mosq>
+            None
+          </other_human_disease_cased_by_mosq>
+          <aware_of_these_diseases/>
+          <awareness2>
+            <signs_chikungunya_human/>
+            <other_sign_chikungunya>
+              None
+            </other_sign_chikungunya>
+            <signs_dengue_human/>
+            <other_sign_dengue>
+              None
+            </other_sign_dengue>
+            <signs_RVF_human/>
+            <other_sign_RVF>
+              None
+            </other_sign_RVF>
+          </awareness2>
+          <which_affect_animal_three_dise>
+            <chikungunya_affect_animal/>
+            <dengue_affect_animal/>
+            <RVF_affect_animal/>
+          </which_affect_animal_three_dise>
+          <chikungunya>
+            <chikungunya_animal1/>
+            <clinical_sign1_animal1/>
+            <clinical_sign2_animal1>
+              None
+            </clinical_sign2_animal1>
+            <clinical_sign3_animal1>
+              None
+            </clinical_sign3_animal1>
+            <chikungunya_animal2>
+              None
+            </chikungunya_animal2>
+            <clinical_sign1_animal2>
+              None
+            </clinical_sign1_animal2>
+            <clinical_sign2_animal2>
+              None
+            </clinical_sign2_animal2>
+            <clinical_sign3_animal2>
+              None
+            </clinical_sign3_animal2>
+            <chikungunya_animal3>
+              None
+            </chikungunya_animal3>
+            <clinical_sign1_animal3>
+              None
+            </clinical_sign1_animal3>
+            <clinical_sign2_animal3>
+              None
+            </clinical_sign2_animal3>
+            <clinical_sign3_animal3>
+              None
+            </clinical_sign3_animal3>
+          </chikungunya>
+          <Dengue>
+            <dengue_animal1/>
+            <dengue_clinical_sign1_animal1/>
+            <dengue_clinical_sign2_animal1>
+              None
+            </dengue_clinical_sign2_animal1>
+            <dengue_clinical_sign3_animal1>
+              None
+            </dengue_clinical_sign3_animal1>
+            <dengue_chikungunya_animal2>
+              None
+            </dengue_chikungunya_animal2>
+            <dengue_clinical_sign1_animal2>
+              None
+            </dengue_clinical_sign1_animal2>
+            <dengue_clinical_sign2_animal2>
+              None
+            </dengue_clinical_sign2_animal2>
+            <dengue_clinical_sign3_animal2>
+              None
+            </dengue_clinical_sign3_animal2>
+            <dengue_chikungunya_animal3>
+              None
+            </dengue_chikungunya_animal3>
+            <dengue_clinical_sign1_animal3>
+              None
+            </dengue_clinical_sign1_animal3>
+            <dengue_clinical_sign2_animal3>
+              None
+            </dengue_clinical_sign2_animal3>
+            <dengue_clinical_sign3_animal3>
+              None
+            </dengue_clinical_sign3_animal3>
+          </Dengue>
+          <RVF>
+            <RVF_animal1/>
+            <RVF_clinical_sign1_animal1/>
+            <RVF_clinical_sign2_animal1>
+              None
+            </RVF_clinical_sign2_animal1>
+            <RVF_clinical_sign3_animal1>
+              None
+            </RVF_clinical_sign3_animal1>
+            <RVF_chikungunya_animal2>
+              None
+            </RVF_chikungunya_animal2>
+            <RVF_clinical_sign1_animal2>
+              None
+            </RVF_clinical_sign1_animal2>
+            <RVF_clinical_sign2_animal2>
+              None
+            </RVF_clinical_sign2_animal2>
+            <RVF_clinical_sign3_animal2/>
+            <RVF_chikungunya_animal3>
+              None
+            </RVF_chikungunya_animal3>
+            <RVF_clinical_sign1_animal3>
+              None
+            </RVF_clinical_sign1_animal3>
+            <RVF_clinical_sign2_animal3>
+              None
+            </RVF_clinical_sign2_animal3>
+            <RVF_clinical_sign3_animal3>
+              None
+            </RVF_clinical_sign3_animal3>
+          </RVF>
+          <none_animal_exposure>
+            <home_area_flooded/>
+          </none_animal_exposure>
+          <none_animal_exposure2>
+            <when_flooded/>
+            <water_holding_cont_home/>
+            <mosq_bleeding_environment/>
+            <other_mosq_bleeding>
+              None
+            </other_mosq_bleeding>
+            <main_agri_practices/>
+            <other_main_agri_practices>
+              None
+            </other_main_agri_practices>
+          </none_animal_exposure2>
+          <none_animal_exposure3>
+            <following_activ_conducted_in_area/>
+            <available_your_homestedy/>
+            <experience_upurge_mosquito/>
+            <frequency_using_net/>
+          </none_animal_exposure3>
+          <slept_on_net_last_night/>
+          <other_forms_mosq_control/>
+          <other_forms_mosq_control_specify/>
+          <experience_mosq_bite/>
+          <how_often/>
+          <any_person_illness_fever/>
+          <section_4_animal_exposure>
+            <keep_animal_within_house/>
+          </section_4_animal_exposure>
+          <section_4_animal_exposure1>
+            <which_animals/>
+            <which_animal_others/>
+          </section_4_animal_exposure1>
+          <section_4_animal_exposure2>
+            <heard_animal_grazing/>
+            <participated_in_slaughering_animal/>
+          </section_4_animal_exposure2>
+          <when_slaughter/>
+          <which_animal_slaughter/>
+          <which_animal_slaughter_other/>
+          <section_4_animal_exposure3>
+            <what_role_played/>
+            <what_role_played_other/>
+            <post_mortem_inspected_by_vet/>
+            <last_consume_animal/>
+          </section_4_animal_exposure3>
+          <source_meat_ate/>
+          <source_meat_ate_other/>
+          <last_milk_animal/>
+          <which_animal_milk/>
+          <which_animal_milk_other/>
+          <last_consume_raw_blood/>
+          <animal_raw_blood_consumed/>
+          <animal_raw_blood_consumed_other/>
+          <care_for_animal_give_birth/>
+          <which_animal_cre_birth/>
+          <which_animal_cre_birth_other/>
+          <when_dspose_handle/>
+          <animal_foetus/>
+          <animal_foetus_other/>
+          <normal_do_animal_die/>
+          <normal_do_animal_die_other/>
+          <ID_blood_sample/>
+          <boady_temp/>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/basic_info:label">
+            <value>Basic information</value>
+          </text>
+          <text id="/data/basic_info/study_districts:label">
+            <value>Study districts</value>
+          </text>
+          <text id="/data/basic_info/study_districts:hint">
+            <value></value>
+          </text>
+          <text id="/data/basic_info/study_districts:option0">
+            <value>Sengerema</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option1">
+            <value>Rufiji</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option2">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/basic_info/study_districts:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/basic_info/village:label">
+            <value>Village / Street</value>
+          </text>
+          <text id="/data/basic_info/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/basic_info/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:label">
+            <value>Sampling location</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option0">
+            <value>Household</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option1">
+            <value>Health facility </value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option2">
+            <value>Slaughter house</value>
+          </text>
+          <text id="/data/basic_info/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/basic_info/untitled5:label">
+            <value>Name of the interviewer</value>
+          </text>
+          <text id="/data/demographic_inf:label">
+            <value>Socio-demographic information of participant</value>
+          </text>
+          <text id="/data/demographic_inf/sex:label">
+            <value>1. Sex of respondent </value>
+          </text>
+          <text id="/data/demographic_inf/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/demographic_inf/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/demographic_inf/age_month:label">
+            <value>2. Age (Month)</value>
+          </text>
+          <text id="/data/demographic_inf/age_month:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/demographic_inf/age_yrs:label">
+            <value>Age (Years)</value>
+          </text>
+          <text id="/data/demographic_inf/age_yrs:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/demographic_inf/occupation:label">
+            <value>3. Occupation of the respondent </value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option0">
+            <value>Livestock keeper</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option1">
+            <value>Crop production</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option2">
+            <value>Informal employment</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option3">
+            <value>Formal employment</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option4">
+            <value>Business</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option5">
+            <value>Student</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option7">
+            <value>NA (for children under three years old) </value>
+          </text>
+          <text id="/data/other_occupation:label">
+            <value>Other Occupation of the respondent</value>
+          </text>
+          <text id="/data/edu_level:label">
+            <value>4. Education level of the respondent</value>
+          </text>
+          <text id="/data/edu_level:hint">
+            <value></value>
+          </text>
+          <text id="/data/edu_level:option0">
+            <value>No formal education</value>
+          </text>
+          <text id="/data/edu_level:option1">
+            <value>Standard 1-4</value>
+          </text>
+          <text id="/data/edu_level:option2">
+            <value>primary school</value>
+          </text>
+          <text id="/data/edu_level:option3">
+            <value>secondary education</value>
+          </text>
+          <text id="/data/edu_level:option4">
+            <value>College</value>
+          </text>
+          <text id="/data/edu_level:option5">
+            <value>University</value>
+          </text>
+          <text id="/data/edu_level:option6">
+            <value>Before school age child</value>
+          </text>
+          <text id="/data/awareness:label">
+            <value>Section 2: Awareness on Chikungunya, Dengue and Rift Valley Fever </value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:label">
+            <value>5. Do you know mosquitoes? </value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/awareness1:label">
+            <value>Section 2: Awareness on Chikungunya, Dengue and Rift Valley Fever </value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:label">
+            <value>6. Please, mention at least 5 human diseases that are transmitted by mosquitoes</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option0">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option1">
+            <value>Lymphatic filariasis</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option2">
+            <value>Dengue</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option3">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option4">
+            <value>Yellow fever</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option5">
+            <value>Rift Valley fever</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_human_disease_cased_by_mosq:label">
+            <value>Other human diseases that are transmitted by mosquitoes</value>
+          </text>
+          <text id="/data/other_human_disease_cased_by_mosq:hint">
+            <value>Separate by comm</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:label">
+            <value>7. Are you aware of any of the following diseases: If No; skip to section </value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option0">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option1">
+            <value>Dengi</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option2">
+            <value>Rift Valley Fever</value>
+          </text>
+          <text id="/data/awareness2:label">
+            <value>Section 2: Awareness on Chikungunya, Dengue and Rift Valley Fever </value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:label">
+            <value>8. Please mention signs and symptoms of Chikungunya in humans</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option0">
+            <value>fever</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option1">
+            <value>headache</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option2">
+            <value>muscles pain</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option3">
+            <value>joint pain</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option4">
+            <value>joint swelling</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option5">
+            <value>rashes</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option6">
+            <value>Nausea</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/awareness2/other_sign_chikungunya:label">
+            <value>Other signs and symptoms of Chikungunya</value>
+          </text>
+          <text id="/data/awareness2/other_sign_chikungunya:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:label">
+            <value>9. Please mention signs and symptoms of Dengue in humans</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option0">
+            <value>fever</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option1">
+            <value>headache</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option2">
+            <value>muscles pain</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option3">
+            <value>joint pain</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option4">
+            <value>joint swelling</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option5">
+            <value>rashes</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option6">
+            <value>Nausea</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option7">
+            <value>Eye Pain</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option8">
+            <value>Bone pain</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option9">
+            <value>Stomach Pain</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option10">
+            <value>Bleeding from Nose</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option11">
+            <value>Bleeding from Gums</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option12">
+            <value>Vomiting</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option13">
+            <value>Vomiting Blood</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option14">
+            <value>Blood in Stool </value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option15">
+            <value>Others</value>
+          </text>
+          <text id="/data/awareness2/other_sign_dengue:label">
+            <value>Other signs and symptoms of Dengue</value>
+          </text>
+          <text id="/data/awareness2/other_sign_dengue:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:label">
+            <value>10. Please mention signs and symptoms of Rift Valley fever in humans</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option0">
+            <value>fever</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option1">
+            <value>headache</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option2">
+            <value>General muscles pain</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option3">
+            <value>photophobia</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option4">
+            <value>Influenza-like illness</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option5">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option6">
+            <value>Encephalitis</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option7">
+            <value>ocular lesions</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option8">
+            <value>permanent loss of vision</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option9">
+            <value>Others</value>
+          </text>
+          <text id="/data/awareness2/other_sign_RVF:label">
+            <value>Other signs and symptoms of RVF</value>
+          </text>
+          <text id="/data/awareness2/other_sign_RVF:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise:label">
+            <value>11. Of the three diseases (Dengue, Chikungunya and Rift Valley fever), which ones may affect animals? </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:label">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option1">
+            <value>Don’t know </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option2">
+            <value>It does not affect animals </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:label">
+            <value>Dengue</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option1">
+            <value>Don’t know </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option2">
+            <value>It does not affect animals </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:label">
+            <value>RVF</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option1">
+            <value>Don’t know </value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option2">
+            <value>It does not affect animals </value>
+          </text>
+          <text id="/data/chikungunya:label">
+            <value>12. Chikungunya</value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal1:label">
+            <value>12.1 Type of animal</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal1:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal1:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal1:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal2:label">
+            <value>12.2 Type of animal 2</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal2:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal2:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal2:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal3:label">
+            <value>12.3 Type of animal 3</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal3:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal3:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal3:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue:label">
+            <value>13. Dengue</value>
+          </text>
+          <text id="/data/Dengue/dengue_animal1:label">
+            <value>13.1 Type of animal</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal1:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal1:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal1:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue/dengue_chikungunya_animal2:label">
+            <value>13.2 Type of animal 2</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal2:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal2:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal2:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue/dengue_chikungunya_animal3:label">
+            <value>13.3 Type of animal 3</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal3:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal3:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal3:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF:label">
+            <value>14. RVF</value>
+          </text>
+          <text id="/data/RVF/RVF_animal1:label">
+            <value>14.1 Type of animal</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal1:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal1:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal1:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF/RVF_chikungunya_animal2:label">
+            <value>14.2 Type of animal 2</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal2:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal2:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal2:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF/RVF_chikungunya_animal3:label">
+            <value>14.3 Type of animal 3</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal3:label">
+            <value>1. Clinical sign and symptom</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal3:label">
+            <value>2. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal3:label">
+            <value>3. Clinical sign and symptom </value>
+          </text>
+          <text id="/data/none_animal_exposure:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:label">
+            <value>15. Has your home area ever flooded in the past</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:option0">
+            <value>yes</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/none_animal_exposure2:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:label">
+            <value>16. If Yes to Qn 18; when was it flooded? </value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option0">
+            <value>Within the past 12 months</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option1">
+            <value>Within the past two years</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option2">
+            <value>3-5 past years</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option3">
+            <value>&gt;5 past years</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:label">
+            <value>17. Do you have water-holding containers at your home? </value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option0">
+            <value>Yes inside house</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option1">
+            <value>Yes outside house</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option2">
+            <value>Yes both inside and outside house</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:label">
+            <value>18. Mention mosquito breeding environment that you know</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option0">
+            <value>shallow depressions</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option1">
+            <value>rice fields</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option2">
+            <value>hoof prints</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option3">
+            <value>coconut shells</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option4">
+            <value>used tyres</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option5">
+            <value>water storage containers</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option6">
+            <value>swamps</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option7">
+            <value>tins</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option8">
+            <value>broken pots</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option9">
+            <value>buckets</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option10">
+            <value>tyre marks</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option11">
+            <value>concrete holes</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option12">
+            <value>wells</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option13">
+            <value>water tanks</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option14">
+            <value>water pools</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option15">
+            <value>Other</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_mosq_bleeding:label">
+            <value>Other mosquito breeding environment that you know</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_mosq_bleeding:hint">
+            <value>Separate by coma</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:label">
+            <value>19. What are the main agricultural practices that provide permissive environment for mosquito breeding? </value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option0">
+            <value>vegetable gardening</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option1">
+            <value>maize cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option2">
+            <value>rice cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option3">
+            <value>crop irrigation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_main_agri_practices:label">
+            <value>Other main agricultural practices that provide permissive environment for mosquito breeding?</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_main_agri_practices:hint">
+            <value>Separate by coma</value>
+          </text>
+          <text id="/data/none_animal_exposure3:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:label">
+            <value>20. Are the following activities conducted in your area? </value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option0">
+            <value>vegetable gardening</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option1">
+            <value>maize cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option2">
+            <value>rice cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option3">
+            <value>crop irrigation</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option4">
+            <value>brick making</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:label">
+            <value>21. Are the following available at your homestedy?</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option0">
+            <value>water storage container uncovered</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option1">
+            <value>water storage containers covered</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option2">
+            <value>coconut shells</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option3">
+            <value>flower beds that can hold up water</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option4">
+            <value>waste disposal </value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:label">
+            <value>22.Have you ever experienced upsurge in mosquito populations in an area where you live? </value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option0">
+            <value>Within the past 12 months</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option1">
+            <value>Within the past two years</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option2">
+            <value>3-5 past years</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option3">
+            <value>&gt;5 past years</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:label">
+            <value>23. How frequently do you use mosquito net</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option0">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option1">
+            <value>Often</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/slept_on_net_last_night:label">
+            <value>24. Did you sleep under mosquito net last night? </value>
+          </text>
+          <text id="/data/slept_on_net_last_night:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/slept_on_net_last_night:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_forms_mosq_control:label">
+            <value>25. Do you use other forms of mosquito control? </value>
+          </text>
+          <text id="/data/other_forms_mosq_control:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_forms_mosq_control:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_forms_mosq_control_specify:label">
+            <value>Please specify other forms of mosquito control</value>
+          </text>
+          <text id="/data/experience_mosq_bite:label">
+            <value>26. Do you experience mosquito bites while living in this area? </value>
+          </text>
+          <text id="/data/experience_mosq_bite:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/experience_mosq_bite:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_often:label">
+            <value>27. If yes to above Qn, how often</value>
+          </text>
+          <text id="/data/how_often:option0">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/how_often:option1">
+            <value>Often</value>
+          </text>
+          <text id="/data/any_person_illness_fever:label">
+            <value>28. Have you had any personal illness with fever in the past three months?</value>
+          </text>
+          <text id="/data/any_person_illness_fever:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/any_person_illness_fever:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/section_4_animal_exposure:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:label">
+            <value>29. Do you keep animals within the house you sleep</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:label">
+            <value>30. If yes to above Qn; which animals</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:hint">
+            <value>Adult: One year and above , Young: Below one year</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option0">
+            <value>Adult sheep</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option1">
+            <value>Adult goat</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option2">
+            <value>Adult cattle</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option3">
+            <value>Young sheep</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option4">
+            <value>Young goat</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option5">
+            <value>Young cattle</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animal_others:label">
+            <value>Other animals kept</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animal_others:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:label">
+            <value>31. Do you herd animals to grazing? </value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option1">
+            <value>NA (for under-seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option2">
+            <value>No</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:label">
+            <value>32. Have you ever participated in slaughtering of animal?</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option2">
+            <value>NA (for under-seven years old)</value>
+          </text>
+          <text id="/data/when_slaughter:label">
+            <value>33. If yes to above Qn; when did you participate slaughtering an animal</value>
+          </text>
+          <text id="/data/when_slaughter:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/when_slaughter:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/when_slaughter:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/which_animal_slaughter:label">
+            <value>34. If yes to above Qn. ; which animal did you slaughter</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/which_animal_slaughter_other:label">
+            <value>Other animals which you did slaughter</value>
+          </text>
+          <text id="/data/which_animal_slaughter_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:label">
+            <value>35. If ever participated in slaughtering of animal; what role did you play during slaughtering? </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option0">
+            <value>Restraining the animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option1">
+            <value>Bleeding out (separating the neck from main body) </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option2">
+            <value>Skinning the animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option3">
+            <value>Removing the offal/viscera of the animal </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option4">
+            <value>Splitting the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option5">
+            <value>Clean the carcass, offal and/ or visceral</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option6">
+            <value>Hanging the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option7">
+            <value>Butchering the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played_other:label">
+            <value>Other role played during slaughtering animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:label">
+            <value>36. Was the post-mortem inspection made by the Veterinary Officer before the meat was consumed/sold out? </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option2">
+            <value>Don’t know/don’t remember</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:label">
+            <value>37. When did you last consume meat from dead animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/source_meat_ate:label">
+            <value>38. If yes to Qn. above ; what was the source of dead meat that you consumed? </value>
+          </text>
+          <text id="/data/source_meat_ate:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/source_meat_ate:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/source_meat_ate:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/source_meat_ate:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/source_meat_ate_other:label">
+            <value>Other source of dead meat consumed</value>
+          </text>
+          <text id="/data/last_milk_animal:label">
+            <value>39. When did you last milk an animal?</value>
+          </text>
+          <text id="/data/last_milk_animal:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option3">
+            <value>NA (for under-seven years old)</value>
+          </text>
+          <text id="/data/last_milk_animal:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/which_animal_milk:label">
+            <value>40. If yes to Qn. above; which animal did you milk? </value>
+          </text>
+          <text id="/data/which_animal_milk:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_milk:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_milk:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_milk:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/which_animal_milk_other:label">
+            <value>Other animal you did milk</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:label">
+            <value>41. When did you last consume raw animal blood</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:label">
+            <value>42. If yes to Qn. above; from which animal was the blood you consumed?</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option0">
+            <value>sheep</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed_other:label">
+            <value>Other animal which blood was consumed</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:label">
+            <value>43. When did you care for an animal giving birth</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:label">
+            <value>44. If yes to Qn. above; which animal did you care for birthing? </value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/which_animal_cre_birth_other:label">
+            <value>Other animal which did you care for birthing? </value>
+          </text>
+          <text id="/data/when_dspose_handle:label">
+            <value>45. When did you handle/dispose an animal foetus? </value>
+          </text>
+          <text id="/data/when_dspose_handle:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/animal_foetus:label">
+            <value>46. If yes to Qn above; which animal foetus did you handle/dispose? </value>
+          </text>
+          <text id="/data/animal_foetus:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/animal_foetus:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/animal_foetus:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/animal_foetus:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/animal_foetus_other:label">
+            <value>Other animal which foetus did you handle/dispose? </value>
+          </text>
+          <text id="/data/normal_do_animal_die:label">
+            <value>47. What do you normally do when your animal dies? </value>
+          </text>
+          <text id="/data/normal_do_animal_die:option0">
+            <value>Call a Veterinary/Livestock officer</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option1">
+            <value>Slaughter and eat</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option2">
+            <value>Slaughter and share with neighbours</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option3">
+            <value>Slaughter and sell</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option4">
+            <value>Dispose the cadaver in a pit</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option5">
+            <value>Incinerate the cadaver</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option7">
+            <value>I do not keep/own animals</value>
+          </text>
+          <text id="/data/normal_do_animal_die_other:label">
+            <value>What other activities do you normally do when your animal dies? </value>
+          </text>
+          <text id="/data/ID_blood_sample:label">
+            <value>48. ID. of the human blood sample</value>
+          </text>
+          <text id="/data/boady_temp:label">
+            <value>49. Body temperature (oC)</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/basic_info:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/basic_info/study_districts:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/basic_info/study_districts:hint">
+            <value></value>
+          </text>
+          <text id="/data/basic_info/study_districts:option0">
+            <value>Sengerema</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option1">
+            <value>Rufiji</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option2">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/basic_info/study_districts:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/basic_info/village:label">
+            <value>Kijiji / Mtaa</value>
+          </text>
+          <text id="/data/basic_info/ward:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/basic_info/region:label">
+            <value>Mkoa</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:label">
+            <value>Eneo la sampuli</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option0">
+            <value>Kaya</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option1">
+            <value>Kituo cha afya</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option2">
+            <value>Machinjio</value>
+          </text>
+          <text id="/data/basic_info/date:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/basic_info/untitled5:label">
+            <value>Jina la Mhojiwa</value>
+          </text>
+          <text id="/data/demographic_inf:label">
+            <value>Taarifa za msingi za mshiriki</value>
+          </text>
+          <text id="/data/demographic_inf/sex:label">
+            <value>1. Jinsi ya  mshiriki</value>
+          </text>
+          <text id="/data/demographic_inf/sex:option0">
+            <value>ME</value>
+          </text>
+          <text id="/data/demographic_inf/sex:option1">
+            <value>KE</value>
+          </text>
+          <text id="/data/demographic_inf/age_month:label">
+            <value>Umri (Miezi)</value>
+          </text>
+          <text id="/data/demographic_inf/age_month:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/demographic_inf/age_yrs:label">
+            <value>Umri (Miaka)</value>
+          </text>
+          <text id="/data/demographic_inf/age_yrs:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/demographic_inf/occupation:label">
+            <value>Kazi ya mshiriki</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option0">
+            <value>Mfugaji</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option1">
+            <value>Mkulima wa mazao</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option2">
+            <value>Ajira isiyo rasmi</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option3">
+            <value>Ajira rasmi </value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option4">
+            <value>Biashara/Mjasiriamali</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option5">
+            <value>Mwanafunzi</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option6">
+            <value>Nyngineyo</value>
+          </text>
+          <text id="/data/demographic_inf/occupation:option7">
+            <value>Haihusiki</value>
+          </text>
+          <text id="/data/other_occupation:label">
+            <value>Kazi ingine ya mshiriki</value>
+          </text>
+          <text id="/data/edu_level:label">
+            <value>Elimu ya mshiriki</value>
+          </text>
+          <text id="/data/edu_level:hint">
+            <value></value>
+          </text>
+          <text id="/data/edu_level:option0">
+            <value>Isiyo rasmi</value>
+          </text>
+          <text id="/data/edu_level:option1">
+            <value>Darasa 1-4</value>
+          </text>
+          <text id="/data/edu_level:option2">
+            <value>Shule ya msingi</value>
+          </text>
+          <text id="/data/edu_level:option3">
+            <value>Sekondari</value>
+          </text>
+          <text id="/data/edu_level:option4">
+            <value>Chuo</value>
+          </text>
+          <text id="/data/edu_level:option5">
+            <value>Chuo kikuu</value>
+          </text>
+          <text id="/data/edu_level:option6">
+            <value>Elimu awali</value>
+          </text>
+          <text id="/data/awareness:label">
+            <value>Uelewa kuhusu Chikungunya, Dengi, na Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:label">
+            <value>5. Je unajua mbu</value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/awareness/do_know_mosq:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/awareness1:label">
+            <value>Uelewa kuhusu Chikungunya, Dengi, na Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:label">
+            <value>6. Kama jibu ni NDIYO, nitajie angalao magonjwa 5 ya binadamu yanayoambukizwa na mbu</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option0">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option1">
+            <value>Lymphatic filariasis</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option2">
+            <value>Dengue</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option3">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option4">
+            <value>Homa ya manjano</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option5">
+            <value>Homa ya bonde la ufa</value>
+          </text>
+          <text id="/data/awareness1/human_disease_cased_by_mosq:option6">
+            <value>Mengineyo</value>
+          </text>
+          <text id="/data/other_human_disease_cased_by_mosq:label">
+            <value>Magonjwa mengine ya binadamu yanayoambukizwa na mbu</value>
+          </text>
+          <text id="/data/other_human_disease_cased_by_mosq:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:label">
+            <value>7. Je unafahamu ugonjwa wowote kati ya haya yafuatayo</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option0">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option1">
+            <value>Dengi</value>
+          </text>
+          <text id="/data/aware_of_these_diseases:option2">
+            <value>Homa ya Bonde la Ufa </value>
+          </text>
+          <text id="/data/awareness2:label">
+            <value>Uelewa kuhusu Chikungunya, Dengi, na Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:label">
+            <value>8. Nitajie dalili za Chikungunya kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option0">
+            <value>homa</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option1">
+            <value>kuumwa kichwa</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option2">
+            <value>maumivu ya misuli</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option3">
+            <value>maumivu ya viungo</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option4">
+            <value>joint swelling</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option5">
+            <value>Upele</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option6">
+            <value>Kichefuchefu</value>
+          </text>
+          <text id="/data/awareness2/signs_chikungunya_human:option7">
+            <value>Nyinginezo</value>
+          </text>
+          <text id="/data/awareness2/other_sign_chikungunya:label">
+            <value>Dalili zingine za Chikungunya kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/other_sign_chikungunya:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:label">
+            <value>9. Nitajie dalili za Dengi kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option0">
+            <value>homa</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option1">
+            <value>kuumwa kichwa</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option2">
+            <value>maumivu ya misuli</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option3">
+            <value>maumivu ya viungo</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option4">
+            <value>joint swelling</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option5">
+            <value>Upele</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option6">
+            <value>Kichefuchefu</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option7">
+            <value>Maumivu ya macho</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option8">
+            <value>Maumivu ya mifupa</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option9">
+            <value>maumivu ya tumbo</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option10">
+            <value>Kutoka damu puani</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option11">
+            <value>Kutoka damu katika fizi</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option12">
+            <value>Kutapika</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option13">
+            <value>kutapika damu</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option14">
+            <value>Damu katika choo</value>
+          </text>
+          <text id="/data/awareness2/signs_dengue_human:option15">
+            <value>Nyinginezo</value>
+          </text>
+          <text id="/data/awareness2/other_sign_dengue:label">
+            <value>Dalili zingine za dengi kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/other_sign_dengue:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:label">
+            <value>10. Nitajie dalili za Homaya Bonde la Ufa kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option0">
+            <value>homa</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option1">
+            <value>kuumwa kichwa</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option2">
+            <value>maumivu ya misuli</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option3">
+            <value>photophobia</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option4">
+            <value>ugonjwa kama mafua</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option5">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option6">
+            <value>Encephalitis</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option7">
+            <value>ocular lesions (Vidonda)</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option8">
+            <value>Upofu</value>
+          </text>
+          <text id="/data/awareness2/signs_RVF_human:option9">
+            <value>Nyinginezo</value>
+          </text>
+          <text id="/data/awareness2/other_sign_RVF:label">
+            <value>Dalili zingine za homa ya bonde la ufa kwa binadamu</value>
+          </text>
+          <text id="/data/awareness2/other_sign_RVF:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise:label">
+            <value>11. Magonjwa yanayoweza pata wanyama</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:label">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option1">
+            <value>Sijui</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/chikungunya_affect_animal:option2">
+            <value>Haiwapati wanyama</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:label">
+            <value>Dengue</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option1">
+            <value>Sijui</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/dengue_affect_animal:option2">
+            <value>Haiwapati wanyama</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:label">
+            <value>RVF</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option1">
+            <value>Sijui</value>
+          </text>
+          <text id="/data/which_affect_animal_three_dise/RVF_affect_animal:option2">
+            <value>Haiwapati wanyama</value>
+          </text>
+          <text id="/data/chikungunya:label">
+            <value>12. Chikungunya</value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal1:label">
+            <value>12.1 Aina ya mnyama</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal1:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal1:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal1:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal2:label">
+            <value>12.2 Aina ya mnyama 2</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal2:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal2:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal2:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/chikungunya_animal3:label">
+            <value>12.3 Aina ya mnyama 3</value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign1_animal3:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign2_animal3:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/chikungunya/clinical_sign3_animal3:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/Dengue:label">
+            <value>13. dengue</value>
+          </text>
+          <text id="/data/Dengue/dengue_animal1:label">
+            <value>13.1 Aina ya mnyama</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal1:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal1:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal1:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_chikungunya_animal2:label">
+            <value>13.2 Aina ya mnyama 2</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal2:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal2:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal2:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_chikungunya_animal3:label">
+            <value>13.3 Aina ya mnyama 3</value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign1_animal3:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign2_animal3:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/Dengue/dengue_clinical_sign3_animal3:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/RVF:label">
+            <value>14. RVF</value>
+          </text>
+          <text id="/data/RVF/RVF_animal1:label">
+            <value>14.1 Aina ya mnyama</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal1:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal1:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal1:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_chikungunya_animal2:label">
+            <value>14.2 Aina ya mnyama 2</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal2:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal2:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal2:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_chikungunya_animal3:label">
+            <value>14.3 Aina ya mnyama 3</value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign1_animal3:label">
+            <value>1. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign2_animal3:label">
+            <value>2. Dalili </value>
+          </text>
+          <text id="/data/RVF/RVF_clinical_sign3_animal3:label">
+            <value>3. Dalili </value>
+          </text>
+          <text id="/data/none_animal_exposure:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:label">
+            <value>15. je, mafuriko yaliwahi kutokea maeneo ya nyumbani kwako?</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/none_animal_exposure/home_area_flooded:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/none_animal_exposure2:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:label">
+            <value>16. Kama ndiyo, ni lini mafuriko yalitokea?</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option0">
+            <value>Ndani ya miez 12</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option1">
+            <value>Ndani ya miaka miwili</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option2">
+            <value>miaka 3-5 iliyopita</value>
+          </text>
+          <text id="/data/none_animal_exposure2/when_flooded:option3">
+            <value>Zaid ya miaka 5 iliopita</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:label">
+            <value>17. Je katika eneo la nyumbani kwako kuna vyombo vinavyoruhusu kutuama kwa maji?</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option0">
+            <value>Ndio, nadni ya nyumba</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option1">
+            <value>ndio nje ya nyumba</value>
+          </text>
+          <text id="/data/none_animal_exposure2/water_holding_cont_home:option2">
+            <value>Ndio ndani na nje ya nyumba</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:label">
+            <value>18. Je unatambua mazalio ya mbu? Nitajie baadhi ya mazalia ya mbu unayoyafahamu</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option0">
+            <value>shallow depressions</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option1">
+            <value>rice fields</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option2">
+            <value>hoof prints</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option3">
+            <value>Vifuu vya nazi</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option4">
+            <value>used tyres</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option5">
+            <value>water storage containers</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option6">
+            <value>swamps</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option7">
+            <value>tins</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option8">
+            <value>broken pots</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option9">
+            <value>buckets</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option10">
+            <value>tyre marks</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option11">
+            <value>concrete holes</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option12">
+            <value>wells</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option13">
+            <value>water tanks</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option14">
+            <value>water pools</value>
+          </text>
+          <text id="/data/none_animal_exposure2/mosq_bleeding_environment:option15">
+            <value>Mengineyo</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_mosq_bleeding:label">
+            <value>mazalio mengine ya mbu? Nitajie baadhi ya mazalia ya mbu unayoyafahamu</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_mosq_bleeding:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:label">
+            <value>19. Je, ni shughuli zipi za kilimo zinazochangia uwepo wa mazalia ya mbu</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option0">
+            <value>vegetable gardening</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option1">
+            <value>maize cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option2">
+            <value>rice cultivation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option3">
+            <value>crop irrigation</value>
+          </text>
+          <text id="/data/none_animal_exposure2/main_agri_practices:option4">
+            <value>Zinginezo</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_main_agri_practices:label">
+            <value>shughuli zingine zipi za kilimo zinazochangia uwepo wa mazalia ya mbu</value>
+          </text>
+          <text id="/data/none_animal_exposure2/other_main_agri_practices:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/none_animal_exposure3:label">
+            <value>Section 3: Non-animal exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:label">
+            <value>20. Je, shughuli zifuatazo hufanyika katika eneo lako?</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option0">
+            <value>Kilimo cha mboga mboga</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option1">
+            <value>kilimo cha mahindi</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option2">
+            <value>kilimo cha mpunga</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option3">
+            <value>kilimo cha umwagiliaji</value>
+          </text>
+          <text id="/data/none_animal_exposure3/following_activ_conducted_in_area:option4">
+            <value>utengenezaji wa matofauli</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:label">
+            <value>21. Je, vitu vifuatavyo vinapatikana maeneo ya nyumbani mwako</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option0">
+            <value>water storage container uncovered</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option1">
+            <value>water storage containers covered</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option2">
+            <value>coconut shells</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option3">
+            <value>flower beds that can hold up water</value>
+          </text>
+          <text id="/data/none_animal_exposure3/available_your_homestedy:option4">
+            <value>waste disposal</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:label">
+            <value>22. Je, uliwahi kushuhudia ongezeko kubwa la mbu katika eneo unaloishi?</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option0">
+            <value>Ndani ya miez 12 iliopita</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option1">
+            <value>Ndani ya miaka 2 iliyopita</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option2">
+            <value>Miaka 3-5 iliopita</value>
+          </text>
+          <text id="/data/none_animal_exposure3/experience_upurge_mosquito:option3">
+            <value>Zaidi ya miaka 5 iliopita</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:label">
+            <value>23. Je ni kwa kiasi gani hutumia chandarua cha kujikinga na mbu?</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option0">
+            <value>mara chache</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option1">
+            <value>mara nyingi</value>
+          </text>
+          <text id="/data/none_animal_exposure3/frequency_using_net:option2">
+            <value>Situmii</value>
+          </text>
+          <text id="/data/slept_on_net_last_night:label">
+            <value>24. Je, ulilala ndani ya chandarua usiku uliopita?</value>
+          </text>
+          <text id="/data/slept_on_net_last_night:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/slept_on_net_last_night:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_forms_mosq_control:label">
+            <value>25. Je, huwa unatumia njia yoyote nyingine ya kujikinga na mbu?</value>
+          </text>
+          <text id="/data/other_forms_mosq_control:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_forms_mosq_control:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_forms_mosq_control_specify:label">
+            <value>Tafadhali elezea njia nyingine ya kujikinga na mbu</value>
+          </text>
+          <text id="/data/experience_mosq_bite:label">
+            <value>26. Je, huwa unaumwa na mbu katika eneo unaloishi?</value>
+          </text>
+          <text id="/data/experience_mosq_bite:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/experience_mosq_bite:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/how_often:label">
+            <value>27. Kama ndiyo, ni kwa kiasi gani huwa unaumwa na mbu?</value>
+          </text>
+          <text id="/data/how_often:option0">
+            <value>Mara chahe</value>
+          </text>
+          <text id="/data/how_often:option1">
+            <value>Mara kwa mara</value>
+          </text>
+          <text id="/data/any_person_illness_fever:label">
+            <value>28. Je, uliwahi kupata homa katika kipindi cha miezi mitatu iliyopoita</value>
+          </text>
+          <text id="/data/any_person_illness_fever:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/any_person_illness_fever:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/section_4_animal_exposure:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:label">
+            <value>29. Je, unafuga mifugo ndani ya nyumba unayoishi?</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/section_4_animal_exposure/keep_animal_within_house:option1">
+            <value>hapana</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:label">
+            <value>30. Kama ndiyo; je unafuga wanyama gani ndani ya nyumba unayoishi?)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:hint">
+            <value></value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option0">
+            <value>Adult sheep</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option1">
+            <value>Adult goat</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option2">
+            <value>Adult cattle </value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option3">
+            <value>Young sheep</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option4">
+            <value>Young goat</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option5">
+            <value>Young cattle</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animals:option6">
+            <value>Wengine</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animal_others:label">
+            <value>Wanyama wengine</value>
+          </text>
+          <text id="/data/section_4_animal_exposure1/which_animal_others:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:label">
+            <value>31. Je huwa unapeleka mifugo malishoni?</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option1">
+            <value>NA (Chini ya miaka saba)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/heard_animal_grazing:option2">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:label">
+            <value>32. Je, uliwahi kushiriki kuchinja mnyama?)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/section_4_animal_exposure2/participated_in_slaughering_animal:option2">
+            <value>NA (for under-seven years old)</value>
+          </text>
+          <text id="/data/when_slaughter:label">
+            <value>33. Kama ndiyo; ni lini ulishiriki kuchinja mnyama?</value>
+          </text>
+          <text id="/data/when_slaughter:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/when_slaughter:option1">
+            <value>miezi miwili iliyopita</value>
+          </text>
+          <text id="/data/when_slaughter:option2">
+            <value>Zaidi ya miezi miwili iliyopita</value>
+          </text>
+          <text id="/data/which_animal_slaughter:label">
+            <value>34. Kama ndiyo; ni wanyama wapi ulichinja?</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_slaughter:option3">
+            <value>Wengine</value>
+          </text>
+          <text id="/data/which_animal_slaughter_other:label">
+            <value>Wanyama wengine uliochinja</value>
+          </text>
+          <text id="/data/which_animal_slaughter_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3:label">
+            <value>Section 4: Animal Exposure (Parents/guardians to respond for children below seven years old)</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:label">
+            <value>35. Endapo ulishashiriki kuchinja mnyama; Je,ni shughuli ipi ulifanya kati ya zifuatazo? </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option0">
+            <value>Restraining the animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option1">
+            <value>Bleeding out (separating the neck from main body) </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option2">
+            <value>Skinning the animal</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option3">
+            <value>Removing the offal/viscera of the animal </value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option4">
+            <value>Splitting the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option5">
+            <value>Clean the carcass, offal and/ or visceral</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option6">
+            <value>Hanging the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option7">
+            <value>Butchering the carcass</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played_other:label">
+            <value>Shughuli ingine uliofanya wakati wakuchinja mnyama</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/what_role_played_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:label">
+            <value>36. Kama ndiyo; je nyama ilikaguliwa na mtaalamu wa mifugo kable ya kuliwa/kuuzwa?</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option2">
+            <value>Sijui/Sikumbuki</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:label">
+            <value>37. Je ni lini ulikula nyama ya mnyama aliyekufa?</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option0">
+            <value>Mwezi mmoje uliopita</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option1">
+            <value>miezi miwili iliopita</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option2">
+            <value>Zaidi ya miezi miwili iliopita</value>
+          </text>
+          <text id="/data/section_4_animal_exposure3/last_consume_animal:option3">
+            <value>Sijawahi</value>
+          </text>
+          <text id="/data/source_meat_ate:label">
+            <value>38. Kama ndiyo; Je ulikula nyama ya mnyama yupi?</value>
+          </text>
+          <text id="/data/source_meat_ate:option0">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/source_meat_ate:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/source_meat_ate:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/source_meat_ate:option3">
+            <value>Mnyama mwingine</value>
+          </text>
+          <text id="/data/source_meat_ate_other:label">
+            <value>Mnyama mwingine aliyeliwa</value>
+          </text>
+          <text id="/data/last_milk_animal:label">
+            <value>39. Je ni lini ulikamua maziwa kwa mnyama kwa mara ya mwisho</value>
+          </text>
+          <text id="/data/last_milk_animal:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/last_milk_animal:option3">
+            <value>NA (for under-seven years old)</value>
+          </text>
+          <text id="/data/last_milk_animal:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/which_animal_milk:label">
+            <value>40. Kama ndiyo; je ulikamua maziwa ya mnyama yupi?</value>
+          </text>
+          <text id="/data/which_animal_milk:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_milk:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_milk:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_milk:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/which_animal_milk_other:label">
+            <value>Other animal you did milk</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:label">
+            <value>41. Je ni lini kwa mara ya mwisho ulikunywa damu mbichi?</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/last_consume_raw_blood:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:label">
+            <value>42. Kama ndiyo; Je ulikunywa damu ya mnyama gani?)</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option0">
+            <value>sheep</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option2">
+            <value>cattle</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/animal_raw_blood_consumed_other:label">
+            <value>Other animal which blood was consumed</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:label">
+            <value>43. Je ni lini ulimsadia mnyama wakati wa kuzaa?</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/care_for_animal_give_birth:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:label">
+            <value>44. Kama ndiyo, ni mnyama yupi ulimsaidia wakati wa kuzaa?</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal_cre_birth:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/which_animal_cre_birth_other:label">
+            <value>Other animal which did you care for birthing? </value>
+          </text>
+          <text id="/data/when_dspose_handle:label">
+            <value>45. Je, ni lini ulishika ama ulizika mzoga wa mimba iliyotupwa na mnyama? </value>
+          </text>
+          <text id="/data/when_dspose_handle:option0">
+            <value>one month ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option1">
+            <value>two months ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option2">
+            <value>More than two months ago</value>
+          </text>
+          <text id="/data/when_dspose_handle:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/animal_foetus:label">
+            <value>46. Kama ndiyo; ulikuwa mzoga wa mnyama yupi?</value>
+          </text>
+          <text id="/data/animal_foetus:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/animal_foetus:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/animal_foetus:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/animal_foetus:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/animal_foetus_other:label">
+            <value>Other animal which foetus did you handle/dispose? </value>
+          </text>
+          <text id="/data/normal_do_animal_die:label">
+            <value>47. Je, huwa mnafanya nini endapo mnyama wako atakufa?</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option0">
+            <value>Call a Veterinary/Livestock officer</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option1">
+            <value>Slaughter and eat</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option2">
+            <value>Slaughter and share with neighbours</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option3">
+            <value>Slaughter and sell</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option4">
+            <value>Dispose the cadaver in a pit</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option5">
+            <value>Incinerate the cadaver</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option6">
+            <value>other</value>
+          </text>
+          <text id="/data/normal_do_animal_die:option7">
+            <value>I do not keep/own animals</value>
+          </text>
+          <text id="/data/normal_do_animal_die_other:label">
+            <value>What other activities do you normally do when your animal dies? </value>
+          </text>
+          <text id="/data/ID_blood_sample:label">
+            <value>48. ID. of the human blood sample</value>
+          </text>
+          <text id="/data/boady_temp:label">
+            <value>49. Body temperature (oC)</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/basic_info/study_districts" type="select1" jr:constraintMsg="jr:itext('/data/basic_info/study_districts:constraintMsg')"/>
+      <bind nodeset="/data/basic_info/village" type="string"/>
+      <bind nodeset="/data/basic_info/ward" type="string"/>
+      <bind nodeset="/data/basic_info/region" type="string"/>
+      <bind nodeset="/data/basic_info/sampling_location" type="select1"/>
+      <bind nodeset="/data/basic_info/date" type="date"/>
+      <bind nodeset="/data/basic_info/untitled5" type="string"/>
+      <bind nodeset="/data/demographic_inf/sex" type="select1"/>
+      <bind nodeset="/data/demographic_inf/age_month" type="int" jr:constraintMsg="jr:itext('/data/demographic_inf/age_month:constraintMsg')"/>
+      <bind nodeset="/data/demographic_inf/age_yrs" type="int" jr:constraintMsg="jr:itext('/data/demographic_inf/age_yrs:constraintMsg')"/>
+      <bind nodeset="/data/demographic_inf/occupation" type="select1"/>
+      <bind nodeset="/data/other_occupation" type="string"/>
+      <bind nodeset="/data/edu_level" type="select1"/>
+      <bind nodeset="/data/awareness/do_know_mosq" type="select1"/>
+      <bind nodeset="/data/awareness1/human_disease_cased_by_mosq" type="select"/>
+      <bind nodeset="/data/other_human_disease_cased_by_mosq" type="string"/>
+      <bind nodeset="/data/aware_of_these_diseases" type="select"/>
+      <bind nodeset="/data/awareness2/signs_chikungunya_human" type="select"/>
+      <bind nodeset="/data/awareness2/other_sign_chikungunya" type="string"/>
+      <bind nodeset="/data/awareness2/signs_dengue_human" type="select"/>
+      <bind nodeset="/data/awareness2/other_sign_dengue" type="string"/>
+      <bind nodeset="/data/awareness2/signs_RVF_human" type="select"/>
+      <bind nodeset="/data/awareness2/other_sign_RVF" type="string"/>
+      <bind nodeset="/data/which_affect_animal_three_dise/chikungunya_affect_animal" type="select1"/>
+      <bind nodeset="/data/which_affect_animal_three_dise/dengue_affect_animal" type="select1"/>
+      <bind nodeset="/data/which_affect_animal_three_dise/RVF_affect_animal" type="select1"/>
+      <bind nodeset="/data/chikungunya/chikungunya_animal1" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign1_animal1" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign2_animal1" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign3_animal1" type="string"/>
+      <bind nodeset="/data/chikungunya/chikungunya_animal2" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign1_animal2" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign2_animal2" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign3_animal2" type="string"/>
+      <bind nodeset="/data/chikungunya/chikungunya_animal3" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign1_animal3" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign2_animal3" type="string"/>
+      <bind nodeset="/data/chikungunya/clinical_sign3_animal3" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_animal1" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign1_animal1" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign2_animal1" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign3_animal1" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_chikungunya_animal2" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign1_animal2" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign2_animal2" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign3_animal2" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_chikungunya_animal3" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign1_animal3" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign2_animal3" type="string"/>
+      <bind nodeset="/data/Dengue/dengue_clinical_sign3_animal3" type="string"/>
+      <bind nodeset="/data/RVF/RVF_animal1" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign1_animal1" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign2_animal1" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign3_animal1" type="string"/>
+      <bind nodeset="/data/RVF/RVF_chikungunya_animal2" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign1_animal2" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign2_animal2" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign3_animal2" type="string"/>
+      <bind nodeset="/data/RVF/RVF_chikungunya_animal3" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign1_animal3" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign2_animal3" type="string"/>
+      <bind nodeset="/data/RVF/RVF_clinical_sign3_animal3" type="string"/>
+      <bind nodeset="/data/none_animal_exposure/home_area_flooded" type="select1"/>
+      <bind nodeset="/data/none_animal_exposure2/when_flooded" type="select1"/>
+      <bind nodeset="/data/none_animal_exposure2/water_holding_cont_home" type="select1"/>
+      <bind nodeset="/data/none_animal_exposure2/mosq_bleeding_environment" type="select"/>
+      <bind nodeset="/data/none_animal_exposure2/other_mosq_bleeding" type="string"/>
+      <bind nodeset="/data/none_animal_exposure2/main_agri_practices" type="select"/>
+      <bind nodeset="/data/none_animal_exposure2/other_main_agri_practices" type="string"/>
+      <bind nodeset="/data/none_animal_exposure3/following_activ_conducted_in_area" type="select"/>
+      <bind nodeset="/data/none_animal_exposure3/available_your_homestedy" type="select"/>
+      <bind nodeset="/data/none_animal_exposure3/experience_upurge_mosquito" type="select1"/>
+      <bind nodeset="/data/none_animal_exposure3/frequency_using_net" type="select1"/>
+      <bind nodeset="/data/slept_on_net_last_night" type="select1"/>
+      <bind nodeset="/data/other_forms_mosq_control" type="select1"/>
+      <bind nodeset="/data/other_forms_mosq_control_specify" type="string"/>
+      <bind nodeset="/data/experience_mosq_bite" type="select1"/>
+      <bind nodeset="/data/how_often" type="select1"/>
+      <bind nodeset="/data/any_person_illness_fever" type="select1"/>
+      <bind nodeset="/data/section_4_animal_exposure/keep_animal_within_house" type="select1"/>
+      <bind nodeset="/data/section_4_animal_exposure1/which_animals" type="select"/>
+      <bind nodeset="/data/section_4_animal_exposure1/which_animal_others" type="string"/>
+      <bind nodeset="/data/section_4_animal_exposure2/heard_animal_grazing" type="select1"/>
+      <bind nodeset="/data/section_4_animal_exposure2/participated_in_slaughering_animal" type="select1"/>
+      <bind nodeset="/data/when_slaughter" type="select1"/>
+      <bind nodeset="/data/which_animal_slaughter" type="select"/>
+      <bind nodeset="/data/which_animal_slaughter_other" type="string"/>
+      <bind nodeset="/data/section_4_animal_exposure3/what_role_played" type="select1"/>
+      <bind nodeset="/data/section_4_animal_exposure3/what_role_played_other" type="string"/>
+      <bind nodeset="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet" type="select1"/>
+      <bind nodeset="/data/section_4_animal_exposure3/last_consume_animal" type="select1"/>
+      <bind nodeset="/data/source_meat_ate" type="select1"/>
+      <bind nodeset="/data/source_meat_ate_other" type="string"/>
+      <bind nodeset="/data/last_milk_animal" type="select1"/>
+      <bind nodeset="/data/which_animal_milk" type="select1"/>
+      <bind nodeset="/data/which_animal_milk_other" type="string"/>
+      <bind nodeset="/data/last_consume_raw_blood" type="select1"/>
+      <bind nodeset="/data/animal_raw_blood_consumed" type="select1"/>
+      <bind nodeset="/data/animal_raw_blood_consumed_other" type="string"/>
+      <bind nodeset="/data/care_for_animal_give_birth" type="select1"/>
+      <bind nodeset="/data/which_animal_cre_birth" type="select1"/>
+      <bind nodeset="/data/which_animal_cre_birth_other" type="string"/>
+      <bind nodeset="/data/when_dspose_handle" type="select1"/>
+      <bind nodeset="/data/animal_foetus" type="select1"/>
+      <bind nodeset="/data/animal_foetus_other" type="string"/>
+      <bind nodeset="/data/normal_do_animal_die" type="select"/>
+      <bind nodeset="/data/normal_do_animal_die_other" type="string"/>
+      <bind nodeset="/data/ID_blood_sample" type="string"/>
+      <bind nodeset="/data/boady_temp" type="decimal"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/basic_info" appearance="field-list">
+      <label ref="jr:itext('/data/basic_info:label')"/>
+      <select1 ref="/data/basic_info/study_districts">
+        <label ref="jr:itext('/data/basic_info/study_districts:label')"/>
+        <hint ref="jr:itext('/data/basic_info/study_districts:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option0')"/>
+          <value>sengerema</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option1')"/>
+          <value>rufiji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option2')"/>
+          <value>ilala</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_info/village">
+        <label ref="jr:itext('/data/basic_info/village:label')"/>
+      </input>
+      <input ref="/data/basic_info/ward">
+        <label ref="jr:itext('/data/basic_info/ward:label')"/>
+      </input>
+      <input ref="/data/basic_info/region">
+        <label ref="jr:itext('/data/basic_info/region:label')"/>
+      </input>
+      <select1 ref="/data/basic_info/sampling_location">
+        <label ref="jr:itext('/data/basic_info/sampling_location:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_info/sampling_location:option0')"/>
+          <value>household</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/sampling_location:option1')"/>
+          <value>health_faciloty</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/sampling_location:option2')"/>
+          <value>slaughter_house</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_info/date">
+        <label ref="jr:itext('/data/basic_info/date:label')"/>
+      </input>
+      <input ref="/data/basic_info/untitled5">
+        <label ref="jr:itext('/data/basic_info/untitled5:label')"/>
+      </input>
+    </group>
+    <group ref="/data/demographic_inf" appearance="field-list">
+      <label ref="jr:itext('/data/demographic_inf:label')"/>
+      <select1 ref="/data/demographic_inf/sex">
+        <label ref="jr:itext('/data/demographic_inf/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <range ref="/data/demographic_inf/age_month" start="1" end="11" step="1" appearance="picker">
+        <label ref="jr:itext('/data/demographic_inf/age_month:label')"/>
+      </range>
+      <input ref="/data/demographic_inf/age_yrs">
+        <label ref="jr:itext('/data/demographic_inf/age_yrs:label')"/>
+      </input>
+      <select1 ref="/data/demographic_inf/occupation">
+        <label ref="jr:itext('/data/demographic_inf/occupation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option0')"/>
+          <value>livestock_keeper</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option1')"/>
+          <value>crop_prod</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option2')"/>
+          <value>informal_empl</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option3')"/>
+          <value>formal_employment</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option4')"/>
+          <value>business</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option5')"/>
+          <value>student</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option6')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic_inf/occupation:option7')"/>
+          <value>Not_applicable</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/other_occupation">
+      <label ref="jr:itext('/data/other_occupation:label')"/>
+    </input>
+    <select1 ref="/data/edu_level">
+      <label ref="jr:itext('/data/edu_level:label')"/>
+      <hint ref="jr:itext('/data/edu_level:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option0')"/>
+        <value>no_formal_ed</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option1')"/>
+        <value>standard_1_4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option2')"/>
+        <value>primary_school</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option3')"/>
+        <value>secondary</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option4')"/>
+        <value>college</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option5')"/>
+        <value>university</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/edu_level:option6')"/>
+        <value>berfore_sch_age_child</value>
+      </item>
+    </select1>
+    <group ref="/data/awareness" appearance="field-list">
+      <label ref="jr:itext('/data/awareness:label')"/>
+      <select1 ref="/data/awareness/do_know_mosq">
+        <label ref="jr:itext('/data/awareness/do_know_mosq:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness/do_know_mosq:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness/do_know_mosq:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/awareness1" appearance="field-list">
+      <label ref="jr:itext('/data/awareness1:label')"/>
+      <select ref="/data/awareness1/human_disease_cased_by_mosq">
+        <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option0')"/>
+          <value>Malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option1')"/>
+          <value>lymphatic_filariasis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option2')"/>
+          <value>Dengue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option3')"/>
+          <value>Chikungunya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option4')"/>
+          <value>yellow_fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option5')"/>
+          <value>RVF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness1/human_disease_cased_by_mosq:option6')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/other_human_disease_cased_by_mosq">
+      <label ref="jr:itext('/data/other_human_disease_cased_by_mosq:label')"/>
+      <hint ref="jr:itext('/data/other_human_disease_cased_by_mosq:hint')"/>
+    </input>
+    <select ref="/data/aware_of_these_diseases">
+      <label ref="jr:itext('/data/aware_of_these_diseases:label')"/>
+      <item>
+        <label ref="jr:itext('/data/aware_of_these_diseases:option0')"/>
+        <value>Chikungunya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aware_of_these_diseases:option1')"/>
+        <value>Dengi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aware_of_these_diseases:option2')"/>
+        <value>RVF</value>
+      </item>
+    </select>
+    <group ref="/data/awareness2" appearance="field-list">
+      <label ref="jr:itext('/data/awareness2:label')"/>
+      <select ref="/data/awareness2/signs_chikungunya_human">
+        <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option1')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option2')"/>
+          <value>muscles_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option3')"/>
+          <value>joint_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option4')"/>
+          <value>joint_swelling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option5')"/>
+          <value>rashes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option6')"/>
+          <value>nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_chikungunya_human:option7')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/awareness2/other_sign_chikungunya">
+        <label ref="jr:itext('/data/awareness2/other_sign_chikungunya:label')"/>
+        <hint ref="jr:itext('/data/awareness2/other_sign_chikungunya:hint')"/>
+      </input>
+      <select ref="/data/awareness2/signs_dengue_human">
+        <label ref="jr:itext('/data/awareness2/signs_dengue_human:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option1')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option2')"/>
+          <value>muscles_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option3')"/>
+          <value>joint_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option4')"/>
+          <value>joint_swelling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option5')"/>
+          <value>rashes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option6')"/>
+          <value>nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option7')"/>
+          <value>eye_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option8')"/>
+          <value>bone_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option9')"/>
+          <value>stomach_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option10')"/>
+          <value>bleed_nose</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option11')"/>
+          <value>bleeding_gums</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option12')"/>
+          <value>vomiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option13')"/>
+          <value>vomiting_blood</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option14')"/>
+          <value>blood_stool</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_dengue_human:option15')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/awareness2/other_sign_dengue">
+        <label ref="jr:itext('/data/awareness2/other_sign_dengue:label')"/>
+        <hint ref="jr:itext('/data/awareness2/other_sign_dengue:hint')"/>
+      </input>
+      <select ref="/data/awareness2/signs_RVF_human">
+        <label ref="jr:itext('/data/awareness2/signs_RVF_human:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option1')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option2')"/>
+          <value>muscles_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option3')"/>
+          <value>photophobia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option4')"/>
+          <value>influenza_like_illness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option5')"/>
+          <value>Jaundice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option6')"/>
+          <value>Encephalitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option7')"/>
+          <value>ocular_lesions</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option8')"/>
+          <value>permanent_loss_vision</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness2/signs_RVF_human:option9')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/awareness2/other_sign_RVF">
+        <label ref="jr:itext('/data/awareness2/other_sign_RVF:label')"/>
+        <hint ref="jr:itext('/data/awareness2/other_sign_RVF:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/which_affect_animal_three_dise" appearance="field-list">
+      <label ref="jr:itext('/data/which_affect_animal_three_dise:label')"/>
+      <select1 ref="/data/which_affect_animal_three_dise/chikungunya_affect_animal">
+        <label ref="jr:itext('/data/which_affect_animal_three_dise/chikungunya_affect_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/chikungunya_affect_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/chikungunya_affect_animal:option1')"/>
+          <value>dont_know</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/chikungunya_affect_animal:option2')"/>
+          <value>doesnot_affect_animals</value>
+        </item>
+      </select1>
+      <select1 ref="/data/which_affect_animal_three_dise/dengue_affect_animal">
+        <label ref="jr:itext('/data/which_affect_animal_three_dise/dengue_affect_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/dengue_affect_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/dengue_affect_animal:option1')"/>
+          <value>dont_know</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/dengue_affect_animal:option2')"/>
+          <value>doesnot_affect_animals</value>
+        </item>
+      </select1>
+      <select1 ref="/data/which_affect_animal_three_dise/RVF_affect_animal">
+        <label ref="jr:itext('/data/which_affect_animal_three_dise/RVF_affect_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/RVF_affect_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/RVF_affect_animal:option1')"/>
+          <value>dont_know</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/which_affect_animal_three_dise/RVF_affect_animal:option2')"/>
+          <value>doesnot_affect_animals</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/chikungunya" appearance="field-list">
+      <label ref="jr:itext('/data/chikungunya:label')"/>
+      <input ref="/data/chikungunya/chikungunya_animal1">
+        <label ref="jr:itext('/data/chikungunya/chikungunya_animal1:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign1_animal1">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign1_animal1:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign2_animal1">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign2_animal1:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign3_animal1">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign3_animal1:label')"/>
+      </input>
+      <input ref="/data/chikungunya/chikungunya_animal2">
+        <label ref="jr:itext('/data/chikungunya/chikungunya_animal2:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign1_animal2">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign1_animal2:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign2_animal2">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign2_animal2:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign3_animal2">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign3_animal2:label')"/>
+      </input>
+      <input ref="/data/chikungunya/chikungunya_animal3">
+        <label ref="jr:itext('/data/chikungunya/chikungunya_animal3:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign1_animal3">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign1_animal3:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign2_animal3">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign2_animal3:label')"/>
+      </input>
+      <input ref="/data/chikungunya/clinical_sign3_animal3">
+        <label ref="jr:itext('/data/chikungunya/clinical_sign3_animal3:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Dengue" appearance="field-list">
+      <label ref="jr:itext('/data/Dengue:label')"/>
+      <input ref="/data/Dengue/dengue_animal1">
+        <label ref="jr:itext('/data/Dengue/dengue_animal1:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign1_animal1">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign1_animal1:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign2_animal1">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign2_animal1:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign3_animal1">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign3_animal1:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_chikungunya_animal2">
+        <label ref="jr:itext('/data/Dengue/dengue_chikungunya_animal2:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign1_animal2">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign1_animal2:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign2_animal2">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign2_animal2:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign3_animal2">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign3_animal2:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_chikungunya_animal3">
+        <label ref="jr:itext('/data/Dengue/dengue_chikungunya_animal3:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign1_animal3">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign1_animal3:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign2_animal3">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign2_animal3:label')"/>
+      </input>
+      <input ref="/data/Dengue/dengue_clinical_sign3_animal3">
+        <label ref="jr:itext('/data/Dengue/dengue_clinical_sign3_animal3:label')"/>
+      </input>
+    </group>
+    <group ref="/data/RVF" appearance="field-list">
+      <label ref="jr:itext('/data/RVF:label')"/>
+      <input ref="/data/RVF/RVF_animal1">
+        <label ref="jr:itext('/data/RVF/RVF_animal1:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign1_animal1">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign1_animal1:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign2_animal1">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign2_animal1:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign3_animal1">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign3_animal1:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_chikungunya_animal2">
+        <label ref="jr:itext('/data/RVF/RVF_chikungunya_animal2:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign1_animal2">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign1_animal2:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign2_animal2">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign2_animal2:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign3_animal2">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign3_animal2:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_chikungunya_animal3">
+        <label ref="jr:itext('/data/RVF/RVF_chikungunya_animal3:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign1_animal3">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign1_animal3:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign2_animal3">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign2_animal3:label')"/>
+      </input>
+      <input ref="/data/RVF/RVF_clinical_sign3_animal3">
+        <label ref="jr:itext('/data/RVF/RVF_clinical_sign3_animal3:label')"/>
+      </input>
+    </group>
+    <group ref="/data/none_animal_exposure" appearance="field-list">
+      <label ref="jr:itext('/data/none_animal_exposure:label')"/>
+      <select1 ref="/data/none_animal_exposure/home_area_flooded">
+        <label ref="jr:itext('/data/none_animal_exposure/home_area_flooded:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure/home_area_flooded:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure/home_area_flooded:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/none_animal_exposure2" appearance="field-list">
+      <label ref="jr:itext('/data/none_animal_exposure2:label')"/>
+      <select1 ref="/data/none_animal_exposure2/when_flooded">
+        <label ref="jr:itext('/data/none_animal_exposure2/when_flooded:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/when_flooded:option0')"/>
+          <value>within_past_12months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/when_flooded:option1')"/>
+          <value>within_past_2yrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/when_flooded:option2')"/>
+          <value>3_5_past_yrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/when_flooded:option3')"/>
+          <value>more_5_past_yrs</value>
+        </item>
+      </select1>
+      <select1 ref="/data/none_animal_exposure2/water_holding_cont_home">
+        <label ref="jr:itext('/data/none_animal_exposure2/water_holding_cont_home:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/water_holding_cont_home:option0')"/>
+          <value>inside_house</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/water_holding_cont_home:option1')"/>
+          <value>outside_house</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/water_holding_cont_home:option2')"/>
+          <value>both_inside_outside_house</value>
+        </item>
+      </select1>
+      <select ref="/data/none_animal_exposure2/mosq_bleeding_environment">
+        <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option0')"/>
+          <value>shallow_dep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option1')"/>
+          <value>rice_field</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option2')"/>
+          <value>hoof_prints</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option3')"/>
+          <value>coconut_shell</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option4')"/>
+          <value>used_tyres</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option5')"/>
+          <value>water_storage_containers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option6')"/>
+          <value>swamps</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option7')"/>
+          <value>tins</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option8')"/>
+          <value>broken_ports</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option9')"/>
+          <value>buckets</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option10')"/>
+          <value>tyre_marks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option11')"/>
+          <value>concrete_holes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option12')"/>
+          <value>wells</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option13')"/>
+          <value>water_tanks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option14')"/>
+          <value>water_pools</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/mosq_bleeding_environment:option15')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/none_animal_exposure2/other_mosq_bleeding">
+        <label ref="jr:itext('/data/none_animal_exposure2/other_mosq_bleeding:label')"/>
+        <hint ref="jr:itext('/data/none_animal_exposure2/other_mosq_bleeding:hint')"/>
+      </input>
+      <select ref="/data/none_animal_exposure2/main_agri_practices">
+        <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:option0')"/>
+          <value>vegetable_gardening</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:option1')"/>
+          <value>maize_cultiva</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:option2')"/>
+          <value>rice_cultv</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:option3')"/>
+          <value>crop_irrig</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure2/main_agri_practices:option4')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/none_animal_exposure2/other_main_agri_practices">
+        <label ref="jr:itext('/data/none_animal_exposure2/other_main_agri_practices:label')"/>
+        <hint ref="jr:itext('/data/none_animal_exposure2/other_main_agri_practices:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/none_animal_exposure3" appearance="field-list">
+      <label ref="jr:itext('/data/none_animal_exposure3:label')"/>
+      <select ref="/data/none_animal_exposure3/following_activ_conducted_in_area">
+        <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:option0')"/>
+          <value>veg_gardening</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:option1')"/>
+          <value>maize_cult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:option2')"/>
+          <value>rice_cult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:option3')"/>
+          <value>crop_irrg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/following_activ_conducted_in_area:option4')"/>
+          <value>brick_making</value>
+        </item>
+      </select>
+      <select ref="/data/none_animal_exposure3/available_your_homestedy">
+        <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:option0')"/>
+          <value>water_storage_cont_uncover</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:option1')"/>
+          <value>water_storage_cont_cover</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:option2')"/>
+          <value>coconut_shells</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:option3')"/>
+          <value>flowers_beds_hold_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/available_your_homestedy:option4')"/>
+          <value>waste_disposal</value>
+        </item>
+      </select>
+      <select1 ref="/data/none_animal_exposure3/experience_upurge_mosquito">
+        <label ref="jr:itext('/data/none_animal_exposure3/experience_upurge_mosquito:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/experience_upurge_mosquito:option0')"/>
+          <value>within_12_month_past</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/experience_upurge_mosquito:option1')"/>
+          <value>within_past2_years</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/experience_upurge_mosquito:option2')"/>
+          <value>3_5_past_years</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/experience_upurge_mosquito:option3')"/>
+          <value>more_5past_years</value>
+        </item>
+      </select1>
+      <select1 ref="/data/none_animal_exposure3/frequency_using_net">
+        <label ref="jr:itext('/data/none_animal_exposure3/frequency_using_net:label')"/>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/frequency_using_net:option0')"/>
+          <value>Rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/frequency_using_net:option1')"/>
+          <value>Often</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/none_animal_exposure3/frequency_using_net:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/slept_on_net_last_night">
+      <label ref="jr:itext('/data/slept_on_net_last_night:label')"/>
+      <item>
+        <label ref="jr:itext('/data/slept_on_net_last_night:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/slept_on_net_last_night:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/other_forms_mosq_control">
+      <label ref="jr:itext('/data/other_forms_mosq_control:label')"/>
+      <item>
+        <label ref="jr:itext('/data/other_forms_mosq_control:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/other_forms_mosq_control:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/other_forms_mosq_control_specify">
+      <label ref="jr:itext('/data/other_forms_mosq_control_specify:label')"/>
+    </input>
+    <select1 ref="/data/experience_mosq_bite">
+      <label ref="jr:itext('/data/experience_mosq_bite:label')"/>
+      <item>
+        <label ref="jr:itext('/data/experience_mosq_bite:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/experience_mosq_bite:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/how_often">
+      <label ref="jr:itext('/data/how_often:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_often:option0')"/>
+        <value>Rarely</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often:option1')"/>
+        <value>often</value>
+      </item>
+    </select1>
+    <select1 ref="/data/any_person_illness_fever">
+      <label ref="jr:itext('/data/any_person_illness_fever:label')"/>
+      <item>
+        <label ref="jr:itext('/data/any_person_illness_fever:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/any_person_illness_fever:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/data/section_4_animal_exposure" appearance="field-list">
+      <label ref="jr:itext('/data/section_4_animal_exposure:label')"/>
+      <select1 ref="/data/section_4_animal_exposure/keep_animal_within_house">
+        <label ref="jr:itext('/data/section_4_animal_exposure/keep_animal_within_house:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure/keep_animal_within_house:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure/keep_animal_within_house:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/section_4_animal_exposure1" appearance="field-list">
+      <label ref="jr:itext('/data/section_4_animal_exposure1:label')"/>
+      <select ref="/data/section_4_animal_exposure1/which_animals">
+        <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:label')"/>
+        <hint ref="jr:itext('/data/section_4_animal_exposure1/which_animals:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option0')"/>
+          <value>adult_sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option1')"/>
+          <value>adult_goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option2')"/>
+          <value>adult_cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option3')"/>
+          <value>young_sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option4')"/>
+          <value>young_goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option5')"/>
+          <value>young_cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure1/which_animals:option6')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/section_4_animal_exposure1/which_animal_others">
+        <label ref="jr:itext('/data/section_4_animal_exposure1/which_animal_others:label')"/>
+        <hint ref="jr:itext('/data/section_4_animal_exposure1/which_animal_others:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/section_4_animal_exposure2" appearance="field-list">
+      <label ref="jr:itext('/data/section_4_animal_exposure2:label')"/>
+      <select1 ref="/data/section_4_animal_exposure2/heard_animal_grazing">
+        <label ref="jr:itext('/data/section_4_animal_exposure2/heard_animal_grazing:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/heard_animal_grazing:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/heard_animal_grazing:option1')"/>
+          <value>NA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/heard_animal_grazing:option2')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/section_4_animal_exposure2/participated_in_slaughering_animal">
+        <label ref="jr:itext('/data/section_4_animal_exposure2/participated_in_slaughering_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/participated_in_slaughering_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/participated_in_slaughering_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure2/participated_in_slaughering_animal:option2')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/when_slaughter">
+      <label ref="jr:itext('/data/when_slaughter:label')"/>
+      <item>
+        <label ref="jr:itext('/data/when_slaughter:option0')"/>
+        <value>one_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/when_slaughter:option1')"/>
+        <value>two_months_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/when_slaughter:option2')"/>
+        <value>more_than_2_months_ago</value>
+      </item>
+    </select1>
+    <select ref="/data/which_animal_slaughter">
+      <label ref="jr:itext('/data/which_animal_slaughter:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_animal_slaughter:option0')"/>
+        <value>Sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_slaughter:option1')"/>
+        <value>Goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_slaughter:option2')"/>
+        <value>Cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_slaughter:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/which_animal_slaughter_other">
+      <label ref="jr:itext('/data/which_animal_slaughter_other:label')"/>
+      <hint ref="jr:itext('/data/which_animal_slaughter_other:hint')"/>
+    </input>
+    <group ref="/data/section_4_animal_exposure3" appearance="field-list">
+      <label ref="jr:itext('/data/section_4_animal_exposure3:label')"/>
+      <select1 ref="/data/section_4_animal_exposure3/what_role_played">
+        <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option0')"/>
+          <value>restraining_animal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option1')"/>
+          <value>bleeding_out</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option2')"/>
+          <value>skinning_animal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option3')"/>
+          <value>removing_offa_viscera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option4')"/>
+          <value>splitting_carcass</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option5')"/>
+          <value>clean_carcas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option6')"/>
+          <value>hanging_carcass</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option7')"/>
+          <value>butchering_carcass</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played:option8')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <input ref="/data/section_4_animal_exposure3/what_role_played_other">
+        <label ref="jr:itext('/data/section_4_animal_exposure3/what_role_played_other:label')"/>
+        <hint ref="jr:itext('/data/section_4_animal_exposure3/what_role_played_other:hint')"/>
+      </input>
+      <select1 ref="/data/section_4_animal_exposure3/post_mortem_inspected_by_vet">
+        <label ref="jr:itext('/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/post_mortem_inspected_by_vet:option2')"/>
+          <value>dont_know_dont_remember</value>
+        </item>
+      </select1>
+      <select1 ref="/data/section_4_animal_exposure3/last_consume_animal">
+        <label ref="jr:itext('/data/section_4_animal_exposure3/last_consume_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/last_consume_animal:option0')"/>
+          <value>one_month_ago</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/last_consume_animal:option1')"/>
+          <value>two_month_ago</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/last_consume_animal:option2')"/>
+          <value>more_2months_ago</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/section_4_animal_exposure3/last_consume_animal:option3')"/>
+          <value>never</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/source_meat_ate">
+      <label ref="jr:itext('/data/source_meat_ate:label')"/>
+      <item>
+        <label ref="jr:itext('/data/source_meat_ate:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/source_meat_ate:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/source_meat_ate:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/source_meat_ate:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/source_meat_ate_other">
+      <label ref="jr:itext('/data/source_meat_ate_other:label')"/>
+    </input>
+    <select1 ref="/data/last_milk_animal">
+      <label ref="jr:itext('/data/last_milk_animal:label')"/>
+      <item>
+        <label ref="jr:itext('/data/last_milk_animal:option0')"/>
+        <value>one_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_milk_animal:option1')"/>
+        <value>two_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_milk_animal:option2')"/>
+        <value>more_than_2_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_milk_animal:option3')"/>
+        <value>NA_under_seven</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_milk_animal:option4')"/>
+        <value>never</value>
+      </item>
+    </select1>
+    <select1 ref="/data/which_animal_milk">
+      <label ref="jr:itext('/data/which_animal_milk:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_animal_milk:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_milk:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_milk:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_milk:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/which_animal_milk_other">
+      <label ref="jr:itext('/data/which_animal_milk_other:label')"/>
+    </input>
+    <select1 ref="/data/last_consume_raw_blood">
+      <label ref="jr:itext('/data/last_consume_raw_blood:label')"/>
+      <item>
+        <label ref="jr:itext('/data/last_consume_raw_blood:option0')"/>
+        <value>one_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_consume_raw_blood:option1')"/>
+        <value>two_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_consume_raw_blood:option2')"/>
+        <value>more_than_2_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_consume_raw_blood:option3')"/>
+        <value>never</value>
+      </item>
+    </select1>
+    <select1 ref="/data/animal_raw_blood_consumed">
+      <label ref="jr:itext('/data/animal_raw_blood_consumed:label')"/>
+      <item>
+        <label ref="jr:itext('/data/animal_raw_blood_consumed:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_raw_blood_consumed:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_raw_blood_consumed:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_raw_blood_consumed:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/animal_raw_blood_consumed_other">
+      <label ref="jr:itext('/data/animal_raw_blood_consumed_other:label')"/>
+    </input>
+    <select1 ref="/data/care_for_animal_give_birth">
+      <label ref="jr:itext('/data/care_for_animal_give_birth:label')"/>
+      <item>
+        <label ref="jr:itext('/data/care_for_animal_give_birth:option0')"/>
+        <value>one_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/care_for_animal_give_birth:option1')"/>
+        <value>two_months_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/care_for_animal_give_birth:option2')"/>
+        <value>more_than_two_months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/care_for_animal_give_birth:option3')"/>
+        <value>never</value>
+      </item>
+    </select1>
+    <select1 ref="/data/which_animal_cre_birth">
+      <label ref="jr:itext('/data/which_animal_cre_birth:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_animal_cre_birth:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_cre_birth:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_cre_birth:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal_cre_birth:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/which_animal_cre_birth_other">
+      <label ref="jr:itext('/data/which_animal_cre_birth_other:label')"/>
+    </input>
+    <select1 ref="/data/when_dspose_handle">
+      <label ref="jr:itext('/data/when_dspose_handle:label')"/>
+      <item>
+        <label ref="jr:itext('/data/when_dspose_handle:option0')"/>
+        <value>one_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/when_dspose_handle:option1')"/>
+        <value>two_months_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/when_dspose_handle:option2')"/>
+        <value>more_than_two_month_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/when_dspose_handle:option3')"/>
+        <value>Never</value>
+      </item>
+    </select1>
+    <select1 ref="/data/animal_foetus">
+      <label ref="jr:itext('/data/animal_foetus:label')"/>
+      <item>
+        <label ref="jr:itext('/data/animal_foetus:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_foetus:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_foetus:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_foetus:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/animal_foetus_other">
+      <label ref="jr:itext('/data/animal_foetus_other:label')"/>
+    </input>
+    <select ref="/data/normal_do_animal_die">
+      <label ref="jr:itext('/data/normal_do_animal_die:label')"/>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option0')"/>
+        <value>call_vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option1')"/>
+        <value>slaughter_eat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option2')"/>
+        <value>slaughter_share_neighbours</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option3')"/>
+        <value>slaugher_shell</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option4')"/>
+        <value>dispose_in_pit</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option5')"/>
+        <value>incinerate_cadaver</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option6')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/normal_do_animal_die:option7')"/>
+        <value>donot_keep_animal</value>
+      </item>
+    </select>
+    <input ref="/data/normal_do_animal_die_other">
+      <label ref="jr:itext('/data/normal_do_animal_die_other:label')"/>
+    </input>
+    <input ref="/data/ID_blood_sample">
+      <label ref="jr:itext('/data/ID_blood_sample:label')"/>
+    </input>
+    <input ref="/data/boady_temp">
+      <label ref="jr:itext('/data/boady_temp:label')"/>
+    </input>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

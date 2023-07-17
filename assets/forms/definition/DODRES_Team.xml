@@ -1,0 +1,614 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>DODRES Team</h:title>
+    <model>
+      <instance>
+        <data id="build_DODRES-Team_1534332529">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <quantify_effect>
+            <no_of_events_reported/>
+            <no.outbreak_dodres_helped/>
+            <no.outbreak_team_helped_in_comm_at_app_level/>
+            <no_oubreak_team_helped_control/>
+            <no_of_comm_reassurance/>
+            <no_of_CHR_trained/>
+            <LFO_trained/>
+            <HF_trained/>
+          </quantify_effect>
+          <quantify_effect1>
+            <IDSR_focal_trained/>
+            <animal_pop_under_surveillance/>
+            <human_pop_under_surveill/>
+            <disease_under_surveill/>
+            <animal_diseas_under_surveill/>
+            <no_of_data_prov_submit_on_time/>
+            <tools_refined/>
+            <tools_audits_conducted/>
+          </quantify_effect1>
+          <quantify_effect2>
+            <stakeholders_not_in_their_area/>
+            <no_phones_provided/>
+            <phone_stolen_reported/>
+            <desktop_provided/>
+            <computer_lost_stolen/>
+            <times_afyadata_encounter_fault/>
+            <no_of_news_letter/>
+            <no_of_news_letter_receipient/>
+          </quantify_effect2>
+          <quantify_effect3>
+            <demo_to_AMREF/>
+            <min_of_AMREF_Demo_meeting/>
+            <participate_learring_AMREF/>
+            <report_on_AmREF_participation/>
+            <developed_IEC_materials/>
+            <copies_of_IEC/>
+            <farmilization_tool_to_kilosa_ulanga_malinyi/>
+            <report_on_farmilization/>
+          </quantify_effect3>
+          <quantify_effect4>
+            <meet_eIDSR_progremmer/>
+            <minutes_eIDSR_programmer/>
+            <organize_show_case_for_Inter_eIDSR/>
+            <report_organize_show_case_for_Inter_eIDSR/>
+            <meet_with_ministry_LV/>
+            <minutes_meet_with_ministry_LV/>
+            <meet_ministry_LV_demostrat/>
+            <mini_meet_ministry_LV_demostrat/>
+          </quantify_effect4>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/quantify_effect:label">
+            <value>Quantifying the effect 1</value>
+          </text>
+          <text id="/data/quantify_effect/no_of_events_reported:label">
+            <value>1. Total number of disease events reported during the project life cycle</value>
+          </text>
+          <text id="/data/quantify_effect/no.outbreak_dodres_helped:label">
+            <value>2. Number of outbreaks in which DODRES team/tools helped in detection</value>
+          </text>
+          <text id="/data/quantify_effect/no.outbreak_team_helped_in_comm_at_app_level:label">
+            <value>3. Number of outbreaks in which DODRES team/tools  helped in communication to appropriate levels</value>
+          </text>
+          <text id="/data/quantify_effect/no_oubreak_team_helped_control:label">
+            <value>4. Number of outbreaks in which DODRES team/tools  helped in control</value>
+          </text>
+          <text id="/data/quantify_effect/no_of_comm_reassurance:label">
+            <value>5. Number of community reassurance (# of press release, Decision makers satisfaction) </value>
+          </text>
+          <text id="/data/quantify_effect/no_of_CHR_trained:label">
+            <value>6. Number of CHRs trained</value>
+          </text>
+          <text id="/data/quantify_effect/LFO_trained:label">
+            <value>7. Number of LFOs trained</value>
+          </text>
+          <text id="/data/quantify_effect/HF_trained:label">
+            <value>8. Number of workers from health care facilities trained</value>
+          </text>
+          <text id="/data/quantify_effect1:label">
+            <value>Quantifying the effect 2</value>
+          </text>
+          <text id="/data/quantify_effect1/IDSR_focal_trained:label">
+            <value>9. Number of IDSR focal persons trained</value>
+          </text>
+          <text id="/data/quantify_effect1/animal_pop_under_surveillance:label">
+            <value>10. Population of animals under surveillance</value>
+          </text>
+          <text id="/data/quantify_effect1/human_pop_under_surveill:label">
+            <value>11. Population of humans under surveillance</value>
+          </text>
+          <text id="/data/quantify_effect1/disease_under_surveill:label">
+            <value>12. Number of human diseases under surveillance</value>
+          </text>
+          <text id="/data/quantify_effect1/animal_diseas_under_surveill:label">
+            <value>13. Number of animal diseases under surveillance</value>
+          </text>
+          <text id="/data/quantify_effect1/no_of_data_prov_submit_on_time:label">
+            <value>14. Number of data provider submit data on time (within 24h)</value>
+          </text>
+          <text id="/data/quantify_effect1/tools_refined:label">
+            <value>15. Number of tools refined</value>
+          </text>
+          <text id="/data/quantify_effect1/tools_audits_conducted:label">
+            <value>16. Number of tools audits conducted</value>
+          </text>
+          <text id="/data/quantify_effect2:label">
+            <value>Quantifying the effect 3</value>
+          </text>
+          <text id="/data/quantify_effect2/stakeholders_not_in_their_area:label">
+            <value>17. Number of trained stakeholders not living in their respective areas</value>
+          </text>
+          <text id="/data/quantify_effect2/no_phones_provided:label">
+            <value>18. Number of mobile phones provided to stakeholders</value>
+          </text>
+          <text id="/data/quantify_effect2/phone_stolen_reported:label">
+            <value>19. Number of mobile phones not functioning/lost/stolen</value>
+          </text>
+          <text id="/data/quantify_effect2/desktop_provided:label">
+            <value>20. Number of desktop computers provided to stakeholders</value>
+          </text>
+          <text id="/data/quantify_effect2/computer_lost_stolen:label">
+            <value>21. Number of desktop computers not functioning/lost/stolen</value>
+          </text>
+          <text id="/data/quantify_effect2/times_afyadata_encounter_fault:label">
+            <value>22. Number of times the digital technology (afyadata)tool encounter technical fault</value>
+          </text>
+          <text id="/data/quantify_effect2/no_of_news_letter:label">
+            <value>23. Number of TechnoHealth Surveillance newsletter</value>
+          </text>
+          <text id="/data/quantify_effect2/no_of_news_letter_receipient:label">
+            <value>24. Number of recipients of TechnoHealth Surveillance newsletter</value>
+          </text>
+          <text id="/data/quantify_effect3:label">
+            <value>Quantifying the effect 4</value>
+          </text>
+          <text id="/data/quantify_effect3/demo_to_AMREF:label">
+            <value>25. Did you demonstrate and discuss on use of digital technology (AfyaData)  to enhance disease surveillance to Amref Health Africa</value>
+          </text>
+          <text id="/data/quantify_effect3/demo_to_AMREF:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/demo_to_AMREF:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/min_of_AMREF_Demo_meeting:label">
+            <value>26. Minutes of the meeting with Amref Health Africa to demonstrate and discuss on the use of AfyaData seen</value>
+          </text>
+          <text id="/data/quantify_effect3/min_of_AMREF_Demo_meeting:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/min_of_AMREF_Demo_meeting:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/participate_learring_AMREF:label">
+            <value>27. Did you participate in the learning visit to Amref Health Africa CDC project site? </value>
+          </text>
+          <text id="/data/quantify_effect3/participate_learring_AMREF:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/participate_learring_AMREF:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_AmREF_participation:label">
+            <value>28. Report on participation in the Amref Health Africa project sites seen. </value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_AmREF_participation:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_AmREF_participation:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/developed_IEC_materials:label">
+            <value>29. Have you developed Information Education and Communication (IEC) materials, which describe the functionality of the AfyaData  </value>
+          </text>
+          <text id="/data/quantify_effect3/developed_IEC_materials:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/developed_IEC_materials:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/copies_of_IEC:label">
+            <value>30. Copies of IEC materials seen </value>
+          </text>
+          <text id="/data/quantify_effect3/copies_of_IEC:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/copies_of_IEC:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:label">
+            <value>31. Did you organize AfyaData tool familiarization and demonstration meetings for the appointed focal persons and community leaders in Ulanga, Kilosa and Malinyi? </value>
+          </text>
+          <text id="/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_farmilization:label">
+            <value>32. Report on AfyaData demonstration in Ulanga, Kilosa and Malinyi seen</value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_farmilization:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect3/report_on_farmilization:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4:label">
+            <value>Quantifying the effect 5</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_eIDSR_progremmer:label">
+            <value>33. Did you meet with current developers of eIDSR to understand existing and planned architecture? </value>
+          </text>
+          <text id="/data/quantify_effect4/meet_eIDSR_progremmer:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_eIDSR_progremmer:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_eIDSR_programmer:label">
+            <value>34. Minutes of the meeting with eIDSR developers seen. </value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_eIDSR_programmer:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_eIDSR_programmer:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:label">
+            <value>35. Did you organize stakeholder show-casing events for integrated e-IDSR-AfyaData tools to support disease surveillance in the roll out target districts?</value>
+          </text>
+          <text id="/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:label">
+            <value>36. Report on show-casing events for integrated e-IDSR-AfyaData tools to support disease surveillance in the roll out target districts seen</value>
+          </text>
+          <text id="/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_with_ministry_LV:label">
+            <value>37. Did you meet with ministry responsible for livestock to understand existing and planned architecture? </value>
+          </text>
+          <text id="/data/quantify_effect4/meet_with_ministry_LV:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_with_ministry_LV:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_meet_with_ministry_LV:label">
+            <value>38. Minutes of the meeting with ministry responsible on existing planned architecture for livestock seen</value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_meet_with_ministry_LV:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/minutes_meet_with_ministry_LV:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_ministry_LV_demostrat:label">
+            <value>39. Did you meet with ministry responsible for livestock to demonstrate and discuss on the use of digital technology (AfyaData) to enhance disease surveillance? </value>
+          </text>
+          <text id="/data/quantify_effect4/meet_ministry_LV_demostrat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/meet_ministry_LV_demostrat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/quantify_effect4/mini_meet_ministry_LV_demostrat:label">
+            <value>40. Minutes of the meeting with ministry responsible for livestock to demonstrate AfyaData seen</value>
+          </text>
+          <text id="/data/quantify_effect4/mini_meet_ministry_LV_demostrat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/quantify_effect4/mini_meet_ministry_LV_demostrat:option1">
+            <value>No</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/quantify_effect/no_of_events_reported" type="int"/>
+      <bind nodeset="/data/quantify_effect/no.outbreak_dodres_helped" type="int"/>
+      <bind nodeset="/data/quantify_effect/no.outbreak_team_helped_in_comm_at_app_level" type="int"/>
+      <bind nodeset="/data/quantify_effect/no_oubreak_team_helped_control" type="int"/>
+      <bind nodeset="/data/quantify_effect/no_of_comm_reassurance" type="int"/>
+      <bind nodeset="/data/quantify_effect/no_of_CHR_trained" type="int"/>
+      <bind nodeset="/data/quantify_effect/LFO_trained" type="int"/>
+      <bind nodeset="/data/quantify_effect/HF_trained" type="int"/>
+      <bind nodeset="/data/quantify_effect1/IDSR_focal_trained" type="int"/>
+      <bind nodeset="/data/quantify_effect1/animal_pop_under_surveillance" type="int"/>
+      <bind nodeset="/data/quantify_effect1/human_pop_under_surveill" type="int"/>
+      <bind nodeset="/data/quantify_effect1/disease_under_surveill" type="int"/>
+      <bind nodeset="/data/quantify_effect1/animal_diseas_under_surveill" type="int"/>
+      <bind nodeset="/data/quantify_effect1/no_of_data_prov_submit_on_time" type="int"/>
+      <bind nodeset="/data/quantify_effect1/tools_refined" type="int"/>
+      <bind nodeset="/data/quantify_effect1/tools_audits_conducted" type="int"/>
+      <bind nodeset="/data/quantify_effect2/stakeholders_not_in_their_area" type="int"/>
+      <bind nodeset="/data/quantify_effect2/no_phones_provided" type="int"/>
+      <bind nodeset="/data/quantify_effect2/phone_stolen_reported" type="int"/>
+      <bind nodeset="/data/quantify_effect2/desktop_provided" type="int"/>
+      <bind nodeset="/data/quantify_effect2/computer_lost_stolen" type="int"/>
+      <bind nodeset="/data/quantify_effect2/times_afyadata_encounter_fault" type="int"/>
+      <bind nodeset="/data/quantify_effect2/no_of_news_letter" type="int"/>
+      <bind nodeset="/data/quantify_effect2/no_of_news_letter_receipient" type="int"/>
+      <bind nodeset="/data/quantify_effect3/demo_to_AMREF" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/min_of_AMREF_Demo_meeting" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/participate_learring_AMREF" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/report_on_AmREF_participation" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/developed_IEC_materials" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/copies_of_IEC" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi" type="select1"/>
+      <bind nodeset="/data/quantify_effect3/report_on_farmilization" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/meet_eIDSR_progremmer" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/minutes_eIDSR_programmer" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/organize_show_case_for_Inter_eIDSR" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/meet_with_ministry_LV" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/minutes_meet_with_ministry_LV" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/meet_ministry_LV_demostrat" type="select1"/>
+      <bind nodeset="/data/quantify_effect4/mini_meet_ministry_LV_demostrat" type="select1"/>
+
+      
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/quantify_effect:label')"/>
+      <input ref="/data/quantify_effect/no_of_events_reported">
+        <label ref="jr:itext('/data/quantify_effect/no_of_events_reported:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/no.outbreak_dodres_helped">
+        <label ref="jr:itext('/data/quantify_effect/no.outbreak_dodres_helped:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/no.outbreak_team_helped_in_comm_at_app_level">
+        <label ref="jr:itext('/data/quantify_effect/no.outbreak_team_helped_in_comm_at_app_level:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/no_oubreak_team_helped_control">
+        <label ref="jr:itext('/data/quantify_effect/no_oubreak_team_helped_control:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/no_of_comm_reassurance">
+        <label ref="jr:itext('/data/quantify_effect/no_of_comm_reassurance:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/no_of_CHR_trained">
+        <label ref="jr:itext('/data/quantify_effect/no_of_CHR_trained:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/LFO_trained">
+        <label ref="jr:itext('/data/quantify_effect/LFO_trained:label')"/>
+      </input>
+      <input ref="/data/quantify_effect/HF_trained">
+        <label ref="jr:itext('/data/quantify_effect/HF_trained:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/quantify_effect1:label')"/>
+      <input ref="/data/quantify_effect1/IDSR_focal_trained">
+        <label ref="jr:itext('/data/quantify_effect1/IDSR_focal_trained:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/animal_pop_under_surveillance">
+        <label ref="jr:itext('/data/quantify_effect1/animal_pop_under_surveillance:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/human_pop_under_surveill">
+        <label ref="jr:itext('/data/quantify_effect1/human_pop_under_surveill:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/disease_under_surveill">
+        <label ref="jr:itext('/data/quantify_effect1/disease_under_surveill:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/animal_diseas_under_surveill">
+        <label ref="jr:itext('/data/quantify_effect1/animal_diseas_under_surveill:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/no_of_data_prov_submit_on_time">
+        <label ref="jr:itext('/data/quantify_effect1/no_of_data_prov_submit_on_time:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/tools_refined">
+        <label ref="jr:itext('/data/quantify_effect1/tools_refined:label')"/>
+      </input>
+      <input ref="/data/quantify_effect1/tools_audits_conducted">
+        <label ref="jr:itext('/data/quantify_effect1/tools_audits_conducted:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/quantify_effect2:label')"/>
+      <input ref="/data/quantify_effect2/stakeholders_not_in_their_area">
+        <label ref="jr:itext('/data/quantify_effect2/stakeholders_not_in_their_area:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/no_phones_provided">
+        <label ref="jr:itext('/data/quantify_effect2/no_phones_provided:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/phone_stolen_reported">
+        <label ref="jr:itext('/data/quantify_effect2/phone_stolen_reported:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/desktop_provided">
+        <label ref="jr:itext('/data/quantify_effect2/desktop_provided:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/computer_lost_stolen">
+        <label ref="jr:itext('/data/quantify_effect2/computer_lost_stolen:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/times_afyadata_encounter_fault">
+        <label ref="jr:itext('/data/quantify_effect2/times_afyadata_encounter_fault:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/no_of_news_letter">
+        <label ref="jr:itext('/data/quantify_effect2/no_of_news_letter:label')"/>
+      </input>
+      <input ref="/data/quantify_effect2/no_of_news_letter_receipient">
+        <label ref="jr:itext('/data/quantify_effect2/no_of_news_letter_receipient:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/quantify_effect3:label')"/>
+      <select1 ref="/data/quantify_effect3/demo_to_AMREF" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/demo_to_AMREF:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/demo_to_AMREF:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/demo_to_AMREF:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/min_of_AMREF_Demo_meeting" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/min_of_AMREF_Demo_meeting:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/min_of_AMREF_Demo_meeting:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/min_of_AMREF_Demo_meeting:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/participate_learring_AMREF" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/participate_learring_AMREF:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/participate_learring_AMREF:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/participate_learring_AMREF:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/report_on_AmREF_participation" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/report_on_AmREF_participation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/report_on_AmREF_participation:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/report_on_AmREF_participation:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/developed_IEC_materials" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/developed_IEC_materials:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/developed_IEC_materials:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/developed_IEC_materials:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/copies_of_IEC" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/copies_of_IEC:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/copies_of_IEC:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/copies_of_IEC:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/farmilization_tool_to_kilosa_ulanga_malinyi:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect3/report_on_farmilization" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect3/report_on_farmilization:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/report_on_farmilization:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect3/report_on_farmilization:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/quantify_effect4:label')"/>
+      <select1 ref="/data/quantify_effect4/meet_eIDSR_progremmer" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/meet_eIDSR_progremmer:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_eIDSR_progremmer:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_eIDSR_progremmer:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/minutes_eIDSR_programmer" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/minutes_eIDSR_programmer:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/minutes_eIDSR_programmer:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/minutes_eIDSR_programmer:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/organize_show_case_for_Inter_eIDSR" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/organize_show_case_for_Inter_eIDSR:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/report_organize_show_case_for_Inter_eIDSR:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/meet_with_ministry_LV" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/meet_with_ministry_LV:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_with_ministry_LV:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_with_ministry_LV:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/minutes_meet_with_ministry_LV" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/minutes_meet_with_ministry_LV:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/minutes_meet_with_ministry_LV:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/minutes_meet_with_ministry_LV:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/meet_ministry_LV_demostrat" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/meet_ministry_LV_demostrat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_ministry_LV_demostrat:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/meet_ministry_LV_demostrat:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/quantify_effect4/mini_meet_ministry_LV_demostrat" appearance="minimal">
+        <label ref="jr:itext('/data/quantify_effect4/mini_meet_ministry_LV_demostrat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/mini_meet_ministry_LV_demostrat:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/quantify_effect4/mini_meet_ministry_LV_demostrat:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,1493 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Monitoring-Evaluation Officials</h:title>
+    <model>
+      <instance>
+        <data id="build_Monitoring-Evaluation-Officials_1534598973">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <ini_details>
+            <date/>
+            <region>
+              Morogoro
+            </region>
+            <district/>
+            <position/>
+            <time_assume_position/>
+          </ini_details>
+          <promote_community_OH>
+            <project_enhance_work_OH_fight/>
+          </promote_community_OH>
+          <Dis_survei_project_supported>
+            <compl_particpaorty_local_communit/>
+            <enh_early_disea_detec_at_comm_level/>
+            <enh_timely_repr_at_comm_level/>
+            <en_linkag_evnt_from_comm_to_exist_system/>
+            <en_prompt_resp_disea_at_comm_level/>
+          </Dis_survei_project_supported>
+          <Dis_survei_project_supported1>
+            <enh_timly_report_to_HC_LFO/>
+            <enh_timel_rep_to_district/>
+            <enh_prom_feedbac_from_primary_heal_c_LFO/>
+            <enh_prom_feed_resp_from_district_level/>
+            <enh_promp_feedback_from_reg_level/>
+            <enh_prompt_feed_resp_from_nati_level/>
+          </Dis_survei_project_supported1>
+          <training>
+            <suff_train_on_digital_provided_to_CH/>
+            <trainin_of_exist_CHR_was_effe_strategy/>
+            <suff_train_on_digit_was_prov_to_HFS/>
+            <Suff_train_on_digit_was_provid_to_LFO/>
+            <traing_meth_was_effect/>
+            <traing_appr_was_partciap/>
+            <trainees_gained_new_tech/>
+          </training>
+          <tool>
+            <too_easy_to_install_navigate/>
+            <tool_support_data_capture_storage/>
+            <tool_used_support_report/>
+            <tool_used_support_prov_feedback_at_heal_LFO/>
+            <tool_used_support_prov_feed_withn_comm/>
+            <data_collected_relevence_cmbased_dis_surveillance/>
+            <data_collected_relevence_national_dis/>
+            <need_revise_amount_data_collected/>
+          </tool>
+          <whatsapp_social_net>
+            <usefull_to_share_exp/>
+            <usef_to_share_challanges/>
+            <useful_to_receive_sol/>
+            <useful_to_gain_knowl/>
+          </whatsapp_social_net>
+          <technical_health_newsletter>
+            <mechanism_used_to_dissem_was_good/>
+            <usefull_info/>
+          </technical_health_newsletter>
+          <networking/>
+          <general_remarks/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/ini_details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/ini_details/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/ini_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/ini_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/ini_details/district:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/ini_details/district:option1">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/ini_details/district:option2">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/ini_details/district:option3">
+            <value>NA (for RMO/RVO/National Focal person)</value>
+          </text>
+          <text id="/data/ini_details/position:label">
+            <value>Position</value>
+          </text>
+          <text id="/data/ini_details/position:option0">
+            <value>DMO</value>
+          </text>
+          <text id="/data/ini_details/position:option1">
+            <value>DVO</value>
+          </text>
+          <text id="/data/ini_details/position:option2">
+            <value>HF Staff</value>
+          </text>
+          <text id="/data/ini_details/position:option3">
+            <value>IDSR Focal Person</value>
+          </text>
+          <text id="/data/ini_details/position:option4">
+            <value>LFO</value>
+          </text>
+          <text id="/data/ini_details/position:option5">
+            <value>RMO</value>
+          </text>
+          <text id="/data/ini_details/position:option6">
+            <value>RVO</value>
+          </text>
+          <text id="/data/ini_details/position:option7">
+            <value>National Focal Person</value>
+          </text>
+          <text id="/data/ini_details/time_assume_position:label">
+            <value>When did you assume your position in this area (Month/Year)</value>
+          </text>
+          <text id="/data/ini_details/time_assume_position:hint">
+            <value>eg 04/2017</value>
+          </text>
+          <text id="/data/promote_community_OH:label">
+            <value>Goal Of Project: 1. To promote community-level One Health security</value>
+          </text>
+          <text id="/data/promote_community_OH/project_enhance_work_OH_fight:label">
+            <value>1.1	The project has enhanced working across animal and human sectors to fight epidemics in human and animal populations</value>
+          </text>
+          <text id="/data/promote_community_OH/project_enhance_work_OH_fight:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/promote_community_OH/project_enhance_work_OH_fight:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/promote_community_OH/project_enhance_work_OH_fight:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/promote_community_OH/project_enhance_work_OH_fight:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported:label">
+            <value>2. Disease surveillance; the project has supported</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/compl_particpaorty_local_communit:label">
+            <value>2.1. Complementing participatory engagement of local communities</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:label">
+            <value>2.2. Enhanced early disease detection at community level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:label">
+            <value>2.3. Enhanced  timely reporting of disease events from community level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:label">
+            <value>2.4. Enhanced  linkage of health events from community level to the existing surveillance systems</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:label">
+            <value>2.5. Enhanced  prompt response to disease events at community level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1:label">
+            <value>2. Disease surveillance; the project has supported</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:label">
+            <value>2.6. Enhanced  timely reporting of disease events to primary health care facility/LFO </value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timel_rep_to_district:label">
+            <value>2.7. Enhanced  timely reporting of disease events to district level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:label">
+            <value>2.8. Enhanced  prompt feedback/response from primary health care facility/LFO </value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:label">
+            <value>2.9. Enhanced  prompt feedback/response from district level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option3">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:label">
+            <value>2.10. Enhanced  prompt feedback/response from region level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:label">
+            <value>2.11. Enhanced   prompt feedback/response from national level</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option3">
+            <value>Strongly DIsagree</value>
+          </text>
+          <text id="/data/training:label">
+            <value>3. Training</value>
+          </text>
+          <text id="/data/training/suff_train_on_digital_provided_to_CH:label">
+            <value>3.1.	Sufficient training on use of digital technology (AfyaData) was provided to Community Health Reporters </value>
+          </text>
+          <text id="/data/training/suff_train_on_digital_provided_to_CH:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digital_provided_to_CH:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digital_provided_to_CH:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digital_provided_to_CH:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/trainin_of_exist_CHR_was_effe_strategy:label">
+            <value>3.2.	Training of existing Community Health Reporters was an effective strategy</value>
+          </text>
+          <text id="/data/training/trainin_of_exist_CHR_was_effe_strategy:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/trainin_of_exist_CHR_was_effe_strategy:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/trainin_of_exist_CHR_was_effe_strategy:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/trainin_of_exist_CHR_was_effe_strategy:option3">
+            <value>Strongly disagree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:label">
+            <value>3.3.	Sufficient training on use of digital technology (AfyaData) was provided to human health staff</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/suff_train_on_digit_was_prov_to_HFS:option4">
+            <value>Not Known</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:label">
+            <value>3.4.	Sufficient training  on use of digital technology (AfyaData) was provided for livestock health staff</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/Suff_train_on_digit_was_provid_to_LFO:option4">
+            <value>Not Known</value>
+          </text>
+          <text id="/data/training/traing_meth_was_effect:label">
+            <value>3.5.	Training methods used were effective</value>
+          </text>
+          <text id="/data/training/traing_meth_was_effect:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/traing_meth_was_effect:option1">
+            <value>Agreed</value>
+          </text>
+          <text id="/data/training/traing_meth_was_effect:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/traing_meth_was_effect:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/traing_appr_was_partciap:label">
+            <value>3.6.	Training approach was participatory</value>
+          </text>
+          <text id="/data/training/traing_appr_was_partciap:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/traing_appr_was_partciap:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/traing_appr_was_partciap:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/traing_appr_was_partciap:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:label">
+            <value>3.7.	Trained stakeholders gained new knowledge and skills</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/training/trainees_gained_new_tech:option4">
+            <value>Not Known</value>
+          </text>
+          <text id="/data/tool:label">
+            <value>4. Tool</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:label">
+            <value>4.1.	Digital tools (AfyaData) used easy to install, use and navigate</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/tool/too_easy_to_install_navigate:option4">
+            <value>Never Use</value>
+          </text>
+          <text id="/data/tool/tool_support_data_capture_storage:label">
+            <value>4.2.	Digital tools (AfyaData) used support data capture and storage</value>
+          </text>
+          <text id="/data/tool/tool_support_data_capture_storage:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/tool_support_data_capture_storage:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/tool_support_data_capture_storage:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/tool_support_data_capture_storage:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_report:label">
+            <value>4.3.	Digital tools (AfyaData)  used support reporting</value>
+          </text>
+          <text id="/data/tool/tool_used_support_report:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_report:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_report:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_report:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feedback_at_heal_LFO:label">
+            <value>4.4.	Digital tools (AfyaData) used support provision of feedback at health facilities/LFO offices</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feed_withn_comm:label">
+            <value>4.5.	Digital tools (AfyaData) used support provision of feedback within communities</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feed_withn_comm:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feed_withn_comm:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feed_withn_comm:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/tool_used_support_prov_feed_withn_comm:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_cmbased_dis_surveillance:label">
+            <value>4.6. Data collected through AfyaDAta were relevant to community based disease surveillance</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_cmbased_dis_surveillance:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_cmbased_dis_surveillance:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_cmbased_dis_surveillance:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_cmbased_dis_surveillance:option3">
+            <value>Strongly DIsagree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_national_dis:label">
+            <value>4.7.	Data collected through AfyaDAta were relevant to national disease surveillance</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_national_dis:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_national_dis:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_national_dis:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/data_collected_relevence_national_dis:option3">
+            <value>Strongly DIsagree</value>
+          </text>
+          <text id="/data/tool/need_revise_amount_data_collected:label">
+            <value>4.8.	Need to revise the amount of data collected by the tools</value>
+          </text>
+          <text id="/data/tool/need_revise_amount_data_collected:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/tool/need_revise_amount_data_collected:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/tool/need_revise_amount_data_collected:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/tool/need_revise_amount_data_collected:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net:label">
+            <value>5.0.	WhatsApp-supported social network </value>
+          </text>
+          <text id="/data/whatsapp_social_net/usefull_to_share_exp:label">
+            <value>5.1.	Useful to share experience</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usefull_to_share_exp:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usefull_to_share_exp:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usefull_to_share_exp:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usefull_to_share_exp:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usef_to_share_challanges:label">
+            <value>5.2.	Useful to share challenges</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usef_to_share_challanges:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usef_to_share_challanges:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usef_to_share_challanges:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/usef_to_share_challanges:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_receive_sol:label">
+            <value>5.3.	Useful to receive solutions</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_receive_sol:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_receive_sol:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_receive_sol:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_receive_sol:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_gain_knowl:label">
+            <value>5.4.	Useful to gain Knowledge</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_gain_knowl:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_gain_knowl:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_gain_knowl:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/whatsapp_social_net/useful_to_gain_knowl:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/technical_health_newsletter:label">
+            <value>7.0.	TechnoHealth Surveillance Newsletter </value>
+          </text>
+          <text id="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:label">
+            <value>6.1.	Mechanism used to disseminate it was good </value>
+          </text>
+          <text id="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/usefull_info:label">
+            <value>6.2.	Useful information</value>
+          </text>
+          <text id="/data/technical_health_newsletter/usefull_info:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/usefull_info:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/usefull_info:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/technical_health_newsletter/usefull_info:option3">
+            <value>Strongly disagree</value>
+          </text>
+          <text id="/data/networking:label">
+            <value>7.1 Enhance networking/collaborations among sectors responsible for human and animal health</value>
+          </text>
+          <text id="/data/networking:option0">
+            <value>Strongly Agree</value>
+          </text>
+          <text id="/data/networking:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/networking:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/networking:option3">
+            <value>Strongly Disagree</value>
+          </text>
+          <text id="/data/general_remarks:label">
+            <value>8. General remarks </value>
+          </text>
+          <text id="/data/general_remarks:hint">
+            <value>Opinions, challanges, type &amp; number of disease outbreak from 2017 etc</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/ini_details/date" type="date" required="true()"/>
+      <bind nodeset="/data/ini_details/region" type="string" readonly="true()"/>
+      <bind nodeset="/data/ini_details/district" type="select1" required="true()"/>
+      <bind nodeset="/data/ini_details/position" type="select1" required="true()"/>
+      <bind nodeset="/data/ini_details/time_assume_position" type="string" required="true()"/>
+      <bind nodeset="/data/promote_community_OH/project_enhance_work_OH_fight" type="select1" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported/compl_particpaorty_local_communit" type="select1" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level" type="select1" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level" type="select1" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system" type="select1" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level" type="select1" required="true()"/>
+
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO'))" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_timel_rep_to_district" type="select1" relevant="(selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO'))" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level" type="select1" relevant="(selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level" type="select1" relevant="(selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'National_focal_person'))" required="true()"/>
+
+      <bind nodeset="/data/training/suff_train_on_digital_provided_to_CH" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/training/trainin_of_exist_CHR_was_effe_strategy" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/training/suff_train_on_digit_was_prov_to_HFS" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/training/Suff_train_on_digit_was_provid_to_LFO" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/training/traing_meth_was_effect" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/training/traing_appr_was_partciap" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/training/trainees_gained_new_tech" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+
+      <bind nodeset="/data/tool/too_easy_to_install_navigate" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO'))" required="true()"/>
+      <bind nodeset="/data/tool/tool_support_data_capture_storage" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/tool/tool_used_support_report" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/tool/tool_used_support_prov_feedback_at_heal_LFO" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/tool/tool_used_support_prov_feed_withn_comm" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/tool/data_collected_relevence_cmbased_dis_surveillance" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+      <bind nodeset="/data/tool/data_collected_relevence_national_dis" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'National_focal_person'))" required="true()"/>
+      <bind nodeset="/data/tool/need_revise_amount_data_collected" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO'))" required="true()"/>
+
+      <bind nodeset="/data/whatsapp_social_net/usefull_to_share_exp" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/whatsapp_social_net/usef_to_share_challanges" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/whatsapp_social_net/useful_to_receive_sol" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+      <bind nodeset="/data/whatsapp_social_net/useful_to_gain_knowl" type="select1" relevant="(selected(/data/ini_details/position, 'HF') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR'))" required="true()"/>
+
+      <bind nodeset="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good" type="select1" relevant="(selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'National_focal_person'))" required="true()"/>
+      <bind nodeset="/data/technical_health_newsletter/usefull_info" type="select1" relevant="(selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'National_focal_person'))" required="true()"/>
+      <bind nodeset="/data/networking" type="select1" relevant="(selected(/data/ini_details/position, 'RMO') or selected(/data/ini_details/position, 'RVO') or selected(/data/ini_details/position, 'DMO') or selected(/data/ini_details/position, 'DVO') or selected(/data/ini_details/position, 'IDSR') or selected(/data/ini_details/position, 'National_focal_person') or selected(/data/ini_details/position, 'LFO') or selected(/data/ini_details/position, 'HF'))" required="true()"/>
+      <bind nodeset="/data/general_remarks" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('RAF ',': ',/data/ini_details/position)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ini_details:label')"/>
+      <input ref="/data/ini_details/date" appearance="no-calendar">
+        <label ref="jr:itext('/data/ini_details/date:label')"/>
+      </input>
+      <input ref="/data/ini_details/region">
+        <label ref="jr:itext('/data/ini_details/region:label')"/>
+      </input>
+      <select1 ref="/data/ini_details/district" appearance="minimal">
+        <label ref="jr:itext('/data/ini_details/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ini_details/district:option0')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/district:option1')"/>
+          <value>Malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/district:option2')"/>
+          <value>Ulanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/district:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ini_details/position" appearance="minimal">
+        <label ref="jr:itext('/data/ini_details/position:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option0')"/>
+          <value>DMO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option1')"/>
+          <value>DVO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option2')"/>
+          <value>HF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option3')"/>
+          <value>IDSR</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option4')"/>
+          <value>LFO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option5')"/>
+          <value>RMO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option6')"/>
+          <value>RVO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ini_details/position:option7')"/>
+          <value>National_focal_person</value>
+        </item>
+      </select1>
+      <input ref="/data/ini_details/time_assume_position">
+        <label ref="jr:itext('/data/ini_details/time_assume_position:label')"/>
+        <hint ref="jr:itext('/data/ini_details/time_assume_position:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/promote_community_OH:label')"/>
+      <select1 ref="/data/promote_community_OH/project_enhance_work_OH_fight" appearance="minimal">
+        <label ref="jr:itext('/data/promote_community_OH/project_enhance_work_OH_fight:label')"/>
+        <item>
+          <label ref="jr:itext('/data/promote_community_OH/project_enhance_work_OH_fight:option0')"/>
+          <value>strong_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/promote_community_OH/project_enhance_work_OH_fight:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/promote_community_OH/project_enhance_work_OH_fight:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/promote_community_OH/project_enhance_work_OH_fight:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Dis_survei_project_supported:label')"/>
+      <select1 ref="/data/Dis_survei_project_supported/compl_particpaorty_local_communit" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported/compl_particpaorty_local_communit:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/compl_particpaorty_local_communit:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_early_disea_detec_at_comm_level:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/enh_timely_repr_at_comm_level:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_linkag_evnt_from_comm_to_exist_system:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported/en_prompt_resp_disea_at_comm_level:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Dis_survei_project_supported1:label')"/>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timly_report_to_HC_LFO:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_timel_rep_to_district" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timel_rep_to_district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_timel_rep_to_district:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feedbac_from_primary_heal_c_LFO:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prom_feed_resp_from_district_level:option3')"/>
+          <value>strongly_agree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_promp_feedback_from_reg_level:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level" appearance="minimal">
+        <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dis_survei_project_supported1/enh_prompt_feed_resp_from_nati_level:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/training:label')"/>
+      <select1 ref="/data/training/suff_train_on_digital_provided_to_CH" appearance="minimal">
+        <label ref="jr:itext('/data/training/suff_train_on_digital_provided_to_CH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digital_provided_to_CH:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digital_provided_to_CH:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digital_provided_to_CH:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digital_provided_to_CH:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/trainin_of_exist_CHR_was_effe_strategy" appearance="minimal">
+        <label ref="jr:itext('/data/training/trainin_of_exist_CHR_was_effe_strategy:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/trainin_of_exist_CHR_was_effe_strategy:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainin_of_exist_CHR_was_effe_strategy:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainin_of_exist_CHR_was_effe_strategy:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainin_of_exist_CHR_was_effe_strategy:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/suff_train_on_digit_was_prov_to_HFS" appearance="minimal">
+        <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/suff_train_on_digit_was_prov_to_HFS:option4')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/Suff_train_on_digit_was_provid_to_LFO" appearance="minimal">
+        <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/Suff_train_on_digit_was_provid_to_LFO:option4')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/traing_meth_was_effect" appearance="minimal">
+        <label ref="jr:itext('/data/training/traing_meth_was_effect:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/traing_meth_was_effect:option0')"/>
+          <value>strongly_agreed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_meth_was_effect:option1')"/>
+          <value>agreed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_meth_was_effect:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_meth_was_effect:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/traing_appr_was_partciap" appearance="minimal">
+        <label ref="jr:itext('/data/training/traing_appr_was_partciap:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/traing_appr_was_partciap:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_appr_was_partciap:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_appr_was_partciap:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/traing_appr_was_partciap:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/training/trainees_gained_new_tech" appearance="minimal">
+        <label ref="jr:itext('/data/training/trainees_gained_new_tech:label')"/>
+        <item>
+          <label ref="jr:itext('/data/training/trainees_gained_new_tech:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainees_gained_new_tech:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainees_gained_new_tech:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainees_gained_new_tech:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/training/trainees_gained_new_tech:option4')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/tool:label')"/>
+      <select1 ref="/data/tool/too_easy_to_install_navigate" appearance="minimal">
+        <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/too_easy_to_install_navigate:option4')"/>
+          <value>NU</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/tool_support_data_capture_storage" appearance="minimal">
+        <label ref="jr:itext('/data/tool/tool_support_data_capture_storage:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_support_data_capture_storage:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_support_data_capture_storage:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_support_data_capture_storage:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_support_data_capture_storage:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/tool_used_support_report" appearance="minimal">
+        <label ref="jr:itext('/data/tool/tool_used_support_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_report:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_report:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_report:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_report:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/tool_used_support_prov_feedback_at_heal_LFO" appearance="minimal">
+        <label ref="jr:itext('/data/tool/tool_used_support_prov_feedback_at_heal_LFO:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feedback_at_heal_LFO:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/tool_used_support_prov_feed_withn_comm" appearance="minimal">
+        <label ref="jr:itext('/data/tool/tool_used_support_prov_feed_withn_comm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feed_withn_comm:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feed_withn_comm:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feed_withn_comm:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/tool_used_support_prov_feed_withn_comm:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/data_collected_relevence_cmbased_dis_surveillance" appearance="minimal">
+        <label ref="jr:itext('/data/tool/data_collected_relevence_cmbased_dis_surveillance:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_cmbased_dis_surveillance:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_cmbased_dis_surveillance:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_cmbased_dis_surveillance:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_cmbased_dis_surveillance:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/data_collected_relevence_national_dis" appearance="minimal">
+        <label ref="jr:itext('/data/tool/data_collected_relevence_national_dis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_national_dis:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_national_dis:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_national_dis:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/data_collected_relevence_national_dis:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/tool/need_revise_amount_data_collected" appearance="minimal">
+        <label ref="jr:itext('/data/tool/need_revise_amount_data_collected:label')"/>
+        <item>
+          <label ref="jr:itext('/data/tool/need_revise_amount_data_collected:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/need_revise_amount_data_collected:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/need_revise_amount_data_collected:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/tool/need_revise_amount_data_collected:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/whatsapp_social_net:label')"/>
+      <select1 ref="/data/whatsapp_social_net/usefull_to_share_exp" appearance="minimal">
+        <label ref="jr:itext('/data/whatsapp_social_net/usefull_to_share_exp:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usefull_to_share_exp:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usefull_to_share_exp:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usefull_to_share_exp:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usefull_to_share_exp:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/whatsapp_social_net/usef_to_share_challanges" appearance="minimal">
+        <label ref="jr:itext('/data/whatsapp_social_net/usef_to_share_challanges:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usef_to_share_challanges:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usef_to_share_challanges:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usef_to_share_challanges:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/usef_to_share_challanges:option3')"/>
+          <value>strongly_dsiagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/whatsapp_social_net/useful_to_receive_sol" appearance="minimal">
+        <label ref="jr:itext('/data/whatsapp_social_net/useful_to_receive_sol:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_receive_sol:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_receive_sol:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_receive_sol:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_receive_sol:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/whatsapp_social_net/useful_to_gain_knowl" appearance="minimal">
+        <label ref="jr:itext('/data/whatsapp_social_net/useful_to_gain_knowl:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_gain_knowl:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_gain_knowl:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_gain_knowl:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_social_net/useful_to_gain_knowl:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/technical_health_newsletter:label')"/>
+      <select1 ref="/data/technical_health_newsletter/mechanism_used_to_dissem_was_good" appearance="minimal">
+        <label ref="jr:itext('/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/mechanism_used_to_dissem_was_good:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/technical_health_newsletter/usefull_info" appearance="minimal">
+        <label ref="jr:itext('/data/technical_health_newsletter/usefull_info:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/usefull_info:option0')"/>
+          <value>strongly_agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/usefull_info:option1')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/usefull_info:option2')"/>
+          <value>disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_health_newsletter/usefull_info:option3')"/>
+          <value>strongly_disagree</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/networking" appearance="minimal">
+      <label ref="jr:itext('/data/networking:label')"/>
+      <item>
+        <label ref="jr:itext('/data/networking:option0')"/>
+        <value>strongly_agree</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/networking:option1')"/>
+        <value>agree</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/networking:option2')"/>
+        <value>disagree</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/networking:option3')"/>
+        <value>strongly_disagree</value>
+      </item>
+    </select1>
+    <input ref="/data/general_remarks">
+      <label ref="jr:itext('/data/general_remarks:label')"/>
+      <hint ref="jr:itext('/data/general_remarks:hint')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -1,0 +1,136 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>AfyaData Access MZ</h:title>
+    <model>
+      <instance>
+        <data id="build_AfyaData-Access-MZ_1607064519">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general_details>
+            <district/>
+            <ward/>
+            <village/>
+          </general_details>
+          <network>
+            <rate_interner_co/>
+            <gps/>
+          </network>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general_details:label">
+            <value>General Information</value>
+          </text>
+          <text id="/data/general_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/general_details/district:option0">
+            <value>Chokwe</value>
+          </text>
+          <text id="/data/general_details/district:option1">
+            <value>Gaza</value>
+          </text>
+          <text id="/data/general_details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/general_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/network:label">
+            <value>Network &amp; GPS Assessment: </value>
+          </text>
+          <text id="/data/network/rate_interner_co:label">
+            <value>Please rate the internet connectivity</value>
+          </text>
+          <text id="/data/network/rate_interner_co:hint">
+            <value>REMEMBER: There are some areas you will need to move around to test/Ask locals for points where internet is Accessible</value>
+          </text>
+          <text id="/data/network/rate_interner_co:option0">
+            <value>Strong</value>
+          </text>
+          <text id="/data/network/rate_interner_co:option1">
+            <value>Fair</value>
+          </text>
+          <text id="/data/network/rate_interner_co:option2">
+            <value>Poor</value>
+          </text>
+          <text id="/data/network/rate_interner_co:option3">
+            <value>No connectivity</value>
+          </text>
+          <text id="/data/network/gps:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/network/gps:hint">
+            <value>To test: Please Switch OFF network/internet or put on flight mode and Take GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general_details/district" type="select1"/>
+      <bind nodeset="/data/general_details/ward" type="string"/>
+      <bind nodeset="/data/general_details/village" type="string"/>
+      <bind nodeset="/data/network/rate_interner_co" type="select1"/>
+      <bind nodeset="/data/network/gps" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Village ',': ',/data/general_details/village)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/general_details" appearance="field-list">
+      <label ref="jr:itext('/data/general_details:label')"/>
+      <select1 ref="/data/general_details/district">
+        <label ref="jr:itext('/data/general_details/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_details/district:option0')"/>
+          <value>chokwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_details/district:option1')"/>
+          <value>gaza</value>
+        </item>
+      </select1>
+      <input ref="/data/general_details/ward">
+        <label ref="jr:itext('/data/general_details/ward:label')"/>
+      </input>
+      <input ref="/data/general_details/village">
+        <label ref="jr:itext('/data/general_details/village:label')"/>
+      </input>
+    </group>
+    <group ref="/data/network" appearance="field-list">
+      <label ref="jr:itext('/data/network:label')"/>
+      <select1 ref="/data/network/rate_interner_co">
+        <label ref="jr:itext('/data/network/rate_interner_co:label')"/>
+        <hint ref="jr:itext('/data/network/rate_interner_co:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/network/rate_interner_co:option0')"/>
+          <value>very_strong</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/rate_interner_co:option1')"/>
+          <value>fair</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/rate_interner_co:option2')"/>
+          <value>poor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/rate_interner_co:option3')"/>
+          <value>no_connectivity</value>
+        </item>
+      </select1>
+      <input ref="/data/network/gps">
+        <label ref="jr:itext('/data/network/gps:label')"/>
+        <hint ref="jr:itext('/data/network/gps:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,85 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Lab Request</h:title>
+    <model>
+      <instance>
+        <data id="build_Lab-Request_27">
+          <meta>
+            <instanceID/>
+	    <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <lab_request>
+            <admission_number/>
+            <Lab_tests/>
+          </lab_request>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/lab_request:label">
+            <value>Lab Request</value>
+          </text>
+          <text id="/data/lab_request/admission_number:label">
+            <value>Admission Number</value>
+          </text>
+          <text id="/data/lab_request/admission_number:hint">
+            <value>Please scan barcode on registration card</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:label">
+            <value>Test requested</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option0">
+            <value>Cholera</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option1">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option2">
+            <value>Typhoid</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option3">
+            <value>Brusolosis</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/lab_request/admission_number" type="barcode" required="true()"/>
+      <bind nodeset="/data/lab_request/Lab_tests" type="select"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Request',': ',/data/lab_request/admission_number)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/lab_request:label')"/>
+      <input ref="/data/lab_request/admission_number">
+        <label ref="jr:itext('/data/lab_request/admission_number:label')"/>
+        <hint ref="jr:itext('/data/lab_request/admission_number:hint')"/>
+      </input>
+      <select ref="/data/lab_request/Lab_tests">
+        <label ref="jr:itext('/data/lab_request/Lab_tests:label')"/>
+        <item>
+          <label ref="jr:itext('/data/lab_request/Lab_tests:option0')"/>
+          <value>cholera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/lab_request/Lab_tests:option1')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/lab_request/Lab_tests:option2')"/>
+          <value>typhoid</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/lab_request/Lab_tests:option3')"/>
+          <value>Brucellosis</value>
+        </item>
+      </select>
+    </group>
+  </h:body>
+</h:html>

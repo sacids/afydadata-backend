@@ -1,0 +1,2612 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>DACAVETA V2</h:title>
+    <model>
+      <instance>
+        <data id="build_DACAVETAv2_22">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <interview_name/>
+          <id_inform>
+            <patient_ID/>
+            <region/>
+          </id_inform>
+          <district_mwanza/>
+          <district_rukwa/>
+          <district_ruvuma/>
+          <district_mtwara/>
+          <district_arusha/>
+          <part_details>
+            <facility_name/>
+            <level/>
+            <village_street/>
+            <age_year/>
+          </part_details>
+          <part_details_0>
+            <sex/>
+            <fever_history/>
+          </part_details_0>
+          <symptoms_past48_hrs/>
+          <other_symptoms/>
+          <part_details_1>
+            <temp/>
+            <blood_p_sy/>
+            <blood_p_Dias/>
+            <pulse_rate/>
+            <resp_rate/>
+            <occupation/>
+          </part_details_1>
+          <other_occup/>
+          <part_details_2>
+            <highest_ed/>
+            <ave_spent_outside_district/>
+          </part_details_2>
+          <other_contries>
+            None
+          </other_contries>
+          <has_patient_have>
+            <receive_stick_bite/>
+            <receive_mosquito_bite/>
+            <been_contact_dom_animal/>
+            <been_contact_wild_animal/>
+            <been_contact_wild_bird/>
+            <been_contact_with_bats/>
+            <bats_roaming_house/>
+            <seen_rat_in_house/>
+            <butchered_wild_animal/>
+            <cons_meat_frm_wild_animal/>
+            <taken_care_suspect/>
+          </has_patient_have>
+          <has_patient_have2>
+            <taken_care_susp_animal/>
+            <close_cont_with_alive_dead_susp/>
+            <close_cont_with_dead_susp_anim/>
+            <visited_caves_mines/>
+            <presence_piped_water/>
+            <presence_waste_pit_at_home/>
+            <presence_water_st_containers_home/>
+            <presence_discarded_tyres/>
+            <flowers_grown_vases/>
+            <presence_mosq_screens_on_wind/>
+            <presence_eaves_house_sleep/>
+            <presence_mosq_net_at_home/>
+            <do_you_always_sleep_under_net/>
+            <slept_under_net_last_night/>
+            <net_during_day/>
+            <frequent_visit_recreation/>
+            <use_mosq_repellents/>
+          </has_patient_have2>
+          <keep_dome/>
+          <ocup_livestock_dont_keep_animal/>
+          <which_animal/>
+          <other_dom_animal/>
+          <do_you_keep_anim_in_house/>
+          <which_ani_keep_in_house/>
+          <other_dom_animal_in_house/>
+          <do_you_dip/>
+          <do_you_graze/>
+          <location_have_been_vs_time>
+            <sixPm_eightPm/>
+            <eightPm_tenPm/>
+            <tenPm_twoAm/>
+            <twoAm_sixAm/>
+            <sixAm_eightAm/>
+          </location_have_been_vs_time>
+          <gps/>
+          <provisional_diag/>
+          <differential_diag>
+            None
+          </differential_diag>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/interview_name:label">
+            <value>1. Interviewer names</value>
+          </text>
+          <text id="/data/interview_name:requiredMsg">
+            <value>Interviewer names are required</value>
+          </text>
+          <text id="/data/id_inform:label">
+            <value>A. Identification Information </value>
+          </text>
+          <text id="/data/id_inform/patient_ID:label">
+            <value>2. Patient ID</value>
+          </text>
+          <text id="/data/id_inform/patient_ID:hint">
+            <value>Take from names sheet; use it to label the sample). The 1st letter H represent human, the three letters represent the district name followed by three numbers representing the ID of participant</value>
+          </text>
+          <text id="/data/id_inform/patient_ID:requiredMsg">
+            <value>Qn. No 1 is required</value>
+          </text>
+          <text id="/data/id_inform/region:label">
+            <value>3. Region</value>
+          </text>
+          <text id="/data/id_inform/region:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/id_inform/region:requiredMsg">
+            <value>Qn. No 3 is required</value>
+          </text>
+          <text id="/data/id_inform/region:option0">
+            <value>Arusha</value>
+          </text>
+          <text id="/data/id_inform/region:option1">
+            <value>Mtwara</value>
+          </text>
+          <text id="/data/id_inform/region:option2">
+            <value>Mwanza</value>
+          </text>
+          <text id="/data/id_inform/region:option3">
+            <value>Rukwa</value>
+          </text>
+          <text id="/data/id_inform/region:option4">
+            <value>Ruvuma</value>
+          </text>
+          <text id="/data/district_mwanza:label">
+            <value>4. District</value>
+          </text>
+          <text id="/data/district_mwanza:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/district_mwanza:requiredMsg">
+            <value>Qn. No 4 is required</value>
+          </text>
+          <text id="/data/district_mwanza:option0">
+            <value>Nyamagana</value>
+          </text>
+          <text id="/data/district_mwanza:option1">
+            <value>Ilemela</value>
+          </text>
+          <text id="/data/district_rukwa:label">
+            <value>4. District</value>
+          </text>
+          <text id="/data/district_rukwa:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/district_rukwa:requiredMsg">
+            <value>Qn. No 4 is required</value>
+          </text>
+          <text id="/data/district_rukwa:option0">
+            <value>Nkasi</value>
+          </text>
+          <text id="/data/district_ruvuma:label">
+            <value>4. District</value>
+          </text>
+          <text id="/data/district_ruvuma:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/district_ruvuma:requiredMsg">
+            <value>Qn. No 4 is required</value>
+          </text>
+          <text id="/data/district_ruvuma:option0">
+            <value>Songea-Rural </value>
+          </text>
+          <text id="/data/district_mtwara:label">
+            <value>4. District</value>
+          </text>
+          <text id="/data/district_mtwara:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/district_mtwara:option0">
+            <value>Tandahimba</value>
+          </text>
+          <text id="/data/district_arusha:label">
+            <value>4. District</value>
+          </text>
+          <text id="/data/district_arusha:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/district_arusha:requiredMsg">
+            <value>Qn. No 4 is required</value>
+          </text>
+          <text id="/data/district_arusha:option0">
+            <value>Longido</value>
+          </text>
+          <text id="/data/part_details:label">
+            <value>B. Section 1; Participant details </value>
+          </text>
+          <text id="/data/part_details/facility_name:label">
+            <value>5. Health Facility name</value>
+          </text>
+          <text id="/data/part_details/facility_name:requiredMsg">
+            <value>Qn. No 5 is required</value>
+          </text>
+          <text id="/data/part_details/level:label">
+            <value>6. Level</value>
+          </text>
+          <text id="/data/part_details/level:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details/level:requiredMsg">
+            <value>Qn. No 6 is required</value>
+          </text>
+          <text id="/data/part_details/level:option0">
+            <value>Dispensary</value>
+          </text>
+          <text id="/data/part_details/level:option1">
+            <value>Health Centre</value>
+          </text>
+          <text id="/data/part_details/level:option2">
+            <value>Hospital</value>
+          </text>
+          <text id="/data/part_details/village_street:label">
+            <value>7. Village/Street of patient</value>
+          </text>
+          <text id="/data/part_details/village_street:requiredMsg">
+            <value>Qn. No 7 is required</value>
+          </text>
+          <text id="/data/part_details/age_year:label">
+            <value>8. Age (Years)</value>
+          </text>
+          <text id="/data/part_details/age_year:requiredMsg">
+            <value>Age is required</value>
+          </text>
+          <text id="/data/part_details/age_year:constraintMsg">
+            <value>Age Should be above 1 year</value>
+          </text>
+          <text id="/data/part_details_0:label">
+            <value>B. Section 1; Participant details </value>
+          </text>
+          <text id="/data/part_details_0/sex:label">
+            <value>9. Sex</value>
+          </text>
+          <text id="/data/part_details_0/sex:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details_0/sex:requiredMsg">
+            <value>Qn. No 9 is required</value>
+          </text>
+          <text id="/data/part_details_0/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/part_details_0/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:label">
+            <value>10. History of fever persisting after using antimalarials/antimicrobials in the past one month?</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:requiredMsg">
+            <value>Qn. No 10 is required</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/part_details_0/fever_history:option3">
+            <value>Refused</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:label">
+            <value>11. Symptoms in the past 48 hours </value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:hint">
+            <value>Multiple selection</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:requiredMsg">
+            <value>Qn. No 11 is required</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option0">
+            <value>Fever</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option1">
+            <value>Headache</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option2">
+            <value>Skin rash</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option3">
+            <value>Bruise</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option4">
+            <value>Bleeding from natural body openings</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option5">
+            <value>Vomiting</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option6">
+            <value>Body weakness</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option7">
+            <value>Abdominal pain</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option8">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/symptoms_past48_hrs:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_symptoms:label">
+            <value>Other symptoms</value>
+          </text>
+          <text id="/data/other_symptoms:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/part_details_1:label">
+            <value>B. Section 1; Participant details </value>
+          </text>
+          <text id="/data/part_details_1/temp:label">
+            <value>12. Temperature (Axillary) (0c)                              </value>
+          </text>
+          <text id="/data/part_details_1/temp:requiredMsg">
+            <value>Qn. No 12 is required</value>
+          </text>
+          <text id="/data/part_details_1/temp:constraintMsg">
+            <value>Temp is out of the required range</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_sy:label">
+            <value>13.0 Blood Pressure (mmHg): Systolic</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_sy:hint">
+            <value>Systolic  (Number value with decimal point) NOTE: Please write 59 IF NOT DONE</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_sy:requiredMsg">
+            <value>Qn. No 13 is required</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_sy:constraintMsg">
+            <value>Bp (Systolic) is out of the required range</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_Dias:label">
+            <value>13.1 Blood Pressure (mmHg): Diastolic </value>
+          </text>
+          <text id="/data/part_details_1/blood_p_Dias:hint">
+            <value>Diastolic   (Number value with decimal point). NOTE: Please write 39 IF NOT DONE</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_Dias:requiredMsg">
+            <value>Qn. No 13.1 is required</value>
+          </text>
+          <text id="/data/part_details_1/blood_p_Dias:constraintMsg">
+            <value>Bp (Diastolic) is out of the required range</value>
+          </text>
+          <text id="/data/part_details_1/pulse_rate:label">
+            <value>14. Pulse/Heart Rate (beats per minute) </value>
+          </text>
+          <text id="/data/part_details_1/pulse_rate:hint">
+            <value>(Number value with decimal point)</value>
+          </text>
+          <text id="/data/part_details_1/pulse_rate:requiredMsg">
+            <value>Qn. No 14 is required</value>
+          </text>
+          <text id="/data/part_details_1/pulse_rate:constraintMsg">
+            <value>Pulse/Heart rate is out of the required range</value>
+          </text>
+          <text id="/data/part_details_1/resp_rate:label">
+            <value>15. Respiratory Rate (breath per minute)</value>
+          </text>
+          <text id="/data/part_details_1/resp_rate:hint">
+            <value>(Number value with decimal point)</value>
+          </text>
+          <text id="/data/part_details_1/resp_rate:requiredMsg">
+            <value>Qn. No 15 is required</value>
+          </text>
+          <text id="/data/part_details_1/resp_rate:constraintMsg">
+            <value>Respiratory rate is out of the required range</value>
+          </text>
+          <text id="/data/part_details_1/occupation:label">
+            <value>16. Occupation (main source of income)</value>
+          </text>
+          <text id="/data/part_details_1/occupation:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details_1/occupation:requiredMsg">
+            <value>Qn. No 16 is required</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option0">
+            <value>Livestock keeper</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option1">
+            <value>Crop farming</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option2">
+            <value>Petty trading</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option3">
+            <value>Formal employment </value>
+          </text>
+          <text id="/data/part_details_1/occupation:option4">
+            <value>Self-employment</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option5">
+            <value>Student</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option6">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/part_details_1/occupation:option8">
+            <value>Refused</value>
+          </text>
+          <text id="/data/other_occup:label">
+            <value>Other occupation</value>
+          </text>
+          <text id="/data/part_details_2:label">
+            <value>B. Section 2; Participant details </value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:label">
+            <value>17. Highest Educational level of the respondent</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:requiredMsg">
+            <value>Qn. No 17 is required</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:option0">
+            <value>None</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:option1">
+            <value>primary school</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:option2">
+            <value>secondary school</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:option3">
+            <value>College/University</value>
+          </text>
+          <text id="/data/part_details_2/highest_ed:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:label">
+            <value>18. On average how much time have you spent outside your district of residence during the past 12 months? </value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:requiredMsg">
+            <value>Qn. No 18 is required</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:option0">
+            <value>1-&lt;6 month</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:option1">
+            <value>6-12months</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:option2">
+            <value>=&gt;12months</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:option3">
+            <value>Never moved outside my district</value>
+          </text>
+          <text id="/data/part_details_2/ave_spent_outside_district:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/other_contries:label">
+            <value>19. Please, mention the countries other than Tanzania where you have been to during the past 12 months</value>
+          </text>
+          <text id="/data/other_contries:hint">
+            <value>Please separate by Coma eg (Kenya, Rwanda)</value>
+          </text>
+          <text id="/data/has_patient_have:label">
+            <value>20.0 During the past one month; has participant: (keep to mentioning examples of viral disease epidemics to participants for each relevant questions</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:label">
+            <value>20.1 Received a tick bite and/or removed a tick and/or crushed a tick with their bare hands </value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:requiredMsg">
+            <value>Qn. No 20.1 is required</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/receive_stick_bite:option3">
+            <value>Refused</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:label">
+            <value>20.2 Have you experienced mosquito bites during the last two weeks?</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:requiredMsg">
+            <value>Qn. No 20.2 is required</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/receive_mosquito_bite:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:label">
+            <value>20.3. Been into contact with domestic animals?  </value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:requiredMsg">
+            <value>Qn. No 20.3 is required</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_dom_animal:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:label">
+            <value>20.4. Been into contact with wild animals or rodents/rats        </value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:requiredMsg">
+            <value>Qn. No 20.4 is required</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_animal:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:label">
+            <value>20.5. Been into contact with wild birds?   </value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:requiredMsg">
+            <value>Qn. No 20.5 is required</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_wild_bird:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:label">
+            <value>20.6. Been into contact with bats?     </value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:requiredMsg">
+            <value>Qn. No 20.6 is required</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/been_contact_with_bats:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:label">
+            <value>20.7. Are there bats roaming in your home area? (caves, rock crevices, old buildings, bridges, mines, trees)</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:requiredMsg">
+            <value>Qn. No 20.7 is required</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/bats_roaming_house:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:label">
+            <value>20.8. Seen rats in your homes?                </value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:requiredMsg">
+            <value>Qn. No 20.8 is required</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/seen_rat_in_house:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:label">
+            <value>20.9. Handled/butchered a wild animal?               </value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:requiredMsg">
+            <value>Qn. No 20.9 is required</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/butchered_wild_animal:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:label">
+            <value>20.10. Consumed meat from wild animals? </value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:requiredMsg">
+            <value>Qn. No 20.10 is required</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/cons_meat_frm_wild_animal:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:label">
+            <value>20.11. Taken care of individual known or suspected to be suffering from either known/unknown disease?                          </value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:requiredMsg">
+            <value>Qn. No 20.11 is required</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have/taken_care_suspect:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2:label">
+            <value>20.0 During the past one month; has participant: (keep to mentioning examples of viral disease epidemics to participants for each relevant questions</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:label">
+            <value>20.12  Taken care of animal, known or suspected to be suffering from either known/unknown disease?</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:requiredMsg">
+            <value>Qn. No 20.12 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/taken_care_susp_animal:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:label">
+            <value>20.13. Had close contact with alive or dead individual known or strongly suspected to have had a known/unknown disease?  </value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:requiredMsg">
+            <value>Qn. No 20.13 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_alive_dead_susp:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:label">
+            <value>20.14. Had close contact with alive or dead animal known or strongly suspected to have had a known/unknown disease  </value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:requiredMsg">
+            <value>Qn. No 20.14 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/close_cont_with_dead_susp_anim:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:label">
+            <value>20.15. Visited caves or mines?            </value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:requiredMsg">
+            <value>Qn. No 20.15 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/visited_caves_mines:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:label">
+            <value>20.16. Presence of piped water at home     </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:requiredMsg">
+            <value>Qn. No 20.16 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_piped_water:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:label">
+            <value>20.17. Presence of waste pit at home      </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:requiredMsg">
+            <value>Qn. No 20.17 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_waste_pit_at_home:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:label">
+            <value>20.18. Presence of water storage containers at home </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:requiredMsg">
+            <value>Qn. No 20.18 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_water_st_containers_home:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:label">
+            <value>20.19. Presence of discarded used tyres at/around home               </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:requiredMsg">
+            <value>Qn. No 20.19 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_discarded_tyres:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:label">
+            <value>20.20 Presence of flowers grown in vases at home </value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:requiredMsg">
+            <value>Qn. No 20.20 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/flowers_grown_vases:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:label">
+            <value>20.21. Presence of mosquito screens on windows at home </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:requiredMsg">
+            <value>Qn. No 20.21 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_screens_on_wind:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:label">
+            <value>20.22. Presence of eaves in the houses you sleep in </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:requiredMsg">
+            <value>Qn. No 20.22 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_eaves_house_sleep:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:label">
+            <value>20.23. Presence of mosquito net at your home </value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:requiredMsg">
+            <value>Qn. No 20.23 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/presence_mosq_net_at_home:option2">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:label">
+            <value>20.24  Do you always sleep under mosquito net </value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:requiredMsg">
+            <value>Qn. No20.23 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/do_you_always_sleep_under_net:option2">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:label">
+            <value>20.25. Slept under mosquito net last night </value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:requiredMsg">
+            <value>Qn. No 20.25 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/slept_under_net_last_night:option2">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:label">
+            <value>20.26 If it happens that you sleep during the day, do you always sleep under mosquito net </value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:requiredMsg">
+            <value>Qn. No 20.26 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/net_during_day:option2">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:label">
+            <value>20.27. Frequent visit recreation facilities    </value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:requiredMsg">
+            <value>Qn. No 20.27 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/frequent_visit_recreation:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:label">
+            <value>20.28. Use mosquito repellents     </value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:requiredMsg">
+            <value>Qn. No 20.28 is required</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/has_patient_have2/use_mosq_repellents:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/keep_dome:label">
+            <value>21. Do you keep domestic animals?</value>
+          </text>
+          <text id="/data/keep_dome:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/keep_dome:requiredMsg">
+            <value>Qn. No 21 is required</value>
+          </text>
+          <text id="/data/keep_dome:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/keep_dome:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/keep_dome:option2">
+            <value>refused</value>
+          </text>
+          <text id="/data/ocup_livestock_dont_keep_animal:label">
+            <value>YOUR RESPONSE IN PREVIOUS QN NO.21. IS IN CONFLICT WITH QN NO. 16 (Occupation)</value>
+          </text>
+          <text id="/data/ocup_livestock_dont_keep_animal:hint">
+            <value> KINDLY GET BACK TO THE QUESTIONS TO CLARIFY</value>
+          </text>
+          <text id="/data/ocup_livestock_dont_keep_animal:requiredMsg">
+            <value>0</value>
+          </text>
+          <text id="/data/which_animal:label">
+            <value>21.1. Which domestic animals do you keep?</value>
+          </text>
+          <text id="/data/which_animal:hint">
+            <value>Multiple selection</value>
+          </text>
+          <text id="/data/which_animal:requiredMsg">
+            <value>Qn. No 21.1 is required</value>
+          </text>
+          <text id="/data/which_animal:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_animal:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_animal:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_animal:option3">
+            <value>Cat</value>
+          </text>
+          <text id="/data/which_animal:option4">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/which_animal:option5">
+            <value>pigs</value>
+          </text>
+          <text id="/data/which_animal:option6">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/which_animal:option7">
+            <value>Others</value>
+          </text>
+          <text id="/data/other_dom_animal:label">
+            <value>Other Domestic animal</value>
+          </text>
+          <text id="/data/other_dom_animal:hint">
+            <value>Please separate by com</value>
+          </text>
+          <text id="/data/do_you_keep_anim_in_house:label">
+            <value>22. Do you keep animals within the house you/your family members sleep?</value>
+          </text>
+          <text id="/data/do_you_keep_anim_in_house:hint">
+            <value>Multiple selection</value>
+          </text>
+          <text id="/data/do_you_keep_anim_in_house:requiredMsg">
+            <value>Qn. No 22 is required</value>
+          </text>
+          <text id="/data/do_you_keep_anim_in_house:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/do_you_keep_anim_in_house:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:label">
+            <value>22.1 Which animals</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:hint">
+            <value>Multiple selection</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:requiredMsg">
+            <value>Qn. No 22.1 is required</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option3">
+            <value>Cat</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option4">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option5">
+            <value>pigs</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option6">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/which_ani_keep_in_house:option7">
+            <value>Others</value>
+          </text>
+          <text id="/data/other_dom_animal_in_house:label">
+            <value>Other Domestic animal you keep within you house</value>
+          </text>
+          <text id="/data/other_dom_animal_in_house:hint">
+            <value>Please separate by com</value>
+          </text>
+          <text id="/data/do_you_dip:label">
+            <value>23. Do you dip or spray your animals with acaricides? </value>
+          </text>
+          <text id="/data/do_you_dip:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/do_you_dip:requiredMsg">
+            <value>Qn. No 23 is required</value>
+          </text>
+          <text id="/data/do_you_dip:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/do_you_dip:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/do_you_dip:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/do_you_dip:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/do_you_graze:label">
+            <value>24. Do you graze your animals in the wildlife areas?</value>
+          </text>
+          <text id="/data/do_you_graze:hint">
+            <value>Single selection</value>
+          </text>
+          <text id="/data/do_you_graze:requiredMsg">
+            <value>Qn. No 24 is required</value>
+          </text>
+          <text id="/data/do_you_graze:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/do_you_graze:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/do_you_graze:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/do_you_graze:option3">
+            <value>refused</value>
+          </text>
+          <text id="/data/location_have_been_vs_time:label">
+            <value>25. Please, could you recall, in your best memory, the locations you have been (among those listed) during these specific time period yesterday? </value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:label">
+            <value>25.1.  6pm - 8pm</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:hint">
+            <value>Single Selection</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:requiredMsg">
+            <value>Qn 25.1 is required</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:option0">
+            <value>Outside the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:option1">
+            <value>Outside the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:option2">
+            <value>In the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:option3">
+            <value>In the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixPm_eightPm:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:label">
+            <value>25.2. 8pm - 10pm</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:hint">
+            <value>Single Selection</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:requiredMsg">
+            <value>Qn 25.2 is required</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:option0">
+            <value>Outside the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:option1">
+            <value>Outside the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:option2">
+            <value>In the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:option3">
+            <value>In the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/eightPm_tenPm:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:label">
+            <value>25.3 10pm - 2am</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:hint">
+            <value>Single Selection</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:requiredMsg">
+            <value>Qn 25.3 is Required</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:option0">
+            <value>Outside the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:option1">
+            <value>Outside the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:option2">
+            <value>In the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:option3">
+            <value>In the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/tenPm_twoAm:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:label">
+            <value>25.4. 2am - 6am</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:hint">
+            <value>Single Selection</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:requiredMsg">
+            <value>Qn.25.4 is required</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:option0">
+            <value>Outside the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:option1">
+            <value>Outside the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:option2">
+            <value>In the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:option3">
+            <value>In the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/twoAm_sixAm:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:label">
+            <value>25.5. 6am – 8am</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:hint">
+            <value>Single Selection</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:requiredMsg">
+            <value>Qn. 25.5 is required</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:option0">
+            <value>Outside the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:option1">
+            <value>Outside the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:option2">
+            <value>In the house and Outside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:option3">
+            <value>In the house and/but Inside the net</value>
+          </text>
+          <text id="/data/location_have_been_vs_time/sixAm_eightAm:option4">
+            <value>Refused</value>
+          </text>
+          <text id="/data/gps:label">
+            <value>26. GPS location</value>
+          </text>
+          <text id="/data/provisional_diag:label">
+            <value>27. Provisional diagnosis by clinician attending the patient </value>
+          </text>
+          <text id="/data/provisional_diag:hint">
+            <value>Please separate by coma </value>
+          </text>
+          <text id="/data/provisional_diag:requiredMsg">
+            <value>Qn. No 27 is required</value>
+          </text>
+          <text id="/data/differential_diag:label">
+            <value>28. Confirmed diagnosis </value>
+          </text>
+          <text id="/data/differential_diag:hint">
+            <value>Please separate by coma</value>
+          </text>
+          <text id="/data/differential_diag:requiredMsg">
+            <value>Qn. No 28 is required</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/interview_name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/interview_name:requiredMsg')"/>
+      <bind nodeset="/data/id_inform/patient_ID" type="string" required="true()" jr:requiredMsg="jr:itext('/data/id_inform/patient_ID:requiredMsg')"/>
+      <bind nodeset="/data/id_inform/region" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/id_inform/region:requiredMsg')"/>
+      <bind nodeset="/data/district_mwanza" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/district_mwanza:requiredMsg')" relevant="(/data/id_inform/region='mwanza')"/>
+      <bind nodeset="/data/district_rukwa" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/district_rukwa:requiredMsg')" relevant="(/data/id_inform/region='rukwa')"/>
+      <bind nodeset="/data/district_ruvuma" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/district_ruvuma:requiredMsg')" relevant="(/data/id_inform/region='ruvuma')"/>
+      <bind nodeset="/data/district_mtwara" type="select1" relevant="(/data/id_inform/region='mtwara')"/>
+      <bind nodeset="/data/district_arusha" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/district_arusha:requiredMsg')" relevant="(/data/id_inform/region='arusha')"/>
+      <bind nodeset="/data/part_details/facility_name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/part_details/facility_name:requiredMsg')"/>
+      <bind nodeset="/data/part_details/level" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details/level:requiredMsg')"/>
+      <bind nodeset="/data/part_details/village_street" type="string" required="true()" jr:requiredMsg="jr:itext('/data/part_details/village_street:requiredMsg')"/>
+      <bind nodeset="/data/part_details/age_year" type="int" required="true()" jr:requiredMsg="jr:itext('/data/part_details/age_year:requiredMsg')" constraint="((.&gt;=1))" jr:constraintMsg="jr:itext('/data/part_details/age_year:constraintMsg')"/>
+      <bind nodeset="/data/part_details_0/sex" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details_0/sex:requiredMsg')"/>
+      <bind nodeset="/data/part_details_0/fever_history" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details_0/fever_history:requiredMsg')"/>
+      <bind nodeset="/data/symptoms_past48_hrs" type="select" required="true()" jr:requiredMsg="jr:itext('/data/symptoms_past48_hrs:requiredMsg')"/>
+      <bind nodeset="/data/other_symptoms" type="string" relevant="(selected(/data/symptoms_past48_hrs, 'other'))"/>
+      <bind nodeset="/data/part_details_1/temp" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/temp:requiredMsg')" constraint="((.&gt;=37) and (.&lt;=42))" jr:constraintMsg="jr:itext('/data/part_details_1/temp:constraintMsg')"/>
+      <bind nodeset="/data/part_details_1/blood_p_sy" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/blood_p_sy:requiredMsg')" constraint="((.&gt;=59) and (.&lt;=200))" jr:constraintMsg="jr:itext('/data/part_details_1/blood_p_sy:constraintMsg')"/>
+      <bind nodeset="/data/part_details_1/blood_p_Dias" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/blood_p_Dias:requiredMsg')" constraint="((.&gt;=39) and (.&lt;=160))" jr:constraintMsg="jr:itext('/data/part_details_1/blood_p_Dias:constraintMsg')"/>
+      <bind nodeset="/data/part_details_1/pulse_rate" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/pulse_rate:requiredMsg')" constraint="((.&gt;=60) and (.&lt;=160))" jr:constraintMsg="jr:itext('/data/part_details_1/pulse_rate:constraintMsg')"/>
+      <bind nodeset="/data/part_details_1/resp_rate" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/resp_rate:requiredMsg')" constraint="((.&gt;=12) and (.&lt;=65))" jr:constraintMsg="jr:itext('/data/part_details_1/resp_rate:constraintMsg')"/>
+      <bind nodeset="/data/part_details_1/occupation" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details_1/occupation:requiredMsg')"/>
+      <bind nodeset="/data/other_occup" type="string" relevant="(/data/part_details_1/occupation='other')"/>
+      <bind nodeset="/data/part_details_2/highest_ed" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details_2/highest_ed:requiredMsg')"/>
+      <bind nodeset="/data/part_details_2/ave_spent_outside_district" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/part_details_2/ave_spent_outside_district:requiredMsg')"/>
+      <bind nodeset="/data/other_contries" type="string" relevant="(not(/data/part_details_2/ave_spent_outside_district='never'))"/>
+      <bind nodeset="/data/has_patient_have/receive_stick_bite" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/receive_stick_bite:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/receive_mosquito_bite" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/receive_mosquito_bite:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/been_contact_dom_animal" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/been_contact_dom_animal:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/been_contact_wild_animal" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/been_contact_wild_animal:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/been_contact_wild_bird" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/been_contact_wild_bird:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/been_contact_with_bats" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/been_contact_with_bats:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/bats_roaming_house" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/bats_roaming_house:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/seen_rat_in_house" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/seen_rat_in_house:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/butchered_wild_animal" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/butchered_wild_animal:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/cons_meat_frm_wild_animal" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have/taken_care_suspect" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have/taken_care_suspect:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/taken_care_susp_animal" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/taken_care_susp_animal:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/close_cont_with_alive_dead_susp" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/close_cont_with_dead_susp_anim" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/visited_caves_mines" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/visited_caves_mines:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_piped_water" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_piped_water:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_waste_pit_at_home" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_water_st_containers_home" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_discarded_tyres" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_discarded_tyres:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/flowers_grown_vases" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/flowers_grown_vases:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_mosq_screens_on_wind" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_eaves_house_sleep" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/presence_mosq_net_at_home" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/do_you_always_sleep_under_net" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/slept_under_net_last_night" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/slept_under_net_last_night:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/net_during_day" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/net_during_day:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/frequent_visit_recreation" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/frequent_visit_recreation:requiredMsg')"/>
+      <bind nodeset="/data/has_patient_have2/use_mosq_repellents" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/has_patient_have2/use_mosq_repellents:requiredMsg')"/>
+      <bind nodeset="/data/keep_dome" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/keep_dome:requiredMsg')"/>
+
+      <bind nodeset="/data/ocup_livestock_dont_keep_animal" type="int" readonly="true()" required="true()" jr:requiredMsg="jr:itext('/data/ocup_livestock_dont_keep_animal:requiredMsg')" relevant="(selected(/data/keep_dome, 'no')) and (selected(/data/part_details_1/occupation, 'livest_keeper'))"/>
+
+
+      <bind nodeset="/data/which_animal" type="select" required="true()" jr:requiredMsg="jr:itext('/data/which_animal:requiredMsg')" relevant="(/data/keep_dome='yes')"/>
+      <bind nodeset="/data/other_dom_animal" type="string" relevant="(selected(/data/which_animal, 'others'))"/>
+      <bind nodeset="/data/do_you_keep_anim_in_house" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/do_you_keep_anim_in_house:requiredMsg')" relevant="(/data/keep_dome='yes')"/>
+      <bind nodeset="/data/which_ani_keep_in_house" type="select" required="true()" jr:requiredMsg="jr:itext('/data/which_ani_keep_in_house:requiredMsg')" relevant="(selected(/data/do_you_keep_anim_in_house, 'yes'))"/>
+      <bind nodeset="/data/other_dom_animal_in_house" type="string" relevant="(selected(/data/which_ani_keep_in_house, 'others'))"/>
+      <bind nodeset="/data/do_you_dip" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/do_you_dip:requiredMsg')" relevant="(/data/keep_dome='yes')"/>
+      <bind nodeset="/data/do_you_graze" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/do_you_graze:requiredMsg')" relevant="(/data/keep_dome='yes')"/>
+      <bind nodeset="/data/location_have_been_vs_time/sixPm_eightPm" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:requiredMsg')"/>
+      <bind nodeset="/data/location_have_been_vs_time/eightPm_tenPm" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:requiredMsg')"/>
+      <bind nodeset="/data/location_have_been_vs_time/tenPm_twoAm" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:requiredMsg')"/>
+      <bind nodeset="/data/location_have_been_vs_time/twoAm_sixAm" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:requiredMsg')"/>
+      <bind nodeset="/data/location_have_been_vs_time/sixAm_eightAm" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:requiredMsg')"/>
+      <bind nodeset="/data/gps" type="geopoint"/>
+      <bind nodeset="/data/provisional_diag" type="string" required="true()" jr:requiredMsg="jr:itext('/data/provisional_diag:requiredMsg')"/>
+      <bind nodeset="/data/differential_diag" type="string" required="true()" jr:requiredMsg="jr:itext('/data/differential_diag:requiredMsg')"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('DACAVETA Tool',': ',/data/id_inform/patient_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/interview_name">
+      <label ref="jr:itext('/data/interview_name:label')"/>
+    </input>
+    <group ref="/data/id_inform" appearance="field-list">
+      <label ref="jr:itext('/data/id_inform:label')"/>
+      <input ref="/data/id_inform/patient_ID">
+        <label ref="jr:itext('/data/id_inform/patient_ID:label')"/>
+        <hint ref="jr:itext('/data/id_inform/patient_ID:hint')"/>
+      </input>
+      <select1 ref="/data/id_inform/region">
+        <label ref="jr:itext('/data/id_inform/region:label')"/>
+        <hint ref="jr:itext('/data/id_inform/region:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/id_inform/region:option0')"/>
+          <value>arusha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_inform/region:option1')"/>
+          <value>mtwara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_inform/region:option2')"/>
+          <value>mwanza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_inform/region:option3')"/>
+          <value>rukwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_inform/region:option4')"/>
+          <value>ruvuma</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/district_mwanza">
+      <label ref="jr:itext('/data/district_mwanza:label')"/>
+      <hint ref="jr:itext('/data/district_mwanza:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district_mwanza:option0')"/>
+        <value>nyamagana</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district_mwanza:option1')"/>
+        <value>ilemela</value>
+      </item>
+    </select1>
+    <select1 ref="/data/district_rukwa">
+      <label ref="jr:itext('/data/district_rukwa:label')"/>
+      <hint ref="jr:itext('/data/district_rukwa:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district_rukwa:option0')"/>
+        <value>nkasi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/district_ruvuma">
+      <label ref="jr:itext('/data/district_ruvuma:label')"/>
+      <hint ref="jr:itext('/data/district_ruvuma:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district_ruvuma:option0')"/>
+        <value>songea_rural</value>
+      </item>
+    </select1>
+    <select1 ref="/data/district_mtwara">
+      <label ref="jr:itext('/data/district_mtwara:label')"/>
+      <hint ref="jr:itext('/data/district_mtwara:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district_mtwara:option0')"/>
+        <value>tandahimba</value>
+      </item>
+    </select1>
+    <select1 ref="/data/district_arusha">
+      <label ref="jr:itext('/data/district_arusha:label')"/>
+      <hint ref="jr:itext('/data/district_arusha:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district_arusha:option0')"/>
+        <value>longido</value>
+      </item>
+    </select1>
+    <group ref="/data/part_details" appearance="field-list">
+      <label ref="jr:itext('/data/part_details:label')"/>
+      <input ref="/data/part_details/facility_name">
+        <label ref="jr:itext('/data/part_details/facility_name:label')"/>
+      </input>
+      <select1 ref="/data/part_details/level">
+        <label ref="jr:itext('/data/part_details/level:label')"/>
+        <hint ref="jr:itext('/data/part_details/level:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details/level:option0')"/>
+          <value>dispensary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details/level:option1')"/>
+          <value>health_centre</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details/level:option2')"/>
+          <value>hospital</value>
+        </item>
+      </select1>
+      <input ref="/data/part_details/village_street">
+        <label ref="jr:itext('/data/part_details/village_street:label')"/>
+      </input>
+      <input ref="/data/part_details/age_year">
+        <label ref="jr:itext('/data/part_details/age_year:label')"/>
+      </input>
+    </group>
+    <group ref="/data/part_details_0" appearance="field-list">
+      <label ref="jr:itext('/data/part_details_0:label')"/>
+      <select1 ref="/data/part_details_0/sex">
+        <label ref="jr:itext('/data/part_details_0/sex:label')"/>
+        <hint ref="jr:itext('/data/part_details_0/sex:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 ref="/data/part_details_0/fever_history">
+        <label ref="jr:itext('/data/part_details_0/fever_history:label')"/>
+        <hint ref="jr:itext('/data/part_details_0/fever_history:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/fever_history:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/fever_history:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/fever_history:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_0/fever_history:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/symptoms_past48_hrs">
+      <label ref="jr:itext('/data/symptoms_past48_hrs:label')"/>
+      <hint ref="jr:itext('/data/symptoms_past48_hrs:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option0')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option1')"/>
+        <value>headache</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option2')"/>
+        <value>skin_rash</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option3')"/>
+        <value>bruise</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option4')"/>
+        <value>bleed_open</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option5')"/>
+        <value>vomiting</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option6')"/>
+        <value>body_weakness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option7')"/>
+        <value>abdominal_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option8')"/>
+        <value>jaundice</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/symptoms_past48_hrs:option9')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/other_symptoms">
+      <label ref="jr:itext('/data/other_symptoms:label')"/>
+      <hint ref="jr:itext('/data/other_symptoms:hint')"/>
+    </input>
+    <group ref="/data/part_details_1" appearance="field-list">
+      <label ref="jr:itext('/data/part_details_1:label')"/>
+      <input ref="/data/part_details_1/temp">
+        <label ref="jr:itext('/data/part_details_1/temp:label')"/>
+      </input>
+      <input ref="/data/part_details_1/blood_p_sy">
+        <label ref="jr:itext('/data/part_details_1/blood_p_sy:label')"/>
+        <hint ref="jr:itext('/data/part_details_1/blood_p_sy:hint')"/>
+      </input>
+      <input ref="/data/part_details_1/blood_p_Dias">
+        <label ref="jr:itext('/data/part_details_1/blood_p_Dias:label')"/>
+        <hint ref="jr:itext('/data/part_details_1/blood_p_Dias:hint')"/>
+      </input>
+      <input ref="/data/part_details_1/pulse_rate">
+        <label ref="jr:itext('/data/part_details_1/pulse_rate:label')"/>
+        <hint ref="jr:itext('/data/part_details_1/pulse_rate:hint')"/>
+      </input>
+      <input ref="/data/part_details_1/resp_rate">
+        <label ref="jr:itext('/data/part_details_1/resp_rate:label')"/>
+        <hint ref="jr:itext('/data/part_details_1/resp_rate:hint')"/>
+      </input>
+      <select1 ref="/data/part_details_1/occupation">
+        <label ref="jr:itext('/data/part_details_1/occupation:label')"/>
+        <hint ref="jr:itext('/data/part_details_1/occupation:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option0')"/>
+          <value>livest_keeper</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option1')"/>
+          <value>crop_farm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option2')"/>
+          <value>petty_trad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option3')"/>
+          <value>formal_empl</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option4')"/>
+          <value>self_empl</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option5')"/>
+          <value>student</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option6')"/>
+          <value>NA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option7')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_1/occupation:option8')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/other_occup">
+      <label ref="jr:itext('/data/other_occup:label')"/>
+    </input>
+    <group ref="/data/part_details_2" appearance="field-list">
+      <label ref="jr:itext('/data/part_details_2:label')"/>
+      <select1 ref="/data/part_details_2/highest_ed">
+        <label ref="jr:itext('/data/part_details_2/highest_ed:label')"/>
+        <hint ref="jr:itext('/data/part_details_2/highest_ed:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/highest_ed:option0')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/highest_ed:option1')"/>
+          <value>prim_sch</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/highest_ed:option2')"/>
+          <value>sec_sch</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/highest_ed:option3')"/>
+          <value>college_university</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/highest_ed:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/part_details_2/ave_spent_outside_district">
+        <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:label')"/>
+        <hint ref="jr:itext('/data/part_details_2/ave_spent_outside_district:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:option0')"/>
+          <value>1_les6_month</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:option1')"/>
+          <value>6_12_months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:option2')"/>
+          <value>12_and_abov_month</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:option3')"/>
+          <value>never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/part_details_2/ave_spent_outside_district:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/other_contries">
+      <label ref="jr:itext('/data/other_contries:label')"/>
+      <hint ref="jr:itext('/data/other_contries:hint')"/>
+    </input>
+    <group ref="/data/has_patient_have" appearance="field-list">
+      <label ref="jr:itext('/data/has_patient_have:label')"/>
+      <select1 ref="/data/has_patient_have/receive_stick_bite">
+        <label ref="jr:itext('/data/has_patient_have/receive_stick_bite:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/receive_stick_bite:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_stick_bite:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_stick_bite:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_stick_bite:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_stick_bite:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/receive_mosquito_bite">
+        <label ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/receive_mosquito_bite:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/been_contact_dom_animal">
+        <label ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_dom_animal:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/been_contact_wild_animal">
+        <label ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_animal:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/been_contact_wild_bird">
+        <label ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_wild_bird:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/been_contact_with_bats">
+        <label ref="jr:itext('/data/has_patient_have/been_contact_with_bats:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/been_contact_with_bats:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_with_bats:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_with_bats:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_with_bats:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/been_contact_with_bats:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/bats_roaming_house">
+        <label ref="jr:itext('/data/has_patient_have/bats_roaming_house:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/bats_roaming_house:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/bats_roaming_house:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/bats_roaming_house:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/bats_roaming_house:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/bats_roaming_house:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/seen_rat_in_house">
+        <label ref="jr:itext('/data/has_patient_have/seen_rat_in_house:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/seen_rat_in_house:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/seen_rat_in_house:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/seen_rat_in_house:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/seen_rat_in_house:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/seen_rat_in_house:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/butchered_wild_animal">
+        <label ref="jr:itext('/data/has_patient_have/butchered_wild_animal:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/butchered_wild_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/butchered_wild_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/butchered_wild_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/butchered_wild_animal:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/butchered_wild_animal:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/cons_meat_frm_wild_animal">
+        <label ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/cons_meat_frm_wild_animal:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have/taken_care_suspect">
+        <label ref="jr:itext('/data/has_patient_have/taken_care_suspect:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have/taken_care_suspect:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/taken_care_suspect:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/taken_care_suspect:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/taken_care_suspect:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have/taken_care_suspect:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/has_patient_have2" appearance="field-list">
+      <label ref="jr:itext('/data/has_patient_have2:label')"/>
+      <select1 ref="/data/has_patient_have2/taken_care_susp_animal">
+        <label ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/taken_care_susp_animal:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/close_cont_with_alive_dead_susp">
+        <label ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_alive_dead_susp:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/close_cont_with_dead_susp_anim">
+        <label ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/close_cont_with_dead_susp_anim:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/visited_caves_mines">
+        <label ref="jr:itext('/data/has_patient_have2/visited_caves_mines:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/visited_caves_mines:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/visited_caves_mines:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/visited_caves_mines:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/visited_caves_mines:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/visited_caves_mines:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_piped_water">
+        <label ref="jr:itext('/data/has_patient_have2/presence_piped_water:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_piped_water:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_piped_water:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_piped_water:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_piped_water:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_piped_water:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_waste_pit_at_home">
+        <label ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_waste_pit_at_home:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_water_st_containers_home">
+        <label ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_water_st_containers_home:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_discarded_tyres">
+        <label ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_discarded_tyres:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/flowers_grown_vases">
+        <label ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/flowers_grown_vases:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_mosq_screens_on_wind">
+        <label ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_screens_on_wind:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_eaves_house_sleep">
+        <label ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_eaves_house_sleep:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/presence_mosq_net_at_home">
+        <label ref="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/presence_mosq_net_at_home:option2')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/do_you_always_sleep_under_net">
+        <label ref="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/do_you_always_sleep_under_net:option2')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/slept_under_net_last_night">
+        <label ref="jr:itext('/data/has_patient_have2/slept_under_net_last_night:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/slept_under_net_last_night:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/slept_under_net_last_night:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/slept_under_net_last_night:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/slept_under_net_last_night:option2')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/net_during_day">
+        <label ref="jr:itext('/data/has_patient_have2/net_during_day:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/net_during_day:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/net_during_day:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/net_during_day:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/net_during_day:option2')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/frequent_visit_recreation">
+        <label ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/frequent_visit_recreation:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/has_patient_have2/use_mosq_repellents">
+        <label ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:label')"/>
+        <hint ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:option2')"/>
+          <value>NK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/has_patient_have2/use_mosq_repellents:option3')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/keep_dome">
+      <label ref="jr:itext('/data/keep_dome:label')"/>
+      <hint ref="jr:itext('/data/keep_dome:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/keep_dome:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/keep_dome:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/keep_dome:option2')"/>
+        <value>refused</value>
+      </item>
+    </select1>
+    <input ref="/data/ocup_livestock_dont_keep_animal">
+      <label ref="jr:itext('/data/ocup_livestock_dont_keep_animal:label')"/>
+      <hint ref="jr:itext('/data/ocup_livestock_dont_keep_animal:hint')"/>
+    </input>
+    <select ref="/data/which_animal">
+      <label ref="jr:itext('/data/which_animal:label')"/>
+      <hint ref="jr:itext('/data/which_animal:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option3')"/>
+        <value>cat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option4')"/>
+        <value>dogs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option5')"/>
+        <value>pigs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option6')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_animal:option7')"/>
+        <value>others</value>
+      </item>
+    </select>
+    <input ref="/data/other_dom_animal">
+      <label ref="jr:itext('/data/other_dom_animal:label')"/>
+      <hint ref="jr:itext('/data/other_dom_animal:hint')"/>
+    </input>
+    <select1 ref="/data/do_you_keep_anim_in_house">
+      <label ref="jr:itext('/data/do_you_keep_anim_in_house:label')"/>
+      <hint ref="jr:itext('/data/do_you_keep_anim_in_house:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/do_you_keep_anim_in_house:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_keep_anim_in_house:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/which_ani_keep_in_house">
+      <label ref="jr:itext('/data/which_ani_keep_in_house:label')"/>
+      <hint ref="jr:itext('/data/which_ani_keep_in_house:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option3')"/>
+        <value>cat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option4')"/>
+        <value>dogs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option5')"/>
+        <value>pigs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option6')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_ani_keep_in_house:option7')"/>
+        <value>others</value>
+      </item>
+    </select>
+    <input ref="/data/other_dom_animal_in_house">
+      <label ref="jr:itext('/data/other_dom_animal_in_house:label')"/>
+      <hint ref="jr:itext('/data/other_dom_animal_in_house:hint')"/>
+    </input>
+    <select1 ref="/data/do_you_dip">
+      <label ref="jr:itext('/data/do_you_dip:label')"/>
+      <hint ref="jr:itext('/data/do_you_dip:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/do_you_dip:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_dip:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_dip:option2')"/>
+        <value>DK</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_dip:option3')"/>
+        <value>refused</value>
+      </item>
+    </select1>
+    <select1 ref="/data/do_you_graze">
+      <label ref="jr:itext('/data/do_you_graze:label')"/>
+      <hint ref="jr:itext('/data/do_you_graze:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/do_you_graze:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_graze:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_graze:option2')"/>
+        <value>DN</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_graze:option3')"/>
+        <value>refused</value>
+      </item>
+    </select1>
+    <group ref="/data/location_have_been_vs_time" appearance="field-list">
+      <label ref="jr:itext('/data/location_have_been_vs_time:label')"/>
+      <select1 ref="/data/location_have_been_vs_time/sixPm_eightPm">
+        <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:label')"/>
+        <hint ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:option0')"/>
+          <value>outside_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:option1')"/>
+          <value>outside_hous_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:option2')"/>
+          <value>in_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:option3')"/>
+          <value>in_house_in_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixPm_eightPm:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/location_have_been_vs_time/eightPm_tenPm">
+        <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:label')"/>
+        <hint ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:option0')"/>
+          <value>outside_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:option1')"/>
+          <value>outside_hous_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:option2')"/>
+          <value>in_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:option3')"/>
+          <value>in_house_in_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/eightPm_tenPm:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/location_have_been_vs_time/tenPm_twoAm">
+        <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:label')"/>
+        <hint ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:option0')"/>
+          <value>outside_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:option1')"/>
+          <value>outside_hous_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:option2')"/>
+          <value>in_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:option3')"/>
+          <value>in_house_in_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/tenPm_twoAm:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/location_have_been_vs_time/twoAm_sixAm">
+        <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:label')"/>
+        <hint ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:option0')"/>
+          <value>outside_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:option1')"/>
+          <value>outside_hous_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:option2')"/>
+          <value>in_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:option3')"/>
+          <value>in_house_in_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/twoAm_sixAm:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+      <select1 ref="/data/location_have_been_vs_time/sixAm_eightAm">
+        <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:label')"/>
+        <hint ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:option0')"/>
+          <value>outside_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:option1')"/>
+          <value>outside_hous_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:option2')"/>
+          <value>in_hous_no_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:option3')"/>
+          <value>in_house_in_net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_have_been_vs_time/sixAm_eightAm:option4')"/>
+          <value>refused</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/gps">
+      <label ref="jr:itext('/data/gps:label')"/>
+    </input>
+    <input ref="/data/provisional_diag">
+      <label ref="jr:itext('/data/provisional_diag:label')"/>
+      <hint ref="jr:itext('/data/provisional_diag:hint')"/>
+    </input>
+    <input ref="/data/differential_diag">
+      <label ref="jr:itext('/data/differential_diag:label')"/>
+      <hint ref="jr:itext('/data/differential_diag:hint')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -1,0 +1,465 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Herd Level Info</h:title>
+    <model>
+      <instance>
+        <data id="build_Herd-Level-Info_1582796999">
+          <meta>
+            <instanceID/>
+          </meta>
+          <herd_ID/>
+          <herd_level_info_five_district_source>
+            <district1/>
+            <district2/>
+            <district3/>
+            <district4/>
+            <district5/>
+          </herd_level_info_five_district_source>
+          <five_district_source_freq_move>
+            <freq_move_district1/>
+            <freq_move_district2/>
+            <freq_move_district3/>
+            <freq_move_district4/>
+            <freq_move_district5/>
+          </five_district_source_freq_move>
+          <reasons_movement/>
+          <which_diseases/>
+          <reasons_movement_other/>
+          <which_transport/>
+          <permit_from_governement/>
+          <permit_from_governement_explaination/>
+          <vaccinated_aginst_RVF/>
+          <if_vaccinated/>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/herd_ID:label">
+            <value>Herd ID</value>
+          </text>
+          <text id="/data/herd_ID:hint">
+            <value></value>
+          </text>
+          <text id="/data/herd_ID:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source:label">
+            <value>Herd Level Information: 1. Please, mention up to five districts of Tanzania which are the main source of your livestock.</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district1:label">
+            <value>i) District</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district2:label">
+            <value>ii) District</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district3:label">
+            <value>iii) District</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district4:label">
+            <value>iv) District</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district5:label">
+            <value>v) District</value>
+          </text>
+          <text id="/data/five_district_source_freq_move:label">
+            <value>2. Please, mention up to five districts of Tanzania to which you frequently move your livestock to for different reasons</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district1:label">
+            <value>i) District</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district2:label">
+            <value>ii) District</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district3:label">
+            <value>iii) District</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district4:label">
+            <value>iv) District</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district5:label">
+            <value>v) District</value>
+          </text>
+          <text id="/data/reasons_movement:label">
+            <value>3. If animals are moved: What prompt movements? </value>
+          </text>
+          <text id="/data/reasons_movement:option0">
+            <value>Drought</value>
+          </text>
+          <text id="/data/reasons_movement:option1">
+            <value>To avoid diseases</value>
+          </text>
+          <text id="/data/reasons_movement:option2">
+            <value>To access markets</value>
+          </text>
+          <text id="/data/reasons_movement:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/reasons_movement:option4">
+            <value>No movement </value>
+          </text>
+          <text id="/data/which_diseases:label">
+            <value>Which Disease</value>
+          </text>
+          <text id="/data/which_diseases:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/reasons_movement_other:label">
+            <value>Other reasons</value>
+          </text>
+          <text id="/data/which_transport:label">
+            <value>4. Whenever you move livestock; what means of transport is frequently used?</value>
+          </text>
+          <text id="/data/which_transport:option0">
+            <value>Trekking</value>
+          </text>
+          <text id="/data/which_transport:option1">
+            <value>Lorry</value>
+          </text>
+          <text id="/data/which_transport:option2">
+            <value>Trekking  and lorry</value>
+          </text>
+          <text id="/data/which_transport:option3">
+            <value>No movement </value>
+          </text>
+          <text id="/data/permit_from_governement:label">
+            <value>5. Do you normally obtain the permit from Government Veterinary authority before moving the livestock? </value>
+          </text>
+          <text id="/data/permit_from_governement:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/permit_from_governement:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/permit_from_governement_explaination:label">
+            <value>If no to above question, Explain</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:label">
+            <value>6. Have you ever vaccinated your livestock against RVF?</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option2">
+            <value>Don’t know/Don’t remember</value>
+          </text>
+          <text id="/data/if_vaccinated:label">
+            <value>7. If yes to Qn. 36; when was the last time your animals were vaccinated against RVF?</value>
+          </text>
+          <text id="/data/if_vaccinated:option0">
+            <value>Past 12 months</value>
+          </text>
+          <text id="/data/if_vaccinated:option1">
+            <value>Past 24 months</value>
+          </text>
+          <text id="/data/if_vaccinated:option2">
+            <value>past 26 months</value>
+          </text>
+          <text id="/data/if_vaccinated:option3">
+            <value>Don’t remember</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/herd_ID:label">
+            <value>Namba ya Utambulisho - Boma</value>
+          </text>
+          <text id="/data/herd_ID:hint">
+            <value></value>
+          </text>
+          <text id="/data/herd_ID:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source:label">
+            <value>Taarifa za Boma: 1. Tafadhali, nitajie hadi wilaya tano ambazo ni chanzo cha mifugo yako</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district1:label">
+            <value>i) Wilaya</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district2:label">
+            <value>ii) Wilaya</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district3:label">
+            <value>iii) Wilaya</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district4:label">
+            <value>iv) Wilaya</value>
+          </text>
+          <text id="/data/herd_level_info_five_district_source/district5:label">
+            <value>v) Wilaya</value>
+          </text>
+          <text id="/data/five_district_source_freq_move:label">
+            <value>2. Tafadhali, nitajie hadi wilaya tano ambazo hupekela wanyama wako kwa sababu mbalimbali</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district1:label">
+            <value>i) Wilaya</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district2:label">
+            <value>ii) Wilaya</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district3:label">
+            <value>iii) Wilaya</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district4:label">
+            <value>iv) Wilaya</value>
+          </text>
+          <text id="/data/five_district_source_freq_move/freq_move_district5:label">
+            <value>v) Wilaya</value>
+          </text>
+          <text id="/data/reasons_movement:label">
+            <value>Je, ni sababu zipi zinazochangia kuhamishwa kwa mifugo kutoka eneo moja kwenda lingine?</value>
+          </text>
+          <text id="/data/reasons_movement:option0">
+            <value>Ukame</value>
+          </text>
+          <text id="/data/reasons_movement:option1">
+            <value>Kuzuia magonjwa</value>
+          </text>
+          <text id="/data/reasons_movement:option2">
+            <value>Upatikanaji Masoko</value>
+          </text>
+          <text id="/data/reasons_movement:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/reasons_movement:option4">
+            <value>No movement </value>
+          </text>
+          <text id="/data/which_diseases:label">
+            <value>Ni Magonjwa yapi</value>
+          </text>
+          <text id="/data/which_diseases:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/reasons_movement_other:label">
+            <value>Sababu nyingine</value>
+          </text>
+          <text id="/data/which_transport:label">
+            <value>4. Endapo mifugo inahamishwa kwenda eneo lingine; Je ni mfumo upi wa usafiri hutumika?</value>
+          </text>
+          <text id="/data/which_transport:option0">
+            <value>Trekking</value>
+          </text>
+          <text id="/data/which_transport:option1">
+            <value>Lorry</value>
+          </text>
+          <text id="/data/which_transport:option2">
+            <value>Trekking  and lorry</value>
+          </text>
+          <text id="/data/which_transport:option3">
+            <value>No movement </value>
+          </text>
+          <text id="/data/permit_from_governement:label">
+            <value>5. Je, huwa unaomba kibali kutoka kwa mamlaka husika ya mifugo kabla ya kuhamisha mifugo?</value>
+          </text>
+          <text id="/data/permit_from_governement:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/permit_from_governement:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/permit_from_governement_explaination:label">
+            <value>Kama hapana kwa swali juu, toa maelezo</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:label">
+            <value>6. ? Je, wanyama wako wamepatiwa chanjo ya Homa ya Bonde la Ufa?</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/vaccinated_aginst_RVF:option2">
+            <value>Sijui / Sikumbuki</value>
+          </text>
+          <text id="/data/if_vaccinated:label">
+            <value>7. Kama jibu ni ndiyo, Je ni lini kwa mara ya mwisho wanyama wako walipatiwa chanjo ya Homa ya Bonde la Ufa?</value>
+          </text>
+          <text id="/data/if_vaccinated:option0">
+            <value>Miezi 12 iliopita</value>
+          </text>
+          <text id="/data/if_vaccinated:option1">
+            <value>Miezi 24 iliopita</value>
+          </text>
+          <text id="/data/if_vaccinated:option2">
+            <value>miezi 26 iliyoipita</value>
+          </text>
+          <text id="/data/if_vaccinated:option3">
+            <value>Sikumbuki</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/herd_ID" type="string" jr:constraintMsg="jr:itext('/data/herd_ID:constraintMsg')"/>
+      <bind nodeset="/data/herd_level_info_five_district_source/district1" type="string"/>
+      <bind nodeset="/data/herd_level_info_five_district_source/district2" type="string"/>
+      <bind nodeset="/data/herd_level_info_five_district_source/district3" type="string"/>
+      <bind nodeset="/data/herd_level_info_five_district_source/district4" type="string"/>
+      <bind nodeset="/data/herd_level_info_five_district_source/district5" type="string"/>
+      <bind nodeset="/data/five_district_source_freq_move/freq_move_district1" type="string"/>
+      <bind nodeset="/data/five_district_source_freq_move/freq_move_district2" type="string"/>
+      <bind nodeset="/data/five_district_source_freq_move/freq_move_district3" type="string"/>
+      <bind nodeset="/data/five_district_source_freq_move/freq_move_district4" type="string"/>
+      <bind nodeset="/data/five_district_source_freq_move/freq_move_district5" type="string"/>
+      <bind nodeset="/data/reasons_movement" type="select"/>
+      <bind nodeset="/data/which_diseases" type="string"/>
+      <bind nodeset="/data/reasons_movement_other" type="string"/>
+      <bind nodeset="/data/which_transport" type="select1"/>
+      <bind nodeset="/data/permit_from_governement" type="select1"/>
+      <bind nodeset="/data/permit_from_governement_explaination" type="string"/>
+      <bind nodeset="/data/vaccinated_aginst_RVF" type="select1"/>
+      <bind nodeset="/data/if_vaccinated" type="select1"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/herd_ID">
+      <label ref="jr:itext('/data/herd_ID:label')"/>
+      <hint ref="jr:itext('/data/herd_ID:hint')"/>
+    </input>
+    <group ref="/data/herd_level_info_five_district_source" appearance="field-list">
+      <label ref="jr:itext('/data/herd_level_info_five_district_source:label')"/>
+      <input ref="/data/herd_level_info_five_district_source/district1">
+        <label ref="jr:itext('/data/herd_level_info_five_district_source/district1:label')"/>
+      </input>
+      <input ref="/data/herd_level_info_five_district_source/district2">
+        <label ref="jr:itext('/data/herd_level_info_five_district_source/district2:label')"/>
+      </input>
+      <input ref="/data/herd_level_info_five_district_source/district3">
+        <label ref="jr:itext('/data/herd_level_info_five_district_source/district3:label')"/>
+      </input>
+      <input ref="/data/herd_level_info_five_district_source/district4">
+        <label ref="jr:itext('/data/herd_level_info_five_district_source/district4:label')"/>
+      </input>
+      <input ref="/data/herd_level_info_five_district_source/district5">
+        <label ref="jr:itext('/data/herd_level_info_five_district_source/district5:label')"/>
+      </input>
+    </group>
+    <group ref="/data/five_district_source_freq_move" appearance="field-list">
+      <label ref="jr:itext('/data/five_district_source_freq_move:label')"/>
+      <input ref="/data/five_district_source_freq_move/freq_move_district1">
+        <label ref="jr:itext('/data/five_district_source_freq_move/freq_move_district1:label')"/>
+      </input>
+      <input ref="/data/five_district_source_freq_move/freq_move_district2">
+        <label ref="jr:itext('/data/five_district_source_freq_move/freq_move_district2:label')"/>
+      </input>
+      <input ref="/data/five_district_source_freq_move/freq_move_district3">
+        <label ref="jr:itext('/data/five_district_source_freq_move/freq_move_district3:label')"/>
+      </input>
+      <input ref="/data/five_district_source_freq_move/freq_move_district4">
+        <label ref="jr:itext('/data/five_district_source_freq_move/freq_move_district4:label')"/>
+      </input>
+      <input ref="/data/five_district_source_freq_move/freq_move_district5">
+        <label ref="jr:itext('/data/five_district_source_freq_move/freq_move_district5:label')"/>
+      </input>
+    </group>
+    <select ref="/data/reasons_movement">
+      <label ref="jr:itext('/data/reasons_movement:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reasons_movement:option0')"/>
+        <value>Drought</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reasons_movement:option1')"/>
+        <value>avoid_diseases</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reasons_movement:option2')"/>
+        <value>access_markets</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reasons_movement:option3')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reasons_movement:option4')"/>
+        <value>no_movement</value>
+      </item>
+    </select>
+    <input ref="/data/which_diseases">
+      <label ref="jr:itext('/data/which_diseases:label')"/>
+      <hint ref="jr:itext('/data/which_diseases:hint')"/>
+    </input>
+    <input ref="/data/reasons_movement_other">
+      <label ref="jr:itext('/data/reasons_movement_other:label')"/>
+    </input>
+    <select1 ref="/data/which_transport">
+      <label ref="jr:itext('/data/which_transport:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_transport:option0')"/>
+        <value>Trekking</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_transport:option1')"/>
+        <value>Lorry</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_transport:option2')"/>
+        <value>trekking_lorry</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_transport:option3')"/>
+        <value>no_movement</value>
+      </item>
+    </select1>
+    <select1 ref="/data/permit_from_governement">
+      <label ref="jr:itext('/data/permit_from_governement:label')"/>
+      <item>
+        <label ref="jr:itext('/data/permit_from_governement:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/permit_from_governement:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/permit_from_governement_explaination">
+      <label ref="jr:itext('/data/permit_from_governement_explaination:label')"/>
+    </input>
+    <select1 ref="/data/vaccinated_aginst_RVF">
+      <label ref="jr:itext('/data/vaccinated_aginst_RVF:label')"/>
+      <item>
+        <label ref="jr:itext('/data/vaccinated_aginst_RVF:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vaccinated_aginst_RVF:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vaccinated_aginst_RVF:option2')"/>
+        <value>dont_know_dont_remember</value>
+      </item>
+    </select1>
+    <select1 ref="/data/if_vaccinated">
+      <label ref="jr:itext('/data/if_vaccinated:label')"/>
+      <item>
+        <label ref="jr:itext('/data/if_vaccinated:option0')"/>
+        <value>past_12_months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_vaccinated:option1')"/>
+        <value>past24_months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_vaccinated:option2')"/>
+        <value>past_24_months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_vaccinated:option3')"/>
+        <value>dont_remember</value>
+      </item>
+    </select1>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -214,7 +214,7 @@ def copy_response_files(request):
 
 
 
-def get_xf_dict(xf):
+def xf_dict(xf):
     tree    = ET.ElementTree(ET.fromstring(xf))
     root    = tree.getroot()
 

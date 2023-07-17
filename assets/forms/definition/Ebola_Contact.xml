@@ -1,0 +1,373 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Ebola Contact</h:title>
+    <model>
+      <instance>
+        <data id="build_Ebola-Contact_1528977784">
+          <meta>
+            <instanceID/>
+            <date/>
+            <username/>
+          </meta>
+          <contact>
+            <id/>
+            <connu/>
+          </contact>
+          <id_contact>
+            <prenom/>
+            <nom/>
+            <age/>
+            <sexe/>
+            <nom_du_village/>
+            <quartier/>
+            <profession/>
+            <nom_du_cas/>
+            <IDIMT/>
+            <cas_decede/>
+            <relation/>
+            <fievre_hemorragique/>
+            <annee/>
+          </id_contact>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/contact:label">
+            <value>Contacts</value>
+          </text>
+          <text id="/data/contact/id:label">
+            <value>Identification</value>
+          </text>
+          <text id="/data/contact/id:hint">
+            <value>Please enter ID in format AAAA-001-001</value>
+          </text>
+          <text id="/data/contact/id:requiredMsg">
+            <value>ID is mandatory</value>
+          </text>
+          <text id="/data/contact/id:constraintMsg">
+            <value>Invalid format AAAA-001-001</value>
+          </text>
+          <text id="/data/contact/connu:label">
+            <value>Known</value>
+          </text>
+          <text id="/data/contact/connu:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/contact/connu:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/id_contact:label">
+            <value>Identification of contact</value>
+          </text>
+          <text id="/data/id_contact/prenom:label">
+            <value>First Name</value>
+          </text>
+          <text id="/data/id_contact/nom:label">
+            <value>Surname</value>
+          </text>
+          <text id="/data/id_contact/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/id_contact/sexe:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/id_contact/sexe:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/id_contact/sexe:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/id_contact/nom_du_village:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/data/id_contact/quartier:label">
+            <value>Quarter</value>
+          </text>
+          <text id="/data/id_contact/profession:label">
+            <value>Profession</value>
+          </text>
+          <text id="/data/id_contact/profession:option0">
+            <value>Student</value>
+          </text>
+          <text id="/data/id_contact/profession:option1">
+            <value>Farmer</value>
+          </text>
+          <text id="/data/id_contact/profession:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/id_contact/nom_du_cas:label">
+            <value>Name of case</value>
+          </text>
+          <text id="/data/id_contact/IDIMT:label">
+            <value>ID case</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:label">
+            <value>Died</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/id_contact/relation:label">
+            <value>Relation</value>
+          </text>
+          <text id="/data/id_contact/relation:option0">
+            <value>Immediate Family</value>
+          </text>
+          <text id="/data/id_contact/relation:option1">
+            <value>Extended Family</value>
+          </text>
+          <text id="/data/id_contact/relation:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:label">
+            <value>Did you have hemorragic fever</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/id_contact/annee:label">
+            <value>Year</value>
+          </text>
+        </translation>
+        <translation lang="French">
+          <text id="/data/contact:label">
+            <value>Contacts</value>
+          </text>
+          <text id="/data/contact/id:label">
+            <value>Identification</value>
+          </text>
+          <text id="/data/contact/id:hint">
+            <value></value>
+          </text>
+          <text id="/data/contact/id:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/contact/id:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/contact/connu:label">
+            <value>Connu</value>
+          </text>
+          <text id="/data/contact/connu:option0">
+            <value>Oui</value>
+          </text>
+          <text id="/data/contact/connu:option1">
+            <value>Non</value>
+          </text>
+          <text id="/data/id_contact:label">
+            <value>Indentification du contact</value>
+          </text>
+          <text id="/data/id_contact/prenom:label">
+            <value>Prenom</value>
+          </text>
+          <text id="/data/id_contact/nom:label">
+            <value>Nom</value>
+          </text>
+          <text id="/data/id_contact/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/id_contact/sexe:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/data/id_contact/sexe:option0">
+            <value>Masculin</value>
+          </text>
+          <text id="/data/id_contact/sexe:option1">
+            <value>Feminin</value>
+          </text>
+          <text id="/data/id_contact/nom_du_village:label">
+            <value>Nom du Village</value>
+          </text>
+          <text id="/data/id_contact/quartier:label">
+            <value>Quartier</value>
+          </text>
+          <text id="/data/id_contact/profession:label">
+            <value>Profession</value>
+          </text>
+          <text id="/data/id_contact/profession:option0">
+            <value></value>
+          </text>
+          <text id="/data/id_contact/profession:option1">
+            <value></value>
+          </text>
+          <text id="/data/id_contact/profession:option2">
+            <value></value>
+          </text>
+          <text id="/data/id_contact/nom_du_cas:label">
+            <value>Nom du cas</value>
+          </text>
+          <text id="/data/id_contact/IDIMT:label">
+            <value>ID cas</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:label">
+            <value>Cas decede</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:option0">
+            <value>Oui</value>
+          </text>
+          <text id="/data/id_contact/cas_decede:option1">
+            <value>Non</value>
+          </text>
+          <text id="/data/id_contact/relation:label">
+            <value>Relation</value>
+          </text>
+          <text id="/data/id_contact/relation:option0">
+            <value>Famille restreinte</value>
+          </text>
+          <text id="/data/id_contact/relation:option1">
+            <value>Famille elargie</value>
+          </text>
+          <text id="/data/id_contact/relation:option2">
+            <value>Autres</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:label">
+            <value>Avez vous deja souffert d'une fievre hemmoragique</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:option0">
+            <value>Oui</value>
+          </text>
+          <text id="/data/id_contact/fievre_hemorragique:option1">
+            <value>Non</value>
+          </text>
+          <text id="/data/id_contact/annee:label">
+            <value>Annee</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/contact/id" type="string" required="true()" jr:requiredMsg="jr:itext('/data/contact/id:requiredMsg')" constraint="(regex(., &quot;^.{12,12}$&quot;))" jr:constraintMsg="jr:itext('/data/contact/id:constraintMsg')"/>
+      <bind nodeset="/data/contact/connu" type="select1"/>
+      <bind nodeset="/data/id_contact/prenom" type="string"/>
+      <bind nodeset="/data/id_contact/nom" type="string"/>
+      <bind nodeset="/data/id_contact/age" type="int" constraint="(. &gt; '0') and (. &lt;= '120')" jr:constraintMsg="Value must be between 0 and 120"/>
+      <bind nodeset="/data/id_contact/sexe" type="select1"/>
+      <bind nodeset="/data/id_contact/nom_du_village" type="string"/>
+      <bind nodeset="/data/id_contact/quartier" type="string"/>
+      <bind nodeset="/data/id_contact/profession" type="select1"/>
+      <bind nodeset="/data/id_contact/nom_du_cas" type="string"/>
+      <bind nodeset="/data/id_contact/IDIMT" type="int"/>
+      <bind nodeset="/data/id_contact/cas_decede" type="select1"/>
+      <bind nodeset="/data/id_contact/relation" type="select1"/>
+      <bind nodeset="/data/id_contact/fievre_hemorragique" type="select1"/>
+      <bind nodeset="/data/id_contact/annee" type="date"/>
+      <bind nodeset="/data/meta/date" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/contact:label')"/>
+      <input ref="/data/contact/id">
+        <label ref="jr:itext('/data/contact/id:label')"/>
+        <hint ref="jr:itext('/data/contact/id:hint')"/>
+      </input>
+      <select1 ref="/data/contact/connu">
+        <label ref="jr:itext('/data/contact/connu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/contact/connu:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact/connu:option1')"/>
+          <value>0</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/id_contact:label')"/>
+      <input ref="/data/id_contact/prenom">
+        <label ref="jr:itext('/data/id_contact/prenom:label')"/>
+      </input>
+      <input ref="/data/id_contact/nom">
+        <label ref="jr:itext('/data/id_contact/nom:label')"/>
+      </input>
+      <input ref="/data/id_contact/age">
+        <label ref="jr:itext('/data/id_contact/age:label')"/>
+      </input>
+      <select1 ref="/data/id_contact/sexe">
+        <label ref="jr:itext('/data/id_contact/sexe:label')"/>
+        <item>
+          <label ref="jr:itext('/data/id_contact/sexe:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/sexe:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/id_contact/nom_du_village">
+        <label ref="jr:itext('/data/id_contact/nom_du_village:label')"/>
+      </input>
+      <input ref="/data/id_contact/quartier">
+        <label ref="jr:itext('/data/id_contact/quartier:label')"/>
+      </input>
+      <select1 ref="/data/id_contact/profession">
+        <label ref="jr:itext('/data/id_contact/profession:label')"/>
+        <item>
+          <label ref="jr:itext('/data/id_contact/profession:option0')"/>
+          <value>untitled</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/profession:option1')"/>
+          <value>untitled</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/profession:option2')"/>
+          <value>untitled</value>
+        </item>
+      </select1>
+      <input ref="/data/id_contact/nom_du_cas">
+        <label ref="jr:itext('/data/id_contact/nom_du_cas:label')"/>
+      </input>
+      <input ref="/data/id_contact/IDIMT">
+        <label ref="jr:itext('/data/id_contact/IDIMT:label')"/>
+      </input>
+      <select1 ref="/data/id_contact/cas_decede">
+        <label ref="jr:itext('/data/id_contact/cas_decede:label')"/>
+        <item>
+          <label ref="jr:itext('/data/id_contact/cas_decede:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/cas_decede:option1')"/>
+          <value>0</value>
+        </item>
+      </select1>
+      <select1 ref="/data/id_contact/relation">
+        <label ref="jr:itext('/data/id_contact/relation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/id_contact/relation:option0')"/>
+          <value>F1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/relation:option1')"/>
+          <value>F2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/relation:option2')"/>
+          <value>F3</value>
+        </item>
+      </select1>
+      <select1 ref="/data/id_contact/fievre_hemorragique">
+        <label ref="jr:itext('/data/id_contact/fievre_hemorragique:label')"/>
+        <item>
+          <label ref="jr:itext('/data/id_contact/fievre_hemorragique:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/id_contact/fievre_hemorragique:option1')"/>
+          <value>0</value>
+        </item>
+      </select1>
+      <input ref="/data/id_contact/annee" appearance="year">
+        <label ref="jr:itext('/data/id_contact/annee:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

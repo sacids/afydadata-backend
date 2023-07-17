@@ -1,0 +1,682 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head><!-- ODK Aggregate upload time: 2014-12-18T09:34:17.013+0000 on http://epi.sacids.org:8080/ODKAggregate -->
+    <h:title>Dalili-za-Mifugo</h:title>
+    <model>
+      <instance>
+        <data id="build_Dalili-za-Mifugo_1418895355">
+          <meta>
+            <instanceID/>
+            <deviceID/>
+          </meta>
+          <taarifa_za_awali>
+            <jina_la_mkusanyaji_taarifa/>
+            <Wilaya/>
+            <Kijiji/>
+            <kitongoji/>
+            <tarehe_kukusanya_taarifa/>
+          </taarifa_za_awali>
+          <dalili>
+            <jina_boma/>
+            <aina_mifugo_dalili/>
+            <aina_nyingine_mfugo/>
+            <zilizoonekana/>
+            <zingine/>
+          </dalili>
+          <umri_idadi>
+            <Idadi_dalili_wadogo>
+              0
+            </Idadi_dalili_wadogo>
+            <Idadi_dalili_wakubwa>
+              0
+            </Idadi_dalili_wakubwa>
+            <idadi_vifo_wadogo>
+              0
+            </idadi_vifo_wadogo>
+            <Idadi_vifo_wakubwa>
+              0
+            </Idadi_vifo_wakubwa>
+          </umri_idadi>
+          <GPS_picha_ugonjwa>
+            <ugonjwa_unaodhaniwa/>
+            <picture/>
+            <GPS/>
+          </GPS_picha_ugonjwa>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/taarifa_za_awali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifa_za_awali/jina_la_mkusanyaji_taarifa:label">
+            <value>Jina la mkusanyaji Taarifa</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option0">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option1">
+            <value>Kibaha</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option2">
+            <value>Bagamoyo</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Kijiji:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/data/taarifa_za_awali/kitongoji:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/taarifa_za_awali/tarehe_kukusanya_taarifa:label">
+            <value>Tarehe ya ukusanyaji taarifa</value>
+          </text>
+          <text id="/data/dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/dalili/jina_boma:label">
+            <value>Jina la mwenye mifugo / Boma</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:label">
+            <value>Chagua aina ya mfugo ulioonesha dalili</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option2">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option3">
+            <value>Punda</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option4">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option5">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/dalili/aina_nyingine_mfugo:label">
+            <value>Aina nyingine ya mfugo </value>
+          </text>
+          <text id="/data/dalili/aina_nyingine_mfugo:hint">
+            <value>Kama kuna aina nyingine ya mfugo mbali ya iliyoorodheshwa; tafadhali taja</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:label">
+            <value>Dalili zilizoonekana kwa mfugo</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option0">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option1">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option2">
+            <value>Kubadilika rangi ya ngozi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option3">
+            <value>Kusimama manyoya</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option4">
+            <value>Macho mekundu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option5">
+            <value>Kuzungukazunguka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option6">
+            <value>Tumbo Kujaa</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option7">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option8">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option9">
+            <value>kutoka machozi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option10">
+            <value>Kupofuka macho</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option11">
+            <value>Kutembea kwa kuchechemea</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option12">
+            <value>Kuvimba / vidonda kwenye kwato</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option13">
+            <value>Kutoka ute puani</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option14">
+            <value>Kupungua uzito / kukonda</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option15">
+            <value>Kushindwa kutembea</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option16">
+            <value>Harufu mbaya mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option17">
+            <value>Kupumua kwa shida / haraka haraka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option18">
+            <value>Vidonda mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option19">
+            <value>Kuvimba ulimi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option20">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option21">
+            <value>Mapunye</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option22">
+            <value>Kutoka upele</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option23">
+            <value>Kifo cha ghafla</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option24">
+            <value>Kutupa mimba</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option25">
+            <value>Dalili isiyo ya kawaida</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option26">
+            <value>Kutoka mate / mapovu mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option27">
+            <value>Kushindwa kula</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option28">
+            <value>Kutetemeka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option29">
+            <value>Kutoka damu sehemu za matundu</value>
+          </text>
+          <text id="/data/dalili/zingine:label">
+            <value>Dalili zingine</value>
+          </text>
+          <text id="/data/dalili/zingine:hint">
+            <value>Kama kuna dalili zingine mbali ya zilizotajwa hapo juu; tafadhali taja</value>
+          </text>
+          <text id="/data/umri_idadi:label">
+            <value>Umri / Idadi / Vifo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_dalili_wadogo:label">
+            <value>Idadi ya walioonesha dalili wadogo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_dalili_wakubwa:label">
+            <value>Idadi ya walioonesha dalili wakubwa</value>
+          </text>
+          <text id="/data/umri_idadi/idadi_vifo_wadogo:label">
+            <value>Idadi ya waliokufa wadogo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_vifo_wakubwa:label">
+            <value>Idadi ya waliokufa wakubwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa:label">
+            <value>Ugonjwa / Picha / GPS</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:label">
+            <value>Kutokana na dalili zilizotajwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:hint">
+            <value>Tafadhali taja jina la ugonjwa unaodhaniwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/picture:label">
+            <value>Chukua picha ya dalili inayoonekana</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/picture:hint">
+            <value></value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/GPS:label">
+            <value>Chukua GPS ya eneo ya tukio</value>
+          </text>
+        </translation>
+        <translation lang="swa">
+          <text id="/data/taarifa_za_awali:label">
+            <value>Taarifa za awali </value>
+          </text>
+          <text id="/data/taarifa_za_awali/jina_la_mkusanyaji_taarifa:label">
+            <value>Jina la mkusanyaji Taarifa</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:label">
+            <value>Wilaya </value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option0">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option1">
+            <value>Kibaha</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Wilaya:option2">
+            <value>Bagamoyo</value>
+          </text>
+          <text id="/data/taarifa_za_awali/Kijiji:label">
+            <value>Kijiji </value>
+          </text>
+          <text id="/data/taarifa_za_awali/kitongoji:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/taarifa_za_awali/tarehe_kukusanya_taarifa:label">
+            <value>Tarehe ya ukusanyaji taarifa</value>
+          </text>
+          <text id="/data/dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/dalili/jina_boma:label">
+            <value>Jina la mwenye mifugo / Boma</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:label">
+            <value>Chagua aina ya mfugo ulioonesha dalili</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option2">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option3">
+            <value>Punda</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option4">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/dalili/aina_mifugo_dalili:option5">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/dalili/aina_nyingine_mfugo:label">
+            <value>Aina nyingine ya mfugo</value>
+          </text>
+          <text id="/data/dalili/aina_nyingine_mfugo:hint">
+            <value>Kama kuna aina nyingine ya mfugo mbali ya iliyoorodheshwa; tafadhali taja</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:label">
+            <value>Dalili zilizoonekana kwa mfugo</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option0">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option1">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option2">
+            <value>Kubadilika rangi ya ngozi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option3">
+            <value>Kusimama manyoya</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option4">
+            <value>Macho mekundu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option5">
+            <value>Kuzungukazunguka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option6">
+            <value>Tumbo Kujaa</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option7">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option8">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option9">
+            <value>Kutoka machozi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option10">
+            <value>Kupofuka macho</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option11">
+            <value>Kutembea kwa kuchechemea</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option12">
+            <value>Kuvimba / vidonda kwenye kwato</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option13">
+            <value>Kutoka ute puani</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option14">
+            <value>Kupungua uzito / kukonda</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option15">
+            <value>Kushindwa kutembea</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option16">
+            <value>Harufu mbaya mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option17">
+            <value>Kupumua kwa shida / haraka haraka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option18">
+            <value>Vidonda mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option19">
+            <value>Kuvimba ulimi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option20">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option21">
+            <value>Mapunye</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option22">
+            <value>Kutoka upele</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option23">
+            <value>Kifo cha ghafla</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option24">
+            <value>Kutupa mimba</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option25">
+            <value>Dalili isiyo ya kawaida</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option26">
+            <value>Kutoka mate / mapovu mdomoni</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option27">
+            <value>Kushindwa Kula</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option28">
+            <value>kutetemeka</value>
+          </text>
+          <text id="/data/dalili/zilizoonekana:option29">
+            <value>Kutoka damu sehemu za matundu</value>
+          </text>
+          <text id="/data/dalili/zingine:label">
+            <value>Dalili zingine</value>
+          </text>
+          <text id="/data/dalili/zingine:hint">
+            <value>Kama kuna dalili zingine mbali ya zililzotajwa; tafadhali taja</value>
+          </text>
+          <text id="/data/umri_idadi:label">
+            <value>Umri / Idadi / Vifo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_dalili_wadogo:label">
+            <value>Idadi ya walioonesha dalili wadogo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_dalili_wakubwa:label">
+            <value>Idadi ya walioonesha dalili wakubwa</value>
+          </text>
+          <text id="/data/umri_idadi/idadi_vifo_wadogo:label">
+            <value>Idadi ya waliokufa wadogo</value>
+          </text>
+          <text id="/data/umri_idadi/Idadi_vifo_wakubwa:label">
+            <value>Idadi ya waliokufa wakubwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa:label">
+            <value>Ugonjwa / Picha / GPS</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:label">
+            <value>Kutokana na dalili zilizotajwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:hint">
+            <value>Tafadhali taja jina la ugonjwa unaodhaniwa</value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/picture:label">
+            <value></value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/picture:hint">
+            <value></value>
+          </text>
+          <text id="/data/GPS_picha_ugonjwa/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/meta/deviceID" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+      <bind nodeset="/data/taarifa_za_awali/jina_la_mkusanyaji_taarifa" type="string" required="true()"/>
+      <bind nodeset="/data/taarifa_za_awali/Wilaya" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifa_za_awali/Kijiji" type="string" required="true()"/>
+      <bind nodeset="/data/taarifa_za_awali/kitongoji" type="string"/>
+      <bind nodeset="/data/taarifa_za_awali/tarehe_kukusanya_taarifa" type="date" required="true()"/>
+      <bind nodeset="/data/dalili/jina_boma" type="string"/>
+      <bind nodeset="/data/dalili/aina_mifugo_dalili" type="select1"/>
+      <bind nodeset="/data/dalili/aina_nyingine_mfugo" type="string"/>
+      <bind nodeset="/data/dalili/zilizoonekana" type="select"/>
+      <bind nodeset="/data/dalili/zingine" type="string"/>
+      <bind nodeset="/data/umri_idadi/Idadi_dalili_wadogo" type="int" required="true()"/>
+      <bind nodeset="/data/umri_idadi/Idadi_dalili_wakubwa" type="int" required="true()"/>
+      <bind nodeset="/data/umri_idadi/idadi_vifo_wadogo" type="int" required="true()"/>
+      <bind nodeset="/data/umri_idadi/Idadi_vifo_wakubwa" type="int" required="true()"/>
+      <bind nodeset="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa" type="string"/>
+      <bind nodeset="/data/GPS_picha_ugonjwa/picture" type="binary"/>
+      <bind nodeset="/data/GPS_picha_ugonjwa/GPS" type="geopoint" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_za_awali:label')"/>
+      <input ref="/data/taarifa_za_awali/jina_la_mkusanyaji_taarifa">
+        <label ref="jr:itext('/data/taarifa_za_awali/jina_la_mkusanyaji_taarifa:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_za_awali/Wilaya">
+        <label ref="jr:itext('/data/taarifa_za_awali/Wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/Wilaya:option0')"/>
+          <value>Ngorongoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/Wilaya:option1')"/>
+          <value>Kibaha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/Wilaya:option2')"/>
+          <value>Bagamoyo</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_za_awali/Kijiji">
+        <label ref="jr:itext('/data/taarifa_za_awali/Kijiji:label')"/>
+      </input>
+      <input ref="/data/taarifa_za_awali/kitongoji">
+        <label ref="jr:itext('/data/taarifa_za_awali/kitongoji:label')"/>
+      </input>
+      <input ref="/data/taarifa_za_awali/tarehe_kukusanya_taarifa" appearance="no-calendar">
+        <label ref="jr:itext('/data/taarifa_za_awali/tarehe_kukusanya_taarifa:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/dalili:label')"/>
+      <input ref="/data/dalili/jina_boma">
+        <label ref="jr:itext('/data/dalili/jina_boma:label')"/>
+      </input>
+      <select1 ref="/data/dalili/aina_mifugo_dalili">
+        <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:label')"/>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option0')"/>
+          <value>Ngombe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option1')"/>
+          <value>Mbuzi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option2')"/>
+          <value>Kondoo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option3')"/>
+          <value>Punda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option4')"/>
+          <value>Mbwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/aina_mifugo_dalili:option5')"/>
+          <value>Kuku</value>
+        </item>
+      </select1>
+      <input ref="/data/dalili/aina_nyingine_mfugo">
+        <label ref="jr:itext('/data/dalili/aina_nyingine_mfugo:label')"/>
+        <hint ref="jr:itext('/data/dalili/aina_nyingine_mfugo:hint')"/>
+      </input>
+      <select ref="/data/dalili/zilizoonekana">
+        <label ref="jr:itext('/data/dalili/zilizoonekana:label')"/>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option0')"/>
+          <value>Kuharisha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option1')"/>
+          <value>Kuhara-damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option2')"/>
+          <value>Kubadilika-rangi-ya-ngozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option3')"/>
+          <value>kusimama-manyoya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option4')"/>
+          <value>Macho-mekundu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option5')"/>
+          <value>kuzungukazunguka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option6')"/>
+          <value>tumbo-kujaa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option7')"/>
+          <value>Kukohoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option8')"/>
+          <value>kukojoa-damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option9')"/>
+          <value>kutoka-machozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option10')"/>
+          <value>kupofuka-macho</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option11')"/>
+          <value>kutembea-kwa-kuchechemea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option12')"/>
+          <value>kuvimba-au-vidonda-kwenye-kwato</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option13')"/>
+          <value>kutoka-ute-puani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option14')"/>
+          <value>kupungua-uzito-au-kukonda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option15')"/>
+          <value>kushindwa-kutembea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option16')"/>
+          <value>harufu-mbaya-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option17')"/>
+          <value>kupumua-kwa-shida-haraka-haraka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option18')"/>
+          <value>Vidonda-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option19')"/>
+          <value>kuvimba-ulimi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option20')"/>
+          <value>kuvimba-tezi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option21')"/>
+          <value>Mapunye</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option22')"/>
+          <value>kutoka-upele</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option23')"/>
+          <value>kifo-cha-ghafla</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option24')"/>
+          <value>kutupa-mimba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option25')"/>
+          <value>Dalili-isiyo-ya-kawaida</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option26')"/>
+          <value>kutoka-mate-mapovu-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option27')"/>
+          <value>Kushindwa-kula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option28')"/>
+          <value>kutetemeka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dalili/zilizoonekana:option29')"/>
+          <value>kutoka-damu-sehemu-matundu</value>
+        </item>
+      </select>
+      <input ref="/data/dalili/zingine">
+        <label ref="jr:itext('/data/dalili/zingine:label')"/>
+        <hint ref="jr:itext('/data/dalili/zingine:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/umri_idadi:label')"/>
+      <input ref="/data/umri_idadi/Idadi_dalili_wadogo">
+        <label ref="jr:itext('/data/umri_idadi/Idadi_dalili_wadogo:label')"/>
+      </input>
+      <input ref="/data/umri_idadi/Idadi_dalili_wakubwa">
+        <label ref="jr:itext('/data/umri_idadi/Idadi_dalili_wakubwa:label')"/>
+      </input>
+      <input ref="/data/umri_idadi/idadi_vifo_wadogo">
+        <label ref="jr:itext('/data/umri_idadi/idadi_vifo_wadogo:label')"/>
+      </input>
+      <input ref="/data/umri_idadi/Idadi_vifo_wakubwa">
+        <label ref="jr:itext('/data/umri_idadi/Idadi_vifo_wakubwa:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/GPS_picha_ugonjwa:label')"/>
+      <input ref="/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa">
+        <label ref="jr:itext('/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:label')"/>
+        <hint ref="jr:itext('/data/GPS_picha_ugonjwa/ugonjwa_unaodhaniwa:hint')"/>
+      </input>
+      <upload ref="/data/GPS_picha_ugonjwa/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/GPS_picha_ugonjwa/picture:label')"/>
+        <hint ref="jr:itext('/data/GPS_picha_ugonjwa/picture:hint')"/>
+      </upload>
+      <input ref="/data/GPS_picha_ugonjwa/GPS">
+        <label ref="jr:itext('/data/GPS_picha_ugonjwa/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

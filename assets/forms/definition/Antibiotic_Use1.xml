@@ -1,0 +1,2136 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Antibiotic Use</h:title>
+    <model>
+      <instance>
+        <data id="build_Antibiotic-Use_1566120582">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <identification>
+            <region/>
+            <district/>
+            <ward/>
+            <farm_category/>
+            <farm_name/>
+            <interviewee_name/>
+          </identification>
+          <farm_characteristic_household>
+            <farm_owner/>
+            <owner_age/>
+            <ed_level/>
+            <role/>
+            <number_people_working_farm/>
+            <type_animal/>
+          </farm_characteristic_household>
+          <cattle>
+            <number_cattle_farm/>
+            <cattle_breed/>
+            <management_style/>
+            <how_long_kept_cattles/>
+            <purpose_keeping_cattles/>
+          </cattle>
+          <dise_character_disease_heard_12month/>
+          <disease_characteristic>
+            <antib_given_mastitis/>
+            <frequency_mastits/>
+            <antib_given_foot_rot/>
+            <frequency_foot_rot/>
+            <antib_given_respiratory/>
+            <frequency_respiratory/>
+            <antib_given_abortion/>
+            <frequency_abortion/>
+          </disease_characteristic>
+          <disease_characteristic2>
+            <antib_given_bloat/>
+            <frequency_bloat/>
+            <antib_given_diarrh/>
+            <frequency_diarrh/>
+            <antib_given_theileriosis/>
+            <frequency_theileriosis/>
+            <antib_given_heart_water/>
+            <frequency_heart_water/>
+          </disease_characteristic2>
+          <disease_characteristic3>
+            <determine_weight/>
+            <antibiotics_used_at_farm/>
+            <other_antibiotics_used_at_farm/>
+            <most_freq_antibiotics_reason/>
+            <who_treats_cattles/>
+          </disease_characteristic3>
+          <disease_characteristic4>
+            <normaly_buy_vet_antibiotics/>
+            <seller_ask_prescription/>
+            <where_store_antibiotics/>
+            <check_expiere_date/>
+            <keep_records/>
+          </disease_characteristic4>
+          <disease_characteristic_record_particulary/>
+          <farm_characteristic>
+            <breed_bull_shared_others/>
+            <source_water_cattles/>
+            <feed_practices_farm/>
+            <month_year_feed_hay/>
+            <month_year_feed_concetr/>
+          </farm_characteristic>
+          <farm_dynamic_animal_brought_last_one_year/>
+          <farm_dynamic__no_cattles_brought/>
+          <farm_dynamic_cattle_mix_with_other/>
+          <farm_dynamic_which_from_farm_mix/>
+          <poultry>
+            <type_chicken/>
+            <number_chicken_farm/>
+            <management_style_chicken/>
+            <how_long_kept_chicken/>
+            <purpose_keep_chicken/>
+            <major_disease_encounter_farm/>
+            <other_major_disease_encounter_farm/>
+          </poultry>
+          <poultry1_who_treat_chicken/>
+          <poultry1_mostly_used_medication/>
+          <poultry1>
+            <mostly_antibiotics_used/>
+            <other_mostly_antibiotics_used/>
+            <who_prescribed_antibiotics/>
+            <check_expiry_dates_b4_use_antibi/>
+            <antibio_adminster_in_Chicken/>
+            <freq_antib_adminstered/>
+          </poultry1>
+          <poultry2>
+            <how_decide_use_antibiotics/>
+            <decide_which_antib_keep_stock/>
+            <overall_frequ_used_anti/>
+            <other_overall_frequ_used_anti/>
+            <why_overall_frequ_used_anti/>
+          </poultry2>
+          <gps/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/identification:label">
+            <value>Identification</value>
+          </text>
+          <text id="/data/identification/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/identification/region:hint">
+            <value></value>
+          </text>
+          <text id="/data/identification/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/identification/district:option0">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/identification/district:option1">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/identification/district:option2">
+            <value>Ubungo</value>
+          </text>
+          <text id="/data/identification/district:option3">
+            <value>Temeke</value>
+          </text>
+          <text id="/data/identification/district:option4">
+            <value>Kigamboni</value>
+          </text>
+          <text id="/data/identification/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/identification/farm_category:label">
+            <value>Category of Farm</value>
+          </text>
+          <text id="/data/identification/farm_category:option0">
+            <value>Commercial</value>
+          </text>
+          <text id="/data/identification/farm_category:option1">
+            <value>Smallholder</value>
+          </text>
+          <text id="/data/identification/farm_name:label">
+            <value>Name of the Farm</value>
+          </text>
+          <text id="/data/identification/interviewee_name:label">
+            <value>Interviewee Name</value>
+          </text>
+          <text id="/data/farm_characteristic_household:label">
+            <value>Farm (Household) Characteristic</value>
+          </text>
+          <text id="/data/farm_characteristic_household/farm_owner:label">
+            <value>1. What is the name of the owner of the farm?</value>
+          </text>
+          <text id="/data/farm_characteristic_household/owner_age:label">
+            <value>2. What is the age of the owner?</value>
+          </text>
+          <text id="/data/farm_characteristic_household/ed_level:label">
+            <value>3. What is the education level of the owner of the farm? </value>
+          </text>
+          <text id="/data/farm_characteristic_household/ed_level:option0">
+            <value>Basic</value>
+          </text>
+          <text id="/data/farm_characteristic_household/ed_level:option1">
+            <value>Primary</value>
+          </text>
+          <text id="/data/farm_characteristic_household/ed_level:option2">
+            <value>Secondary</value>
+          </text>
+          <text id="/data/farm_characteristic_household/ed_level:option3">
+            <value>Tertiary</value>
+          </text>
+          <text id="/data/farm_characteristic_household/role:label">
+            <value>4. What is your role on the farm? </value>
+          </text>
+          <text id="/data/farm_characteristic_household/role:option0">
+            <value>Owner</value>
+          </text>
+          <text id="/data/farm_characteristic_household/role:option1">
+            <value>Herdsman</value>
+          </text>
+          <text id="/data/farm_characteristic_household/role:option2">
+            <value>Manager</value>
+          </text>
+          <text id="/data/farm_characteristic_household/number_people_working_farm:label">
+            <value>5. How many people are working on this farm?</value>
+          </text>
+          <text id="/data/farm_characteristic_household/type_animal:label">
+            <value>6. Which type of domestic animals/ chicken do you keep?</value>
+          </text>
+          <text id="/data/farm_characteristic_household/type_animal:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/farm_characteristic_household/type_animal:option1">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/cattle:label">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/cattle/number_cattle_farm:label">
+            <value>7. How many cattle do you have on the farm</value>
+          </text>
+          <text id="/data/cattle/cattle_breed:label">
+            <value>8. Which cattle breeds do you currently have on the farm?</value>
+          </text>
+          <text id="/data/cattle/cattle_breed:option0">
+            <value>Friesian</value>
+          </text>
+          <text id="/data/cattle/cattle_breed:option1">
+            <value>Jersey</value>
+          </text>
+          <text id="/data/cattle/cattle_breed:option2">
+            <value>Crosses of dairy </value>
+          </text>
+          <text id="/data/cattle/cattle_breed:option3">
+            <value>Local breeds</value>
+          </text>
+          <text id="/data/cattle/cattle_breed:option4">
+            <value>Other beef breed </value>
+          </text>
+          <text id="/data/cattle/management_style:label">
+            <value>9. Which management style do you use?</value>
+          </text>
+          <text id="/data/cattle/management_style:option0">
+            <value>Zero grazing</value>
+          </text>
+          <text id="/data/cattle/management_style:option1">
+            <value>Pasture only</value>
+          </text>
+          <text id="/data/cattle/management_style:option2">
+            <value>Free range</value>
+          </text>
+          <text id="/data/cattle/management_style:option3">
+            <value>Combination</value>
+          </text>
+          <text id="/data/cattle/how_long_kept_cattles:label">
+            <value>10. For how long have you kept cattle? </value>
+          </text>
+          <text id="/data/cattle/how_long_kept_cattles:option0">
+            <value>≤ 1year</value>
+          </text>
+          <text id="/data/cattle/how_long_kept_cattles:option1">
+            <value>1- 2 yrs</value>
+          </text>
+          <text id="/data/cattle/how_long_kept_cattles:option2">
+            <value>2 1/2- 3years</value>
+          </text>
+          <text id="/data/cattle/how_long_kept_cattles:option3">
+            <value>3yrs and above</value>
+          </text>
+          <text id="/data/cattle/purpose_keeping_cattles:label">
+            <value>11. What is the purpose of keeping cattle? </value>
+          </text>
+          <text id="/data/cattle/purpose_keeping_cattles:option0">
+            <value>Commercial</value>
+          </text>
+          <text id="/data/cattle/purpose_keeping_cattles:option1">
+            <value>Subsistence</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:label">
+            <value>12. Have you had any of the following diseases in the last 12 months on the farm?</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option0">
+            <value>Mastitis</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option1">
+            <value>Foot  rot</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option2">
+            <value>Respiratory</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option3">
+            <value>Abortion</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option4">
+            <value>Bloat</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option5">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option6">
+            <value>Theileriosis</value>
+          </text>
+          <text id="/data/dise_character_disease_heard_12month:option7">
+            <value>Heart water</value>
+          </text>
+          <text id="/data/disease_characteristic:label">
+            <value>Livestock Diseases Characteristics</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_mastitis:label">
+            <value>12.1 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_mastitis:hint">
+            <value>for mastitis</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_mastits:label">
+            <value>12.1.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_mastits:hint">
+            <value>for mastitis</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_foot_rot:label">
+            <value>12.2 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_foot_rot:hint">
+            <value>for Foot rot</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_foot_rot:label">
+            <value>12.2.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_foot_rot:hint">
+            <value>for Foot Rot</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_respiratory:label">
+            <value>12.3 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_respiratory:hint">
+            <value>for Respiratory</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_respiratory:label">
+            <value>12.3.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_respiratory:hint">
+            <value>for Respiratory </value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_abortion:label">
+            <value>12.4 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic/antib_given_abortion:hint">
+            <value>for Abortion</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_abortion:label">
+            <value>12.4.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic/frequency_abortion:hint">
+            <value>for Abortion</value>
+          </text>
+          <text id="/data/disease_characteristic2:label">
+            <value>Livestock Diseases Characteristics</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_bloat:label">
+            <value>12.5 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_bloat:hint">
+            <value>for Bloat</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_bloat:label">
+            <value>12.5.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_bloat:hint">
+            <value>for Bloat</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_diarrh:label">
+            <value>12.6 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_diarrh:hint">
+            <value>for Diarrhoea</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_diarrh:label">
+            <value>12.6.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_diarrh:hint">
+            <value>for Diarrhoea</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_theileriosis:label">
+            <value>12.7 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_theileriosis:hint">
+            <value>for Theileriosis</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_theileriosis:label">
+            <value>12.7.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_theileriosis:hint">
+            <value>for Theileriosis</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_heart_water:label">
+            <value>12.8 Antibiotic given</value>
+          </text>
+          <text id="/data/disease_characteristic2/antib_given_heart_water:hint">
+            <value>for Heart water</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_heart_water:label">
+            <value>12.8.1 Frequency</value>
+          </text>
+          <text id="/data/disease_characteristic2/frequency_heart_water:hint">
+            <value>for Heart water</value>
+          </text>
+          <text id="/data/disease_characteristic3:label">
+            <value>Livestock Diseases Characteristics</value>
+          </text>
+          <text id="/data/disease_characteristic3/determine_weight:label">
+            <value>13. How do you usually determine the weight of cattle before giving antibiotics? </value>
+          </text>
+          <text id="/data/disease_characteristic3/determine_weight:option0">
+            <value>Visually</value>
+          </text>
+          <text id="/data/disease_characteristic3/determine_weight:option1">
+            <value>Guess</value>
+          </text>
+          <text id="/data/disease_characteristic3/determine_weight:option2">
+            <value>Scale</value>
+          </text>
+          <text id="/data/disease_characteristic3/determine_weight:option3">
+            <value>Weight band</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:label">
+            <value>14. Which of the following antibiotics have ever been used at this farm</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option0">
+            <value>Tetracycline (any)</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option1">
+            <value>Penicillin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option2">
+            <value>Gentamicin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option3">
+            <value>Neomycin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option4">
+            <value>Ciprofloxacin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option5">
+            <value>Sulfur based (any)</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option6">
+            <value>Ampicillin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option7">
+            <value>Enrofloxacin</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option8">
+            <value>Chloramphenicol</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option9">
+            <value>Penstrep</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option10">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/disease_characteristic3/antibiotics_used_at_farm:option11">
+            <value>Other</value>
+          </text>
+          <text id="/data/disease_characteristic3/other_antibiotics_used_at_farm:label">
+            <value>14.1. Which of the following antibiotics have ever been used at this farm</value>
+          </text>
+          <text id="/data/disease_characteristic3/other_antibiotics_used_at_farm:hint">
+            <value>Apart form listed ones</value>
+          </text>
+          <text id="/data/disease_characteristic3/most_freq_antibiotics_reason:label">
+            <value>15. Which antibiotics among the mentioned above do you use most and why?</value>
+          </text>
+          <text id="/data/disease_characteristic3/who_treats_cattles:label">
+            <value>16. Who treats your cattle once they fall sick? </value>
+          </text>
+          <text id="/data/disease_characteristic3/who_treats_cattles:option0">
+            <value>Self</value>
+          </text>
+          <text id="/data/disease_characteristic3/who_treats_cattles:option1">
+            <value>Neighbour</value>
+          </text>
+          <text id="/data/disease_characteristic3/who_treats_cattles:option2">
+            <value>Farmer take out</value>
+          </text>
+          <text id="/data/disease_characteristic3/who_treats_cattles:option3">
+            <value>Veterinarian</value>
+          </text>
+          <text id="/data/disease_characteristic4:label">
+            <value>Livestock Diseases Characteristics</value>
+          </text>
+          <text id="/data/disease_characteristic4/normaly_buy_vet_antibiotics:label">
+            <value>17. Where do you normally buy veterinary antibiotics? </value>
+          </text>
+          <text id="/data/disease_characteristic4/normaly_buy_vet_antibiotics:option0">
+            <value>Retailer shops</value>
+          </text>
+          <text id="/data/disease_characteristic4/normaly_buy_vet_antibiotics:option1">
+            <value>Veterinary clinic</value>
+          </text>
+          <text id="/data/disease_characteristic4/normaly_buy_vet_antibiotics:option2">
+            <value>Individual veterinarian</value>
+          </text>
+          <text id="/data/disease_characteristic4/normaly_buy_vet_antibiotics:option3">
+            <value>Sales within community</value>
+          </text>
+          <text id="/data/disease_characteristic4/seller_ask_prescription:label">
+            <value>18. Do drug sellers usually ask for prescription when selling veterinary antibiotics?</value>
+          </text>
+          <text id="/data/disease_characteristic4/seller_ask_prescription:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/disease_characteristic4/seller_ask_prescription:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/disease_characteristic4/seller_ask_prescription:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:label">
+            <value>19. Where do you usually store your antibiotics? </value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:option0">
+            <value>Fridge</value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:option1">
+            <value>Cupboard</value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:option2">
+            <value>Open shelf indoors</value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:option3">
+            <value>Shelf direct  sunlight</value>
+          </text>
+          <text id="/data/disease_characteristic4/where_store_antibiotics:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/disease_characteristic4/check_expiere_date:label">
+            <value>20. Do you usually check for expiry dates before using veterinary antibiotics?</value>
+          </text>
+          <text id="/data/disease_characteristic4/check_expiere_date:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/disease_characteristic4/check_expiere_date:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/disease_characteristic4/keep_records:label">
+            <value>21. Do you keep records?</value>
+          </text>
+          <text id="/data/disease_characteristic4/keep_records:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/disease_characteristic4/keep_records:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/disease_characteristic_record_particulary:label">
+            <value>22. Which type of records in particular</value>
+          </text>
+          <text id="/data/disease_characteristic_record_particulary:option0">
+            <value>Treatment</value>
+          </text>
+          <text id="/data/disease_characteristic_record_particulary:option1">
+            <value>Purchase</value>
+          </text>
+          <text id="/data/farm_characteristic:label">
+            <value>Farm Characteristics</value>
+          </text>
+          <text id="/data/farm_characteristic/breed_bull_shared_others:label">
+            <value>23. Is the breeding bull shared with others? </value>
+          </text>
+          <text id="/data/farm_characteristic/breed_bull_shared_others:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/farm_characteristic/breed_bull_shared_others:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/farm_characteristic/source_water_cattles:label">
+            <value>24. What is the source of drinking water for cattle</value>
+          </text>
+          <text id="/data/farm_characteristic/source_water_cattles:option0">
+            <value>Tap water</value>
+          </text>
+          <text id="/data/farm_characteristic/source_water_cattles:option1">
+            <value>Shallow well</value>
+          </text>
+          <text id="/data/farm_characteristic/source_water_cattles:option2">
+            <value>Bore hole</value>
+          </text>
+          <text id="/data/farm_characteristic/source_water_cattles:option3">
+            <value>Concrete well</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:label">
+            <value>25. What feeding practices are used on this farm?</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:option0">
+            <value>Zero grazing</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:option1">
+            <value>Pasture</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:option2">
+            <value>Free range</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:option3">
+            <value>Combination</value>
+          </text>
+          <text id="/data/farm_characteristic/feed_practices_farm:option4">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:label">
+            <value>26. Which month of the year do you feed hay, silage or/and crop residues to the whole herd?</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option0">
+            <value>Jan</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option1">
+            <value>Feb</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option2">
+            <value>March</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option3">
+            <value>April</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option4">
+            <value>May</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option5">
+            <value>June</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option6">
+            <value>July</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option7">
+            <value>Aug</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option8">
+            <value>Sept</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option9">
+            <value>Oct</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option10">
+            <value>Nov</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_hay:option11">
+            <value>Dec</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:label">
+            <value>27. Which month of the year do you feed concentrates and minerals to the whole herd</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option0">
+            <value>Jan</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option1">
+            <value>Feb</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option2">
+            <value>March</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option3">
+            <value>April</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option4">
+            <value>May</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option5">
+            <value>June</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option6">
+            <value>July</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option7">
+            <value>Aug</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option8">
+            <value>Sept</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option9">
+            <value>Oct</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option10">
+            <value>Nov</value>
+          </text>
+          <text id="/data/farm_characteristic/month_year_feed_concetr:option11">
+            <value>Dec</value>
+          </text>
+          <text id="/data/farm_dynamic_animal_brought_last_one_year:label">
+            <value>28. Are there any animal(s) here today that you brought in the last one year?</value>
+          </text>
+          <text id="/data/farm_dynamic_animal_brought_last_one_year:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/farm_dynamic_animal_brought_last_one_year:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/farm_dynamic_animal_brought_last_one_year:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/farm_dynamic__no_cattles_brought:label">
+            <value>29. State the number of cattle which was brought in the herd</value>
+          </text>
+          <text id="/data/farm_dynamic_cattle_mix_with_other:label">
+            <value>30. Do your cattle mix with other animals from other farms?</value>
+          </text>
+          <text id="/data/farm_dynamic_cattle_mix_with_other:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/farm_dynamic_cattle_mix_with_other:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:label">
+            <value>31. Which of the following animals from other farm mix with your cattle?</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:option0">
+            <value>Commercial dairy</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:option1">
+            <value>Commercial beef</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:option2">
+            <value>Small holder dairy</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:option3">
+            <value>Small holder beef</value>
+          </text>
+          <text id="/data/farm_dynamic_which_from_farm_mix:option4">
+            <value>Goats</value>
+          </text>
+          <text id="/data/poultry:label">
+            <value>Poultry Section</value>
+          </text>
+          <text id="/data/poultry/type_chicken:label">
+            <value>32. Which type  of domestic chicken do you keep?</value>
+          </text>
+          <text id="/data/poultry/type_chicken:option0">
+            <value>Layers</value>
+          </text>
+          <text id="/data/poultry/type_chicken:option1">
+            <value>Broilers</value>
+          </text>
+          <text id="/data/poultry/type_chicken:option2">
+            <value>Local chicken</value>
+          </text>
+          <text id="/data/poultry/number_chicken_farm:label">
+            <value>33. How many chickens do you have on your farm</value>
+          </text>
+          <text id="/data/poultry/management_style_chicken:label">
+            <value>34. Which management style do you practise? </value>
+          </text>
+          <text id="/data/poultry/management_style_chicken:option0">
+            <value>Free range</value>
+          </text>
+          <text id="/data/poultry/management_style_chicken:option1">
+            <value>Intensive</value>
+          </text>
+          <text id="/data/poultry/management_style_chicken:option2">
+            <value>Semi-Intensive</value>
+          </text>
+          <text id="/data/poultry/how_long_kept_chicken:label">
+            <value>35. For how long have you kept chicken</value>
+          </text>
+          <text id="/data/poultry/how_long_kept_chicken:option0">
+            <value>1 to 2 weeks</value>
+          </text>
+          <text id="/data/poultry/how_long_kept_chicken:option1">
+            <value>2 to 3 weeks</value>
+          </text>
+          <text id="/data/poultry/how_long_kept_chicken:option2">
+            <value>3 to 4 weeks</value>
+          </text>
+          <text id="/data/poultry/how_long_kept_chicken:option3">
+            <value>4 weeks and above </value>
+          </text>
+          <text id="/data/poultry/purpose_keep_chicken:label">
+            <value>36. What is the purpose of keeping chicken? </value>
+          </text>
+          <text id="/data/poultry/purpose_keep_chicken:option0">
+            <value>Commercial</value>
+          </text>
+          <text id="/data/poultry/purpose_keep_chicken:option1">
+            <value>Subsistence</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:label">
+            <value>37. What are the major diseases/disease symptoms of chickens do you encounter on your 	farm</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:option0">
+            <value>Coccidiosis</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:option1">
+            <value>Fowl typhoid</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:option2">
+            <value>Newcastle</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:option3">
+            <value>salmonellosis</value>
+          </text>
+          <text id="/data/poultry/major_disease_encounter_farm:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/poultry/other_major_disease_encounter_farm:label">
+            <value>37.1 What are the major diseases/disease symptoms of chickens do you encounter on your 	farm (others)</value>
+          </text>
+          <text id="/data/poultry/other_major_disease_encounter_farm:hint">
+            <value>Apart from listed ones</value>
+          </text>
+          <text id="/data/poultry1_who_treat_chicken:label">
+            <value>38. Who treats your chicken once they fall sick? </value>
+          </text>
+          <text id="/data/poultry1_who_treat_chicken:option0">
+            <value>Self</value>
+          </text>
+          <text id="/data/poultry1_who_treat_chicken:option1">
+            <value>Neighbour</value>
+          </text>
+          <text id="/data/poultry1_who_treat_chicken:option2">
+            <value>Veterinarian</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:label">
+            <value>39. Which one is the most important medication normally used at this farm</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:option0">
+            <value>Antibiotics/growth promoters</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:option1">
+            <value>Antihelmintics</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:option2">
+            <value>Anticoccidial</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:option3">
+            <value>Vaccines</value>
+          </text>
+          <text id="/data/poultry1_mostly_used_medication:option4">
+            <value>Disinfectants</value>
+          </text>
+          <text id="/data/poultry1:label">
+            <value>Poultry Section</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:label">
+            <value>40. Which one of the following antibiotics are  commonly used</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option0">
+            <value>Tetracycline (any)</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option1">
+            <value>Penicillin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option2">
+            <value>Gentamicin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option3">
+            <value>Neomycin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option4">
+            <value>Ciprofloxacin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option5">
+            <value>Sulfur based (any) </value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option6">
+            <value>Ampicillin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option7">
+            <value>Enrofloxacin</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option8">
+            <value>Chloramphenicol</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option9">
+            <value>Penstrep</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option10">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/poultry1/mostly_antibiotics_used:option11">
+            <value>Others</value>
+          </text>
+          <text id="/data/poultry1/other_mostly_antibiotics_used:label">
+            <value>40.1 Which one of the following antibiotics are  commonly used</value>
+          </text>
+          <text id="/data/poultry1/who_prescribed_antibiotics:label">
+            <value>41. Who prescribes it for you?  (Antibiotics)</value>
+          </text>
+          <text id="/data/poultry1/who_prescribed_antibiotics:option0">
+            <value>Self</value>
+          </text>
+          <text id="/data/poultry1/who_prescribed_antibiotics:option1">
+            <value>Neighbour</value>
+          </text>
+          <text id="/data/poultry1/who_prescribed_antibiotics:option2">
+            <value>Veterinarian</value>
+          </text>
+          <text id="/data/poultry1/check_expiry_dates_b4_use_antibi:label">
+            <value>42. Do you usually check for expiry dates before using antibiotics?</value>
+          </text>
+          <text id="/data/poultry1/check_expiry_dates_b4_use_antibi:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/poultry1/check_expiry_dates_b4_use_antibi:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/poultry1/check_expiry_dates_b4_use_antibi:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/poultry1/check_expiry_dates_b4_use_antibi:option3">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/poultry1/antibio_adminster_in_Chicken:label">
+            <value>43. How is the antibiotics administered to chicken?</value>
+          </text>
+          <text id="/data/poultry1/antibio_adminster_in_Chicken:option0">
+            <value>Feed</value>
+          </text>
+          <text id="/data/poultry1/antibio_adminster_in_Chicken:option1">
+            <value>Water</value>
+          </text>
+          <text id="/data/poultry1/antibio_adminster_in_Chicken:option2">
+            <value>Subcutaneous</value>
+          </text>
+          <text id="/data/poultry1/antibio_adminster_in_Chicken:option3">
+            <value>Intramuscular</value>
+          </text>
+          <text id="/data/poultry1/freq_antib_adminstered:label">
+            <value>44. How frequent is the antibiotics administered following the treatment period? </value>
+          </text>
+          <text id="/data/poultry1/freq_antib_adminstered:option0">
+            <value>Once</value>
+          </text>
+          <text id="/data/poultry1/freq_antib_adminstered:option1">
+            <value>Twice</value>
+          </text>
+          <text id="/data/poultry1/freq_antib_adminstered:option2">
+            <value>Thrice</value>
+          </text>
+          <text id="/data/poultry1/freq_antib_adminstered:option3">
+            <value>Four times</value>
+          </text>
+          <text id="/data/poultry2:label">
+            <value>Poultry Section</value>
+          </text>
+          <text id="/data/poultry2/how_decide_use_antibiotics:label">
+            <value>45. How do you decide whether to use an antibiotic in a particular situation?</value>
+          </text>
+          <text id="/data/poultry2/how_decide_use_antibiotics:option0">
+            <value>Contact a vet for advice before treatment</value>
+          </text>
+          <text id="/data/poultry2/how_decide_use_antibiotics:option1">
+            <value>Treatment based on symptoms and experience</value>
+          </text>
+          <text id="/data/poultry2/how_decide_use_antibiotics:option2">
+            <value>Treat and wait to see if it improves</value>
+          </text>
+          <text id="/data/poultry2/decide_which_antib_keep_stock:label">
+            <value>46. How do you decide what antibiotics to use to keep in stock</value>
+          </text>
+          <text id="/data/poultry2/decide_which_antib_keep_stock:option0">
+            <value>Advice from the Vet</value>
+          </text>
+          <text id="/data/poultry2/decide_which_antib_keep_stock:option1">
+            <value>Advice from other farmers</value>
+          </text>
+          <text id="/data/poultry2/decide_which_antib_keep_stock:option2">
+            <value>Advice from drug retailers</value>
+          </text>
+          <text id="/data/poultry2/decide_which_antib_keep_stock:option3">
+            <value>Household experience</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:label">
+            <value>47. Overall, on this farm which antibiotic was frequently used in the last one year and why?</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option0">
+            <value>Oxytetracycline</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option1">
+            <value>Neobact</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option2">
+            <value>Amprolium</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option3">
+            <value>Coridix</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option4">
+            <value>Piperine</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option5">
+            <value>Flumequin</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option6">
+            <value>Fluquin</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option7">
+            <value>Tylosin</value>
+          </text>
+          <text id="/data/poultry2/overall_frequ_used_anti:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/poultry2/other_overall_frequ_used_anti:label">
+            <value>47.1. Overall, on this farm which antibiotic was frequently used in the last one year and why? (Other)</value>
+          </text>
+          <text id="/data/poultry2/why_overall_frequ_used_anti:label">
+            <value>48. Why the above antibiotics where frequently used?</value>
+          </text>
+          <text id="/data/gps:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/identification/region" type="string" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/identification/district" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/identification/ward" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/identification/farm_category" type="select1" required="true()" jr:requiredMsg="Farm Category is required"/>
+      <bind nodeset="/data/identification/farm_name" type="string" required="true()" jr:requiredMsg="Farm Name is required"/>
+      <bind nodeset="/data/identification/interviewee_name" type="string"/>
+      <bind nodeset="/data/farm_characteristic_household/farm_owner" type="string"/>
+      <bind nodeset="/data/farm_characteristic_household/owner_age" type="int" required="true()" jr:requiredMsg="Age is required"/>
+      <bind nodeset="/data/farm_characteristic_household/ed_level" type="select1" required="true()" jr:requiredMsg="Education level is required"/>
+      <bind nodeset="/data/farm_characteristic_household/role" type="select1" required="true()" jr:requiredMsg="Role is required"/>
+      <bind nodeset="/data/farm_characteristic_household/number_people_working_farm" type="int" required="true()" jr:requiredMsg="Workers' No. is required"/>
+      <bind nodeset="/data/farm_characteristic_household/type_animal" type="select" required="true()" jr:requiredMsg="Animal Type is required"/>
+
+      <bind nodeset="/data/cattle/number_cattle_farm" type="int" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.7 is required"/>
+      <bind nodeset="/data/cattle/cattle_breed" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.8 is required"/>
+      <bind nodeset="/data/cattle/management_style" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.9 is required"/>
+      <bind nodeset="/data/cattle/how_long_kept_cattles" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.10 is required"/>
+      <bind nodeset="/data/cattle/purpose_keeping_cattles" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.11 is required"/>
+      <bind nodeset="/data/dise_character_disease_heard_12month" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))"/>
+      <bind nodeset="/data/disease_characteristic/antib_given_mastitis" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'mastitis'))"/>
+      <bind nodeset="/data/disease_characteristic/frequency_mastits" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'mastitis'))"/>
+      <bind nodeset="/data/disease_characteristic/antib_given_foot_rot" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'foot_rot'))"/>
+      <bind nodeset="/data/disease_characteristic/frequency_foot_rot" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'foot_rot'))"/>
+      <bind nodeset="/data/disease_characteristic/antib_given_respiratory" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'respiratory'))"/>
+      <bind nodeset="/data/disease_characteristic/frequency_respiratory" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'respiratory'))"/>
+      <bind nodeset="/data/disease_characteristic/antib_given_abortion" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'abortion'))"/>
+      <bind nodeset="/data/disease_characteristic/frequency_abortion" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'abortion'))"/>
+      <bind nodeset="/data/disease_characteristic2/antib_given_bloat" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'bloat'))"/>
+      <bind nodeset="/data/disease_characteristic2/frequency_bloat" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'bloat'))"/>
+      <bind nodeset="/data/disease_characteristic2/antib_given_diarrh" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'diarrhoea'))"/>
+      <bind nodeset="/data/disease_characteristic2/frequency_diarrh" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'diarrhoea'))"/>
+      <bind nodeset="/data/disease_characteristic2/antib_given_theileriosis" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'theileriosis'))"/>
+      <bind nodeset="/data/disease_characteristic2/frequency_theileriosis" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'theileriosis'))"/>
+      <bind nodeset="/data/disease_characteristic2/antib_given_heart_water" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'heart_water'))"/>
+      <bind nodeset="/data/disease_characteristic2/frequency_heart_water" type="string" relevant="(selected(/data/dise_character_disease_heard_12month, 'heart_water'))"/>
+
+      <bind nodeset="/data/disease_characteristic3/determine_weight" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.13 is required"/>
+      <bind nodeset="/data/disease_characteristic3/antibiotics_used_at_farm" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.14  is required"/>
+      <bind nodeset="/data/disease_characteristic3/other_antibiotics_used_at_farm" type="string" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))"/>
+      <bind nodeset="/data/disease_characteristic3/most_freq_antibiotics_reason" type="string" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.15 is required"/>
+      <bind nodeset="/data/disease_characteristic3/who_treats_cattles" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.16 is required"/>
+      <bind nodeset="/data/disease_characteristic4/normaly_buy_vet_antibiotics" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.17 is required"/>
+      <bind nodeset="/data/disease_characteristic4/seller_ask_prescription" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.18 is required"/>
+      <bind nodeset="/data/disease_characteristic4/where_store_antibiotics" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.19 is required"/>
+      <bind nodeset="/data/disease_characteristic4/check_expiere_date" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.20 is required"/>
+      <bind nodeset="/data/disease_characteristic4/keep_records" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.21 is required"/>
+
+      <bind nodeset="/data/disease_characteristic_record_particulary" type="select" relevant="(selected(/data/disease_characteristic4/keep_records, 'yes'))"/>
+
+      <bind nodeset="/data/farm_characteristic/breed_bull_shared_others" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.23 is required"/>
+      <bind nodeset="/data/farm_characteristic/source_water_cattles" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.24 is required"/>
+      <bind nodeset="/data/farm_characteristic/feed_practices_farm" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.25 is required"/>
+      <bind nodeset="/data/farm_characteristic/month_year_feed_hay" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.26 is required"/>
+      <bind nodeset="/data/farm_characteristic/month_year_feed_concetr" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.27 is required"/>
+      <bind nodeset="/data/farm_dynamic_animal_brought_last_one_year" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.28 is required"/>
+
+      <bind nodeset="/data/farm_dynamic__no_cattles_brought" type="int" relevant="(selected(/data/farm_dynamic_animal_brought_last_one_year, 'yes'))" required="true()" jr:requiredMsg="Qn.29 is required"/>
+
+      <bind nodeset="/data/farm_dynamic_cattle_mix_with_other" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'cattle'))" required="true()" jr:requiredMsg="Qn.30 is required"/>
+
+      <bind nodeset="/data/farm_dynamic_which_from_farm_mix" type="select" relevant="(selected(/data/farm_dynamic_cattle_mix_with_other, 'yes'))" required="true()" jr:requiredMsg="Qn.31 is required"/>
+
+
+      <bind nodeset="/data/poultry/type_chicken" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.32 is required"/>
+      <bind nodeset="/data/poultry/number_chicken_farm" type="int" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.33 is required"/>
+      <bind nodeset="/data/poultry/management_style_chicken" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.34 is required"/>
+      <bind nodeset="/data/poultry/how_long_kept_chicken" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.35 is required"/>
+      <bind nodeset="/data/poultry/purpose_keep_chicken" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.36 is required"/>
+      <bind nodeset="/data/poultry/major_disease_encounter_farm" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.37 is required"/>
+      <bind nodeset="/data/poultry/other_major_disease_encounter_farm" type="string" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))"/>
+      <bind nodeset="/data/poultry1_who_treat_chicken" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.38 is required"/>
+      <bind nodeset="/data/poultry1_mostly_used_medication" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.39 is required"/>
+
+      <bind nodeset="/data/poultry1/mostly_antibiotics_used" type="select" relevant="(selected(/data/poultry1_mostly_used_medication, 'antibiotic_growth_promoters'))" required="true()" jr:requiredMsg="Qn.40 is required"/>
+
+      <bind nodeset="/data/poultry1/other_mostly_antibiotics_used" type="string" relevant="(selected(/data/poultry1_mostly_used_medication, 'antibiotic_growth_promoters'))"/>
+      <bind nodeset="/data/poultry1/who_prescribed_antibiotics" type="select" relevant="(selected(/data/poultry1_mostly_used_medication, 'antibiotic_growth_promoters'))" required="true()" jr:requiredMsg="Qn.41 is required"/>
+      <bind nodeset="/data/poultry1/check_expiry_dates_b4_use_antibi" type="select1" relevant="(selected(/data/poultry1_mostly_used_medication, 'antibiotic_growth_promoters'))" required="true()" jr:requiredMsg="Qn.42 is required"/>
+      <bind nodeset="/data/poultry1/antibio_adminster_in_Chicken" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.43 is required"/>
+      <bind nodeset="/data/poultry1/freq_antib_adminstered" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.44 is required"/>
+      <bind nodeset="/data/poultry2/how_decide_use_antibiotics" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.45 is required"/>
+      <bind nodeset="/data/poultry2/decide_which_antib_keep_stock" type="select1" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.46 is required"/>
+      <bind nodeset="/data/poultry2/overall_frequ_used_anti" type="select" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.47 is required"/>
+      <bind nodeset="/data/poultry2/other_overall_frequ_used_anti" type="string" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))"/>
+      <bind nodeset="/data/poultry2/why_overall_frequ_used_anti" type="string" relevant="(selected(/data/farm_characteristic_household/type_animal, 'chicken'))" required="true()" jr:requiredMsg="Qn.48 is required"/>
+      <bind nodeset="/data/gps" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Antibiotics Use ',': ',/data/identification/ward)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/identification" appearance="field-list">
+      <label ref="jr:itext('/data/identification:label')"/>
+      <input ref="/data/identification/region">
+        <label ref="jr:itext('/data/identification/region:label')"/>
+        <hint ref="jr:itext('/data/identification/region:hint')"/>
+      </input>
+      <select1 ref="/data/identification/district" appearance="minimal">
+        <label ref="jr:itext('/data/identification/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/identification/district:option0')"/>
+          <value>ilala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/identification/district:option1')"/>
+          <value>kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/identification/district:option2')"/>
+          <value>ubungo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/identification/district:option3')"/>
+          <value>temeke</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/identification/district:option4')"/>
+          <value>kigamboni</value>
+        </item>
+      </select1>
+      <input ref="/data/identification/ward">
+        <label ref="jr:itext('/data/identification/ward:label')"/>
+      </input>
+      <select1 ref="/data/identification/farm_category" appearance="minimal">
+        <label ref="jr:itext('/data/identification/farm_category:label')"/>
+        <item>
+          <label ref="jr:itext('/data/identification/farm_category:option0')"/>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/identification/farm_category:option1')"/>
+          <value>smallholder</value>
+        </item>
+      </select1>
+      <input ref="/data/identification/farm_name">
+        <label ref="jr:itext('/data/identification/farm_name:label')"/>
+      </input>
+      <input ref="/data/identification/interviewee_name">
+        <label ref="jr:itext('/data/identification/interviewee_name:label')"/>
+      </input>
+    </group>
+    <group ref="/data/farm_characteristic_household" appearance="field-list">
+      <label ref="jr:itext('/data/farm_characteristic_household:label')"/>
+      <input ref="/data/farm_characteristic_household/farm_owner">
+        <label ref="jr:itext('/data/farm_characteristic_household/farm_owner:label')"/>
+      </input>
+      <input ref="/data/farm_characteristic_household/owner_age">
+        <label ref="jr:itext('/data/farm_characteristic_household/owner_age:label')"/>
+      </input>
+      <select1 ref="/data/farm_characteristic_household/ed_level" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic_household/ed_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/ed_level:option0')"/>
+          <value>basic</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/ed_level:option1')"/>
+          <value>primary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/ed_level:option2')"/>
+          <value>secondary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/ed_level:option3')"/>
+          <value>tertiary</value>
+        </item>
+      </select1>
+      <select1 ref="/data/farm_characteristic_household/role" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic_household/role:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/role:option0')"/>
+          <value>owner</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/role:option1')"/>
+          <value>herdsman</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/role:option2')"/>
+          <value>manager</value>
+        </item>
+      </select1>
+      <range ref="/data/farm_characteristic_household/number_people_working_farm" start="1" end="100" step="1" appearance="picker">
+        <label ref="jr:itext('/data/farm_characteristic_household/number_people_working_farm:label')"/>
+      </range>
+      <select ref="/data/farm_characteristic_household/type_animal" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic_household/type_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/type_animal:option0')"/>
+          <value>cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic_household/type_animal:option1')"/>
+          <value>chicken</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/cattle" appearance="field-list">
+      <label ref="jr:itext('/data/cattle:label')"/>
+      <input ref="/data/cattle/number_cattle_farm">
+        <label ref="jr:itext('/data/cattle/number_cattle_farm:label')"/>
+      </input>
+      <select ref="/data/cattle/cattle_breed" appearance="minimal">
+        <label ref="jr:itext('/data/cattle/cattle_breed:label')"/>
+        <item>
+          <label ref="jr:itext('/data/cattle/cattle_breed:option0')"/>
+          <value>friesian</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/cattle_breed:option1')"/>
+          <value>jersey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/cattle_breed:option2')"/>
+          <value>cross_dairy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/cattle_breed:option3')"/>
+          <value>local_breeds</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/cattle_breed:option4')"/>
+          <value>other_beef_breed</value>
+        </item>
+      </select>
+      <select1 ref="/data/cattle/management_style" appearance="minimal">
+        <label ref="jr:itext('/data/cattle/management_style:label')"/>
+        <item>
+          <label ref="jr:itext('/data/cattle/management_style:option0')"/>
+          <value>zero_grazing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/management_style:option1')"/>
+          <value>pasture</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/management_style:option2')"/>
+          <value>free_range</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/management_style:option3')"/>
+          <value>combination</value>
+        </item>
+      </select1>
+      <select1 ref="/data/cattle/how_long_kept_cattles" appearance="minimal">
+        <label ref="jr:itext('/data/cattle/how_long_kept_cattles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/cattle/how_long_kept_cattles:option0')"/>
+          <value>less_than_year</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/how_long_kept_cattles:option1')"/>
+          <value>1to2years</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/how_long_kept_cattles:option2')"/>
+          <value>2andhalfTo3years</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/how_long_kept_cattles:option3')"/>
+          <value>3yearsAbaove</value>
+        </item>
+      </select1>
+      <select ref="/data/cattle/purpose_keeping_cattles" appearance="minimal">
+        <label ref="jr:itext('/data/cattle/purpose_keeping_cattles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/cattle/purpose_keeping_cattles:option0')"/>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cattle/purpose_keeping_cattles:option1')"/>
+          <value>subsistence</value>
+        </item>
+      </select>
+    </group>
+    <select ref="/data/dise_character_disease_heard_12month" appearance="minimal">
+      <label ref="jr:itext('/data/dise_character_disease_heard_12month:label')"/>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option0')"/>
+        <value>mastitis</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option1')"/>
+        <value>foot_rot</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option2')"/>
+        <value>respiratory</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option3')"/>
+        <value>abortion</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option4')"/>
+        <value>bloat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option5')"/>
+        <value>diarrhoea</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option6')"/>
+        <value>theileriosis</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/dise_character_disease_heard_12month:option7')"/>
+        <value>heart_water</value>
+      </item>
+    </select>
+    <group ref="/data/disease_characteristic" appearance="field-list">
+      <label ref="jr:itext('/data/disease_characteristic:label')"/>
+      <input ref="/data/disease_characteristic/antib_given_mastitis">
+        <label ref="jr:itext('/data/disease_characteristic/antib_given_mastitis:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/antib_given_mastitis:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/frequency_mastits">
+        <label ref="jr:itext('/data/disease_characteristic/frequency_mastits:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/frequency_mastits:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/antib_given_foot_rot">
+        <label ref="jr:itext('/data/disease_characteristic/antib_given_foot_rot:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/antib_given_foot_rot:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/frequency_foot_rot">
+        <label ref="jr:itext('/data/disease_characteristic/frequency_foot_rot:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/frequency_foot_rot:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/antib_given_respiratory">
+        <label ref="jr:itext('/data/disease_characteristic/antib_given_respiratory:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/antib_given_respiratory:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/frequency_respiratory">
+        <label ref="jr:itext('/data/disease_characteristic/frequency_respiratory:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/frequency_respiratory:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/antib_given_abortion">
+        <label ref="jr:itext('/data/disease_characteristic/antib_given_abortion:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/antib_given_abortion:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic/frequency_abortion">
+        <label ref="jr:itext('/data/disease_characteristic/frequency_abortion:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic/frequency_abortion:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/disease_characteristic2" appearance="field-list">
+      <label ref="jr:itext('/data/disease_characteristic2:label')"/>
+      <input ref="/data/disease_characteristic2/antib_given_bloat">
+        <label ref="jr:itext('/data/disease_characteristic2/antib_given_bloat:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/antib_given_bloat:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/frequency_bloat">
+        <label ref="jr:itext('/data/disease_characteristic2/frequency_bloat:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/frequency_bloat:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/antib_given_diarrh">
+        <label ref="jr:itext('/data/disease_characteristic2/antib_given_diarrh:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/antib_given_diarrh:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/frequency_diarrh">
+        <label ref="jr:itext('/data/disease_characteristic2/frequency_diarrh:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/frequency_diarrh:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/antib_given_theileriosis">
+        <label ref="jr:itext('/data/disease_characteristic2/antib_given_theileriosis:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/antib_given_theileriosis:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/frequency_theileriosis">
+        <label ref="jr:itext('/data/disease_characteristic2/frequency_theileriosis:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/frequency_theileriosis:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/antib_given_heart_water">
+        <label ref="jr:itext('/data/disease_characteristic2/antib_given_heart_water:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/antib_given_heart_water:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic2/frequency_heart_water">
+        <label ref="jr:itext('/data/disease_characteristic2/frequency_heart_water:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic2/frequency_heart_water:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/disease_characteristic3" appearance="field-list">
+      <label ref="jr:itext('/data/disease_characteristic3:label')"/>
+      <select1 ref="/data/disease_characteristic3/determine_weight" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic3/determine_weight:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/determine_weight:option0')"/>
+          <value>visually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/determine_weight:option1')"/>
+          <value>guess</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/determine_weight:option2')"/>
+          <value>scale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/determine_weight:option3')"/>
+          <value>weight_band</value>
+        </item>
+      </select1>
+      <select ref="/data/disease_characteristic3/antibiotics_used_at_farm" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option0')"/>
+          <value>Tetracycline</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option1')"/>
+          <value>penicillin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option2')"/>
+          <value>gentamicin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option3')"/>
+          <value>neomycin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option4')"/>
+          <value>ciprofloxacin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option5')"/>
+          <value>Sulfur_based</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option6')"/>
+          <value>ampicillin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option7')"/>
+          <value>enrofloxacin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option8')"/>
+          <value>chloramphenicol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option9')"/>
+          <value>penstrep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option10')"/>
+          <value>Unknown</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/antibiotics_used_at_farm:option11')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/disease_characteristic3/other_antibiotics_used_at_farm">
+        <label ref="jr:itext('/data/disease_characteristic3/other_antibiotics_used_at_farm:label')"/>
+        <hint ref="jr:itext('/data/disease_characteristic3/other_antibiotics_used_at_farm:hint')"/>
+      </input>
+      <input ref="/data/disease_characteristic3/most_freq_antibiotics_reason">
+        <label ref="jr:itext('/data/disease_characteristic3/most_freq_antibiotics_reason:label')"/>
+      </input>
+      <select ref="/data/disease_characteristic3/who_treats_cattles" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic3/who_treats_cattles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/who_treats_cattles:option0')"/>
+          <value>self</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/who_treats_cattles:option1')"/>
+          <value>neighbour</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/who_treats_cattles:option2')"/>
+          <value>farmer_take_out</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic3/who_treats_cattles:option3')"/>
+          <value>veterinarian</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/disease_characteristic4" appearance="field-list">
+      <label ref="jr:itext('/data/disease_characteristic4:label')"/>
+      <select ref="/data/disease_characteristic4/normaly_buy_vet_antibiotics" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic4/normaly_buy_vet_antibiotics:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/normaly_buy_vet_antibiotics:option0')"/>
+          <value>retailer_shops</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/normaly_buy_vet_antibiotics:option1')"/>
+          <value>vet_clinic</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/normaly_buy_vet_antibiotics:option2')"/>
+          <value>indiv_vet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/normaly_buy_vet_antibiotics:option3')"/>
+          <value>sales_community</value>
+        </item>
+      </select>
+      <select1 ref="/data/disease_characteristic4/seller_ask_prescription" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic4/seller_ask_prescription:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/seller_ask_prescription:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/seller_ask_prescription:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/seller_ask_prescription:option2')"/>
+          <value>sometimes</value>
+        </item>
+      </select1>
+      <select1 ref="/data/disease_characteristic4/where_store_antibiotics" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:option0')"/>
+          <value>fridge</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:option1')"/>
+          <value>cupboard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:option2')"/>
+          <value>open_shelf_indoors</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:option3')"/>
+          <value>shelf_dire_sunlight</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/where_store_antibiotics:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/disease_characteristic4/check_expiere_date" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic4/check_expiere_date:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/check_expiere_date:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/check_expiere_date:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/disease_characteristic4/keep_records" appearance="minimal">
+        <label ref="jr:itext('/data/disease_characteristic4/keep_records:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/keep_records:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_characteristic4/keep_records:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/disease_characteristic_record_particulary" appearance="minimal">
+      <label ref="jr:itext('/data/disease_characteristic_record_particulary:label')"/>
+      <item>
+        <label ref="jr:itext('/data/disease_characteristic_record_particulary:option0')"/>
+        <value>treatment</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/disease_characteristic_record_particulary:option1')"/>
+        <value>purchase</value>
+      </item>
+    </select>
+    <group ref="/data/farm_characteristic" appearance="field-list">
+      <label ref="jr:itext('/data/farm_characteristic:label')"/>
+      <select1 ref="/data/farm_characteristic/breed_bull_shared_others" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic/breed_bull_shared_others:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/breed_bull_shared_others:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/breed_bull_shared_others:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/farm_characteristic/source_water_cattles" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic/source_water_cattles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/source_water_cattles:option0')"/>
+          <value>tap_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/source_water_cattles:option1')"/>
+          <value>shallow_well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/source_water_cattles:option2')"/>
+          <value>bore_hole</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/source_water_cattles:option3')"/>
+          <value>concrete_well</value>
+        </item>
+      </select>
+      <select1 ref="/data/farm_characteristic/feed_practices_farm" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:option0')"/>
+          <value>zero_grazing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:option1')"/>
+          <value>pasture</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:option2')"/>
+          <value>free_range</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:option3')"/>
+          <value>combination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/feed_practices_farm:option4')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/data/farm_characteristic/month_year_feed_hay" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option0')"/>
+          <value>Jan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option1')"/>
+          <value>feb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option2')"/>
+          <value>march</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option3')"/>
+          <value>april</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option4')"/>
+          <value>may</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option5')"/>
+          <value>june</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option6')"/>
+          <value>july</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option7')"/>
+          <value>aug</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option8')"/>
+          <value>sept</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option9')"/>
+          <value>oct</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option10')"/>
+          <value>nov</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_hay:option11')"/>
+          <value>dec</value>
+        </item>
+      </select1>
+      <select1 ref="/data/farm_characteristic/month_year_feed_concetr" appearance="minimal">
+        <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:label')"/>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option0')"/>
+          <value>Jan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option1')"/>
+          <value>feb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option2')"/>
+          <value>march</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option3')"/>
+          <value>april</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option4')"/>
+          <value>may</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option5')"/>
+          <value>june</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option6')"/>
+          <value>july</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option7')"/>
+          <value>aug</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option8')"/>
+          <value>sept</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option9')"/>
+          <value>oct</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option10')"/>
+          <value>nov</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/farm_characteristic/month_year_feed_concetr:option11')"/>
+          <value>dec</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/farm_dynamic_animal_brought_last_one_year" appearance="minimal">
+      <label ref="jr:itext('/data/farm_dynamic_animal_brought_last_one_year:label')"/>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_animal_brought_last_one_year:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_animal_brought_last_one_year:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_animal_brought_last_one_year:option2')"/>
+        <value>unknown</value>
+      </item>
+    </select1>
+    <input ref="/data/farm_dynamic__no_cattles_brought">
+      <label ref="jr:itext('/data/farm_dynamic__no_cattles_brought:label')"/>
+    </input>
+    <select1 ref="/data/farm_dynamic_cattle_mix_with_other" appearance="minimal">
+      <label ref="jr:itext('/data/farm_dynamic_cattle_mix_with_other:label')"/>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_cattle_mix_with_other:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_cattle_mix_with_other:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/farm_dynamic_which_from_farm_mix" appearance="minimal">
+      <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:label')"/>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:option0')"/>
+        <value>commercial_dairy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:option1')"/>
+        <value>commercial_beef</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:option2')"/>
+        <value>small_hold_dairy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:option3')"/>
+        <value>small_hold_beef</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/farm_dynamic_which_from_farm_mix:option4')"/>
+        <value>goats</value>
+      </item>
+    </select>
+    <group ref="/data/poultry" appearance="field-list">
+      <label ref="jr:itext('/data/poultry:label')"/>
+      <select ref="/data/poultry/type_chicken" appearance="minimal">
+        <label ref="jr:itext('/data/poultry/type_chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry/type_chicken:option0')"/>
+          <value>layers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/type_chicken:option1')"/>
+          <value>broilers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/type_chicken:option2')"/>
+          <value>local_chicken</value>
+        </item>
+      </select>
+      <input ref="/data/poultry/number_chicken_farm">
+        <label ref="jr:itext('/data/poultry/number_chicken_farm:label')"/>
+      </input>
+      <select1 ref="/data/poultry/management_style_chicken" appearance="minimal">
+        <label ref="jr:itext('/data/poultry/management_style_chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry/management_style_chicken:option0')"/>
+          <value>free_range</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/management_style_chicken:option1')"/>
+          <value>intensive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/management_style_chicken:option2')"/>
+          <value>semi_intensive</value>
+        </item>
+      </select1>
+      <select1 ref="/data/poultry/how_long_kept_chicken" appearance="minimal">
+        <label ref="jr:itext('/data/poultry/how_long_kept_chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry/how_long_kept_chicken:option0')"/>
+          <value>1to2_weeks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/how_long_kept_chicken:option1')"/>
+          <value>2to3_weeks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/how_long_kept_chicken:option2')"/>
+          <value>3to4_weeks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/how_long_kept_chicken:option3')"/>
+          <value>above4weeks</value>
+        </item>
+      </select1>
+      <select1 ref="/data/poultry/purpose_keep_chicken" appearance="minimal">
+        <label ref="jr:itext('/data/poultry/purpose_keep_chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry/purpose_keep_chicken:option0')"/>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/purpose_keep_chicken:option1')"/>
+          <value>subsistence</value>
+        </item>
+      </select1>
+      <select ref="/data/poultry/major_disease_encounter_farm" appearance="minimal">
+        <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:option0')"/>
+          <value>Coccidiosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:option1')"/>
+          <value>fowl_typhoid</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:option2')"/>
+          <value>newcastle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:option3')"/>
+          <value>samonellosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry/major_disease_encounter_farm:option4')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/data/poultry/other_major_disease_encounter_farm">
+        <label ref="jr:itext('/data/poultry/other_major_disease_encounter_farm:label')"/>
+        <hint ref="jr:itext('/data/poultry/other_major_disease_encounter_farm:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/poultry1_who_treat_chicken" appearance="minimal">
+      <label ref="jr:itext('/data/poultry1_who_treat_chicken:label')"/>
+      <item>
+        <label ref="jr:itext('/data/poultry1_who_treat_chicken:option0')"/>
+        <value>self</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_who_treat_chicken:option1')"/>
+        <value>neighbour</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_who_treat_chicken:option2')"/>
+        <value>vet</value>
+      </item>
+    </select>
+    <select1 ref="/data/poultry1_mostly_used_medication" appearance="minimal">
+      <label ref="jr:itext('/data/poultry1_mostly_used_medication:label')"/>
+      <item>
+        <label ref="jr:itext('/data/poultry1_mostly_used_medication:option0')"/>
+        <value>antibiotic_growth_promoters</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_mostly_used_medication:option1')"/>
+        <value>antihelmintics</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_mostly_used_medication:option2')"/>
+        <value>anticoccidial</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_mostly_used_medication:option3')"/>
+        <value>vaccines</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/poultry1_mostly_used_medication:option4')"/>
+        <value>disinfectants</value>
+      </item>
+    </select1>
+    <group ref="/data/poultry1" appearance="field-list">
+      <label ref="jr:itext('/data/poultry1:label')"/>
+      <select ref="/data/poultry1/mostly_antibiotics_used" appearance="minimal">
+        <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option0')"/>
+          <value>tetracycline</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option1')"/>
+          <value>penicillin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option2')"/>
+          <value>gentamicin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option3')"/>
+          <value>neomycin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option4')"/>
+          <value>ciprofloxacin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option5')"/>
+          <value>Sulfur_based</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option6')"/>
+          <value>ampicillin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option7')"/>
+          <value>enrofloxacin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option8')"/>
+          <value>chloramphenicol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option9')"/>
+          <value>penstrep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option10')"/>
+          <value>unknown</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/mostly_antibiotics_used:option11')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/poultry1/other_mostly_antibiotics_used">
+        <label ref="jr:itext('/data/poultry1/other_mostly_antibiotics_used:label')"/>
+      </input>
+      <select ref="/data/poultry1/who_prescribed_antibiotics" appearance="minimal">
+        <label ref="jr:itext('/data/poultry1/who_prescribed_antibiotics:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry1/who_prescribed_antibiotics:option0')"/>
+          <value>self</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/who_prescribed_antibiotics:option1')"/>
+          <value>neighbour</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/who_prescribed_antibiotics:option2')"/>
+          <value>veterinarian</value>
+        </item>
+      </select>
+      <select1 ref="/data/poultry1/check_expiry_dates_b4_use_antibi" appearance="minimal">
+        <label ref="jr:itext('/data/poultry1/check_expiry_dates_b4_use_antibi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry1/check_expiry_dates_b4_use_antibi:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/check_expiry_dates_b4_use_antibi:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/check_expiry_dates_b4_use_antibi:option2')"/>
+          <value>sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/check_expiry_dates_b4_use_antibi:option3')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/data/poultry1/antibio_adminster_in_Chicken" appearance="minimal">
+        <label ref="jr:itext('/data/poultry1/antibio_adminster_in_Chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry1/antibio_adminster_in_Chicken:option0')"/>
+          <value>feed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/antibio_adminster_in_Chicken:option1')"/>
+          <value>water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/antibio_adminster_in_Chicken:option2')"/>
+          <value>Subcutaneous</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/antibio_adminster_in_Chicken:option3')"/>
+          <value>Intramuscular</value>
+        </item>
+      </select1>
+      <select1 ref="/data/poultry1/freq_antib_adminstered" appearance="minimal">
+        <label ref="jr:itext('/data/poultry1/freq_antib_adminstered:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry1/freq_antib_adminstered:option0')"/>
+          <value>once</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/freq_antib_adminstered:option1')"/>
+          <value>twice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/freq_antib_adminstered:option2')"/>
+          <value>thrice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry1/freq_antib_adminstered:option3')"/>
+          <value>four_times</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/poultry2" appearance="field-list">
+      <label ref="jr:itext('/data/poultry2:label')"/>
+      <select1 ref="/data/poultry2/how_decide_use_antibiotics" appearance="minimal">
+        <label ref="jr:itext('/data/poultry2/how_decide_use_antibiotics:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry2/how_decide_use_antibiotics:option0')"/>
+          <value>contact_vet_bef_treat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/how_decide_use_antibiotics:option1')"/>
+          <value>treatment_based_symp_experi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/how_decide_use_antibiotics:option2')"/>
+          <value>treat_wait_see_improve</value>
+        </item>
+      </select1>
+      <select1 ref="/data/poultry2/decide_which_antib_keep_stock" appearance="minimal">
+        <label ref="jr:itext('/data/poultry2/decide_which_antib_keep_stock:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry2/decide_which_antib_keep_stock:option0')"/>
+          <value>advice_from_vet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/decide_which_antib_keep_stock:option1')"/>
+          <value>from_other_farmers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/decide_which_antib_keep_stock:option2')"/>
+          <value>from_drug_retailers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/decide_which_antib_keep_stock:option3')"/>
+          <value>household_experience</value>
+        </item>
+      </select1>
+      <select ref="/data/poultry2/overall_frequ_used_anti" appearance="minimal">
+        <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option0')"/>
+          <value>oxytetracycline</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option1')"/>
+          <value>neobact</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option2')"/>
+          <value>amprolium</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option3')"/>
+          <value>coridix</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option4')"/>
+          <value>Piperine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option5')"/>
+          <value>Flumequin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option6')"/>
+          <value>Fluquin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option7')"/>
+          <value>Tylosin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultry2/overall_frequ_used_anti:option8')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/poultry2/other_overall_frequ_used_anti">
+        <label ref="jr:itext('/data/poultry2/other_overall_frequ_used_anti:label')"/>
+      </input>
+      <input ref="/data/poultry2/why_overall_frequ_used_anti">
+        <label ref="jr:itext('/data/poultry2/why_overall_frequ_used_anti:label')"/>
+      </input>
+    </group>
+    <input ref="/data/gps">
+      <label ref="jr:itext('/data/gps:label')"/>
+    </input>
+  </h:body>
+</h:html>

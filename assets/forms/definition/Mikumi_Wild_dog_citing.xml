@@ -1,0 +1,189 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mikumi Wild dog citing</h:title>
+    <model>
+      <instance>
+        <data id="build_Mikumi-Wild-dog-citing_1518775396">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <place/>
+            <count/>
+            <vegetation/>
+            <condition/>
+            <description/>
+          </general>
+          <citing>
+            <gps/>
+            <picture/>
+            <comments/>
+          </citing>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value></value>
+          </text>
+          <text id="/data/general/place:label">
+            <value>Place of Observation</value>
+          </text>
+          <text id="/data/general/count:label">
+            <value>Number of Wild dogs</value>
+          </text>
+          <text id="/data/general/vegetation:label">
+            <value>Type of Vegetation</value>
+          </text>
+          <text id="/data/general/vegetation:option0">
+            <value>Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option1">
+            <value>Open Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option2">
+            <value>Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option3">
+            <value>Wooded Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option4">
+            <value>Floodplain</value>
+          </text>
+          <text id="/data/general/vegetation:option5">
+            <value>Riverine</value>
+          </text>
+          <text id="/data/general/vegetation:option6">
+            <value>Afromontane Forrest</value>
+          </text>
+          <text id="/data/general/vegetation:option7">
+            <value>Forrest</value>
+          </text>
+          <text id="/data/general/condition:label">
+            <value>Condition of the Animal</value>
+          </text>
+          <text id="/data/general/condition:option0">
+            <value>Normal</value>
+          </text>
+          <text id="/data/general/condition:option1">
+            <value>sick</value>
+          </text>
+          <text id="/data/general/condition:option2">
+            <value>Dead</value>
+          </text>
+          <text id="/data/general/description:label">
+            <value>Description</value>
+          </text>
+          <text id="/data/citing:label">
+            <value></value>
+          </text>
+          <text id="/data/citing/gps:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/citing/picture:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/citing/comments:label">
+            <value>Other Comments</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/place" type="string"/>
+      <bind nodeset="/data/general/count" type="int"/>
+      <bind nodeset="/data/general/vegetation" type="select1"/>
+      <bind nodeset="/data/general/condition" type="select1"/>
+      <bind nodeset="/data/general/description" type="string"/>
+      <bind nodeset="/data/citing/gps" type="geopoint"/>
+      <bind nodeset="/data/citing/picture" type="binary"/>
+      <bind nodeset="/data/citing/comments" type="string"/>
+      
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Wildog',' ')" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <input ref="/data/general/place">
+        <label ref="jr:itext('/data/general/place:label')"/>
+      </input>
+      <input ref="/data/general/count">
+        <label ref="jr:itext('/data/general/count:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/general/vegetation">
+        <label ref="jr:itext('/data/general/vegetation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option0')"/>
+          <value>woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option1')"/>
+          <value>open_woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option2')"/>
+          <value>grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option3')"/>
+          <value>wooded_grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option4')"/>
+          <value>floodplain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option5')"/>
+          <value>riverin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option6')"/>
+          <value>afromontane_forrest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option7')"/>
+          <value>forrest</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general/condition">
+        <label ref="jr:itext('/data/general/condition:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option0')"/>
+          <value>normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option1')"/>
+          <value>Sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option2')"/>
+          <value>dead</value>
+        </item>
+      </select1>
+      <input ref="/data/general/description">
+        <label ref="jr:itext('/data/general/description:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/citing:label')"/>
+      <input ref="/data/citing/gps">
+        <label ref="jr:itext('/data/citing/gps:label')"/>
+      </input>
+      <upload ref="/data/citing/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/citing/picture:label')"/>
+      </upload>
+      <input ref="/data/citing/comments">
+        <label ref="jr:itext('/data/citing/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,92 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>FAO DTRA</h:title>
+    <model>
+      <instance>
+        <data id="build_FAO-DTRA_1563619547">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <details>
+            <date_collected/>
+            <village_name/>
+            <ward/>
+            <interviewe_type/>
+            <gps_location/>
+          </details>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/details:label">
+            <value>Basic Details</value>
+          </text>
+          <text id="/data/details/date_collected:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/details/village_name:label">
+            <value>Name of Village</value>
+          </text>
+          <text id="/data/details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/details/interviewe_type:label">
+            <value>Type of interview </value>
+          </text>
+          <text id="/data/details/interviewe_type:option0">
+            <value>Individual</value>
+          </text>
+          <text id="/data/details/interviewe_type:option1">
+            <value>Group</value>
+          </text>
+          <text id="/data/details/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/details/date_collected" type="date"/>
+      <bind nodeset="/data/details/village_name" type="string"/>
+      <bind nodeset="/data/details/ward" type="string"/>
+      <bind nodeset="/data/details/interviewe_type" type="select"/>
+      <bind nodeset="/data/details/gps_location" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('FAO: ',': ',/data/details/village_name)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/details" appearance="field-list">
+      <label ref="jr:itext('/data/details:label')"/>
+      <input ref="/data/details/date_collected" appearance="no-calendar">
+        <label ref="jr:itext('/data/details/date_collected:label')"/>
+      </input>
+      <input ref="/data/details/village_name">
+        <label ref="jr:itext('/data/details/village_name:label')"/>
+      </input>
+      <input ref="/data/details/ward">
+        <label ref="jr:itext('/data/details/ward:label')"/>
+      </input>
+      <select ref="/data/details/interviewe_type">
+        <label ref="jr:itext('/data/details/interviewe_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/details/interviewe_type:option0')"/>
+          <value>indiv</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/details/interviewe_type:option1')"/>
+          <value>group</value>
+        </item>
+      </select>
+      <input ref="/data/details/gps_location">
+        <label ref="jr:itext('/data/details/gps_location:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

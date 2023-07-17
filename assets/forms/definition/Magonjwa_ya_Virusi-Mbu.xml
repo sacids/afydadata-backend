@@ -1,0 +1,2137 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Magonjwa ya Virusi yaambukizwao na Mbu</h:title>
+    <model>
+      <instance>
+        <data id="build_Magonjwa-ya-Virusi-Mbu_15835082077">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifa_za_awali>
+            <tarehe/>
+            <wilaya/>
+            <kijiji/>
+            <kata/>
+            <maeneo_husika/>
+          </taarifa_za_awali>
+          <taarifa_mhojiwa>
+            <namba_kaya/>
+            <jinsi/>
+            <umri/>
+            <kazi/>
+          </taarifa_mhojiwa>
+          <kazi_ingine/>
+          <kiwango_cha_elimu/>
+          <mtu_mzima_mtoto/>
+          <uelewa>
+            <unajua_mbu/>
+          </uelewa>
+          <taja_angalao_magonjwa_5/>
+          <taja_angalao_magonjwa_5_other/>
+          <unafahamu_magonjwa_fuatayo/>
+          <uelewa2>
+            <dalili_chikungunya_binadamu/>
+            <dalili_dengue_binadamu/>
+            <dalilir_RVF_binadamu/>
+          </uelewa2>
+          <RVF_inaathiri_wanyama/>
+          <wanyama_athiriwa_RVF>
+            <RVF_mnyama1/>
+            <RVF_dalili_mnyama1/>
+            <RVF_mnyama2/>
+            <RVF_dalili_mnyama2/>
+            <RVF_mnyama3/>
+            <RVF_dalili_mnyama3/>
+          </wanyama_athiriwa_RVF>
+          <vihatarish_maambukizo>
+            <mafuriko_kijiji_chenu/>
+          </vihatarish_maambukizo>
+          <vihatarish_maambukizo1>
+            <lini_yalitokea/>
+            <vyombo_ruhusu_tuama_maji/>
+            <mazalio_ya_mbu/>
+          </vihatarish_maambukizo1>
+          <mazalio_ya_mbu_taja/>
+          <mazalio_mengine_mbu>
+            None
+          </mazalio_mengine_mbu>
+          <shughuli_zipi_kiuchum_mazalio_mbu/>
+          <shughuli_zipi_kiuchum_mazalio_mbu_other/>
+          <shughuli_fuatazo_fanyika_eneo_lako/>
+          <shughuli_fuatazo_fanyika_eneo_lako_other/>
+          <vitu_fuatavyo_patikana_kwako/>
+          <vitu_fuatavyo_patikana_kwako_other/>
+          <shuhudia_ongezeko_mbu_eneo_lako/>
+          <mara_ngapi_tumia_chandarua/>
+          <lalia_chandarua_kuamkia_leo/>
+          <unatumia_njiaingine_kinga_na_mbu/>
+          <unatumia_njiaingine_kinga_na_mbu_other/>
+          <unaumwa_na_mbu_eneo_kaa/>
+          <wakati_gani_hua_unaumwa/>
+          <pata_home_miez_mitatu/>
+          <pata_tiba/>
+          <pata_tiba_wapi/>
+          <ambiwa_tatizo_nini/>
+          <uwepo_wanyama_mifugo>
+            <wewe_mfugaji/>
+          </uwepo_wanyama_mifugo>
+          <unafuga_ndani_nyumba/>
+          <aina_mnyama_ndani_nyumba/>
+          <aina_mnyama_ndani_nyumba_other/>
+          <unapeleka_mifugo_malishoni/>
+          <wahi_shiriki_kuchinja/>
+          <lini_ulishiriki/>
+          <mnyama_gani_kuchinja/>
+          <mnyama_gani_kuchinja_other/>
+          <je_shughuli_ipi_ulifanya/>
+          <je_shughuli_ipi_ulifanya_other/>
+          <mnyama_alikaguliwa/>
+          <mnyama_kufa_fanyaje/>
+          <mnyama_kufa_fanyaje_other/>
+          <lini_kamua_maziwa/>
+          <maziwa_mnyama_gani/>
+          <maziwa_mnyama_gani_other/>
+          <mara_ngap_chemsha_maziwa/>
+          <mnakunywa_damu_mbichi/>
+          <damu_mnyama_gani/>
+          <damu_mnyama_gani_other/>
+          <saidia_mnyama_kuzaa/>
+          <mnyama_gani_saidia_kuzaa/>
+          <mnyama_gani_saidia_kuzaa_other/>
+          <ulizika_mzoga_mimba_tupwa_mnyama/>
+          <mzoga_mnyama_gani/>
+          <mzoga_mnyama_gani_other/>
+          <ID_blood_sample/>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifa_za_awali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifa_za_awali/tarehe:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/taarifa_za_awali/wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/taarifa_za_awali/wilaya:option0">
+            <value>Sengerema</value>
+          </text>
+          <text id="/data/taarifa_za_awali/wilaya:option1">
+            <value>Rufiji</value>
+          </text>
+          <text id="/data/taarifa_za_awali/wilaya:option2">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/taarifa_za_awali/kijiji:label">
+            <value>Kijiji / Mtaa</value>
+          </text>
+          <text id="/data/taarifa_za_awali/kata:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/taarifa_za_awali/maeneo_husika:label">
+            <value>Maeneo yatakayohusika</value>
+          </text>
+          <text id="/data/taarifa_za_awali/maeneo_husika:option0">
+            <value>Kaya</value>
+          </text>
+          <text id="/data/taarifa_za_awali/maeneo_husika:option1">
+            <value>Vituo vya Huduma za Afya</value>
+          </text>
+          <text id="/data/taarifa_za_awali/maeneo_husika:option2">
+            <value>Machinjio ya ng’ombe, mbuzi, kondoo </value>
+          </text>
+          <text id="/data/taarifa_mhojiwa:label">
+            <value>1: Taarifa za Mhojiwa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/namba_kaya:label">
+            <value>Namba Ya Kaya</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsi:label">
+            <value>1. Jinsi ya mshiriki</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsi:option0">
+            <value>ME</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsi:option1">
+            <value>KE</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/umri:label">
+            <value>2. Umri wa mshiriki</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/umri:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:label">
+            <value>3. Kazi ya mshiriki</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option0">
+            <value>Ufugaji</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option1">
+            <value>Kilimo cha mazao</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option2">
+            <value>Ajira isiyo rasmi</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option3">
+            <value>Ajira rasmi </value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option4">
+            <value>Biashara/Mjasiriamali</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option5">
+            <value>Mwanafunzi</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option6">
+            <value>Kazi ingine</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option7">
+            <value>Haihusiki (watoto chini ya miaka 7)</value>
+          </text>
+          <text id="/data/kazi_ingine:label">
+            <value>Kazi ingine ya mshiriki</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:label">
+            <value>4. Kiwango cha Elimu cha mshiriki</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:hint">
+            <value></value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:option0">
+            <value>Sina elimu rasmi</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:option1">
+            <value>Elimu ya msingi (darasa la 7)</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:option2">
+            <value>Elimu ya Sekondari</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:option3">
+            <value>Elimu ya Chuo</value>
+          </text>
+          <text id="/data/kiwango_cha_elimu:option4">
+            <value>Elimu ya Chuo Kikuu</value>
+          </text>
+
+          <text id="/data/mtu_mzima_mtoto:label">
+            <value>5.0 Je mhojiwa ni mtu mzima au mtoto?</value>
+          </text>
+          <text id="/data/mtu_mzima_mtoto:option0">
+            <value>Chini ya miaka 18</value>
+          </text>
+          <text id="/data/mtu_mzima_mtoto:option1">
+            <value>Miaka 18 na zaidi</value>
+          </text>
+
+
+
+          <text id="/data/uelewa:label">
+            <value>2: Uelewa kuhusu Chikungunya, Dengi, na Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/uelewa/unajua_mbu:label">
+            <value>5.1 Je Unajua Mbu</value>
+          </text>
+          <text id="/data/uelewa/unajua_mbu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/uelewa/unajua_mbu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:label">
+            <value>6. Kama jibu ni NDIYO, nitajie angalao magonjwa 5 ya binadamu yanayoambukizwa na mbu </value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option0">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option1">
+            <value>Mabusha au Matende</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option2">
+            <value>Dengi</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option3">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option4">
+            <value>Homa ya Manjano</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option5">
+            <value>Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5:option6">
+            <value>Mengine</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5_other:label">
+            <value>Magonjwa mengine yanayoambukizwa na mbu</value>
+          </text>
+          <text id="/data/taja_angalao_magonjwa_5_other:hint">
+            <value>Tenganisha na Koma</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:label">
+            <value>7. Je unafahamu ugonjwa wowote kati ya haya yafuatayo? Yako wapi?</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:option0">
+            <value>Chikungunya</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:option1">
+            <value>Dengi</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:option2">
+            <value>Homa ya Bonde la ufa</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:option3">
+            <value>Homa ya manjano</value>
+          </text>
+          <text id="/data/unafahamu_magonjwa_fuatayo:option4">
+            <value>Sifahamu</value>
+          </text>
+          <text id="/data/uelewa2:label">
+            <value>2: Uelewa kuhusu Chikungunya, Dengi, na Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/uelewa2/dalili_chikungunya_binadamu:label">
+            <value>8. Nitajie dalili za Chikungunya kwa binadamu</value>
+          </text>
+          <text id="/data/uelewa2/dalili_chikungunya_binadamu:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/uelewa2/dalili_dengue_binadamu:label">
+            <value>9. Nitajie dalili za Dengi kwa binadamu</value>
+          </text>
+          <text id="/data/uelewa2/dalili_dengue_binadamu:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/uelewa2/dalilir_RVF_binadamu:label">
+            <value>10. Nitajie dalili za Homa ya Bonde la Ufa kwa binadamu</value>
+          </text>
+          <text id="/data/uelewa2/dalilir_RVF_binadamu:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/RVF_inaathiri_wanyama:label">
+            <value>11. Je Homa la bonde la ufa linaathiri wanyama? </value>
+          </text>
+          <text id="/data/RVF_inaathiri_wanyama:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/RVF_inaathiri_wanyama:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF:label">
+            <value>12. Wanyama/Mifugo gani wanathiriwa na Homa ya Bonde la Ufa? :  Taja mnyama na dalili zake</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_mnyama1:label">
+            <value>12.1  Aina ya kwanza ya Mnyama</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1:label">
+            <value>Dalili Za mnyama wa kwanza</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_mnyama2:label">
+            <value>12.2  Aina ya pili ya Mnyama</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2:label">
+            <value>Dalili Za mnyama wa pili</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_mnyama3:label">
+            <value>12.3  Aina ya tatu ya Mnyama</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3:label">
+            <value>Dalili Za mnyama wa tatu</value>
+          </text>
+          <text id="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo:label">
+            <value>3: Vihatarishi vya maambukizo </value>
+          </text>
+          <text id="/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:label">
+            <value>13. Je mafuriko yaliwahi tokea katika kijiji / Mtaa wenu?</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1:label">
+            <value>3: Vihatarishi vya maambukizo </value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/lini_yalitokea:label">
+            <value>14. Kama ndiyo, ni lini mafuriko yalitokea?</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/lini_yalitokea:option0">
+            <value>Ndani ya miezi 12 iliyopita</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/lini_yalitokea:option1">
+            <value>Ndani ya miaka 2 iliyopita</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/lini_yalitokea:option2">
+            <value>Miaka 3-5 iliyopita</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/lini_yalitokea:option3">
+            <value>Zaidi ya miaka 5</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:label">
+            <value>15. Je katika eneo la nyumbani kwako kuna vyombo vinavyoruhusu kutuama kwa maji?</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option0">
+            <value>NDIYO; Ndani ya nyumba</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option1">
+            <value>NDIYO; Nje ya nyumba</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option2">
+            <value>NDIYO; Ndani na Nje ya nyumba</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option3">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/mazalio_ya_mbu:label">
+            <value>16. Je unajua mazalio ya mbu?</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/mazalio_ya_mbu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/vihatarish_maambukizo1/mazalio_ya_mbu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:label">
+            <value>17. Nitajie baadhi ya mazalio ya mbu unayoyafahamu </value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option0">
+            <value>madimbwi madogo ya maji </value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option1">
+            <value>majaruba ya mpunga</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option2">
+            <value>vishimo vya kwato za ngo’ombe</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option3">
+            <value>vifuu vya nazi</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option4">
+            <value>magurudumu ya magari yaliyotupwa</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option5">
+            <value>vifaa vya kuhifadhi maji kwa matumizi ya nyumbani</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option6">
+            <value>mabwawa</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option7">
+            <value>makopo</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option8">
+            <value>vyungu </value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option9">
+            <value>ndoo</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option10">
+            <value>makaro ya maji ya kujengea </value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option11">
+            <value>visima</value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option12">
+            <value>matenki ya maji </value>
+          </text>
+          <text id="/data/mazalio_ya_mbu_taja:option13">
+            <value>Nyinginezo</value>
+          </text>
+          <text id="/data/mazalio_mengine_mbu:label">
+            <value>Mazalio mengine ya mbu</value>
+          </text>
+          <text id="/data/mazalio_mengine_mbu:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:label">
+            <value>18. Je, ni shughuli zipi za kiuchumi zinazochangia uwepo wa mazalia ya mbu?</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option0">
+            <value>kilimo cha mboga </value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option1">
+            <value>kilimo cha mahindi</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option2">
+            <value>kilimo cha mpunga</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option3">
+            <value>kilimo cha umwagiliaji</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option4">
+            <value>Ujenzi wa barabara</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option5">
+            <value>Ujenzi wa nyumba</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option6">
+            <value>Utengenezaji wa matofali ya udongo</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu:option7">
+            <value>Shughuli nyingine</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu_other:label">
+            <value>Shughuli zingine za kiuchumi zinanzochangia uwepo wa mazalio ya mbu</value>
+          </text>
+          <text id="/data/shughuli_zipi_kiuchum_mazalio_mbu_other:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:label">
+            <value>19. Je, shughuli zifuatazo hufanyika katika eneo lako?</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option0">
+            <value>kilimo cha mboga </value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option1">
+            <value>kilimo cha mahindi</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option2">
+            <value>kilimo cha mpunga</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option3">
+            <value>kilimo cha umwagiliaji</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option4">
+            <value>Ujenzi wa barabara</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option5">
+            <value>Ujenzi wa nyumba</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option6">
+            <value>Utengenezaji wa matofali ya udongo</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako:option7">
+            <value>Shughuli nyingine</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako_other:label">
+            <value>Shughuli zingine zonazofanyika katika eneo lako</value>
+          </text>
+          <text id="/data/shughuli_fuatazo_fanyika_eneo_lako_other:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:label">
+            <value>20. Je, vitu vifuatavyo vinapatikana maeneo ya nyumbani mwako</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option0">
+            <value>Vyombo vya kuhifadhi maji vilivyoachwa wazi/visivyofunikwa</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option1">
+            <value>Vyombo vya kuhifadhi maji vilivyofunikwa </value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option2">
+            <value>Vifuu vya nazi</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option3">
+            <value>Vyombo vya kupandia maua</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option4">
+            <value>Madampo ya kutupia taka</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option5">
+            <value>Mashimo/Mapiba ya kutupia taka</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option6">
+            <value>Vingine</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako:option7">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako_other:label">
+            <value>vitu vingine vinavyopatikana maeneo ya nyumbani mwako</value>
+          </text>
+          <text id="/data/vitu_fuatavyo_patikana_kwako_other:hint">
+            <value>Tenganisha kwa koma</value>
+          </text>
+          <text id="/data/shuhudia_ongezeko_mbu_eneo_lako:label">
+            <value>21. Je, uliwahi kushuhudia ongezeko kubwa la mbu katika eneo unaloishi?</value>
+          </text>
+          <text id="/data/shuhudia_ongezeko_mbu_eneo_lako:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/shuhudia_ongezeko_mbu_eneo_lako:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/mara_ngapi_tumia_chandarua:label">
+            <value>22. Je ni kwa mara ngapi hutumia chandarua cha kujikinga na mbu?</value>
+          </text>
+          <text id="/data/mara_ngapi_tumia_chandarua:option0">
+            <value>Kila siku</value>
+          </text>
+          <text id="/data/mara_ngapi_tumia_chandarua:option1">
+            <value>Mara Chache /Nadra</value>
+          </text>
+          <text id="/data/mara_ngapi_tumia_chandarua:option2">
+            <value>Mara Nyingi</value>
+          </text>
+          <text id="/data/mara_ngapi_tumia_chandarua:option3">
+            <value>Situmii kabisa chandarua</value>
+          </text>
+          <text id="/data/lalia_chandarua_kuamkia_leo:label">
+            <value>23. Je, ulilala ndani ya chandarua usiku wa kuamkia leo?</value>
+          </text>
+          <text id="/data/lalia_chandarua_kuamkia_leo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/lalia_chandarua_kuamkia_leo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/unatumia_njiaingine_kinga_na_mbu:label">
+            <value>24. Je, huwa unatumia njia yoyote nyingine ya kujikinga na mbu?</value>
+          </text>
+          <text id="/data/unatumia_njiaingine_kinga_na_mbu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/unatumia_njiaingine_kinga_na_mbu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/unatumia_njiaingine_kinga_na_mbu_other:label">
+            <value>Kama unajikinga na njia nyingine kujikinga na mbu, Elezea</value>
+          </text>
+          <text id="/data/unaumwa_na_mbu_eneo_kaa:label">
+            <value>25 Je, huwa unaumwa na mbu katika eneo unaloishi?</value>
+          </text>
+          <text id="/data/unaumwa_na_mbu_eneo_kaa:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/unaumwa_na_mbu_eneo_kaa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:label">
+            <value>26. Je Ni wakati gani hua unaumwa na mbu</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:option0">
+            <value>Usiku</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:option1">
+            <value>Asubuhi</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:option2">
+            <value>Mchana</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:option3">
+            <value>Jioni</value>
+          </text>
+          <text id="/data/wakati_gani_hua_unaumwa:option4">
+            <value>Wakati wowote</value>
+          </text>
+          <text id="/data/pata_home_miez_mitatu:label">
+            <value>27. Je, uliwahi kupata homa katika kipindi cha miezi mitatu iliyopoita?</value>
+          </text>
+          <text id="/data/pata_home_miez_mitatu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/pata_home_miez_mitatu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/pata_tiba:label">
+            <value>28. Je, ulipata tiba</value>
+          </text>
+          <text id="/data/pata_tiba:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/pata_tiba:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/pata_tiba_wapi:label">
+            <value>29. Ulipata tiba wapi</value>
+          </text>
+          <text id="/data/pata_tiba_wapi:hint">
+            <value></value>
+          </text>
+          <text id="/data/ambiwa_tatizo_nini:label">
+            <value>30. Je Uliambiwa Tatizo ni nini </value>
+          </text>
+          <text id="/data/ambiwa_tatizo_nini:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/ambiwa_tatizo_nini:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/uwepo_wanyama_mifugo:label">
+            <value>4: Uwepo wa wanyama/mifugo katika mazingira ya binadamu</value>
+          </text>
+          <text id="/data/uwepo_wanyama_mifugo/wewe_mfugaji:label">
+            <value>31. Je wewe ni mfugaji?</value>
+          </text>
+          <text id="/data/uwepo_wanyama_mifugo/wewe_mfugaji:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/uwepo_wanyama_mifugo/wewe_mfugaji:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/unafuga_ndani_nyumba:label">
+            <value>32. Je unalaza wanyama ndani ya nyumba unayoishi?</value>
+          </text>
+          <text id="/data/unafuga_ndani_nyumba:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/unafuga_ndani_nyumba:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:label">
+            <value>33. Kama NDIYO; je unalaza wanyama gani ndani ya nyumba unayoishi?</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:hint">
+            <value>Umri mkubwa: Mwaka mmoja na zaidi Watoto:  Chini ya umri wa mwaka 1</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option0">
+            <value>Kondoo wa umri mkubwa    </value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option1">
+            <value>Mbuzi wa umri mkubwa</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option2">
+            <value>Ng’ombe wa umri mkubwa</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option3">
+            <value>Mbuzi watoto</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option4">
+            <value>Ndama</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba:option5">
+            <value>Wengine</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba_other:label">
+            <value>Aina nyingine ya wanyama unaolaza nyumbani</value>
+          </text>
+          <text id="/data/aina_mnyama_ndani_nyumba_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/unapeleka_mifugo_malishoni:label">
+            <value>34. Je huwa unapeleka mifugo malishoni?</value>
+          </text>
+          <text id="/data/unapeleka_mifugo_malishoni:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/unapeleka_mifugo_malishoni:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/wahi_shiriki_kuchinja:label">
+            <value>35. Je, uliwahi kushiriki kuchinja mnyama?</value>
+          </text>
+          <text id="/data/wahi_shiriki_kuchinja:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/wahi_shiriki_kuchinja:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/lini_ulishiriki:label">
+            <value>36. Kama NDIYO; ni lini ulishiriki kuchinja mnyama?</value>
+          </text>
+          <text id="/data/lini_ulishiriki:option0">
+            <value>Mwezi 1 uliopita</value>
+          </text>
+          <text id="/data/lini_ulishiriki:option1">
+            <value>Miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/lini_ulishiriki:option2">
+            <value>Zaidi ya miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja:label">
+            <value>37. Kama NDIYO; ni wanyama gani ulichinja?</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja:option0">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja:option3">
+            <value>Wengine</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja_other:label">
+            <value>Aina ya wanyama wengine uliochinja</value>
+          </text>
+          <text id="/data/mnyama_gani_kuchinja_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:label">
+            <value>38. Endapo ulishiriki kuchinja mnyama; Je,ni shughuli ipi ulifanya kati ya zifuatazo? </value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option0">
+            <value>Kushika/kufunga mnyama</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option1">
+            <value>Kuchinja (kukata shingo) </value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option2">
+            <value>Kuchuna ngozi</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option3">
+            <value>Kuosha utumbo na nyama za ndani ya tumbo </value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option4">
+            <value>Kucharanga nyama </value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option5">
+            <value>Kuosha mnyama aliyechinjwa</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option6">
+            <value>Kutundika nyama</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya:option7">
+            <value>Shughuli nyingine </value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya_other:label">
+            <value>Shughuli nyingine ulizofanya</value>
+          </text>
+          <text id="/data/je_shughuli_ipi_ulifanya_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/mnyama_alikaguliwa:label">
+            <value>39. Kama NDIYO; je nyama ilikaguliwa na mtaalamu wa mifugo kabla ya kuliwa/kuuzwa?</value>
+          </text>
+          <text id="/data/mnyama_alikaguliwa:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/mnyama_alikaguliwa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/mnyama_alikaguliwa:option2">
+            <value>SIJUI/SIKUMBUKI</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:label">
+            <value>40. Je Mfugo/Mnyama aliyekufa hua mnamfanyaje?</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option0">
+            <value>Tunamwita daktari wa mifugo</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option1">
+            <value>Tunachinja na kula</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option2">
+            <value>Tunachinja na kuwagawia majirani</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option3">
+            <value>Tunachinja na kuuza nyama</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option4">
+            <value>Tunatupa mzoga na kufukia kwenye shimo</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option5">
+            <value>Tunachoma moto mzoga</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option6">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje:option7">
+            <value>Hatufugi</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje_other:label">
+            <value>Vitu vingine mnavyofanya kwa mnyama aliyekufa</value>
+          </text>
+          <text id="/data/mnyama_kufa_fanyaje_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/lini_kamua_maziwa:label">
+            <value>41. Je ni lini ulikamua maziwa kwa mnyama kwa mara ya mwisho?</value>
+          </text>
+          <text id="/data/lini_kamua_maziwa:option0">
+            <value>Mwezi 1 uliopita</value>
+          </text>
+          <text id="/data/lini_kamua_maziwa:option1">
+            <value>Miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/lini_kamua_maziwa:option2">
+            <value>Zaidi ya miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/lini_kamua_maziwa:option3">
+            <value>Sijawahi kukamua maziwa</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani:label">
+            <value>42. je ulikamua maziwa ya mnyama yupi?</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani:option0">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani:option1">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani:option3">
+            <value>wengine</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani_other:label">
+            <value>Wanyama wengine uliokamua maziwa</value>
+          </text>
+          <text id="/data/maziwa_mnyama_gani_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/mara_ngap_chemsha_maziwa:label">
+            <value>43. Je Mara ngapi hua unachemsha maziwa mabichi kabla hujanywa </value>
+          </text>
+          <text id="/data/mara_ngap_chemsha_maziwa:option0">
+            <value>Sichemshi</value>
+          </text>
+          <text id="/data/mara_ngap_chemsha_maziwa:option1">
+            <value>Mara chache</value>
+          </text>
+          <text id="/data/mara_ngap_chemsha_maziwa:option2">
+            <value>Mara Zote</value>
+          </text>
+          <text id="/data/mnakunywa_damu_mbichi:label">
+            <value>44. Je hapa nyumbani kwenu hua mnakunjywa damu mbichi?</value>
+          </text>
+          <text id="/data/mnakunywa_damu_mbichi:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/mnakunywa_damu_mbichi:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/damu_mnyama_gani:label">
+            <value>45. Kama NDIYO; Je ulikunywa damu ya mnyama gani?</value>
+          </text>
+          <text id="/data/damu_mnyama_gani:option0">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/damu_mnyama_gani:option1">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/damu_mnyama_gani:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/damu_mnyama_gani:option3">
+            <value>wengine</value>
+          </text>
+          <text id="/data/damu_mnyama_gani_other:label">
+            <value>damu za wanyama wengine ulizokunywa</value>
+          </text>
+          <text id="/data/damu_mnyama_gani_other:hint">
+            <value>Tenganisha na koma</value>
+          </text>
+          <text id="/data/saidia_mnyama_kuzaa:label">
+            <value>46. Je ni lini ulimsadia mnyama wakati wa kuzaa?</value>
+          </text>
+          <text id="/data/saidia_mnyama_kuzaa:option0">
+            <value>Mwezi 1 uliopita</value>
+          </text>
+          <text id="/data/saidia_mnyama_kuzaa:option1">
+            <value>Miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/saidia_mnyama_kuzaa:option2">
+            <value>Zaidi ya miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/saidia_mnyama_kuzaa:option3">
+            <value>Sijawahi</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa:label">
+            <value>47. Kama NDIYO, ni mnyama gani ulimsaidia wakati wa kuzaa?</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa:option0">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa:option3">
+            <value>Mwingine</value>
+          </text>
+          <text id="/data/mnyama_gani_saidia_kuzaa_other:label">
+            <value>Aina ya mnyama mwingine uliomsaidia kuzaa</value>
+          </text>
+          <text id="/data/ulizika_mzoga_mimba_tupwa_mnyama:label">
+            <value>48. Je, ni lini ulishika ama ulizika mzoga wa mimba iliyotupwa na mnyama?</value>
+          </text>
+          <text id="/data/ulizika_mzoga_mimba_tupwa_mnyama:option0">
+            <value>Mwezi 1 uliopita</value>
+          </text>
+          <text id="/data/ulizika_mzoga_mimba_tupwa_mnyama:option1">
+            <value>Miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/ulizika_mzoga_mimba_tupwa_mnyama:option2">
+            <value>Zaidi ya miezi 2 iliyopita</value>
+          </text>
+          <text id="/data/ulizika_mzoga_mimba_tupwa_mnyama:option3">
+            <value>Sijawahi</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani:label">
+            <value>49. Kama NDIYO; ulikuwa mzoga wa mnyama yupi?</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani:option0">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani:option2">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani:option3">
+            <value>Mwingine</value>
+          </text>
+          <text id="/data/mzoga_mnyama_gani_other:label">
+            <value>Aina ya mzoga wa mnyama mwingine uliozika</value>
+          </text>
+          <text id="/data/ID_blood_sample:label">
+            <value>50. Namba ya Sampuli ya Damu</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifa_za_awali/tarehe" type="date" required="true()" jr:requiredMsg="Tarehe is required"/>
+      <bind nodeset="/data/taarifa_za_awali/wilaya" type="select1" required="true()" jr:requiredMsg="Wilaya is required"/>
+      <bind nodeset="/data/taarifa_za_awali/kijiji" type="string" required="true()" jr:requiredMsg="Kijiji/Mtaa is required"/>
+      <bind nodeset="/data/taarifa_za_awali/kata" type="string" required="true()" jr:requiredMsg="Kata is required"/>
+      <bind nodeset="/data/taarifa_za_awali/maeneo_husika" type="select1" required="true()" jr:requiredMsg="Eneo husika is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/namba_kaya" type="string" constraint="(regex(., &quot;^.{1,6}$&quot;))" jr:constraintMsg="Response length must be between 1 and 6" required="true()" jr:requiredMsg="Namba ya kaya is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/jinsi" type="select1" required="true()" jr:requiredMsg="Jinsi is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/umri" type="int" jr:constraintMsg="jr:itext('/data/taarifa_mhojiwa/umri:constraintMsg')" required="true()" jr:requiredMsg="Umri is required"/>
+
+      <bind nodeset="/data/taarifa_mhojiwa/kazi" type="select1" required="true()" jr:requiredMsg="Kazi is required"/>
+      <bind nodeset="/data/kazi_ingine" type="string" relevant="(selected(/data/taarifa_mhojiwa/kazi, 'other'))"/>
+
+      <bind nodeset="/data/kiwango_cha_elimu" type="select1" required="true()" jr:requiredMsg="Kiwangi cha elimu is required"/>
+      <bind nodeset="/data/mtu_mzima_mtoto" type="select1" required="true()" jr:requiredMsg="Qn5.0 is required"/>
+      <bind nodeset="/data/uelewa/unajua_mbu" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()" jr:requiredMsg="Qn5.1 is required"/>
+
+      <bind nodeset="/data/taja_angalao_magonjwa_5" type="select" relevant="(selected(/data/uelewa/unajua_mbu, 'nidyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()" jr:requiredMsg="Qn6 is required"/>
+      <bind nodeset="/data/taja_angalao_magonjwa_5_other" type="string" relevant="(selected(/data/taja_angalao_magonjwa_5, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/unafahamu_magonjwa_fuatayo" type="select" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/uelewa2/dalili_chikungunya_binadamu" type="string" relevant="(selected(/data/unafahamu_magonjwa_fuatayo, 'Chikungunya')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/uelewa2/dalili_dengue_binadamu" type="string" relevant="(selected(/data/unafahamu_magonjwa_fuatayo, 'Dengi')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/uelewa2/dalilir_RVF_binadamu" type="string" relevant="(selected(/data/unafahamu_magonjwa_fuatayo, 'RVF')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/RVF_inaathiri_wanyama" type="select1" relevant="(selected(/data/unafahamu_magonjwa_fuatayo, 'RVF')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_mnyama1" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_mnyama2" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_mnyama3" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3" type="string" relevant="(selected(/data/RVF_inaathiri_wanyama, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/vihatarish_maambukizo/mafuriko_kijiji_chenu" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/vihatarish_maambukizo1/lini_yalitokea" type="select1" relevant="(selected(/data/vihatarish_maambukizo/mafuriko_kijiji_chenu, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/vihatarish_maambukizo1/mazalio_ya_mbu" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mazalio_ya_mbu_taja" type="select" relevant="(selected(/data/vihatarish_maambukizo1/mazalio_ya_mbu, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mazalio_mengine_mbu" type="string" relevant="(selected(/data/mazalio_ya_mbu_taja, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/shughuli_zipi_kiuchum_mazalio_mbu" type="select" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/shughuli_zipi_kiuchum_mazalio_mbu_other" type="string" relevant="(selected(/data/shughuli_zipi_kiuchum_mazalio_mbu, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/shughuli_fuatazo_fanyika_eneo_lako" type="select" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/shughuli_fuatazo_fanyika_eneo_lako_other" type="string" relevant="(selected(/data/shughuli_fuatazo_fanyika_eneo_lako, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/vitu_fuatavyo_patikana_kwako" type="select" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/vitu_fuatavyo_patikana_kwako_other" type="string" relevant="(selected(/data/vitu_fuatavyo_patikana_kwako, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/shuhudia_ongezeko_mbu_eneo_lako" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/mara_ngapi_tumia_chandarua" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/lalia_chandarua_kuamkia_leo" type="select1" relevant="not(selected(/data/mara_ngapi_tumia_chandarua, 'situmii')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/unatumia_njiaingine_kinga_na_mbu" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/unatumia_njiaingine_kinga_na_mbu_other" type="string" relevant="(selected(/data/unatumia_njiaingine_kinga_na_mbu, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/unaumwa_na_mbu_eneo_kaa" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/wakati_gani_hua_unaumwa" type="select1" relevant="(selected(/data/unaumwa_na_mbu_eneo_kaa, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/pata_home_miez_mitatu" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/pata_tiba" type="select1" relevant="(selected(/data/pata_home_miez_mitatu, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/pata_tiba_wapi" type="string" relevant="(selected(/data/pata_tiba, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/ambiwa_tatizo_nini" type="select1" relevant="(selected(/data/pata_tiba, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/uwepo_wanyama_mifugo/wewe_mfugaji" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/unafuga_ndani_nyumba" type="select1" relevant="(selected(/data/uwepo_wanyama_mifugo/wewe_mfugaji, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/aina_mnyama_ndani_nyumba" type="select" relevant="(selected(/data/unafuga_ndani_nyumba, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/aina_mnyama_ndani_nyumba_other" type="string" relevant="(selected(/data/aina_mnyama_ndani_nyumba, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/unapeleka_mifugo_malishoni" type="select1" relevant="(selected(/data/uwepo_wanyama_mifugo/wewe_mfugaji, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/wahi_shiriki_kuchinja" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/lini_ulishiriki" type="select1" relevant="(selected(/data/wahi_shiriki_kuchinja, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mnyama_gani_kuchinja" type="select" relevant="(selected(/data/wahi_shiriki_kuchinja, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mnyama_gani_kuchinja_other" type="string" relevant="(selected(/data/mnyama_gani_kuchinja, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+      <bind nodeset="/data/je_shughuli_ipi_ulifanya" type="select" relevant="(selected(/data/wahi_shiriki_kuchinja, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/je_shughuli_ipi_ulifanya_other" type="string" relevant="(selected(/data/je_shughuli_ipi_ulifanya, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+      <bind nodeset="/data/mnyama_alikaguliwa" type="select1" relevant="(selected(/data/wahi_shiriki_kuchinja, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/mnyama_kufa_fanyaje" type="select" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mnyama_kufa_fanyaje_other" type="string" relevant="(selected(/data/mnyama_kufa_fanyaje, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/lini_kamua_maziwa" type="select1" relevant="(selected(/data/uwepo_wanyama_mifugo/wewe_mfugaji, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/maziwa_mnyama_gani" type="select" relevant="not(selected(/data/lini_kamua_maziwa, 'sijawahi_kamua')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/maziwa_mnyama_gani_other" type="string" relevant="(selected(/data/maziwa_mnyama_gani, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/mara_ngap_chemsha_maziwa" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+
+      <bind nodeset="/data/mnakunywa_damu_mbichi" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/damu_mnyama_gani" type="select" relevant="(selected(/data/mnakunywa_damu_mbichi, 'ndiyo')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/damu_mnyama_gani_other" type="string" relevant="(selected(/data/mnakunywa_damu_mbichi, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/saidia_mnyama_kuzaa" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mnyama_gani_saidia_kuzaa" type="select1" relevant="not(selected(/data/saidia_mnyama_kuzaa, 'sijawahi')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mnyama_gani_saidia_kuzaa_other" type="string" relevant="(selected(/data/mnyama_gani_saidia_kuzaa, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/ulizika_mzoga_mimba_tupwa_mnyama" type="select1" relevant="(selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mzoga_mnyama_gani" type="select1" relevant="not(selected(/data/ulizika_mzoga_mimba_tupwa_mnyama, 'sijawahi')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))" required="true()"/>
+      <bind nodeset="/data/mzoga_mnyama_gani_other" type="string" relevant="(selected(/data/mzoga_mnyama_gani, 'other')) and (selected(/data/mtu_mzima_mtoto, '18_na_zaidi'))"/>
+
+      <bind nodeset="/data/ID_blood_sample" type="string" constraint="(regex(., &quot;^.{1,7}$&quot;))" jr:constraintMsg="Response length must be between 1 and 7" required="true()"/>
+      <bind nodeset="/data/gps_location" type="geopoint" required="true()"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Magonjwa ya Virusi-Mbu ',': ',/data/taarifa_mhojiwa/namba_kaya)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifa_za_awali" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_za_awali:label')"/>
+      <input ref="/data/taarifa_za_awali/tarehe">
+        <label ref="jr:itext('/data/taarifa_za_awali/tarehe:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_za_awali/wilaya">
+        <label ref="jr:itext('/data/taarifa_za_awali/wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/wilaya:option0')"/>
+          <value>sengerema</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/wilaya:option1')"/>
+          <value>rufiji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/wilaya:option2')"/>
+          <value>ilala</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_za_awali/kijiji">
+        <label ref="jr:itext('/data/taarifa_za_awali/kijiji:label')"/>
+      </input>
+      <input ref="/data/taarifa_za_awali/kata">
+        <label ref="jr:itext('/data/taarifa_za_awali/kata:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_za_awali/maeneo_husika">
+        <label ref="jr:itext('/data/taarifa_za_awali/maeneo_husika:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/maeneo_husika:option0')"/>
+          <value>kaya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/maeneo_husika:option1')"/>
+          <value>vituo_afya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_za_awali/maeneo_husika:option2')"/>
+          <value>machinjio</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/taarifa_mhojiwa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_mhojiwa:label')"/>
+      <input ref="/data/taarifa_mhojiwa/namba_kaya">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/namba_kaya:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_mhojiwa/jinsi">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/jinsi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/jinsi:option0')"/>
+          <value>me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/jinsi:option1')"/>
+          <value>ke</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_mhojiwa/umri">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/umri:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_mhojiwa/kazi">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option0')"/>
+          <value>Ufugaji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option1')"/>
+          <value>kilimo_mazao</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option2')"/>
+          <value>ajira_isio_rasmin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option3')"/>
+          <value>ajira_rasmi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option4')"/>
+          <value>biashara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option5')"/>
+          <value>Mwanafunzi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option6')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option7')"/>
+          <value>haihusiki</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/kazi_ingine">
+      <label ref="jr:itext('/data/kazi_ingine:label')"/>
+    </input>
+    <select1 ref="/data/kiwango_cha_elimu">
+      <label ref="jr:itext('/data/kiwango_cha_elimu:label')"/>
+      <hint ref="jr:itext('/data/kiwango_cha_elimu:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/kiwango_cha_elimu:option0')"/>
+        <value>sina_elimu_rasmi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kiwango_cha_elimu:option1')"/>
+        <value>elimu_msingi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kiwango_cha_elimu:option2')"/>
+        <value>elimu_sek</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kiwango_cha_elimu:option3')"/>
+        <value>elimu_chuo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kiwango_cha_elimu:option4')"/>
+        <value>elimu_chu_kikuu</value>
+      </item>
+    </select1>
+
+
+    <select1 ref="/data/mtu_mzima_mtoto">
+      <label ref="jr:itext('/data/mtu_mzima_mtoto:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mtu_mzima_mtoto:option0')"/>
+        <value>chini_miaka_18</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtu_mzima_mtoto:option1')"/>
+        <value>18_na_zaidi</value>
+      </item>
+    </select1>
+
+
+
+
+
+
+
+    <group ref="/data/uelewa" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa:label')"/>
+      <select1 ref="/data/uelewa/unajua_mbu">
+        <label ref="jr:itext('/data/uelewa/unajua_mbu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/uelewa/unajua_mbu:option0')"/>
+          <value>nidyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/uelewa/unajua_mbu:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/taja_angalao_magonjwa_5">
+      <label ref="jr:itext('/data/taja_angalao_magonjwa_5:label')"/>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option0')"/>
+        <value>Malaria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option1')"/>
+        <value>mabusha_tende</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option2')"/>
+        <value>Dengi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option3')"/>
+        <value>Chikungunya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option4')"/>
+        <value>homa_manjano</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option5')"/>
+        <value>RVF</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/taja_angalao_magonjwa_5:option6')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/taja_angalao_magonjwa_5_other">
+      <label ref="jr:itext('/data/taja_angalao_magonjwa_5_other:label')"/>
+      <hint ref="jr:itext('/data/taja_angalao_magonjwa_5_other:hint')"/>
+    </input>
+    <select ref="/data/unafahamu_magonjwa_fuatayo">
+      <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:option0')"/>
+        <value>Chikungunya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:option1')"/>
+        <value>Dengi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:option2')"/>
+        <value>RVF</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:option3')"/>
+        <value>homa_manjano</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unafahamu_magonjwa_fuatayo:option4')"/>
+        <value>sifahamu</value>
+      </item>
+    </select>
+    <group ref="/data/uelewa2" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa2:label')"/>
+      <input ref="/data/uelewa2/dalili_chikungunya_binadamu">
+        <label ref="jr:itext('/data/uelewa2/dalili_chikungunya_binadamu:label')"/>
+        <hint ref="jr:itext('/data/uelewa2/dalili_chikungunya_binadamu:hint')"/>
+      </input>
+      <input ref="/data/uelewa2/dalili_dengue_binadamu">
+        <label ref="jr:itext('/data/uelewa2/dalili_dengue_binadamu:label')"/>
+        <hint ref="jr:itext('/data/uelewa2/dalili_dengue_binadamu:hint')"/>
+      </input>
+      <input ref="/data/uelewa2/dalilir_RVF_binadamu">
+        <label ref="jr:itext('/data/uelewa2/dalilir_RVF_binadamu:label')"/>
+        <hint ref="jr:itext('/data/uelewa2/dalilir_RVF_binadamu:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/RVF_inaathiri_wanyama">
+      <label ref="jr:itext('/data/RVF_inaathiri_wanyama:label')"/>
+      <item>
+        <label ref="jr:itext('/data/RVF_inaathiri_wanyama:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/RVF_inaathiri_wanyama:option1')"/>
+        <value>Hapana</value>
+      </item>
+    </select1>
+    <group ref="/data/wanyama_athiriwa_RVF" appearance="field-list">
+      <label ref="jr:itext('/data/wanyama_athiriwa_RVF:label')"/>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_mnyama1">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_mnyama1:label')"/>
+      </input>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1:label')"/>
+        <hint ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama1:hint')"/>
+      </input>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_mnyama2">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_mnyama2:label')"/>
+      </input>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2:label')"/>
+        <hint ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama2:hint')"/>
+      </input>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_mnyama3">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_mnyama3:label')"/>
+      </input>
+      <input ref="/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3">
+        <label ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3:label')"/>
+        <hint ref="jr:itext('/data/wanyama_athiriwa_RVF/RVF_dalili_mnyama3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/vihatarish_maambukizo" appearance="field-list">
+      <label ref="jr:itext('/data/vihatarish_maambukizo:label')"/>
+      <select1 ref="/data/vihatarish_maambukizo/mafuriko_kijiji_chenu">
+        <label ref="jr:itext('/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo/mafuriko_kijiji_chenu:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/vihatarish_maambukizo1" appearance="field-list">
+      <label ref="jr:itext('/data/vihatarish_maambukizo1:label')"/>
+      <select1 ref="/data/vihatarish_maambukizo1/lini_yalitokea">
+        <label ref="jr:itext('/data/vihatarish_maambukizo1/lini_yalitokea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/lini_yalitokea:option0')"/>
+          <value>ndani_miez_12_pita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/lini_yalitokea:option1')"/>
+          <value>ndani_miaka_2_pita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/lini_yalitokea:option2')"/>
+          <value>miaka_3_5_pita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/lini_yalitokea:option3')"/>
+          <value>zaidi_miaka_5</value>
+        </item>
+      </select1>
+      <select1 ref="/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji">
+        <label ref="jr:itext('/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:label')"/>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option0')"/>
+          <value>ndani_nyumba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option1')"/>
+          <value>nje_nyumba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option2')"/>
+          <value>ndani_na_nje_nyumba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/vyombo_ruhusu_tuama_maji:option3')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/vihatarish_maambukizo1/mazalio_ya_mbu">
+        <label ref="jr:itext('/data/vihatarish_maambukizo1/mazalio_ya_mbu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/mazalio_ya_mbu:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/vihatarish_maambukizo1/mazalio_ya_mbu:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/mazalio_ya_mbu_taja">
+      <label ref="jr:itext('/data/mazalio_ya_mbu_taja:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option0')"/>
+        <value>madimbwi_madogo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option1')"/>
+        <value>majaruba_mpunga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option2')"/>
+        <value>vishimo_kwato</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option3')"/>
+        <value>vifuu_nazi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option4')"/>
+        <value>magurudumu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option5')"/>
+        <value>vifaa_hifadhi_maji_ndani</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option6')"/>
+        <value>mabwawa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option7')"/>
+        <value>makopo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option8')"/>
+        <value>vyungu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option9')"/>
+        <value>ndoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option10')"/>
+        <value>makaro</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option11')"/>
+        <value>visima</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option12')"/>
+        <value>matenki_maji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mazalio_ya_mbu_taja:option13')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/mazalio_mengine_mbu">
+      <label ref="jr:itext('/data/mazalio_mengine_mbu:label')"/>
+      <hint ref="jr:itext('/data/mazalio_mengine_mbu:hint')"/>
+    </input>
+    <select ref="/data/shughuli_zipi_kiuchum_mazalio_mbu">
+      <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:label')"/>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option0')"/>
+        <value>killimo_mboga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option1')"/>
+        <value>kilimo_mahindi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option2')"/>
+        <value>kilimo_mpunga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option3')"/>
+        <value>kilimo_umwagi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option4')"/>
+        <value>ujenzi_barabara</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option5')"/>
+        <value>ujenzi_nyumba</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option6')"/>
+        <value>utengenezaj_tofali</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/shughuli_zipi_kiuchum_mazalio_mbu_other">
+      <label ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu_other:label')"/>
+      <hint ref="jr:itext('/data/shughuli_zipi_kiuchum_mazalio_mbu_other:hint')"/>
+    </input>
+    <select ref="/data/shughuli_fuatazo_fanyika_eneo_lako">
+      <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:label')"/>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option0')"/>
+        <value>kilimo_mboga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option1')"/>
+        <value>kilimo_mahindi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option2')"/>
+        <value>kilimo_mpunga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option3')"/>
+        <value>kilimo_umwagiliaji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option4')"/>
+        <value>ujenzi_barabara</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option5')"/>
+        <value>Ujenzi_nyumba</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option6')"/>
+        <value>utengenezaj_udongo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/shughuli_fuatazo_fanyika_eneo_lako_other">
+      <label ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako_other:label')"/>
+      <hint ref="jr:itext('/data/shughuli_fuatazo_fanyika_eneo_lako_other:hint')"/>
+    </input>
+    <select ref="/data/vitu_fuatavyo_patikana_kwako">
+      <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:label')"/>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option0')"/>
+        <value>vyombo_hifadhi_maji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option1')"/>
+        <value>vyombo_hifadhi_maji_funikwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option2')"/>
+        <value>vifuu_nazi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option3')"/>
+        <value>vyombo_pandia_maua</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option4')"/>
+        <value>dampo_taka</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option5')"/>
+        <value>mashimo_mapipa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option6')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako:option7')"/>
+        <value>hakuna</value>
+      </item>
+    </select>
+    <input ref="/data/vitu_fuatavyo_patikana_kwako_other">
+      <label ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako_other:label')"/>
+      <hint ref="jr:itext('/data/vitu_fuatavyo_patikana_kwako_other:hint')"/>
+    </input>
+    <select1 ref="/data/shuhudia_ongezeko_mbu_eneo_lako">
+      <label ref="jr:itext('/data/shuhudia_ongezeko_mbu_eneo_lako:label')"/>
+      <item>
+        <label ref="jr:itext('/data/shuhudia_ongezeko_mbu_eneo_lako:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/shuhudia_ongezeko_mbu_eneo_lako:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/mara_ngapi_tumia_chandarua">
+      <label ref="jr:itext('/data/mara_ngapi_tumia_chandarua:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mara_ngapi_tumia_chandarua:option0')"/>
+        <value>kila_siku</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mara_ngapi_tumia_chandarua:option1')"/>
+        <value>mara_chahce</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mara_ngapi_tumia_chandarua:option2')"/>
+        <value>mara_nying</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mara_ngapi_tumia_chandarua:option3')"/>
+        <value>situmii</value>
+      </item>
+    </select1>
+    <select1 ref="/data/lalia_chandarua_kuamkia_leo">
+      <label ref="jr:itext('/data/lalia_chandarua_kuamkia_leo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/lalia_chandarua_kuamkia_leo:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lalia_chandarua_kuamkia_leo:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/unatumia_njiaingine_kinga_na_mbu">
+      <label ref="jr:itext('/data/unatumia_njiaingine_kinga_na_mbu:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unatumia_njiaingine_kinga_na_mbu:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unatumia_njiaingine_kinga_na_mbu:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <input ref="/data/unatumia_njiaingine_kinga_na_mbu_other">
+      <label ref="jr:itext('/data/unatumia_njiaingine_kinga_na_mbu_other:label')"/>
+    </input>
+    <select1 ref="/data/unaumwa_na_mbu_eneo_kaa">
+      <label ref="jr:itext('/data/unaumwa_na_mbu_eneo_kaa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unaumwa_na_mbu_eneo_kaa:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unaumwa_na_mbu_eneo_kaa:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/wakati_gani_hua_unaumwa">
+      <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:option0')"/>
+        <value>usiku</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:option1')"/>
+        <value>asubuhi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:option2')"/>
+        <value>mchana</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:option3')"/>
+        <value>jioni</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wakati_gani_hua_unaumwa:option4')"/>
+        <value>wakati_wowote</value>
+      </item>
+    </select1>
+    <select1 ref="/data/pata_home_miez_mitatu">
+      <label ref="jr:itext('/data/pata_home_miez_mitatu:label')"/>
+      <item>
+        <label ref="jr:itext('/data/pata_home_miez_mitatu:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/pata_home_miez_mitatu:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/pata_tiba">
+      <label ref="jr:itext('/data/pata_tiba:label')"/>
+      <item>
+        <label ref="jr:itext('/data/pata_tiba:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/pata_tiba:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <input ref="/data/pata_tiba_wapi">
+      <label ref="jr:itext('/data/pata_tiba_wapi:label')"/>
+      <hint ref="jr:itext('/data/pata_tiba_wapi:hint')"/>
+    </input>
+    <select1 ref="/data/ambiwa_tatizo_nini">
+      <label ref="jr:itext('/data/ambiwa_tatizo_nini:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ambiwa_tatizo_nini:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ambiwa_tatizo_nini:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <group ref="/data/uwepo_wanyama_mifugo" appearance="field-list">
+      <label ref="jr:itext('/data/uwepo_wanyama_mifugo:label')"/>
+      <select1 ref="/data/uwepo_wanyama_mifugo/wewe_mfugaji">
+        <label ref="jr:itext('/data/uwepo_wanyama_mifugo/wewe_mfugaji:label')"/>
+        <item>
+          <label ref="jr:itext('/data/uwepo_wanyama_mifugo/wewe_mfugaji:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/uwepo_wanyama_mifugo/wewe_mfugaji:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/unafuga_ndani_nyumba">
+      <label ref="jr:itext('/data/unafuga_ndani_nyumba:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unafuga_ndani_nyumba:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unafuga_ndani_nyumba:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select ref="/data/aina_mnyama_ndani_nyumba">
+      <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:label')"/>
+      <hint ref="jr:itext('/data/aina_mnyama_ndani_nyumba:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option0')"/>
+        <value>kondoo_umri_mkubwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option1')"/>
+        <value>mbuzi_umri_mkubwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option2')"/>
+        <value>ngombe_umri_mkubwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option3')"/>
+        <value>mbuzi_watoto</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option4')"/>
+        <value>Ndama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/aina_mnyama_ndani_nyumba_other">
+      <label ref="jr:itext('/data/aina_mnyama_ndani_nyumba_other:label')"/>
+      <hint ref="jr:itext('/data/aina_mnyama_ndani_nyumba_other:hint')"/>
+    </input>
+    <select1 ref="/data/unapeleka_mifugo_malishoni">
+      <label ref="jr:itext('/data/unapeleka_mifugo_malishoni:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unapeleka_mifugo_malishoni:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapeleka_mifugo_malishoni:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/wahi_shiriki_kuchinja">
+      <label ref="jr:itext('/data/wahi_shiriki_kuchinja:label')"/>
+      <item>
+        <label ref="jr:itext('/data/wahi_shiriki_kuchinja:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wahi_shiriki_kuchinja:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select1 ref="/data/lini_ulishiriki">
+      <label ref="jr:itext('/data/lini_ulishiriki:label')"/>
+      <item>
+        <label ref="jr:itext('/data/lini_ulishiriki:option0')"/>
+        <value>mwezi_mmoja_pita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lini_ulishiriki:option1')"/>
+        <value>miezi_miwili</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lini_ulishiriki:option2')"/>
+        <value>zaidi_miezi_miwili</value>
+      </item>
+    </select1>
+    <select ref="/data/mnyama_gani_kuchinja">
+      <label ref="jr:itext('/data/mnyama_gani_kuchinja:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_kuchinja:option0')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_kuchinja:option1')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_kuchinja:option2')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_kuchinja:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/mnyama_gani_kuchinja_other">
+      <label ref="jr:itext('/data/mnyama_gani_kuchinja_other:label')"/>
+      <hint ref="jr:itext('/data/mnyama_gani_kuchinja_other:hint')"/>
+    </input>
+    <select ref="/data/je_shughuli_ipi_ulifanya">
+      <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:label')"/>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option0')"/>
+        <value>kushika_funga_mnyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option1')"/>
+        <value>kuchinja</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option2')"/>
+        <value>kuchuna_ngozi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option3')"/>
+        <value>kuosha_utumbo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option4')"/>
+        <value>kucharanga_nyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option5')"/>
+        <value>kuosha_mnyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option6')"/>
+        <value>kutundika_nyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/je_shughuli_ipi_ulifanya_other">
+      <label ref="jr:itext('/data/je_shughuli_ipi_ulifanya_other:label')"/>
+      <hint ref="jr:itext('/data/je_shughuli_ipi_ulifanya_other:hint')"/>
+    </input>
+    <select1 ref="/data/mnyama_alikaguliwa">
+      <label ref="jr:itext('/data/mnyama_alikaguliwa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mnyama_alikaguliwa:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_alikaguliwa:option1')"/>
+        <value>hapana</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_alikaguliwa:option2')"/>
+        <value>sijui_sikumbuki</value>
+      </item>
+    </select1>
+    <select ref="/data/mnyama_kufa_fanyaje">
+      <label ref="jr:itext('/data/mnyama_kufa_fanyaje:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option0')"/>
+        <value>tunamwita_daktari_mifugo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option1')"/>
+        <value>chinja_na_kula</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option2')"/>
+        <value>chinja_gawia_majiran</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option3')"/>
+        <value>chinja_kuuza_nyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option4')"/>
+        <value>tupa_mzoga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option5')"/>
+        <value>choma_mzoga</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option6')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_kufa_fanyaje:option7')"/>
+        <value>hatufugi</value>
+      </item>
+    </select>
+    <input ref="/data/mnyama_kufa_fanyaje_other">
+      <label ref="jr:itext('/data/mnyama_kufa_fanyaje_other:label')"/>
+      <hint ref="jr:itext('/data/mnyama_kufa_fanyaje_other:hint')"/>
+    </input>
+    <select1 ref="/data/lini_kamua_maziwa">
+      <label ref="jr:itext('/data/lini_kamua_maziwa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/lini_kamua_maziwa:option0')"/>
+        <value>mwezi_1_pita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lini_kamua_maziwa:option1')"/>
+        <value>miezi_2_pita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lini_kamua_maziwa:option2')"/>
+        <value>zaid_miez_2_pita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/lini_kamua_maziwa:option3')"/>
+        <value>sijawahi_kamua</value>
+      </item>
+    </select1>
+    <select ref="/data/maziwa_mnyama_gani">
+      <label ref="jr:itext('/data/maziwa_mnyama_gani:label')"/>
+      <item>
+        <label ref="jr:itext('/data/maziwa_mnyama_gani:option0')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/maziwa_mnyama_gani:option1')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/maziwa_mnyama_gani:option2')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/maziwa_mnyama_gani:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/maziwa_mnyama_gani_other">
+      <label ref="jr:itext('/data/maziwa_mnyama_gani_other:label')"/>
+      <hint ref="jr:itext('/data/maziwa_mnyama_gani_other:hint')"/>
+    </input>
+    <select1 ref="/data/mara_ngap_chemsha_maziwa">
+      <label ref="jr:itext('/data/mara_ngap_chemsha_maziwa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mara_ngap_chemsha_maziwa:option0')"/>
+        <value>Sichemshi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mara_ngap_chemsha_maziwa:option1')"/>
+        <value>mara_chache</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mara_ngap_chemsha_maziwa:option2')"/>
+        <value>mara_nyingi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/mnakunywa_damu_mbichi">
+      <label ref="jr:itext('/data/mnakunywa_damu_mbichi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mnakunywa_damu_mbichi:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnakunywa_damu_mbichi:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select ref="/data/damu_mnyama_gani">
+      <label ref="jr:itext('/data/damu_mnyama_gani:label')"/>
+      <item>
+        <label ref="jr:itext('/data/damu_mnyama_gani:option0')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/damu_mnyama_gani:option1')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/damu_mnyama_gani:option2')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/damu_mnyama_gani:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/damu_mnyama_gani_other">
+      <label ref="jr:itext('/data/damu_mnyama_gani_other:label')"/>
+      <hint ref="jr:itext('/data/damu_mnyama_gani_other:hint')"/>
+    </input>
+    <select1 ref="/data/saidia_mnyama_kuzaa">
+      <label ref="jr:itext('/data/saidia_mnyama_kuzaa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/saidia_mnyama_kuzaa:option0')"/>
+        <value>mwezi_1_uliopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/saidia_mnyama_kuzaa:option1')"/>
+        <value>miezi_2_iliyopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/saidia_mnyama_kuzaa:option2')"/>
+        <value>zaidi_miez_2_iliopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/saidia_mnyama_kuzaa:option3')"/>
+        <value>sijawahi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/mnyama_gani_saidia_kuzaa">
+      <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa:option0')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa:option1')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa:option2')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/mnyama_gani_saidia_kuzaa_other">
+      <label ref="jr:itext('/data/mnyama_gani_saidia_kuzaa_other:label')"/>
+    </input>
+    <select1 ref="/data/ulizika_mzoga_mimba_tupwa_mnyama">
+      <label ref="jr:itext('/data/ulizika_mzoga_mimba_tupwa_mnyama:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ulizika_mzoga_mimba_tupwa_mnyama:option0')"/>
+        <value>mwezi_1_uliopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ulizika_mzoga_mimba_tupwa_mnyama:option1')"/>
+        <value>miezi_2_iliyopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ulizika_mzoga_mimba_tupwa_mnyama:option2')"/>
+        <value>zaidi_miez_2_iliopita</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ulizika_mzoga_mimba_tupwa_mnyama:option3')"/>
+        <value>sijawahi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/mzoga_mnyama_gani">
+      <label ref="jr:itext('/data/mzoga_mnyama_gani:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mzoga_mnyama_gani:option0')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mzoga_mnyama_gani:option1')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mzoga_mnyama_gani:option2')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mzoga_mnyama_gani:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/mzoga_mnyama_gani_other">
+      <label ref="jr:itext('/data/mzoga_mnyama_gani_other:label')"/>
+    </input>
+    <input ref="/data/ID_blood_sample">
+      <label ref="jr:itext('/data/ID_blood_sample:label')"/>
+    </input>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

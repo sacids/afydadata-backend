@@ -1,0 +1,415 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Follow up Report</h:title>
+    <model>
+      <instance>
+        <data id="build_Follow-up-Report_1509682567">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+            <DateofReport/>
+          </meta>
+          <Initial_information>
+            <Event_location/>
+            <OutbreakID/>
+            <Species/>
+            <Age/>
+            <Sex/>
+            <Number_affected/>
+            <Number_of_deaths>
+              0
+            </Number_of_deaths>
+            <Number_at_risk>
+              0
+            </Number_at_risk>
+            <Number_treated>
+              0
+            </Number_treated>
+            <Number_vaccinated>
+              0
+            </Number_vaccinated>
+            <Number_destroyed>
+              0
+            </Number_destroyed>
+            <Production_system/>
+          </Initial_information>
+          <DiagnosisIntervention>
+            <Basis_of_diagnosis/>
+            <InterventionDoneUndertaken/>
+            <Other_intervention_done/>
+          </DiagnosisIntervention>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Initial_information:label">
+            <value>Initial Information</value>
+          </text>
+          <text id="/data/Initial_information/Event_location:label">
+            <value>Event Location</value>
+          </text>
+          <text id="/data/Initial_information/OutbreakID:label">
+            <value>Outbreak ID</value>
+          </text>
+          <text id="/data/Initial_information/OutbreakID:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Species:label">
+            <value>Species</value>
+          </text>
+          <text id="/data/Initial_information/Species:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Species:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/Initial_information/Species:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/Initial_information/Species:option2">
+            <value>Goat</value>
+          </text>
+          <text id="/data/Initial_information/Species:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/Initial_information/Species:option4">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/Initial_information/Species:option5">
+            <value>Pig</value>
+          </text>
+          <text id="/data/Initial_information/Species:option6">
+            <value>Duck</value>
+          </text>
+          <text id="/data/Initial_information/Species:option7">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/Initial_information/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/Initial_information/Age:option0">
+            <value>Young</value>
+          </text>
+          <text id="/data/Initial_information/Age:option1">
+            <value>Adult</value>
+          </text>
+          <text id="/data/Initial_information/Sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/Initial_information/Sex:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/Initial_information/Sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/Initial_information/Sex:option2">
+            <value>Castrate</value>
+          </text>
+          <text id="/data/Initial_information/Number_affected:label">
+            <value>Number Affected</value>
+          </text>
+          <text id="/data/Initial_information/Number_affected:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Number_of_deaths:label">
+            <value>Number of deaths</value>
+          </text>
+          <text id="/data/Initial_information/Number_of_deaths:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Number_at_risk:label">
+            <value>Number at risk</value>
+          </text>
+          <text id="/data/Initial_information/Number_treated:label">
+            <value>Number treated</value>
+          </text>
+          <text id="/data/Initial_information/Number_vaccinated:label">
+            <value>Number vaccinated</value>
+          </text>
+          <text id="/data/Initial_information/Number_vaccinated:hint">
+            <value></value>
+          </text>
+          <text id="/data/Initial_information/Number_destroyed:label">
+            <value>Number destroyed</value>
+          </text>
+          <text id="/data/Initial_information/Production_system:label">
+            <value>Production system</value>
+          </text>
+          <text id="/data/Initial_information/Production_system:option0">
+            <value>Intensive</value>
+          </text>
+          <text id="/data/Initial_information/Production_system:option1">
+            <value>Semi-intensive</value>
+          </text>
+          <text id="/data/Initial_information/Production_system:option2">
+            <value>Extensive</value>
+          </text>
+          <text id="/data/DiagnosisIntervention:label">
+            <value>Diagnosis and Intervention</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:label">
+            <value>Basis of diagnosis</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:hint">
+            <value></value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:option0">
+            <value>Postmortem</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:option1">
+            <value>Clinical signs</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:option2">
+            <value>Laboratory</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Basis_of_diagnosis:option3">
+            <value>Meat Inspection</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:label">
+            <value>Intervention Done/Undertaken</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option0">
+            <value>Treated</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option1">
+            <value>Quarantine</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option2">
+            <value>Ban meat consumption</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option3">
+            <value>Disposal of carcass and contaminated materials</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option4">
+            <value>Animal vaccination</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option5">
+            <value>Separation of sick from healthy animals</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option6">
+            <value>Ban milk consumption</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option7">
+            <value>Public health education</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/InterventionDoneUndertaken:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Other_intervention_done:label">
+            <value>Other Intervention Done</value>
+          </text>
+          <text id="/data/DiagnosisIntervention/Other_intervention_done:constraintMsg">
+            <value>Explain other intervention undertaken</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Initial_information/Event_location" type="geopoint" required="true()"/>
+      <bind nodeset="/data/Initial_information/OutbreakID" type="string" required="true()"/>
+      <bind nodeset="/data/Initial_information/Species" type="select1" required="true()"/>
+      <bind nodeset="/data/Initial_information/Age" type="select" required="true()"/>
+      <bind nodeset="/data/Initial_information/Sex" type="select" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_affected" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_of_deaths" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_at_risk" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_treated" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_vaccinated" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Number_destroyed" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_information/Production_system" type="select1" required="true()"/>
+      <bind nodeset="/data/DiagnosisIntervention/Basis_of_diagnosis" type="select" required="true()"/>
+      <bind nodeset="/data/DiagnosisIntervention/InterventionDoneUndertaken" type="select" required="true()"/>
+      <bind nodeset="/data/DiagnosisIntervention/Other_intervention_done" type="string" required="true()" relevant="(selected(/data/DiagnosisIntervention/InterventionDoneUndertaken, 'Other'))" jr:constraintMsg="jr:itext('/data/DiagnosisIntervention/Other_intervention_done:constraintMsg')"/>
+
+
+      <bind nodeset="/data/meta/DateofReport" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('FR: ',/data/Initial_information/OutbreakID)" readonly="true()" type="string"/>
+
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Initial_information:label')"/>
+      <input ref="/data/Initial_information/Event_location">
+        <label ref="jr:itext('/data/Initial_information/Event_location:label')"/>
+      </input>
+      <input ref="/data/Initial_information/OutbreakID">
+        <label ref="jr:itext('/data/Initial_information/OutbreakID:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/OutbreakID:hint')"/>
+      </input>
+      <select1 ref="/data/Initial_information/Species" appearance="minimal">
+        <label ref="jr:itext('/data/Initial_information/Species:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/Species:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option0')"/>
+          <value>Cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option1')"/>
+          <value>Sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option2')"/>
+          <value>Goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option3')"/>
+          <value>Dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option4')"/>
+          <value>Chicken</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option5')"/>
+          <value>Pig</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option6')"/>
+          <value>Duck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Species:option7')"/>
+          <value>Donkey</value>
+        </item>
+      </select1>
+      <select ref="/data/Initial_information/Age">
+        <label ref="jr:itext('/data/Initial_information/Age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Age:option0')"/>
+          <value>Young</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Age:option1')"/>
+          <value>Adult</value>
+        </item>
+      </select>
+      <select ref="/data/Initial_information/Sex">
+        <label ref="jr:itext('/data/Initial_information/Sex:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/Sex:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Sex:option1')"/>
+          <value>Female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Sex:option2')"/>
+          <value>Castrate</value>
+        </item>
+      </select>
+      <input ref="/data/Initial_information/Number_affected">
+        <label ref="jr:itext('/data/Initial_information/Number_affected:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/Number_affected:hint')"/>
+      </input>
+      <input ref="/data/Initial_information/Number_of_deaths">
+        <label ref="jr:itext('/data/Initial_information/Number_of_deaths:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/Number_of_deaths:hint')"/>
+      </input>
+      <input ref="/data/Initial_information/Number_at_risk">
+        <label ref="jr:itext('/data/Initial_information/Number_at_risk:label')"/>
+      </input>
+      <input ref="/data/Initial_information/Number_treated">
+        <label ref="jr:itext('/data/Initial_information/Number_treated:label')"/>
+      </input>
+      <input ref="/data/Initial_information/Number_vaccinated">
+        <label ref="jr:itext('/data/Initial_information/Number_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/Initial_information/Number_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/Initial_information/Number_destroyed">
+        <label ref="jr:itext('/data/Initial_information/Number_destroyed:label')"/>
+      </input>
+      <select1 ref="/data/Initial_information/Production_system" appearance="minimal">
+        <label ref="jr:itext('/data/Initial_information/Production_system:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Production_system:option0')"/>
+          <value>Intensive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Production_system:option1')"/>
+          <value>Semi-intensive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_information/Production_system:option2')"/>
+          <value>Extensive</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/DiagnosisIntervention:label')"/>
+      <select ref="/data/DiagnosisIntervention/Basis_of_diagnosis">
+        <label ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:label')"/>
+        <hint ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:option0')"/>
+          <value>Postmortem</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:option1')"/>
+          <value>Clinical_signs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:option2')"/>
+          <value>Laboratory</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/Basis_of_diagnosis:option3')"/>
+          <value>Meat_Inspection</value>
+        </item>
+      </select>
+      <select ref="/data/DiagnosisIntervention/InterventionDoneUndertaken">
+        <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option0')"/>
+          <value>Treated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option1')"/>
+          <value>Quarantine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option2')"/>
+          <value>Ban_meat_consumption</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option3')"/>
+          <value>Carcass_contaminated_disposal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option4')"/>
+          <value>Animal_vaccination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option5')"/>
+          <value>Separation_sick_from_healthy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option6')"/>
+          <value>Ban_milk_consumption</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option7')"/>
+          <value>Public_health_education</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DiagnosisIntervention/InterventionDoneUndertaken:option8')"/>
+          <value>Other</value>
+        </item>
+      </select>
+      <input ref="/data/DiagnosisIntervention/Other_intervention_done">
+        <label ref="jr:itext('/data/DiagnosisIntervention/Other_intervention_done:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

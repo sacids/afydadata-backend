@@ -1,0 +1,175 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Borders Point Ngorongoro</h:title>
+    <model>
+      <instance>
+        <data id="build_Borders-Point-Ngorongoro_1461993993">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Details>
+            <Image/>
+            <GPS/>
+            <Name/>
+            <VillageName/>
+            <Kitongoji/>
+          </Details>
+          <network>
+            <MobileProvider/>
+            <internet/>
+          </network>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Details:label">
+            <value>Details</value>
+          </text>
+          <text id="/data/Details/Image:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Details/Image:hint">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Details/GPS:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/Details/Name:label">
+            <value>Point Name</value>
+          </text>
+          <text id="/data/Details/Name:option0">
+            <value>Hospital</value>
+          </text>
+          <text id="/data/Details/Name:option1">
+            <value>Health Facility</value>
+          </text>
+          <text id="/data/Details/Name:option2">
+            <value>Vet Camp</value>
+          </text>
+          <text id="/data/Details/Name:option3">
+            <value>Dip</value>
+          </text>
+          <text id="/data/Details/Name:option4">
+            <value>Watering point</value>
+          </text>
+          <text id="/data/Details/Name:option5">
+            <value>Village office</value>
+          </text>
+          <text id="/data/Details/Name:option6">
+            <value>Ward office</value>
+          </text>
+          <text id="/data/Details/VillageName:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/data/Details/Kitongoji:label">
+            <value> Neighborhood</value>
+          </text>
+          <text id="/data/Details/Kitongoji:hint">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/network:label">
+            <value>Network</value>
+          </text>
+          <text id="/data/network/MobileProvider:label">
+            <value>Mobile providers</value>
+          </text>
+          <text id="/data/network/MobileProvider:hint">
+            <value>List reliable mobile providers</value>
+          </text>
+          <text id="/data/network/internet:label">
+            <value>Internet</value>
+          </text>
+          <text id="/data/network/internet:option0">
+            <value>3G</value>
+          </text>
+          <text id="/data/network/internet:option1">
+            <value>GPRS</value>
+          </text>
+          <text id="/data/network/internet:option2">
+            <value>EDGE</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Details/Image" type="binary"/>
+      <bind nodeset="/data/Details/GPS" type="geopoint"/>
+      <bind nodeset="/data/Details/Name" type="select1"/>
+      <bind nodeset="/data/Details/VillageName" type="string"/>
+      <bind nodeset="/data/Details/Kitongoji" type="string"/>
+      <bind nodeset="/data/network/MobileProvider" type="string"/>
+      <bind nodeset="/data/network/internet" type="select1"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Details:label')"/>
+      <upload ref="/data/Details/Image" mediatype="image/*">
+        <label ref="jr:itext('/data/Details/Image:label')"/>
+        <hint ref="jr:itext('/data/Details/Image:hint')"/>
+      </upload>
+      <input ref="/data/Details/GPS">
+        <label ref="jr:itext('/data/Details/GPS:label')"/>
+      </input>
+      <select1 ref="/data/Details/Name">
+        <label ref="jr:itext('/data/Details/Name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option0')"/>
+          <value>Hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option1')"/>
+          <value>Health Facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option2')"/>
+          <value>Vet Camp</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option3')"/>
+          <value>Dip</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option4')"/>
+          <value>Watering point</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option5')"/>
+          <value>Village office</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Name:option6')"/>
+          <value>Ward office</value>
+        </item>
+      </select1>
+      <input ref="/data/Details/VillageName">
+        <label ref="jr:itext('/data/Details/VillageName:label')"/>
+      </input>
+      <input ref="/data/Details/Kitongoji">
+        <label ref="jr:itext('/data/Details/Kitongoji:label')"/>
+        <hint ref="jr:itext('/data/Details/Kitongoji:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/network:label')"/>
+      <input ref="/data/network/MobileProvider">
+        <label ref="jr:itext('/data/network/MobileProvider:label')"/>
+        <hint ref="jr:itext('/data/network/MobileProvider:hint')"/>
+      </input>
+      <select1 ref="/data/network/internet">
+        <label ref="jr:itext('/data/network/internet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option0')"/>
+          <value>3G</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option1')"/>
+          <value>GPRS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option2')"/>
+          <value>EDGE</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

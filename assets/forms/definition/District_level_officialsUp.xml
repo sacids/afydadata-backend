@@ -1,0 +1,587 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>District level officialsUp</h:title>
+    <model>
+      <instance>
+        <data id="build_District-level-officialsUp_1525680571">
+          <meta>
+            <instanceID/>
+          </meta>
+          <interview>
+            <date/>
+            <position/>
+            <sex/>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+          </interview>
+          <surveillance>
+            <provided_feedback/>
+            <avg_days_provide_feedback/>
+          </surveillance>
+          <post_afyadata>
+            <data_access/>
+            <NeverAccess_response_on_health_data_access/>
+            <responsibe_in_absencia/>
+          </post_afyadata>
+          <technical>
+            <internet_connectivity/>
+            <afyadata_design/>
+            <afyadata_challenges/>
+          </technical>
+          <whatsapp_group>
+            <challenges/>
+            <usefullness/>
+            <usefulness_reason/>
+            <improvement_recommendation/>
+          </whatsapp_group>
+          <general_comments>
+            <other_afyadata_usefullnes/>
+            <health_events_recommend/>
+          </general_comments>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/interview:label">
+            <value>Interview</value>
+          </text>
+          <text id="/data/interview/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/interview/position:label">
+            <value>Position</value>
+          </text>
+          <text id="/data/interview/position:option0">
+            <value>IDSR Focal Person</value>
+          </text>
+          <text id="/data/interview/position:option1">
+            <value>DMO</value>
+          </text>
+          <text id="/data/interview/position:option2">
+            <value>DVO</value>
+          </text>
+          <text id="/data/interview/position:option3">
+            <value>Animal health Data manager</value>
+          </text>
+          <text id="/data/interview/sex:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/interview/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/interview/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/interview/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/interview/region:option0">
+            <value>Morogoro</value>
+          </text>
+          <text id="/data/interview/region:option1">
+            <value>Arusha</value>
+          </text>
+          <text id="/data/interview/region:option2">
+            <value>Pwani</value>
+          </text>
+          <text id="/data/interview/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/interview/district:option0">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/interview/district:option1">
+            <value>Morogoro Urban</value>
+          </text>
+          <text id="/data/interview/district:option2">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/interview/district:option3">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/interview/district:option4">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/interview/district:option5">
+            <value>Morogoro Rural</value>
+          </text>
+          <text id="/data/interview/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/interview/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/surveillance:label">
+            <value>Surveillance</value>
+          </text>
+          <text id="/data/surveillance/provided_feedback:label">
+            <value>Did you provide any feedback after receiving case incident</value>
+          </text>
+          <text id="/data/surveillance/provided_feedback:hint">
+            <value></value>
+          </text>
+          <text id="/data/surveillance/provided_feedback:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/surveillance/provided_feedback:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/surveillance/avg_days_provide_feedback:label">
+            <value>What was the average number of days between case receipt and providing feedback</value>
+          </text>
+          <text id="/data/surveillance/avg_days_provide_feedback:hint">
+            <value>Zero means feedback not provided</value>
+          </text>
+          <text id="/data/post_afyadata:label">
+            <value>After Introduction of AfyaData, what is the status of</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:label">
+            <value>Health Data Access</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:hint">
+            <value>All questions about AfyaData should stop here, if the answer is &quot;I have never accessed&quot;</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:option0">
+            <value>Improved</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:option1">
+            <value>No Change</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:option2">
+            <value>Worse</value>
+          </text>
+          <text id="/data/post_afyadata/data_access:option3">
+            <value>I have never accessed </value>
+          </text>
+          <text id="/data/post_afyadata/NeverAccess_response_on_health_data_access:label">
+            <value>Please explain your response on health data access if the answer is &quot;I have never accessed&quot;</value>
+          </text>
+          <text id="/data/post_afyadata/NeverAccess_response_on_health_data_access:hint">
+            <value>Probe the answer</value>
+          </text>
+          <text id="/data/post_afyadata/responsibe_in_absencia:label">
+            <value>In your absence, who else  access health data using AfyaDAta tools at your workstation</value>
+          </text>
+          <text id="/data/post_afyadata/responsibe_in_absencia:option0">
+            <value>No one</value>
+          </text>
+          <text id="/data/post_afyadata/responsibe_in_absencia:option1">
+            <value>Co-Worker</value>
+          </text>
+          <text id="/data/technical:label">
+            <value>Technical</value>
+          </text>
+          <text id="/data/technical/internet_connectivity:label">
+            <value>Rate internet connectivity in your area</value>
+          </text>
+          <text id="/data/technical/internet_connectivity:option0">
+            <value>Very Poor</value>
+          </text>
+          <text id="/data/technical/internet_connectivity:option1">
+            <value>Poor</value>
+          </text>
+          <text id="/data/technical/internet_connectivity:option2">
+            <value>Good</value>
+          </text>
+          <text id="/data/technical/internet_connectivity:option3">
+            <value>Very Good</value>
+          </text>
+          <text id="/data/technical/afyadata_design:label">
+            <value>Rate how easy/hard it is to use AfyaData from your experience</value>
+          </text>
+          <text id="/data/technical/afyadata_design:option0">
+            <value>Very Hard</value>
+          </text>
+          <text id="/data/technical/afyadata_design:option1">
+            <value>Hard</value>
+          </text>
+          <text id="/data/technical/afyadata_design:option2">
+            <value>Easy</value>
+          </text>
+          <text id="/data/technical/afyadata_design:option3">
+            <value>Very Easy</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:label">
+            <value>Did you experience any challenges working with these afyadata features</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:hint">
+            <value>Please select all challenging items</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:option0">
+            <value>Login/Logout</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:option1">
+            <value>Visualization Charts</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:option2">
+            <value>Exporting Data</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:option3">
+            <value>Maps</value>
+          </text>
+          <text id="/data/technical/afyadata_challenges:option4">
+            <value>Listing Data</value>
+          </text>
+          <text id="/data/whatsapp_group:label">
+            <value>WhatsApp Group</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:label">
+            <value>What challenges have you faced using CHR-Specialist WhatsApp platform</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:hint">
+            <value>Please select all challenging items</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option0">
+            <value>Finding Whatsapp Icon</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option1">
+            <value>Group Privacy</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option2">
+            <value>Writing speed</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option3">
+            <value>Writing Well on WhatsApp windo</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option4">
+            <value>Have enough internet bundle</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option5">
+            <value>Not being able to tell who posted what</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option6">
+            <value>Sending pictures in the group</value>
+          </text>
+          <text id="/data/whatsapp_group/challenges:option7">
+            <value>Don't like WhatsApp</value>
+          </text>
+          <text id="/data/whatsapp_group/usefullness:label">
+            <value>Do you think CHR-Specialist group has been a useful platform to enhance disease surveillance</value>
+          </text>
+          <text id="/data/whatsapp_group/usefullness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/whatsapp_group/usefullness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/whatsapp_group/usefulness_reason:label">
+            <value>Please explain your response</value>
+          </text>
+          <text id="/data/whatsapp_group/improvement_recommendation:label">
+            <value>What do you think should be done to improve the group</value>
+          </text>
+          <text id="/data/general_comments:label">
+            <value>General comments</value>
+          </text>
+          <text id="/data/general_comments/other_afyadata_usefullnes:label">
+            <value>Other usefulness of AfyaData </value>
+          </text>
+          <text id="/data/general_comments/other_afyadata_usefullnes:hint">
+            <value>please list</value>
+          </text>
+          <text id="/data/general_comments/health_events_recommend:label">
+            <value>What would you recommend to improve health events surveillance system</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/interview/date" type="date"/>
+      <bind nodeset="/data/interview/position" type="select1"/>
+      <bind nodeset="/data/interview/sex" type="select1"/>
+      <bind nodeset="/data/interview/region" type="select1"/>
+      <bind nodeset="/data/interview/district" type="select1"/>
+      <bind nodeset="/data/interview/ward" type="string"/>
+      <bind nodeset="/data/interview/village" type="string"/>
+      <bind nodeset="/data/surveillance/provided_feedback" type="select1"/>
+      <bind nodeset="/data/surveillance/avg_days_provide_feedback" type="int" constraint="(. &gt; '0') and (. &lt; '40')" jr:constraintMsg="Value must be between 0 and 40"/>
+      <bind nodeset="/data/post_afyadata/data_access" type="select1"/>
+      <bind nodeset="/data/post_afyadata/NeverAccess_response_on_health_data_access" type="string"/>
+      <bind nodeset="/data/post_afyadata/responsibe_in_absencia" type="select1"/>
+      <bind nodeset="/data/technical/internet_connectivity" type="select1"/>
+      <bind nodeset="/data/technical/afyadata_design" type="select1"/>
+      <bind nodeset="/data/technical/afyadata_challenges" type="select"/>
+      <bind nodeset="/data/whatsapp_group/challenges" type="select"/>
+      <bind nodeset="/data/whatsapp_group/usefullness" type="select1"/>
+      <bind nodeset="/data/whatsapp_group/usefulness_reason" type="string"/>
+      <bind nodeset="/data/whatsapp_group/improvement_recommendation" type="string"/>
+      <bind nodeset="/data/general_comments/other_afyadata_usefullnes" type="string"/>
+      <bind nodeset="/data/general_comments/health_events_recommend" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interview:label')"/>
+      <input ref="/data/interview/date">
+        <label ref="jr:itext('/data/interview/date:label')"/>
+      </input>
+      <select1 ref="/data/interview/position">
+        <label ref="jr:itext('/data/interview/position:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interview/position:option0')"/>
+          <value>idsr_focal_person</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/position:option1')"/>
+          <value>DMO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/position:option2')"/>
+          <value>DVO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/position:option3')"/>
+          <value>animal_data_manager</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interview/sex">
+        <label ref="jr:itext('/data/interview/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interview/sex:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/sex:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interview/region">
+        <label ref="jr:itext('/data/interview/region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interview/region:option0')"/>
+          <value>morogoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/region:option1')"/>
+          <value>arusha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/region:option2')"/>
+          <value>pwani</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interview/district">
+        <label ref="jr:itext('/data/interview/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option0')"/>
+          <value>ngorongoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option1')"/>
+          <value>morogoro_urban</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option2')"/>
+          <value>kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option3')"/>
+          <value>malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option4')"/>
+          <value>ulanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview/district:option5')"/>
+          <value>morogoro_rural</value>
+        </item>
+      </select1>
+      <input ref="/data/interview/ward">
+        <label ref="jr:itext('/data/interview/ward:label')"/>
+      </input>
+      <input ref="/data/interview/village">
+        <label ref="jr:itext('/data/interview/village:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/surveillance:label')"/>
+      <select1 ref="/data/surveillance/provided_feedback">
+        <label ref="jr:itext('/data/surveillance/provided_feedback:label')"/>
+        <hint ref="jr:itext('/data/surveillance/provided_feedback:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/surveillance/provided_feedback:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/surveillance/provided_feedback:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <range ref="/data/surveillance/avg_days_provide_feedback" start="0" end="40" step="2">
+        <label ref="jr:itext('/data/surveillance/avg_days_provide_feedback:label')"/>
+        <hint ref="jr:itext('/data/surveillance/avg_days_provide_feedback:hint')"/>
+      </range>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/post_afyadata:label')"/>
+      <select1 ref="/data/post_afyadata/data_access">
+        <label ref="jr:itext('/data/post_afyadata/data_access:label')"/>
+        <hint ref="jr:itext('/data/post_afyadata/data_access:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/data_access:option0')"/>
+          <value>improved</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/data_access:option1')"/>
+          <value>no_change</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/data_access:option2')"/>
+          <value>worse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/data_access:option3')"/>
+          <value>never_access</value>
+        </item>
+      </select1>
+      <input ref="/data/post_afyadata/NeverAccess_response_on_health_data_access">
+        <label ref="jr:itext('/data/post_afyadata/NeverAccess_response_on_health_data_access:label')"/>
+        <hint ref="jr:itext('/data/post_afyadata/NeverAccess_response_on_health_data_access:hint')"/>
+      </input>
+      <select1 ref="/data/post_afyadata/responsibe_in_absencia">
+        <label ref="jr:itext('/data/post_afyadata/responsibe_in_absencia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/responsibe_in_absencia:option0')"/>
+          <value>no_one</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/post_afyadata/responsibe_in_absencia:option1')"/>
+          <value>co_worker</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/technical:label')"/>
+      <select1 ref="/data/technical/internet_connectivity">
+        <label ref="jr:itext('/data/technical/internet_connectivity:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical/internet_connectivity:option0')"/>
+          <value>very_poor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/internet_connectivity:option1')"/>
+          <value>poor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/internet_connectivity:option2')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/internet_connectivity:option3')"/>
+          <value>very_good</value>
+        </item>
+      </select1>
+      <select1 ref="/data/technical/afyadata_design">
+        <label ref="jr:itext('/data/technical/afyadata_design:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_design:option0')"/>
+          <value>very_hard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_design:option1')"/>
+          <value>hard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_design:option2')"/>
+          <value>easy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_design:option3')"/>
+          <value>very_easy</value>
+        </item>
+      </select1>
+      <select ref="/data/technical/afyadata_challenges">
+        <label ref="jr:itext('/data/technical/afyadata_challenges:label')"/>
+        <hint ref="jr:itext('/data/technical/afyadata_challenges:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_challenges:option0')"/>
+          <value>login_logout</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_challenges:option1')"/>
+          <value>charts</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_challenges:option2')"/>
+          <value>exporting_data</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_challenges:option3')"/>
+          <value>maps</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical/afyadata_challenges:option4')"/>
+          <value>listing_data</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/whatsapp_group:label')"/>
+      <select ref="/data/whatsapp_group/challenges">
+        <label ref="jr:itext('/data/whatsapp_group/challenges:label')"/>
+        <hint ref="jr:itext('/data/whatsapp_group/challenges:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option0')"/>
+          <value>finding_whatsapp_icon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option1')"/>
+          <value>privacy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option2')"/>
+          <value>writing_speed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option3')"/>
+          <value>writing_well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option4')"/>
+          <value>internet_bundle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option5')"/>
+          <value>anonymity_in_posts</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option6')"/>
+          <value>sending_pic</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/challenges:option7')"/>
+          <value>dont_like_whatsapp</value>
+        </item>
+      </select>
+      <select1 ref="/data/whatsapp_group/usefullness">
+        <label ref="jr:itext('/data/whatsapp_group/usefullness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/usefullness:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp_group/usefullness:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/whatsapp_group/usefulness_reason">
+        <label ref="jr:itext('/data/whatsapp_group/usefulness_reason:label')"/>
+      </input>
+      <input ref="/data/whatsapp_group/improvement_recommendation">
+        <label ref="jr:itext('/data/whatsapp_group/improvement_recommendation:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general_comments:label')"/>
+      <input ref="/data/general_comments/other_afyadata_usefullnes">
+        <label ref="jr:itext('/data/general_comments/other_afyadata_usefullnes:label')"/>
+        <hint ref="jr:itext('/data/general_comments/other_afyadata_usefullnes:hint')"/>
+      </input>
+      <input ref="/data/general_comments/health_events_recommend">
+        <label ref="jr:itext('/data/general_comments/health_events_recommend:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

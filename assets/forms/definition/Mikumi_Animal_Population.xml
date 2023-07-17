@@ -1,0 +1,316 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mikumi Animal Population</h:title>
+    <model>
+      <instance>
+        <data id="build_Mikumi-Animal-Population_1518773706">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <transect_number/>
+            <specie/>
+            <animal_count/>
+            <male_count/>
+            <distance/>
+            <vegetation/>
+            <time/>
+          </general>
+          <citing>
+            <gps/>
+            <picture/>
+            <comments/>
+          </citing>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>Transect Details</value>
+          </text>
+          <text id="/data/general/transect_number:label">
+            <value>Transect Number</value>
+          </text>
+          <text id="/data/general/specie:label">
+            <value>Type of Animal</value>
+          </text>
+          <text id="/data/general/specie:option0">
+            <value>Zebra</value>
+          </text>
+          <text id="/data/general/specie:option1">
+            <value>Elephant</value>
+          </text>
+          <text id="/data/general/specie:option2">
+            <value>Buffalo</value>
+          </text>
+          <text id="/data/general/specie:option3">
+            <value>Giraffe</value>
+          </text>
+          <text id="/data/general/specie:option4">
+            <value>Impala</value>
+          </text>
+          <text id="/data/general/specie:option5">
+            <value>Lion</value>
+          </text>
+          <text id="/data/general/specie:option6">
+            <value>Wildebeast</value>
+          </text>
+          <text id="/data/general/specie:option7">
+            <value>Hyaena</value>
+          </text>
+          <text id="/data/general/specie:option8">
+            <value>Crocodile</value>
+          </text>
+          <text id="/data/general/specie:option9">
+            <value>Hippo</value>
+          </text>
+          <text id="/data/general/specie:option10">
+            <value>Warthog</value>
+          </text>
+          <text id="/data/general/specie:option11">
+            <value>Waterbuck</value>
+          </text>
+          <text id="/data/general/specie:option12">
+            <value>Bushbuck</value>
+          </text>
+          <text id="/data/general/specie:option13">
+            <value>Antelope</value>
+          </text>
+          <text id="/data/general/specie:option14">
+            <value>Eland</value>
+          </text>
+          <text id="/data/general/specie:option15">
+            <value>Reedbuck</value>
+          </text>
+          <text id="/data/general/specie:option16">
+            <value>Wild dog</value>
+          </text>
+          <text id="/data/general/specie:option17">
+            <value>Leopard</value>
+          </text>
+          <text id="/data/general/specie:option18">
+            <value>Baboon</value>
+          </text>
+          <text id="/data/general/animal_count:label">
+            <value>Number of Animals seen</value>
+          </text>
+          <text id="/data/general/male_count:label">
+            <value>Number of Male animals</value>
+          </text>
+          <text id="/data/general/distance:label">
+            <value>Distance from Intersect (m)</value>
+          </text>
+          <text id="/data/general/vegetation:label">
+            <value>Type of Vegetation</value>
+          </text>
+          <text id="/data/general/vegetation:option0">
+            <value>Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option1">
+            <value>Open Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option2">
+            <value>Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option3">
+            <value>Wooded Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option4">
+            <value>Floodplain</value>
+          </text>
+          <text id="/data/general/vegetation:option5">
+            <value>Riverine</value>
+          </text>
+          <text id="/data/general/vegetation:option6">
+            <value>Afromontane Forrest</value>
+          </text>
+          <text id="/data/general/vegetation:option7">
+            <value>Forrest</value>
+          </text>
+          <text id="/data/general/time:label">
+            <value>Time of Citing</value>
+          </text>
+          <text id="/data/citing:label">
+            <value>Citing Details</value>
+          </text>
+          <text id="/data/citing/gps:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/citing/picture:label">
+            <value>Picture of Animals</value>
+          </text>
+          <text id="/data/citing/comments:label">
+            <value>Further Comments</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/transect_number" type="int" required="true()" constraint="(. &gt;= '1') and (. &lt;= '5')" jr:constraintMsg="Value must be between 1 and 5"/>
+      <bind nodeset="/data/general/specie" type="select1" required="true()"/>
+      <bind nodeset="/data/general/animal_count" type="int" required="true()"/>
+      <bind nodeset="/data/general/male_count" type="int" required="true()"/>
+      <bind nodeset="/data/general/distance" type="int" required="true()"/>
+      <bind nodeset="/data/general/vegetation" type="select1"/>
+      <bind nodeset="/data/general/time" type="time" required="true()"/>
+      <bind nodeset="/data/citing/gps" type="geopoint" required="true()"/>
+      <bind nodeset="/data/citing/picture" type="binary" required="true()"/>
+      <bind nodeset="/data/citing/comments" type="string"/>
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat(/data/general/specie,', ',/data/general/animal_count)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <range ref="/data/general/transect_number" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general/transect_number:label')"/>
+      </range>
+      <select1  appearance="minimal" ref="/data/general/specie">
+        <label ref="jr:itext('/data/general/specie:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option0')"/>
+          <value>zebra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option1')"/>
+          <value>elephant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option2')"/>
+          <value>bufalo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option3')"/>
+          <value>giraffe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option4')"/>
+          <value>impala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option5')"/>
+          <value>lion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option6')"/>
+          <value>wildebeast</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option7')"/>
+          <value>Hyaena</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option8')"/>
+          <value>crocodile</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option9')"/>
+          <value>hippo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option10')"/>
+          <value>warthog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option11')"/>
+          <value>waterbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option12')"/>
+          <value>bushbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option13')"/>
+          <value>antelope</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option14')"/>
+          <value>eland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option15')"/>
+          <value>reedbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option16')"/>
+          <value>wild_dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option17')"/>
+          <value>leopard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option18')"/>
+          <value>baboon</value>
+        </item>
+      </select1>
+      <input ref="/data/general/animal_count">
+        <label ref="jr:itext('/data/general/animal_count:label')"/>
+      </input>
+      <input ref="/data/general/male_count">
+        <label ref="jr:itext('/data/general/male_count:label')"/>
+      </input>
+      <input ref="/data/general/distance">
+        <label ref="jr:itext('/data/general/distance:label')"/>
+      </input>
+      <select1  appearance="minimal" ref="/data/general/vegetation">
+        <label ref="jr:itext('/data/general/vegetation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option0')"/>
+          <value>woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option1')"/>
+          <value>open_woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option2')"/>
+          <value>grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option3')"/>
+          <value>wooded_grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option4')"/>
+          <value>floodplain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option5')"/>
+          <value>riverine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option6')"/>
+          <value>afromontane_forrest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option7')"/>
+          <value>Forrest</value>
+        </item>
+      </select1>
+      <input ref="/data/general/time">
+        <label ref="jr:itext('/data/general/time:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/citing:label')"/>
+      <input ref="/data/citing/gps">
+        <label ref="jr:itext('/data/citing/gps:label')"/>
+      </input>
+      <upload ref="/data/citing/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/citing/picture:label')"/>
+      </upload>
+      <input ref="/data/citing/comments">
+        <label ref="jr:itext('/data/citing/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

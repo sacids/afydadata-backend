@@ -35,15 +35,17 @@ class ProjectGroup(models.Model):
         return self.project.title+' : '+self.title if self.title else self.pk
 
 class ProjectMember(models.Model):
-    projectGroup    = models.ForeignKey(ProjectGroup, related_name='pm_groups', on_delete=models.CASCADE)
+    project         = models.ForeignKey(Project, related_name='project_member', on_delete=models.CASCADE,default=1)
+    projectGroup    = models.ManyToManyField(ProjectGroup, related_name='pm_groups')
     member          = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+    
     class Meta:
         db_table    = 'ad_projectMembers'
         managed     = True
         app_label   = 'projects'
 
     def __str__(self):
-        return self.member.username+' '+self.projectGroup.title
+        return self.member.username
 
 
 

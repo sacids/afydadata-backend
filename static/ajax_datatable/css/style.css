@@ -172,18 +172,26 @@ table.dataTable tbody tr:hover{
 
 
 table.dataTable tbody tr{
-    border-right:#e5e7eb  solid 1px;
-    border-left:#e5e7eb  solid 1px;
+    border-right:#e5e7eb solid 1px;
+    border-left:#e5e7eb solid 1px;
 }
 
 .table.dataTable.compact td, .table.dataTable.compact th {
     padding: 10px 10px;
     border-bottom:#e5e7eb solid 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .table.dataTable.compact th {
     padding: 11px 10px;
     border-bottom:#e5e7eb solid 1px;
+}
+
+
+.dt_dom{
+    position: fixed;
 }
 
 .dataTables_paginate{

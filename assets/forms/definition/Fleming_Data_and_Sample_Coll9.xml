@@ -1,0 +1,1852 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Fleming Data and Sample Coll</h:title>
+    <model>
+      <instance>
+        <data id="build_Fleming-Data-and-Sample-Coll_222222222222767001263">
+          <meta>
+           <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <owner_details>
+            <owner_name/>
+            <phone_number/>
+            <owner_sex/>
+            <age/>
+            <ed_level/>
+          </owner_details>
+          <specie_sample>
+            <chicken_specie_sampl/>
+            <sample_ID/>
+            <sample_name/>
+          </specie_sample>
+          <region/>
+          <sample_locat>
+            <district_arusha/>
+            <district_dar/>
+            <district_mwanza/>
+            <sampling_location/>
+          </sample_locat>
+          <other_sampling_location/>
+          <FAO_classif_sector>
+            <sector1/>
+            <sector2/>
+            <sector3/>
+            <select_sectors/>
+          </FAO_classif_sector>
+          <number_chicken/>
+          <chicken_details>
+            <av_number_in_banda/>
+            <source_chicken>
+              Not Known
+            </source_chicken>
+            <age_weeks/>
+          </chicken_details>
+          <type_sample_collected/>
+          <date_mostly_sampled/>
+          <proffe_training/>
+          <how_long_keep_chick/>
+          <freq_use_antbiotic/>
+          <main_sources_ant/>
+          <main_sources_ant_other/>
+          <name_antibio_most_used>
+            <mostlt_antib1>
+              None
+            </mostlt_antib1>
+            <mostlt_antib2>
+              None
+            </mostlt_antib2>
+            <mostlt_antib3>
+              None
+            </mostlt_antib3>
+          </name_antibio_most_used>
+          <ant_use_poultry/>
+          <ant_use_poultry_other/>
+          <who_prescrib_antib/>
+          <who_prescrib_antib_other/>
+          <who_admin_antibiotic/>
+          <who_admin_antibiotic_other/>
+          <if_self_presc_reason/>
+          <if_self_presc_reason_other/>
+          <how_determine_dosage/>
+          <how_determine_dosage_other/>
+          <last_time_prov_antibi/>
+          <occasion_where_got_antibio/>
+          <occasion_where_got_antibio_other/>
+          <oftern_consult_vet_serv/>
+          <happen_chicken_recover/>
+          <other_happen_chicken_recover/>
+          <clinical_man_usually_treat/>
+          <clinical_man_usually_treat_other/>
+          <ant_bio_knowledge>
+            <use_lab_resulst_test/>
+            <observe_withdrawal/>
+            <determine_ant_with_draw/>
+            <ant_safe_used_routinely/>
+            <about_antib_resistence/>
+            <ant_improve_immu_chicken/>
+          </ant_bio_knowledge>
+          <ant_bio_knowledge2>
+            <ant_cure_viral_infe/>
+            <know_chicken_dev_antib_resi/>
+            <ver_freq_ant_incre_eff_ant_resi/>
+            <antibio_cure_bacte_infect/>
+            <antib_resist_can_spred_amng_anm_humn/>
+          </ant_bio_knowledge2>
+          <indicate_agree_dis>
+            <Ant_44/>
+            <Ant_45/>
+            <Ant_46/>
+            <Ant_47/>
+            <Ant_48/>
+            <Ant_49/>
+          </indicate_agree_dis>
+          <indicate_agree_dis2>
+            <Ant_50/>
+            <Ant_51/>
+            <Ant_52/>
+            <Ant_53/>
+            <Ant_54/>
+          </indicate_agree_dis2>
+          <gps_sample_loc/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/owner_details:label">
+            <value>Owner Details</value>
+          </text>
+          <text id="/data/owner_details/owner_name:label">
+            <value>1.	Owner of the farm/birds at market or slaughtering point</value>
+          </text>
+          <text id="/data/owner_details/owner_name:hint">
+            <value>i. Name</value>
+          </text>
+          <text id="/data/owner_details/phone_number:label">
+            <value>ii. Phone number</value>
+          </text>
+          <text id="/data/owner_details/owner_sex:label">
+            <value>2. Chicken owner/ Manager sex</value>
+          </text>
+          <text id="/data/owner_details/owner_sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/owner_details/owner_sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/owner_details/age:label">
+            <value>3. Age of the farm owner/manager (years)</value>
+          </text>
+          <text id="/data/owner_details/ed_level:label">
+            <value>4. Education level of the farm owner/manager</value>
+          </text>
+          <text id="/data/owner_details/ed_level:option0">
+            <value>None</value>
+          </text>
+          <text id="/data/owner_details/ed_level:option1">
+            <value>Primary</value>
+          </text>
+          <text id="/data/owner_details/ed_level:option2">
+            <value>Secondary</value>
+          </text>
+          <text id="/data/owner_details/ed_level:option3">
+            <value>Post-secondary</value>
+          </text>
+          <text id="/data/specie_sample:label">
+            <value>Species and sample</value>
+          </text>
+          <text id="/data/specie_sample/chicken_specie_sampl:label">
+            <value>5. Species of chicken sampled</value>
+          </text>
+          <text id="/data/specie_sample/chicken_specie_sampl:option0">
+            <value>Broilers</value>
+          </text>
+          <text id="/data/specie_sample/chicken_specie_sampl:option1">
+            <value>Layers</value>
+          </text>
+          <text id="/data/specie_sample/sample_ID:label">
+            <value>6. Sample identification number </value>
+          </text>
+          <text id="/data/specie_sample/sample_ID:hint">
+            <value>take it from sample ID sheet provided</value>
+          </text>
+          <text id="/data/specie_sample/sample_name:label">
+            <value>7. Name of sampler</value>
+          </text>
+          <text id="/data/region:label">
+            <value>8. Region</value>
+          </text>
+          <text id="/data/region:option0">
+            <value>Arusha</value>
+          </text>
+          <text id="/data/region:option1">
+            <value>Dar Es Salaam</value>
+          </text>
+          <text id="/data/region:option2">
+            <value>Mwanza</value>
+          </text>
+          <text id="/data/sample_locat:label">
+            <value>Sample Location</value>
+          </text>
+          <text id="/data/sample_locat/district_arusha:label">
+            <value>9. District</value>
+          </text>
+          <text id="/data/sample_locat/district_arusha:option0">
+            <value>Arusha-Urban</value>
+          </text>
+          <text id="/data/sample_locat/district_arusha:option1">
+            <value>Arusha-Rural</value>
+          </text>
+          <text id="/data/sample_locat/district_arusha:option2">
+            <value>Meru</value>
+          </text>
+          <text id="/data/sample_locat/district_arusha:option3">
+            <value>Monduli</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:label">
+            <value>9. District</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:option0">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:option1">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:option2">
+            <value>Kigamboni</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:option3">
+            <value>Temeke</value>
+          </text>
+          <text id="/data/sample_locat/district_dar:option4">
+            <value>Ubungo</value>
+          </text>
+          <text id="/data/sample_locat/district_mwanza:label">
+            <value>9. District</value>
+          </text>
+          <text id="/data/sample_locat/district_mwanza:option0">
+            <value>Ilemela</value>
+          </text>
+          <text id="/data/sample_locat/district_mwanza:option1">
+            <value>Nyamagana</value>
+          </text>
+          <text id="/data/sample_locat/district_mwanza:option2">
+            <value>Magu</value>
+          </text>
+          <text id="/data/sample_locat/district_mwanza:option3">
+            <value>Misungwi </value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:label">
+            <value>10.	Sampling location </value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:option0">
+            <value>Farm</value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:option1">
+            <value>Abattoir</value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:option2">
+            <value>Slaughter point</value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:option3">
+            <value>Live chicken market</value>
+          </text>
+          <text id="/data/sample_locat/sampling_location:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_sampling_location:label">
+            <value>Other Sampling location</value>
+          </text>
+          <text id="/data/FAO_classif_sector:label">
+            <value>11.	FAO farm classification sector </value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector1:label">
+            <value>Sector 1</value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector1:hint">
+            <value>Industrial integrated system with high biosecurity levels and chickens/products marketed commercially, e.g. farms that are part of an integrated broiler production enterprise with clearly defined and implemented standard operating procedures for biosecurity</value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector2:label">
+            <value>Sector 2</value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector2:hint">
+            <value>Commercial chicken production system with moderate to high biosecurity systems and chicken/products usually marketed commercially, e.g. farms with chickens kept indoors continuously, strictly preventing contact with other chickens or wildlife</value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector3:label">
+            <value>Sector 3</value>
+          </text>
+          <text id="/data/FAO_classif_sector/sector3:hint">
+            <value>Commercial chicken production system with low to minimal biosecurity and chicken/products sold in live chicken markets e.g. a caged layer farm with chickens in open sheds, a farm with chickens spending time outside the shed, a farm producing both chickens and waterfowl. </value>
+          </text>
+          <text id="/data/FAO_classif_sector/select_sectors:label">
+            <value>Select Sectors</value>
+          </text>
+          <text id="/data/FAO_classif_sector/select_sectors:option0">
+            <value>Sector 1</value>
+          </text>
+          <text id="/data/FAO_classif_sector/select_sectors:option1">
+            <value>Sector 2</value>
+          </text>
+          <text id="/data/FAO_classif_sector/select_sectors:option2">
+            <value>Sector 3</value>
+          </text>
+          <text id="/data/number_chicken:label">
+            <value>12. Number of chickens on the farm</value>
+          </text>
+          <text id="/data/chicken_details:label">
+            <value>Chicken details</value>
+          </text>
+          <text id="/data/chicken_details/av_number_in_banda:label">
+            <value>13.	Average number of chicken in the sampled banda</value>
+          </text>
+          <text id="/data/chicken_details/source_chicken:label">
+            <value>14.	Source of chicks (name of hatchery if known)</value>
+          </text>
+          <text id="/data/chicken_details/age_weeks:label">
+            <value>15.	Age (in weeks) of sampled chicken </value>
+          </text>
+          <text id="/data/type_sample_collected:label">
+            <value>16. Type of sample collected </value>
+          </text>
+          <text id="/data/type_sample_collected:option0">
+            <value>Cloaca swab</value>
+          </text>
+          <text id="/data/type_sample_collected:option1">
+            <value>caecal</value>
+          </text>
+          <text id="/data/date_mostly_sampled:label">
+            <value>17.	Date/period the sampled chicken was most recently treated with antimicrobials</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option0">
+            <value>Last week</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option1">
+            <value>Last two weeks</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option2">
+            <value>Last month</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option3">
+            <value>Last 3 months</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option4">
+            <value>Last 6 months</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option5">
+            <value>Last year</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option6">
+            <value>More than a year ago</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option7">
+            <value>Never treated with antibiotics</value>
+          </text>
+          <text id="/data/date_mostly_sampled:option8">
+            <value>Can’t remember</value>
+          </text>
+          <text id="/data/proffe_training:label">
+            <value>18.	Have you ever received professional farm training related to production, biosecurity measures</value>
+          </text>
+          <text id="/data/proffe_training:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/proffe_training:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_long_keep_chick:label">
+            <value>19.	How long have you been keeping chicken?</value>
+          </text>
+          <text id="/data/how_long_keep_chick:option0">
+            <value>≤5 years</value>
+          </text>
+          <text id="/data/how_long_keep_chick:option1">
+            <value>&gt;5 to 10 years</value>
+          </text>
+          <text id="/data/how_long_keep_chick:option2">
+            <value>&gt; 10 years</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:label">
+            <value>20.	How frequently do you use antibiotics in your chicken</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:option0">
+            <value>Most frequently (at least once a week)</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:option1">
+            <value>Frequently (at least once in 2-4 weeks)</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:option2">
+            <value>Very rare (at least once in 1-2 months)</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:option3">
+            <value>Rarely (at least once in 3 months)</value>
+          </text>
+          <text id="/data/freq_use_antbiotic:option4">
+            <value>Never used</value>
+          </text>
+          <text id="/data/main_sources_ant:label">
+            <value>21.	What are the main sources of antibiotics provided to your chicken?</value>
+          </text>
+          <text id="/data/main_sources_ant:option0">
+            <value>Veterinary Store or Pharmacy</value>
+          </text>
+          <text id="/data/main_sources_ant:option1">
+            <value>Stall or Hawker </value>
+          </text>
+          <text id="/data/main_sources_ant:option2">
+            <value>Auction (mnadani)</value>
+          </text>
+          <text id="/data/main_sources_ant:option3">
+            <value>Family member or Friend</value>
+          </text>
+          <text id="/data/main_sources_ant:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/main_sources_ant:option5">
+            <value>Not applicable (ONLY WHEN NONE OF ABOVE SELECTED)</value>
+          </text>
+          <text id="/data/main_sources_ant_other:label">
+            <value>Other main sources of antibiotics provided to your chicken</value>
+          </text>
+          <text id="/data/main_sources_ant_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/name_antibio_most_used:label">
+            <value>22.	Name of the antibiotics (if known)  used most recently in the sampled chicken </value>
+          </text>
+          <text id="/data/name_antibio_most_used/mostlt_antib1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/name_antibio_most_used/mostlt_antib2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/name_antibio_most_used/mostlt_antib3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/ant_use_poultry:label">
+            <value>23.	For which of the following purposes are antibiotic drugs used in your poultry </value>
+          </text>
+          <text id="/data/ant_use_poultry:option0">
+            <value>Growth promotion (digestive enhancing antibiotics</value>
+          </text>
+          <text id="/data/ant_use_poultry:option1">
+            <value>Prophylaxis </value>
+          </text>
+          <text id="/data/ant_use_poultry:option2">
+            <value>Therapeutics</value>
+          </text>
+          <text id="/data/ant_use_poultry:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/ant_use_poultry_other:label">
+            <value>Other purposes antibiotic drugs used in your poultry </value>
+          </text>
+          <text id="/data/ant_use_poultry_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/who_prescrib_antib:label">
+            <value>24.	Who prescribes antibiotics to your chicken?</value>
+          </text>
+          <text id="/data/who_prescrib_antib:option0">
+            <value>Myself/family member</value>
+          </text>
+          <text id="/data/who_prescrib_antib:option1">
+            <value>Veterinary officer</value>
+          </text>
+          <text id="/data/who_prescrib_antib:option2">
+            <value>Another farmer</value>
+          </text>
+          <text id="/data/who_prescrib_antib:option3">
+            <value>Drug outlet/sellers</value>
+          </text>
+          <text id="/data/who_prescrib_antib:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/who_prescrib_antib_other:label">
+            <value>Who prescribes antibiotics to your chicken? (Other)</value>
+          </text>
+          <text id="/data/who_prescrib_antib_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/who_admin_antibiotic:label">
+            <value>25.	Who administers antibiotics to your chicken?</value>
+          </text>
+          <text id="/data/who_admin_antibiotic:option0">
+            <value>Myself/family member</value>
+          </text>
+          <text id="/data/who_admin_antibiotic:option1">
+            <value>Veterinary officer</value>
+          </text>
+          <text id="/data/who_admin_antibiotic:option2">
+            <value>Another farmer</value>
+          </text>
+          <text id="/data/who_admin_antibiotic:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/who_admin_antibiotic_other:label">
+            <value>Who administers antibiotics to your chicken?(Other)</value>
+          </text>
+          <text id="/data/who_admin_antibiotic_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/if_self_presc_reason:label">
+            <value>26.	If self-prescription/administration of antibiotics is practiced; what are the reasons?</value>
+          </text>
+          <text id="/data/if_self_presc_reason:option0">
+            <value>Inability to pay for veterinary services</value>
+          </text>
+          <text id="/data/if_self_presc_reason:option1">
+            <value>Veterinary services not available in my area</value>
+          </text>
+          <text id="/data/if_self_presc_reason:option2">
+            <value>Knowledge/experience of the disease/syndrome affecting chicken</value>
+          </text>
+          <text id="/data/if_self_presc_reason:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/if_self_presc_reason_other:label">
+            <value>Who administers antibiotics to your chicken?(Other)</value>
+          </text>
+          <text id="/data/if_self_presc_reason_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/how_determine_dosage:label">
+            <value>27.	If self  prescription/administration of antibiotics is practiced; how do you determine the dosage?</value>
+          </text>
+          <text id="/data/how_determine_dosage:option0">
+            <value>Arbitrarily estimate</value>
+          </text>
+          <text id="/data/how_determine_dosage:option1">
+            <value>Reads on the label</value>
+          </text>
+          <text id="/data/how_determine_dosage:option2">
+            <value>Severity of the disease condition</value>
+          </text>
+          <text id="/data/how_determine_dosage:option3">
+            <value>Weight of chicken</value>
+          </text>
+          <text id="/data/how_determine_dosage:option4">
+            <value>Age of chicken</value>
+          </text>
+          <text id="/data/how_determine_dosage:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_determine_dosage_other:label">
+            <value>Other mechanism to determine the dosage</value>
+          </text>
+          <text id="/data/how_determine_dosage_other:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:label">
+            <value>28.	When did you last provide antibiotics to your chicken?</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option0">
+            <value>Last week</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option1">
+            <value>Last two weeks</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option2">
+            <value>Last month</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option3">
+            <value>Last 6 months</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option4">
+            <value>Last year</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option5">
+            <value>More than a year ago</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option6">
+            <value>Never provided antibiotics</value>
+          </text>
+          <text id="/data/last_time_prov_antibi:option7">
+            <value>Can’t remember</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:label">
+            <value>29.	On that occasion, where did you get the antibiotics?</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option0">
+            <value>Veterinary Store or Pharmacy</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option1">
+            <value>Stall or Hawker</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option2">
+            <value>Auction (mnadani)</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option3">
+            <value>Family member or Friend</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option4">
+            <value>I had them saved up from a previous time</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option5">
+            <value>Can’t remember</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/occasion_where_got_antibio_other:label">
+            <value>Other occasion where you got antibiotic</value>
+          </text>
+          <text id="/data/oftern_consult_vet_serv:label">
+            <value>30.	How often do you consult veterinary service provider for health care of your chicken </value>
+          </text>
+          <text id="/data/oftern_consult_vet_serv:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/oftern_consult_vet_serv:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/oftern_consult_vet_serv:option2">
+            <value>Have a permanent veterinary officer on farm </value>
+          </text>
+          <text id="/data/oftern_consult_vet_serv:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/happen_chicken_recover:label">
+            <value>31. What happens with you? </value>
+          </text>
+          <text id="/data/happen_chicken_recover:hint">
+            <value>Usually, if you get a prescription of using antibiotics in your chicken for 5 days. After administering 3 doses you start seeing your chicken almost recovered/symptoms and signs of the disease discontinued. </value>
+          </text>
+          <text id="/data/happen_chicken_recover:option0">
+            <value>Stops treatment</value>
+          </text>
+          <text id="/data/happen_chicken_recover:option1">
+            <value>Saves the remaining antibiotics for the next time my chicken get sick</value>
+          </text>
+          <text id="/data/happen_chicken_recover:option2">
+            <value>Discards the remaining, left over medication</value>
+          </text>
+          <text id="/data/happen_chicken_recover:option3">
+            <value>Complete the full course of treatment</value>
+          </text>
+          <text id="/data/happen_chicken_recover:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_happen_chicken_recover:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_happen_chicken_recover:hint">
+            <value>Usually, if you get a prescription of using antibiotics in your chicken for 5 days. After administering 3 doses you start seeing your chicken almost recovered/symptoms and signs of the disease discontinued. </value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:label">
+            <value>32.	What are clinical manifestations in chicken that you usually treat/think are treatable with antibiotics?</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option0">
+            <value>Cold and flue</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option1">
+            <value>Loss of appetite</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option2">
+            <value>Skin or wound infection</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option3">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option4">
+            <value>Difficulty breathing</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option5">
+            <value>Poor growth rate</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option6">
+            <value>Poor eggs production</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/clinical_man_usually_treat_other:label">
+            <value>Other clinical manifestation in chicken</value>
+          </text>
+          <text id="/data/ant_bio_knowledge:label">
+            <value>Antibiotic Knowledge</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/use_lab_resulst_test:label">
+            <value>33.	Do you always use the results from laboratory test to guide the choice of medication to treat your chicken?</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/use_lab_resulst_test:option0">
+            <value>Yes, always</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/use_lab_resulst_test:option1">
+            <value>Yes, rarely</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/use_lab_resulst_test:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/observe_withdrawal:label">
+            <value>34.	Do you observe the withdrawal period for antibiotic used in chickens?</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/observe_withdrawal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/observe_withdrawal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/determine_ant_with_draw:label">
+            <value>35.	How would you determine antibiotic withdrawal period?</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/determine_ant_with_draw:option0">
+            <value>Reads on the label</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/determine_ant_with_draw:option1">
+            <value>Instructions from veterinary officer</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/determine_ant_with_draw:option2">
+            <value>Instructions from drug seller</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/determine_ant_with_draw:option3">
+            <value>Don't know (ONLY IF NONE OF ABOVE SELECTED)</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_safe_used_routinely:label">
+            <value>36.	Antibiotics are safe when used routinely</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_safe_used_routinely:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_safe_used_routinely:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_safe_used_routinely:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/about_antib_resistence:label">
+            <value>37.	Do you know about antibiotic resistance</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/about_antib_resistence:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/about_antib_resistence:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/about_antib_resistence:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_improve_immu_chicken:label">
+            <value>38.	Antibiotics can improve the immunity of chickens</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_improve_immu_chicken:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_improve_immu_chicken:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge/ant_improve_immu_chicken:option2">
+            <value>Don’t know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2:label">
+            <value>Antibiotic Knowledge</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ant_cure_viral_infe:label">
+            <value>39.	Antibiotics can cure viral infections</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ant_cure_viral_infe:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ant_cure_viral_infe:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ant_cure_viral_infe:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:label">
+            <value>40.	Do you know that chicken can develop antibiotic resistant bacteria?</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:label">
+            <value>41.	Very frequent antibiotic use can increase the effect of antibiotic resistance</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antibio_cure_bacte_infect:label">
+            <value>42.	Antibiotics can cure bacterial infections</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:label">
+            <value>43.	Antibiotic resistant bacteria can spread among animals and humans</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/indicate_agree_dis:label">
+            <value>Please indicate to what extent you agree or disagree with the following statements </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_44:label">
+            <value>44.	Antibiotic resistance in chickens occurs when a body becomes resistant to antibiotics and they no longer work as well. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_44:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_45:label">
+            <value>45.	Many infections in chickens are becoming increasingly resistant to treatment by antibiotics. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_45:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_46:label">
+            <value>46.	If bacteria are resistant to antibiotics, it can be very difficult or impossible to treat the infection they cause. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_46:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_47:label">
+            <value>47.	Antibiotic resistance in chicken is an issue that could affect human health. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_47:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_48:label">
+            <value>48.	Antibiotic resistance is an issue in other countries but not in Tanzania. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_48:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_49:label">
+            <value>49.	Antibiotics should be added to animal feed at any time to prevent chickens from becoming sick. </value>
+          </text>
+          <text id="/data/indicate_agree_dis/Ant_49:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis2:label">
+            <value>Please indicate to what extent you agree or disagree with the following statements </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_50:label">
+            <value>50.	It is necessary to give antibiotics to chickens reared in crowded conditions to prevent the spread of disease. </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_50:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_51:label">
+            <value>51.	Once a chicken shows any kind of symptoms, antibiotics should be given to the chickens to prevent the entire flock from becoming infected. </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_51:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_52:label">
+            <value>52.	When antibiotics are about to expire, it is better to give medication to the chicken to prevent wastage </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_52:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_53:label">
+            <value>53.	Antibiotics can be passed to humans from consumption of chicken meat. </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_53:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_54:label">
+            <value>54.	Antibiotics can be passed to humans from consumption of eggs from chickens. </value>
+          </text>
+          <text id="/data/indicate_agree_dis2/Ant_54:hint">
+            <value>(5)Strongly agree; (4) Agree; (3) No opinion; (2) Disagree; (1) Strongly disagree</value>
+          </text>
+          <text id="/data/gps_sample_loc:label">
+            <value>Record GPS of the sampling location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/owner_details/owner_name" type="string"/>
+      <bind nodeset="/data/owner_details/phone_number" type="string" constraint="regex(.,'^[0-9]{10}$')" jr:constraintMsg="Enter the correct phone number format eg 0718000000"/>
+      <bind nodeset="/data/owner_details/owner_sex" type="select1"/>
+      <bind nodeset="/data/owner_details/age" type="int" />
+      <bind nodeset="/data/owner_details/ed_level" type="select1" />
+      <bind nodeset="/data/specie_sample/chicken_specie_sampl" type="select1" />
+      <bind nodeset="/data/specie_sample/sample_ID" type="string" />
+      <bind nodeset="/data/specie_sample/sample_name" type="string" />
+      <bind nodeset="/data/region" type="select1" />
+
+      <bind nodeset="/data/sample_locat/district_arusha" type="select1" relevant="(selected(/data/region, 'arusha'))" />
+      <bind nodeset="/data/sample_locat/district_dar" type="select1" relevant="(selected(/data/region, 'dar'))" />
+      <bind nodeset="/data/sample_locat/district_mwanza" type="select1" relevant="(selected(/data/region, 'mwanza'))" />
+      <bind nodeset="/data/sample_locat/sampling_location" type="select1" relevant="(selected(/data/region, 'arusha')) or (selected(/data/region, 'mwanza')) or (selected(/data/region, 'dar'))"/>
+      <bind nodeset="/data/other_sampling_location" type="string" relevant="(selected(/data/sample_locat/sampling_location, 'other'))"/>
+
+
+      <bind nodeset="/data/FAO_classif_sector/sector1" type="string" readonly="true()"/>
+      <bind nodeset="/data/FAO_classif_sector/sector2" type="string" readonly="true()"/>
+      <bind nodeset="/data/FAO_classif_sector/sector3" type="string" readonly="true()"/>
+      <bind nodeset="/data/FAO_classif_sector/select_sectors" type="select1" />
+
+
+      <bind nodeset="/data/number_chicken" type="int" />
+      <bind nodeset="/data/chicken_details/av_number_in_banda" type="int" constraint=".<=/data/number_chicken" jr:constraintMsg="Chicken in the sampled banda should be equal or less than on farm"/>
+
+
+
+      <bind nodeset="/data/chicken_details/source_chicken" type="string" />
+      <bind nodeset="/data/chicken_details/age_weeks" type="int" />
+      <bind nodeset="/data/type_sample_collected" type="select" />
+      <bind nodeset="/data/date_mostly_sampled" type="select1" />
+      <bind nodeset="/data/proffe_training" type="select1" />
+      <bind nodeset="/data/how_long_keep_chick" type="select1" />
+      <bind nodeset="/data/freq_use_antbiotic" type="select1" />
+
+      <bind nodeset="/data/main_sources_ant" type="select" relevant="not(selected(/data/freq_use_antbiotic, 'never_use'))" />
+      <bind nodeset="/data/main_sources_ant_other" type="string" relevant="(selected(/data/main_sources_ant, 'other'))" />
+      <bind nodeset="/data/name_antibio_most_used/mostlt_antib1" type="string" relevant="not(selected(/data/freq_use_antbiotic, 'never_use'))"/>
+      <bind nodeset="/data/name_antibio_most_used/mostlt_antib2" type="string" relevant="not(selected(/data/freq_use_antbiotic, 'never_use'))"/>
+      <bind nodeset="/data/name_antibio_most_used/mostlt_antib3" type="string" relevant="not(selected(/data/freq_use_antbiotic, 'never_use'))"/>
+
+
+      <bind nodeset="/data/ant_use_poultry" type="select" />
+      <bind nodeset="/data/ant_use_poultry_other" type="string" relevant="(selected(/data/ant_use_poultry, 'other'))" />
+
+
+      <bind nodeset="/data/who_prescrib_antib" type="select" />
+      <bind nodeset="/data/who_prescrib_antib_other" type="string" relevant="(selected(/data/who_prescrib_antib, 'other'))" />
+      <bind nodeset="/data/who_admin_antibiotic" type="select" />
+      <bind nodeset="/data/who_admin_antibiotic_other" type="string" relevant="(selected(/data/who_admin_antibiotic, 'other'))" />
+
+
+      <bind nodeset="/data/if_self_presc_reason" type="select" relevant="(selected(/data/who_prescrib_antib, 'myself_fam_member')) or (selected(/data/who_admin_antibiotic, 'mysel_family_member'))" />
+      <bind nodeset="/data/if_self_presc_reason_other" type="string" relevant="(selected(/data/if_self_presc_reason, 'other'))"/>
+
+
+      <bind nodeset="/data/how_determine_dosage" type="select" relevant="(selected(/data/who_prescrib_antib, 'myself_fam_member')) or (selected(/data/who_admin_antibiotic, 'mysel_family_member'))" />
+      <bind nodeset="/data/how_determine_dosage_other" type="string" relevant="(selected(/data/how_determine_dosage, 'other'))"/>
+
+
+      <bind nodeset="/data/last_time_prov_antibi" type="select1" />
+      <bind nodeset="/data/occasion_where_got_antibio" type="select1" relevant="not(selected(/data/last_time_prov_antibi, 'never'))" />
+      <bind nodeset="/data/occasion_where_got_antibio_other" type="string" relevant="(selected(/data/occasion_where_got_antibio, 'other'))"/>
+
+
+      <bind nodeset="/data/oftern_consult_vet_serv" type="select1" />
+      <bind nodeset="/data/happen_chicken_recover" type="select1" />
+      <bind nodeset="/data/other_happen_chicken_recover" type="string" relevant="(selected(/data/happen_chicken_recover, 'other'))"/>
+
+
+      <bind nodeset="/data/clinical_man_usually_treat" type="select"/>
+      <bind nodeset="/data/clinical_man_usually_treat_other" type="string" relevant="(selected(/data/clinical_man_usually_treat, 'other'))"/>
+
+
+      <bind nodeset="/data/ant_bio_knowledge/use_lab_resulst_test" type="select1" required="true()" jr:requiredMsg="Qn.33 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge/observe_withdrawal" type="select1" required="true()" jr:requiredMsg="Qn.34 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge/determine_ant_with_draw" type="select" required="true()" jr:requiredMsg="Qn.35 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge/ant_safe_used_routinely" type="select1" required="true()" jr:requiredMsg="Qn.36 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge/about_antib_resistence" type="select1" required="true()" jr:requiredMsg="Qn.37 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge/ant_improve_immu_chicken" type="select1" required="true()" jr:requiredMsg="Qn.38 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge2/ant_cure_viral_infe" type="select1" required="true()" jr:requiredMsg="Qn.39 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi" type="select1" required="true()" jr:requiredMsg="Qn.40 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi" type="select1" required="true()" jr:requiredMsg="Qn.41 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge2/antibio_cure_bacte_infect" type="select1" required="true()" jr:requiredMsg="Qn.42 is required"/>
+      <bind nodeset="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn" type="select1" required="true()" jr:requiredMsg="Qn.43 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_44" type="int" required="true()" jr:requiredMsg="Qn.44 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_45" type="int" required="true()" jr:requiredMsg="Qn.45 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_46" type="int" required="true()" jr:requiredMsg="Qn.46 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_47" type="int" required="true()" jr:requiredMsg="Qn.47 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_48" type="int" required="true()" jr:requiredMsg="Qn.48 is required"/>
+      <bind nodeset="/data/indicate_agree_dis/Ant_49" type="int" required="true()" jr:requiredMsg="Qn.49 is required"/>
+      <bind nodeset="/data/indicate_agree_dis2/Ant_50" type="int" required="true()" jr:requiredMsg="Qn.50 is required"/>
+      <bind nodeset="/data/indicate_agree_dis2/Ant_51" type="int" required="true()" jr:requiredMsg="Qn.51 is required"/>
+      <bind nodeset="/data/indicate_agree_dis2/Ant_52" type="int" required="true()" jr:requiredMsg="Qn.52 is required"/>
+      <bind nodeset="/data/indicate_agree_dis2/Ant_53" type="int" required="true()" jr:requiredMsg="Qn.53 is required"/>
+      <bind nodeset="/data/indicate_agree_dis2/Ant_54" type="int" required="true()" jr:requiredMsg="Qn.54 is required"/>
+      <bind nodeset="/data/gps_sample_loc" type="geopoint" required="true()" jr:requiredMsg="GPS is required"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Fleming Sample ID ',': ',/data/specie_sample/sample_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/owner_details" appearance="field-list">
+      <label ref="jr:itext('/data/owner_details:label')"/>
+      <input ref="/data/owner_details/owner_name">
+        <label ref="jr:itext('/data/owner_details/owner_name:label')"/>
+        <hint ref="jr:itext('/data/owner_details/owner_name:hint')"/>
+      </input>
+      <input ref="/data/owner_details/phone_number" appearance="numbers">
+        <label ref="jr:itext('/data/owner_details/phone_number:label')"/>
+      </input>
+      <select1 ref="/data/owner_details/owner_sex">
+        <label ref="jr:itext('/data/owner_details/owner_sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/owner_details/owner_sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/owner_details/owner_sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/owner_details/age">
+        <label ref="jr:itext('/data/owner_details/age:label')"/>
+      </input>
+      <select1 ref="/data/owner_details/ed_level">
+        <label ref="jr:itext('/data/owner_details/ed_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/owner_details/ed_level:option0')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/owner_details/ed_level:option1')"/>
+          <value>primary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/owner_details/ed_level:option2')"/>
+          <value>secondary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/owner_details/ed_level:option3')"/>
+          <value>post_secondary</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/specie_sample" appearance="field-list">
+      <label ref="jr:itext('/data/specie_sample:label')"/>
+      <select1 ref="/data/specie_sample/chicken_specie_sampl">
+        <label ref="jr:itext('/data/specie_sample/chicken_specie_sampl:label')"/>
+        <item>
+          <label ref="jr:itext('/data/specie_sample/chicken_specie_sampl:option0')"/>
+          <value>Broilers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_sample/chicken_specie_sampl:option1')"/>
+          <value>Layers</value>
+        </item>
+      </select1>
+      <input ref="/data/specie_sample/sample_ID">
+        <label ref="jr:itext('/data/specie_sample/sample_ID:label')"/>
+        <hint ref="jr:itext('/data/specie_sample/sample_ID:hint')"/>
+      </input>
+      <input ref="/data/specie_sample/sample_name">
+        <label ref="jr:itext('/data/specie_sample/sample_name:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/region">
+      <label ref="jr:itext('/data/region:label')"/>
+      <item>
+        <label ref="jr:itext('/data/region:option0')"/>
+        <value>arusha</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/region:option1')"/>
+        <value>dar</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/region:option2')"/>
+        <value>mwanza</value>
+      </item>
+    </select1>
+    <group ref="/data/sample_locat" appearance="field-list">
+      <label ref="jr:itext('/data/sample_locat:label')"/>
+      <select1 ref="/data/sample_locat/district_arusha">
+        <label ref="jr:itext('/data/sample_locat/district_arusha:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_arusha:option0')"/>
+          <value>arusha_urban</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_arusha:option1')"/>
+          <value>arusha_rural</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_arusha:option2')"/>
+          <value>meru</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_arusha:option3')"/>
+          <value>Monduli</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sample_locat/district_dar">
+        <label ref="jr:itext('/data/sample_locat/district_dar:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_dar:option0')"/>
+          <value>ilala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_dar:option1')"/>
+          <value>kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_dar:option2')"/>
+          <value>kigamboni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_dar:option3')"/>
+          <value>temeke</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_dar:option4')"/>
+          <value>ubungo</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sample_locat/district_mwanza">
+        <label ref="jr:itext('/data/sample_locat/district_mwanza:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_mwanza:option0')"/>
+          <value>ilemela</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_mwanza:option1')"/>
+          <value>nyamagana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_mwanza:option2')"/>
+          <value>magu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/district_mwanza:option3')"/>
+          <value>misungwi</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sample_locat/sampling_location">
+        <label ref="jr:itext('/data/sample_locat/sampling_location:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/sampling_location:option0')"/>
+          <value>farm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/sampling_location:option1')"/>
+          <value>abattoir</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/sampling_location:option2')"/>
+          <value>slaughter_point</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/sampling_location:option3')"/>
+          <value>live_chicken_market</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_locat/sampling_location:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/other_sampling_location">
+      <label ref="jr:itext('/data/other_sampling_location:label')"/>
+    </input>
+    <group ref="/data/FAO_classif_sector" appearance="field-list">
+      <label ref="jr:itext('/data/FAO_classif_sector:label')"/>
+      <input ref="/data/FAO_classif_sector/sector1">
+        <label ref="jr:itext('/data/FAO_classif_sector/sector1:label')"/>
+        <hint ref="jr:itext('/data/FAO_classif_sector/sector1:hint')"/>
+      </input>
+      <input ref="/data/FAO_classif_sector/sector2">
+        <label ref="jr:itext('/data/FAO_classif_sector/sector2:label')"/>
+        <hint ref="jr:itext('/data/FAO_classif_sector/sector2:hint')"/>
+      </input>
+      <input ref="/data/FAO_classif_sector/sector3">
+        <label ref="jr:itext('/data/FAO_classif_sector/sector3:label')"/>
+        <hint ref="jr:itext('/data/FAO_classif_sector/sector3:hint')"/>
+      </input>
+      <select1 ref="/data/FAO_classif_sector/select_sectors">
+        <label ref="jr:itext('/data/FAO_classif_sector/select_sectors:label')"/>
+        <item>
+          <label ref="jr:itext('/data/FAO_classif_sector/select_sectors:option0')"/>
+          <value>sector_1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/FAO_classif_sector/select_sectors:option1')"/>
+          <value>sector_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/FAO_classif_sector/select_sectors:option2')"/>
+          <value>sector_3</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/number_chicken">
+      <label ref="jr:itext('/data/number_chicken:label')"/>
+    </input>
+    <group ref="/data/chicken_details" appearance="field-list">
+      <label ref="jr:itext('/data/chicken_details:label')"/>
+      <input ref="/data/chicken_details/av_number_in_banda">
+        <label ref="jr:itext('/data/chicken_details/av_number_in_banda:label')"/>
+      </input>
+      <input ref="/data/chicken_details/source_chicken">
+        <label ref="jr:itext('/data/chicken_details/source_chicken:label')"/>
+      </input>
+      <input ref="/data/chicken_details/age_weeks">
+        <label ref="jr:itext('/data/chicken_details/age_weeks:label')"/>
+      </input>
+    </group>
+    <select ref="/data/type_sample_collected">
+      <label ref="jr:itext('/data/type_sample_collected:label')"/>
+      <item>
+        <label ref="jr:itext('/data/type_sample_collected:option0')"/>
+        <value>cloaca_swab</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_sample_collected:option1')"/>
+        <value>caecal</value>
+      </item>
+    </select>
+    <select1 ref="/data/date_mostly_sampled">
+      <label ref="jr:itext('/data/date_mostly_sampled:label')"/>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option0')"/>
+        <value>last_month</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option1')"/>
+        <value>last_two_months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option2')"/>
+        <value>last_month</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option3')"/>
+        <value>last_3_month</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option4')"/>
+        <value>last_6_month</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option5')"/>
+        <value>last_year</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option6')"/>
+        <value>more_than_year_ago</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option7')"/>
+        <value>never_treated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/date_mostly_sampled:option8')"/>
+        <value>cant_remember</value>
+      </item>
+    </select1>
+    <select1 ref="/data/proffe_training">
+      <label ref="jr:itext('/data/proffe_training:label')"/>
+      <item>
+        <label ref="jr:itext('/data/proffe_training:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/proffe_training:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/how_long_keep_chick">
+      <label ref="jr:itext('/data/how_long_keep_chick:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_long_keep_chick:option0')"/>
+        <value>less_5yrs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_keep_chick:option1')"/>
+        <value>5_to_10yrs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_keep_chick:option2')"/>
+        <value>more_10yrs</value>
+      </item>
+    </select1>
+    <select1 ref="/data/freq_use_antbiotic">
+      <label ref="jr:itext('/data/freq_use_antbiotic:label')"/>
+      <item>
+        <label ref="jr:itext('/data/freq_use_antbiotic:option0')"/>
+        <value>most_freq</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/freq_use_antbiotic:option1')"/>
+        <value>freq</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/freq_use_antbiotic:option2')"/>
+        <value>very_rare</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/freq_use_antbiotic:option3')"/>
+        <value>rarely</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/freq_use_antbiotic:option4')"/>
+        <value>never_use</value>
+      </item>
+    </select1>
+    <select ref="/data/main_sources_ant">
+      <label ref="jr:itext('/data/main_sources_ant:label')"/>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option0')"/>
+        <value>vet_store</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option1')"/>
+        <value>stall_hawker</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option2')"/>
+        <value>auction</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option3')"/>
+        <value>family_friend</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option4')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/main_sources_ant:option5')"/>
+        <value>Napplicable</value>
+      </item>
+    </select>
+    <input ref="/data/main_sources_ant_other">
+      <label ref="jr:itext('/data/main_sources_ant_other:label')"/>
+      <hint ref="jr:itext('/data/main_sources_ant_other:hint')"/>
+    </input>
+    <group ref="/data/name_antibio_most_used" appearance="field-list">
+      <label ref="jr:itext('/data/name_antibio_most_used:label')"/>
+      <input ref="/data/name_antibio_most_used/mostlt_antib1">
+        <label ref="jr:itext('/data/name_antibio_most_used/mostlt_antib1:label')"/>
+      </input>
+      <input ref="/data/name_antibio_most_used/mostlt_antib2">
+        <label ref="jr:itext('/data/name_antibio_most_used/mostlt_antib2:label')"/>
+      </input>
+      <input ref="/data/name_antibio_most_used/mostlt_antib3">
+        <label ref="jr:itext('/data/name_antibio_most_used/mostlt_antib3:label')"/>
+      </input>
+    </group>
+    <select ref="/data/ant_use_poultry">
+      <label ref="jr:itext('/data/ant_use_poultry:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ant_use_poultry:option0')"/>
+        <value>growth_promo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ant_use_poultry:option1')"/>
+        <value>prophylaxis</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ant_use_poultry:option2')"/>
+        <value>therapeutics</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ant_use_poultry:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/ant_use_poultry_other">
+      <label ref="jr:itext('/data/ant_use_poultry_other:label')"/>
+      <hint ref="jr:itext('/data/ant_use_poultry_other:hint')"/>
+    </input>
+    <select ref="/data/who_prescrib_antib">
+      <label ref="jr:itext('/data/who_prescrib_antib:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_prescrib_antib:option0')"/>
+        <value>myself_fam_member</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_prescrib_antib:option1')"/>
+        <value>vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_prescrib_antib:option2')"/>
+        <value>another_farmer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_prescrib_antib:option3')"/>
+        <value>drug_outlet</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_prescrib_antib:option4')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/who_prescrib_antib_other">
+      <label ref="jr:itext('/data/who_prescrib_antib_other:label')"/>
+      <hint ref="jr:itext('/data/who_prescrib_antib_other:hint')"/>
+    </input>
+    <select ref="/data/who_admin_antibiotic">
+      <label ref="jr:itext('/data/who_admin_antibiotic:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_admin_antibiotic:option0')"/>
+        <value>mysel_family_member</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_admin_antibiotic:option1')"/>
+        <value>vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_admin_antibiotic:option2')"/>
+        <value>another_farm</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_admin_antibiotic:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/who_admin_antibiotic_other">
+      <label ref="jr:itext('/data/who_admin_antibiotic_other:label')"/>
+      <hint ref="jr:itext('/data/who_admin_antibiotic_other:hint')"/>
+    </input>
+    <select ref="/data/if_self_presc_reason">
+      <label ref="jr:itext('/data/if_self_presc_reason:label')"/>
+      <item>
+        <label ref="jr:itext('/data/if_self_presc_reason:option0')"/>
+        <value>inab_pay_vet</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_self_presc_reason:option1')"/>
+        <value>vet_service_not_aval</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_self_presc_reason:option2')"/>
+        <value>knowledge_exp</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_self_presc_reason:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/if_self_presc_reason_other">
+      <label ref="jr:itext('/data/if_self_presc_reason_other:label')"/>
+      <hint ref="jr:itext('/data/if_self_presc_reason_other:hint')"/>
+    </input>
+    <select ref="/data/how_determine_dosage">
+      <label ref="jr:itext('/data/how_determine_dosage:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option0')"/>
+        <value>arbitrarily_estim</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option1')"/>
+        <value>reads_on_label</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option2')"/>
+        <value>seve_disease_cond</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option3')"/>
+        <value>weight_chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option4')"/>
+        <value>age_of_chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_determine_dosage:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_determine_dosage_other">
+      <label ref="jr:itext('/data/how_determine_dosage_other:label')"/>
+      <hint ref="jr:itext('/data/how_determine_dosage_other:hint')"/>
+    </input>
+    <select1 ref="/data/last_time_prov_antibi">
+      <label ref="jr:itext('/data/last_time_prov_antibi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option0')"/>
+        <value>last_time</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option1')"/>
+        <value>last_2_weeks</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option2')"/>
+        <value>last_month</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option3')"/>
+        <value>last_6months</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option4')"/>
+        <value>last_year</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option5')"/>
+        <value>more_than_year</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option6')"/>
+        <value>never_provide_ant</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/last_time_prov_antibi:option7')"/>
+        <value>cant_remember</value>
+      </item>
+    </select1>
+    <select1 ref="/data/occasion_where_got_antibio">
+      <label ref="jr:itext('/data/occasion_where_got_antibio:label')"/>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option0')"/>
+        <value>vet_store</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option1')"/>
+        <value>stall</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option2')"/>
+        <value>auction</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option3')"/>
+        <value>family_member</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option4')"/>
+        <value>had_saved_prev</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option5')"/>
+        <value>cant_remember</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/occasion_where_got_antibio:option6')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/occasion_where_got_antibio_other">
+      <label ref="jr:itext('/data/occasion_where_got_antibio_other:label')"/>
+    </input>
+    <select1 ref="/data/oftern_consult_vet_serv">
+      <label ref="jr:itext('/data/oftern_consult_vet_serv:label')"/>
+      <item>
+        <label ref="jr:itext('/data/oftern_consult_vet_serv:option0')"/>
+        <value>frequently</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/oftern_consult_vet_serv:option1')"/>
+        <value>rarely</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/oftern_consult_vet_serv:option2')"/>
+        <value>permanent_vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/oftern_consult_vet_serv:option3')"/>
+        <value>never</value>
+      </item>
+    </select1>
+    <select1 ref="/data/happen_chicken_recover">
+      <label ref="jr:itext('/data/happen_chicken_recover:label')"/>
+      <hint ref="jr:itext('/data/happen_chicken_recover:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/happen_chicken_recover:option0')"/>
+        <value>stop_treatment</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/happen_chicken_recover:option1')"/>
+        <value>save_remaining</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/happen_chicken_recover:option2')"/>
+        <value>discards_remaining</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/happen_chicken_recover:option3')"/>
+        <value>complete_full_course</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/happen_chicken_recover:option4')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/other_happen_chicken_recover">
+      <label ref="jr:itext('/data/other_happen_chicken_recover:label')"/>
+      <hint ref="jr:itext('/data/other_happen_chicken_recover:hint')"/>
+    </input>
+    <select ref="/data/clinical_man_usually_treat">
+      <label ref="jr:itext('/data/clinical_man_usually_treat:label')"/>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option0')"/>
+        <value>cold_flue</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option1')"/>
+        <value>loss_appetite</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option2')"/>
+        <value>skin_wound_inf</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option3')"/>
+        <value>diarrhoea</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option4')"/>
+        <value>dif_breath</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option5')"/>
+        <value>poor_growth_rate</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option6')"/>
+        <value>poor_egg_prod</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/clinical_man_usually_treat:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/clinical_man_usually_treat_other">
+      <label ref="jr:itext('/data/clinical_man_usually_treat_other:label')"/>
+    </input>
+    <group ref="/data/ant_bio_knowledge" appearance="field-list">
+      <label ref="jr:itext('/data/ant_bio_knowledge:label')"/>
+      <select1 ref="/data/ant_bio_knowledge/use_lab_resulst_test">
+        <label ref="jr:itext('/data/ant_bio_knowledge/use_lab_resulst_test:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/use_lab_resulst_test:option0')"/>
+          <value>yes_always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/use_lab_resulst_test:option1')"/>
+          <value>yes_rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/use_lab_resulst_test:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge/observe_withdrawal">
+        <label ref="jr:itext('/data/ant_bio_knowledge/observe_withdrawal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/observe_withdrawal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/observe_withdrawal:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/ant_bio_knowledge/determine_ant_with_draw">
+        <label ref="jr:itext('/data/ant_bio_knowledge/determine_ant_with_draw:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/determine_ant_with_draw:option0')"/>
+          <value>read_on_label</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/determine_ant_with_draw:option1')"/>
+          <value>instr_frm_vet_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/determine_ant_with_draw:option2')"/>
+          <value>instruct_frm_drug_seller</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/determine_ant_with_draw:option3')"/>
+          <value>dont_know</value>
+        </item>
+      </select>
+      <select1 ref="/data/ant_bio_knowledge/ant_safe_used_routinely">
+        <label ref="jr:itext('/data/ant_bio_knowledge/ant_safe_used_routinely:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_safe_used_routinely:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_safe_used_routinely:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_safe_used_routinely:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge/about_antib_resistence">
+        <label ref="jr:itext('/data/ant_bio_knowledge/about_antib_resistence:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/about_antib_resistence:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/about_antib_resistence:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/about_antib_resistence:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge/ant_improve_immu_chicken">
+        <label ref="jr:itext('/data/ant_bio_knowledge/ant_improve_immu_chicken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_improve_immu_chicken:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_improve_immu_chicken:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge/ant_improve_immu_chicken:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/ant_bio_knowledge2" appearance="field-list">
+      <label ref="jr:itext('/data/ant_bio_knowledge2:label')"/>
+      <select1 ref="/data/ant_bio_knowledge2/ant_cure_viral_infe">
+        <label ref="jr:itext('/data/ant_bio_knowledge2/ant_cure_viral_infe:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ant_cure_viral_infe:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ant_cure_viral_infe:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ant_cure_viral_infe:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge2/know_chicken_dev_antib_resi">
+        <label ref="jr:itext('/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/know_chicken_dev_antib_resi:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi">
+        <label ref="jr:itext('/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/ver_freq_ant_incre_eff_ant_resi:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge2/antibio_cure_bacte_infect">
+        <label ref="jr:itext('/data/ant_bio_knowledge2/antibio_cure_bacte_infect:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antibio_cure_bacte_infect:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn">
+        <label ref="jr:itext('/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ant_bio_knowledge2/antib_resist_can_spred_amng_anm_humn:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/indicate_agree_dis" appearance="field-list">
+      <label ref="jr:itext('/data/indicate_agree_dis:label')"/>
+      <range ref="/data/indicate_agree_dis/Ant_44" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_44:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_44:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis/Ant_45" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_45:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_45:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis/Ant_46" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_46:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_46:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis/Ant_47" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_47:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_47:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis/Ant_48" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_48:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_48:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis/Ant_49" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis/Ant_49:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis/Ant_49:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/indicate_agree_dis2" appearance="field-list">
+      <label ref="jr:itext('/data/indicate_agree_dis2:label')"/>
+      <range ref="/data/indicate_agree_dis2/Ant_50" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis2/Ant_50:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis2/Ant_50:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis2/Ant_51" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis2/Ant_51:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis2/Ant_51:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis2/Ant_52" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis2/Ant_52:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis2/Ant_52:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis2/Ant_53" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis2/Ant_53:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis2/Ant_53:hint')"/>
+      </range>
+      <range ref="/data/indicate_agree_dis2/Ant_54" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/indicate_agree_dis2/Ant_54:label')"/>
+        <hint ref="jr:itext('/data/indicate_agree_dis2/Ant_54:hint')"/>
+      </range>
+    </group>
+    <input ref="/data/gps_sample_loc">
+      <label ref="jr:itext('/data/gps_sample_loc:label')"/>
+    </input>
+  </h:body>
+</h:html>

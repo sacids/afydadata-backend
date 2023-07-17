@@ -1,0 +1,10 @@
+Manage member {{ member.id }}
+
+<div>
+    <p class="">Name: {{ member.member.first_name }} {{ member.member.last_name }}</p>
+</div>
+
+<p class=""> Groups </p>
+{% for mem in member.projectGroup.all %}
+    <p>{{mem.title}}</p>
+{% endfor %}

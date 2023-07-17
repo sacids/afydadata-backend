@@ -1,0 +1,1397 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Post Brucellosis health workers No Knowlege</h:title>
+    <model>
+      <instance>
+        <data id="build_postBrucellosis-health-workers-No-Knowlege_15784248711112020">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <district/>
+          <facility_details>
+            <health_fac_name/>
+            <type_health_facil/>
+            <ward_name/>
+          </facility_details>
+          <participants_details>
+            <participant_name/>
+            <educ/>
+            <profes/>
+          </participants_details>
+          <participants_details_other_prof>
+            <other_prof1>
+              None
+            </other_prof1>
+            <other_prof2>
+              None
+            </other_prof2>
+            <other_prof3>
+              None
+            </other_prof3>
+          </participants_details_other_prof>
+          <position/>
+          <participants_details_other_position>
+            <other_position1>
+              None
+            </other_position1>
+            <other_position2>
+              None
+            </other_position2>
+            <other_position3>
+              None
+            </other_position3>
+          </participants_details_other_position>
+          <participants_details2>
+            <yrs_proffe/>
+            <yrs_workstation/>
+            <sex/>
+            <age/>
+          </participants_details2>
+          <other_disease_transm>
+            <anthrax_awarenes/>
+            <anthrax_ever_suspectpast12>
+              0
+            </anthrax_ever_suspectpast12>
+            <anthrax_confirmed_past12>
+              0
+            </anthrax_confirmed_past12>
+            <bovineTB_awareness/>
+            <bovine_suspected>
+              0
+            </bovine_suspected>
+            <bovine_confirmed>
+              0
+            </bovine_confirmed>
+            <RVF_awareness/>
+            <RVF_suspected>
+              0
+            </RVF_suspected>
+            <RVF_confirmed>
+              0
+            </RVF_confirmed>
+          </other_disease_transm>
+          <other_disease_transm1>
+            <rabies_awareness/>
+            <rabies_suspected>
+              0
+            </rabies_suspected>
+            <rabies_confirmed>
+              0
+            </rabies_confirmed>
+            <trypanosomiasis_awareness/>
+            <trypanosomiasis_suspected>
+              0
+            </trypanosomiasis_suspected>
+            <trypanosomiasis_confirmed>
+              0
+            </trypanosomiasis_confirmed>
+            <echinococcosis_awareness/>
+            <echinococcosis_suspected>
+              0
+            </echinococcosis_suspected>
+            <echinococcosis_confirmed>
+              0
+            </echinococcosis_confirmed>
+          </other_disease_transm1>
+          <other_disease_transm2>
+            <ebola_awareness/>
+            <ebola_suspected>
+              0
+            </ebola_suspected>
+            <ebola_confirmed>
+              0
+            </ebola_confirmed>
+            <cryptosporidiosis_awareness/>
+            <cryptosporidiosis_suspected>
+              0
+            </cryptosporidiosis_suspected>
+            <cryptosporidiosis_confirmed>
+              0
+            </cryptosporidiosis_confirmed>
+            <zoonotic_influenza_awareness/>
+            <zoonotic_influenza_suspected>
+              0
+            </zoonotic_influenza_suspected>
+            <zoonotic_influenza_confirmed>
+              0
+            </zoonotic_influenza_confirmed>
+            <other_disease_aware_yes_no/>
+          </other_disease_transm2>
+          <other_transm_diseases>
+            <other_disease_name>
+              None
+            </other_disease_name>
+            <other_cases_suspected>
+              0
+            </other_cases_suspected>
+            <other_cases_confirmed>
+              0
+            </other_cases_confirmed>
+            <other_disease_name1>
+              None
+            </other_disease_name1>
+            <other_cases_suspected1>
+              0
+            </other_cases_suspected1>
+            <other_cases_confirmed1>
+              0
+            </other_cases_confirmed1>
+            <other_disease_name2>
+              None
+            </other_disease_name2>
+            <other_cases_suspected2>
+              0
+            </other_cases_suspected2>
+            <other_cases_confirmed2>
+              0
+            </other_cases_confirmed2>
+          </other_transm_diseases>
+          <type_mobile_phone_owned/>
+          <type_OS/>
+          <internet_strength/>
+          <gps/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/district:hint">
+            <value></value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Chalinze</value>
+          </text>
+          <text id="/data/district:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details:label">
+            <value>1. Facility Details</value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:label">
+            <value>1.1.	Name of Health facility (After HF name write in brackets Attended/Not Attended training)</value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:label">
+            <value>1.2.	Type of health facility</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option0">
+            <value>Dispensary</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option1">
+            <value>Health Centre</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option2">
+            <value>Hospital</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/ward_name:label">
+            <value>1.3.	Ward name</value>
+          </text>
+          <text id="/data/facility_details/ward_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/ward_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/participants_details:label">
+            <value>2.	PARTICIPANT DETAILS</value>
+          </text>
+          <text id="/data/participants_details/participant_name:label">
+            <value>2.1.	Name of participant </value>
+          </text>
+          <text id="/data/participants_details/participant_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/participants_details/participant_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/participants_details/educ:label">
+            <value>2.2.	Education</value>
+          </text>
+          <text id="/data/participants_details/educ:option0">
+            <value>Primary</value>
+          </text>
+          <text id="/data/participants_details/educ:option1">
+            <value>Secondary</value>
+          </text>
+          <text id="/data/participants_details/educ:option2">
+            <value>College/University</value>
+          </text>
+          <text id="/data/participants_details/profes:label">
+            <value>2.4.	Profession</value>
+          </text>
+          <text id="/data/participants_details/profes:option0">
+            <value>Medical Assistant (Clinical Officer) </value>
+          </text>
+          <text id="/data/participants_details/profes:option1">
+            <value>Medical Officer</value>
+          </text>
+          <text id="/data/participants_details/profes:option2">
+            <value>Assistant Medical Officer </value>
+          </text>
+          <text id="/data/participants_details/profes:option3">
+            <value>Medical Doctor</value>
+          </text>
+          <text id="/data/participants_details/profes:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/participants_details_other_prof:label">
+            <value>Other Professions</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/position:label">
+            <value>2.5.	Position</value>
+          </text>
+          <text id="/data/position:option0">
+            <value>Officer In-charge </value>
+          </text>
+          <text id="/data/position:option1">
+            <value>Clinician </value>
+          </text>
+          <text id="/data/position:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/participants_details_other_position:label">
+            <value>Other Position</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/participants_details2:label">
+            <value>2.	PARTICIPANT DETAILS</value>
+          </text>
+          <text id="/data/participants_details2/yrs_proffe:label">
+            <value>2.6.	No of months in your profession</value>
+          </text>
+          <text id="/data/participants_details2/yrs_workstation:label">
+            <value>2.6.1	No of months in your workstation</value>
+          </text>
+          <text id="/data/participants_details2/sex:label">
+            <value>2.7. Sex</value>
+          </text>
+          <text id="/data/participants_details2/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/participants_details2/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/participants_details2/age:label">
+            <value>2.8. Age (Years)</value>
+          </text>
+          <text id="/data/participants_details2/age:constraintMsg">
+            <value>Participant should be 18yrs and above</value>
+          </text>
+          <text id="/data/other_disease_transm:label">
+            <value>3.	What diseases which are transmissible between animals and humans are you aware of?</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:label">
+            <value>3.1 Anthrax: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_ever_suspectpast12:label">
+            <value>Anthrax: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_confirmed_past12:label">
+            <value>Anthrax: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:label">
+            <value>3.2. Bovine Tuberculosis: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm/bovine_suspected:label">
+            <value>Bovine TB: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm/bovine_confirmed:label">
+            <value>Bovine TB: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:label">
+            <value>3.3. Rift Valley fever: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_suspected:label">
+            <value>Rift Valley fever: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_confirmed:label">
+            <value>Rift Valley fever: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1:label">
+            <value>3	What other diseases transmissible between animals and humans are you aware of?</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:label">
+            <value>3.4. Rabies: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_suspected:label">
+            <value>Rabies: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_confirmed:label">
+            <value>Rabies: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:label">
+            <value>3.5. Trypanosomiasis: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_suspected:label">
+            <value>Trypanosomiasis: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_confirmed:label">
+            <value>Trypanosomiasis: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:label">
+            <value>3.6. Echinococcosis: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_suspected:label">
+            <value>Echinococcosis: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_confirmed:label">
+            <value>Echinococcosis: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2:label">
+            <value>3.	What other diseases transmissible between animals and humans are you aware of?</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:label">
+            <value>3.7. Ebola: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_suspected:label">
+            <value>Ebola: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_confirmed:label">
+            <value>Ebola: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:label">
+            <value>3.8. Cryptosporidiosis: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_suspected:label">
+            <value>Cryptosporidiosis: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_confirmed:label">
+            <value>Cryptosporidiosis: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:label">
+            <value>3.9. Zoonotic influenza: Awareness</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_suspected:label">
+            <value>Zoonotic influenza: Ever suspected in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_confirmed:label">
+            <value>Zoonotic influenza: Ever confirmed in your area during the past 12 months: insert No. of cases including zero reporting</value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:label">
+            <value>Are there other additional diseases transmissible between animals and humans are you aware of?</value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_transm_diseases:label">
+            <value>other diseases transmissible between animals and humans are you aware of </value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name:label">
+            <value>1 Disease Name</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected:label">
+            <value>Suspected cases during the past 12 months</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed:label">
+            <value>confirmed cases during the past 12 months</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name1:label">
+            <value>2 Disease Name</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected1:label">
+            <value>Suspected cases during the past 12 months</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed1:label">
+            <value>confirmed cases during the past 12 months</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name2:label">
+            <value>3 Disease Name</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected2:label">
+            <value>Suspected cases during the past 12 months</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed2:label">
+            <value>confirmed cases during the past 12 months</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:label">
+            <value>4.1 What type of mobile phone do you own?</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option0">
+            <value>Ordinary Phone </value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option1">
+            <value>Smart phone (check for functionalities such as, internet, emails, browsing, apps like whatsapp)</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option2">
+            <value>None</value>
+          </text>
+          <text id="/data/type_OS:label">
+            <value>4.2  If participant owns smart phone: What type of OS does it have</value>
+          </text>
+          <text id="/data/type_OS:option0">
+            <value>Android</value>
+          </text>
+          <text id="/data/type_OS:option1">
+            <value>iOS</value>
+          </text>
+          <text id="/data/internet_strength:label">
+            <value>4.3 How do you describe the strength of internet in your area </value>
+          </text>
+          <text id="/data/internet_strength:option0">
+            <value>Very strong</value>
+          </text>
+          <text id="/data/internet_strength:option1">
+            <value>Strong</value>
+          </text>
+          <text id="/data/internet_strength:option2">
+            <value>Moderate </value>
+          </text>
+          <text id="/data/internet_strength:option3">
+            <value>Poor</value>
+          </text>
+          <text id="/data/internet_strength:option4">
+            <value>Very poor</value>
+          </text>
+          <text id="/data/gps:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/district:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/district:hint">
+            <value></value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Chalinze</value>
+          </text>
+          <text id="/data/district:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details:label">
+            <value>1. Taarifa za kituo</value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:label">
+            <value>1.1.	Jina la kituo</value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/health_fac_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:label">
+            <value>1.2.	Aina ya kituo </value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option0">
+            <value>Zahanati</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option1">
+            <value>Kituo cha Afya </value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:option2">
+            <value>Hospitali</value>
+          </text>
+          <text id="/data/facility_details/type_health_facil:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/ward_name:label">
+            <value>1.3.	Jina la Kata</value>
+          </text>
+          <text id="/data/facility_details/ward_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/facility_details/ward_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/participants_details:label">
+            <value>2.	TARIFA ZA MSHIRIKI</value>
+          </text>
+          <text id="/data/participants_details/participant_name:label">
+            <value>2.1.	Jina la mshiriki </value>
+          </text>
+          <text id="/data/participants_details/participant_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/participants_details/participant_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/participants_details/educ:label">
+            <value>2.2.	Elimu</value>
+          </text>
+          <text id="/data/participants_details/educ:option0">
+            <value>Msingi</value>
+          </text>
+          <text id="/data/participants_details/educ:option1">
+            <value>Sekondari</value>
+          </text>
+          <text id="/data/participants_details/educ:option2">
+            <value>Chuo</value>
+          </text>
+          <text id="/data/participants_details/profes:label">
+            <value>2.4.	Taaluma</value>
+          </text>
+          <text id="/data/participants_details/profes:option0">
+            <value>Afisa Tabibu Msaidizi</value>
+          </text>
+          <text id="/data/participants_details/profes:option1">
+            <value>Afisa Tabibu</value>
+          </text>
+          <text id="/data/participants_details/profes:option2">
+            <value>Datkari Msaidizi </value>
+          </text>
+          <text id="/data/participants_details/profes:option3">
+            <value>Daktari</value>
+          </text>
+          <text id="/data/participants_details/profes:option4">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/participants_details_other_prof:label">
+            <value>Taaluma Zingine</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/participants_details_other_prof/other_prof3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/position:label">
+            <value>2.5.	Cheo</value>
+          </text>
+          <text id="/data/position:option0">
+            <value></value>
+          </text>
+          <text id="/data/position:option1">
+            <value></value>
+          </text>
+          <text id="/data/position:option2">
+            <value></value>
+          </text>
+          <text id="/data/participants_details_other_position:label">
+            <value>Vyeo Vingine</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/participants_details_other_position/other_position3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/participants_details2:label">
+            <value>2.	TARIFA ZA MSHIRIKI</value>
+          </text>
+          <text id="/data/participants_details2/yrs_proffe:label">
+            <value>2.6.	Namba ya miezi  katika taaluma yako</value>
+          </text>
+          <text id="/data/participants_details2/yrs_workstation:label">
+            <value>2.6.1  Namba ya miezi  katika kituo cha kazi yako</value>
+          </text>
+          <text id="/data/participants_details2/sex:label">
+            <value>2.7. Jinsia</value>
+          </text>
+          <text id="/data/participants_details2/sex:option0">
+            <value>Me</value>
+          </text>
+          <text id="/data/participants_details2/sex:option1">
+            <value>Ke</value>
+          </text>
+          <text id="/data/participants_details2/age:label">
+            <value>2.8 Umri (Miaka) </value>
+          </text>
+          <text id="/data/participants_details2/age:constraintMsg">
+            <value>Mshiriki lazima awe na umri wa miaka 18 au zaidi</value>
+          </text>
+          <text id="/data/other_disease_transm:label">
+            <value>3.	Je, ni magonjwa yapi mengine unayoyafahamu yanayoambukiza kati ya wanyama na binadamu?</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:label">
+            <value>3.1. Kimeta: Ufahamu</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_awarenes:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_ever_suspectpast12:label">
+            <value>Kimeta: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm/anthrax_confirmed_past12:label">
+            <value>Kimeta: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:label">
+            <value>3.2. Kifua kikuu : Ufahamu</value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm/bovineTB_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm/bovine_suspected:label">
+            <value>Kifua Kikuu: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm/bovine_confirmed:label">
+            <value>Kifua kikuu: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:label">
+            <value>3.3. Homa ya Bonde la Ufa</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_suspected:label">
+            <value>Homa bonde la ufa: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm/RVF_confirmed:label">
+            <value>Homa bonde la ufa: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm1:label">
+            <value>3.	Je, ni magonjwa yapi mengine unayoyafahamu yanayoambukiza kati ya wanyama na binadamu?</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:label">
+            <value>3.4. Kichaa cha mbwa</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_suspected:label">
+            <value>Kichaa cha mbwa: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm1/rabies_confirmed:label">
+            <value>Kichaa cha mbwa: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:label">
+            <value>3.5. Malale</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_suspected:label">
+            <value>Malale: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm1/trypanosomiasis_confirmed:label">
+            <value>Malale: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:label">
+            <value>3.6. Ekinokokosisi</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_suspected:label">
+            <value>Ekonokokosisi: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm1/echinococcosis_confirmed:label">
+            <value>Ekinokokosisi: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm2:label">
+            <value>3.	Je, ni magonjwa yapi mengine unayoyafahamu yanayoambukiza kati ya wanyama na binadamu?</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:label">
+            <value>3.7. Ebola</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_suspected:label">
+            <value>Ebola: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm2/ebola_confirmed:label">
+            <value>Ebola: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:label">
+            <value>3.8. Criptosporidiosisi: Ufahamu</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_suspected:label">
+            <value>Criptosporidiosisi: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm2/cryptosporidiosis_confirmed:label">
+            <value>Criptosporidiosisi: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:label">
+            <value>3.9. Mafua makali ya ndege</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_awareness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_suspected:label">
+            <value>Mafua makali ya ndege: Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_disease_transm2/zoonotic_influenza_confirmed:label">
+            <value>Mafua makali ya ndege: Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:label">
+            <value>Je, kuna magonjwa mengine unayoyafahamu yanayoambukiza kati ya wanyama na binadamu?</value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/other_disease_transm2/other_disease_aware_yes_no:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/other_transm_diseases:label">
+            <value>magonjwa mengine unayoyafahamu yanayoambukiza kati ya wanyama na binadamu?</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name:label">
+            <value>1 Jina la ugonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected:label">
+            <value>Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed:label">
+            <value>Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name1:label">
+            <value>2 Jina la ugonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected1:label">
+            <value>Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed1:label">
+            <value>Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/other_transm_diseases/other_disease_name2:label">
+            <value>3 Jina la ugonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_suspected2:label">
+            <value>Je, umewahi kuhisi kutokea kwake ndani ya miezi 12 iliyopita katika eneo lako: Jaza idadi ya wagonjwa</value>
+          </text>
+          <text id="/data/other_transm_diseases/other_cases_confirmed2:label">
+            <value>Je, uliwahi kuhakiki uwepo wake katika eneo lako kwa kipindi cha miezi 12 iliyopita: Jaza idadi ya wagonjwa </value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:label">
+            <value>4.1 Aina gani ya simu unamiliki?</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option0">
+            <value>Simu ndogo / Ya kawaida</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option1">
+            <value>Simu janja / Sikanu</value>
+          </text>
+          <text id="/data/type_mobile_phone_owned:option2">
+            <value>Similiki</value>
+          </text>
+          <text id="/data/type_OS:label">
+            <value>4.2. Kama anatumia simu janja, ni aina gani ya OS inatumia?</value>
+          </text>
+          <text id="/data/type_OS:option0">
+            <value>Androidi</value>
+          </text>
+          <text id="/data/type_OS:option1">
+            <value>iOS</value>
+          </text>
+          <text id="/data/internet_strength:label">
+            <value>4.3 Je unaweza elezeaje uwezo wa intaneti katika eneo lako</value>
+          </text>
+          <text id="/data/internet_strength:option0">
+            <value>Una nguvu sana</value>
+          </text>
+          <text id="/data/internet_strength:option1">
+            <value>Una nguvu</value>
+          </text>
+          <text id="/data/internet_strength:option2">
+            <value>Kiasi</value>
+          </text>
+          <text id="/data/internet_strength:option3">
+            <value>Mbovu</value>
+          </text>
+          <text id="/data/internet_strength:option4">
+            <value>Mbovu sana</value>
+          </text>
+          <text id="/data/gps:label">
+            <value>Anuani ya mahali</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/district" type="select1" jr:constraintMsg="jr:itext('/data/district:constraintMsg')"/>
+      <bind nodeset="/data/facility_details/health_fac_name" type="string" jr:constraintMsg="jr:itext('/data/facility_details/health_fac_name:constraintMsg')"/>
+      <bind nodeset="/data/facility_details/type_health_facil" type="select1" jr:constraintMsg="jr:itext('/data/facility_details/type_health_facil:constraintMsg')"/>
+      <bind nodeset="/data/facility_details/ward_name" type="string" jr:constraintMsg="jr:itext('/data/facility_details/ward_name:constraintMsg')"/>
+      <bind nodeset="/data/participants_details/participant_name" type="string" jr:constraintMsg="jr:itext('/data/participants_details/participant_name:constraintMsg')"/>
+      <bind nodeset="/data/participants_details/educ" type="select1"/>
+      <bind nodeset="/data/participants_details/profes" type="select1"/>
+      <bind nodeset="/data/participants_details_other_prof/other_prof1" type="string"/>
+      <bind nodeset="/data/participants_details_other_prof/other_prof2" type="string"/>
+      <bind nodeset="/data/participants_details_other_prof/other_prof3" type="string"/>
+      <bind nodeset="/data/position" type="select1"/>
+      <bind nodeset="/data/participants_details_other_position/other_position1" type="string"/>
+      <bind nodeset="/data/participants_details_other_position/other_position2" type="string"/>
+      <bind nodeset="/data/participants_details_other_position/other_position3" type="string"/>
+      <bind nodeset="/data/participants_details2/yrs_proffe" type="int"/>
+      <bind nodeset="/data/participants_details2/yrs_workstation" type="int"/>
+      <bind nodeset="/data/participants_details2/sex" type="select1"/>
+      <bind nodeset="/data/participants_details2/age" type="int" constraint="(. &gt; '18')" jr:constraintMsg="jr:itext('/data/participants_details2/age:constraintMsg')"/>
+      <bind nodeset="/data/other_disease_transm/anthrax_awarenes" type="select1"/>
+      <bind nodeset="/data/other_disease_transm/anthrax_ever_suspectpast12" type="int"/>
+      <bind nodeset="/data/other_disease_transm/anthrax_confirmed_past12" type="int"/>
+      <bind nodeset="/data/other_disease_transm/bovineTB_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm/bovine_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm/bovine_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm/RVF_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm/RVF_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm/RVF_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/rabies_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm1/rabies_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/rabies_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/trypanosomiasis_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm1/trypanosomiasis_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/trypanosomiasis_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/echinococcosis_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm1/echinococcosis_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm1/echinococcosis_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/ebola_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm2/ebola_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/ebola_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/cryptosporidiosis_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm2/cryptosporidiosis_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/cryptosporidiosis_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/zoonotic_influenza_awareness" type="select1"/>
+      <bind nodeset="/data/other_disease_transm2/zoonotic_influenza_suspected" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/zoonotic_influenza_confirmed" type="int"/>
+      <bind nodeset="/data/other_disease_transm2/other_disease_aware_yes_no" type="select1"/>
+      <bind nodeset="/data/other_transm_diseases/other_disease_name" type="string"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_suspected" type="int"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_confirmed" type="int"/>
+      <bind nodeset="/data/other_transm_diseases/other_disease_name1" type="string"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_suspected1" type="int"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_confirmed1" type="int"/>
+      <bind nodeset="/data/other_transm_diseases/other_disease_name2" type="string"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_suspected2" type="int"/>
+      <bind nodeset="/data/other_transm_diseases/other_cases_confirmed2" type="int"/>
+      <bind nodeset="/data/type_mobile_phone_owned" type="select"/>
+      <bind nodeset="/data/type_OS" type="select1"/>
+      <bind nodeset="/data/internet_strength" type="select1"/>
+      <bind nodeset="/data/gps" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Post bruce Health workers No Knowledge',': ',/data/facility_details/health_fac_name)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/district">
+      <label ref="jr:itext('/data/district:label')"/>
+      <hint ref="jr:itext('/data/district:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/district:option0')"/>
+        <value>kilosa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option1')"/>
+        <value>Chalinze</value>
+      </item>
+    </select1>
+    <group ref="/data/facility_details" appearance="field-list">
+      <label ref="jr:itext('/data/facility_details:label')"/>
+      <input ref="/data/facility_details/health_fac_name">
+        <label ref="jr:itext('/data/facility_details/health_fac_name:label')"/>
+        <hint ref="jr:itext('/data/facility_details/health_fac_name:hint')"/>
+      </input>
+      <select1 ref="/data/facility_details/type_health_facil">
+        <label ref="jr:itext('/data/facility_details/type_health_facil:label')"/>
+        <hint ref="jr:itext('/data/facility_details/type_health_facil:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/facility_details/type_health_facil:option0')"/>
+          <value>dispensary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/type_health_facil:option1')"/>
+          <value>health_centre</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/type_health_facil:option2')"/>
+          <value>hospital</value>
+        </item>
+      </select1>
+      <input ref="/data/facility_details/ward_name">
+        <label ref="jr:itext('/data/facility_details/ward_name:label')"/>
+        <hint ref="jr:itext('/data/facility_details/ward_name:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/participants_details" appearance="field-list">
+      <label ref="jr:itext('/data/participants_details:label')"/>
+      <input ref="/data/participants_details/participant_name">
+        <label ref="jr:itext('/data/participants_details/participant_name:label')"/>
+        <hint ref="jr:itext('/data/participants_details/participant_name:hint')"/>
+      </input>
+      <select1 ref="/data/participants_details/educ">
+        <label ref="jr:itext('/data/participants_details/educ:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/educ:option0')"/>
+          <value>primary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/educ:option1')"/>
+          <value>secondary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/educ:option2')"/>
+          <value>college_universty</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_details/profes">
+        <label ref="jr:itext('/data/participants_details/profes:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/profes:option0')"/>
+          <value>med_assi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/profes:option1')"/>
+          <value>med_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/profes:option2')"/>
+          <value>ass_med_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/profes:option3')"/>
+          <value>med_doctor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/profes:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/participants_details_other_prof" appearance="field-list">
+      <label ref="jr:itext('/data/participants_details_other_prof:label')"/>
+      <input ref="/data/participants_details_other_prof/other_prof1">
+        <label ref="jr:itext('/data/participants_details_other_prof/other_prof1:label')"/>
+      </input>
+      <input ref="/data/participants_details_other_prof/other_prof2">
+        <label ref="jr:itext('/data/participants_details_other_prof/other_prof2:label')"/>
+      </input>
+      <input ref="/data/participants_details_other_prof/other_prof3">
+        <label ref="jr:itext('/data/participants_details_other_prof/other_prof3:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/position">
+      <label ref="jr:itext('/data/position:label')"/>
+      <item>
+        <label ref="jr:itext('/data/position:option0')"/>
+        <value>officer_incharge</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/position:option1')"/>
+        <value>clinician</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/position:option2')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <group ref="/data/participants_details_other_position" appearance="field-list">
+      <label ref="jr:itext('/data/participants_details_other_position:label')"/>
+      <input ref="/data/participants_details_other_position/other_position1">
+        <label ref="jr:itext('/data/participants_details_other_position/other_position1:label')"/>
+      </input>
+      <input ref="/data/participants_details_other_position/other_position2">
+        <label ref="jr:itext('/data/participants_details_other_position/other_position2:label')"/>
+      </input>
+      <input ref="/data/participants_details_other_position/other_position3">
+        <label ref="jr:itext('/data/participants_details_other_position/other_position3:label')"/>
+      </input>
+    </group>
+    <group ref="/data/participants_details2" appearance="field-list">
+      <label ref="jr:itext('/data/participants_details2:label')"/>
+      <input ref="/data/participants_details2/yrs_proffe">
+        <label ref="jr:itext('/data/participants_details2/yrs_proffe:label')"/>
+      </input>
+      <input ref="/data/participants_details2/yrs_workstation">
+        <label ref="jr:itext('/data/participants_details2/yrs_workstation:label')"/>
+      </input>
+      <select1 ref="/data/participants_details2/sex">
+        <label ref="jr:itext('/data/participants_details2/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details2/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details2/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/participants_details2/age">
+        <label ref="jr:itext('/data/participants_details2/age:label')"/>
+      </input>
+    </group>
+    <group ref="/data/other_disease_transm" appearance="field-list">
+      <label ref="jr:itext('/data/other_disease_transm:label')"/>
+      <select1 ref="/data/other_disease_transm/anthrax_awarenes">
+        <label ref="jr:itext('/data/other_disease_transm/anthrax_awarenes:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/anthrax_awarenes:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/anthrax_awarenes:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm/anthrax_ever_suspectpast12">
+        <label ref="jr:itext('/data/other_disease_transm/anthrax_ever_suspectpast12:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm/anthrax_confirmed_past12">
+        <label ref="jr:itext('/data/other_disease_transm/anthrax_confirmed_past12:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm/bovineTB_awareness">
+        <label ref="jr:itext('/data/other_disease_transm/bovineTB_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/bovineTB_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/bovineTB_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm/bovine_suspected">
+        <label ref="jr:itext('/data/other_disease_transm/bovine_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm/bovine_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm/bovine_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm/RVF_awareness">
+        <label ref="jr:itext('/data/other_disease_transm/RVF_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/RVF_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm/RVF_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm/RVF_suspected">
+        <label ref="jr:itext('/data/other_disease_transm/RVF_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm/RVF_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm/RVF_confirmed:label')"/>
+      </input>
+    </group>
+    <group ref="/data/other_disease_transm1" appearance="field-list">
+      <label ref="jr:itext('/data/other_disease_transm1:label')"/>
+      <select1 ref="/data/other_disease_transm1/rabies_awareness">
+        <label ref="jr:itext('/data/other_disease_transm1/rabies_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/rabies_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/rabies_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm1/rabies_suspected">
+        <label ref="jr:itext('/data/other_disease_transm1/rabies_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm1/rabies_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm1/rabies_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm1/trypanosomiasis_awareness">
+        <label ref="jr:itext('/data/other_disease_transm1/trypanosomiasis_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/trypanosomiasis_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/trypanosomiasis_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm1/trypanosomiasis_suspected">
+        <label ref="jr:itext('/data/other_disease_transm1/trypanosomiasis_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm1/trypanosomiasis_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm1/trypanosomiasis_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm1/echinococcosis_awareness">
+        <label ref="jr:itext('/data/other_disease_transm1/echinococcosis_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/echinococcosis_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm1/echinococcosis_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm1/echinococcosis_suspected">
+        <label ref="jr:itext('/data/other_disease_transm1/echinococcosis_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm1/echinococcosis_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm1/echinococcosis_confirmed:label')"/>
+      </input>
+    </group>
+    <group ref="/data/other_disease_transm2" appearance="field-list">
+      <label ref="jr:itext('/data/other_disease_transm2:label')"/>
+      <select1 ref="/data/other_disease_transm2/ebola_awareness">
+        <label ref="jr:itext('/data/other_disease_transm2/ebola_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/ebola_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/ebola_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm2/ebola_suspected">
+        <label ref="jr:itext('/data/other_disease_transm2/ebola_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm2/ebola_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm2/ebola_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm2/cryptosporidiosis_awareness">
+        <label ref="jr:itext('/data/other_disease_transm2/cryptosporidiosis_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/cryptosporidiosis_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/cryptosporidiosis_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm2/cryptosporidiosis_suspected">
+        <label ref="jr:itext('/data/other_disease_transm2/cryptosporidiosis_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm2/cryptosporidiosis_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm2/cryptosporidiosis_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm2/zoonotic_influenza_awareness">
+        <label ref="jr:itext('/data/other_disease_transm2/zoonotic_influenza_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/zoonotic_influenza_awareness:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/zoonotic_influenza_awareness:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/other_disease_transm2/zoonotic_influenza_suspected">
+        <label ref="jr:itext('/data/other_disease_transm2/zoonotic_influenza_suspected:label')"/>
+      </input>
+      <input ref="/data/other_disease_transm2/zoonotic_influenza_confirmed">
+        <label ref="jr:itext('/data/other_disease_transm2/zoonotic_influenza_confirmed:label')"/>
+      </input>
+      <select1 ref="/data/other_disease_transm2/other_disease_aware_yes_no">
+        <label ref="jr:itext('/data/other_disease_transm2/other_disease_aware_yes_no:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/other_disease_aware_yes_no:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_disease_transm2/other_disease_aware_yes_no:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/other_transm_diseases" appearance="field-list">
+      <label ref="jr:itext('/data/other_transm_diseases:label')"/>
+      <input ref="/data/other_transm_diseases/other_disease_name">
+        <label ref="jr:itext('/data/other_transm_diseases/other_disease_name:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_suspected">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_suspected:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_confirmed">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_confirmed:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_disease_name1">
+        <label ref="jr:itext('/data/other_transm_diseases/other_disease_name1:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_suspected1">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_suspected1:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_confirmed1">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_confirmed1:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_disease_name2">
+        <label ref="jr:itext('/data/other_transm_diseases/other_disease_name2:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_suspected2">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_suspected2:label')"/>
+      </input>
+      <input ref="/data/other_transm_diseases/other_cases_confirmed2">
+        <label ref="jr:itext('/data/other_transm_diseases/other_cases_confirmed2:label')"/>
+      </input>
+    </group>
+    <select ref="/data/type_mobile_phone_owned">
+      <label ref="jr:itext('/data/type_mobile_phone_owned:label')"/>
+      <item>
+        <label ref="jr:itext('/data/type_mobile_phone_owned:option0')"/>
+        <value>ordinary_phone</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_mobile_phone_owned:option1')"/>
+        <value>smart_phone</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_mobile_phone_owned:option2')"/>
+        <value>none</value>
+      </item>
+    </select>
+    <select1 ref="/data/type_OS">
+      <label ref="jr:itext('/data/type_OS:label')"/>
+      <item>
+        <label ref="jr:itext('/data/type_OS:option0')"/>
+        <value>android</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_OS:option1')"/>
+        <value>iOS</value>
+      </item>
+    </select1>
+    <select1 ref="/data/internet_strength">
+      <label ref="jr:itext('/data/internet_strength:label')"/>
+      <item>
+        <label ref="jr:itext('/data/internet_strength:option0')"/>
+        <value>very_strong</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/internet_strength:option1')"/>
+        <value>strong</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/internet_strength:option2')"/>
+        <value>moderate</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/internet_strength:option3')"/>
+        <value>poor</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/internet_strength:option4')"/>
+        <value>very_poor</value>
+      </item>
+    </select1>
+    <input ref="/data/gps">
+      <label ref="jr:itext('/data/gps:label')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Test1</h:title>
+    <model>
+      <instance>
+        <Test1 id="Test1">
+          <Taarifa_awali>
+            <Jina_Taarifa/>
+            <Wilaya/>
+            <Tarehe/>
+          </Taarifa_awali>
+          <start/>
+          <end/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Test1>
+      </instance>
+      <bind nodeset="/Test1/Taarifa_awali/Jina_Taarifa" required="true()" type="string"/>
+      <bind nodeset="/Test1/Taarifa_awali/Wilaya" required="true()" type="select1"/>
+      <bind nodeset="/Test1/Taarifa_awali/Tarehe" required="true()" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/Test1/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/Test1/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Test1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/Test1/Taarifa_awali">
+      <label>Group</label>
+      <input ref="/Test1/Taarifa_awali/Jina_Taarifa">
+        <label>Jina la Mkusanyaji Taarifa</label>
+      </input>
+      <select1 appearance="minimal" ref="/Test1/Taarifa_awali/Wilaya">
+        <label>Wilaya</label>
+        <hint>Chagua wilaya</hint>
+        <item>
+          <label>Ngorngoro</label>
+          <value>B01</value>
+        </item>
+        <item>
+          <label>Kibaha</label>
+          <value>B02</value>
+        </item>
+        <item>
+          <label>Option 3</label>
+          <value>B03</value>
+        </item>
+      </select1>
+      <input ref="/Test1/Taarifa_awali/Tarehe">
+        <label>Tarehe</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>

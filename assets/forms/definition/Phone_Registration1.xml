@@ -1,0 +1,91 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Phone Registration</h:title>
+    <model>
+      <instance>
+        <data id="build_Phone-Registration_2017100901">
+          <meta>
+            <instanceID/>
+          </meta>
+          <registration>
+            <name/>
+            <phone_number/>
+            <user_type/>
+            <imei_1/>
+            <imei_2/>
+            <serial_number/>
+          </registration>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/registration:label">
+            <value>Phone Registration</value>
+          </text>
+          <text id="/data/registration/name:label">
+            <value>Full Name</value>
+          </text>
+          <text id="/data/registration/phone_number:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/registration/user_type:label">
+            <value>User Group</value>
+          </text>
+          <text id="/data/registration/user_type:option0">
+            <value>CHR </value>
+          </text>
+          <text id="/data/registration/user_type:option1">
+            <value>Health Official</value>
+          </text>
+          <text id="/data/registration/imei_1:label">
+            <value>IMEI 1</value>
+          </text>
+          <text id="/data/registration/imei_2:label">
+            <value>IMEI 2</value>
+          </text>
+          <text id="/data/registration/serial_number:label">
+            <value>Serial Number</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/registration/name" type="string"/>
+      <bind nodeset="/data/registration/phone_number" type="string"/>
+      <bind nodeset="/data/registration/user_type" type="select1" required="true()"/>
+      <bind nodeset="/data/registration/imei_1" type="barcode" required="true()"/>
+      <bind nodeset="/data/registration/imei_2" type="barcode"/>
+      <bind nodeset="/data/registration/serial_number" type="barcode" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/registration:label')"/>
+      <input ref="/data/registration/name">
+        <label ref="jr:itext('/data/registration/name:label')"/>
+      </input>
+      <input ref="/data/registration/phone_number">
+        <label ref="jr:itext('/data/registration/phone_number:label')"/>
+      </input>
+      <select1 ref="/data/registration/user_type" appearance="minimal">
+        <label ref="jr:itext('/data/registration/user_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/registration/user_type:option0')"/>
+          <value>chr</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/registration/user_type:option1')"/>
+          <value>health_official</value>
+        </item>
+      </select1>
+      <input ref="/data/registration/imei_1">
+        <label ref="jr:itext('/data/registration/imei_1:label')"/>
+      </input>
+      <input ref="/data/registration/imei_2">
+        <label ref="jr:itext('/data/registration/imei_2:label')"/>
+      </input>
+      <input ref="/data/registration/serial_number">
+        <label ref="jr:itext('/data/registration/serial_number:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

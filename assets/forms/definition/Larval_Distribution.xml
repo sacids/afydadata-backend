@@ -1,0 +1,679 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Larval Distribution</h:title>
+    <model>
+      <instance>
+        <data id="build_Larval-Distribution_1582796752">
+          <meta>
+            <instanceID/>
+          </meta>
+          <loca_details>
+            <region/>
+            <district/>
+            <village/>
+            <survey_date/>
+          </loca_details>
+          <larval_details>
+            <habitat_no/>
+            <habitat_type/>
+            <habita_type_other>
+              None
+            </habita_type_other>
+            <veg_cover/>
+            <landuse_type/>
+            <landuse_type_other>
+              None
+            </landuse_type_other>
+            <lenghth_m/>
+            <width_m/>
+            <number_dips/>
+          </larval_details>
+          <species>
+            <aedes_aegypty/>
+            <An_gambiae/>
+            <An_cons/>
+            <An_impl/>
+            <An_squ/>
+            <culex/>
+          </species>
+          <other_speaceis>
+            <other_specie1>
+              None
+            </other_specie1>
+            <other_specie1_l1_l2/>
+            <other_specie1_l3_l4/>
+            <other_specie1_pupae/>
+          </other_speaceis>
+          <other_speaceis2>
+            <other_specie2>
+              None
+            </other_specie2>
+            <other_specie2_l1_l2/>
+            <other_specie2_l3_l4/>
+            <other_specie2_pupae/>
+          </other_speaceis2>
+          <other_speaceis3>
+            <other_specie3>
+              None
+            </other_specie3>
+            <other_specie3_l1_l2/>
+            <other_specie3_l3_l4/>
+            <other_specie3_pupae/>
+          </other_speaceis3>
+          <gps_locat/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/loca_details:label">
+            <value>Location Details</value>
+          </text>
+          <text id="/data/loca_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/loca_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/loca_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/loca_details/survey_date:label">
+            <value>Survey Date</value>
+          </text>
+          <text id="/data/larval_details:label">
+            <value>Larval details</value>
+          </text>
+          <text id="/data/larval_details/habitat_no:label">
+            <value>1. Habitat No.</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:label">
+            <value>2. Habitat Type</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option0">
+            <value>Drainage ditch</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option1">
+            <value>Foot print</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option2">
+            <value>Gold mine</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option3">
+            <value> Pond (not I)</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option4">
+            <value>Swamp</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option5">
+            <value>Tyre track</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option6">
+            <value>Container</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option7">
+            <value>Rockpool</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option8">
+            <value>Fish pond</value>
+          </text>
+          <text id="/data/larval_details/habitat_type:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/larval_details/habita_type_other:label">
+            <value>Other Habitat type</value>
+          </text>
+          <text id="/data/larval_details/veg_cover:label">
+            <value>3. Veg. Cover</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:label">
+            <value>4. Land Use Type</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option0">
+            <value>Farmland</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option1">
+            <value>Pasture</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option2">
+            <value>Swamp</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option3">
+            <value>Stream/River</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option4">
+            <value>Forest</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option5">
+            <value>Shrub</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option6">
+            <value>Road</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option7">
+            <value>Compound/Home</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option8">
+            <value> Water body (not 4)</value>
+          </text>
+          <text id="/data/larval_details/landuse_type:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/larval_details/landuse_type_other:label">
+            <value>Other land use type</value>
+          </text>
+          <text id="/data/larval_details/lenghth_m:label">
+            <value>5. Length (M)  </value>
+          </text>
+          <text id="/data/larval_details/width_m:label">
+            <value>6. Width (M)  </value>
+          </text>
+          <text id="/data/larval_details/number_dips:label">
+            <value>7. Number of Dips</value>
+          </text>
+          <text id="/data/species:label">
+            <value>8. Species		</value>
+          </text>
+          <text id="/data/species/aedes_aegypty:label">
+            <value>8.1 Aedes Aegypty</value>
+          </text>
+          <text id="/data/species/aedes_aegypty:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/aedes_aegypty:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/aedes_aegypty:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/aedes_aegypty:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/species/An_gambiae:label">
+            <value>8.2 An gambiae		</value>
+          </text>
+          <text id="/data/species/An_gambiae:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/An_gambiae:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/An_gambiae:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/An_gambiae:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/species/An_cons:label">
+            <value>8.3 An. Cons.		</value>
+          </text>
+          <text id="/data/species/An_cons:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/An_cons:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/An_cons:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/An_cons:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/species/An_impl:label">
+            <value>8.4 An. Impl.		</value>
+          </text>
+          <text id="/data/species/An_impl:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/An_impl:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/An_impl:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/An_impl:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/species/An_squ:label">
+            <value>8.5 An. Squ.		</value>
+          </text>
+          <text id="/data/species/An_squ:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/An_squ:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/An_squ:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/An_squ:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/species/culex:label">
+            <value>8.6 culex</value>
+          </text>
+          <text id="/data/species/culex:option0">
+            <value>L1-L2</value>
+          </text>
+          <text id="/data/species/culex:option1">
+            <value>L3-L4</value>
+          </text>
+          <text id="/data/species/culex:option2">
+            <value>Pupae</value>
+          </text>
+          <text id="/data/species/culex:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/other_speaceis:label">
+            <value>Other Species</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1:label">
+            <value>1 Specie Name</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_l1_l2:label">
+            <value>L1-L2 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_l1_l2:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_l3_l4:label">
+            <value>L3-L4 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_l3_l4:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_pupae:label">
+            <value>Pupae(for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis/other_specie1_pupae:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis2:label">
+            <value>Other Species</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2:label">
+            <value>2 Specie Name</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_l1_l2:label">
+            <value>L1-L2 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_l1_l2:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_l3_l4:label">
+            <value>L3-L4 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_l3_l4:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_pupae:label">
+            <value>Pupae(for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis2/other_specie2_pupae:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis3:label">
+            <value>Other Species</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3:label">
+            <value>3 Specie Name</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_l1_l2:label">
+            <value>L1-L2 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_l1_l2:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_l3_l4:label">
+            <value>L3-L4 (for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_l3_l4:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_pupae:label">
+            <value>Pupae(for above Specie)</value>
+          </text>
+          <text id="/data/other_speaceis3/other_specie3_pupae:hint">
+            <value>0=None 1=Available</value>
+          </text>
+          <text id="/data/gps_locat:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/loca_details/region" type="string"/>
+      <bind nodeset="/data/loca_details/district" type="string"/>
+      <bind nodeset="/data/loca_details/village" type="string"/>
+      <bind nodeset="/data/loca_details/survey_date" type="date"/>
+      <bind nodeset="/data/larval_details/habitat_no" type="int"/>
+      <bind nodeset="/data/larval_details/habitat_type" type="select1"/>
+      <bind nodeset="/data/larval_details/habita_type_other" type="string"/>
+      <bind nodeset="/data/larval_details/veg_cover" type="decimal"/>
+      <bind nodeset="/data/larval_details/landuse_type" type="select1"/>
+      <bind nodeset="/data/larval_details/landuse_type_other" type="string"/>
+      <bind nodeset="/data/larval_details/lenghth_m" type="decimal"/>
+      <bind nodeset="/data/larval_details/width_m" type="decimal"/>
+      <bind nodeset="/data/larval_details/number_dips" type="decimal"/>
+      <bind nodeset="/data/species/aedes_aegypty" type="select"/>
+      <bind nodeset="/data/species/An_gambiae" type="select"/>
+      <bind nodeset="/data/species/An_cons" type="select"/>
+      <bind nodeset="/data/species/An_impl" type="select"/>
+      <bind nodeset="/data/species/An_squ" type="select"/>
+      <bind nodeset="/data/species/culex" type="select"/>
+      <bind nodeset="/data/other_speaceis/other_specie1" type="string"/>
+      <bind nodeset="/data/other_speaceis/other_specie1_l1_l2" type="int"/>
+      <bind nodeset="/data/other_speaceis/other_specie1_l3_l4" type="int"/>
+      <bind nodeset="/data/other_speaceis/other_specie1_pupae" type="int"/>
+      <bind nodeset="/data/other_speaceis2/other_specie2" type="string"/>
+      <bind nodeset="/data/other_speaceis2/other_specie2_l1_l2" type="int"/>
+      <bind nodeset="/data/other_speaceis2/other_specie2_l3_l4" type="int"/>
+      <bind nodeset="/data/other_speaceis2/other_specie2_pupae" type="int"/>
+      <bind nodeset="/data/other_speaceis3/other_specie3" type="string"/>
+      <bind nodeset="/data/other_speaceis3/other_specie3_l1_l2" type="int"/>
+      <bind nodeset="/data/other_speaceis3/other_specie3_l3_l4" type="int"/>
+      <bind nodeset="/data/other_speaceis3/other_specie3_pupae" type="int"/>
+      <bind nodeset="/data/gps_locat" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/loca_details" appearance="field-list">
+      <label ref="jr:itext('/data/loca_details:label')"/>
+      <input ref="/data/loca_details/region">
+        <label ref="jr:itext('/data/loca_details/region:label')"/>
+      </input>
+      <input ref="/data/loca_details/district">
+        <label ref="jr:itext('/data/loca_details/district:label')"/>
+      </input>
+      <input ref="/data/loca_details/village">
+        <label ref="jr:itext('/data/loca_details/village:label')"/>
+      </input>
+      <input ref="/data/loca_details/survey_date">
+        <label ref="jr:itext('/data/loca_details/survey_date:label')"/>
+      </input>
+    </group>
+    <group ref="/data/larval_details" appearance="field-list">
+      <label ref="jr:itext('/data/larval_details:label')"/>
+      <input ref="/data/larval_details/habitat_no">
+        <label ref="jr:itext('/data/larval_details/habitat_no:label')"/>
+      </input>
+      <select1 ref="/data/larval_details/habitat_type">
+        <label ref="jr:itext('/data/larval_details/habitat_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option0')"/>
+          <value>drainage_ditch</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option1')"/>
+          <value>foot_print</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option2')"/>
+          <value>gold_mine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option3')"/>
+          <value>pond</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option4')"/>
+          <value>swamp</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option5')"/>
+          <value>tyre_track</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option6')"/>
+          <value>Container</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option7')"/>
+          <value>Rockpool</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option8')"/>
+          <value>fish_pond</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/habitat_type:option9')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/larval_details/habita_type_other">
+        <label ref="jr:itext('/data/larval_details/habita_type_other:label')"/>
+      </input>
+      <input ref="/data/larval_details/veg_cover">
+        <label ref="jr:itext('/data/larval_details/veg_cover:label')"/>
+      </input>
+      <select1 ref="/data/larval_details/landuse_type">
+        <label ref="jr:itext('/data/larval_details/landuse_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option0')"/>
+          <value>Farmland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option1')"/>
+          <value>Pasture</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option2')"/>
+          <value>Swamp</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option3')"/>
+          <value>stream_river</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option4')"/>
+          <value>Forest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option5')"/>
+          <value>Shrub</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option6')"/>
+          <value>Road</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option7')"/>
+          <value>Compound_Home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option8')"/>
+          <value>water_body</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/larval_details/landuse_type:option9')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/larval_details/landuse_type_other">
+        <label ref="jr:itext('/data/larval_details/landuse_type_other:label')"/>
+      </input>
+      <input ref="/data/larval_details/lenghth_m">
+        <label ref="jr:itext('/data/larval_details/lenghth_m:label')"/>
+      </input>
+      <input ref="/data/larval_details/width_m">
+        <label ref="jr:itext('/data/larval_details/width_m:label')"/>
+      </input>
+      <input ref="/data/larval_details/number_dips">
+        <label ref="jr:itext('/data/larval_details/number_dips:label')"/>
+      </input>
+    </group>
+    <group ref="/data/species" appearance="field-list">
+      <label ref="jr:itext('/data/species:label')"/>
+      <select ref="/data/species/aedes_aegypty">
+        <label ref="jr:itext('/data/species/aedes_aegypty:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/aedes_aegypty:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/aedes_aegypty:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/aedes_aegypty:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/aedes_aegypty:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/species/An_gambiae">
+        <label ref="jr:itext('/data/species/An_gambiae:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/An_gambiae:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_gambiae:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_gambiae:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_gambiae:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/species/An_cons">
+        <label ref="jr:itext('/data/species/An_cons:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/An_cons:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_cons:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_cons:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_cons:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/species/An_impl">
+        <label ref="jr:itext('/data/species/An_impl:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/An_impl:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_impl:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_impl:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_impl:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/species/An_squ">
+        <label ref="jr:itext('/data/species/An_squ:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/An_squ:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_squ:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_squ:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/An_squ:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/species/culex">
+        <label ref="jr:itext('/data/species/culex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/species/culex:option0')"/>
+          <value>l1_l2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/culex:option1')"/>
+          <value>l3_l4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/culex:option2')"/>
+          <value>Pupae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/species/culex:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/other_speaceis" appearance="field-list">
+      <label ref="jr:itext('/data/other_speaceis:label')"/>
+      <input ref="/data/other_speaceis/other_specie1">
+        <label ref="jr:itext('/data/other_speaceis/other_specie1:label')"/>
+      </input>
+      <range ref="/data/other_speaceis/other_specie1_l1_l2" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis/other_specie1_l1_l2:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis/other_specie1_l1_l2:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis/other_specie1_l3_l4" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis/other_specie1_l3_l4:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis/other_specie1_l3_l4:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis/other_specie1_pupae" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis/other_specie1_pupae:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis/other_specie1_pupae:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/other_speaceis2" appearance="field-list">
+      <label ref="jr:itext('/data/other_speaceis2:label')"/>
+      <input ref="/data/other_speaceis2/other_specie2">
+        <label ref="jr:itext('/data/other_speaceis2/other_specie2:label')"/>
+      </input>
+      <range ref="/data/other_speaceis2/other_specie2_l1_l2" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis2/other_specie2_l1_l2:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis2/other_specie2_l1_l2:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis2/other_specie2_l3_l4" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis2/other_specie2_l3_l4:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis2/other_specie2_l3_l4:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis2/other_specie2_pupae" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis2/other_specie2_pupae:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis2/other_specie2_pupae:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/other_speaceis3" appearance="field-list">
+      <label ref="jr:itext('/data/other_speaceis3:label')"/>
+      <input ref="/data/other_speaceis3/other_specie3">
+        <label ref="jr:itext('/data/other_speaceis3/other_specie3:label')"/>
+      </input>
+      <range ref="/data/other_speaceis3/other_specie3_l1_l2" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis3/other_specie3_l1_l2:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis3/other_specie3_l1_l2:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis3/other_specie3_l3_l4" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis3/other_specie3_l3_l4:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis3/other_specie3_l3_l4:hint')"/>
+      </range>
+      <range ref="/data/other_speaceis3/other_specie3_pupae" start="0" end="1" step="1" appearance="picker">
+        <label ref="jr:itext('/data/other_speaceis3/other_specie3_pupae:label')"/>
+        <hint ref="jr:itext('/data/other_speaceis3/other_specie3_pupae:hint')"/>
+      </range>
+    </group>
+    <input ref="/data/gps_locat">
+      <label ref="jr:itext('/data/gps_locat:label')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -1,0 +1,1863 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>INP Surveillance Tool</h:title>
+    <model>
+      <instance>
+        <data id="build_INP-Surveillance-Tool_1539077460">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <basic_contact>
+            <name/>
+            <email/>
+            <country/>
+            <network/>
+            <region/>
+            <geiographical_level/>
+            <job_tittle/>
+          </basic_contact>
+          <standard_defin>
+            <currently_system_/>
+            <list_priority_events_under_surveillance/>
+            <standard_set_outbreak_guide/>
+            <defined_action_thresholds/>
+            <SOP_compa_IHR/>
+            <standard_set_definition/>
+            <more_details_if_ans_yes/>
+          </standard_defin>
+          <event_based_surveillance>
+            <event_based_in_region/>
+          </event_based_surveillance>
+          <event_based_surveillance2>
+            <clear_object_event_based_surveill_/>
+            <SOP_for_event_surveillance/>
+            <operational_Event_based_surveil_in_country/>
+            <dedicated_staff_for_event_based/>
+            <ev_bas_surv_related_NFP_defined_IHR/>
+            <data_base_record_disease_event/>
+            <comments_on_currently_systems/>
+          </event_based_surveillance2>
+          <sources_data_surveillance>
+            <exist_official_report_public_health_event/>
+            <rumour_log_availability/>
+            <unofficial_source_reportig/>
+            <other_unofficial_source_reportig/>
+            <system_record_unusual_abnormal_events_immedi/>
+            <rate_sensitivity_surveillance/>
+            <SOP_for_detect_signal_events/>
+            <comments_data_sources/>
+          </sources_data_surveillance>
+          <data_collection_tool>
+            <currently_collection_tool/>
+            <untitled38/>
+          </data_collection_tool>
+          <data_collection_tool2>
+            <how_long_digital_has_been_used/>
+            <days_system_has_fault_past_12months/>
+            <system_record_gps/>
+            <system_record_demographic_data/>
+            <feedback_of_system/>
+            <system_prov_informat_exchange/>
+            <system_allow_format_xml_csv_sql/>
+            <system_use_standard_set_defin/>
+            <comments_on_digital_system/>
+          </data_collection_tool2>
+          <data_collector>
+            <who_provide_support_to_data_collec/>
+            <brief_desc_of_proces_mech_through/>
+            <data_collec_employed_on_long_term/>
+            <avarage_payment_month/>
+            <currency_datacollector_paid/>
+            <comment_on_any_other_issues/>
+          </data_collector>
+          <verification_response>
+            <total_number_suspected_outbreak_past_12months/>
+            <total_number_susp_outb_verified_48hrs/>
+            <total_number_outbreak_international_concern/>
+            <total_number_outbre_WHO_24hrs/>
+            <total_number_observed_case_greater_threshold/>
+            <total_outbreak_verified_lab/>
+            <total_number_outbreak_received_renspo/>
+            <total_number_detect_/>
+            <total_number_detect_next_notificat_level/>
+            <does_region_has_SOP_collection_sample/>
+            <region_have_target_timeline/>
+            <additional_obseravtion_improving_surve/>
+          </verification_response>
+          <inter-sectoral_cross_border_surveill>
+            <there_intersectoral_collab/>
+            <pattern_of_sharing_inf_btn_sectors/>
+            <surve_system_operate_Cross_border/>
+          </inter-sectoral_cross_border_surveill>
+          <inter-sectoral_cross_border_surveill2>
+            <identify_countries_share_border/>
+            <region_established_protocal_cros_border_dis_surv/>
+            <existing_capacity_within_region/>
+            <legal_policy_cross_border/>
+            <routine_pattern_sharing_with_neighbour_countries/>
+            <estimated_meeting_within_cross_border/>
+            <estimated_meeting_within_cros_border_subse/>
+            <crossBorder_comm_during_outbreak/>
+            <additional_comm_regarding_intersectoral/>
+          </inter-sectoral_cross_border_surveill2>
+          <event_reporting_log>
+            <how_many_reported_events_recorded_/>
+          </event_reporting_log>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/basic_contact:label">
+            <value>1 Basic Contact Details</value>
+          </text>
+          <text id="/data/basic_contact/name:label">
+            <value>a. Name</value>
+          </text>
+          <text id="/data/basic_contact/email:label">
+            <value>b. Email</value>
+          </text>
+          <text id="/data/basic_contact/country:label">
+            <value>c. Country</value>
+          </text>
+          <text id="/data/basic_contact/country:option0">
+            <value>Tanzania</value>
+          </text>
+          <text id="/data/basic_contact/country:option1">
+            <value>Kenya</value>
+          </text>
+          <text id="/data/basic_contact/country:option2">
+            <value>Uganda</value>
+          </text>
+          <text id="/data/basic_contact/country:option3">
+            <value>Rwanda</value>
+          </text>
+          <text id="/data/basic_contact/country:option4">
+            <value>Burundi</value>
+          </text>
+          <text id="/data/basic_contact/country:option5">
+            <value>DR-Congo</value>
+          </text>
+          <text id="/data/basic_contact/country:option6">
+            <value>Zambia</value>
+          </text>
+          <text id="/data/basic_contact/country:option7">
+            <value>Malawi</value>
+          </text>
+          <text id="/data/basic_contact/country:option8">
+            <value>Zimbabwe</value>
+          </text>
+          <text id="/data/basic_contact/country:option9">
+            <value>Mozambique</value>
+          </text>
+          <text id="/data/basic_contact/network:label">
+            <value>d. Network</value>
+          </text>
+          <text id="/data/basic_contact/network:option0">
+            <value>APEIR</value>
+          </text>
+          <text id="/data/basic_contact/network:option1">
+            <value>EAIDSnet</value>
+          </text>
+          <text id="/data/basic_contact/network:option2">
+            <value>MBDS</value>
+          </text>
+          <text id="/data/basic_contact/network:option3">
+            <value>MECIDS</value>
+          </text>
+          <text id="/data/basic_contact/network:option4">
+            <value>SACIDS</value>
+          </text>
+          <text id="/data/basic_contact/network:option5">
+            <value>SECID</value>
+          </text>
+          <text id="/data/basic_contact/region:label">
+            <value>e. Region</value>
+          </text>
+          <text id="/data/basic_contact/geiographical_level:label">
+            <value>f. What geographic level are you responding to?</value>
+          </text>
+          <text id="/data/basic_contact/geiographical_level:option0">
+            <value>National Level</value>
+          </text>
+          <text id="/data/basic_contact/geiographical_level:option1">
+            <value>Cross-Border site</value>
+          </text>
+          <text id="/data/basic_contact/geiographical_level:option2">
+            <value>Regional Level</value>
+          </text>
+          <text id="/data/basic_contact/job_tittle:label">
+            <value>g. Job Tittle</value>
+          </text>
+          <text id="/data/standard_defin:label">
+            <value>2 Standards &amp; Definitions (national level respondents only)</value>
+          </text>
+          <text id="/data/standard_defin/currently_system_:label">
+            <value>a. Are there currently systems and procedures in place which allow the capture, registration, and monitoring of public health events?</value>
+          </text>
+          <text id="/data/standard_defin/currently_system_:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/currently_system_:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/currently_system_:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/currently_system_:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/list_priority_events_under_surveillance:label">
+            <value>b. Are there a list of priority public health events currently under surveillance?</value>
+          </text>
+          <text id="/data/standard_defin/list_priority_events_under_surveillance:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/list_priority_events_under_surveillance:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/list_priority_events_under_surveillance:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/list_priority_events_under_surveillance:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_outbreak_guide:label">
+            <value>c. Is there a standard set of outbreak detection guidelines?</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_outbreak_guide:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_outbreak_guide:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_outbreak_guide:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_outbreak_guide:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/defined_action_thresholds:label">
+            <value>d. Are there defined action thresholds for selected indicator diseases? (e.g. epidemic-prone, vaccine-preventable, others of public health importance)</value>
+          </text>
+          <text id="/data/standard_defin/defined_action_thresholds:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/defined_action_thresholds:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/defined_action_thresholds:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/defined_action_thresholds:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/SOP_compa_IHR:label">
+            <value>e. Are there standard operating procedures (SOP's) which are compatible with International Health Regulations (IHR) or other international guidelines?</value>
+          </text>
+          <text id="/data/standard_defin/SOP_compa_IHR:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/SOP_compa_IHR:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/SOP_compa_IHR:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/SOP_compa_IHR:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_definition:label">
+            <value>f. Is there a standard set of definitions for public health events?</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_definition:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_definition:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_definition:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/standard_defin/standard_set_definition:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/standard_defin/more_details_if_ans_yes:label">
+            <value>h. If you have answered &quot;Yes&quot; to questions 2. b, c, d, e, f, and you are able to provide more details regarding the specific sets of standards and definition you are using, please do so in the box below.</value>
+          </text>
+          <text id="/data/event_based_surveillance:label">
+            <value>3. Event Based Surveillance</value>
+          </text>
+          <text id="/data/event_based_surveillance/event_based_in_region:label">
+            <value>a. Is Event Based Surveillance conducted in your region/ country?</value>
+          </text>
+          <text id="/data/event_based_surveillance/event_based_in_region:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance/event_based_in_region:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance/event_based_in_region:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2:label">
+            <value>3. Event Based Surveillance</value>
+          </text>
+          <text id="/data/event_based_surveillance2/clear_object_event_based_surveill_:label">
+            <value>b. Are there clear objectives for Event Based surveillance in place in your communicable disease surveillance system?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/clear_object_event_based_surveill_:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/clear_object_event_based_surveill_:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/clear_object_event_based_surveill_:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/clear_object_event_based_surveill_:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/SOP_for_event_surveillance:label">
+            <value>c. Are there standard operating procedures (SOP's) for Event Based Disease Surveillance?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/SOP_for_event_surveillance:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/SOP_for_event_surveillance:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/SOP_for_event_surveillance:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/SOP_for_event_surveillance:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/operational_Event_based_surveil_in_country:label">
+            <value>d. Is there an operational Event Based Surveillance coordination unit in your region/ country?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/dedicated_staff_for_event_based:label">
+            <value>e. Are there dedicated staff for coordinating Event Based Surveillance in your region/ country?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/dedicated_staff_for_event_based:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/dedicated_staff_for_event_based:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/dedicated_staff_for_event_based:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/dedicated_staff_for_event_based:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:label">
+            <value>f. Is the Event Based Surveillance system related to a National Focal Point (NFP) as defined by International Health Regulations (IHR) and included in IHR NFP documents?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/data_base_record_disease_event:label">
+            <value>g. Is there a centralised/ localised/ standard database of any type in use to record information about disease events?</value>
+          </text>
+          <text id="/data/event_based_surveillance2/data_base_record_disease_event:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/event_based_surveillance2/data_base_record_disease_event:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/event_based_surveillance2/data_base_record_disease_event:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/event_based_surveillance2/data_base_record_disease_event:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/event_based_surveillance2/comments_on_currently_systems:label">
+            <value>h. If you have any comments or observations about the systems processes you are currently using for Event Based Disease Surveillance, please provide them in the box below:</value>
+          </text>
+          <text id="/data/sources_data_surveillance:label">
+            <value>4. Sources of Surveillance Data</value>
+          </text>
+          <text id="/data/sources_data_surveillance/exist_official_report_public_health_event:label">
+            <value>a. Is there the existence of official reports of public health events?</value>
+          </text>
+          <text id="/data/sources_data_surveillance/exist_official_report_public_health_event:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sources_data_surveillance/exist_official_report_public_health_event:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sources_data_surveillance/exist_official_report_public_health_event:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/sources_data_surveillance/exist_official_report_public_health_event:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rumour_log_availability:label">
+            <value>b. Is there a rumour log or database in use to record suspected public health events from informal sources?</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rumour_log_availability:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rumour_log_availability:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rumour_log_availability:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rumour_log_availability:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:label">
+            <value>c. Which of the following unofficial sources of health event reporting do you use for disease surveillance? (tick all that apply)</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option0">
+            <value>Media</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option1">
+            <value>Community</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option2">
+            <value>Rumours</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option3">
+            <value>Blogs</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option4">
+            <value>Social media</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option5">
+            <value>None</value>
+          </text>
+          <text id="/data/sources_data_surveillance/unofficial_source_reportig:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/sources_data_surveillance/other_unofficial_source_reportig:label">
+            <value>c1. Other unofficial sources of health event reporting do you use for disease surveillance</value>
+          </text>
+          <text id="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:label">
+            <value>d. Does the surveillance system record unusual/ abnormal health events for immediate reporting?</value>
+          </text>
+          <text id="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/sources_data_surveillance/rate_sensitivity_surveillance:label">
+            <value>e. How would you rate the sensitivity of the surveillance systems for detecting outbreaks? Please rate on a scale of 1-5, where: 1= Not sensitive enough- Positive cases are frequently missed. 3= Optimum Sensitivity. 5= Too sensitive- Frequent false positives</value>
+          </text>
+          <text id="/data/sources_data_surveillance/SOP_for_detect_signal_events:label">
+            <value>f. Are there standard operating procedures (SOP's) for the detection of signals during events?</value>
+          </text>
+          <text id="/data/sources_data_surveillance/SOP_for_detect_signal_events:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sources_data_surveillance/SOP_for_detect_signal_events:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sources_data_surveillance/SOP_for_detect_signal_events:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/sources_data_surveillance/SOP_for_detect_signal_events:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/sources_data_surveillance/comments_data_sources:label">
+            <value>g. If you have any comments or observations about the Data Sources you are currently using for Disease Surveillance, please provide them in the box below:</value>
+          </text>
+          <text id="/data/data_collection_tool:label">
+            <value>5. Data Collection Tools</value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:label">
+            <value>a. What tools are you currently using to collect disease surveillance data? (tick all that apply)</value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:option0">
+            <value>Book</value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:option1">
+            <value>Digital System</value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:option2">
+            <value>Paper-Based Forms </value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:option3">
+            <value>Verbal</value>
+          </text>
+          <text id="/data/data_collection_tool/currently_collection_tool:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/data_collection_tool/untitled38:label">
+            <value>a1. Other Tools which are currently used to collect disease surveillance data?</value>
+          </text>
+          <text id="/data/data_collection_tool2:label">
+            <value>5. Data Collection Tools</value>
+          </text>
+          <text id="/data/data_collection_tool2/how_long_digital_has_been_used:label">
+            <value>b. How long has this digital disease surveillance system been in use? (in months)</value>
+          </text>
+          <text id="/data/data_collection_tool2/how_long_digital_has_been_used:hint">
+            <value>eg 36 (total number of months)</value>
+          </text>
+          <text id="/data/data_collection_tool2/days_system_has_fault_past_12months:label">
+            <value>c. In the past 12 months, have there been any days where this digital system could not be used to either receive or transmit information due to technical issues? How many estimated days in total?</value>
+          </text>
+          <text id="/data/data_collection_tool2/days_system_has_fault_past_12months:hint">
+            <value>For systems less than 12 months old, please provide the total number of non-operational days since the system was introduced.</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_gps:label">
+            <value>d. Does the digital system record GPS/ location mapping data in relation to reported events?</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_gps:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_gps:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_gps:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_gps:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_demographic_data:label">
+            <value>e. Does the digital system record demographic data in relation to reported events (such as, gender, age, ethnicity etc)?</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_demographic_data:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_demographic_data:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_demographic_data:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_record_demographic_data:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/feedback_of_system:label">
+            <value>f. Does the digital system provide a mechanism through which the data collector is able to receive information results, advice etc.) from the data centre/ point of verification?</value>
+          </text>
+          <text id="/data/data_collection_tool2/feedback_of_system:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/feedback_of_system:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/feedback_of_system:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/feedback_of_system:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_prov_informat_exchange:label">
+            <value>g. Does the digital system provide a mechanism through which data collectors can exchange information directly with one another (e.g. a shared forum/ messaging service/ WhatsApp group)?</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_prov_informat_exchange:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_prov_informat_exchange:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_prov_informat_exchange:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_prov_informat_exchange:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_allow_format_xml_csv_sql:label">
+            <value>h. Does the digital system allow data to be extracted into a common format such as .xml/.csv/ SQL ?</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_allow_format_xml_csv_sql:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_allow_format_xml_csv_sql:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_allow_format_xml_csv_sql:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_allow_format_xml_csv_sql:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_use_standard_set_defin:label">
+            <value>i. Does the digital system use a standard set of definitions for disease classification, case identification? (e.g. ICD-11,LOINC/ SNOWMED CT etc.)</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_use_standard_set_defin:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_use_standard_set_defin:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_use_standard_set_defin:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/data_collection_tool2/system_use_standard_set_defin:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/data_collection_tool2/comments_on_digital_system:label">
+            <value>j. Please provide the name of the Digital Disease Surveillance system you are using along with any comments or observations you may have about it in the box below. If you are able to provide further information about any standard classifications or definitions the system uses, these can also be recorded here:</value>
+          </text>
+          <text id="/data/data_collector:label">
+            <value>6. Data Collectors (This section is for regional and cross-border respondents only.)</value>
+          </text>
+          <text id="/data/data_collector/who_provide_support_to_data_collec:label">
+            <value>a. Please identify any organisations which provide financial, material, or technical support to the data collectors or data collection teams in your region/ country:</value>
+          </text>
+          <text id="/data/data_collector/brief_desc_of_proces_mech_through:label">
+            <value>b. Please provide a brief description of the processes and mechanisms through which data collectors in your country/ region collect and report disease surveillance information:</value>
+          </text>
+          <text id="/data/data_collector/data_collec_employed_on_long_term:label">
+            <value>c. Are data collectors employed on a long term basis?</value>
+          </text>
+          <text id="/data/data_collector/data_collec_employed_on_long_term:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collector/data_collec_employed_on_long_term:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collector/data_collec_employed_on_long_term:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/data_collector/avarage_payment_month:label">
+            <value>di. If data collectors receive payment/ compensation, please indicate the approximate average payment for 1 month:</value>
+          </text>
+          <text id="/data/data_collector/avarage_payment_month:hint">
+            <value>None = 0</value>
+          </text>
+          <text id="/data/data_collector/currency_datacollector_paid:label">
+            <value>dii. Please indicate the currency in which any payment/ compensation is made:</value>
+          </text>
+          <text id="/data/data_collector/currency_datacollector_paid:hint">
+            <value>eg US Dollars</value>
+          </text>
+          <text id="/data/data_collector/comment_on_any_other_issues:label">
+            <value>e. If there are any other issues regarding the individuals/ teams collecting disease surveillance data/ their interaction with local systems within your region/ country (Section 6) please describe below:</value>
+          </text>
+          <text id="/data/verification_response:label">
+            <value>7. Verification &amp; Response</value>
+          </text>
+          <text id="/data/verification_response/total_number_suspected_outbreak_past_12months:label">
+            <value>a. Please state the total number (estimated or actual) of SUSPECTED outbreaks detected by the surveillance systems over the past 12 months</value>
+          </text>
+          <text id="/data/verification_response/total_number_susp_outb_verified_48hrs:label">
+            <value>b. Please state the total number (estimated or actual) of SUSPECTED outbreaks over the past 12 months which were verified within 48 hours of detection.</value>
+          </text>
+          <text id="/data/verification_response/total_number_outbreak_international_concern:label">
+            <value>c. Please state the total number (estimated or actual) of outbreaks of International concern detected by your surveillance systems in the past 12 months. </value>
+          </text>
+          <text id="/data/verification_response/total_number_outbre_WHO_24hrs:label">
+            <value>d. Please state the total number (estimated or actual) of outbreaks of International concern which were reported to WHO within 24 hours of detection, in the past 12 months</value>
+          </text>
+          <text id="/data/verification_response/total_number_observed_case_greater_threshold:label">
+            <value>e. Please state the total number (estimated or actual) of outbreaks (with observed no. of cases &gt; threshold values) detected by your surveillance systems over the past 12 months which were reported to the next notification level within 48 hours of detection </value>
+          </text>
+          <text id="/data/verification_response/total_outbreak_verified_lab:label">
+            <value>f. Please state the total number (estimated or actual) of outbreaks detected by your surveillance systems in the past 12 months that were laboratory- verified </value>
+          </text>
+          <text id="/data/verification_response/total_number_outbreak_received_renspo:label">
+            <value>g. Please state the total number (estimated or actual) of outbreaks detected by your surveillance systems over the past 12 months which received a response </value>
+          </text>
+          <text id="/data/verification_response/total_number_detect_:label">
+            <value>h. Please state the total number (estimated or actual) of epidemics (above epidemic threshold) detected by your surveillance systems in the past 12 months</value>
+          </text>
+          <text id="/data/verification_response/total_number_detect_next_notificat_level:label">
+            <value>i. Please state the total number (estimated or actual) of epidemics (above epidemic threshold) detected by your surveillance systems in the past 12 months that were reported to the next notification level within 2 days</value>
+          </text>
+          <text id="/data/verification_response/does_region_has_SOP_collection_sample:label">
+            <value>j. Does the region/ country have any standard operating procedures (SOP's) for the collection/ transportation of samples?</value>
+          </text>
+          <text id="/data/verification_response/does_region_has_SOP_collection_sample:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/verification_response/does_region_has_SOP_collection_sample:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/verification_response/does_region_has_SOP_collection_sample:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/verification_response/does_region_has_SOP_collection_sample:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/verification_response/region_have_target_timeline:label">
+            <value>k. Does the region/ country have any targets or performance indicators regarding the timeliness/ speed of your surveillance systems? (e.g. the time between detection and verification/ verification and reporting etc)</value>
+          </text>
+          <text id="/data/verification_response/region_have_target_timeline:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/verification_response/region_have_target_timeline:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/verification_response/region_have_target_timeline:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/verification_response/region_have_target_timeline:option3">
+            <value>Not Applicabale</value>
+          </text>
+          <text id="/data/verification_response/additional_obseravtion_improving_surve:label">
+            <value>i. If you have any additional comments or observations regarding the verification of/ response to disease outbreaks within your region/ country which you feel may be relevant to understanding/ improving your local disease surveillance systems, enter in the box below:</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill:label">
+            <value>8. Inter-Sectoral &amp; Cross Border Surveillance</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:label">
+            <value>a. Is there Intersectoral collaboration within the disease surveillance systems of your region/ country? (e.g. networking and partnerships between sectors such as health services, water and sanitation, agriculture, animal health, etc)</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:label">
+            <value>b. Is there a pattern of sharing relevant disease surveillance information between different sectors? (e.g. health services, water and sanitation, agriculture, animal health, etc)</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:label">
+            <value>c. Does the surveillance system operate in a cross-border area? </value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2:label">
+            <value>8. Inter-Sectoral &amp; Cross Border Surveillance</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/identify_countries_share_border:label">
+            <value> d. If the surveillance system operates in a cross-border area, please identify the specific countries which share that border:</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:label">
+            <value>e. Does the region/ country have an established framework/ standard protocol for intercountry/ cross-border collaboration relating to disease surveillance?</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:label">
+            <value>f. Does capacity exist within the region/ country for coordinated cross-border activity in relation to outbreaks, epidemics, events etc?</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:label">
+            <value>g.  Is there a legal/policy authority for cross-border exchange of disease surveillance data within the region/ country?</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:label">
+            <value>h. Does the region/ country have an established pattern of routinely sharing relevant disease surveillance data and information with neighbouring countries, in regional and international networks?</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cross_border:label">
+            <value>i. Please state the estimated total number of cross-border meetings involving your region/ country planned in the past 12 months </value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cros_border_subse:label">
+            <value>j. Please state the estimated total number of cross- border meetings involving your region/ country planned in the past 12 months which subsequently took place </value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:label">
+            <value>k. Does the country/ region have an established pattern of effective inter-country and cross-border communications during outbreaks?</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option3">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/data/inter-sectoral_cross_border_surveill2/additional_comm_regarding_intersectoral:label">
+            <value>l. If you have any additional comments or observations regarding intersectoral/ cross-border coordination in relation to disease surveillance within your region/ country which you feel may be relevant to understanding/ improving your local disease surveillance systems, please enter in the box below:</value>
+          </text>
+          <text id="/data/event_reporting_log:label">
+            <value>9. Event Reporting Log</value>
+          </text>
+          <text id="/data/event_reporting_log/how_many_reported_events_recorded_:label">
+            <value>a. How many reported health events have been recorded by your existing surveillance system in the past 12 months?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/basic_contact/name" type="string" required="true()" jr:requiredMsg="Full Name is required"/>
+      <bind nodeset="/data/basic_contact/email" type="string" required="true()" jr:requiredMsg="Email is required"/>
+      <bind nodeset="/data/basic_contact/country" type="select1" required="true()" jr:requiredMsg="Country is required"/>
+      <bind nodeset="/data/basic_contact/network" type="select1" required="true()" jr:requiredMsg="Network is required"/>
+      <bind nodeset="/data/basic_contact/region" type="string"/>
+      <bind nodeset="/data/basic_contact/geiographical_level" type="select1" required="true()" jr:requiredMsg="Geographic level is required"/>
+      <bind nodeset="/data/basic_contact/job_tittle" type="string"/>
+      <bind nodeset="/data/standard_defin/currently_system_" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/list_priority_events_under_surveillance" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/standard_set_outbreak_guide" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/defined_action_thresholds" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/SOP_compa_IHR" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/standard_set_definition" type="select1" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/standard_defin/more_details_if_ans_yes" type="string" relevant="(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/event_based_surveillance/event_based_in_region" type="select1" required="true()" jr:requiredMsg="Qn 3a is required"/>
+      <bind nodeset="/data/event_based_surveillance2/clear_object_event_based_surveill_" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+      <bind nodeset="/data/event_based_surveillance2/SOP_for_event_surveillance" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+      <bind nodeset="/data/event_based_surveillance2/operational_Event_based_surveil_in_country" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+      <bind nodeset="/data/event_based_surveillance2/dedicated_staff_for_event_based" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+      <bind nodeset="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+      <bind nodeset="/data/event_based_surveillance2/data_base_record_disease_event" type="select1" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))" required="true()" jr:requiredMsg="Qn 3g is required"/>
+      <bind nodeset="/data/event_based_surveillance2/comments_on_currently_systems" type="string" relevant="(selected(/data/event_based_surveillance/event_based_in_region, 'yes'))"/>
+
+      <bind nodeset="/data/sources_data_surveillance/exist_official_report_public_health_event" type="select1"/>
+      <bind nodeset="/data/sources_data_surveillance/rumour_log_availability" type="select1"/>
+      <bind nodeset="/data/sources_data_surveillance/unofficial_source_reportig" type="select"/>
+      <bind nodeset="/data/sources_data_surveillance/other_unofficial_source_reportig" type="string"/>
+      <bind nodeset="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi" type="select1"/>
+      <bind nodeset="/data/sources_data_surveillance/rate_sensitivity_surveillance" type="int"/>
+      <bind nodeset="/data/sources_data_surveillance/SOP_for_detect_signal_events" type="select1"/>
+      <bind nodeset="/data/sources_data_surveillance/comments_data_sources" type="string"/>
+      <bind nodeset="/data/data_collection_tool/currently_collection_tool" type="select" required="true()" jr:requiredMsg="Qn 5a: is required"/>
+      <bind nodeset="/data/data_collection_tool/untitled38" type="string"/>
+
+      <bind nodeset="/data/data_collection_tool2/how_long_digital_has_been_used" type="int" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/days_system_has_fault_past_12months" type="int" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/system_record_gps" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/system_record_demographic_data" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/feedback_of_system" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/system_prov_informat_exchange" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/system_allow_format_xml_csv_sql" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/system_use_standard_set_defin" type="select1" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+      <bind nodeset="/data/data_collection_tool2/comments_on_digital_system" type="string" relevant="(selected(/data/data_collection_tool/currently_collection_tool, 'digital_system'))"/>
+
+      <bind nodeset="/data/data_collector/who_provide_support_to_data_collec" type="string" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/data_collector/brief_desc_of_proces_mech_through" type="string" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/data_collector/data_collec_employed_on_long_term" type="select1" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/data_collector/avarage_payment_month" type="decimal" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/data_collector/currency_datacollector_paid" type="string" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/data_collector/comment_on_any_other_issues" type="string" relevant="not(selected(/data/basic_contact/geiographical_level, 'national_level'))"/>
+      <bind nodeset="/data/verification_response/total_number_suspected_outbreak_past_12months" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_susp_outb_verified_48hrs" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_outbreak_international_concern" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_outbre_WHO_24hrs" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_observed_case_greater_threshold" type="int"/>
+      <bind nodeset="/data/verification_response/total_outbreak_verified_lab" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_outbreak_received_renspo" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_detect_" type="int"/>
+      <bind nodeset="/data/verification_response/total_number_detect_next_notificat_level" type="int"/>
+      <bind nodeset="/data/verification_response/does_region_has_SOP_collection_sample" type="select1"/>
+      <bind nodeset="/data/verification_response/region_have_target_timeline" type="select1"/>
+      <bind nodeset="/data/verification_response/additional_obseravtion_improving_surve" type="string"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab" type="select1"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors" type="select1"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border" type="select1" required="true()" jr:requiredMsg="Qn 8c is required"/>
+
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/identify_countries_share_border" type="string" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv" type="select1" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region" type="select1" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border" type="select1" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries" type="select1" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cross_border" type="int" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cros_border_subse" type="int" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak" type="select1" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/inter-sectoral_cross_border_surveill2/additional_comm_regarding_intersectoral" type="string" relevant="(selected(/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border, 'yes'))"/>
+      <bind nodeset="/data/event_reporting_log/how_many_reported_events_recorded_" type="int" required="true()" jr:requiredMsg="Qn 9: Event reporting log is needed"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('INP ',': ',/data/basic_contact/geiographical_level)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/basic_contact:label')"/>
+      <input ref="/data/basic_contact/name">
+        <label ref="jr:itext('/data/basic_contact/name:label')"/>
+      </input>
+      <input ref="/data/basic_contact/email">
+        <label ref="jr:itext('/data/basic_contact/email:label')"/>
+      </input>
+      <select1 ref="/data/basic_contact/country" appearance="minimal">
+        <label ref="jr:itext('/data/basic_contact/country:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option0')"/>
+          <value>tanzania</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option1')"/>
+          <value>kenya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option2')"/>
+          <value>uganda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option3')"/>
+          <value>rwanda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option4')"/>
+          <value>burundi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option5')"/>
+          <value>Congo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option6')"/>
+          <value>zambia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option7')"/>
+          <value>malawi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option8')"/>
+          <value>zimbabwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/country:option9')"/>
+          <value>mozambique</value>
+        </item>
+      </select1>
+      <select1 ref="/data/basic_contact/network" appearance="minimal">
+        <label ref="jr:itext('/data/basic_contact/network:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option0')"/>
+          <value>APEIR</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option1')"/>
+          <value>EAIDSnet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option2')"/>
+          <value>MBDS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option3')"/>
+          <value>MECIDS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option4')"/>
+          <value>SACIDS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/network:option5')"/>
+          <value>SECID</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_contact/region">
+        <label ref="jr:itext('/data/basic_contact/region:label')"/>
+      </input>
+      <select1 ref="/data/basic_contact/geiographical_level" appearance="minimal">
+        <label ref="jr:itext('/data/basic_contact/geiographical_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/geiographical_level:option0')"/>
+          <value>national_level</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/geiographical_level:option1')"/>
+          <value>cross_border_site</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_contact/geiographical_level:option2')"/>
+          <value>regional_level</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_contact/job_tittle">
+        <label ref="jr:itext('/data/basic_contact/job_tittle:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/standard_defin:label')"/>
+      <select1 ref="/data/standard_defin/currently_system_" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/currently_system_:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/currently_system_:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/currently_system_:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/currently_system_:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/currently_system_:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/standard_defin/list_priority_events_under_surveillance" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/list_priority_events_under_surveillance:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/list_priority_events_under_surveillance:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/list_priority_events_under_surveillance:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/list_priority_events_under_surveillance:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/list_priority_events_under_surveillance:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/standard_defin/standard_set_outbreak_guide" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/standard_set_outbreak_guide:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_outbreak_guide:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_outbreak_guide:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_outbreak_guide:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_outbreak_guide:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/standard_defin/defined_action_thresholds" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/defined_action_thresholds:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/defined_action_thresholds:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/defined_action_thresholds:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/defined_action_thresholds:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/defined_action_thresholds:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/standard_defin/SOP_compa_IHR" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/SOP_compa_IHR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/SOP_compa_IHR:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/SOP_compa_IHR:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/SOP_compa_IHR:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/SOP_compa_IHR:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/standard_defin/standard_set_definition" appearance="minimal">
+        <label ref="jr:itext('/data/standard_defin/standard_set_definition:label')"/>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_definition:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_definition:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_definition:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/standard_defin/standard_set_definition:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/standard_defin/more_details_if_ans_yes">
+        <label ref="jr:itext('/data/standard_defin/more_details_if_ans_yes:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/event_based_surveillance:label')"/>
+      <select1 ref="/data/event_based_surveillance/event_based_in_region" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance/event_based_in_region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance/event_based_in_region:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance/event_based_in_region:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance/event_based_in_region:option2')"/>
+          <value>UK</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/event_based_surveillance2:label')"/>
+      <select1 ref="/data/event_based_surveillance2/clear_object_event_based_surveill_" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/clear_object_event_based_surveill_:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/clear_object_event_based_surveill_:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/clear_object_event_based_surveill_:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/clear_object_event_based_surveill_:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/clear_object_event_based_surveill_:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/event_based_surveillance2/SOP_for_event_surveillance" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/SOP_for_event_surveillance:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/SOP_for_event_surveillance:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/SOP_for_event_surveillance:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/SOP_for_event_surveillance:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/SOP_for_event_surveillance:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/event_based_surveillance2/operational_Event_based_surveil_in_country" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/operational_Event_based_surveil_in_country:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/operational_Event_based_surveil_in_country:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/event_based_surveillance2/dedicated_staff_for_event_based" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/dedicated_staff_for_event_based:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/dedicated_staff_for_event_based:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/dedicated_staff_for_event_based:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/dedicated_staff_for_event_based:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/dedicated_staff_for_event_based:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/ev_bas_surv_related_NFP_defined_IHR:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/event_based_surveillance2/data_base_record_disease_event" appearance="minimal">
+        <label ref="jr:itext('/data/event_based_surveillance2/data_base_record_disease_event:label')"/>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/data_base_record_disease_event:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/data_base_record_disease_event:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/data_base_record_disease_event:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event_based_surveillance2/data_base_record_disease_event:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/event_based_surveillance2/comments_on_currently_systems">
+        <label ref="jr:itext('/data/event_based_surveillance2/comments_on_currently_systems:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/sources_data_surveillance:label')"/>
+      <select1 ref="/data/sources_data_surveillance/exist_official_report_public_health_event" appearance="minimal">
+        <label ref="jr:itext('/data/sources_data_surveillance/exist_official_report_public_health_event:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/exist_official_report_public_health_event:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/exist_official_report_public_health_event:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/exist_official_report_public_health_event:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/exist_official_report_public_health_event:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sources_data_surveillance/rumour_log_availability" appearance="minimal">
+        <label ref="jr:itext('/data/sources_data_surveillance/rumour_log_availability:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/rumour_log_availability:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/rumour_log_availability:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/rumour_log_availability:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/rumour_log_availability:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select ref="/data/sources_data_surveillance/unofficial_source_reportig" appearance="minimal">
+        <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option0')"/>
+          <value>media</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option1')"/>
+          <value>community</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option2')"/>
+          <value>rumours</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option3')"/>
+          <value>blogs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option4')"/>
+          <value>social_media</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option5')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/unofficial_source_reportig:option6')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/sources_data_surveillance/other_unofficial_source_reportig">
+        <label ref="jr:itext('/data/sources_data_surveillance/other_unofficial_source_reportig:label')"/>
+      </input>
+      <select1 ref="/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi" appearance="minimal">
+        <label ref="jr:itext('/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/system_record_unusual_abnormal_events_immedi:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <range ref="/data/sources_data_surveillance/rate_sensitivity_surveillance" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sources_data_surveillance/rate_sensitivity_surveillance:label')"/>
+      </range>
+      <select1 ref="/data/sources_data_surveillance/SOP_for_detect_signal_events" appearance="minimal">
+        <label ref="jr:itext('/data/sources_data_surveillance/SOP_for_detect_signal_events:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/SOP_for_detect_signal_events:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/SOP_for_detect_signal_events:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/SOP_for_detect_signal_events:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sources_data_surveillance/SOP_for_detect_signal_events:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/sources_data_surveillance/comments_data_sources">
+        <label ref="jr:itext('/data/sources_data_surveillance/comments_data_sources:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/data_collection_tool:label')"/>
+      <select ref="/data/data_collection_tool/currently_collection_tool" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:option0')"/>
+          <value>book</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:option1')"/>
+          <value>digital_system</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:option2')"/>
+          <value>paper_based_forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:option3')"/>
+          <value>verbal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool/currently_collection_tool:option4')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_collection_tool/untitled38">
+        <label ref="jr:itext('/data/data_collection_tool/untitled38:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/data_collection_tool2:label')"/>
+      <input ref="/data/data_collection_tool2/how_long_digital_has_been_used">
+        <label ref="jr:itext('/data/data_collection_tool2/how_long_digital_has_been_used:label')"/>
+        <hint ref="jr:itext('/data/data_collection_tool2/how_long_digital_has_been_used:hint')"/>
+      </input>
+      <input ref="/data/data_collection_tool2/days_system_has_fault_past_12months">
+        <label ref="jr:itext('/data/data_collection_tool2/days_system_has_fault_past_12months:label')"/>
+        <hint ref="jr:itext('/data/data_collection_tool2/days_system_has_fault_past_12months:hint')"/>
+      </input>
+      <select1 ref="/data/data_collection_tool2/system_record_gps" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/system_record_gps:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_gps:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_gps:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_gps:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_gps:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collection_tool2/system_record_demographic_data" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/system_record_demographic_data:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_demographic_data:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_demographic_data:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_demographic_data:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_record_demographic_data:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collection_tool2/feedback_of_system" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/feedback_of_system:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/feedback_of_system:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/feedback_of_system:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/feedback_of_system:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/feedback_of_system:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collection_tool2/system_prov_informat_exchange" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/system_prov_informat_exchange:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_prov_informat_exchange:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_prov_informat_exchange:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_prov_informat_exchange:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_prov_informat_exchange:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collection_tool2/system_allow_format_xml_csv_sql" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/system_allow_format_xml_csv_sql:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_allow_format_xml_csv_sql:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_allow_format_xml_csv_sql:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_allow_format_xml_csv_sql:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_allow_format_xml_csv_sql:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collection_tool2/system_use_standard_set_defin" appearance="minimal">
+        <label ref="jr:itext('/data/data_collection_tool2/system_use_standard_set_defin:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_use_standard_set_defin:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_use_standard_set_defin:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_use_standard_set_defin:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collection_tool2/system_use_standard_set_defin:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/data_collection_tool2/comments_on_digital_system">
+        <label ref="jr:itext('/data/data_collection_tool2/comments_on_digital_system:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/data_collector:label')"/>
+      <input ref="/data/data_collector/who_provide_support_to_data_collec">
+        <label ref="jr:itext('/data/data_collector/who_provide_support_to_data_collec:label')"/>
+      </input>
+      <input ref="/data/data_collector/brief_desc_of_proces_mech_through">
+        <label ref="jr:itext('/data/data_collector/brief_desc_of_proces_mech_through:label')"/>
+      </input>
+      <select1 ref="/data/data_collector/data_collec_employed_on_long_term" appearance="minimal">
+        <label ref="jr:itext('/data/data_collector/data_collec_employed_on_long_term:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collector/data_collec_employed_on_long_term:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collector/data_collec_employed_on_long_term:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collector/data_collec_employed_on_long_term:option2')"/>
+          <value>unsure</value>
+        </item>
+      </select1>
+      <input ref="/data/data_collector/avarage_payment_month">
+        <label ref="jr:itext('/data/data_collector/avarage_payment_month:label')"/>
+        <hint ref="jr:itext('/data/data_collector/avarage_payment_month:hint')"/>
+      </input>
+      <input ref="/data/data_collector/currency_datacollector_paid">
+        <label ref="jr:itext('/data/data_collector/currency_datacollector_paid:label')"/>
+        <hint ref="jr:itext('/data/data_collector/currency_datacollector_paid:hint')"/>
+      </input>
+      <input ref="/data/data_collector/comment_on_any_other_issues">
+        <label ref="jr:itext('/data/data_collector/comment_on_any_other_issues:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/verification_response:label')"/>
+      <input ref="/data/verification_response/total_number_suspected_outbreak_past_12months">
+        <label ref="jr:itext('/data/verification_response/total_number_suspected_outbreak_past_12months:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_susp_outb_verified_48hrs">
+        <label ref="jr:itext('/data/verification_response/total_number_susp_outb_verified_48hrs:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_outbreak_international_concern">
+        <label ref="jr:itext('/data/verification_response/total_number_outbreak_international_concern:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_outbre_WHO_24hrs">
+        <label ref="jr:itext('/data/verification_response/total_number_outbre_WHO_24hrs:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_observed_case_greater_threshold">
+        <label ref="jr:itext('/data/verification_response/total_number_observed_case_greater_threshold:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_outbreak_verified_lab">
+        <label ref="jr:itext('/data/verification_response/total_outbreak_verified_lab:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_outbreak_received_renspo">
+        <label ref="jr:itext('/data/verification_response/total_number_outbreak_received_renspo:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_detect_">
+        <label ref="jr:itext('/data/verification_response/total_number_detect_:label')"/>
+      </input>
+      <input ref="/data/verification_response/total_number_detect_next_notificat_level">
+        <label ref="jr:itext('/data/verification_response/total_number_detect_next_notificat_level:label')"/>
+      </input>
+      <select1 ref="/data/verification_response/does_region_has_SOP_collection_sample" appearance="minimal">
+        <label ref="jr:itext('/data/verification_response/does_region_has_SOP_collection_sample:label')"/>
+        <item>
+          <label ref="jr:itext('/data/verification_response/does_region_has_SOP_collection_sample:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/does_region_has_SOP_collection_sample:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/does_region_has_SOP_collection_sample:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/does_region_has_SOP_collection_sample:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/verification_response/region_have_target_timeline" appearance="minimal">
+        <label ref="jr:itext('/data/verification_response/region_have_target_timeline:label')"/>
+        <item>
+          <label ref="jr:itext('/data/verification_response/region_have_target_timeline:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/region_have_target_timeline:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/region_have_target_timeline:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/verification_response/region_have_target_timeline:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/verification_response/additional_obseravtion_improving_surve">
+        <label ref="jr:itext('/data/verification_response/additional_obseravtion_improving_surve:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill:label')"/>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/there_intersectoral_collab:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/pattern_of_sharing_inf_btn_sectors:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill/surve_system_operate_Cross_border:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2:label')"/>
+      <input ref="/data/inter-sectoral_cross_border_surveill2/identify_countries_share_border">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/identify_countries_share_border:label')"/>
+      </input>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/region_established_protocal_cros_border_dis_surv:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/existing_capacity_within_region:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/legal_policy_cross_border:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/routine_pattern_sharing_with_neighbour_countries:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cross_border">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cross_border:label')"/>
+      </input>
+      <input ref="/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cros_border_subse">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/estimated_meeting_within_cros_border_subse:label')"/>
+      </input>
+      <select1 ref="/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak" appearance="minimal">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option2')"/>
+          <value>UK</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/crossBorder_comm_during_outbreak:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <input ref="/data/inter-sectoral_cross_border_surveill2/additional_comm_regarding_intersectoral">
+        <label ref="jr:itext('/data/inter-sectoral_cross_border_surveill2/additional_comm_regarding_intersectoral:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/event_reporting_log:label')"/>
+      <input ref="/data/event_reporting_log/how_many_reported_events_recorded_">
+        <label ref="jr:itext('/data/event_reporting_log/how_many_reported_events_recorded_:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

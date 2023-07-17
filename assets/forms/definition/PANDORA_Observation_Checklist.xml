@@ -1,0 +1,594 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>PANDORA Observation Checklist</h:title>
+    <model>
+      <instance>
+        <data id="build_PANDORA-Observation-Checklist_16676732230900">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <district/>
+          <sect_observation_checklist>
+            <national_guidelines_IDSR>
+              0
+            </national_guidelines_IDSR>
+            <national_health_IS>
+              0
+            </national_health_IS>
+            <outbreak_thresholds>
+              0
+            </outbreak_thresholds>
+            <records_received_weekly>
+              0
+            </records_received_weekly>
+            <records_received_monthly>
+              0
+            </records_received_monthly>
+            <records_rsent_weekly>
+              0
+            </records_rsent_weekly>
+            <records_rsent_monthly>
+              0
+            </records_rsent_monthly>
+            <examine_the_use_data>
+              0
+            </examine_the_use_data>
+            <look_evidence_graphs>
+              0
+            </look_evidence_graphs>
+            <look_evidence_data>
+              0
+            </look_evidence_data>
+            <data_analysis_use_plan>
+              0
+            </data_analysis_use_plan>
+            <plan_targets>
+              0
+            </plan_targets>
+            <documents_showing>
+              0
+            </documents_showing>
+            <monitoring_evaluation>
+              0
+            </monitoring_evaluation>
+            <CCHP>
+              0
+            </CCHP>
+          </sect_observation_checklist>
+          <desktop_laptop_ownership/>
+          <laptop_computers>
+            <desktop_district>
+              0
+            </desktop_district>
+            <acc_desktop_district/>
+            <what_uses_desk_district/>
+            <laptop_district>
+              0
+            </laptop_district>
+            <acc_laptop_district/>
+            <what_uses_lapt_district/>
+          </laptop_computers>
+          <laptop_computers_progr>
+            <desktop_programme>
+              0
+            </desktop_programme>
+            <acc_desktop_programme/>
+            <what_uses_desk_programme/>
+            <laptop_programme>
+              0
+            </laptop_programme>
+            <acc_laptop_programme/>
+            <what_uses_lapt_programme/>
+          </laptop_computers_progr>
+          <laptop_computers_self>
+            <desktop_self>
+              0
+            </desktop_self>
+            <acc_desktop_self/>
+            <what_uses_desk_self/>
+            <laptop_self>
+              0
+            </laptop_self>
+            <acc_laptop_self/>
+            <what_uses_lapt_self/>
+          </laptop_computers_self>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/sect_observation_checklist:label">
+            <value>OBSERVATION CHECKLIST</value>
+          </text>
+          <text id="/data/sect_observation_checklist/national_guidelines_IDSR:label">
+            <value>i. National Guidelines for Integrated Disease Surveillance and Response (2011)</value>
+          </text>
+          <text id="/data/sect_observation_checklist/national_guidelines_IDSR:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/national_health_IS:label">
+            <value>ii. National Health Information Systems Policy Guidelines</value>
+          </text>
+          <text id="/data/sect_observation_checklist/national_health_IS:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/outbreak_thresholds:label">
+            <value>iii. Outbreak Thresholds Documents at the district level</value>
+          </text>
+          <text id="/data/sect_observation_checklist/outbreak_thresholds:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_received_weekly:label">
+            <value>iv. Records of received weekly summary reports from health facilities (Mostly Recently)</value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_received_weekly:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_received_monthly:label">
+            <value>v. Records of the received monthly summary report from health facilities</value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_received_monthly:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_rsent_weekly:label">
+            <value>vi. Records of sent weekly summary reports to a higher level (Mostly Recently)</value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_rsent_weekly:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_rsent_monthly:label">
+            <value>vii. Records of Monthly reports sent to a higher level </value>
+          </text>
+          <text id="/data/sect_observation_checklist/records_rsent_monthly:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/examine_the_use_data:label">
+            <value>viii. Examine the use of data (including trends) toward developing objectives in the health plan</value>
+          </text>
+          <text id="/data/sect_observation_checklist/examine_the_use_data:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/look_evidence_graphs:label">
+            <value>ix. Look for evidence of graphs or tables for case trends, geographical distribution, rates, case fatality rates they have developed</value>
+          </text>
+          <text id="/data/sect_observation_checklist/look_evidence_graphs:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/look_evidence_data:label">
+            <value>x. Look for evidence that data has spurred the district to take actions to improve preventive efforts in the community?</value>
+          </text>
+          <text id="/data/sect_observation_checklist/look_evidence_data:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/data_analysis_use_plan:label">
+            <value>xi. Data analysis and use plan/guidelines</value>
+          </text>
+          <text id="/data/sect_observation_checklist/data_analysis_use_plan:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/plan_targets:label">
+            <value>xii. Plan targets</value>
+          </text>
+          <text id="/data/sect_observation_checklist/plan_targets:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/documents_showing:label">
+            <value>xiii. Document showing trend/pattern of data use </value>
+          </text>
+          <text id="/data/sect_observation_checklist/documents_showing:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/monitoring_evaluation:label">
+            <value>xiv. Monitoring and evaluation plan of data management cycle</value>
+          </text>
+          <text id="/data/sect_observation_checklist/monitoring_evaluation:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/sect_observation_checklist/CCHP:label">
+            <value>xv. Council comprehensive health plan (CCHP) of 2021</value>
+          </text>
+          <text id="/data/sect_observation_checklist/CCHP:hint">
+            <value>Leave 0 if not available and write remarks if available </value>
+          </text>
+          <text id="/data/desktop_laptop_ownership:label">
+            <value>Ownership of Computers and Laptops</value>
+          </text>
+          <text id="/data/desktop_laptop_ownership:option0">
+            <value>District</value>
+          </text>
+          <text id="/data/desktop_laptop_ownership:option1">
+            <value>Programme</value>
+          </text>
+          <text id="/data/desktop_laptop_ownership:option2">
+            <value>Self (Staff)</value>
+          </text>
+          <text id="/data/laptop_computers:label">
+            <value>How many desk top computers and Laptops does the district health team members have access to?   Probe for computer usage: (Writing reports; Entering MTUHA /DHIS2 data; Entering IDSR data; Analysing IDSR; Analysing MTUHA/DHIS2 data; Geographical Information System; Monitoring facility supplies?) </value>
+          </text>
+          <text id="/data/laptop_computers/desktop_district:label">
+            <value>Desktop computers</value>
+          </text>
+          <text id="/data/laptop_computers/desktop_district:hint">
+            <value>Owned by District</value>
+          </text>
+          <text id="/data/laptop_computers/acc_desktop_district:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers/acc_desktop_district:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers/acc_desktop_district:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers/what_uses_desk_district:label">
+            <value>What are the uses?</value>
+          </text>
+          <text id="/data/laptop_computers/laptop_district:label">
+            <value>Laptop computers</value>
+          </text>
+          <text id="/data/laptop_computers/laptop_district:hint">
+            <value>Owned by District</value>
+          </text>
+          <text id="/data/laptop_computers/acc_laptop_district:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers/acc_laptop_district:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers/acc_laptop_district:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers/what_uses_lapt_district:label">
+            <value>What are the uses?</value>
+          </text>
+          <text id="/data/laptop_computers_progr:label">
+            <value>How many desk top computers and Laptops does the district health team members have access to?   Probe for computer usage: (Writing reports; Entering MTUHA /DHIS2 data; Entering IDSR data; Analysing IDSR; Analysing MTUHA/DHIS2 data; Geographical Information System; Monitoring facility supplies?) </value>
+          </text>
+          <text id="/data/laptop_computers_progr/desktop_programme:label">
+            <value>Desktop computers</value>
+          </text>
+          <text id="/data/laptop_computers_progr/desktop_programme:hint">
+            <value>Owned by Programmes</value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_desktop_programme:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_desktop_programme:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_desktop_programme:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers_progr/what_uses_desk_programme:label">
+            <value>What are the uses?</value>
+          </text>
+          <text id="/data/laptop_computers_progr/laptop_programme:label">
+            <value>Laptop computers</value>
+          </text>
+          <text id="/data/laptop_computers_progr/laptop_programme:hint">
+            <value>Owned by Programme</value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_laptop_programme:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_laptop_programme:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers_progr/acc_laptop_programme:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers_progr/what_uses_lapt_programme:label">
+            <value>What are the uses?</value>
+          </text>
+          <text id="/data/laptop_computers_self:label">
+            <value>How many desk top computers and Laptops does the district health team members have access to?   Probe for computer usage: (Writing reports; Entering MTUHA /DHIS2 data; Entering IDSR data; Analysing IDSR; Analysing MTUHA/DHIS2 data; Geographical Information System; Monitoring facility supplies?) </value>
+          </text>
+          <text id="/data/laptop_computers_self/desktop_self:label">
+            <value>Desktop computers</value>
+          </text>
+          <text id="/data/laptop_computers_self/desktop_self:hint">
+            <value>Owned by Staff</value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_desktop_self:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_desktop_self:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_desktop_self:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers_self/what_uses_desk_self:label">
+            <value>What are the uses?</value>
+          </text>
+          <text id="/data/laptop_computers_self/laptop_self:label">
+            <value>Laptop computers</value>
+          </text>
+          <text id="/data/laptop_computers_self/laptop_self:hint">
+            <value>Owned by Satff</value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_laptop_self:label">
+            <value>Accessibility </value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_laptop_self:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/laptop_computers_self/acc_laptop_self:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/laptop_computers_self/what_uses_lapt_self:label">
+            <value>What are the uses?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/district" type="select1"/>
+      <bind nodeset="/data/sect_observation_checklist/national_guidelines_IDSR" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/national_health_IS" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/outbreak_thresholds" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/records_received_weekly" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/records_received_monthly" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/records_rsent_weekly" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/records_rsent_monthly" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/examine_the_use_data" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/look_evidence_graphs" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/look_evidence_data" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/data_analysis_use_plan" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/plan_targets" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/documents_showing" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/monitoring_evaluation" type="string"/>
+      <bind nodeset="/data/sect_observation_checklist/CCHP" type="string"/>
+
+
+      <bind nodeset="/data/desktop_laptop_ownership" type="select"/>
+      <bind nodeset="/data/laptop_computers/desktop_district" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+      <bind nodeset="/data/laptop_computers/acc_desktop_district" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+      <bind nodeset="/data/laptop_computers/what_uses_desk_district" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+      <bind nodeset="/data/laptop_computers/laptop_district" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+      <bind nodeset="/data/laptop_computers/acc_laptop_district" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+      <bind nodeset="/data/laptop_computers/what_uses_lapt_district" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'district'))"/>
+
+
+      <bind nodeset="/data/laptop_computers_progr/desktop_programme" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+      <bind nodeset="/data/laptop_computers_progr/acc_desktop_programme" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+      <bind nodeset="/data/laptop_computers_progr/what_uses_desk_programme" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+      <bind nodeset="/data/laptop_computers_progr/laptop_programme" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+      <bind nodeset="/data/laptop_computers_progr/acc_laptop_programme" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+      <bind nodeset="/data/laptop_computers_progr/what_uses_lapt_programme" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'programme'))"/>
+
+
+      <bind nodeset="/data/laptop_computers_self/desktop_self" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+      <bind nodeset="/data/laptop_computers_self/acc_desktop_self" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+      <bind nodeset="/data/laptop_computers_self/what_uses_desk_self" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+      <bind nodeset="/data/laptop_computers_self/laptop_self" type="int" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+      <bind nodeset="/data/laptop_computers_self/acc_laptop_self" type="select1" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+      <bind nodeset="/data/laptop_computers_self/what_uses_lapt_self" type="string" relevant="(selected(/data/desktop_laptop_ownership, 'self'))"/>
+
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Observation Checklist ',': ',/data/district)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/district">
+      <label ref="jr:itext('/data/district:label')"/>
+      <item>
+        <label ref="jr:itext('/data/district:option0')"/>
+        <value>kinondoni</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option1')"/>
+        <value>ilala</value>
+      </item>
+    </select1>
+    <group ref="/data/sect_observation_checklist" appearance="field-list">
+      <label ref="jr:itext('/data/sect_observation_checklist:label')"/>
+      <input ref="/data/sect_observation_checklist/national_guidelines_IDSR">
+        <label ref="jr:itext('/data/sect_observation_checklist/national_guidelines_IDSR:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/national_guidelines_IDSR:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/national_health_IS">
+        <label ref="jr:itext('/data/sect_observation_checklist/national_health_IS:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/national_health_IS:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/outbreak_thresholds">
+        <label ref="jr:itext('/data/sect_observation_checklist/outbreak_thresholds:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/outbreak_thresholds:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/records_received_weekly">
+        <label ref="jr:itext('/data/sect_observation_checklist/records_received_weekly:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/records_received_weekly:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/records_received_monthly">
+        <label ref="jr:itext('/data/sect_observation_checklist/records_received_monthly:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/records_received_monthly:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/records_rsent_weekly">
+        <label ref="jr:itext('/data/sect_observation_checklist/records_rsent_weekly:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/records_rsent_weekly:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/records_rsent_monthly">
+        <label ref="jr:itext('/data/sect_observation_checklist/records_rsent_monthly:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/records_rsent_monthly:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/examine_the_use_data">
+        <label ref="jr:itext('/data/sect_observation_checklist/examine_the_use_data:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/examine_the_use_data:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/look_evidence_graphs">
+        <label ref="jr:itext('/data/sect_observation_checklist/look_evidence_graphs:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/look_evidence_graphs:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/look_evidence_data">
+        <label ref="jr:itext('/data/sect_observation_checklist/look_evidence_data:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/look_evidence_data:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/data_analysis_use_plan">
+        <label ref="jr:itext('/data/sect_observation_checklist/data_analysis_use_plan:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/data_analysis_use_plan:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/plan_targets">
+        <label ref="jr:itext('/data/sect_observation_checklist/plan_targets:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/plan_targets:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/documents_showing">
+        <label ref="jr:itext('/data/sect_observation_checklist/documents_showing:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/documents_showing:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/monitoring_evaluation">
+        <label ref="jr:itext('/data/sect_observation_checklist/monitoring_evaluation:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/monitoring_evaluation:hint')"/>
+      </input>
+      <input ref="/data/sect_observation_checklist/CCHP">
+        <label ref="jr:itext('/data/sect_observation_checklist/CCHP:label')"/>
+        <hint ref="jr:itext('/data/sect_observation_checklist/CCHP:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/desktop_laptop_ownership">
+      <label ref="jr:itext('/data/desktop_laptop_ownership:label')"/>
+      <item>
+        <label ref="jr:itext('/data/desktop_laptop_ownership:option0')"/>
+        <value>district</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/desktop_laptop_ownership:option1')"/>
+        <value>programme</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/desktop_laptop_ownership:option2')"/>
+        <value>self</value>
+      </item>
+    </select>
+    <group ref="/data/laptop_computers" appearance="field-list">
+      <label ref="jr:itext('/data/laptop_computers:label')"/>
+      <input ref="/data/laptop_computers/desktop_district">
+        <label ref="jr:itext('/data/laptop_computers/desktop_district:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers/desktop_district:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers/acc_desktop_district">
+        <label ref="jr:itext('/data/laptop_computers/acc_desktop_district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers/acc_desktop_district:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers/acc_desktop_district:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers/what_uses_desk_district">
+        <label ref="jr:itext('/data/laptop_computers/what_uses_desk_district:label')"/>
+      </input>
+      <input ref="/data/laptop_computers/laptop_district">
+        <label ref="jr:itext('/data/laptop_computers/laptop_district:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers/laptop_district:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers/acc_laptop_district">
+        <label ref="jr:itext('/data/laptop_computers/acc_laptop_district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers/acc_laptop_district:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers/acc_laptop_district:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers/what_uses_lapt_district">
+        <label ref="jr:itext('/data/laptop_computers/what_uses_lapt_district:label')"/>
+      </input>
+    </group>
+    <group ref="/data/laptop_computers_progr" appearance="field-list">
+      <label ref="jr:itext('/data/laptop_computers_progr:label')"/>
+      <input ref="/data/laptop_computers_progr/desktop_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/desktop_programme:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers_progr/desktop_programme:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers_progr/acc_desktop_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/acc_desktop_programme:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_progr/acc_desktop_programme:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_progr/acc_desktop_programme:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers_progr/what_uses_desk_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/what_uses_desk_programme:label')"/>
+      </input>
+      <input ref="/data/laptop_computers_progr/laptop_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/laptop_programme:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers_progr/laptop_programme:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers_progr/acc_laptop_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/acc_laptop_programme:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_progr/acc_laptop_programme:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_progr/acc_laptop_programme:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers_progr/what_uses_lapt_programme">
+        <label ref="jr:itext('/data/laptop_computers_progr/what_uses_lapt_programme:label')"/>
+      </input>
+    </group>
+    <group ref="/data/laptop_computers_self" appearance="field-list">
+      <label ref="jr:itext('/data/laptop_computers_self:label')"/>
+      <input ref="/data/laptop_computers_self/desktop_self">
+        <label ref="jr:itext('/data/laptop_computers_self/desktop_self:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers_self/desktop_self:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers_self/acc_desktop_self">
+        <label ref="jr:itext('/data/laptop_computers_self/acc_desktop_self:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_self/acc_desktop_self:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_self/acc_desktop_self:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers_self/what_uses_desk_self">
+        <label ref="jr:itext('/data/laptop_computers_self/what_uses_desk_self:label')"/>
+      </input>
+      <input ref="/data/laptop_computers_self/laptop_self">
+        <label ref="jr:itext('/data/laptop_computers_self/laptop_self:label')"/>
+        <hint ref="jr:itext('/data/laptop_computers_self/laptop_self:hint')"/>
+      </input>
+      <select1 ref="/data/laptop_computers_self/acc_laptop_self">
+        <label ref="jr:itext('/data/laptop_computers_self/acc_laptop_self:label')"/>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_self/acc_laptop_self:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/laptop_computers_self/acc_laptop_self:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/laptop_computers_self/what_uses_lapt_self">
+        <label ref="jr:itext('/data/laptop_computers_self/what_uses_lapt_self:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

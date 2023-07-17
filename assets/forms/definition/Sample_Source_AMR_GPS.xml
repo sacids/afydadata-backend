@@ -1,0 +1,285 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Sample Source AMR GPS</h:title>
+    <model>
+      <instance>
+        <data id="build_Sample-Source-AMR-GPS_16076760963">
+          <meta>
+            <instanceID/>
+          </meta>
+          <district/>
+          <wards>
+            <ilala_wards/>
+            <kino_wards/>
+            <kisarawe_wards/>
+          </wards>
+          <sampling_site>
+            <sample_site_jangwani/>
+          </sampling_site>
+          <sample_type>
+            <vet_sewage_effluent>
+              Veterinary sewage and effluent
+            </vet_sewage_effluent>
+            <soil_from_veg_farm/>
+          </sample_type>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/district:option2">
+            <value>Kisarawe</value>
+          </text>
+          <text id="/data/wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/ilala_wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option0">
+            <value>Jangwani</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option1">
+            <value>Tabata</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option2">
+            <value>Upanga west</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option3">
+            <value>Kipawa</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option4">
+            <value>Ukonga</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option5">
+            <value>Vingunguti</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option6">
+            <value>Kinyerezi</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option7">
+            <value>Segerea</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option8">
+            <value>Buguruni</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option9">
+            <value>Pugu Station</value>
+          </text>
+          <text id="/data/wards/ilala_wards:option10">
+            <value>Gongolamboto</value>
+          </text>
+          <text id="/data/wards/kino_wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/kino_wards:option0">
+            <value>Kigogo</value>
+          </text>
+          <text id="/data/wards/kino_wards:option1">
+            <value>Mzimuni</value>
+          </text>
+          <text id="/data/wards/kino_wards:option2">
+            <value>Magomeni</value>
+          </text>
+          <text id="/data/wards/kino_wards:option3">
+            <value>Hananasif</value>
+          </text>
+          <text id="/data/wards/kisarawe_wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/kisarawe_wards:option0">
+            <value>Kisarawe</value>
+          </text>
+          <text id="/data/wards/kisarawe_wards:option1">
+            <value>Kazimzumbwi</value>
+          </text>
+          <text id="/data/sampling_site:label">
+            <value>Sampling site</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:label">
+            <value>Jangwani Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option0">
+            <value>Health care settings</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option1">
+            <value>Crop farms</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option2">
+            <value>Factory</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option3">
+            <value>Others (River)</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option4">
+            <value>Others (Fish)</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option5">
+            <value>Others (sediments)</value>
+          </text>
+          <text id="/data/sample_type:label">
+            <value>Sample Typke</value>
+          </text>
+          <text id="/data/sample_type/vet_sewage_effluent:label">
+            <value>Veterinary sewage and effluent</value>
+          </text>
+          <text id="/data/sample_type/soil_from_veg_farm:label">
+            <value>Soils from vegetable farm</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/district" type="select1"/>
+      <bind nodeset="/data/wards/ilala_wards" type="select1" relevant="(selected(/data/district, 'ilala'))"/>
+      <bind nodeset="/data/wards/kino_wards" type="select1" relevant="(selected(/data/district, 'kinondoni'))"/>
+      <bind nodeset="/data/wards/kisarawe_wards" type="select1" relevant="(selected(/data/district, 'kisarawe'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_jangwani" type="select1" relevant="(selected(/data/wards/ilala_wards, 'jangwani'))"/>
+      <bind nodeset="/data/sample_type/vet_sewage_effluent" type="string" readonly="true()" relevant="(selected(/data/sampling_site/sample_site_jangwani, 'health_care_settings'))"/>
+      <bind nodeset="/data/sample_type/soil_from_veg_farm" type="string" readonly="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/district">
+      <label ref="jr:itext('/data/district:label')"/>
+      <item>
+        <label ref="jr:itext('/data/district:option0')"/>
+        <value>ilala</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option1')"/>
+        <value>kinondoni</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option2')"/>
+        <value>kisarawe</value>
+      </item>
+    </select1>
+    <group ref="/data/wards" appearance="field-list">
+      <label ref="jr:itext('/data/wards:label')"/>
+      <select1 ref="/data/wards/ilala_wards">
+        <label ref="jr:itext('/data/wards/ilala_wards:label')"/>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option0')"/>
+          <value>jangwani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option1')"/>
+          <value>tabata</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option2')"/>
+          <value>panga_west</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option3')"/>
+          <value>kipawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option4')"/>
+          <value>ukonga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option5')"/>
+          <value>vingunguti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option6')"/>
+          <value>kinyerezi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option7')"/>
+          <value>segerea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option8')"/>
+          <value>buguruni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option9')"/>
+          <value>pugu_station</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/ilala_wards:option10')"/>
+          <value>gongolamboto</value>
+        </item>
+      </select1>
+      <select1 ref="/data/wards/kino_wards">
+        <label ref="jr:itext('/data/wards/kino_wards:label')"/>
+        <item>
+          <label ref="jr:itext('/data/wards/kino_wards:option0')"/>
+          <value>kigogo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/kino_wards:option1')"/>
+          <value>mzimuni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/kino_wards:option2')"/>
+          <value>magomeni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/kino_wards:option3')"/>
+          <value>hananasif</value>
+        </item>
+      </select1>
+      <select1 ref="/data/wards/kisarawe_wards">
+        <label ref="jr:itext('/data/wards/kisarawe_wards:label')"/>
+        <item>
+          <label ref="jr:itext('/data/wards/kisarawe_wards:option0')"/>
+          <value>kisarawe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/kisarawe_wards:option1')"/>
+          <value>kazimzumbwi</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/sampling_site" appearance="field-list">
+      <label ref="jr:itext('/data/sampling_site:label')"/>
+      <select1 ref="/data/sampling_site/sample_site_jangwani">
+        <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option0')"/>
+          <value>health_care_settings</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option1')"/>
+          <value>crop_farms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option2')"/>
+          <value>factory</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option3')"/>
+          <value>others_river</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option4')"/>
+          <value>others_fish</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option5')"/>
+          <value>others_sediments</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/sample_type" appearance="field-list">
+      <label ref="jr:itext('/data/sample_type:label')"/>
+      <input ref="/data/sample_type/vet_sewage_effluent">
+        <label ref="jr:itext('/data/sample_type/vet_sewage_effluent:label')"/>
+      </input>
+      <input ref="/data/sample_type/soil_from_veg_farm">
+        <label ref="jr:itext('/data/sample_type/soil_from_veg_farm:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

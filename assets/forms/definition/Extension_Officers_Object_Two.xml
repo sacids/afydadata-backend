@@ -1,0 +1,1091 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Extension Off Obj Two</h:title>
+    <model>
+      <instance>
+        <data id="build_Extension-Officers-Obj-Two_15770872418888011">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <resp_particular>
+            <name/>
+            <sex/>
+            <telNo/>
+            <region/>
+            <district/>
+            <wards/>
+            <village/>
+            <date/>
+          </resp_particular>
+          <kept_records/>
+          <kept_records_other/>
+          <what_do_meat_insp_records/>
+          <what_do_meat_insp_records_other/>
+          <reason_prep_meat_inspe_report/>
+          <reason_prep_meat_inspe_report_other/>
+          <reason_keep_ward/>
+          <reason_keep_ward_other/>
+          <if_dont_see_importance/>
+          <info_supposed_to_be_in_form_if_yes/>
+          <info_supposed_to_be_in_form_if_yes_other/>
+          <how_do_you_prep_report/>
+          <how_do_you_prep_report_other/>
+          <info_supposed_to_be_in_form_if_prep_way_think/>
+          <info_supposed_to_be_in_form_if_prep_way_think_other/>
+          <what_do_meat_inspection_report/>
+          <what_do_meat_inspection_report_other/>
+          <how_send_report_respective/>
+          <how_send_report_respective_other/>
+          <reason_opted_how_send_report/>
+          <reason_opted_how_send_report_other/>
+          <knowing_reprot_reach_respective/>
+          <knowing_reprot_reach_respective_other>
+            <knowing_reprot_reach_respective_other1/>
+            <knowing_reprot_reach_respective_other2/>
+          </knowing_reprot_reach_respective_other>
+          <frequently_rpeorting/>
+          <frequently_rpeorting_other/>
+          <facilitated_in_prep_report/>
+          <who_facilitated_you_send_submi/>
+          <who_facilitated_you_send_submi_other/>
+          <untitled64/>
+          <submit_report_on_time/>
+          <reason_for_delay/>
+          <reason_for_delay_other>
+            <reason_for_delay_other1/>
+            <reason_for_delay_other2/>
+          </reason_for_delay_other>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/resp_particular:label">
+            <value>Respondent Particular</value>
+          </text>
+          <text id="/data/resp_particular/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/resp_particular/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/resp_particular/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/resp_particular/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/resp_particular/telNo:label">
+            <value>Telephone Number</value>
+          </text>
+          <text id="/data/resp_particular/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/resp_particular/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/resp_particular/wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/resp_particular/village:label">
+            <value>village</value>
+          </text>
+          <text id="/data/resp_particular/date:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/kept_records:label">
+            <value>1. Where do you keep records for diagnosed cases after meat inspection?</value>
+          </text>
+          <text id="/data/kept_records:option0">
+            <value>Meat inspection record book </value>
+          </text>
+          <text id="/data/kept_records:option1">
+            <value>In ward/village record book </value>
+          </text>
+          <text id="/data/kept_records:option2">
+            <value>On a piece of paper</value>
+          </text>
+          <text id="/data/kept_records:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/kept_records:option4">
+            <value>I don't Keep records</value>
+          </text>
+          <text id="/data/kept_records_other:label">
+            <value>Other mechanism of keeping records for diagnosed cases</value>
+          </text>
+          <text id="/data/what_do_meat_insp_records:label">
+            <value>2. What do you do with meat/pork inspection records? </value>
+          </text>
+          <text id="/data/what_do_meat_insp_records:option0">
+            <value>Prepare meat inspection report</value>
+          </text>
+          <text id="/data/what_do_meat_insp_records:option1">
+            <value>Just keep them in the ward office</value>
+          </text>
+          <text id="/data/what_do_meat_insp_records:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/what_do_meat_insp_records_other:label">
+            <value>What other ways of dealing with meat/pork inspection records</value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report:label">
+            <value>3. If you prepare meat inspection report which of the following could be the reason </value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report:option0">
+            <value>I am obliged to do so as one of my responsibilities and I am facilitated</value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report:option1">
+            <value>I am obliged to do so as one of my responsibilities although I am not always facilitated</value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report:option2">
+            <value>I am obliged to do so as one of my responsibilities although I am not facilitated at all</value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/reason_prep_meat_inspe_report_other:label">
+            <value>Other reason of preparing meat inspection report</value>
+          </text>
+          <text id="/data/reason_keep_ward:label">
+            <value>4. If you just keep them in ward office which of the following could be the reason</value>
+          </text>
+          <text id="/data/reason_keep_ward:option0">
+            <value>I don’t see the importance of preparing the report</value>
+          </text>
+          <text id="/data/reason_keep_ward:option1">
+            <value>I am not facilitated and I can’t use my own money to buy stationaries for such a  purpose</value>
+          </text>
+          <text id="/data/reason_keep_ward:option2">
+            <value>No one has ever demanded the report from me </value>
+          </text>
+          <text id="/data/reason_keep_ward:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/reason_keep_ward_other:label">
+            <value>Other reasons for Q4</value>
+          </text>
+          <text id="/data/if_dont_see_importance:label">
+            <value>5. If your answer in above is ‘Prepare meat inspection report’, do you have a specific format (form) for reporting porcine cysticercosis  </value>
+          </text>
+          <text id="/data/if_dont_see_importance:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/if_dont_see_importance:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:label">
+            <value>6. If your answer in question above is YES choose from the list provided below, the information(s) that is supposed to be filled in your disease reporting form </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option0">
+            <value>Date</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option1">
+            <value>Species name </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option2">
+            <value>Age of the animal</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option3">
+            <value>Sex</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option4">
+            <value>Place of origin</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option5">
+            <value>Type of keeping system </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option6">
+            <value>Disease status </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option7">
+            <value>Decision</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option8">
+            <value>Action taken</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_yes_other:label">
+            <value>Other reasons for Q6</value>
+          </text>
+          <text id="/data/how_do_you_prep_report:label">
+            <value>7. How do you prepare the report</value>
+          </text>
+          <text id="/data/how_do_you_prep_report:hint">
+            <value></value>
+          </text>
+          <text id="/data/how_do_you_prep_report:option0">
+            <value>I prepare it the way I think is the best </value>
+          </text>
+          <text id="/data/how_do_you_prep_report:option1">
+            <value>I use an abattoir report surveillance forms</value>
+          </text>
+          <text id="/data/how_do_you_prep_report:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_do_you_prep_report_other:label">
+            <value>Other reasons for Q7</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:label">
+            <value>8. If your answer in question 7 above is ‘I prepare it the way I think is the best ’ ,choose from the list provided below, the information(s) that is supposed to be filled in your disease reporting form </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option0">
+            <value>Date</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option1">
+            <value>Species name </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option2">
+            <value>Age of the animal</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option3">
+            <value>Sex</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option4">
+            <value>Place of origin</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option5">
+            <value>Type of keeping system </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option6">
+            <value>Disease status </value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option7">
+            <value>Decision</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option8">
+            <value>Action taken</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/info_supposed_to_be_in_form_if_prep_way_think_other:label">
+            <value>Other reasons for Q8</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:label">
+            <value>9. What do you do with meat inspection report you have prepared?</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:option0">
+            <value>Keep them in the ward office</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:option1">
+            <value>Send them to the District Livestock and Fisheries Office</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:option2">
+            <value>Give it to the ward executive officer </value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:option3">
+            <value>I do nothing</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/what_do_meat_inspection_report_other:label">
+            <value>Other reasons for Q9</value>
+          </text>
+          <text id="/data/how_send_report_respective:label">
+            <value>10 .How do you send the report to the respective office</value>
+          </text>
+          <text id="/data/how_send_report_respective:hint">
+            <value>You are provided with a list of options (or means) with which you use to send the       report to the respective office, choose the option (or mean) you normally use</value>
+          </text>
+          <text id="/data/how_send_report_respective:option0">
+            <value>Using phone text message </value>
+          </text>
+          <text id="/data/how_send_report_respective:option1">
+            <value>Using an email/any electronic system</value>
+          </text>
+          <text id="/data/how_send_report_respective:option2">
+            <value>Use any bodaboda/familiar traveller heading  to district head quarters </value>
+          </text>
+          <text id="/data/how_send_report_respective:option3">
+            <value>Using any civil servant going to town or District Council Office (DED)</value>
+          </text>
+          <text id="/data/how_send_report_respective:option4">
+            <value>I send them in person</value>
+          </text>
+          <text id="/data/how_send_report_respective:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_send_report_respective_other:label">
+            <value>Other reasons for Q10</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report:label">
+            <value>11. Which of the following could be the reason for an answer you have opted for in question 10 above?</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report:option0">
+            <value>It is the cheapest means I can afford because I am not facilitated</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report:option1">
+            <value>It is the only means by which I have to send and have been full facilitated in that aspect</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report:option2">
+            <value>I am not facilitated by any means and I have to use any option at hand at each particular time</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/reason_opted_how_send_report_other:label">
+            <value>Other reason for Q11</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:label">
+            <value>12.	How do you know that the report has reached the respective office</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option0">
+            <value>I usually call to ask </value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option1">
+            <value>They call to acknowledge the receipt of the report</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option2">
+            <value>They write a text message  </value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option3">
+            <value>They write an email to acknowledge the receipt of the report</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option4">
+            <value>They neither call nor write to acknowledge receipt of the report and I don’t call either</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective_other:label">
+            <value>Other mechanism of knowing report has been reached </value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/frequently_rpeorting:label">
+            <value>13 How frequently do you send the report?</value>
+          </text>
+          <text id="/data/frequently_rpeorting:option0">
+            <value>Daily</value>
+          </text>
+          <text id="/data/frequently_rpeorting:option1">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/frequently_rpeorting:option2">
+            <value>Monthly</value>
+          </text>
+          <text id="/data/frequently_rpeorting:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/frequently_rpeorting_other:label">
+            <value>How frequently do you send report apart from listed above</value>
+          </text>
+          <text id="/data/facilitated_in_prep_report:label">
+            <value>14. Are you facilitated in preparing and/or submission of reports</value>
+          </text>
+          <text id="/data/facilitated_in_prep_report:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/facilitated_in_prep_report:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:label">
+            <value>15. who facilitates you in report preparation and submission?</value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:option0">
+            <value>District Livestock Office  </value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:option1">
+            <value>Ministry of livestock and fisheries development </value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:option2">
+            <value>None Governmental Organisation</value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi:option4">
+            <value>Not Facilitated</value>
+          </text>
+          <text id="/data/who_facilitated_you_send_submi_other:label">
+            <value>Where do you get other facilitation on report preparation and submission</value>
+          </text>
+          <text id="/data/untitled64:label">
+            <value>16)	If your answer in question 15 is ‘District Livestock Office  ’ choose from a list of statements below, the aspects in which you are facilitated </value>
+          </text>
+          <text id="/data/untitled64:option0">
+            <value>Given stationeries</value>
+          </text>
+          <text id="/data/untitled64:option1">
+            <value>Air time bundles</value>
+          </text>
+          <text id="/data/untitled64:option2">
+            <value>Given motorcycle</value>
+          </text>
+          <text id="/data/untitled64:option3">
+            <value>Fuel</value>
+          </text>
+          <text id="/data/untitled64:option4">
+            <value>Given portable computer</value>
+          </text>
+          <text id="/data/untitled64:option5">
+            <value>Tablets</value>
+          </text>
+          <text id="/data/untitled64:option6">
+            <value>Given Smart phones</value>
+          </text>
+          <text id="/data/untitled64:option7">
+            <value>Given internet bundle</value>
+          </text>
+          <text id="/data/untitled64:option8">
+            <value>Given transport fare to send the report to DLFO/TLFO Office</value>
+          </text>
+          <text id="/data/untitled64:option9">
+            <value>Given per diem/extra duty on sending the report to DLFO/TLFO Office</value>
+          </text>
+          <text id="/data/submit_report_on_time:label">
+            <value>17. Do you always submit the reports on time?</value>
+          </text>
+          <text id="/data/submit_report_on_time:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/submit_report_on_time:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reason_for_delay:label">
+            <value>18. What is (are) the reason(s) for the delay</value>
+          </text>
+          <text id="/data/reason_for_delay:option0">
+            <value>I am very occupied by field activities  </value>
+          </text>
+          <text id="/data/reason_for_delay:option1">
+            <value>I hardly get time to write a report</value>
+          </text>
+          <text id="/data/reason_for_delay:option2">
+            <value>I am not facilitated by any means </value>
+          </text>
+          <text id="/data/reason_for_delay:option3">
+            <value>I don’t see why should I bother to prepare it early and send on time</value>
+          </text>
+          <text id="/data/reason_for_delay:option4">
+            <value>No one cares whether I send on time or I don’t send all</value>
+          </text>
+          <text id="/data/reason_for_delay:option5">
+            <value>I don’t get anyone to help me send the report </value>
+          </text>
+          <text id="/data/reason_for_delay:option6">
+            <value>The office head quarter is very far away for me to send report on time</value>
+          </text>
+          <text id="/data/reason_for_delay:option7">
+            <value>Others</value>
+          </text>
+          <text id="/data/reason_for_delay_other:label">
+            <value>Other reasons for delaying to submit</value>
+          </text>
+          <text id="/data/reason_for_delay_other/reason_for_delay_other1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/reason_for_delay_other/reason_for_delay_other2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/resp_particular/name" type="string" required="true()" jr:requiredMsg="Name is required"/>
+      <bind nodeset="/data/resp_particular/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/resp_particular/telNo" type="decimal" required="true()" jr:requiredMsg="Telephone No. is required"/>
+      <bind nodeset="/data/resp_particular/region" type="string" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/resp_particular/district" type="string" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/resp_particular/wards" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/resp_particular/village" type="string" required="true()" jr:requiredMsg="village is required"/>
+      <bind nodeset="/data/resp_particular/date" type="date" required="true()" jr:requiredMsg="Date is required"/>
+      <bind nodeset="/data/kept_records" type="select1" required="true()" jr:requiredMsg="Qn1. is required"/>
+      <bind nodeset="/data/kept_records_other" type="string" relevant="(selected(/data/kept_records, 'other'))"/>
+      <bind nodeset="/data/what_do_meat_insp_records" type="select1" relevant="not(selected(/data/kept_records, 'i_dont_records'))" required="true()" jr:requiredMsg="Qn2. is required"/>
+      <bind nodeset="/data/what_do_meat_insp_records_other" type="string" relevant="(selected(/data/what_do_meat_insp_records, 'other'))"/>
+      <bind nodeset="/data/reason_prep_meat_inspe_report" type="select1" required="true()" jr:requiredMsg="Qn3. is required" relevant="(selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+      <bind nodeset="/data/reason_prep_meat_inspe_report_other" type="string" relevant="(selected(/data/reason_prep_meat_inspe_report, 'other'))"/>
+      <bind nodeset="/data/reason_keep_ward" type="select1" required="true()" jr:requiredMsg="Qn4. is required" relevant="(selected(/data/what_do_meat_insp_records, 'keep_ward_office'))"/>
+
+      <bind nodeset="/data/reason_keep_ward_other" type="string" relevant="(selected(/data/reason_keep_ward, 'other'))"/>
+
+      <bind nodeset="/data/if_dont_see_importance" type="select1" required="true()" jr:requiredMsg="Qn5. is required" relevant="(selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+
+      <bind nodeset="/data/info_supposed_to_be_in_form_if_yes" type="select" required="true()" jr:requiredMsg="Qn6. is required" relevant="(selected(/data/if_dont_see_importance, 'yes'))"/>
+
+      <bind nodeset="/data/info_supposed_to_be_in_form_if_yes_other" type="string" relevant="(selected(/data/info_supposed_to_be_in_form_if_yes, 'other'))"/>
+
+      <bind nodeset="/data/how_do_you_prep_report" type="select1" required="true()" jr:requiredMsg="Qn7. is required" relevant="(selected(/data/if_dont_see_importance, 'no'))"/>
+
+      <bind nodeset="/data/how_do_you_prep_report_other" type="string" relevant="(selected(/data/how_do_you_prep_report, 'other'))"/>
+
+      <bind nodeset="/data/info_supposed_to_be_in_form_if_prep_way_think" type="select" required="true()" jr:requiredMsg="Qn8. is required" relevant="(selected(/data/how_do_you_prep_report, 'prepare_in_way_i_think_best'))"/>
+
+      <bind nodeset="/data/info_supposed_to_be_in_form_if_prep_way_think_other" type="string" relevant="(selected(/data/info_supposed_to_be_in_form_if_prep_way_think, 'other'))"/>
+
+      <bind nodeset="/data/what_do_meat_inspection_report" type="select1" required="true()" jr:requiredMsg="Qn9. is required" relevant="(selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+      <bind nodeset="/data/what_do_meat_inspection_report_other" type="string" relevant="(selected(/data/what_do_meat_inspection_report, 'other'))"/>
+
+      <bind nodeset="/data/how_send_report_respective" type="select1" required="true()" jr:requiredMsg="Qn10. is required" relevant="(selected(/data/what_do_meat_inspection_report, 'send_to_district')) and (selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+
+      <bind nodeset="/data/how_send_report_respective_other" type="string" relevant="(selected(/data/how_send_report_respective, 'other'))"/>
+
+      <bind nodeset="/data/reason_opted_how_send_report" type="select1" required="true()" jr:requiredMsg="Qn11. is required" relevant="(selected(/data/how_send_report_respective, 'phone_txt')) or (selected(/data/how_send_report_respective, 'email_electronic')) or (selected(/data/how_send_report_respective, 'use_public_bodaboda')) or (selected(/data/how_send_report_respective, 'use_civil_sevarnt')) or (selected(/data/how_send_report_respective, 'send_in_person')) or (selected(/data/how_send_report_respective, 'other')) and (selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+
+      <bind nodeset="/data/reason_opted_how_send_report_other" type="string" relevant="(selected(/data/reason_opted_how_send_report, 'other'))"/>
+
+      <bind nodeset="/data/knowing_reprot_reach_respective" type="select" required="true()" jr:requiredMsg="Qn12. is required" relevant="(selected(/data/what_do_meat_inspection_report, 'send_to_district')) and (selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+
+      <bind nodeset="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other1" type="string" relevant="(selected(/data/knowing_reprot_reach_respective, 'other'))"/>
+      <bind nodeset="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other2" type="string" relevant="(selected(/data/knowing_reprot_reach_respective, 'other'))"/>
+
+      <bind nodeset="/data/frequently_rpeorting" type="select1" required="true()" jr:requiredMsg="Qn13. is required" relevant="(selected(/data/what_do_meat_inspection_report, 'send_to_district')) and (selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+
+      <bind nodeset="/data/frequently_rpeorting_other" type="string" relevant="(selected(/data/frequently_rpeorting, 'other'))"/>
+
+      <bind nodeset="/data/facilitated_in_prep_report" type="select1" relevant="(selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))" required="true()" jr:requiredMsg="Qn14. is required" />
+
+      <bind nodeset="/data/who_facilitated_you_send_submi" type="select" required="true()" jr:requiredMsg="Qn15. is required" relevant="(selected(/data/facilitated_in_prep_report, 'yes'))" />
+      <bind nodeset="/data/who_facilitated_you_send_submi_other" type="string" relevant="(selected(/data/who_facilitated_you_send_submi, 'other'))"/>
+
+      <bind nodeset="/data/untitled64" type="select" required="true()" jr:requiredMsg="Qn16. is required" relevant="not(selected(/data/who_facilitated_you_send_submi, 'not_facilitated'))" />
+      <bind nodeset="/data/submit_report_on_time" type="select1" required="true()" jr:requiredMsg="Qn17. is required" relevant="(selected(/data/what_do_meat_inspection_report, 'send_to_district')) and (selected(/data/what_do_meat_insp_records, 'prep_meat_insp_report'))"/>
+      <bind nodeset="/data/reason_for_delay" type="select" required="true()" jr:requiredMsg="Qn18. is required" relevant="(selected(/data/submit_report_on_time, 'no'))"/>
+      <bind nodeset="/data/reason_for_delay_other/reason_for_delay_other1" type="string" relevant="(selected(/data/reason_for_delay, 'other'))"/>
+      <bind nodeset="/data/reason_for_delay_other/reason_for_delay_other2" type="string" relevant="(selected(/data/reason_for_delay, 'other'))"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Extension Offi Obj 2 ',': ',/data/resp_particular/telNo)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/resp_particular" appearance="field-list">
+      <label ref="jr:itext('/data/resp_particular:label')"/>
+      <input ref="/data/resp_particular/name">
+        <label ref="jr:itext('/data/resp_particular/name:label')"/>
+      </input>
+      <select1 ref="/data/resp_particular/sex">
+        <label ref="jr:itext('/data/resp_particular/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/resp_particular/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/resp_particular/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/resp_particular/telNo">
+        <label ref="jr:itext('/data/resp_particular/telNo:label')"/>
+      </input>
+      <input ref="/data/resp_particular/region">
+        <label ref="jr:itext('/data/resp_particular/region:label')"/>
+      </input>
+      <input ref="/data/resp_particular/district">
+        <label ref="jr:itext('/data/resp_particular/district:label')"/>
+      </input>
+      <input ref="/data/resp_particular/wards">
+        <label ref="jr:itext('/data/resp_particular/wards:label')"/>
+      </input>
+      <input ref="/data/resp_particular/village">
+        <label ref="jr:itext('/data/resp_particular/village:label')"/>
+      </input>
+      <input ref="/data/resp_particular/date">
+        <label ref="jr:itext('/data/resp_particular/date:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/kept_records">
+      <label ref="jr:itext('/data/kept_records:label')"/>
+      <item>
+        <label ref="jr:itext('/data/kept_records:option0')"/>
+        <value>meat_insp_record</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kept_records:option1')"/>
+        <value>village_record_book</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kept_records:option2')"/>
+        <value>piece_of_paper</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kept_records:option3')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/kept_records:option4')"/>
+        <value>i_dont_records</value>
+      </item>
+    </select1>
+    <input ref="/data/kept_records_other">
+      <label ref="jr:itext('/data/kept_records_other:label')"/>
+    </input>
+    <select1 ref="/data/what_do_meat_insp_records">
+      <label ref="jr:itext('/data/what_do_meat_insp_records:label')"/>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_insp_records:option0')"/>
+        <value>prep_meat_insp_report</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_insp_records:option1')"/>
+        <value>keep_ward_office</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_insp_records:option2')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/what_do_meat_insp_records_other">
+      <label ref="jr:itext('/data/what_do_meat_insp_records_other:label')"/>
+    </input>
+    <select1 ref="/data/reason_prep_meat_inspe_report">
+      <label ref="jr:itext('/data/reason_prep_meat_inspe_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_prep_meat_inspe_report:option0')"/>
+        <value>obliged_to_do_so</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_prep_meat_inspe_report:option1')"/>
+        <value>obliged_to_do_so_facilitated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_prep_meat_inspe_report:option2')"/>
+        <value>obliged_to_do_so_not_facilitated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_prep_meat_inspe_report:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/reason_prep_meat_inspe_report_other">
+      <label ref="jr:itext('/data/reason_prep_meat_inspe_report_other:label')"/>
+    </input>
+    <select1 ref="/data/reason_keep_ward">
+      <label ref="jr:itext('/data/reason_keep_ward:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_keep_ward:option0')"/>
+        <value>dont_see_importance</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_keep_ward:option1')"/>
+        <value>not_facilitated_cant_use_own</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_keep_ward:option2')"/>
+        <value>no_one_demanded</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_keep_ward:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/reason_keep_ward_other">
+      <label ref="jr:itext('/data/reason_keep_ward_other:label')"/>
+    </input>
+    <select1 ref="/data/if_dont_see_importance">
+      <label ref="jr:itext('/data/if_dont_see_importance:label')"/>
+      <item>
+        <label ref="jr:itext('/data/if_dont_see_importance:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_dont_see_importance:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/info_supposed_to_be_in_form_if_yes">
+      <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:label')"/>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option0')"/>
+        <value>date</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option1')"/>
+        <value>species_name</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option2')"/>
+        <value>age_of_the_animal</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option3')"/>
+        <value>sex</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option4')"/>
+        <value>place_of_origin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option5')"/>
+        <value>type_keeping_system</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option6')"/>
+        <value>disease_status</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option7')"/>
+        <value>decision</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option8')"/>
+        <value>action_taken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes:option9')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/info_supposed_to_be_in_form_if_yes_other">
+      <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_yes_other:label')"/>
+    </input>
+    <select1 ref="/data/how_do_you_prep_report">
+      <label ref="jr:itext('/data/how_do_you_prep_report:label')"/>
+      <hint ref="jr:itext('/data/how_do_you_prep_report:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/how_do_you_prep_report:option0')"/>
+        <value>prepare_in_way_i_think_best</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_you_prep_report:option1')"/>
+        <value>use_abattoir_report</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_you_prep_report:option2')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/how_do_you_prep_report_other">
+      <label ref="jr:itext('/data/how_do_you_prep_report_other:label')"/>
+    </input>
+    <select ref="/data/info_supposed_to_be_in_form_if_prep_way_think">
+      <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:label')"/>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option0')"/>
+        <value>date</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option1')"/>
+        <value>species_name</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option2')"/>
+        <value>age_of_the_animal</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option3')"/>
+        <value>sex</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option4')"/>
+        <value>place_of_origin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option5')"/>
+        <value>type_keeping_system</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option6')"/>
+        <value>disease_status</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option7')"/>
+        <value>decision</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option8')"/>
+        <value>action_taken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think:option9')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/info_supposed_to_be_in_form_if_prep_way_think_other">
+      <label ref="jr:itext('/data/info_supposed_to_be_in_form_if_prep_way_think_other:label')"/>
+    </input>
+    <select1 ref="/data/what_do_meat_inspection_report">
+      <label ref="jr:itext('/data/what_do_meat_inspection_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_inspection_report:option0')"/>
+        <value>keep_in_ward_office</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_inspection_report:option1')"/>
+        <value>send_to_district</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_inspection_report:option2')"/>
+        <value>give_it_ward_execu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_inspection_report:option3')"/>
+        <value>i_do_nothing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_meat_inspection_report:option4')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/what_do_meat_inspection_report_other">
+      <label ref="jr:itext('/data/what_do_meat_inspection_report_other:label')"/>
+    </input>
+    <select1 ref="/data/how_send_report_respective">
+      <label ref="jr:itext('/data/how_send_report_respective:label')"/>
+      <hint ref="jr:itext('/data/how_send_report_respective:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option0')"/>
+        <value>phone_txt</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option1')"/>
+        <value>email_electronic</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option2')"/>
+        <value>use_public_bodaboda</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option3')"/>
+        <value>use_civil_sevarnt</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option4')"/>
+        <value>send_in_person</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option5')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/how_send_report_respective_other">
+      <label ref="jr:itext('/data/how_send_report_respective_other:label')"/>
+    </input>
+    <select1 ref="/data/reason_opted_how_send_report">
+      <label ref="jr:itext('/data/reason_opted_how_send_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_opted_how_send_report:option0')"/>
+        <value>the_cheapest</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_opted_how_send_report:option1')"/>
+        <value>only_means</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_opted_how_send_report:option2')"/>
+        <value>iam_not_facilitated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_opted_how_send_report:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/reason_opted_how_send_report_other">
+      <label ref="jr:itext('/data/reason_opted_how_send_report_other:label')"/>
+    </input>
+    <select ref="/data/knowing_reprot_reach_respective">
+      <label ref="jr:itext('/data/knowing_reprot_reach_respective:label')"/>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option0')"/>
+        <value>usually_ask</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option1')"/>
+        <value>acknowledge</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option2')"/>
+        <value>they_write_txt</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option3')"/>
+        <value>write_email</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option4')"/>
+        <value>they_dnt_call_write</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group ref="/data/knowing_reprot_reach_respective_other" appearance="field-list">
+      <label ref="jr:itext('/data/knowing_reprot_reach_respective_other:label')"/>
+      <input ref="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other1">
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other1:label')"/>
+      </input>
+      <input ref="/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other2">
+        <label ref="jr:itext('/data/knowing_reprot_reach_respective_other/knowing_reprot_reach_respective_other2:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/frequently_rpeorting">
+      <label ref="jr:itext('/data/frequently_rpeorting:label')"/>
+      <item>
+        <label ref="jr:itext('/data/frequently_rpeorting:option0')"/>
+        <value>daily</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/frequently_rpeorting:option1')"/>
+        <value>weekly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/frequently_rpeorting:option2')"/>
+        <value>monthly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/frequently_rpeorting:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/frequently_rpeorting_other">
+      <label ref="jr:itext('/data/frequently_rpeorting_other:label')"/>
+    </input>
+    <select1 ref="/data/facilitated_in_prep_report">
+      <label ref="jr:itext('/data/facilitated_in_prep_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/facilitated_in_prep_report:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/facilitated_in_prep_report:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/who_facilitated_you_send_submi">
+      <label ref="jr:itext('/data/who_facilitated_you_send_submi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_facilitated_you_send_submi:option0')"/>
+        <value>district_LO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitated_you_send_submi:option1')"/>
+        <value>Ministry_LO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitated_you_send_submi:option2')"/>
+        <value>none_gov</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitated_you_send_submi:option3')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitated_you_send_submi:option4')"/>
+        <value>not_facilitated</value>
+      </item>
+    </select>
+    <input ref="/data/who_facilitated_you_send_submi_other">
+      <label ref="jr:itext('/data/who_facilitated_you_send_submi_other:label')"/>
+    </input>
+    <select ref="/data/untitled64">
+      <label ref="jr:itext('/data/untitled64:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option0')"/>
+        <value>given_station</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option1')"/>
+        <value>airtime_bundles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option2')"/>
+        <value>motoecycle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option3')"/>
+        <value>fuel</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option4')"/>
+        <value>given_portable_comp</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option5')"/>
+        <value>tablets</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option6')"/>
+        <value>smart_phones</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option7')"/>
+        <value>internet_bundle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option8')"/>
+        <value>fare_to_DLFO_TLFO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled64:option9')"/>
+        <value>perdiem_to_DLFO_TLFO</value>
+      </item>
+    </select>
+    <select1 ref="/data/submit_report_on_time">
+      <label ref="jr:itext('/data/submit_report_on_time:label')"/>
+      <item>
+        <label ref="jr:itext('/data/submit_report_on_time:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/submit_report_on_time:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/reason_for_delay">
+      <label ref="jr:itext('/data/reason_for_delay:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option0')"/>
+        <value>occupied</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option1')"/>
+        <value>hardly_to_write_ontime</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option2')"/>
+        <value>not_faciliated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option3')"/>
+        <value>dont_see_why_should_prep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option4')"/>
+        <value>no_one_cares</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option5')"/>
+        <value>dont_get_anyone_help</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option6')"/>
+        <value>office_far</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group ref="/data/reason_for_delay_other" appearance="field-list">
+      <label ref="jr:itext('/data/reason_for_delay_other:label')"/>
+      <input ref="/data/reason_for_delay_other/reason_for_delay_other1">
+        <label ref="jr:itext('/data/reason_for_delay_other/reason_for_delay_other1:label')"/>
+      </input>
+      <input ref="/data/reason_for_delay_other/reason_for_delay_other2">
+        <label ref="jr:itext('/data/reason_for_delay_other/reason_for_delay_other2:label')"/>
+      </input>
+    </group>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

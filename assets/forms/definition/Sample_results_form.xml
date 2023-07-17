@@ -1,0 +1,84 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Sample results form</h:title>
+    <model>
+      <instance>
+        <data id="build_Sample-results-form_1589715082020">
+          <meta>
+           <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <sample_results>
+            <barcode/>
+            <sua_lab_results/>
+            <comment/>
+          </sample_results>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/sample_results:label">
+            <value>SUA Lab Results details</value>
+          </text>
+          <text id="/data/sample_results/barcode:label">
+            <value>Scan sample barcode</value>
+          </text>
+          <text id="/data/sample_results/barcode:hint">
+            <value>sample results</value>
+          </text>
+          <text id="/data/sample_results/sua_lab_results:label">
+            <value>Brucellosis Results</value>
+          </text>
+          <text id="/data/sample_results/sua_lab_results:option0">
+            <value>Positive</value>
+          </text>
+          <text id="/data/sample_results/sua_lab_results:option1">
+            <value>Negative</value>
+          </text>
+          <text id="/data/sample_results/comment:label">
+            <value>Lab tech comments</value>
+          </text>
+          <text id="/data/sample_results/comment:hint">
+            <value>If there is any comment about sample results</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/sample_results/barcode" type="barcode" required="true()" jr:requiredMsg="Barcode is required"/>
+      <bind nodeset="/data/sample_results/sua_lab_results" type="select1" required="true()" jr:requiredMsg="Lab results is required"/>
+      <bind nodeset="/data/sample_results/comment" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('SUA Lab Bruc Results ',': ',/data/sample_results/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/sample_results" appearance="field-list">
+      <label ref="jr:itext('/data/sample_results:label')"/>
+      <input ref="/data/sample_results/barcode">
+        <label ref="jr:itext('/data/sample_results/barcode:label')"/>
+        <hint ref="jr:itext('/data/sample_results/barcode:hint')"/>
+      </input>
+      <select1 ref="/data/sample_results/sua_lab_results">
+        <label ref="jr:itext('/data/sample_results/sua_lab_results:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample_results/sua_lab_results:option0')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample_results/sua_lab_results:option1')"/>
+          <value>negative</value>
+        </item>
+      </select1>
+      <input ref="/data/sample_results/comment">
+        <label ref="jr:itext('/data/sample_results/comment:label')"/>
+        <hint ref="jr:itext('/data/sample_results/comment:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

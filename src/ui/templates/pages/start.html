@@ -3,19 +3,7 @@
 
 
 {% block nav %}
-
-<p class="h-12 pt-2 text-3xl text-rose-900"> {{title}} </p>
-
-<div class="h-6 flex w-full space-x-4 text-sm text-slate-700">
-    {% with request.get_full_path as route %}
-        {% for key, value in links.items %}
-            <a     
-                class="{% if route == value %} border-b-2 border-rose-900{% endif %}"
-                href={{value}}>{{key}} </a>
-        {% endfor %}
-    {% endwith %}
-</div>
-
+    {% include "partials/nav.html" %}
 {% endblock %}
 
 
@@ -25,22 +13,7 @@
 
 
     <div class="flex-1 table-responsive h-full w-full overflow-hidden" x-data="manageTable()">
-        <div class="flex w-1/2 mt-2"> 
-            <label for="simple-search" class="sr-only">Search</label>
-            <div class="relative flex-1">
-                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
-                </div>
-                <input type="text" id="datatable-search" class="border border-slate-200 text-slate-800 text-sm rounded-sm focus:ring-slate-300 focus:border-slate-300 block w-full pl-10 p-1 " placeholder="Search" required>
-            </div>
-
-            {% for key, value in pg_actions.items %}
-            <button class="flex p-1 ml-2 px-3 text-sm font-medium text-gray-500 bg-gray-100 rounded-sm border border-gray-200 hover:bg-gray-200 hover:text-gray-700 focus:ring-2 focus:outline-none ">
-                <span class="whitespace-nowrap"  @click="sidebar=true; $('#sidebar-title').html('{{key}}')" hx-get="{{value}}" hx-target="#data-detail"> {{key}} </span>
-            </button>
-            {% endfor %}
-        </div>
-
+        
         <table id="datatable" class="table border=1 w-full table-striped table-bordered dt-responsive compact nowrap text-sm">
         </table>
     </div>
@@ -62,7 +35,8 @@
                 full_row_select: false,
                 scrollX: false,
                 dom: 'rtip',
-                responsive: false,
+                responsive: true,
+                "pageLength": 12,
             }, {
                 // extra_data
                 {% for k,v in extra_data.items %}
@@ -84,9 +58,15 @@
             sidebar_title: "",
             pg_actions_url: "",
 
-            dataDetail(title,id){
+            dataDetail(title,url){
                 $('#sidebar-title').html(title);
-                $('#data-detail').html(id);
+
+                fetch(url)
+                    .then(response => response.text())
+                    .then(data => {
+                        $('#data-detail').html(data)
+                        htmx.process('#data-detail');
+                    })
             },
 
             doPageAction(title,url){
@@ -121,11 +101,9 @@
 
 
 <div
-    class="h-full overflow-y-scroll p-4"
+    class="h-full overflow-hidden"
     id="data-detail"
     >
-
-    <p> a whole lot of data in here that should scroll by itself {% lorem 9 p random %}</p>
 
 </div>
 

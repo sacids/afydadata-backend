@@ -1,0 +1,200 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>MorogoroPoints</h:title>
+    <model>
+      <instance>
+        <data id="build_MorogoroPoints_1504534337">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Details>
+            <District/>
+            <Ward/>
+            <VillageName/>
+            <Health_Faci/>
+          </Details>
+          <network>
+            <Mobile_service_provider/>
+            <internet/>
+            <Image/>
+            <GPS/>
+          </network>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/Details/District:label">
+            <value>District</value>
+          </text>
+          <text id="/data/Details/District:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/Details/District:option1">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/Details/District:option2">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/Details/Ward:label">
+            <value> Ward</value>
+          </text>
+          <text id="/data/Details/Ward:hint">
+            <value></value>
+          </text>
+          <text id="/data/Details/VillageName:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/data/Details/Health_Faci:label">
+            <value>Name of Health Facility </value>
+          </text>
+          <text id="/data/network:label">
+            <value>Network</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:label">
+            <value>Mobile providers available </value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option0">
+            <value>Vodacom</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option1">
+            <value>Airtel</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option2">
+            <value>Tigo</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option3">
+            <value>Halotel</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option4">
+            <value>Zantel</value>
+          </text>
+          <text id="/data/network/Mobile_service_provider:option5">
+            <value>TTCL</value>
+          </text>
+          <text id="/data/network/internet:label">
+            <value>Internet</value>
+          </text>
+          <text id="/data/network/internet:option0">
+            <value>3G</value>
+          </text>
+          <text id="/data/network/internet:option1">
+            <value>GPRS</value>
+          </text>
+          <text id="/data/network/internet:option2">
+            <value>EDGE</value>
+          </text>
+          <text id="/data/network/internet:option3">
+            <value>4G</value>
+          </text>
+          <text id="/data/network/Image:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/network/Image:hint">
+            <value>Picture</value>
+          </text>
+          <text id="/data/network/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Details/District" type="select1"/>
+      <bind nodeset="/data/Details/Ward" type="string"/>
+      <bind nodeset="/data/Details/VillageName" type="string"/>
+      <bind nodeset="/data/Details/Health_Faci" type="string"/>
+      <bind nodeset="/data/network/Mobile_service_provider" type="select"/>
+      <bind nodeset="/data/network/internet" type="select1"/>
+      <bind nodeset="/data/network/Image" type="binary"/>
+      <bind nodeset="/data/network/GPS" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Details:label')"/>
+      <select1 ref="/data/Details/District">
+        <label ref="jr:itext('/data/Details/District:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option0')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option1')"/>
+          <value>Ulanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option2')"/>
+          <value>Malinyi</value>
+        </item>
+      </select1>
+      <input ref="/data/Details/Ward">
+        <label ref="jr:itext('/data/Details/Ward:label')"/>
+        <hint ref="jr:itext('/data/Details/Ward:hint')"/>
+      </input>
+      <input ref="/data/Details/VillageName">
+        <label ref="jr:itext('/data/Details/VillageName:label')"/>
+      </input>
+      <input ref="/data/Details/Health_Faci">
+        <label ref="jr:itext('/data/Details/Health_Faci:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/network:label')"/>
+      <select ref="/data/network/Mobile_service_provider">
+        <label ref="jr:itext('/data/network/Mobile_service_provider:label')"/>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option0')"/>
+          <value>Vodacom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option1')"/>
+          <value>Airtel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option2')"/>
+          <value>Tigo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option3')"/>
+          <value>Halotel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option4')"/>
+          <value>Zantel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/Mobile_service_provider:option5')"/>
+          <value>TTCL</value>
+        </item>
+      </select>
+      <select1 ref="/data/network/internet">
+        <label ref="jr:itext('/data/network/internet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option0')"/>
+          <value>3G</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option1')"/>
+          <value>GPRS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option2')"/>
+          <value>EDGE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/network/internet:option3')"/>
+          <value>4G</value>
+        </item>
+      </select1>
+      <upload ref="/data/network/Image" mediatype="image/*">
+        <label ref="jr:itext('/data/network/Image:label')"/>
+        <hint ref="jr:itext('/data/network/Image:hint')"/>
+      </upload>
+      <input ref="/data/network/GPS">
+        <label ref="jr:itext('/data/network/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

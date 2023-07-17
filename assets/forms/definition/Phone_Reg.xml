@@ -1,0 +1,57 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Phone Reg</h:title>
+    <model>
+      <instance>
+        <data id="build_Phone-Reg_1506505712">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+          </meta>
+          <Details>
+            <User_Name/>
+            <phone_number/>
+            <barcode/>
+          </Details>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Details:label">
+            <value>Details</value>
+          </text>
+          <text id="/data/Details/User_Name:label">
+            <value>User Name</value>
+          </text>
+          <text id="/data/Details/phone_number:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/Details/barcode:label">
+            <value>Barcode</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Details/User_Name" type="string"/>
+      <bind nodeset="/data/Details/phone_number" type="decimal"/>
+      <bind nodeset="/data/Details/barcode" type="barcode"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Reg',': ',/data/Details/phone_number)" readonly="true()" type="string"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Details:label')"/>
+      <input ref="/data/Details/User_Name">
+        <label ref="jr:itext('/data/Details/User_Name:label')"/>
+      </input>
+      <input ref="/data/Details/phone_number">
+        <label ref="jr:itext('/data/Details/phone_number:label')"/>
+      </input>
+      <input ref="/data/Details/barcode">
+        <label ref="jr:itext('/data/Details/barcode:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

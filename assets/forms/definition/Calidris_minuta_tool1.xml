@@ -1,0 +1,1130 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Calidris minuta toolV2</h:title>
+    <model>
+      <instance>
+        <data id="build_Calidris-minuta-tool_1618">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <study_ID/>
+          <country/>
+          <sub_country-magadi/>
+          <sub_country_marigat/>
+          <village_loboi/>
+          <village_nkuruman/>
+          <bio_data>
+            <farmer_name/>
+            <sex/>
+            <age/>
+            <telno/>
+            <edu_level/>
+            <numb_member_in_house/>
+          </bio_data>
+          <data_details>
+            <approx_month_income/>
+            <range_number_goats/>
+            <other_animals_apart_goat/>
+          </data_details>
+          <other_animals_apart_goat_other/>
+          <data_details_2>
+            <what_do_animal_sick/>
+          </data_details_2>
+          <what_do_animal_sick_other/>
+          <animal_treatment/>
+          <which_treat_in_use/>
+          <if_antib_which_one/>
+          <if_antib_which_one_others/>
+          <data_details3>
+            <do_when_animals_fail_respond/>
+            <do_when_animals_fail_respond_other>
+              None
+            </do_when_animals_fail_respond_other>
+            <what_do_use_animal_man_for/>
+            <what_do_use_animal_man_for_other>
+              None
+            </what_do_use_animal_man_for_other>
+            <what_do_crops_infect_with_disea/>
+            <what_do_crops_infect_with_disea_other/>
+          </data_details3>
+          <data_details4>
+            <practice_farm_sourc_income/>
+            <what_other_income_apart_farming/>
+            <what_other_income_apart_farming_other/>
+            <what_kind_toilet/>
+            <industries_around/>
+            <main_source_drink_water/>
+            <main_source_drink_water_other/>
+          </data_details4>
+          <data_details5>
+            <how_treat_drink_water/>
+            <how_treat_drink_water_other/>
+            <what_do_familiy_sick/>
+            <fail_to_respond_treat/>
+            <fail_to_respond_treat_other/>
+            <how_long_take_hospital/>
+            <interview_name/>
+          </data_details5>
+          <environ_data>
+            <gps_location/>
+            <temp/>
+            <hum/>
+            <ph/>
+          </environ_data>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/study_ID:label">
+            <value>1. Study ID</value>
+          </text>
+          <text id="/data/study_ID:requiredMsg">
+            <value>Qn No. 1 is required</value>
+          </text>
+          <text id="/data/country:label">
+            <value>1.1. County</value>
+          </text>
+          <text id="/data/country:requiredMsg">
+            <value>Qn No. 1.1 is required</value>
+          </text>
+          <text id="/data/country:option0">
+            <value>Baringo</value>
+          </text>
+          <text id="/data/country:option1">
+            <value>Kajiado</value>
+          </text>
+          <text id="/data/sub_country-magadi:label">
+            <value>1.2. Sub-county</value>
+          </text>
+          <text id="/data/sub_country-magadi:requiredMsg">
+            <value>Qn No. 1.2 is required</value>
+          </text>
+          <text id="/data/sub_country-magadi:option0">
+            <value>Magadi</value>
+          </text>
+          <text id="/data/sub_country_marigat:label">
+            <value>1.2. Sub-county</value>
+          </text>
+          <text id="/data/sub_country_marigat:requiredMsg">
+            <value>Qn No. 1.2 is required</value>
+          </text>
+          <text id="/data/sub_country_marigat:option0">
+            <value>Marigat</value>
+          </text>
+          <text id="/data/village_loboi:label">
+            <value>1.3. Village</value>
+          </text>
+          <text id="/data/village_loboi:requiredMsg">
+            <value>Qn No. 1.3 is required</value>
+          </text>
+          <text id="/data/village_loboi:option0">
+            <value>Loboi</value>
+          </text>
+          <text id="/data/village_nkuruman:label">
+            <value>1.3. Village</value>
+          </text>
+          <text id="/data/village_nkuruman:requiredMsg">
+            <value>Qn No. 1.3 is required</value>
+          </text>
+          <text id="/data/village_nkuruman:option0">
+            <value>Nkuruman</value>
+          </text>
+          <text id="/data/bio_data:label">
+            <value>Bio-Data</value>
+          </text>
+          <text id="/data/bio_data/farmer_name:label">
+            <value>1.6 . Farmers Name</value>
+          </text>
+          <text id="/data/bio_data/farmer_name:requiredMsg">
+            <value>Qn No. 1.6 is required</value>
+          </text>
+          <text id="/data/bio_data/sex:label">
+            <value>1.7. Sex</value>
+          </text>
+          <text id="/data/bio_data/sex:requiredMsg">
+            <value>Qn No. 1.7 is required</value>
+          </text>
+          <text id="/data/bio_data/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/bio_data/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/bio_data/age:label">
+            <value>1.8. Age</value>
+          </text>
+          <text id="/data/bio_data/age:requiredMsg">
+            <value>Qn No. 1.8 is required</value>
+          </text>
+          <text id="/data/bio_data/telno:label">
+            <value>1.9. Telephone number</value>
+          </text>
+          <text id="/data/bio_data/telno:requiredMsg">
+            <value>Qn No. 1.9 is required</value>
+          </text>
+          <text id="/data/bio_data/telno:constraintMsg">
+            <value>Phone number is in-correct</value>
+          </text>
+          <text id="/data/bio_data/edu_level:label">
+            <value>1.10. Education Level</value>
+          </text>
+          <text id="/data/bio_data/edu_level:requiredMsg">
+            <value>Qn No. 1.10 is required</value>
+          </text>
+          <text id="/data/bio_data/edu_level:option0">
+            <value>None</value>
+          </text>
+          <text id="/data/bio_data/edu_level:option1">
+            <value>Primary</value>
+          </text>
+          <text id="/data/bio_data/edu_level:option2">
+            <value>Secondary</value>
+          </text>
+          <text id="/data/bio_data/edu_level:option3">
+            <value>Tertiary</value>
+          </text>
+          <text id="/data/bio_data/numb_member_in_house:label">
+            <value>1.11. Number of members in your household?</value>
+          </text>
+          <text id="/data/bio_data/numb_member_in_house:requiredMsg">
+            <value>Qn No. 1.11 is required</value>
+          </text>
+          <text id="/data/data_details:label">
+            <value>Data details</value>
+          </text>
+          <text id="/data/data_details/approx_month_income:label">
+            <value>2. What is your approximate monthly income from agriculture in KES? </value>
+          </text>
+          <text id="/data/data_details/approx_month_income:requiredMsg">
+            <value>Qn No. 2 is required</value>
+          </text>
+          <text id="/data/data_details/range_number_goats:label">
+            <value>3. What is the range number of goats in your farm?</value>
+          </text>
+          <text id="/data/data_details/range_number_goats:requiredMsg">
+            <value>Qn No. 3 is required</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:label">
+            <value>4. What other animals except goats are reared by the household? Tick in the box</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:requiredMsg">
+            <value>Qn No. 4 is required</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option2">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option3">
+            <value>Cats</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option4">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option5">
+            <value>Pigs</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option6">
+            <value>Ducks</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option7">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/data_details/other_animals_apart_goat:option8">
+            <value>Others</value>
+          </text>
+          <text id="/data/other_animals_apart_goat_other:label">
+            <value>Other animals</value>
+          </text>
+          <text id="/data/data_details_2:label">
+            <value>Data details 2</value>
+          </text>
+          <text id="/data/data_details_2/what_do_animal_sick:label">
+            <value>5. What do you do when animals fall sick? </value>
+          </text>
+          <text id="/data/data_details_2/what_do_animal_sick:requiredMsg">
+            <value>Qn No. 5 is required</value>
+          </text>
+          <text id="/data/data_details_2/what_do_animal_sick:option0">
+            <value>Herbal treatment  </value>
+          </text>
+          <text id="/data/data_details_2/what_do_animal_sick:option1">
+            <value>Veterinarian check-ups  </value>
+          </text>
+          <text id="/data/data_details_2/what_do_animal_sick:option2">
+            <value>Others </value>
+          </text>
+          <text id="/data/what_do_animal_sick_other:label">
+            <value>What do you do when animals fall sick? (Other)</value>
+          </text>
+          <text id="/data/animal_treatment:label">
+            <value>6. Are there any animals under treatment currently?  </value>
+          </text>
+          <text id="/data/animal_treatment:requiredMsg">
+            <value>Qn No. 6 is required</value>
+          </text>
+          <text id="/data/animal_treatment:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/animal_treatment:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/which_treat_in_use:label">
+            <value>6.1 If yes, which treatment is in use?    </value>
+          </text>
+          <text id="/data/which_treat_in_use:requiredMsg">
+            <value>Qn No. 7.1 is required</value>
+          </text>
+          <text id="/data/which_treat_in_use:option0">
+            <value>Antibiotics</value>
+          </text>
+          <text id="/data/which_treat_in_use:option1">
+            <value>Anthelmintics</value>
+          </text>
+          <text id="/data/which_treat_in_use:option2">
+            <value>Antifungals</value>
+          </text>
+          <text id="/data/if_antib_which_one:label">
+            <value>6.2 If antibiotics, which one? </value>
+          </text>
+          <text id="/data/if_antib_which_one:requiredMsg">
+            <value>Qn No. 6.2 is required</value>
+          </text>
+          <text id="/data/if_antib_which_one:option0">
+            <value>Ampicillin</value>
+          </text>
+          <text id="/data/if_antib_which_one:option1">
+            <value>Streptomycin</value>
+          </text>
+          <text id="/data/if_antib_which_one:option2">
+            <value>Tetracycline</value>
+          </text>
+          <text id="/data/if_antib_which_one:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/if_antib_which_one_others:label">
+            <value>others (Separate by comma)</value>
+          </text>
+          <text id="/data/data_details3:label">
+            <value>Data details 3</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:label">
+            <value>7. What do you do when animals fail to respond to the given treatments? </value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:requiredMsg">
+            <value>Qn No. 7 is required</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option0">
+            <value>Change drug</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option1">
+            <value>Repeat drug</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option2">
+            <value>Herbal treatment</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option3">
+            <value>Drug- combination</value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option4">
+            <value>Change route of administration  </value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond:option5">
+            <value>Others (specify) </value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond_other:label">
+            <value>Others </value>
+          </text>
+          <text id="/data/data_details3/do_when_animals_fail_respond_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:label">
+            <value>8. What do you use animal manure for? </value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:requiredMsg">
+            <value>Qn No. 8 is required</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:option0">
+            <value>Fertilizer</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:option1">
+            <value>Fuel</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:option2">
+            <value>Construction</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for_other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/data_details3/what_do_use_animal_man_for_other:hint">
+            <value>Please separate by comma</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:label">
+            <value>9. What do you do when your crops are infected with infectious diseases? </value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:requiredMsg">
+            <value>Qn No. 9 is required</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:option0">
+            <value>Spray with antibiotics/ antifungals </value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:option1">
+            <value>Uproot and burn plants</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:option2">
+            <value>Use bio pesticides</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea_other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/data_details3/what_do_crops_infect_with_disea_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/data_details4:label">
+            <value>Data details 4</value>
+          </text>
+          <text id="/data/data_details4/practice_farm_sourc_income:label">
+            <value>10. Do you practice farming as a source of income? </value>
+          </text>
+          <text id="/data/data_details4/practice_farm_sourc_income:requiredMsg">
+            <value>Qn No. 10 is required</value>
+          </text>
+          <text id="/data/data_details4/practice_farm_sourc_income:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_details4/practice_farm_sourc_income:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming:label">
+            <value>11. Apart from farming, what is the other income-generating activity for your household? </value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming:requiredMsg">
+            <value>Qn No. 11 is required</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming:option0">
+            <value>Industrial employee</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming:option1">
+            <value>Skilled employee</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming_other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/data_details4/what_other_income_apart_farming_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:label">
+            <value>12. What kind of toilet do you have?  </value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:requiredMsg">
+            <value>Qn No. 12 is required</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option0">
+            <value>Flushed toilet used alone</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option1">
+            <value>Flush toilet shared with others</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option2">
+            <value>Public toilet </value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option3">
+            <value>Pit latrines(shared)</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option4">
+            <value>Go into the bush/ lake</value>
+          </text>
+          <text id="/data/data_details4/what_kind_toilet:option5">
+            <value>Plastic Bag</value>
+          </text>
+          <text id="/data/data_details4/industries_around:label">
+            <value>13. Are there known industries around the areas that drain their industrial effluents into the lakes?</value>
+          </text>
+          <text id="/data/data_details4/industries_around:requiredMsg">
+            <value>Qn No. 13 is required</value>
+          </text>
+          <text id="/data/data_details4/industries_around:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_details4/industries_around:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:label">
+            <value>14. What is the main source of your drinking water?  </value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:requiredMsg">
+            <value>Qn No. 14 is required</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:option0">
+            <value>Springs</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:option1">
+            <value>Boreholes</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:option2">
+            <value>Bottled</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details4/main_source_drink_water_other:label">
+            <value>Other main source of water</value>
+          </text>
+          <text id="/data/data_details5:label">
+            <value>Data details 5</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:label">
+            <value>15. How do you treat your drinking water?</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:requiredMsg">
+            <value>Qn No. 15 is required</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:option0">
+            <value>Boiling</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:option1">
+            <value>Adding chlorine(aquatabs/water guard)</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:option2">
+            <value>Filtration ( using charcoal/a piece of cloth) </value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water_other:label">
+            <value>Other mechanism of treating your drinking water </value>
+          </text>
+          <text id="/data/data_details5/how_treat_drink_water_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:label">
+            <value>16. What do you when a family member is unwell?  </value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:requiredMsg">
+            <value>Qn No. 16 is required</value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:option0">
+            <value>Stay at home </value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:option1">
+            <value>Herbal- treatment </value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:option2">
+            <value>Visit a chemist </value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:option3">
+            <value> Dispensary </value>
+          </text>
+          <text id="/data/data_details5/what_do_familiy_sick:option4">
+            <value>county hospital  </value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:label">
+            <value>17. What do you do when a family member fails to respond to the given treatments? </value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:requiredMsg">
+            <value>Qn No. 17 is required</value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:option0">
+            <value>Repeat the drug dosage</value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:option1">
+            <value>Herbal treatment </value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:option2">
+            <value>Re-visit the hospital/ dispensary/health center/chemist</value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat_other:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/data_details5/fail_to_respond_treat_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/data_details5/how_long_take_hospital:label">
+            <value>20. How long does it take to the nearest healthcare center by walking? (In minutes)</value>
+          </text>
+          <text id="/data/data_details5/how_long_take_hospital:hint">
+            <value>Answer given can be in hours, then convert to minutes</value>
+          </text>
+          <text id="/data/data_details5/how_long_take_hospital:requiredMsg">
+            <value>Qn No. 20 is required</value>
+          </text>
+          <text id="/data/data_details5/interview_name:label">
+            <value>21. Interviewer’s names</value>
+          </text>
+          <text id="/data/data_details5/interview_name:requiredMsg">
+            <value>Qn No. 21 is required</value>
+          </text>
+          <text id="/data/environ_data:label">
+            <value>Environmental Data</value>
+          </text>
+          <text id="/data/environ_data/gps_location:label">
+            <value>22. GPS Location</value>
+          </text>
+          <text id="/data/environ_data/gps_location:requiredMsg">
+            <value>Qn No. 22 is required</value>
+          </text>
+          <text id="/data/environ_data/temp:label">
+            <value>23. Temperature</value>
+          </text>
+          <text id="/data/environ_data/hum:label">
+            <value>24. Humidity</value>
+          </text>
+          <text id="/data/environ_data/ph:label">
+            <value>25. PH</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/study_ID" type="string" required="true()" jr:requiredMsg="jr:itext('/data/study_ID:requiredMsg')"/>
+      <bind nodeset="/data/country" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/country:requiredMsg')"/>
+      <bind nodeset="/data/sub_country-magadi" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/sub_country-magadi:requiredMsg')" relevant="(/data/country='kajiado')"/>
+      <bind nodeset="/data/sub_country_marigat" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/sub_country_marigat:requiredMsg')" relevant="(/data/country='baringo')"/>
+      <bind nodeset="/data/village_loboi" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/village_loboi:requiredMsg')" relevant="(/data/sub_country_marigat='marigat')"/>
+      <bind nodeset="/data/village_nkuruman" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/village_nkuruman:requiredMsg')" relevant="(/data/sub_country-magadi='magadi')"/>
+      <bind nodeset="/data/bio_data/farmer_name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/farmer_name:requiredMsg')"/>
+      <bind nodeset="/data/bio_data/sex" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/sex:requiredMsg')"/>
+      <bind nodeset="/data/bio_data/age" type="int" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/age:requiredMsg')"/>
+      <bind nodeset="/data/bio_data/telno" type="string" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/telno:requiredMsg')" constraint="(regex(.,'^[0-9]{10}$'))" jr:constraintMsg="jr:itext('/data/bio_data/telno:constraintMsg')"/>
+      <bind nodeset="/data/bio_data/edu_level" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/edu_level:requiredMsg')"/>
+      <bind nodeset="/data/bio_data/numb_member_in_house" type="int" required="true()" jr:requiredMsg="jr:itext('/data/bio_data/numb_member_in_house:requiredMsg')"/>
+      <bind nodeset="/data/data_details/approx_month_income" type="decimal" required="true()" jr:requiredMsg="jr:itext('/data/data_details/approx_month_income:requiredMsg')"/>
+      <bind nodeset="/data/data_details/range_number_goats" type="int" required="true()" jr:requiredMsg="jr:itext('/data/data_details/range_number_goats:requiredMsg')"/>
+      <bind nodeset="/data/data_details/other_animals_apart_goat" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details/other_animals_apart_goat:requiredMsg')"/>
+
+      <bind nodeset="/data/other_animals_apart_goat_other" type="string" relevant="(selected(/data/data_details/other_animals_apart_goat, 'other'))"/>
+
+
+      <bind nodeset="/data/data_details_2/what_do_animal_sick" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/data_details_2/what_do_animal_sick:requiredMsg')"/>
+      <bind nodeset="/data/what_do_animal_sick_other" type="string" relevant="(/data/data_details_2/what_do_animal_sick='other')"/>
+      <bind nodeset="/data/animal_treatment" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/animal_treatment:requiredMsg')"/>
+      <bind nodeset="/data/which_treat_in_use" type="select" required="true()" jr:requiredMsg="jr:itext('/data/which_treat_in_use:requiredMsg')" relevant="(selected(/data/animal_treatment, 'yes'))"/>
+      <bind nodeset="/data/if_antib_which_one" type="select" required="true()" jr:requiredMsg="jr:itext('/data/if_antib_which_one:requiredMsg')" relevant="(/data/which_treat_in_use='antibiotics')"/>
+      <bind nodeset="/data/if_antib_which_one_others" type="string" relevant="(selected(/data/if_antib_which_one, 'others'))"/>
+      <bind nodeset="/data/data_details3/do_when_animals_fail_respond" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details3/do_when_animals_fail_respond:requiredMsg')"/>
+      <bind nodeset="/data/data_details3/do_when_animals_fail_respond_other" type="string"/>
+      <bind nodeset="/data/data_details3/what_do_use_animal_man_for" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details3/what_do_use_animal_man_for:requiredMsg')"/>
+      <bind nodeset="/data/data_details3/what_do_use_animal_man_for_other" type="string"/>
+      <bind nodeset="/data/data_details3/what_do_crops_infect_with_disea" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:requiredMsg')"/>
+      <bind nodeset="/data/data_details3/what_do_crops_infect_with_disea_other" type="string"/>
+      <bind nodeset="/data/data_details4/practice_farm_sourc_income" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/data_details4/practice_farm_sourc_income:requiredMsg')"/>
+      <bind nodeset="/data/data_details4/what_other_income_apart_farming" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details4/what_other_income_apart_farming:requiredMsg')"/>
+      <bind nodeset="/data/data_details4/what_other_income_apart_farming_other" type="string"/>
+      <bind nodeset="/data/data_details4/what_kind_toilet" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details4/what_kind_toilet:requiredMsg')"/>
+      <bind nodeset="/data/data_details4/industries_around" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/data_details4/industries_around:requiredMsg')"/>
+      <bind nodeset="/data/data_details4/main_source_drink_water" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/data_details4/main_source_drink_water:requiredMsg')"/>
+      <bind nodeset="/data/data_details4/main_source_drink_water_other" type="string"/>
+      <bind nodeset="/data/data_details5/how_treat_drink_water" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details5/how_treat_drink_water:requiredMsg')"/>
+      <bind nodeset="/data/data_details5/how_treat_drink_water_other" type="string"/>
+      <bind nodeset="/data/data_details5/what_do_familiy_sick" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details5/what_do_familiy_sick:requiredMsg')"/>
+      <bind nodeset="/data/data_details5/fail_to_respond_treat" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_details5/fail_to_respond_treat:requiredMsg')"/>
+      <bind nodeset="/data/data_details5/fail_to_respond_treat_other" type="string"/>
+      <bind nodeset="/data/data_details5/how_long_take_hospital" type="int" required="true()" jr:requiredMsg="jr:itext('/data/data_details5/how_long_take_hospital:requiredMsg')"/>
+      <bind nodeset="/data/data_details5/interview_name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/data_details5/interview_name:requiredMsg')"/>
+      <bind nodeset="/data/environ_data/gps_location" type="geopoint" required="true()" jr:requiredMsg="jr:itext('/data/environ_data/gps_location:requiredMsg')"/>
+      <bind nodeset="/data/environ_data/temp" type="decimal"/>
+      <bind nodeset="/data/environ_data/hum" type="decimal"/>
+      <bind nodeset="/data/environ_data/ph" type="decimal"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Calidris minutaV2',': ',/data/study_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/study_ID">
+      <label ref="jr:itext('/data/study_ID:label')"/>
+    </input>
+    <select1 ref="/data/country">
+      <label ref="jr:itext('/data/country:label')"/>
+      <item>
+        <label ref="jr:itext('/data/country:option0')"/>
+        <value>baringo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/country:option1')"/>
+        <value>kajiado</value>
+      </item>
+    </select1>
+    <select1 ref="/data/sub_country-magadi">
+      <label ref="jr:itext('/data/sub_country-magadi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/sub_country-magadi:option0')"/>
+        <value>magadi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/sub_country_marigat">
+      <label ref="jr:itext('/data/sub_country_marigat:label')"/>
+      <item>
+        <label ref="jr:itext('/data/sub_country_marigat:option0')"/>
+        <value>marigat</value>
+      </item>
+    </select1>
+    <select1 ref="/data/village_loboi">
+      <label ref="jr:itext('/data/village_loboi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/village_loboi:option0')"/>
+        <value>loboi</value>
+      </item>
+    </select1>
+    <select1 ref="/data/village_nkuruman">
+      <label ref="jr:itext('/data/village_nkuruman:label')"/>
+      <item>
+        <label ref="jr:itext('/data/village_nkuruman:option0')"/>
+        <value>nkuruman</value>
+      </item>
+    </select1>
+    <group ref="/data/bio_data" appearance="field-list">
+      <label ref="jr:itext('/data/bio_data:label')"/>
+      <input ref="/data/bio_data/farmer_name">
+        <label ref="jr:itext('/data/bio_data/farmer_name:label')"/>
+      </input>
+      <select1 ref="/data/bio_data/sex">
+        <label ref="jr:itext('/data/bio_data/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/bio_data/sex:option0')"/>
+          <value>m</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/bio_data/sex:option1')"/>
+          <value>f</value>
+        </item>
+      </select1>
+      <input ref="/data/bio_data/age">
+        <label ref="jr:itext('/data/bio_data/age:label')"/>
+      </input>
+      <input ref="/data/bio_data/telno" appearance="numbers">
+        <label ref="jr:itext('/data/bio_data/telno:label')"/>
+      </input>
+      <select1 ref="/data/bio_data/edu_level">
+        <label ref="jr:itext('/data/bio_data/edu_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/bio_data/edu_level:option0')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/bio_data/edu_level:option1')"/>
+          <value>primary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/bio_data/edu_level:option2')"/>
+          <value>Secondary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/bio_data/edu_level:option3')"/>
+          <value>tertiary</value>
+        </item>
+      </select1>
+      <input ref="/data/bio_data/numb_member_in_house">
+        <label ref="jr:itext('/data/bio_data/numb_member_in_house:label')"/>
+      </input>
+    </group>
+    <group ref="/data/data_details" appearance="field-list">
+      <label ref="jr:itext('/data/data_details:label')"/>
+      <input ref="/data/data_details/approx_month_income">
+        <label ref="jr:itext('/data/data_details/approx_month_income:label')"/>
+      </input>
+      <input ref="/data/data_details/range_number_goats">
+        <label ref="jr:itext('/data/data_details/range_number_goats:label')"/>
+      </input>
+      <select ref="/data/data_details/other_animals_apart_goat">
+        <label ref="jr:itext('/data/data_details/other_animals_apart_goat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option0')"/>
+          <value>cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option1')"/>
+          <value>sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option2')"/>
+          <value>chicken</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option3')"/>
+          <value>cats</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option4')"/>
+          <value>dogs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option5')"/>
+          <value>pigs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option6')"/>
+          <value>ducks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option7')"/>
+          <value>donkey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details/other_animals_apart_goat:option8')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/other_animals_apart_goat_other">
+      <label ref="jr:itext('/data/other_animals_apart_goat_other:label')"/>
+    </input>
+    <group ref="/data/data_details_2" appearance="field-list">
+      <label ref="jr:itext('/data/data_details_2:label')"/>
+      <select1 ref="/data/data_details_2/what_do_animal_sick">
+        <label ref="jr:itext('/data/data_details_2/what_do_animal_sick:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details_2/what_do_animal_sick:option0')"/>
+          <value>herbal_treatment</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details_2/what_do_animal_sick:option1')"/>
+          <value>vet_check_up</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details_2/what_do_animal_sick:option2')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/what_do_animal_sick_other">
+      <label ref="jr:itext('/data/what_do_animal_sick_other:label')"/>
+    </input>
+    <select1 ref="/data/animal_treatment">
+      <label ref="jr:itext('/data/animal_treatment:label')"/>
+      <item>
+        <label ref="jr:itext('/data/animal_treatment:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animal_treatment:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/which_treat_in_use">
+      <label ref="jr:itext('/data/which_treat_in_use:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_treat_in_use:option0')"/>
+        <value>antibiotics</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_treat_in_use:option1')"/>
+        <value>anthelmintics</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_treat_in_use:option2')"/>
+        <value>antifungals</value>
+      </item>
+    </select>
+    <select ref="/data/if_antib_which_one">
+      <label ref="jr:itext('/data/if_antib_which_one:label')"/>
+      <item>
+        <label ref="jr:itext('/data/if_antib_which_one:option0')"/>
+        <value>ampicilin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_antib_which_one:option1')"/>
+        <value>streptomycin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_antib_which_one:option2')"/>
+        <value>tetracycline</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/if_antib_which_one:option3')"/>
+        <value>others</value>
+      </item>
+    </select>
+    <input ref="/data/if_antib_which_one_others">
+      <label ref="jr:itext('/data/if_antib_which_one_others:label')"/>
+    </input>
+    <group ref="/data/data_details3" appearance="field-list">
+      <label ref="jr:itext('/data/data_details3:label')"/>
+      <select ref="/data/data_details3/do_when_animals_fail_respond">
+        <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option0')"/>
+          <value>change_drug</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option1')"/>
+          <value>repeat_drug</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option2')"/>
+          <value>herbal_treatment</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option3')"/>
+          <value>drug_comb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option4')"/>
+          <value>change_rout_admin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_details3/do_when_animals_fail_respond_other">
+        <label ref="jr:itext('/data/data_details3/do_when_animals_fail_respond_other:label')"/>
+        <hint ref="jr:itext('/data/data_details3/do_when_animals_fail_respond_other:hint')"/>
+      </input>
+      <select ref="/data/data_details3/what_do_use_animal_man_for">
+        <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for:option0')"/>
+          <value>fertilizer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for:option1')"/>
+          <value>fuel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for:option2')"/>
+          <value>construction</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for:option3')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_details3/what_do_use_animal_man_for_other">
+        <label ref="jr:itext('/data/data_details3/what_do_use_animal_man_for_other:label')"/>
+        <hint ref="jr:itext('/data/data_details3/what_do_use_animal_man_for_other:hint')"/>
+      </input>
+      <select ref="/data/data_details3/what_do_crops_infect_with_disea">
+        <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:option0')"/>
+          <value>spray_antibi_antfung</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:option1')"/>
+          <value>uproot_burn_plants</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:option2')"/>
+          <value>use_bio_pesticides</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea:option3')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_details3/what_do_crops_infect_with_disea_other">
+        <label ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea_other:label')"/>
+        <hint ref="jr:itext('/data/data_details3/what_do_crops_infect_with_disea_other:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/data_details4" appearance="field-list">
+      <label ref="jr:itext('/data/data_details4:label')"/>
+      <select1 ref="/data/data_details4/practice_farm_sourc_income">
+        <label ref="jr:itext('/data/data_details4/practice_farm_sourc_income:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details4/practice_farm_sourc_income:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/practice_farm_sourc_income:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/data_details4/what_other_income_apart_farming">
+        <label ref="jr:itext('/data/data_details4/what_other_income_apart_farming:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_other_income_apart_farming:option0')"/>
+          <value>industrial_employee</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_other_income_apart_farming:option1')"/>
+          <value>skilled_employee</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_other_income_apart_farming:option2')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_details4/what_other_income_apart_farming_other">
+        <label ref="jr:itext('/data/data_details4/what_other_income_apart_farming_other:label')"/>
+        <hint ref="jr:itext('/data/data_details4/what_other_income_apart_farming_other:hint')"/>
+      </input>
+      <select ref="/data/data_details4/what_kind_toilet">
+        <label ref="jr:itext('/data/data_details4/what_kind_toilet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option0')"/>
+          <value>flushed_toilet_used_alone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option1')"/>
+          <value>flush_toilet_shar_with_others</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option2')"/>
+          <value>public_toilet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option3')"/>
+          <value>pit_latrines</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option4')"/>
+          <value>go_into_bush_lake</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/what_kind_toilet:option5')"/>
+          <value>plastic_bag</value>
+        </item>
+      </select>
+      <select1 ref="/data/data_details4/industries_around">
+        <label ref="jr:itext('/data/data_details4/industries_around:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details4/industries_around:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/industries_around:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_details4/main_source_drink_water">
+        <label ref="jr:itext('/data/data_details4/main_source_drink_water:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details4/main_source_drink_water:option0')"/>
+          <value>springs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/main_source_drink_water:option1')"/>
+          <value>boreholes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/main_source_drink_water:option2')"/>
+          <value>bottled</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details4/main_source_drink_water:option3')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <input ref="/data/data_details4/main_source_drink_water_other">
+        <label ref="jr:itext('/data/data_details4/main_source_drink_water_other:label')"/>
+      </input>
+    </group>
+    <group ref="/data/data_details5" appearance="field-list">
+      <label ref="jr:itext('/data/data_details5:label')"/>
+      <select ref="/data/data_details5/how_treat_drink_water">
+        <label ref="jr:itext('/data/data_details5/how_treat_drink_water:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details5/how_treat_drink_water:option0')"/>
+          <value>boiling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/how_treat_drink_water:option1')"/>
+          <value>add_chlorine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/how_treat_drink_water:option2')"/>
+          <value>filtration</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/how_treat_drink_water:option3')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/data/data_details5/how_treat_drink_water_other">
+        <label ref="jr:itext('/data/data_details5/how_treat_drink_water_other:label')"/>
+        <hint ref="jr:itext('/data/data_details5/how_treat_drink_water_other:hint')"/>
+      </input>
+      <select ref="/data/data_details5/what_do_familiy_sick">
+        <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:option0')"/>
+          <value>stay_at_home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:option1')"/>
+          <value>herbal_treat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:option2')"/>
+          <value>visit_chemist</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:option3')"/>
+          <value>dispensary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/what_do_familiy_sick:option4')"/>
+          <value>county_hospital</value>
+        </item>
+      </select>
+      <select ref="/data/data_details5/fail_to_respond_treat">
+        <label ref="jr:itext('/data/data_details5/fail_to_respond_treat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_details5/fail_to_respond_treat:option0')"/>
+          <value>repeat_drug</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/fail_to_respond_treat:option1')"/>
+          <value>herbal_treat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/fail_to_respond_treat:option2')"/>
+          <value>revisit_hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_details5/fail_to_respond_treat:option3')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/data_details5/fail_to_respond_treat_other">
+        <label ref="jr:itext('/data/data_details5/fail_to_respond_treat_other:label')"/>
+        <hint ref="jr:itext('/data/data_details5/fail_to_respond_treat_other:hint')"/>
+      </input>
+      <input ref="/data/data_details5/how_long_take_hospital">
+        <label ref="jr:itext('/data/data_details5/how_long_take_hospital:label')"/>
+        <hint ref="jr:itext('/data/data_details5/how_long_take_hospital:hint')"/>
+      </input>
+      <input ref="/data/data_details5/interview_name">
+        <label ref="jr:itext('/data/data_details5/interview_name:label')"/>
+      </input>
+    </group>
+    <group ref="/data/environ_data" appearance="field-list">
+      <label ref="jr:itext('/data/environ_data:label')"/>
+      <input ref="/data/environ_data/gps_location">
+        <label ref="jr:itext('/data/environ_data/gps_location:label')"/>
+      </input>
+      <input ref="/data/environ_data/temp">
+        <label ref="jr:itext('/data/environ_data/temp:label')"/>
+      </input>
+      <input ref="/data/environ_data/hum">
+        <label ref="jr:itext('/data/environ_data/hum:label')"/>
+      </input>
+      <input ref="/data/environ_data/ph">
+        <label ref="jr:itext('/data/environ_data/ph:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

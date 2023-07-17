@@ -51,7 +51,7 @@ class SurveyQuestions(models.Model):
     col_type    = models.CharField(max_length=10,choices=QN_OPTIONS,default='TEXT')
     options     = models.TextField(null=True,blank=True)
     hint        = models.TextField(null=True,blank=True)
-    label       = models.TextField(null=True,blank=True)
+    label       = models.CharField(max_length=50,null=True,blank=True)
     constraints = models.TextField(blank=True, null=True)
     required    = models.CharField(max_length=1,default=0)
     order       = models.IntegerField(blank=True, null=True,default=0)

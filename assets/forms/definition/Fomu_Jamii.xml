@@ -1,0 +1,89 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Fomu Jamii</h:title>
+    <model>
+      <instance>
+        <data id="build_Fomu-Jamii_1459930979">
+          <meta>
+            <instanceID/>
+          </meta>
+          <FirstPage>
+            <Name/>
+            <Area/>
+            <Date/>
+            <Picture/>
+            <Comments/>
+            <Location/>
+          </FirstPage>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/FirstPage:label">
+            <value>Ukurasa Mkuu</value>
+          </text>
+          <text id="/data/FirstPage/Name:label">
+            <value>Jina la mtoa taarifa</value>
+          </text>
+          <text id="/data/FirstPage/Area:label">
+            <value>Jina la eneo la tukio</value>
+          </text>
+          <text id="/data/FirstPage/Date:label">
+            <value>Tarehe ya Tukio</value>
+          </text>
+          <text id="/data/FirstPage/Picture:label">
+            <value>Picha</value>
+          </text>
+          <text id="/data/FirstPage/Picture:hint">
+            <value>Tafadhali chukua picha ya tukio / dalili (Kama ni binadamu tafadhari pata ruhusa ya mhusika kwanza)</value>
+          </text>
+          <text id="/data/FirstPage/Comments:label">
+            <value>Maoni</value>
+          </text>
+          <text id="/data/FirstPage/Comments:hint">
+            <value>Tafadhali toa maoni yako kuhusiana na taarifa</value>
+          </text>
+          <text id="/data/FirstPage/Location:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/FirstPage/Location:hint">
+            <value>Tafadhali chukua GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/FirstPage/Name" type="string"/>
+      <bind nodeset="/data/FirstPage/Area" type="string"/>
+      <bind nodeset="/data/FirstPage/Date" type="date"/>
+      <bind nodeset="/data/FirstPage/Picture" type="binary"/>
+      <bind nodeset="/data/FirstPage/Comments" type="string"/>
+      <bind nodeset="/data/FirstPage/Location" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/FirstPage:label')"/>
+      <input ref="/data/FirstPage/Name">
+        <label ref="jr:itext('/data/FirstPage/Name:label')"/>
+      </input>
+      <input ref="/data/FirstPage/Area">
+        <label ref="jr:itext('/data/FirstPage/Area:label')"/>
+      </input>
+      <input ref="/data/FirstPage/Date">
+        <label ref="jr:itext('/data/FirstPage/Date:label')"/>
+      </input>
+      <upload ref="/data/FirstPage/Picture" mediatype="image/*">
+        <label ref="jr:itext('/data/FirstPage/Picture:label')"/>
+        <hint ref="jr:itext('/data/FirstPage/Picture:hint')"/>
+      </upload>
+      <input ref="/data/FirstPage/Comments">
+        <label ref="jr:itext('/data/FirstPage/Comments:label')"/>
+        <hint ref="jr:itext('/data/FirstPage/Comments:hint')"/>
+      </input>
+      <input ref="/data/FirstPage/Location">
+        <label ref="jr:itext('/data/FirstPage/Location:label')"/>
+        <hint ref="jr:itext('/data/FirstPage/Location:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

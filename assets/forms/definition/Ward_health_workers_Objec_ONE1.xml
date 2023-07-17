@@ -1,0 +1,926 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Ward health workers Objec ONE</h:title>
+    <model>
+      <instance>
+        <data id="build_Ward-health-workers-Objec-ONE_157683624445">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <respondant_details>
+            <name/>
+            <sex/>
+            <telNo/>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+            <date/>
+            <proffession/>
+            <proffession_other/>
+          </respondant_details>
+          <how_long_working/>
+          <most_helminthic_parasite/>
+          <most_helminthic_parasite_other/>
+          <know_TS_tapeworm/>
+          <Tsolium_is/>
+          <how_often_dign_Tsolium/>
+          <which_sample_collect_for_Tsolium/>
+          <which_sample_collect_for_Tsolium_other/>
+          <how_dig_TSolium_parasite/>
+          <cases_Tsolium_per_month>
+            0
+          </cases_Tsolium_per_month>
+          <what_do_patient_with_TSolium/>
+          <know_cysticercus/>
+          <Tsolium_cyst_is/>
+          <how_human_get_infected_cysticer/>
+          <aware_neurocyst/>
+          <defn_neurocyst/>
+          <defn_neurocyst_other/>
+          <most_clinical_sign_neurocyst/>
+          <most_clinical_sign_neurocyst_other/>
+          <have_seen_patient_with_epilepsy/>
+          <have_seen_patient_with_epilepsy_month>
+            0
+          </have_seen_patient_with_epilepsy_month>
+          <how_dig_neurocysticer/>
+          <what_do_with_peopl_epilepsy/>
+          <what_do_with_peopl_epilepsy_other/>
+          <gps_locat/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/respondant_details:label">
+            <value>Respondent Particular</value>
+          </text>
+          <text id="/data/respondant_details/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/respondant_details/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/respondant_details/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/respondant_details/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/respondant_details/telNo:label">
+            <value>Telephone Number</value>
+          </text>
+          <text id="/data/respondant_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/respondant_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/respondant_details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/respondant_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/respondant_details/date:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/respondant_details/proffession:label">
+            <value>Profession</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option0">
+            <value>Medical Officer (MD)</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option1">
+            <value>Assistant MD</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option2">
+            <value>Clinical Officer </value>
+          </text>
+          <text id="/data/respondant_details/proffession:option3">
+            <value>Clinical Assistant</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/respondant_details/proffession_other:label">
+            <value>Other professions</value>
+          </text>
+          <text id="/data/how_long_working:label">
+            <value>1. For how long have you been working at this health center (months)</value>
+          </text>
+          <text id="/data/most_helminthic_parasite:label">
+            <value>2. What are the most common helminthic parasite cases in your health centre?</value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option0">
+            <value>Round worms</value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option1">
+            <value>Flat worms </value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option2">
+            <value>Pin worms </value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option3">
+            <value>Whip worms</value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option4">
+            <value>I don’t know</value>
+          </text>
+          <text id="/data/most_helminthic_parasite:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/most_helminthic_parasite_other:label">
+            <value>What other common helminthic parasite cases in your health centre?</value>
+          </text>
+          <text id="/data/know_TS_tapeworm:label">
+            <value>3. Do you know Taenia solium tapeworm? </value>
+          </text>
+          <text id="/data/know_TS_tapeworm:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/know_TS_tapeworm:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Tsolium_is:label">
+            <value>4. T.solium tapeworm is</value>
+          </text>
+          <text id="/data/Tsolium_is:option0">
+            <value>thread like round worm residing in the stomach of pig</value>
+          </text>
+          <text id="/data/Tsolium_is:option1">
+            <value>a 4 metres long or more</value>
+          </text>
+          <text id="/data/Tsolium_is:option2">
+            <value>a pigmented tapeworm with scolex (head)   </value>
+          </text>
+          <text id="/data/Tsolium_is:option3">
+            <value>a 3 to 4 millimetres long flatworm</value>
+          </text>
+          <text id="/data/Tsolium_is:option4">
+            <value>made up of four suckers each consisting of double rows of hooks with which it attaches itself on the walls of the intestine</value>
+          </text>
+          <text id="/data/Tsolium_is:option5">
+            <value>residing in the liver of human carry eggs in it</value>
+          </text>
+          <text id="/data/Tsolium_is:option6">
+            <value>has proglottids which contain eggs </value>
+          </text>
+          <text id="/data/Tsolium_is:option7">
+            <value>causing cyst in various organs of pigs, goats and sheep</value>
+          </text>
+          <text id="/data/how_often_dign_Tsolium:label">
+            <value>5. How often do you diagnose T. solium parasite/month? </value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:label">
+            <value>6. Which sample do you collect for T.solium diagnosis? </value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option0">
+            <value>Blood</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option1">
+            <value>Stool</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option2">
+            <value>Urine</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option3">
+            <value>I dont know</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option4">
+            <value>I don’t collect any sample </value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option5">
+            <value>Disease status</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option6">
+            <value>Decision</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option7">
+            <value>Action taken</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/which_sample_collect_for_Tsolium_other:label">
+            <value>Other sample you collect for T.Solium diagnosis</value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:label">
+            <value>7. How do you diagnose T.solium parasite</value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:hint">
+            <value>you are provided with a list of options describing the means by which T.solium tapeworm is diagnosed, choose from the lis</value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:option0">
+            <value>Checking for the parasite eggs </value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:option1">
+            <value>Checking for the parasite ovaries arrangement in the proglottid</value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:option2">
+            <value>Checking for the parasite scolex in the stool </value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:option3">
+            <value>Antibodies/antigens in serum sample </value>
+          </text>
+          <text id="/data/how_dig_TSolium_parasite:option4">
+            <value>I don’t know</value>
+          </text>
+          <text id="/data/cases_Tsolium_per_month:label">
+            <value>8. How many cases of T.solium Taeniosis do you diagnose per month </value>
+          </text>
+          <text id="/data/what_do_patient_with_TSolium:label">
+            <value>9. What do you do with patients diagnosed with T.solium taeniosis? </value>
+          </text>
+          <text id="/data/what_do_patient_with_TSolium:hint">
+            <value>Choose the answer which   is most relevant to you from the list below </value>
+          </text>
+          <text id="/data/what_do_patient_with_TSolium:option0">
+            <value>Treat with anthelmintic </value>
+          </text>
+          <text id="/data/what_do_patient_with_TSolium:option1">
+            <value>Refer them to district hospital</value>
+          </text>
+          <text id="/data/what_do_patient_with_TSolium:option2">
+            <value>Do nothing</value>
+          </text>
+          <text id="/data/know_cysticercus:label">
+            <value>10. Do you know Cysticercus cellulosae? </value>
+          </text>
+          <text id="/data/know_cysticercus:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/know_cysticercus:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:label">
+            <value>11. T.solium cyst is</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:hint">
+            <value>you are provided with a list of statements that describe T.solium cyst, you are required to choose statements that best describe the cyst</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option0">
+            <value>fluid filled sac</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option1">
+            <value>a 0.5 to 2cm in diameter </value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option2">
+            <value>a white – greyish coloured sac</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option3">
+            <value>a blood filled sac like membrane</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option4">
+            <value>about 2 to 10 mm water filled sac</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option5">
+            <value>resides in the brain </value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option6">
+            <value>resides in many tissues and organs including brain</value>
+          </text>
+          <text id="/data/Tsolium_cyst_is:option7">
+            <value>a pus filled sac in the tissues of an infected man and pigs</value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:label">
+            <value>12. How does human get infected with the Cysticercus sellulosae</value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:hint">
+            <value></value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:option0">
+            <value>Eating pork infected with T.solium cyst</value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:option1">
+            <value>Eating food contaminated with T.solium eggs</value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:option2">
+            <value>Drinking water contaminated with T.solium eggs </value>
+          </text>
+          <text id="/data/how_human_get_infected_cysticer:option3">
+            <value>I don’t know</value>
+          </text>
+          <text id="/data/aware_neurocyst:label">
+            <value>13. Are you aware of a medical condition called human neurocysticercosis?</value>
+          </text>
+          <text id="/data/aware_neurocyst:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/aware_neurocyst:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/defn_neurocyst:label">
+            <value>14. If your answer in  above is yes, what is neurocysticercosis?</value>
+          </text>
+          <text id="/data/defn_neurocyst:hint">
+            <value></value>
+          </text>
+          <text id="/data/defn_neurocyst:option0">
+            <value>Presence of cysticerci in the central nervous system</value>
+          </text>
+          <text id="/data/defn_neurocyst:option1">
+            <value>Destruction of the general performance of the central nervous system</value>
+          </text>
+          <text id="/data/defn_neurocyst:option2">
+            <value>Presence of a foreign body in the brain</value>
+          </text>
+          <text id="/data/defn_neurocyst:option3">
+            <value>Presence of T.solium tapeworm in the central nervous system</value>
+          </text>
+          <text id="/data/defn_neurocyst:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/defn_neurocyst_other:label">
+            <value>Other definition of neurocysticercosis</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:label">
+            <value>15. What is the most common clinical sign of human neurocysticercosis</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option0">
+            <value>Epilepsy</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option1">
+            <value>Headache </value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option2">
+            <value>Dizziness </value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option3">
+            <value>Blindness</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option4">
+            <value>Incoordination</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option5">
+            <value>Lameness</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option6">
+            <value>Fever</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option7">
+            <value>Nephropathy</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option8">
+            <value>Splenomegaly</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option9">
+            <value>I don’t know</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst:option10">
+            <value>Other</value>
+          </text>
+          <text id="/data/most_clinical_sign_neurocyst_other:label">
+            <value>Other common clinical sign of human neurocysticercosis</value>
+          </text>
+          <text id="/data/have_seen_patient_with_epilepsy:label">
+            <value>16. In your daily routine have you ever seen a patient brought to your attention with epilepsy as the main clinical sign?</value>
+          </text>
+          <text id="/data/have_seen_patient_with_epilepsy:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/have_seen_patient_with_epilepsy:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/have_seen_patient_with_epilepsy_month:label">
+            <value>17. If your answer in above is ‘yes’ how often do you get these cases/month</value>
+          </text>
+          <text id="/data/how_dig_neurocysticer:label">
+            <value>18. How do you diagnose neurocysticercosis</value>
+          </text>
+          <text id="/data/how_dig_neurocysticer:option0">
+            <value>Clinical signs</value>
+          </text>
+          <text id="/data/how_dig_neurocysticer:option1">
+            <value>MRI/CT Scan </value>
+          </text>
+          <text id="/data/how_dig_neurocysticer:option2">
+            <value>Serology tests</value>
+          </text>
+          <text id="/data/how_dig_neurocysticer:option3">
+            <value>I don’t know</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:label">
+            <value>19. What do you do with people presented with epilepsy?</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:option0">
+            <value>Provide a bed rest </value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:option1">
+            <value>Psychological advice</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:option2">
+            <value>Provide Anti-epileptic chemotherapy</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:option3">
+            <value>I do nothing</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/what_do_with_peopl_epilepsy_other:label">
+            <value>Other mechanism of dealing with people presented with epilepsy</value>
+          </text>
+          <text id="/data/gps_locat:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/respondant_details/name" type="string" required="true()" jr:requiredMsg="Name is required"/>
+      <bind nodeset="/data/respondant_details/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/respondant_details/telNo" type="decimal" required="true()" jr:requiredMsg="Telephone No. is required"/>
+      <bind nodeset="/data/respondant_details/region" type="string" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/respondant_details/district" type="string" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/respondant_details/ward" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/respondant_details/village" type="string" required="true()" jr:requiredMsg="Vilage is required"/>
+      <bind nodeset="/data/respondant_details/date" type="date" required="true()" jr:requiredMsg="Date is required"/>
+      <bind nodeset="/data/respondant_details/proffession" type="select1" required="true()" jr:requiredMsg="Profession is required"/>
+      <bind nodeset="/data/respondant_details/proffession_other" type="string"/>
+      <bind nodeset="/data/how_long_working" type="int" required="true()" jr:requiredMsg="Qn1 is required"/>
+      <bind nodeset="/data/most_helminthic_parasite" type="select" required="true()" jr:requiredMsg="Qn2 is required"/>
+      <bind nodeset="/data/most_helminthic_parasite_other" type="string" relevant="(selected(/data/most_helminthic_parasite, 'other'))"/>
+      <bind nodeset="/data/know_TS_tapeworm" type="select1" required="true()" jr:requiredMsg="Qn3 is required"/>
+      <bind nodeset="/data/Tsolium_is" type="select" required="true()" jr:requiredMsg="Qn4 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/how_often_dign_Tsolium" type="int" required="true()" jr:requiredMsg="Qn5 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/which_sample_collect_for_Tsolium" type="select" required="true()" jr:requiredMsg="Qn6 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/which_sample_collect_for_Tsolium_other" type="string" relevant="(selected(/data/which_sample_collect_for_Tsolium, 'other'))"/>
+      <bind nodeset="/data/how_dig_TSolium_parasite" type="select" required="true()" jr:requiredMsg="Qn7 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/cases_Tsolium_per_month" type="int" required="true()" jr:requiredMsg="Qn8 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/what_do_patient_with_TSolium" type="select1" required="true()" jr:requiredMsg="Qn9 is required" relevant="(selected(/data/know_TS_tapeworm, 'yes'))"/>
+      <bind nodeset="/data/know_cysticercus" type="select1" required="true()" jr:requiredMsg="Qn10 is required"/>
+      <bind nodeset="/data/Tsolium_cyst_is" type="select" required="true()" jr:requiredMsg="Qn11 is required" relevant="(selected(/data/know_cysticercus, 'yes'))"/>
+      <bind nodeset="/data/how_human_get_infected_cysticer" type="select" required="true()" jr:requiredMsg="Qn12 is required" relevant="(selected(/data/know_cysticercus, 'yes'))"/>
+      <bind nodeset="/data/aware_neurocyst" type="select1" required="true()" jr:requiredMsg="Qn13 is required" relevant="(selected(/data/know_cysticercus, 'yes'))"/>
+      <bind nodeset="/data/defn_neurocyst" type="select" required="true()" jr:requiredMsg="Qn14 is required" relevant="(selected(/data/aware_neurocyst, 'yes'))"/>
+      <bind nodeset="/data/defn_neurocyst_other" type="string" relevant="(selected(/data/defn_neurocyst, 'other'))"/>
+      <bind nodeset="/data/most_clinical_sign_neurocyst" type="select1" required="true()" jr:requiredMsg="Qn15 is required" relevant="(selected(/data/know_cysticercus, 'yes'))"/>
+      <bind nodeset="/data/most_clinical_sign_neurocyst_other" type="string" relevant="(selected(/data/most_clinical_sign_neurocyst, 'other'))"/>
+
+      <bind nodeset="/data/have_seen_patient_with_epilepsy" type="select1" required="true()" jr:requiredMsg="Qn16 is required"/>
+
+      <bind nodeset="/data/have_seen_patient_with_epilepsy_month" type="int" required="true()" jr:requiredMsg="Qn17 is required" relevant="(selected(/data/have_seen_patient_with_epilepsy, 'yes'))"/>
+
+      <bind nodeset="/data/how_dig_neurocysticer" type="select1" required="true()" jr:requiredMsg="Qn18 is required" relevant="(selected(/data/aware_neurocyst, 'yes'))"/>
+      <bind nodeset="/data/what_do_with_peopl_epilepsy" type="select" required="true()" jr:requiredMsg="Qn19 is required" relevant="(selected(/data/have_seen_patient_with_epilepsy, 'yes'))"/>
+      <bind nodeset="/data/what_do_with_peopl_epilepsy_other" type="string" relevant="(selected(/data/what_do_with_peopl_epilepsy, 'other'))"/>
+      <bind nodeset="/data/gps_locat" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Ward Health Workes Obj 1 ',': ',/data/respondant_details/telNo)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/respondant_details" appearance="field-list">
+      <label ref="jr:itext('/data/respondant_details:label')"/>
+      <input ref="/data/respondant_details/name">
+        <label ref="jr:itext('/data/respondant_details/name:label')"/>
+      </input>
+      <select1 ref="/data/respondant_details/sex">
+        <label ref="jr:itext('/data/respondant_details/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/respondant_details/telNo">
+        <label ref="jr:itext('/data/respondant_details/telNo:label')"/>
+      </input>
+      <input ref="/data/respondant_details/region">
+        <label ref="jr:itext('/data/respondant_details/region:label')"/>
+      </input>
+      <input ref="/data/respondant_details/district">
+        <label ref="jr:itext('/data/respondant_details/district:label')"/>
+      </input>
+      <input ref="/data/respondant_details/ward">
+        <label ref="jr:itext('/data/respondant_details/ward:label')"/>
+      </input>
+      <input ref="/data/respondant_details/village">
+        <label ref="jr:itext('/data/respondant_details/village:label')"/>
+      </input>
+      <input ref="/data/respondant_details/date">
+        <label ref="jr:itext('/data/respondant_details/date:label')"/>
+      </input>
+      <select1 ref="/data/respondant_details/proffession">
+        <label ref="jr:itext('/data/respondant_details/proffession:label')"/>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option0')"/>
+          <value>medical_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option1')"/>
+          <value>assistant_MD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option2')"/>
+          <value>clinical_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option3')"/>
+          <value>clinical_assistant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/respondant_details/proffession_other">
+        <label ref="jr:itext('/data/respondant_details/proffession_other:label')"/>
+      </input>
+    </group>
+    <input ref="/data/how_long_working">
+      <label ref="jr:itext('/data/how_long_working:label')"/>
+    </input>
+    <select ref="/data/most_helminthic_parasite">
+      <label ref="jr:itext('/data/most_helminthic_parasite:label')"/>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option0')"/>
+        <value>round_worms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option1')"/>
+        <value>flat_worms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option2')"/>
+        <value>pin_worms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option3')"/>
+        <value>whip_worms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option4')"/>
+        <value>i_dont_know</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_helminthic_parasite:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/most_helminthic_parasite_other">
+      <label ref="jr:itext('/data/most_helminthic_parasite_other:label')"/>
+    </input>
+    <select1 ref="/data/know_TS_tapeworm">
+      <label ref="jr:itext('/data/know_TS_tapeworm:label')"/>
+      <item>
+        <label ref="jr:itext('/data/know_TS_tapeworm:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/know_TS_tapeworm:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/Tsolium_is">
+      <label ref="jr:itext('/data/Tsolium_is:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option0')"/>
+        <value>thread_like_round_worm</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option1')"/>
+        <value>4metres_long</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option2')"/>
+        <value>pigmented_tapeworm</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option3')"/>
+        <value>3to4milim_long_flatworm</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option4')"/>
+        <value>made_up_4_suckers</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option5')"/>
+        <value>residing_liver_human</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option6')"/>
+        <value>proglottids</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_is:option7')"/>
+        <value>caus_cyst</value>
+      </item>
+    </select>
+    <input ref="/data/how_often_dign_Tsolium">
+      <label ref="jr:itext('/data/how_often_dign_Tsolium:label')"/>
+    </input>
+    <select ref="/data/which_sample_collect_for_Tsolium">
+      <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:label')"/>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option0')"/>
+        <value>blood</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option1')"/>
+        <value>stool</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option2')"/>
+        <value>urine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option3')"/>
+        <value>i_dont_know</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option4')"/>
+        <value>i_dont_collect</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option5')"/>
+        <value>disease_status</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option6')"/>
+        <value>decision</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option7')"/>
+        <value>action_taken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/which_sample_collect_for_Tsolium:option8')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/which_sample_collect_for_Tsolium_other">
+      <label ref="jr:itext('/data/which_sample_collect_for_Tsolium_other:label')"/>
+    </input>
+    <select ref="/data/how_dig_TSolium_parasite">
+      <label ref="jr:itext('/data/how_dig_TSolium_parasite:label')"/>
+      <hint ref="jr:itext('/data/how_dig_TSolium_parasite:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/how_dig_TSolium_parasite:option0')"/>
+        <value>check_parasite_eggs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_TSolium_parasite:option1')"/>
+        <value>check_parasite_ovaries</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_TSolium_parasite:option2')"/>
+        <value>check_parasite_scolex</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_TSolium_parasite:option3')"/>
+        <value>antibodies_antigens_serum</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_TSolium_parasite:option4')"/>
+        <value>i_dont_know</value>
+      </item>
+    </select>
+    <input ref="/data/cases_Tsolium_per_month">
+      <label ref="jr:itext('/data/cases_Tsolium_per_month:label')"/>
+    </input>
+    <select1 ref="/data/what_do_patient_with_TSolium">
+      <label ref="jr:itext('/data/what_do_patient_with_TSolium:label')"/>
+      <hint ref="jr:itext('/data/what_do_patient_with_TSolium:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/what_do_patient_with_TSolium:option0')"/>
+        <value>treat_with_anthe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_patient_with_TSolium:option1')"/>
+        <value>refer_them_distr_hospital</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_patient_with_TSolium:option2')"/>
+        <value>do_nothing</value>
+      </item>
+    </select1>
+    <select1 ref="/data/know_cysticercus">
+      <label ref="jr:itext('/data/know_cysticercus:label')"/>
+      <item>
+        <label ref="jr:itext('/data/know_cysticercus:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/know_cysticercus:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/Tsolium_cyst_is">
+      <label ref="jr:itext('/data/Tsolium_cyst_is:label')"/>
+      <hint ref="jr:itext('/data/Tsolium_cyst_is:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option0')"/>
+        <value>fluid_filled_sac</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option1')"/>
+        <value>to_2cm_in_diameter</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option2')"/>
+        <value>whit_greyish_coloured</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option3')"/>
+        <value>blood_filled_sac</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option4')"/>
+        <value>about_10mm_water_filled_sac</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option5')"/>
+        <value>residing_in_the_brain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option6')"/>
+        <value>resides_many_tissues</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Tsolium_cyst_is:option7')"/>
+        <value>a_pus_filled_sac</value>
+      </item>
+    </select>
+    <select ref="/data/how_human_get_infected_cysticer">
+      <label ref="jr:itext('/data/how_human_get_infected_cysticer:label')"/>
+      <hint ref="jr:itext('/data/how_human_get_infected_cysticer:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/how_human_get_infected_cysticer:option0')"/>
+        <value>eating_pork</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_human_get_infected_cysticer:option1')"/>
+        <value>eating_contaminated_food</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_human_get_infected_cysticer:option2')"/>
+        <value>drinking_water</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_human_get_infected_cysticer:option3')"/>
+        <value>i_dont_know</value>
+      </item>
+    </select>
+    <select1 ref="/data/aware_neurocyst">
+      <label ref="jr:itext('/data/aware_neurocyst:label')"/>
+      <item>
+        <label ref="jr:itext('/data/aware_neurocyst:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aware_neurocyst:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/defn_neurocyst">
+      <label ref="jr:itext('/data/defn_neurocyst:label')"/>
+      <hint ref="jr:itext('/data/defn_neurocyst:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/defn_neurocyst:option0')"/>
+        <value>presence_cysticer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/defn_neurocyst:option1')"/>
+        <value>destruction_general_per</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/defn_neurocyst:option2')"/>
+        <value>presence_foreign_body</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/defn_neurocyst:option3')"/>
+        <value>presence_of_TSolium_tapeworm</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/defn_neurocyst:option4')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/defn_neurocyst_other">
+      <label ref="jr:itext('/data/defn_neurocyst_other:label')"/>
+    </input>
+    <select1 ref="/data/most_clinical_sign_neurocyst">
+      <label ref="jr:itext('/data/most_clinical_sign_neurocyst:label')"/>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option0')"/>
+        <value>epilepsy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option1')"/>
+        <value>headache</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option2')"/>
+        <value>dizziness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option3')"/>
+        <value>blindness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option4')"/>
+        <value>incoordination</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option5')"/>
+        <value>lameness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option6')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option7')"/>
+        <value>nephropathy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option8')"/>
+        <value>splenomegaly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option9')"/>
+        <value>i_dont_know</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/most_clinical_sign_neurocyst:option10')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/most_clinical_sign_neurocyst_other">
+      <label ref="jr:itext('/data/most_clinical_sign_neurocyst_other:label')"/>
+    </input>
+    <select1 ref="/data/have_seen_patient_with_epilepsy">
+      <label ref="jr:itext('/data/have_seen_patient_with_epilepsy:label')"/>
+      <item>
+        <label ref="jr:itext('/data/have_seen_patient_with_epilepsy:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/have_seen_patient_with_epilepsy:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/have_seen_patient_with_epilepsy_month">
+      <label ref="jr:itext('/data/have_seen_patient_with_epilepsy_month:label')"/>
+    </input>
+    <select1 ref="/data/how_dig_neurocysticer">
+      <label ref="jr:itext('/data/how_dig_neurocysticer:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_dig_neurocysticer:option0')"/>
+        <value>clinical_signs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_neurocysticer:option1')"/>
+        <value>CTScan</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_neurocysticer:option2')"/>
+        <value>serology_tests</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_dig_neurocysticer:option3')"/>
+        <value>i_dont_know</value>
+      </item>
+    </select1>
+    <select ref="/data/what_do_with_peopl_epilepsy">
+      <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:label')"/>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:option0')"/>
+        <value>provide_bed_rest</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:option1')"/>
+        <value>psychological_advice</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:option2')"/>
+        <value>provid_ant_epilept_chemoth</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:option3')"/>
+        <value>do_nothing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_peopl_epilepsy:option4')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/what_do_with_peopl_epilepsy_other">
+      <label ref="jr:itext('/data/what_do_with_peopl_epilepsy_other:label')"/>
+    </input>
+    <input ref="/data/gps_locat">
+      <label ref="jr:itext('/data/gps_locat:label')"/>
+    </input>
+  </h:body>
+</h:html>

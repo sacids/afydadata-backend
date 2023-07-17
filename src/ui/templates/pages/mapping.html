@@ -1,0 +1,148 @@
+{% extends 'layout/base.html' %}
+
+
+
+
+{% block nav %}
+    {% include "partials/nav.html" %}
+{% endblock %}
+
+
+{% block contents %}
+
+<div class="h-full w-full">
+
+    <div class="flex h-full overflow-hidden" id="manageTable" x-data="manageTable()">
+        <div class="flex-1 table-responsive h-full w-full overflow-x-scroll">
+            <table id="datatable" class="table border=1 w-full table-striped table-bordered compact nowrap text-sm">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        {% for col in tbl_header %}
+                            <th> {% if col.label %} {{col.label}} {% else %} {{ col.col_name }} {% endif %}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="flex-shrink-0 w-[850px] h-full flex flex-col overflow-y-hidden transition-all duration-500" :class="{ '-mr-[850px]': !sidebarOpen }">
+            <div id="instance-data" class="h-full w-full shadow-md overflow-hidden  bg-gray-100">
+            ipo ndani
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+<!-- Datatable config -->
+<script language="javascript">
+
+    $(document).ready(function() {
+
+        var table = $('#datatable').DataTable({
+            dom: '<t<"dt_dom"ip>>',
+            processing: true,
+            serverSide: true,
+            ajax: "{{datatable_list}}",
+            rowId: [0],
+            search: {
+                return: true,
+            },
+            "pageLength": 13,
+            columnDefs: [
+                {
+                    render: function (data, type, row) {
+                        return '<span @click="dataDetail('+data+')" class="cursor-pointer text-rose-900"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-3.5">'+
+                            '<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />'+
+                         '</svg><span>';
+                    },
+                    className: "fixed bg-white hover:bg-rose-100",
+                    targets: 0,
+                },
+            ],
+            "createdRow": function( row, data, dataIndex ) {
+                var url     = window.location.origin + '/ui/form_instance/' + data[0]
+            }
+
+        });
+
+        $('#datatable-search').keyup(function(){
+            tt = $('#datatable').DataTable();
+            tt.search($(this).val()).draw()
+            htmx.process('#manageTable')
+        })
+
+
+        htmx.process('#manageTable')
+
+    });
+
+    htmx.process('#manageTable')
+
+    function manageTable(){
+        return{
+
+            sidebar_title: "",
+            pg_actions_url: "",
+            sidebarOpen: false,
+
+            dataDetail(id){
+
+                this.sidebar     = true;
+                var title   = '<p class="text-md"> Survey Form '+id+'</p>';
+                var url     = window.location.origin + '/ui/instance/' + id
+
+                $('#sidebar-title').html(title);
+
+                fetch(url)
+                    .then(response => response.text())
+                    .then(data => {
+                        $('#data-detail').html(data)
+                        htmx.process('#data-detail');
+                    })
+            },
+
+            doPageAction(title,url){
+                $('#sidebar-title').html(title);
+                $('#data-detail').html(url);
+            },
+
+        }
+    }
+
+</script>
+
+{% endblock %}
+
+
+{% block sidebar %}
+
+<div class="border-b h-10 flex justify-between">
+
+    <p class="py-2 px-4 text-rose-900 " id="sidebar-title"></p>
+
+    <div class="">
+        <button type="button" class="border-l hover:text-gray-800 hover:bg-rose-50 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center" @click="sidebar = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>              
+        </button>
+    </div>
+
+</div>
+
+
+
+<div
+    class="h-full overflow-hidden"
+    id="data-detail"
+    >
+
+</div>
+
+{% endblock %}

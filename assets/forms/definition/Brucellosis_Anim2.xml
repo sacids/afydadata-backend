@@ -1,0 +1,1670 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Brucellosis Anim</h:title>
+    <model>
+      <instance>
+        <data id="build_Brucellosis-Anim_1491988228”>
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <InitialDetails>
+            <District/>
+            <Village/>
+            <Code_nember/>
+            <Age/>
+            <Sex/>
+            <Marital_status/>
+            <Resposnible_herd/>
+          </InitialDetails>
+          <Livestock_system>
+            <Species_in_herd/>
+            <races_in_herd_Cattle/>
+            <races_in_herd_Goats/>
+            <races_in_herd_Sheep/>
+          </Livestock_system>
+          <Livestock_system_>
+            <Animal_age_cattle/>
+            <Animal_age_Goats/>
+            <Animal_age_sheep/>
+            <animal_management_in_herd/>
+            <herd_size/>
+            <herd_location/>
+          </Livestock_system_>
+          <Animal_movement_contact>
+            <common_pasture_with_other_herd/>
+            <common_pasture_with_wildlife/>
+            <source_of_water_with_other_herd/>
+            <sharing_bulls_with_other_herd/>
+            <restocking_in_herd/>
+          </Animal_movement_contact>
+          <Reproduction_Production_management>
+            <breeding_method/>
+            <Assisting_animals_in_parturitions/>
+            <Protective_mesures/>
+            <abortion_in_herd/>
+            <Abortion_in_species/>
+            <what_stage_of_pregnancy_cattle/>
+            <what_stage_of_pregnancy_goats/>
+            <suspicon_cause/>
+          </Reproduction_Production_management>
+          <Reproduction_Production_management_>
+            <placenta_retention_with_abortion/>
+            <placenta_retention_normal_calving_herd/>
+            <dispsition_placenta_fetus_calves/>
+            <Milk_production/>
+          </Reproduction_Production_management_>
+          <Brucellosis_Knowledge>
+            <Brucellosis_local_name/>
+            <recognizing_brucellosis/>
+            <symptoms_Female/>
+            <symptoms_male/>
+            <brucel_transmision_to_human/>
+          </Brucellosis_Knowledge>
+          <Prevention_Control_measures>
+            <report_disease_cases_to_VS/>
+            <report_abortion_domestic_toVS/>
+            <Sampling_lab_analysis_by_vet/>
+            <feedback_and_investigation/>
+          </Prevention_Control_measures>
+          <Prevention_Control_measures_>
+            <Vaccination_in_herd/>
+            <Vaccine_which_disease/>
+            <Bruce_Vaccination_in_herd/>
+            <Vaccine_implementor/>
+            <Veterinary_services/>
+          </Prevention_Control_measures_>
+          <Final_details>
+            <Name_of_interviewer/>
+            <gps_location/>
+          </Final_details>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/InitialDetails:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/InitialDetails/District:label">
+            <value>District</value>
+          </text>
+          <text id="/data/InitialDetails/District:option0">
+            <value>Karagwe</value>
+          </text>
+          <text id="/data/InitialDetails/District:option1">
+            <value>Ngara</value>
+          </text>
+          <text id="/data/InitialDetails/Village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/InitialDetails/Code_nember:label">
+            <value>Code number</value>
+          </text>
+          <text id="/data/InitialDetails/Code_nember:hint">
+            <value>Instead of name</value>
+          </text>
+          <text id="/data/InitialDetails/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:label">
+            <value>Marital Status</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option0">
+            <value>Single</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option1">
+            <value>Married</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option2">
+            <value>Divorced</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option3">
+            <value>Widowed</value>
+          </text>
+          <text id="/data/InitialDetails/Resposnible_herd:label">
+            <value>Person responsible for herd </value>
+          </text>
+          <text id="/data/Livestock_system:label">
+            <value>Data on livestock system</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:label">
+            <value>What are the species raised in herd</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option1">
+            <value>Small ruminants</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:label">
+            <value>What are the races raised in herd (CATTLE)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option0">
+            <value>Ankole</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option1">
+            <value>Cross Breed</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option2">
+            <value>Friesian</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option3">
+            <value>Sahiwal</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option4">
+            <value>Jersey</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:label">
+            <value>What are races raised in herd (GOATS)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option0">
+            <value>Local</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option1">
+            <value>Boer</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option2">
+            <value>Mixed</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:label">
+            <value>What are races raised in herd (SHEEP)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:option0">
+            <value>Local</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:option1">
+            <value>Mixed</value>
+          </text>
+          <text id="/data/Livestock_system_:label">
+            <value>Data on livestock System</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:label">
+            <value>Age of animal raised - Cattle (Months)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option0">
+            <value>0 -- 12</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option1">
+            <value>12 -- 36</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option2">
+            <value>&gt;36</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:label">
+            <value>Age of animal raised - Goats (Months)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option0">
+            <value>0 -- 8</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option1">
+            <value>8 -- 24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option2">
+            <value>&gt;24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:label">
+            <value>Age of animal raised - Sheep (months)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option0">
+            <value>0 -- 8</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option1">
+            <value>8 -- 24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option2">
+            <value>&gt;24</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:label">
+            <value>Kind of animal management in the herd</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option0">
+            <value>Pastoralism</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option1">
+            <value>Zero grazing</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option2">
+            <value>Mixed</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:label">
+            <value>Herd size</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option0">
+            <value>Small</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option1">
+            <value>Medium</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option2">
+            <value>Large</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:label">
+            <value>Herd Location</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:hint">
+            <value></value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option0">
+            <value>Urban</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option1">
+            <value>Peri-Urban</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option2">
+            <value>Rural</value>
+          </text>
+          <text id="/data/Animal_movement_contact:label">
+            <value>Animal Movement and contact</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:label">
+            <value>Are your animals sharing common pasture with other herd?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:label">
+            <value>Are your animal sharing common pasture with wildlife?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:label">
+            <value>Are your animals sharing source of water with other herd?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:label">
+            <value>Are your animal sharing bulls with other herds?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:label">
+            <value>How the animal restocking is done in the herd</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:option0">
+            <value>Importation</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:option1">
+            <value>From market</value>
+          </text>
+          <text id="/data/Reproduction_Production_management:label">
+            <value>Reproduction and production management</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:label">
+            <value>Breeding Method used in the herd</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:option0">
+            <value>Natural service</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:option1">
+            <value>Artificial insemination</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:label">
+            <value>Are you assisting animals in parturitions?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:label">
+            <value>What are protective measures?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:hint">
+            <value>If yes from above questions</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option0">
+            <value>Gloves</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option1">
+            <value>Gown</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option2">
+            <value>Apron</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option3">
+            <value>Sleeve</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:label">
+            <value>Are abortions (expulsion of dead fetus) occurring in the herd? </value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:label">
+            <value>Which Species</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:hint">
+            <value>If yes from above question</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:option1">
+            <value>Goats</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/what_stage_of_pregnancy_cattle:label">
+            <value>At what stage of pregnancy (CATTLE)</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/what_stage_of_pregnancy_goats:label">
+            <value>At what stage of pregnancy (GOATS) </value>
+          </text>
+          <text id="/data/Reproduction_Production_management/suspicon_cause:label">
+            <value>What was (were) suspicion cause?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_:label">
+            <value>Reproduction and production management</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:label">
+            <value>Is the placenta retention with abortion/stillbirth occurring in herd?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:label">
+            <value>Is the placenta retention with normal calving occuring in herd?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:label">
+            <value>How is disposition of placenta, aborted fetus, and dead calves in the herd</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option0">
+            <value>Hook</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option1">
+            <value>Burying in the pit</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option2">
+            <value>Feeding dogs</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:label">
+            <value>How is milk production per day</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option0">
+            <value>Up to 10lts</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option1">
+            <value>10 to 20lts</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option2">
+            <value>&gt; 20lts</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge:label">
+            <value>Knowledge of Brucellosis</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/Brucellosis_local_name:label">
+            <value>What is the brucellosis local name?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:label">
+            <value>Are you able to recognise brucellosis in animal in the herd?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_Female:label">
+            <value>What can be the symptoms observed in female?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_Female:hint">
+            <value>If yes, on above question</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_male:label">
+            <value>What can be the symptoms observed in male</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_male:hint">
+            <value>If yes, on above question</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:label">
+            <value>Can Brucellosis be transmited to human?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures:label">
+            <value>Prevention and control measures</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:label">
+            <value>Do you report the animal diseases to veterinary service? </value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:label">
+            <value>Do you report the abortions in domestic animals to the veterinary services</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:label">
+            <value>Is the sampling and laboratory analysis done by veterinarians?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:hint">
+            <value>If answered yes, on above question</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:label">
+            <value>Is the feedback and epidemiological investigation done?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_:label">
+            <value>Prevention and control measures</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:label">
+            <value>Is the vaccination program done in the herd?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_which_disease:label">
+            <value>If yes, in which disease</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:label">
+            <value>Is the vaccination program for brucellosis done in the herd?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:label">
+            <value>If yes, Who implement vaccination program</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:option0">
+            <value>Public services</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:option1">
+            <value>Private services</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:label">
+            <value>Veterinary services are provided by whom?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:option0">
+            <value>Public service (extension service)</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:option1">
+            <value>Private services</value>
+          </text>
+          <text id="/data/Final_details:label">
+            <value>Final Details</value>
+          </text>
+          <text id="/data/Final_details/Name_of_interviewer:label">
+            <value>Name of interviewer</value>
+          </text>
+          <text id="/data/Final_details/gps_location:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+        <translation lang="swa">
+          <text id="/data/InitialDetails:label">
+            <value>Maelezo ya awali</value>
+          </text>
+          <text id="/data/InitialDetails/District:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/InitialDetails/District:option0">
+            <value>Karagwe</value>
+          </text>
+          <text id="/data/InitialDetails/District:option1">
+            <value>Ngara</value>
+          </text>
+          <text id="/data/InitialDetails/Village:label">
+            <value>Wialaya</value>
+          </text>
+          <text id="/data/InitialDetails/Code_nember:label">
+            <value>Namba ya utambulisho</value>
+          </text>
+          <text id="/data/InitialDetails/Code_nember:hint">
+            <value>Badala ya jina</value>
+          </text>
+          <text id="/data/InitialDetails/Age:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:label">
+            <value>jinsia</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:option0">
+            <value>Me</value>
+          </text>
+          <text id="/data/InitialDetails/Sex:option1">
+            <value>Ke</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:label">
+            <value>Hali ya Ndoa</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option0">
+            <value>Sijaoa / Olewa</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option1">
+            <value>Oa / Olewa</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option2">
+            <value>Mtalaka</value>
+          </text>
+          <text id="/data/InitialDetails/Marital_status:option3">
+            <value>Mjane</value>
+          </text>
+          <text id="/data/InitialDetails/Resposnible_herd:label">
+            <value>Mhusika wa kundi la wanyama</value>
+          </text>
+          <text id="/data/Livestock_system:label">
+            <value>Mifumo ya Mifugo</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:label">
+            <value>Aina za mifugo ulio nao</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option1">
+            <value>Mbuzi au Kondoo</value>
+          </text>
+          <text id="/data/Livestock_system/Species_in_herd:option2">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:label">
+            <value>Aina ya mbegu (Ng'ombe)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option0">
+            <value>Ankole</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option1">
+            <value>Cross Breed</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option2">
+            <value>Friesian</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option3">
+            <value>Sahiwal</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Cattle:option4">
+            <value>Jersey</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:label">
+            <value>Aina za mbegu (MBUZI)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option0">
+            <value>Kienyeji</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option1">
+            <value>Boer</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Goats:option2">
+            <value>Mchanganyiko</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:label">
+            <value>Aina ya Mbegu (KONDOO)</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:option0">
+            <value>Kienyeji</value>
+          </text>
+          <text id="/data/Livestock_system/races_in_herd_Sheep:option1">
+            <value>Mchanganyiko</value>
+          </text>
+          <text id="/data/Livestock_system_:label">
+            <value>Mifumo ya mifugo</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:label">
+            <value>Umri wa mnyama - Ng'ombe (Miezi)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option0">
+            <value>0 -- 12</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option1">
+            <value>12 -- 36</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_cattle:option2">
+            <value>&gt;36</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:label">
+            <value>Umri wa mnyama - Mbuzi (Miezi)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option0">
+            <value>0 -- 8</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option1">
+            <value>8 -- 24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_Goats:option2">
+            <value>&gt;24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:label">
+            <value>Umri wa mnyama - Kondoo (Miezi)</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option0">
+            <value>0 -- 8</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option1">
+            <value>8 -- 24</value>
+          </text>
+          <text id="/data/Livestock_system_/Animal_age_sheep:option2">
+            <value>&gt;24</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:label">
+            <value>Usimamizi wa wanyama</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option0">
+            <value>Wanachungwa</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option1">
+            <value>Wanafugwa na kula hapo hapo</value>
+          </text>
+          <text id="/data/Livestock_system_/animal_management_in_herd:option2">
+            <value>wanafugwa na kuchungwa</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:label">
+            <value>Wingi wa mifugo</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option0">
+            <value>Kidogo</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option1">
+            <value>Saiz ya kati</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_size:option2">
+            <value>Kubwa</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:label">
+            <value>Eneo la mifugo</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:hint">
+            <value></value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option0">
+            <value>Mjini</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option1">
+            <value>Pembezon mwa mji</value>
+          </text>
+          <text id="/data/Livestock_system_/herd_location:option2">
+            <value>Kijijini</value>
+          </text>
+          <text id="/data/Animal_movement_contact:label">
+            <value>Mizunguko na kukutana kwa wanyama</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:label">
+            <value>Wanyama wako wanatumia malisho sehem moja na makundi mengine?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_other_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:label">
+            <value>Wanyama wako wanatumia malisho pamoja na wanyama pori</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Animal_movement_contact/common_pasture_with_wildlife:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:label">
+            <value>Wanyama wako wanatumia chanzo cha maji na makundi mengine?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Animal_movement_contact/source_of_water_with_other_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:label">
+            <value>Wanyama wako wanachangia dume na makundi mengine?</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Animal_movement_contact/sharing_bulls_with_other_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:label">
+            <value>Njia za kuongeza wanyama katika kundi</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:option0">
+            <value>Kuingiza</value>
+          </text>
+          <text id="/data/Animal_movement_contact/restocking_in_herd:option1">
+            <value>Toka Sokoni / Mnada</value>
+          </text>
+          <text id="/data/Reproduction_Production_management:label">
+            <value>Uzazi na usimamizi wa uzalishaji</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:label">
+            <value>Njia za kuzaliana mifugo</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:option0">
+            <value>Njia ya kawaida</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/breeding_method:option1">
+            <value>Kwa kupandikiza</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:label">
+            <value>Je unasaidia mifugo wakati wa kujifungua?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:label">
+            <value>Ni njia zipi za kujikinga</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:hint">
+            <value>Kama ndio katika swali hapo juu</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option0">
+            <value>Gloves</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option1">
+            <value>Gauni</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option2">
+            <value>Apron</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option3">
+            <value>Sleeve</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Protective_mesures:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:label">
+            <value>Utupaji Mimba / Utokaji wa kiumbe</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/abortion_in_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:label">
+            <value>Kwa aina gani ya mnyama</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:hint">
+            <value>Kama ndio katika swali hapo juu</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/Abortion_in_species:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/what_stage_of_pregnancy_cattle:label">
+            <value>Katika umri gani wa ujauzito? (NG'OMBE)</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/what_stage_of_pregnancy_goats:label">
+            <value>Katika umri gani wa ujauzito (MBUZI)</value>
+          </text>
+          <text id="/data/Reproduction_Production_management/suspicon_cause:label">
+            <value>Unahisi, nini ilikua kisababishi?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_:label">
+            <value>Uzazi na usimamizi wa uzalishaji</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:label">
+            <value>Je, Kondo lilibaki baada ya utupaji mimba?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_with_abortion:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:label">
+            <value>Is the placenta retention with normal calving occuring in herd?</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:label">
+            <value>Njia za uhifadhi wa kondo, na ndama waliokufa</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option0">
+            <value>Ndoano</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option1">
+            <value>Kuzika shimoni</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option2">
+            <value>Kulisha mbwa</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option3">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:label">
+            <value>Utoaji wa maziwa kwa siku</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option0">
+            <value>Hadi lita 10</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option1">
+            <value>10 hadi lita 20</value>
+          </text>
+          <text id="/data/Reproduction_Production_management_/Milk_production:option2">
+            <value>Zaidi ya lita 20</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge:label">
+            <value>Elimu kuhusu ugonjwa wa kutupa mimba</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/Brucellosis_local_name:label">
+            <value>Ugonjwa wa utupaji mimba unaitwaje katika jamii yenu?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:label">
+            <value>Je, unauwezo wa kuutambua ugonjwa wa kutupa mimba?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/recognizing_brucellosis:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_Female:label">
+            <value>Dalili zipi zinaonekana kwa majike?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_Female:hint">
+            <value>Kama ndio katika swali hapo juu</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_male:label">
+            <value>Dalili zipi zinaonekana kwa madume?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/symptoms_male:hint">
+            <value>Kama ndio katika swali hapo juu</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:label">
+            <value>Je, Ugonjwa wa utupaji mimba unaweza ambukizwa kwa binadamu?</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Brucellosis_Knowledge/brucel_transmision_to_human:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures:label">
+            <value>Njia za kuzuia na kudhibiti</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:label">
+            <value>Je, hua unatoa taarifa za magonjwa kwa madaktari wa wanyama?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_disease_cases_to_VS:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:label">
+            <value>Je, Hua unatoa taarifa za utupaji wa mimba kwa wanyama wa ndani kwa madaktari wa mifugo?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/report_abortion_domestic_toVS:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:label">
+            <value>Je, Uchukuaji wa sampuli na kazi za maabara hufanywa na mabwana mifugo?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:hint">
+            <value>Kama ilijibiwa ndio katika swali lililopita</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:label">
+            <value>Je mrejesho na uchunguzi wa kitalaamu hufanyika?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures/feedback_and_investigation:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_:label">
+            <value>Njia za kuzuia na kudhibiti</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:label">
+            <value>Je, programu za utoaji chanjo hufanyika kwa mifugo?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccination_in_herd:option1">
+            <value>Hapan</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_which_disease:label">
+            <value>Kama ndio, kwa ugonjwa gani?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:label">
+            <value>Je, Chanjo ya ugonjwa wa kutupa mimba hua inafanika kwa wanyama?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:label">
+            <value>Kama ndio, nani hua anatekeleza zoezi la chanjo?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:option0">
+            <value>Serikali / Utumishi wa umma</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Vaccine_implementor:option1">
+            <value>Watu binafsi</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:label">
+            <value>Je, Ni nani hua anatoa huduma za matibabu kwa wanyama?</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:option0">
+            <value>Wafanyakazi wa umma</value>
+          </text>
+          <text id="/data/Prevention_Control_measures_/Veterinary_services:option1">
+            <value>watu binafsi</value>
+          </text>
+          <text id="/data/Final_details:label">
+            <value>Maelezo ya mwisho</value>
+          </text>
+          <text id="/data/Final_details/Name_of_interviewer:label">
+            <value>jina la mkusanya dodoso</value>
+          </text>
+          <text id="/data/Final_details/gps_location:label">
+            <value>Mahali (GPS)</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/InitialDetails/District" type="select1" required="true()"/>
+      <bind nodeset="/data/InitialDetails/Village" type="string" required="true()"/>
+      <bind nodeset="/data/InitialDetails/Code_nember" type="int" required="true()"/>
+      <bind nodeset="/data/InitialDetails/Age" type="int"/>
+      <bind nodeset="/data/InitialDetails/Sex" type="select1" required="true()"/>
+      <bind nodeset="/data/InitialDetails/Marital_status" type="select1" required="true()"/>
+      <bind nodeset="/data/InitialDetails/Resposnible_herd" type="string"/>
+      <bind nodeset="/data/Livestock_system/Species_in_herd" type="select" required="true()"/>
+      <bind nodeset="/data/Livestock_system/races_in_herd_Cattle" type="select"/>
+      <bind nodeset="/data/Livestock_system/races_in_herd_Goats" type="select"/>
+      <bind nodeset="/data/Livestock_system/races_in_herd_Sheep" type="select"/>
+      <bind nodeset="/data/Livestock_system_/Animal_age_cattle" type="select1"/>
+      <bind nodeset="/data/Livestock_system_/Animal_age_Goats" type="select1"/>
+      <bind nodeset="/data/Livestock_system_/Animal_age_sheep" type="select1"/>
+      <bind nodeset="/data/Livestock_system_/animal_management_in_herd" type="select1"/>
+      <bind nodeset="/data/Livestock_system_/herd_size" type="select1"/>
+      <bind nodeset="/data/Livestock_system_/herd_location" type="select1"/>
+      <bind nodeset="/data/Animal_movement_contact/common_pasture_with_other_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Animal_movement_contact/common_pasture_with_wildlife" type="select1" required="true()"/>
+      <bind nodeset="/data/Animal_movement_contact/source_of_water_with_other_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Animal_movement_contact/sharing_bulls_with_other_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Animal_movement_contact/restocking_in_herd" type="select1"/>
+      <bind nodeset="/data/Reproduction_Production_management/breeding_method" type="select1" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management/Assisting_animals_in_parturitions" type="select1" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management/Protective_mesures" type="select" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management/abortion_in_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management/Abortion_in_species" type="select"/>
+      <bind nodeset="/data/Reproduction_Production_management/what_stage_of_pregnancy_cattle" type="string"/>
+      <bind nodeset="/data/Reproduction_Production_management/what_stage_of_pregnancy_goats" type="string"/>
+      <bind nodeset="/data/Reproduction_Production_management/suspicon_cause" type="string"/>
+      <bind nodeset="/data/Reproduction_Production_management_/placenta_retention_with_abortion" type="select1" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves" type="select" required="true()"/>
+      <bind nodeset="/data/Reproduction_Production_management_/Milk_production" type="select1"/>
+      <bind nodeset="/data/Brucellosis_Knowledge/Brucellosis_local_name" type="string"/>
+      <bind nodeset="/data/Brucellosis_Knowledge/recognizing_brucellosis" type="select1" required="true()"/>
+      <bind nodeset="/data/Brucellosis_Knowledge/symptoms_Female" type="string"/>
+      <bind nodeset="/data/Brucellosis_Knowledge/symptoms_male" type="string"/>
+      <bind nodeset="/data/Brucellosis_Knowledge/brucel_transmision_to_human" type="select1" required="true()"/>
+      <bind nodeset="/data/Prevention_Control_measures/report_disease_cases_to_VS" type="select1" required="true()"/>
+      <bind nodeset="/data/Prevention_Control_measures/report_abortion_domestic_toVS" type="select1"/>
+      <bind nodeset="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet" type="select1"/>
+      <bind nodeset="/data/Prevention_Control_measures/feedback_and_investigation" type="select1" required="true()"/>
+      <bind nodeset="/data/Prevention_Control_measures_/Vaccination_in_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Prevention_Control_measures_/Vaccine_which_disease" type="string"/>
+      <bind nodeset="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd" type="select1" required="true()"/>
+      <bind nodeset="/data/Prevention_Control_measures_/Vaccine_implementor" type="select"/>
+      <bind nodeset="/data/Prevention_Control_measures_/Veterinary_services" type="select"/>
+      <bind nodeset="/data/Final_details/Name_of_interviewer" type="string" required="true()"/>
+      <bind nodeset="/data/Final_details/gps_location" type="geopoint"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('AnimBrucellosis',': ',/data/InitialDetails/Code_nember)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/InitialDetails:label')"/>
+      <select1 appearance="minimal" ref="/data/InitialDetails/District">
+        <label ref="jr:itext('/data/InitialDetails/District:label')"/>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/District:option0')"/>
+          <value>Karagwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/District:option1')"/>
+          <value>Ngara</value>
+        </item>
+      </select1>
+      <input ref="/data/InitialDetails/Village">
+        <label ref="jr:itext('/data/InitialDetails/Village:label')"/>
+      </input>
+      <input ref="/data/InitialDetails/Code_nember">
+        <label ref="jr:itext('/data/InitialDetails/Code_nember:label')"/>
+        <hint ref="jr:itext('/data/InitialDetails/Code_nember:hint')"/>
+      </input>
+      <input ref="/data/InitialDetails/Age">
+        <label ref="jr:itext('/data/InitialDetails/Age:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/InitialDetails/Sex">
+        <label ref="jr:itext('/data/InitialDetails/Sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/InitialDetails/Marital_status">
+        <label ref="jr:itext('/data/InitialDetails/Marital_status:label')"/>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Marital_status:option0')"/>
+          <value>Single</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Marital_status:option1')"/>
+          <value>Married</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Marital_status:option2')"/>
+          <value>Divorced</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/InitialDetails/Marital_status:option3')"/>
+          <value>Widowed</value>
+        </item>
+      </select1>
+      <input ref="/data/InitialDetails/Resposnible_herd">
+        <label ref="jr:itext('/data/InitialDetails/Resposnible_herd:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Livestock_system:label')"/>
+      <select appearance="minimal" ref="/data/Livestock_system/Species_in_herd">
+        <label ref="jr:itext('/data/Livestock_system/Species_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/Species_in_herd:option0')"/>
+          <value>Cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/Species_in_herd:option1')"/>
+          <value>small_ruminants</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/Species_in_herd:option2')"/>
+          <value>Others</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/Livestock_system/races_in_herd_Cattle">
+        <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:option0')"/>
+          <value>Ankole</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:option1')"/>
+          <value>cross_breed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:option2')"/>
+          <value>Friesian</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:option3')"/>
+          <value>Sahiwal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Cattle:option4')"/>
+          <value>Jersey</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/Livestock_system/races_in_herd_Goats">
+        <label ref="jr:itext('/data/Livestock_system/races_in_herd_Goats:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Goats:option0')"/>
+          <value>Local</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Goats:option1')"/>
+          <value>Boer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Goats:option2')"/>
+          <value>Mixed</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/Livestock_system/races_in_herd_Sheep">
+        <label ref="jr:itext('/data/Livestock_system/races_in_herd_Sheep:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Sheep:option0')"/>
+          <value>Local</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system/races_in_herd_Sheep:option1')"/>
+          <value>Mixed</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Livestock_system_:label')"/>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/Animal_age_cattle">
+        <label ref="jr:itext('/data/Livestock_system_/Animal_age_cattle:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_cattle:option0')"/>
+          <value>0_12</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_cattle:option1')"/>
+          <value>12_36</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_cattle:option2')"/>
+          <value>More_than_36</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/Animal_age_Goats">
+        <label ref="jr:itext('/data/Livestock_system_/Animal_age_Goats:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_Goats:option0')"/>
+          <value>0_8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_Goats:option1')"/>
+          <value>8_24</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_Goats:option2')"/>
+          <value>More_than_24</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/Animal_age_sheep">
+        <label ref="jr:itext('/data/Livestock_system_/Animal_age_sheep:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_sheep:option0')"/>
+          <value>0_8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_sheep:option1')"/>
+          <value>8_24</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/Animal_age_sheep:option2')"/>
+          <value>more_than_24</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/animal_management_in_herd">
+        <label ref="jr:itext('/data/Livestock_system_/animal_management_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/animal_management_in_herd:option0')"/>
+          <value>Pastoralism</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/animal_management_in_herd:option1')"/>
+          <value>Zero_grazing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/animal_management_in_herd:option2')"/>
+          <value>mixed</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/herd_size">
+        <label ref="jr:itext('/data/Livestock_system_/herd_size:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_size:option0')"/>
+          <value>Small</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_size:option1')"/>
+          <value>Medium</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_size:option2')"/>
+          <value>Large</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Livestock_system_/herd_location">
+        <label ref="jr:itext('/data/Livestock_system_/herd_location:label')"/>
+        <hint ref="jr:itext('/data/Livestock_system_/herd_location:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_location:option0')"/>
+          <value>Urban</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_location:option1')"/>
+          <value>peri_urban</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Livestock_system_/herd_location:option2')"/>
+          <value>Rural</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Animal_movement_contact:label')"/>
+      <select1 appearance="minimal" ref="/data/Animal_movement_contact/common_pasture_with_other_herd">
+        <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_other_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_other_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_other_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Animal_movement_contact/common_pasture_with_wildlife">
+        <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_wildlife:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_wildlife:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/common_pasture_with_wildlife:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Animal_movement_contact/source_of_water_with_other_herd">
+        <label ref="jr:itext('/data/Animal_movement_contact/source_of_water_with_other_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/source_of_water_with_other_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/source_of_water_with_other_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Animal_movement_contact/sharing_bulls_with_other_herd">
+        <label ref="jr:itext('/data/Animal_movement_contact/sharing_bulls_with_other_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/sharing_bulls_with_other_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/sharing_bulls_with_other_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Animal_movement_contact/restocking_in_herd">
+        <label ref="jr:itext('/data/Animal_movement_contact/restocking_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/restocking_in_herd:option0')"/>
+          <value>Importation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Animal_movement_contact/restocking_in_herd:option1')"/>
+          <value>Market</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Reproduction_Production_management:label')"/>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management/breeding_method">
+        <label ref="jr:itext('/data/Reproduction_Production_management/breeding_method:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/breeding_method:option0')"/>
+          <value>Natural_service</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/breeding_method:option1')"/>
+          <value>Artificial_insemination</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management/Assisting_animals_in_parturitions">
+        <label ref="jr:itext('/data/Reproduction_Production_management/Assisting_animals_in_parturitions:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Assisting_animals_in_parturitions:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/data/Reproduction_Production_management/Protective_mesures">
+        <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:label')"/>
+        <hint ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:option0')"/>
+          <value>Gloves</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:option1')"/>
+          <value>Gown</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:option2')"/>
+          <value>Apron</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:option3')"/>
+          <value>Sleeve</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Protective_mesures:option4')"/>
+          <value>Others</value>
+        </item>
+      </select>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management/abortion_in_herd">
+        <label ref="jr:itext('/data/Reproduction_Production_management/abortion_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/abortion_in_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/abortion_in_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/data/Reproduction_Production_management/Abortion_in_species">
+        <label ref="jr:itext('/data/Reproduction_Production_management/Abortion_in_species:label')"/>
+        <hint ref="jr:itext('/data/Reproduction_Production_management/Abortion_in_species:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Abortion_in_species:option0')"/>
+          <value>Cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management/Abortion_in_species:option1')"/>
+          <value>Goats</value>
+        </item>
+      </select>
+      <input ref="/data/Reproduction_Production_management/what_stage_of_pregnancy_cattle">
+        <label ref="jr:itext('/data/Reproduction_Production_management/what_stage_of_pregnancy_cattle:label')"/>
+      </input>
+      <input ref="/data/Reproduction_Production_management/what_stage_of_pregnancy_goats">
+        <label ref="jr:itext('/data/Reproduction_Production_management/what_stage_of_pregnancy_goats:label')"/>
+      </input>
+      <input ref="/data/Reproduction_Production_management/suspicon_cause">
+        <label ref="jr:itext('/data/Reproduction_Production_management/suspicon_cause:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Reproduction_Production_management_:label')"/>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management_/placenta_retention_with_abortion">
+        <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_with_abortion:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_with_abortion:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_with_abortion:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd">
+        <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/placenta_retention_normal_calving_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves">
+        <label ref="jr:itext('/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option0')"/>
+          <value>Hook</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option1')"/>
+          <value>burying_in_pit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option2')"/>
+          <value>Feeding_dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/dispsition_placenta_fetus_calves:option3')"/>
+          <value>Others</value>
+        </item>
+      </select>
+      <select1 appearance="minimal" ref="/data/Reproduction_Production_management_/Milk_production">
+        <label ref="jr:itext('/data/Reproduction_Production_management_/Milk_production:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/Milk_production:option0')"/>
+          <value>up_to_10lt</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/Milk_production:option1')"/>
+          <value>10_to_20lts</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Reproduction_Production_management_/Milk_production:option2')"/>
+          <value>more_than_20lts</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Brucellosis_Knowledge:label')"/>
+      <input ref="/data/Brucellosis_Knowledge/Brucellosis_local_name">
+        <label ref="jr:itext('/data/Brucellosis_Knowledge/Brucellosis_local_name:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/Brucellosis_Knowledge/recognizing_brucellosis">
+        <label ref="jr:itext('/data/Brucellosis_Knowledge/recognizing_brucellosis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Brucellosis_Knowledge/recognizing_brucellosis:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Brucellosis_Knowledge/recognizing_brucellosis:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/Brucellosis_Knowledge/symptoms_Female">
+        <label ref="jr:itext('/data/Brucellosis_Knowledge/symptoms_Female:label')"/>
+        <hint ref="jr:itext('/data/Brucellosis_Knowledge/symptoms_Female:hint')"/>
+      </input>
+      <input ref="/data/Brucellosis_Knowledge/symptoms_male">
+        <label ref="jr:itext('/data/Brucellosis_Knowledge/symptoms_male:label')"/>
+        <hint ref="jr:itext('/data/Brucellosis_Knowledge/symptoms_male:hint')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/Brucellosis_Knowledge/brucel_transmision_to_human">
+        <label ref="jr:itext('/data/Brucellosis_Knowledge/brucel_transmision_to_human:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Brucellosis_Knowledge/brucel_transmision_to_human:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Brucellosis_Knowledge/brucel_transmision_to_human:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Prevention_Control_measures:label')"/>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures/report_disease_cases_to_VS">
+        <label ref="jr:itext('/data/Prevention_Control_measures/report_disease_cases_to_VS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/report_disease_cases_to_VS:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/report_disease_cases_to_VS:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures/report_abortion_domestic_toVS">
+        <label ref="jr:itext('/data/Prevention_Control_measures/report_abortion_domestic_toVS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/report_abortion_domestic_toVS:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/report_abortion_domestic_toVS:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet">
+        <label ref="jr:itext('/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:label')"/>
+        <hint ref="jr:itext('/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/Sampling_lab_analysis_by_vet:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures/feedback_and_investigation">
+        <label ref="jr:itext('/data/Prevention_Control_measures/feedback_and_investigation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/feedback_and_investigation:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures/feedback_and_investigation:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Prevention_Control_measures_:label')"/>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures_/Vaccination_in_herd">
+        <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccination_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccination_in_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccination_in_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/Prevention_Control_measures_/Vaccine_which_disease">
+        <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccine_which_disease:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd">
+        <label ref="jr:itext('/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Bruce_Vaccination_in_herd:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/data/Prevention_Control_measures_/Vaccine_implementor">
+        <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccine_implementor:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccine_implementor:option0')"/>
+          <value>public_service</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Vaccine_implementor:option1')"/>
+          <value>private_services</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/Prevention_Control_measures_/Veterinary_services">
+        <label ref="jr:itext('/data/Prevention_Control_measures_/Veterinary_services:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Veterinary_services:option0')"/>
+          <value>public_service</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Prevention_Control_measures_/Veterinary_services:option1')"/>
+          <value>private_service</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Final_details:label')"/>
+      <input ref="/data/Final_details/Name_of_interviewer">
+        <label ref="jr:itext('/data/Final_details/Name_of_interviewer:label')"/>
+      </input>
+      <input ref="/data/Final_details/gps_location">
+        <label ref="jr:itext('/data/Final_details/gps_location:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

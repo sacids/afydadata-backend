@@ -1,0 +1,332 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mikumi Invasive Exotic Species</h:title>
+    <model>
+      <instance>
+        <data id="build_Mikumi-Invasive-Exotic-Species_1518775457">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <exotic_specie/>
+            <area/>
+            <extent_unit/>
+            <extent_count/>
+            <specie/>
+          </general>
+          <citing>
+            <gps/>
+            <picture/>
+            <comments/>
+          </citing>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>Invasive Species</value>
+          </text>
+          <text id="/data/general/exotic_specie:label">
+            <value>Name of Exotic Species</value>
+          </text>
+          <text id="/data/general/exotic_specie:option0">
+            <value>Senna Siamea</value>
+          </text>
+          <text id="/data/general/exotic_specie:option1">
+            <value>Water Lettuce</value>
+          </text>
+          <text id="/data/general/exotic_specie:option2">
+            <value>Water Lilies</value>
+          </text>
+          <text id="/data/general/exotic_specie:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/general/exotic_specie:option4">
+            <value>Cat</value>
+          </text>
+          <text id="/data/general/exotic_specie:option5">
+            <value>Cow</value>
+          </text>
+          <text id="/data/general/exotic_specie:option6">
+            <value>Goat</value>
+          </text>
+          <text id="/data/general/exotic_specie:option7">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/general/exotic_specie:option8">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/general/area:label">
+            <value>Place of Observation</value>
+          </text>
+          <text id="/data/general/extent_unit:label">
+            <value>Unit of Extent</value>
+          </text>
+          <text id="/data/general/extent_unit:option0">
+            <value>Square Meters</value>
+          </text>
+          <text id="/data/general/extent_unit:option1">
+            <value>Square Kilometers</value>
+          </text>
+          <text id="/data/general/extent_unit:option2">
+            <value>Number of plants</value>
+          </text>
+          <text id="/data/general/extent_count:label">
+            <value>Extent count</value>
+          </text>
+          <text id="/data/general/specie:label">
+            <value>Animals Present </value>
+          </text>
+          <text id="/data/general/specie:hint">
+            <value>Type of animals present near the exotic plant</value>
+          </text>
+          <text id="/data/general/specie:option0">
+            <value>Zebra</value>
+          </text>
+          <text id="/data/general/specie:option1">
+            <value>Elephant</value>
+          </text>
+          <text id="/data/general/specie:option2">
+            <value>Buffalo</value>
+          </text>
+          <text id="/data/general/specie:option3">
+            <value>Giraffe</value>
+          </text>
+          <text id="/data/general/specie:option4">
+            <value>Impala</value>
+          </text>
+          <text id="/data/general/specie:option5">
+            <value>Lion</value>
+          </text>
+          <text id="/data/general/specie:option6">
+            <value>Wildebeast</value>
+          </text>
+          <text id="/data/general/specie:option7">
+            <value>Hyaena</value>
+          </text>
+          <text id="/data/general/specie:option8">
+            <value>Crocodile</value>
+          </text>
+          <text id="/data/general/specie:option9">
+            <value>Hippo</value>
+          </text>
+          <text id="/data/general/specie:option10">
+            <value>Warthog</value>
+          </text>
+          <text id="/data/general/specie:option11">
+            <value>Waterbuck</value>
+          </text>
+          <text id="/data/general/specie:option12">
+            <value>Bushbuck</value>
+          </text>
+          <text id="/data/general/specie:option13">
+            <value>Antelope</value>
+          </text>
+          <text id="/data/general/specie:option14">
+            <value>Eland</value>
+          </text>
+          <text id="/data/general/specie:option15">
+            <value>Reedbuck</value>
+          </text>
+          <text id="/data/general/specie:option16">
+            <value>Wild dog</value>
+          </text>
+          <text id="/data/general/specie:option17">
+            <value>Leopard</value>
+          </text>
+          <text id="/data/general/specie:option18">
+            <value>Baboon</value>
+          </text>
+          <text id="/data/citing:label">
+            <value></value>
+          </text>
+          <text id="/data/citing/gps:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/citing/picture:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/citing/comments:label">
+            <value>Other Comments</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/specie" type="select1"/>
+      <bind nodeset="/data/general/area" type="string" required="true()"/>
+      <bind nodeset="/data/general/extent_unit" type="select1"/>
+      <bind nodeset="/data/general/extent_count" type="int" required="true()"/>
+      <bind nodeset="/data/general/specie" type="select"/>
+      <bind nodeset="/data/citing/gps" type="geopoint" required="true()"/>
+      <bind nodeset="/data/citing/picture" type="binary" required="true()"/>
+      <bind nodeset="/data/citing/comments" type="string"/>
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Specie ',': ',/data/general/specie)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <select appearance="minimal" ref="/data/general/exotic_specie">
+        <label ref="jr:itext('/data/general/exotic_specie:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option0')"/>
+          <value>senna_siamea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option1')"/>
+          <value>water_lettuce</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option2')"/>
+          <value>water_lilies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option3')"/>
+          <value>Dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option4')"/>
+          <value>Cat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option5')"/>
+          <value>Cow</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option6')"/>
+          <value>Goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option7')"/>
+          <value>Sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/exotic_specie:option8')"/>
+          <value>Chicken</value>
+        </item>
+      </select>
+      <input ref="/data/general/area">
+        <label ref="jr:itext('/data/general/area:label')"/>
+      </input>
+      <select1 ref="/data/general/extent_unit">
+        <label ref="jr:itext('/data/general/extent_unit:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/extent_unit:option0')"/>
+          <value>sqm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/extent_unit:option1')"/>
+          <value>sqkm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/extent_unit:option2')"/>
+          <value>count</value>
+        </item>
+      </select1>
+      <input ref="/data/general/extent_count">
+        <label ref="jr:itext('/data/general/extent_count:label')"/>
+      </input>
+      <select appearance="minimal" ref="/data/general/specie">
+        <label ref="jr:itext('/data/general/specie:label')"/>
+        <hint ref="jr:itext('/data/general/specie:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option0')"/>
+          <value>zebra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option1')"/>
+          <value>elephant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option2')"/>
+          <value>bufalo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option3')"/>
+          <value>giraffe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option4')"/>
+          <value>impala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option5')"/>
+          <value>lion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option6')"/>
+          <value>wildebeast</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option7')"/>
+          <value>Hyaena</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option8')"/>
+          <value>crocodile</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option9')"/>
+          <value>hippo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option10')"/>
+          <value>warthog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option11')"/>
+          <value>waterbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option12')"/>
+          <value>bushbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option13')"/>
+          <value>antelope</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option14')"/>
+          <value>eland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option15')"/>
+          <value>reedbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option16')"/>
+          <value>wild_dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option17')"/>
+          <value>leopard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option18')"/>
+          <value>baboon</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/citing:label')"/>
+      <input ref="/data/citing/gps">
+        <label ref="jr:itext('/data/citing/gps:label')"/>
+      </input>
+      <upload ref="/data/citing/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/citing/picture:label')"/>
+      </upload>
+      <input ref="/data/citing/comments">
+        <label ref="jr:itext('/data/citing/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

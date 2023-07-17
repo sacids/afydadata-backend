@@ -1,0 +1,924 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Meat Inspector Obj One</h:title>
+    <model>
+      <instance>
+        <data id="build_Meat-Inspector-Obj-One_1576738761">
+          <meta>
+            <instanceID/>
+          </meta>
+          <resp_particular>
+            <name/>
+            <sex/>
+            <telNo/>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+            <date/>
+          </resp_particular>
+          <ed_level/>
+          <ed_level_other/>
+          <yrs_in_proffes/>
+          <know_taenea_solium/>
+          <T_solium_descriptio>
+            <T_solium_defin/>
+            <how_mny_hosts/>
+            <mentioned_hosts/>
+          </T_solium_descriptio>
+          <T_solium_cyst/>
+          <T_solium_cyst_desc>
+            <T_solium_cyst_defn/>
+            <true_contri_TS_cyst_life_cycle/>
+            <risk_factors_account_TS_adult_larval_stage/>
+            <ways_pig_get_infe_Tsol/>
+            <ways_human_get_inf_TSol_cyst/>
+          </T_solium_cyst_desc>
+          <meat_insp_course/>
+          <how_log_attend_course_months>
+            0
+          </how_log_attend_course_months>
+          <know_organ_concentrate/>
+          <organ_list/>
+          <meat_insp_explaination/>
+          <cases_T.solium_month>
+            0
+          </cases_T.solium_month>
+          <do_with_inf_pig/>
+          <do_with_inf_pig_other_action>
+            <action1/>
+            <action2/>
+          </do_with_inf_pig_other_action>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/resp_particular:label">
+            <value>Respondent Particular</value>
+          </text>
+          <text id="/data/resp_particular/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/resp_particular/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/resp_particular/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/resp_particular/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/resp_particular/telNo:label">
+            <value>Telephone Number</value>
+          </text>
+          <text id="/data/resp_particular/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/resp_particular/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/resp_particular/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/resp_particular/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/resp_particular/date:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/ed_level:label">
+            <value>1. What is your highest level of education?</value>
+          </text>
+          <text id="/data/ed_level:option0">
+            <value>Certificate in General Agriculture </value>
+          </text>
+          <text id="/data/ed_level:option1">
+            <value>Diploma in General Agriculture</value>
+          </text>
+          <text id="/data/ed_level:option2">
+            <value>Certificate in Animal Production </value>
+          </text>
+          <text id="/data/ed_level:option3">
+            <value>Certificate in Range and Pasture Management</value>
+          </text>
+          <text id="/data/ed_level:option4">
+            <value>Diploma in Animal Production</value>
+          </text>
+          <text id="/data/ed_level:option5">
+            <value>Certificate in Animal Health</value>
+          </text>
+          <text id="/data/ed_level:option6">
+            <value>Certificate in Animal Health and Production</value>
+          </text>
+          <text id="/data/ed_level:option7">
+            <value>Diploma in Animal Health </value>
+          </text>
+          <text id="/data/ed_level:option8">
+            <value>Diploma in Animal Health and Production </value>
+          </text>
+          <text id="/data/ed_level:option9">
+            <value>Other course / level</value>
+          </text>
+          <text id="/data/ed_level_other:label">
+            <value>Other education levels</value>
+          </text>
+          <text id="/data/yrs_in_proffes:label">
+            <value>2. How many years have passed since you graduated in your professional education?</value>
+          </text>
+          <text id="/data/know_taenea_solium:label">
+            <value>3. Do you know a worm called Taenea solium</value>
+          </text>
+          <text id="/data/know_taenea_solium:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/know_taenea_solium:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/T_solium_descriptio:label">
+            <value>Taenea Solium description</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:label">
+            <value>4. T.solium tapeworm is</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:hint">
+            <value>you are provided with a list of answers that describe T.solium tapeworm. Select the answers that you think they best describe the parasite </value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option0">
+            <value>thread like round worm residing in the stomach of pig</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option1">
+            <value>a 4 metres long or more tapeworm</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option2">
+            <value>a pigmented tapeworm with scolex (head)</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option3">
+            <value>a 3 to 4 millimetres long flatworm</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option4">
+            <value>made up of four suckers each consisting of double rows of hooks with which               it attaches itself on the walls of the intestine</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option5">
+            <value>residing in the liver of human, carrying eggs in it</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option6">
+            <value>has proglottids which contain eggs</value>
+          </text>
+          <text id="/data/T_solium_descriptio/T_solium_defin:option7">
+            <value>causing cyst in various organs of pigs, goats and sheep</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:label">
+            <value>5. How many hosts does the worm have?</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:option0">
+            <value>One</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:option1">
+            <value>Two</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:option2">
+            <value>Three</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:option3">
+            <value>Four</value>
+          </text>
+          <text id="/data/T_solium_descriptio/how_mny_hosts:option4">
+            <value>Five</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:label">
+            <value>6. The mentioned host(s) in question five is (are</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:hint">
+            <value>Considering the choice you made in question ‘five’ above, choose from the list provided in question ‘six’, the host(s) that facilitate the life circle of the parasit</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option0">
+            <value>Dog</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option2">
+            <value>Cat</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option3">
+            <value>Human</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option4">
+            <value>Pig</value>
+          </text>
+          <text id="/data/T_solium_descriptio/mentioned_hosts:option5">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/T_solium_cyst:label">
+            <value>7. Do you know T. solium cyst? </value>
+          </text>
+          <text id="/data/T_solium_cyst:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/T_solium_cyst:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc:label">
+            <value>T. Solium Cyst description</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:label">
+            <value>8. T.solium cyst is</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:hint">
+            <value>you are provided with a list of statements that describe T.solium cyst, you are required to choose statements that best describe the parasite </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option0">
+            <value>a fluid filled sac </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option1">
+            <value>0.5 to 2cm in diameter </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option2">
+            <value>a white – greyish coloured sac</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option3">
+            <value>a blood filled sac-like membrane</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option4">
+            <value>about 2 to 10 mm water filled sac</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option5">
+            <value>resides in the brain </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option6">
+            <value>resides in many tissues and organs including brain</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/T_solium_cyst_defn:option7">
+            <value>a pus filled sac in the tissues of an infected man and pigs   </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:label">
+            <value>9. Which of the following statements is true about T.solium cyst contribution into the life cycle of the tapewarm?</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:hint">
+            <value>requires you to read the statements provided and circle the number of the statement which is relevant to the question asked </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option0">
+            <value>is a larval stage of the tapeworm ingested by human through improperly cooked infected pork in which it develops into an adult T.solium  tapeworm.</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option1">
+            <value>Contains eggs which develop into an adult  T.solium tapeworm </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option2">
+            <value>Are ingested by scavenging dogs and cats in which they develope into adult tapeworm</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:label">
+            <value>10. Choose the risk factors which account for T.solium adult and larval stages           of the parasite infection and life circle maintenance </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option0">
+            <value>Improper handling of cysticerci infected pork</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option1">
+            <value>Unhygienic preparation of food</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option2">
+            <value>Keeping dogs and pigs together</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option3">
+            <value>Improper use of latrines</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option4">
+            <value>Feeding dogs with cysticerci infected pork</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option5">
+            <value>Drinking  of unsafe water which may be contaminated by eggs of T.solium</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option6">
+            <value>Eating of bush meat</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option7">
+            <value>Stigmatization of epileptic patient</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option8">
+            <value>Negligence to treatment of the infected patient   </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:label">
+            <value>11. A pig gets infected by T.solium cysticercosis by</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option0">
+            <value>Scavenging on human faeces and drinking on water contaminated by T.solium eggs </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option1">
+            <value>Eating T.solium cysticerci infected pork </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option2">
+            <value>I dont know</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:label">
+            <value>12. Choose from the list provided below the way(s) by which human being gets T.solium   cysticercosis </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option0">
+            <value>Ingestion of T.solium cyst infected pork </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option1">
+            <value>Ingestion of food infected by T.solium eggs</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option2">
+            <value>Drinking of water contaminated by T.solium eggs </value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option3">
+            <value>Getting bitten by infective tick and mosquito</value>
+          </text>
+          <text id="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option4">
+            <value>I dont know</value>
+          </text>
+          <text id="/data/meat_insp_course:label">
+            <value>13. Have you ever attended any refresher t course training on meat inspection?</value>
+          </text>
+          <text id="/data/meat_insp_course:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/meat_insp_course:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_log_attend_course_months:label">
+            <value>14. How long has it passed since you attended the  course</value>
+          </text>
+          <text id="/data/how_log_attend_course_months:hint">
+            <value>Months</value>
+          </text>
+          <text id="/data/know_organ_concentrate:label">
+            <value>15. Do you know the organ/areas to concentrate the most if you want to locate Cysticercus  cellulosae in a pig carcass? </value>
+          </text>
+          <text id="/data/know_organ_concentrate:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/know_organ_concentrate:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/organ_list:label">
+            <value>16. Choose from the list below the most common muscles/organs targeted for Cysticercus    cellulosae (cysticerci)diagnosis during meat inspection</value>
+          </text>
+          <text id="/data/organ_list:option0">
+            <value>Tongue</value>
+          </text>
+          <text id="/data/organ_list:option1">
+            <value>Heart muscles</value>
+          </text>
+          <text id="/data/organ_list:option2">
+            <value>Rib muscles</value>
+          </text>
+          <text id="/data/organ_list:option3">
+            <value>Psoas major and minor and </value>
+          </text>
+          <text id="/data/organ_list:option4">
+            <value>Masseter muscles</value>
+          </text>
+          <text id="/data/organ_list:option5">
+            <value>Neck</value>
+          </text>
+          <text id="/data/organ_list:option6">
+            <value>Legs</value>
+          </text>
+          <text id="/data/organ_list:option7">
+            <value>Abdominal muscles </value>
+          </text>
+          <text id="/data/organ_list:option8">
+            <value>Liver</value>
+          </text>
+          <text id="/data/organ_list:option9">
+            <value>Bladder ,intestines and stomach    </value>
+          </text>
+          <text id="/data/meat_insp_explaination:label">
+            <value>17. Explain briefly how you go about doing meat inspection in pigs</value>
+          </text>
+          <text id="/data/cases_T.solium_month:label">
+            <value>18. On average, how many cases of T.solium cysticercosis do you diagnose in a month?</value>
+          </text>
+          <text id="/data/do_with_inf_pig:label">
+            <value>19. What do you do with a T.solium cysticerci infected pork carcass? </value>
+          </text>
+          <text id="/data/do_with_inf_pig:hint">
+            <value>choose the most correct answer from the list given and circle the number of  the right answer </value>
+          </text>
+          <text id="/data/do_with_inf_pig:option0">
+            <value>Burry the carcass</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option1">
+            <value>I demand them to burry or burn only portion of the affected carcass</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option2">
+            <value>Burn the carcass</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option3">
+            <value>Allow the carcass to be eaten under condition that it should be thoroughly cooked</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option4">
+            <value>If carcass owner keeps dogs I allow him to take and feed the carcass to dogs</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option5">
+            <value>Because pork owners are always very arrogant I allow them to take the carcass but I advice them not to sale it in their butchers </value>
+          </text>
+          <text id="/data/do_with_inf_pig:option6">
+            <value>I usually don’t know  what to do</value>
+          </text>
+          <text id="/data/do_with_inf_pig:option7">
+            <value>Other actions</value>
+          </text>
+          <text id="/data/do_with_inf_pig_other_action:label">
+            <value>Other actions</value>
+          </text>
+          <text id="/data/do_with_inf_pig_other_action/action1:label">
+            <value>Action 1</value>
+          </text>
+          <text id="/data/do_with_inf_pig_other_action/action2:label">
+            <value>Action 2</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/resp_particular/name" type="string"/>
+      <bind nodeset="/data/resp_particular/sex" type="select1"/>
+      <bind nodeset="/data/resp_particular/telNo" type="int"/>
+      <bind nodeset="/data/resp_particular/region" type="string"/>
+      <bind nodeset="/data/resp_particular/district" type="string"/>
+      <bind nodeset="/data/resp_particular/ward" type="string"/>
+      <bind nodeset="/data/resp_particular/village" type="string"/>
+      <bind nodeset="/data/resp_particular/date" type="date"/>
+      <bind nodeset="/data/ed_level" type="select1"/>
+      <bind nodeset="/data/ed_level_other" type="int"/>
+      <bind nodeset="/data/yrs_in_proffes" type="int"/>
+      <bind nodeset="/data/know_taenea_solium" type="select1"/>
+      <bind nodeset="/data/T_solium_descriptio/T_solium_defin" type="select"/>
+      <bind nodeset="/data/T_solium_descriptio/how_mny_hosts" type="select1"/>
+      <bind nodeset="/data/T_solium_descriptio/mentioned_hosts" type="select"/>
+      <bind nodeset="/data/T_solium_cyst" type="select1"/>
+      <bind nodeset="/data/T_solium_cyst_desc/T_solium_cyst_defn" type="select"/>
+      <bind nodeset="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle" type="select1"/>
+      <bind nodeset="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage" type="select"/>
+      <bind nodeset="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol" type="select1"/>
+      <bind nodeset="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst" type="select"/>
+      <bind nodeset="/data/meat_insp_course" type="select1"/>
+      <bind nodeset="/data/how_log_attend_course_months" type="int"/>
+      <bind nodeset="/data/know_organ_concentrate" type="select1"/>
+      <bind nodeset="/data/organ_list" type="select"/>
+      <bind nodeset="/data/meat_insp_explaination" type="string"/>
+      <bind nodeset="/data/cases_T.solium_month" type="int"/>
+      <bind nodeset="/data/do_with_inf_pig" type="select"/>
+      <bind nodeset="/data/do_with_inf_pig_other_action/action1" type="string"/>
+      <bind nodeset="/data/do_with_inf_pig_other_action/action2" type="string"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/resp_particular" appearance="field-list">
+      <label ref="jr:itext('/data/resp_particular:label')"/>
+      <input ref="/data/resp_particular/name">
+        <label ref="jr:itext('/data/resp_particular/name:label')"/>
+      </input>
+      <select1 ref="/data/resp_particular/sex">
+        <label ref="jr:itext('/data/resp_particular/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/resp_particular/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/resp_particular/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/resp_particular/telNo">
+        <label ref="jr:itext('/data/resp_particular/telNo:label')"/>
+      </input>
+      <input ref="/data/resp_particular/region">
+        <label ref="jr:itext('/data/resp_particular/region:label')"/>
+      </input>
+      <input ref="/data/resp_particular/district">
+        <label ref="jr:itext('/data/resp_particular/district:label')"/>
+      </input>
+      <input ref="/data/resp_particular/ward">
+        <label ref="jr:itext('/data/resp_particular/ward:label')"/>
+      </input>
+      <input ref="/data/resp_particular/village">
+        <label ref="jr:itext('/data/resp_particular/village:label')"/>
+      </input>
+      <input ref="/data/resp_particular/date">
+        <label ref="jr:itext('/data/resp_particular/date:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/ed_level">
+      <label ref="jr:itext('/data/ed_level:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option0')"/>
+        <value>cert_general_agric</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option1')"/>
+        <value>dipl_general_agric</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option2')"/>
+        <value>cert_animal_prod</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option3')"/>
+        <value>cert_range_pasture_manag</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option4')"/>
+        <value>dipl_animal_prod</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option5')"/>
+        <value>cert_anim_health</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option6')"/>
+        <value>cert_anim_health_prod</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option7')"/>
+        <value>diploma_animal_health</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option8')"/>
+        <value>diploma_animal_health_prod</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ed_level:option9')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/ed_level_other">
+      <label ref="jr:itext('/data/ed_level_other:label')"/>
+    </input>
+    <input ref="/data/yrs_in_proffes">
+      <label ref="jr:itext('/data/yrs_in_proffes:label')"/>
+    </input>
+    <select1 ref="/data/know_taenea_solium">
+      <label ref="jr:itext('/data/know_taenea_solium:label')"/>
+      <item>
+        <label ref="jr:itext('/data/know_taenea_solium:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/know_taenea_solium:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/data/T_solium_descriptio" appearance="field-list">
+      <label ref="jr:itext('/data/T_solium_descriptio:label')"/>
+      <select ref="/data/T_solium_descriptio/T_solium_defin">
+        <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:label')"/>
+        <hint ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option0')"/>
+          <value>thread_like_worm_pig_stomach</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option1')"/>
+          <value>4_mtr_tape_worm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option2')"/>
+          <value>pigmented_tapeworm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option3')"/>
+          <value>3_4_milm_long_flat_warm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option4')"/>
+          <value>made_sucker</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option5')"/>
+          <value>residin_liver_human</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option6')"/>
+          <value>proglottids</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/T_solium_defin:option7')"/>
+          <value>cause_cyst</value>
+        </item>
+      </select>
+      <select1 ref="/data/T_solium_descriptio/how_mny_hosts">
+        <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:label')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:option0')"/>
+          <value>one</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:option1')"/>
+          <value>two</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:option2')"/>
+          <value>three</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:option3')"/>
+          <value>four</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/how_mny_hosts:option4')"/>
+          <value>five</value>
+        </item>
+      </select1>
+      <select ref="/data/T_solium_descriptio/mentioned_hosts">
+        <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:label')"/>
+        <hint ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option0')"/>
+          <value>dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option1')"/>
+          <value>sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option2')"/>
+          <value>cat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option3')"/>
+          <value>human</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option4')"/>
+          <value>pig</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_descriptio/mentioned_hosts:option5')"/>
+          <value>cattle</value>
+        </item>
+      </select>
+    </group>
+    <select1 ref="/data/T_solium_cyst">
+      <label ref="jr:itext('/data/T_solium_cyst:label')"/>
+      <item>
+        <label ref="jr:itext('/data/T_solium_cyst:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/T_solium_cyst:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/data/T_solium_cyst_desc">
+      <label ref="jr:itext('/data/T_solium_cyst_desc:label')"/>
+      <select ref="/data/T_solium_cyst_desc/T_solium_cyst_defn">
+        <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:label')"/>
+        <hint ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option0')"/>
+          <value>fluid_filled_sac</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option1')"/>
+          <value>0_2cm_diameter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option2')"/>
+          <value>white_greyish_col</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option3')"/>
+          <value>blood_filled_sac</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option4')"/>
+          <value>2_10_mm_water_fill_sac</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option5')"/>
+          <value>resides_brain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option6')"/>
+          <value>resides_many_tissues</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/T_solium_cyst_defn:option7')"/>
+          <value>pus_filled_sac</value>
+        </item>
+      </select>
+      <select1 ref="/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle">
+        <label ref="jr:itext('/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:label')"/>
+        <hint ref="jr:itext('/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option0')"/>
+          <value>larval_satge_tapewarm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option1')"/>
+          <value>eggs_dev_into_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/true_contri_TS_cyst_life_cycle:option2')"/>
+          <value>ingested_cavenging_dogs</value>
+        </item>
+      </select1>
+      <select ref="/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage">
+        <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:label')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option0')"/>
+          <value>impr_hand_cyst</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option1')"/>
+          <value>unhyg_prep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option2')"/>
+          <value>keep_dog_pig_together</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option3')"/>
+          <value>impr_use_latrines</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option4')"/>
+          <value>feed_dog_with_cystice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option5')"/>
+          <value>drink_unsafe_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option6')"/>
+          <value>eat_bush_meat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option7')"/>
+          <value>stigmatization</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/risk_factors_account_TS_adult_larval_stage:option8')"/>
+          <value>negligence</value>
+        </item>
+      </select>
+      <select1 ref="/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol">
+        <label ref="jr:itext('/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:label')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option0')"/>
+          <value>scav_on_human_faeces</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option1')"/>
+          <value>eating_Ts_cyst_infe_pork</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_pig_get_infe_Tsol:option2')"/>
+          <value>i_dont_know</value>
+        </item>
+      </select1>
+      <select ref="/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst">
+        <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:label')"/>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option0')"/>
+          <value>inge_Tsol_cyst_infe_pork</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option1')"/>
+          <value>inge_food_infected</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option2')"/>
+          <value>drinking_contam_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option3')"/>
+          <value>bitten_by_mosquito</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/T_solium_cyst_desc/ways_human_get_inf_TSol_cyst:option4')"/>
+          <value>i_dont_know</value>
+        </item>
+      </select>
+    </group>
+    <select1 ref="/data/meat_insp_course">
+      <label ref="jr:itext('/data/meat_insp_course:label')"/>
+      <item>
+        <label ref="jr:itext('/data/meat_insp_course:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/meat_insp_course:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/how_log_attend_course_months">
+      <label ref="jr:itext('/data/how_log_attend_course_months:label')"/>
+      <hint ref="jr:itext('/data/how_log_attend_course_months:hint')"/>
+    </input>
+    <select1 ref="/data/know_organ_concentrate">
+      <label ref="jr:itext('/data/know_organ_concentrate:label')"/>
+      <item>
+        <label ref="jr:itext('/data/know_organ_concentrate:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/know_organ_concentrate:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/organ_list">
+      <label ref="jr:itext('/data/organ_list:label')"/>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option0')"/>
+        <value>tongue</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option1')"/>
+        <value>heart_muscles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option2')"/>
+        <value>rib_muscles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option3')"/>
+        <value>psoas_major_minor</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option4')"/>
+        <value>masseter_muscles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option5')"/>
+        <value>neck</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option6')"/>
+        <value>legs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option7')"/>
+        <value>abdominal_muscles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option8')"/>
+        <value>liver</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/organ_list:option9')"/>
+        <value>bladder_inte_stomach</value>
+      </item>
+    </select>
+    <input ref="/data/meat_insp_explaination">
+      <label ref="jr:itext('/data/meat_insp_explaination:label')"/>
+    </input>
+    <input ref="/data/cases_T.solium_month">
+      <label ref="jr:itext('/data/cases_T.solium_month:label')"/>
+    </input>
+    <select ref="/data/do_with_inf_pig">
+      <label ref="jr:itext('/data/do_with_inf_pig:label')"/>
+      <hint ref="jr:itext('/data/do_with_inf_pig:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option0')"/>
+        <value>bury_carcass</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option1')"/>
+        <value>demand_to_burry</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option2')"/>
+        <value>burn_carcass</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option3')"/>
+        <value>allow_eaten_cond_well_cooked</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option4')"/>
+        <value>allow_feed_dog</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option5')"/>
+        <value>allow_advice_not_to_sale</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option6')"/>
+        <value>dont_know</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_with_inf_pig:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group ref="/data/do_with_inf_pig_other_action" appearance="field-list">
+      <label ref="jr:itext('/data/do_with_inf_pig_other_action:label')"/>
+      <input ref="/data/do_with_inf_pig_other_action/action1">
+        <label ref="jr:itext('/data/do_with_inf_pig_other_action/action1:label')"/>
+      </input>
+      <input ref="/data/do_with_inf_pig_other_action/action2">
+        <label ref="jr:itext('/data/do_with_inf_pig_other_action/action2:label')"/>
+      </input>
+    </group>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

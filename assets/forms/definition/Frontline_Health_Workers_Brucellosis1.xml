@@ -1,0 +1,263 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Frontline Health Workers Brucellosis</h:title>
+    <model>
+      <instance>
+        <data id="build_Frontline-Health-Workers-Brucellosis_1288901185081">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <partient_detals>
+            <barcode/>
+            <patient_name/>
+            <age/>
+            <patient_sex/>
+            <ward/>
+            <village/>
+            <phone_number/>
+          </partient_detals>
+          <major_clinical_signs>
+            <Clinical1/>
+            <Clinical2/>
+            <Clinical3/>
+          </major_clinical_signs>
+          <facility_details>
+            <keep_animal/>
+            <past3months_consume_raw_milk/>
+            <refferal/>
+          </facility_details>
+          <chr_number/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/partient_detals:label">
+            <value>Patient Initial Details </value>
+          </text>
+          <text id="/data/partient_detals/barcode:label">
+            <value>Barcode</value>
+          </text>
+          <text id="/data/partient_detals/barcode:hint">
+            <value>Scan</value>
+          </text>
+          <text id="/data/partient_detals/patient_name:label">
+            <value>Patient Full Name</value>
+          </text>
+          <text id="/data/partient_detals/age:label">
+            <value>Patient Age</value>
+          </text>
+          <text id="/data/partient_detals/patient_sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/partient_detals/patient_sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/partient_detals/patient_sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/partient_detals/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/partient_detals/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/partient_detals/phone_number:label">
+            <value>Patient Phone number</value>
+          </text>
+          <text id="/data/partient_detals/phone_number:hint">
+            <value>Number can be used to communicate results</value>
+          </text>
+          <text id="/data/major_clinical_signs:label">
+            <value>Major clinical manifestations</value>
+          </text>
+          <text id="/data/major_clinical_signs/Clinical1:label">
+            <value>1st Clinical Manifestation</value>
+          </text>
+          <text id="/data/major_clinical_signs/Clinical2:label">
+            <value>2nd Clinical Manifestation</value>
+          </text>
+          <text id="/data/major_clinical_signs/Clinical3:label">
+            <value>3rd Clinical Manifestation</value>
+          </text>
+          <text id="/data/facility_details:label">
+            <value>Determinants</value>
+          </text>
+          <text id="/data/facility_details/keep_animal:label">
+            <value>Do you keep the following animals?</value>
+          </text>
+          <text id="/data/facility_details/keep_animal:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/facility_details/keep_animal:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/facility_details/keep_animal:option2">
+            <value>Goats</value>
+          </text>
+          <text id="/data/facility_details/keep_animal:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/facility_details/past3months_consume_raw_milk:label">
+            <value>For the past 3 months, Did you</value>
+          </text>
+          <text id="/data/facility_details/past3months_consume_raw_milk:option0">
+            <value>Consume Raw Milk</value>
+          </text>
+          <text id="/data/facility_details/past3months_consume_raw_milk:option1">
+            <value>Consume undercooked meat</value>
+          </text>
+          <text id="/data/facility_details/past3months_consume_raw_milk:option2">
+            <value>Directly contact aborted materials from animals</value>
+          </text>
+          <text id="/data/facility_details/past3months_consume_raw_milk:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/facility_details/refferal:label">
+            <value>Was patient referred by CHR/CHW? </value>
+          </text>
+          <text id="/data/facility_details/refferal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/facility_details/refferal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/chr_number:label">
+            <value>Write down CHR Phone number</value>
+          </text>
+          <text id="/data/chr_number:hint">
+            <value>As appeared on referral phone</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/partient_detals/barcode" type="barcode" required="true()" jr:requiredMsg="Barcode is required"/>
+      <bind nodeset="/data/partient_detals/patient_name" type="string" required="true()" jr:requiredMsg="Patient Name is required"/>
+      <bind nodeset="/data/partient_detals/age" type="int" required="true()" jr:requiredMsg="Patient Age is required"/>
+      <bind nodeset="/data/partient_detals/patient_sex" type="select1" required="true()" jr:requiredMsg="Patient Sex is required"/>
+      <bind nodeset="/data/partient_detals/ward" type="string" required="true()" jr:requiredMsg="Patient ward is required"/>
+      <bind nodeset="/data/partient_detals/village" type="string" required="true()" jr:requiredMsg="Patient village is required"/>
+      <bind nodeset="/data/partient_detals/phone_number" type="string" constraint="(regex(.,'[0-9]{10}'))" jr:constraintMsg="Phone Number should be 10 numbers"/>
+      <bind nodeset="/data/major_clinical_signs/Clinical1" type="string" required="true()" jr:requiredMsg="Major Clinical is required"/>
+      <bind nodeset="/data/major_clinical_signs/Clinical2" type="string" required="true()" jr:requiredMsg="Major Clinical is required"/>
+      <bind nodeset="/data/major_clinical_signs/Clinical3" type="string" required="true()" jr:requiredMsg="Major Clinical is required"/>
+      <bind nodeset="/data/facility_details/keep_animal" type="select" required="true()" jr:requiredMsg="Keeping animals is required"/>
+      <bind nodeset="/data/facility_details/past3months_consume_raw_milk" type="select" required="true()" jr:requiredMsg="Consumed in past 3months is required"/>
+      <bind nodeset="/data/facility_details/refferal" type="select1" required="true()" jr:requiredMsg="CHW referal is required"/>
+
+      <bind nodeset="/data/chr_number" type="decimal" relevant="(selected(/data/facility_details/refferal, 'yes'))" type="string" constraint="(regex(.,'[0-9]{10}'))" jr:constraintMsg="Phone Number should be 10 numbers"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Frontline Health Workers ',': ',/data/partient_detals/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/partient_detals" appearance="field-list">
+      <label ref="jr:itext('/data/partient_detals:label')"/>
+      <input ref="/data/partient_detals/barcode">
+        <label ref="jr:itext('/data/partient_detals/barcode:label')"/>
+        <hint ref="jr:itext('/data/partient_detals/barcode:hint')"/>
+      </input>
+      <input ref="/data/partient_detals/patient_name">
+        <label ref="jr:itext('/data/partient_detals/patient_name:label')"/>
+      </input>
+      <input ref="/data/partient_detals/age">
+        <label ref="jr:itext('/data/partient_detals/age:label')"/>
+      </input>
+      <select1 ref="/data/partient_detals/patient_sex">
+        <label ref="jr:itext('/data/partient_detals/patient_sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/partient_detals/patient_sex:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/partient_detals/patient_sex:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/partient_detals/ward">
+        <label ref="jr:itext('/data/partient_detals/ward:label')"/>
+      </input>
+      <input ref="/data/partient_detals/village">
+        <label ref="jr:itext('/data/partient_detals/village:label')"/>
+      </input>
+      <input ref="/data/partient_detals/phone_number" appearance="numbers">
+        <label ref="jr:itext('/data/partient_detals/phone_number:label')"/>
+        <hint ref="jr:itext('/data/partient_detals/phone_number:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/major_clinical_signs" appearance="field-list">
+      <label ref="jr:itext('/data/major_clinical_signs:label')"/>
+      <input ref="/data/major_clinical_signs/Clinical1">
+        <label ref="jr:itext('/data/major_clinical_signs/Clinical1:label')"/>
+      </input>
+      <input ref="/data/major_clinical_signs/Clinical2">
+        <label ref="jr:itext('/data/major_clinical_signs/Clinical2:label')"/>
+      </input>
+      <input ref="/data/major_clinical_signs/Clinical3">
+        <label ref="jr:itext('/data/major_clinical_signs/Clinical3:label')"/>
+      </input>
+    </group>
+    <group ref="/data/facility_details" appearance="field-list">
+      <label ref="jr:itext('/data/facility_details:label')"/>
+      <select ref="/data/facility_details/keep_animal">
+        <label ref="jr:itext('/data/facility_details/keep_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/facility_details/keep_animal:option0')"/>
+          <value>cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/keep_animal:option1')"/>
+          <value>sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/keep_animal:option2')"/>
+          <value>goats</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/keep_animal:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/facility_details/past3months_consume_raw_milk">
+        <label ref="jr:itext('/data/facility_details/past3months_consume_raw_milk:label')"/>
+        <item>
+          <label ref="jr:itext('/data/facility_details/past3months_consume_raw_milk:option0')"/>
+          <value>consume_raw_milk</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/past3months_consume_raw_milk:option1')"/>
+          <value>cons_undercook_meat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/past3months_consume_raw_milk:option2')"/>
+          <value>direct_cont_aborted_mater_frm_an</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/past3months_consume_raw_milk:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select1 ref="/data/facility_details/refferal">
+        <label ref="jr:itext('/data/facility_details/refferal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/facility_details/refferal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility_details/refferal:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/chr_number" appearance="numbers">
+      <label ref="jr:itext('/data/chr_number:label')"/>
+      <hint ref="jr:itext('/data/chr_number:hint')"/>
+    </input>
+  </h:body>
+</h:html>

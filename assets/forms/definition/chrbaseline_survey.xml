@@ -1,0 +1,1500 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Baseline Survey</h:title>
+    <model>
+      <instance>
+        <data id="build_chrbaseline_1548762366">
+          <meta>
+            <instanceID/>
+          </meta>
+          <general>
+            <region/>
+            <ward/>
+            <village/>
+            <sex_of_interviewee/>
+            <chw_start_date/>
+          </general>
+          <disease_surveillance>
+            <responsibilities/>
+            <responsibilities_other/>
+            <description/>
+            <description_other/>
+            <roles/>
+            <roles_other/>
+            <training/>
+            <training_other/>
+          </disease_surveillance>
+          <case_identification>
+            <human_identification/>
+            <animal_identification/>
+            <guidelines/>
+            <guidelines_other/>
+            <outbreak_determination/>
+            <outbreak_experience/>
+          </case_identification>
+          <Disease_outbreak_experience>
+            <human_event_outbreak/>
+            <animal_event_outbreak/>
+            <last_outbreak_date/>
+            <last_outbreak_discovery/>
+            <days_onset_reporting/>
+            <days_reporting_detection/>
+            <days_detection_response/>
+          </Disease_outbreak_experience>
+          <recording>
+            <record_keeping/>
+            <record_keeping_other/>
+            <challenges/>
+            <solutions/>
+          </recording>
+          <reporting>
+            <submission/>
+            <submission_other/>
+            <period/>
+            <period_other/>
+            <motivating_factors/>
+            <motivating_factors_other/>
+            <limiting_factors/>
+            <limiting_factors_other/>
+          </reporting>
+          <participation>
+            <last_involvement_date/>
+            <activities/>
+            <activities_other/>
+            <get_response/>
+          </participation>
+          <response>
+            <feedback_mechanism/>
+            <feedback_mechanism_other/>
+            <last_received_feedback/>
+            <days_submission_feedback/>
+          </response>
+          <data_analysis>
+            <use_of_data/>
+            <use_of_data_other/>
+            <responsible/>
+          </data_analysis>
+          <phone_ownership>
+            <type/>
+            <has_internet/>
+            <operating_system/>
+            <digital_surveillance_awareness/>
+            <digtial_surveillance_usage/>
+            <mobile_phone_functions_used/>
+            <digital_surveillance_current_usage/>
+            <digital_surveillance_reasons/>
+            <org_funding/>
+          </phone_ownership>
+          <perceptions>
+            <paper_benefits/>
+            <paper_limitations/>
+            <electronic_benefits/>
+            <electronic_limitations/>
+            <GPS/>
+          </perceptions>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>General Information</value>
+          </text>
+          <text id="/data/general/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/general/region:requiredMsg">
+            <value>Please input District</value>
+          </text>
+          <text id="/data/general/region:option0">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/general/region:option1">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/general/region:option2">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/general/region:option3">
+            <value>Gairo</value>
+          </text>
+          <text id="/data/general/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/general/ward:requiredMsg">
+            <value>Please specify Ward</value>
+          </text>
+          <text id="/data/general/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/general/village:requiredMsg">
+            <value>Please specify Village</value>
+          </text>
+          <text id="/data/general/sex_of_interviewee:label">
+            <value>Sex of Interviewee</value>
+          </text>
+          <text id="/data/general/sex_of_interviewee:requiredMsg">
+            <value>Please specify sex of interviewee</value>
+          </text>
+          <text id="/data/general/sex_of_interviewee:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/general/sex_of_interviewee:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/general/chw_start_date:label">
+            <value>When did you start working as a CHW</value>
+          </text>
+          <text id="/data/disease_surveillance:label">
+            <value>Reponsibilities and Roles</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities:label">
+            <value>Please list main duties related to human and animal health</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities:option0">
+            <value>Prenatal, Meternal and Postnatal health care</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities:option1">
+            <value>Health promotion/education</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities:option2">
+            <value>Disease control and prevention</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities:option3">
+            <value>Disease surveillance (collection and reporting data to higher level)</value>
+          </text>
+          <text id="/data/disease_surveillance/responsibilities_other:label">
+            <value>Please specify other responsibilities if any</value>
+          </text>
+          <text id="/data/disease_surveillance/description:label">
+            <value>How would you describe disease surveillance</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option0">
+            <value>Specimen/sample/data collection and preservation</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option1">
+            <value>Data detection/investigation of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option2">
+            <value>Case Management</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option3">
+            <value>Recording of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option4">
+            <value>Data analysis and interpretation</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option5">
+            <value>Data use in planning and decision making</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option6">
+            <value>Reporting</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option7">
+            <value>Responding (actions) to reported diseases</value>
+          </text>
+          <text id="/data/disease_surveillance/description:option8">
+            <value>Monitoring and evaluation of responses (actions)</value>
+          </text>
+          <text id="/data/disease_surveillance/description_other:label">
+            <value>Please specify other descriptions</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:label">
+            <value>What do you think your role is in disease surveillance</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option0">
+            <value>Specimen/sample/data collection and preservation</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option1">
+            <value>Data detection/investigation of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option2">
+            <value>Recording of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option3">
+            <value>Data analysis and interpretation</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option4">
+            <value>Reporting</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option5">
+            <value>Responding (actions) to reported diseases</value>
+          </text>
+          <text id="/data/disease_surveillance/roles:option6">
+            <value>Monitoring and evaluation of responses (actions)</value>
+          </text>
+          <text id="/data/disease_surveillance/roles_other:label">
+            <value>Please specify other roles</value>
+          </text>
+          <text id="/data/disease_surveillance/training:label">
+            <value>What topics were covered during training</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option0">
+            <value>Specimen/sample/data collection and preservation</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option1">
+            <value>Data detection/investigation of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option2">
+            <value>Recording of disease events</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option3">
+            <value>Data analysis and interpretation</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option4">
+            <value>Reporting</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option5">
+            <value>Responding (actions) to reported diseases</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option6">
+            <value>Monitoring and evaluation of responses (actions)</value>
+          </text>
+          <text id="/data/disease_surveillance/training:option7">
+            <value>Did not receive any training</value>
+          </text>
+          <text id="/data/disease_surveillance/training_other:label">
+            <value>Please specify topics covered</value>
+          </text>
+          <text id="/data/disease_surveillance/training_other:hint">
+            <value></value>
+          </text>
+          <text id="/data/case_identification:label">
+            <value>Identification/detection of cases</value>
+          </text>
+          <text id="/data/case_identification/human_identification:label">
+            <value>What makes you suspect a person has a disease</value>
+          </text>
+          <text id="/data/case_identification/human_identification:requiredMsg">
+            <value>Please specify how you identify human patients</value>
+          </text>
+          <text id="/data/case_identification/animal_identification:label">
+            <value>What makes you suspect an animal is sick</value>
+          </text>
+          <text id="/data/case_identification/animal_identification:requiredMsg">
+            <value>Please specify how you identify animal patients</value>
+          </text>
+          <text id="/data/case_identification/guidelines:label">
+            <value>What guides you towards identification of suspected cases</value>
+          </text>
+          <text id="/data/case_identification/guidelines:hint">
+            <value>Probe for any written instructions, reference guides</value>
+          </text>
+          <text id="/data/case_identification/guidelines:option0">
+            <value>Guidelines</value>
+          </text>
+          <text id="/data/case_identification/guidelines:option1">
+            <value>Reference (training manual)</value>
+          </text>
+          <text id="/data/case_identification/guidelines:option2">
+            <value>Instructions</value>
+          </text>
+          <text id="/data/case_identification/guidelines_other:label">
+            <value>Please specify if other guideliens are used</value>
+          </text>
+          <text id="/data/case_identification/outbreak_determination:label">
+            <value>How would you determine whether your suspected case indicates an outbreak</value>
+          </text>
+          <text id="/data/case_identification/outbreak_determination:hint">
+            <value>Probe if there are thresholds levels for different diseases</value>
+          </text>
+          <text id="/data/case_identification/outbreak_experience:label">
+            <value>Have you ever experienced any disease outbreak in your village</value>
+          </text>
+          <text id="/data/case_identification/outbreak_experience:requiredMsg">
+            <value>Please specify if you have experienced an outbreak or not</value>
+          </text>
+          <text id="/data/case_identification/outbreak_experience:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/case_identification/outbreak_experience:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience:label">
+            <value>Disease Outbreak Experience</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/human_event_outbreak:label">
+            <value>What type of HUMAN outbreak you experienced</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/human_event_outbreak:hint">
+            <value>mention event and population affected</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/animal_event_outbreak:label">
+            <value>What type of ANIMAL outbreak you experienced</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/animal_event_outbreak:hint">
+            <value>mention event and population affected</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/last_outbreak_date:label">
+            <value>When was the last time that there was an outbeak</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/last_outbreak_discovery:label">
+            <value>How did you discover that there was an outbreak</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_onset_reporting:label">
+            <value>Number of days between onset and official reporting</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_onset_reporting:hint">
+            <value>0: I don't know, -1: No official reporting</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_reporting_detection:label">
+            <value>Number of days between official reporting and detection</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_reporting_detection:hint">
+            <value>0: I don't know, -1: No official reporting</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_detection_response:label">
+            <value>Number of days between official detection and first response</value>
+          </text>
+          <text id="/data/Disease_outbreak_experience/days_detection_response:hint">
+            <value>0: I don't know, -1: No official reporting</value>
+          </text>
+          <text id="/data/recording:label">
+            <value>Recording of health events at community level</value>
+          </text>
+          <text id="/data/recording/record_keeping:label">
+            <value>Where do you keep records of health events </value>
+          </text>
+          <text id="/data/recording/record_keeping:option0">
+            <value>Specific forms</value>
+          </text>
+          <text id="/data/recording/record_keeping:option1">
+            <value>Notebook</value>
+          </text>
+          <text id="/data/recording/record_keeping:option2">
+            <value>Phone</value>
+          </text>
+          <text id="/data/recording/record_keeping:option3">
+            <value>Dont keep records</value>
+          </text>
+          <text id="/data/recording/record_keeping_other:label">
+            <value>Please specify other ways records are kept in any</value>
+          </text>
+          <text id="/data/recording/challenges:label">
+            <value>What challenges do you face when recording health events</value>
+          </text>
+          <text id="/data/recording/challenges:hint">
+            <value>probe if they ever run out of forms</value>
+          </text>
+          <text id="/data/recording/solutions:label">
+            <value>Please propose solutions to these challenges</value>
+          </text>
+          <text id="/data/reporting:label">
+            <value>Reporting of Health Events</value>
+          </text>
+          <text id="/data/reporting/submission:label">
+            <value>How would you submit/notify higher level authority on disease events</value>
+          </text>
+          <text id="/data/reporting/submission:option0">
+            <value>Physical visits</value>
+          </text>
+          <text id="/data/reporting/submission:option1">
+            <value>Telephone call</value>
+          </text>
+          <text id="/data/reporting/submission:option2">
+            <value>SMS</value>
+          </text>
+          <text id="/data/reporting/submission:option3">
+            <value>Public transport (bus)</value>
+          </text>
+          <text id="/data/reporting/submission:option4">
+            <value>Motorcycle</value>
+          </text>
+          <text id="/data/reporting/submission:option5">
+            <value>I do not notify</value>
+          </text>
+          <text id="/data/reporting/submission_other:label">
+            <value>Specify other means of notifying/submission if any</value>
+          </text>
+          <text id="/data/reporting/period:label">
+            <value>How often do you notify/submit reports</value>
+          </text>
+          <text id="/data/reporting/period:option0">
+            <value>Immediate</value>
+          </text>
+          <text id="/data/reporting/period:option1">
+            <value>Daily</value>
+          </text>
+          <text id="/data/reporting/period:option2">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/reporting/period:option3">
+            <value>Monthly</value>
+          </text>
+          <text id="/data/reporting/period:option4">
+            <value>Quarterly</value>
+          </text>
+          <text id="/data/reporting/period:option5">
+            <value>Annual</value>
+          </text>
+          <text id="/data/reporting/period_other:label">
+            <value>Please specify other reporting periods</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:label">
+            <value>What factors influence you to report</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option0">
+            <value>Occurance of new disease</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option1">
+            <value>Seriousness of disease condition</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option2">
+            <value>Affected human population</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option3">
+            <value>Affected animal population</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option4">
+            <value>How fast disease spreads</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option5">
+            <value>Poor progress upon self-treatment</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option6">
+            <value>Expected immediate response/feedback</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option7">
+            <value>Location to report close to home</value>
+          </text>
+          <text id="/data/reporting/motivating_factors:option8">
+            <value>Disease affecting both humans and animals</value>
+          </text>
+          <text id="/data/reporting/motivating_factors_other:label">
+            <value>Please specify other motivating factors</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:label">
+            <value>What factors limits your motivation to report</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option0">
+            <value>Un-availability of health care services</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option1">
+            <value>Lack of response/feedback/support</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option2">
+            <value>Late response/feedback/support</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option3">
+            <value>Lack of transport/poor road infrastructure</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option4">
+            <value>High cost of reporting</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option5">
+            <value>Don't know who to report to</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option6">
+            <value>Don't know when to report</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option7">
+            <value>Run out of forms</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option8">
+            <value>Don't know how to record events</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option9">
+            <value>No recording tools</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option10">
+            <value>Don't know how to detect human events/disease</value>
+          </text>
+          <text id="/data/reporting/limiting_factors:option11">
+            <value>Don't know how to detect animal events/disease</value>
+          </text>
+          <text id="/data/reporting/limiting_factors_other:label">
+            <value>Please specify other limiting factors</value>
+          </text>
+          <text id="/data/participation:label">
+            <value>Participation in outbreak investigation</value>
+          </text>
+          <text id="/data/participation/last_involvement_date:label">
+            <value>When was the last oubtreak you were involved in</value>
+          </text>
+          <text id="/data/participation/last_involvement_date:hint">
+            <value>leave empty if never involved</value>
+          </text>
+          <text id="/data/participation/activities:label">
+            <value>What kind of activities where you involved in</value>
+          </text>
+          <text id="/data/participation/activities:option0">
+            <value>Specimen/sample/data collection and preservation</value>
+          </text>
+          <text id="/data/participation/activities:option1">
+            <value>Data detection/investigation of disease events</value>
+          </text>
+          <text id="/data/participation/activities:option2">
+            <value>Recording of disease events</value>
+          </text>
+          <text id="/data/participation/activities:option3">
+            <value>Data analysis and interpretation</value>
+          </text>
+          <text id="/data/participation/activities:option4">
+            <value>Reporting</value>
+          </text>
+          <text id="/data/participation/activities:option5">
+            <value>Responding (actions) to reported diseases</value>
+          </text>
+          <text id="/data/participation/activities:option6">
+            <value>Monitoring and evaluation of responses (actions)</value>
+          </text>
+          <text id="/data/participation/activities_other:label">
+            <value>Please specify other roles</value>
+          </text>
+          <text id="/data/participation/get_response:label">
+            <value>After submitting health event report to a higher level, do you get feedback</value>
+          </text>
+          <text id="/data/participation/get_response:requiredMsg">
+            <value>Please specify if you get feedback after submission of reports</value>
+          </text>
+          <text id="/data/participation/get_response:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/participation/get_response:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/response:label">
+            <value>Feedback and Response</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:label">
+            <value>How do you get feedback</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:hint">
+            <value>probe mechanism of feedback</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option0">
+            <value>Physical visits</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option1">
+            <value>Telephone call</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option2">
+            <value>SMS</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option3">
+            <value>Public transport (bus)</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option4">
+            <value>Motorcycle</value>
+          </text>
+          <text id="/data/response/feedback_mechanism:option5">
+            <value>Digital technology</value>
+          </text>
+          <text id="/data/response/feedback_mechanism_other:label">
+            <value>Specify other feedback mechanisms if available</value>
+          </text>
+          <text id="/data/response/last_received_feedback:label">
+            <value>When was the last time you received feedback from higher level</value>
+          </text>
+          <text id="/data/response/last_received_feedback:requiredMsg">
+            <value>Please specify last time you received feedback</value>
+          </text>
+          <text id="/data/response/days_submission_feedback:label">
+            <value>What was the number of days between report submission and getting feedback</value>
+          </text>
+          <text id="/data/response/days_submission_feedback:hint">
+            <value>0: I don't know</value>
+          </text>
+          <text id="/data/response/days_submission_feedback:requiredMsg">
+            <value>Please specify number of days between submission and feedback</value>
+          </text>
+          <text id="/data/data_analysis:label">
+            <value>Data Analysis</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data:label">
+            <value>What do you do with recorded/reported disease data</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data:requiredMsg">
+            <value>Please specify what you do with collected data</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data:option0">
+            <value>Data analysis</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data:option1">
+            <value>Data interpretation</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data:option2">
+            <value>Don't use data</value>
+          </text>
+          <text id="/data/data_analysis/use_of_data_other:label">
+            <value>Speficy other ways data is being used</value>
+          </text>
+          <text id="/data/data_analysis/responsible:label">
+            <value>Who is responsible for data analysis and interpretation in your area</value>
+          </text>
+          <text id="/data/data_analysis/responsible:hint">
+            <value>specify cadre</value>
+          </text>
+          <text id="/data/phone_ownership:label">
+            <value>Ownership of mobile phone and its usage in surveillance</value>
+          </text>
+          <text id="/data/phone_ownership/type:label">
+            <value>What type of phone do you own</value>
+          </text>
+          <text id="/data/phone_ownership/type:requiredMsg">
+            <value>Please specify type of phone you own</value>
+          </text>
+          <text id="/data/phone_ownership/type:option0">
+            <value>Smart phone</value>
+          </text>
+          <text id="/data/phone_ownership/type:option1">
+            <value>Feature phone</value>
+          </text>
+          <text id="/data/phone_ownership/type:option2">
+            <value>Don't own a phone</value>
+          </text>
+          <text id="/data/phone_ownership/has_internet:label">
+            <value>Does your mobile phone support internet</value>
+          </text>
+          <text id="/data/phone_ownership/has_internet:requiredMsg">
+            <value>Please specify if your phone supports internet</value>
+          </text>
+          <text id="/data/phone_ownership/has_internet:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/phone_ownership/has_internet:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/phone_ownership/has_internet:option2">
+            <value>Don't have phone</value>
+          </text>
+          <text id="/data/phone_ownership/operating_system:label">
+            <value>Specify operating system and version</value>
+          </text>
+          <text id="/data/phone_ownership/operating_system:hint">
+            <value>Android: settings &gt; system &gt; about or IOS: Settings &gt; general &gt; about</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_awareness:label">
+            <value>Are you aware of the usage of mobile phone to collect and send disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_awareness:requiredMsg">
+            <value>Please specify your awareness</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_awareness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_awareness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/phone_ownership/digtial_surveillance_usage:label">
+            <value>Have you ever used mobile phone to collect and transmit disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/digtial_surveillance_usage:requiredMsg">
+            <value>Please specify if you have ever used mobile phone to collect disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/digtial_surveillance_usage:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/phone_ownership/digtial_surveillance_usage:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:label">
+            <value>What phone functions did you use in reporting disease events</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:hint">
+            <value>Answer only if respondent has used mobile phone in reporting</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:option0">
+            <value>Voice</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:option1">
+            <value>SMS</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:option2">
+            <value>APP</value>
+          </text>
+          <text id="/data/phone_ownership/mobile_phone_functions_used:option3">
+            <value>USSD</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_current_usage:label">
+            <value>Are you currently using mobile phone to collect and transmit disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_current_usage:requiredMsg">
+            <value>Please specify if your currently using mobile phone to collect and transmit data</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_current_usage:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_current_usage:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_reasons:label">
+            <value>Why are you currently not using mobile phone to collect and transmit disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/digital_surveillance_reasons:hint">
+            <value>Answer only if he has stoped using mobile phone to report</value>
+          </text>
+          <text id="/data/phone_ownership/org_funding:label">
+            <value>Please mention any organisation working to facilitate use of mobile phone technology to collect and submit disease reports</value>
+          </text>
+          <text id="/data/phone_ownership/org_funding:hint">
+            <value>0 if none</value>
+          </text>
+          <text id="/data/perceptions:label">
+            <value>Perception of use of paper-based vs electronic system for collection and submission of health events</value>
+          </text>
+          <text id="/data/perceptions/paper_benefits:label">
+            <value>What do you think are the BENEFITS of PAPER-BASED system in collection and reporting health events</value>
+          </text>
+          <text id="/data/perceptions/paper_limitations:label">
+            <value>What do you think are the LIMITATIONS of PAPER-BASED system in collection and reporting health events</value>
+          </text>
+          <text id="/data/perceptions/electronic_benefits:label">
+            <value>What do you think are the BENEFITS of ELECTRONIC-BASED system in collection and reporting health events</value>
+          </text>
+          <text id="/data/perceptions/electronic_limitations:label">
+            <value>What do you think are the LIMITATIONS of ELECTRONIC-BASED system in collection and reporting health events</value>
+          </text>
+          <text id="/data/perceptions/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/region" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/general/region:requiredMsg')"/>
+      <bind nodeset="/data/general/ward" type="string" required="true()" jr:requiredMsg="jr:itext('/data/general/ward:requiredMsg')"/>
+      <bind nodeset="/data/general/village" type="string" required="true()" jr:requiredMsg="jr:itext('/data/general/village:requiredMsg')"/>
+      <bind nodeset="/data/general/sex_of_interviewee" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/general/sex_of_interviewee:requiredMsg')"/>
+      <bind nodeset="/data/general/chw_start_date" type="date"/>
+      <bind nodeset="/data/disease_surveillance/responsibilities" type="select"/>
+      <bind nodeset="/data/disease_surveillance/responsibilities_other" type="string"/>
+      <bind nodeset="/data/disease_surveillance/description" type="select"/>
+      <bind nodeset="/data/disease_surveillance/description_other" type="string"/>
+      <bind nodeset="/data/disease_surveillance/roles" type="select"/>
+      <bind nodeset="/data/disease_surveillance/roles_other" type="string"/>
+      <bind nodeset="/data/disease_surveillance/training" type="select"/>
+      <bind nodeset="/data/disease_surveillance/training_other" type="string"/>
+      <bind nodeset="/data/case_identification/human_identification" type="string" required="true()" jr:requiredMsg="jr:itext('/data/case_identification/human_identification:requiredMsg')"/>
+      <bind nodeset="/data/case_identification/animal_identification" type="string" required="true()" jr:requiredMsg="jr:itext('/data/case_identification/animal_identification:requiredMsg')"/>
+      <bind nodeset="/data/case_identification/guidelines" type="select"/>
+      <bind nodeset="/data/case_identification/guidelines_other" type="string"/>
+      <bind nodeset="/data/case_identification/outbreak_determination" type="string"/>
+      <bind nodeset="/data/case_identification/outbreak_experience" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/case_identification/outbreak_experience:requiredMsg')"/>
+      <bind nodeset="/data/Disease_outbreak_experience" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/human_event_outbreak" type="string" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/animal_event_outbreak" type="string" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/last_outbreak_date" type="date" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/last_outbreak_discovery" type="string" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/days_onset_reporting" type="int" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/days_reporting_detection" type="int" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/Disease_outbreak_experience/days_detection_response" type="int" relevant="((selected(/data/case_identification/outbreak_experience, 'Y')))"/>
+      <bind nodeset="/data/recording/record_keeping" type="select"/>
+      <bind nodeset="/data/recording/record_keeping_other" type="string"/>
+      <bind nodeset="/data/recording/challenges" type="string"/>
+      <bind nodeset="/data/recording/solutions" type="string"/>
+      <bind nodeset="/data/reporting/submission" type="select"/>
+      <bind nodeset="/data/reporting/submission_other" type="string"/>
+      <bind nodeset="/data/reporting/period" type="select"/>
+      <bind nodeset="/data/reporting/period_other" type="string"/>
+      <bind nodeset="/data/reporting/motivating_factors" type="select"/>
+      <bind nodeset="/data/reporting/motivating_factors_other" type="string"/>
+      <bind nodeset="/data/reporting/limiting_factors" type="select"/>
+      <bind nodeset="/data/reporting/limiting_factors_other" type="string"/>
+      <bind nodeset="/data/participation/last_involvement_date" type="date"/>
+      <bind nodeset="/data/participation/activities" type="select"/>
+      <bind nodeset="/data/participation/activities_other" type="string"/>
+      <bind nodeset="/data/participation/get_response" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/participation/get_response:requiredMsg')"/>
+      <bind nodeset="/data/response/feedback_mechanism" type="select"/>
+      <bind nodeset="/data/response/feedback_mechanism_other" type="string"/>
+      <bind nodeset="/data/response/last_received_feedback" type="date" required="true()" jr:requiredMsg="jr:itext('/data/response/last_received_feedback:requiredMsg')"/>
+      <bind nodeset="/data/response/days_submission_feedback" type="int" required="true()" jr:requiredMsg="jr:itext('/data/response/days_submission_feedback:requiredMsg')"/>
+      <bind nodeset="/data/data_analysis/use_of_data" type="select" required="true()" jr:requiredMsg="jr:itext('/data/data_analysis/use_of_data:requiredMsg')"/>
+      <bind nodeset="/data/data_analysis/use_of_data_other" type="string"/>
+      <bind nodeset="/data/data_analysis/responsible" type="string"/>
+      <bind nodeset="/data/phone_ownership/type" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/phone_ownership/type:requiredMsg')"/>
+      <bind nodeset="/data/phone_ownership/has_internet" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/phone_ownership/has_internet:requiredMsg')"/>
+      <bind nodeset="/data/phone_ownership/operating_system" type="string"/>
+      <bind nodeset="/data/phone_ownership/digital_surveillance_awareness" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/phone_ownership/digital_surveillance_awareness:requiredMsg')"/>
+      <bind nodeset="/data/phone_ownership/digtial_surveillance_usage" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/phone_ownership/digtial_surveillance_usage:requiredMsg')"/>
+      <bind nodeset="/data/phone_ownership/mobile_phone_functions_used" type="select"/>
+      <bind nodeset="/data/phone_ownership/digital_surveillance_current_usage" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/phone_ownership/digital_surveillance_current_usage:requiredMsg')"/>
+      <bind nodeset="/data/phone_ownership/digital_surveillance_reasons" type="string"/>
+      <bind nodeset="/data/phone_ownership/org_funding" type="string"/>
+      <bind nodeset="/data/perceptions/paper_benefits" type="string"/>
+      <bind nodeset="/data/perceptions/paper_limitations" type="string"/>
+      <bind nodeset="/data/perceptions/electronic_benefits" type="string"/>
+      <bind nodeset="/data/perceptions/electronic_limitations" type="string"/>
+      <bind nodeset="/data/perceptions/GPS" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <select1 ref="/data/general/region">
+        <label ref="jr:itext('/data/general/region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/region:option0')"/>
+          <value>Maliny</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/region:option1')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/region:option2')"/>
+          <value>Mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/region:option3')"/>
+          <value>Gairo</value>
+        </item>
+      </select1>
+      <input ref="/data/general/ward">
+        <label ref="jr:itext('/data/general/ward:label')"/>
+      </input>
+      <input ref="/data/general/village">
+        <label ref="jr:itext('/data/general/village:label')"/>
+      </input>
+      <select1 ref="/data/general/sex_of_interviewee">
+        <label ref="jr:itext('/data/general/sex_of_interviewee:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/sex_of_interviewee:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/sex_of_interviewee:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/general/chw_start_date" appearance="month-year">
+        <label ref="jr:itext('/data/general/chw_start_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/disease_surveillance:label')"/>
+      <select ref="/data/disease_surveillance/responsibilities" appearance="minimal">
+        <label ref="jr:itext('/data/disease_surveillance/responsibilities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/responsibilities:option0')"/>
+          <value>maternal_health_care</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/responsibilities:option1')"/>
+          <value>health_education</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/responsibilities:option2')"/>
+          <value>control_and_prevention</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/responsibilities:option3')"/>
+          <value>disease_surveillance</value>
+        </item>
+      </select>
+      <input ref="/data/disease_surveillance/responsibilities_other">
+        <label ref="jr:itext('/data/disease_surveillance/responsibilities_other:label')"/>
+      </input>
+      <select ref="/data/disease_surveillance/description" appearance="minimal">
+        <label ref="jr:itext('/data/disease_surveillance/description:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option0')"/>
+          <value>collection</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option1')"/>
+          <value>investigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option2')"/>
+          <value>case_management</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option3')"/>
+          <value>recording</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option4')"/>
+          <value>analysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option5')"/>
+          <value>data_use</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option6')"/>
+          <value>reporting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option7')"/>
+          <value>response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/description:option8')"/>
+          <value>M_and_E</value>
+        </item>
+      </select>
+      <input ref="/data/disease_surveillance/description_other">
+        <label ref="jr:itext('/data/disease_surveillance/description_other:label')"/>
+      </input>
+      <select ref="/data/disease_surveillance/roles" appearance="minimal">
+        <label ref="jr:itext('/data/disease_surveillance/roles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option0')"/>
+          <value>collection</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option1')"/>
+          <value>investigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option2')"/>
+          <value>recording</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option3')"/>
+          <value>analysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option4')"/>
+          <value>reporting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option5')"/>
+          <value>response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/roles:option6')"/>
+          <value>M_and_E</value>
+        </item>
+      </select>
+      <input ref="/data/disease_surveillance/roles_other">
+        <label ref="jr:itext('/data/disease_surveillance/roles_other:label')"/>
+      </input>
+      <select ref="/data/disease_surveillance/training" appearance="minimal">
+        <label ref="jr:itext('/data/disease_surveillance/training:label')"/>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option0')"/>
+          <value>collection</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option1')"/>
+          <value>investigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option2')"/>
+          <value>recording</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option3')"/>
+          <value>analysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option4')"/>
+          <value>reporting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option5')"/>
+          <value>response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option6')"/>
+          <value>M_and_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disease_surveillance/training:option7')"/>
+          <value>NONE</value>
+        </item>
+      </select>
+      <input ref="/data/disease_surveillance/training_other">
+        <label ref="jr:itext('/data/disease_surveillance/training_other:label')"/>
+        <hint ref="jr:itext('/data/disease_surveillance/training_other:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/case_identification:label')"/>
+      <input ref="/data/case_identification/human_identification">
+        <label ref="jr:itext('/data/case_identification/human_identification:label')"/>
+      </input>
+      <input ref="/data/case_identification/animal_identification">
+        <label ref="jr:itext('/data/case_identification/animal_identification:label')"/>
+      </input>
+      <select ref="/data/case_identification/guidelines">
+        <label ref="jr:itext('/data/case_identification/guidelines:label')"/>
+        <hint ref="jr:itext('/data/case_identification/guidelines:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/case_identification/guidelines:option0')"/>
+          <value>guidelines</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_identification/guidelines:option1')"/>
+          <value>training_manual</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_identification/guidelines:option2')"/>
+          <value>instructions</value>
+        </item>
+      </select>
+      <input ref="/data/case_identification/guidelines_other">
+        <label ref="jr:itext('/data/case_identification/guidelines_other:label')"/>
+      </input>
+      <input ref="/data/case_identification/outbreak_determination">
+        <label ref="jr:itext('/data/case_identification/outbreak_determination:label')"/>
+        <hint ref="jr:itext('/data/case_identification/outbreak_determination:hint')"/>
+      </input>
+      <select1 ref="/data/case_identification/outbreak_experience">
+        <label ref="jr:itext('/data/case_identification/outbreak_experience:label')"/>
+        <item>
+          <label ref="jr:itext('/data/case_identification/outbreak_experience:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_identification/outbreak_experience:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Disease_outbreak_experience:label')"/>
+      <input ref="/data/Disease_outbreak_experience/human_event_outbreak">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/human_event_outbreak:label')"/>
+        <hint ref="jr:itext('/data/Disease_outbreak_experience/human_event_outbreak:hint')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/animal_event_outbreak">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/animal_event_outbreak:label')"/>
+        <hint ref="jr:itext('/data/Disease_outbreak_experience/animal_event_outbreak:hint')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/last_outbreak_date" appearance="month-year">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/last_outbreak_date:label')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/last_outbreak_discovery">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/last_outbreak_discovery:label')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/days_onset_reporting">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/days_onset_reporting:label')"/>
+        <hint ref="jr:itext('/data/Disease_outbreak_experience/days_onset_reporting:hint')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/days_reporting_detection">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/days_reporting_detection:label')"/>
+        <hint ref="jr:itext('/data/Disease_outbreak_experience/days_reporting_detection:hint')"/>
+      </input>
+      <input ref="/data/Disease_outbreak_experience/days_detection_response">
+        <label ref="jr:itext('/data/Disease_outbreak_experience/days_detection_response:label')"/>
+        <hint ref="jr:itext('/data/Disease_outbreak_experience/days_detection_response:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/recording:label')"/>
+      <select ref="/data/recording/record_keeping" appearance="minimal">
+        <label ref="jr:itext('/data/recording/record_keeping:label')"/>
+        <item>
+          <label ref="jr:itext('/data/recording/record_keeping:option0')"/>
+          <value>specific_forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/recording/record_keeping:option1')"/>
+          <value>notebook</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/recording/record_keeping:option2')"/>
+          <value>phone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/recording/record_keeping:option3')"/>
+          <value>dont_keep_records</value>
+        </item>
+      </select>
+      <input ref="/data/recording/record_keeping_other">
+        <label ref="jr:itext('/data/recording/record_keeping_other:label')"/>
+      </input>
+      <input ref="/data/recording/challenges">
+        <label ref="jr:itext('/data/recording/challenges:label')"/>
+        <hint ref="jr:itext('/data/recording/challenges:hint')"/>
+      </input>
+      <input ref="/data/recording/solutions">
+        <label ref="jr:itext('/data/recording/solutions:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/reporting:label')"/>
+      <select ref="/data/reporting/submission" appearance="minimal">
+        <label ref="jr:itext('/data/reporting/submission:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option0')"/>
+          <value>physical_visit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option1')"/>
+          <value>phone_call</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option2')"/>
+          <value>SMS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option3')"/>
+          <value>public_transport</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option4')"/>
+          <value>motorcycle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/submission:option5')"/>
+          <value>NONE</value>
+        </item>
+      </select>
+      <input ref="/data/reporting/submission_other">
+        <label ref="jr:itext('/data/reporting/submission_other:label')"/>
+      </input>
+      <select ref="/data/reporting/period" appearance="minimal">
+        <label ref="jr:itext('/data/reporting/period:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option0')"/>
+          <value>immediate</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option1')"/>
+          <value>daily</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option2')"/>
+          <value>weekly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option3')"/>
+          <value>monthly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option4')"/>
+          <value>quarterly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/period:option5')"/>
+          <value>annual</value>
+        </item>
+      </select>
+      <input ref="/data/reporting/period_other">
+        <label ref="jr:itext('/data/reporting/period_other:label')"/>
+      </input>
+      <select ref="/data/reporting/motivating_factors" appearance="minimal">
+        <label ref="jr:itext('/data/reporting/motivating_factors:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option0')"/>
+          <value>new_disease</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option1')"/>
+          <value>disease_condition</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option2')"/>
+          <value>affected_humans</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option3')"/>
+          <value>affected_animals</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option4')"/>
+          <value>how_fast_disease_spreads</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option5')"/>
+          <value>progress_of_self_treatment</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option6')"/>
+          <value>immediate_response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option7')"/>
+          <value>closeness_of_reporting_station</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/motivating_factors:option8')"/>
+          <value>zoonotic_disease</value>
+        </item>
+      </select>
+      <input ref="/data/reporting/motivating_factors_other">
+        <label ref="jr:itext('/data/reporting/motivating_factors_other:label')"/>
+      </input>
+      <select ref="/data/reporting/limiting_factors" appearance="minimal">
+        <label ref="jr:itext('/data/reporting/limiting_factors:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option0')"/>
+          <value>no_health_care_facilities</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option1')"/>
+          <value>lack_of_response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option2')"/>
+          <value>late_response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option3')"/>
+          <value>poor_transport</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option4')"/>
+          <value>cost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option5')"/>
+          <value>dont_know_whom_to_report</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option6')"/>
+          <value>dont_know_when_to_report</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option7')"/>
+          <value>run_out_of_forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option8')"/>
+          <value>dont_know_how_to_record</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option9')"/>
+          <value>no_recording_tools</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option10')"/>
+          <value>cant_detect_human_events</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reporting/limiting_factors:option11')"/>
+          <value>cant_detect_animal_events</value>
+        </item>
+      </select>
+      <input ref="/data/reporting/limiting_factors_other">
+        <label ref="jr:itext('/data/reporting/limiting_factors_other:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/participation:label')"/>
+      <input ref="/data/participation/last_involvement_date" appearance="month-year">
+        <label ref="jr:itext('/data/participation/last_involvement_date:label')"/>
+        <hint ref="jr:itext('/data/participation/last_involvement_date:hint')"/>
+      </input>
+      <select ref="/data/participation/activities" appearance="minimal">
+        <label ref="jr:itext('/data/participation/activities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option0')"/>
+          <value>collection</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option1')"/>
+          <value>investigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option2')"/>
+          <value>recording</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option3')"/>
+          <value>analysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option4')"/>
+          <value>reporting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option5')"/>
+          <value>response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/activities:option6')"/>
+          <value>M_and_E</value>
+        </item>
+      </select>
+      <input ref="/data/participation/activities_other">
+        <label ref="jr:itext('/data/participation/activities_other:label')"/>
+      </input>
+      <select1 ref="/data/participation/get_response">
+        <label ref="jr:itext('/data/participation/get_response:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participation/get_response:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participation/get_response:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/response:label')"/>
+      <select ref="/data/response/feedback_mechanism" appearance="minimal">
+        <label ref="jr:itext('/data/response/feedback_mechanism:label')"/>
+        <hint ref="jr:itext('/data/response/feedback_mechanism:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option0')"/>
+          <value>physical_visit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option1')"/>
+          <value>phone_call</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option2')"/>
+          <value>SMS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option3')"/>
+          <value>public_transport</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option4')"/>
+          <value>motorcycle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/response/feedback_mechanism:option5')"/>
+          <value>digital_technology</value>
+        </item>
+      </select>
+      <input ref="/data/response/feedback_mechanism_other">
+        <label ref="jr:itext('/data/response/feedback_mechanism_other:label')"/>
+      </input>
+      <input ref="/data/response/last_received_feedback" appearance="month-year">
+        <label ref="jr:itext('/data/response/last_received_feedback:label')"/>
+      </input>
+      <input ref="/data/response/days_submission_feedback">
+        <label ref="jr:itext('/data/response/days_submission_feedback:label')"/>
+        <hint ref="jr:itext('/data/response/days_submission_feedback:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/data_analysis:label')"/>
+      <select ref="/data/data_analysis/use_of_data">
+        <label ref="jr:itext('/data/data_analysis/use_of_data:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_analysis/use_of_data:option0')"/>
+          <value>analysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_analysis/use_of_data:option1')"/>
+          <value>interpretation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_analysis/use_of_data:option2')"/>
+          <value>dont_use_data</value>
+        </item>
+      </select>
+      <input ref="/data/data_analysis/use_of_data_other">
+        <label ref="jr:itext('/data/data_analysis/use_of_data_other:label')"/>
+      </input>
+      <input ref="/data/data_analysis/responsible">
+        <label ref="jr:itext('/data/data_analysis/responsible:label')"/>
+        <hint ref="jr:itext('/data/data_analysis/responsible:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/phone_ownership:label')"/>
+      <select1 ref="/data/phone_ownership/type" appearance="minimal">
+        <label ref="jr:itext('/data/phone_ownership/type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/type:option0')"/>
+          <value>smart_phone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/type:option1')"/>
+          <value>feature_phone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/type:option2')"/>
+          <value>no_phone</value>
+        </item>
+      </select1>
+      <select1 ref="/data/phone_ownership/has_internet" appearance="minimal">
+        <label ref="jr:itext('/data/phone_ownership/has_internet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/has_internet:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/has_internet:option1')"/>
+          <value>N</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/has_internet:option2')"/>
+          <value>dont_have_phone</value>
+        </item>
+      </select1>
+      <input ref="/data/phone_ownership/operating_system">
+        <label ref="jr:itext('/data/phone_ownership/operating_system:label')"/>
+        <hint ref="jr:itext('/data/phone_ownership/operating_system:hint')"/>
+      </input>
+      <select1 ref="/data/phone_ownership/digital_surveillance_awareness">
+        <label ref="jr:itext('/data/phone_ownership/digital_surveillance_awareness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digital_surveillance_awareness:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digital_surveillance_awareness:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+      <select1 ref="/data/phone_ownership/digtial_surveillance_usage">
+        <label ref="jr:itext('/data/phone_ownership/digtial_surveillance_usage:label')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digtial_surveillance_usage:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digtial_surveillance_usage:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+      <select ref="/data/phone_ownership/mobile_phone_functions_used">
+        <label ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:label')"/>
+        <hint ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:option0')"/>
+          <value>voice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:option1')"/>
+          <value>SMS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:option2')"/>
+          <value>APP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/mobile_phone_functions_used:option3')"/>
+          <value>USSD</value>
+        </item>
+      </select>
+      <select1 ref="/data/phone_ownership/digital_surveillance_current_usage" appearance="minimal">
+        <label ref="jr:itext('/data/phone_ownership/digital_surveillance_current_usage:label')"/>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digital_surveillance_current_usage:option0')"/>
+          <value>Y</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/phone_ownership/digital_surveillance_current_usage:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+      <input ref="/data/phone_ownership/digital_surveillance_reasons">
+        <label ref="jr:itext('/data/phone_ownership/digital_surveillance_reasons:label')"/>
+        <hint ref="jr:itext('/data/phone_ownership/digital_surveillance_reasons:hint')"/>
+      </input>
+      <input ref="/data/phone_ownership/org_funding">
+        <label ref="jr:itext('/data/phone_ownership/org_funding:label')"/>
+        <hint ref="jr:itext('/data/phone_ownership/org_funding:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/perceptions:label')"/>
+      <input ref="/data/perceptions/paper_benefits">
+        <label ref="jr:itext('/data/perceptions/paper_benefits:label')"/>
+      </input>
+      <input ref="/data/perceptions/paper_limitations">
+        <label ref="jr:itext('/data/perceptions/paper_limitations:label')"/>
+      </input>
+      <input ref="/data/perceptions/electronic_benefits">
+        <label ref="jr:itext('/data/perceptions/electronic_benefits:label')"/>
+      </input>
+      <input ref="/data/perceptions/electronic_limitations">
+        <label ref="jr:itext('/data/perceptions/electronic_limitations:label')"/>
+      </input>
+      <input ref="/data/perceptions/GPS">
+        <label ref="jr:itext('/data/perceptions/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

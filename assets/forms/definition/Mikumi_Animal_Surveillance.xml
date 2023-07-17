@@ -1,0 +1,599 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mikumi Animal Surveillance</h:title>
+    <model>
+      <instance>
+        <data id="build_Mikumi-Animal-Surveillance_1518856204">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <specie/>
+            <place/>
+            <gender/>
+            <age_group/>
+            <vegetation/>
+            <condition/>
+          </general>
+          <sick>
+            <symptoms/>
+          </sick>
+          <citing>
+            <gps/>
+            <picture/>
+            <comments/>
+          </citing>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>General</value>
+          </text>
+          <text id="/data/general/specie:label">
+            <value>Type of Animal</value>
+          </text>
+          <text id="/data/general/specie:option0">
+            <value>Zebra</value>
+          </text>
+          <text id="/data/general/specie:option1">
+            <value>Elephant</value>
+          </text>
+          <text id="/data/general/specie:option2">
+            <value>Buffalo</value>
+          </text>
+          <text id="/data/general/specie:option3">
+            <value>Giraffe</value>
+          </text>
+          <text id="/data/general/specie:option4">
+            <value>Impala</value>
+          </text>
+          <text id="/data/general/specie:option5">
+            <value>Lion</value>
+          </text>
+          <text id="/data/general/specie:option6">
+            <value>Wildebeast</value>
+          </text>
+          <text id="/data/general/specie:option7">
+            <value>Hyaena</value>
+          </text>
+          <text id="/data/general/specie:option8">
+            <value>Crocodile</value>
+          </text>
+          <text id="/data/general/specie:option9">
+            <value>Hippo</value>
+          </text>
+          <text id="/data/general/specie:option10">
+            <value>Warthog</value>
+          </text>
+          <text id="/data/general/specie:option11">
+            <value>Waterbuck</value>
+          </text>
+          <text id="/data/general/specie:option12">
+            <value>Bushbuck</value>
+          </text>
+          <text id="/data/general/specie:option13">
+            <value>Antelope</value>
+          </text>
+          <text id="/data/general/specie:option14">
+            <value>Eland</value>
+          </text>
+          <text id="/data/general/specie:option15">
+            <value>Reedbuck</value>
+          </text>
+          <text id="/data/general/specie:option16">
+            <value>Wild dog</value>
+          </text>
+          <text id="/data/general/specie:option17">
+            <value>Leopard</value>
+          </text>
+          <text id="/data/general/specie:option18">
+            <value>Baboon</value>
+          </text>
+          <text id="/data/general/place:label">
+            <value>Place of Observation</value>
+          </text>
+          <text id="/data/general/gender:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/general/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/general/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/general/gender:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/general/age_group:label">
+            <value>Age Group</value>
+          </text>
+          <text id="/data/general/age_group:option0">
+            <value>Young</value>
+          </text>
+          <text id="/data/general/age_group:option1">
+            <value>Juvenile</value>
+          </text>
+          <text id="/data/general/age_group:option2">
+            <value>Adult</value>
+          </text>
+          <text id="/data/general/vegetation:label">
+            <value>Vegetation Type</value>
+          </text>
+          <text id="/data/general/vegetation:option0">
+            <value>Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option1">
+            <value>Open Woodland</value>
+          </text>
+          <text id="/data/general/vegetation:option2">
+            <value>Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option3">
+            <value>Wooded Grassland</value>
+          </text>
+          <text id="/data/general/vegetation:option4">
+            <value>Floodplain</value>
+          </text>
+          <text id="/data/general/vegetation:option5">
+            <value>Riverine</value>
+          </text>
+          <text id="/data/general/vegetation:option6">
+            <value>Afromontane Forrest</value>
+          </text>
+          <text id="/data/general/vegetation:option7">
+            <value>Forrest</value>
+          </text>
+          <text id="/data/general/condition:label">
+            <value>Condition of Animal</value>
+          </text>
+          <text id="/data/general/condition:option0">
+            <value>Sick</value>
+          </text>
+          <text id="/data/general/condition:option1">
+            <value>Dead</value>
+          </text>
+          <text id="/data/general/condition:option2">
+            <value>Normal</value>
+          </text>
+          <text id="/data/sick:label">
+            <value>Symptoms of sick animal</value>
+          </text>
+          <text id="/data/sick/symptoms:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/sick/symptoms:option0">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/sick/symptoms:option1">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/sick/symptoms:option2">
+            <value>Kubadilika rangi ya ngozi</value>
+          </text>
+          <text id="/data/sick/symptoms:option3">
+            <value>Kusimama manyoya</value>
+          </text>
+          <text id="/data/sick/symptoms:option4">
+            <value>Macho mekundu</value>
+          </text>
+          <text id="/data/sick/symptoms:option5">
+            <value>Kuzungukazunguka</value>
+          </text>
+          <text id="/data/sick/symptoms:option6">
+            <value>Tumbo Kujaa</value>
+          </text>
+          <text id="/data/sick/symptoms:option7">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/sick/symptoms:option8">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/sick/symptoms:option9">
+            <value>kutoka machozi</value>
+          </text>
+          <text id="/data/sick/symptoms:option10">
+            <value>Kupofuka macho</value>
+          </text>
+          <text id="/data/sick/symptoms:option11">
+            <value>Kutembea kwa kuchechemea</value>
+          </text>
+          <text id="/data/sick/symptoms:option12">
+            <value>Kuvimba / vidonda kwenye kwato</value>
+          </text>
+          <text id="/data/sick/symptoms:option13">
+            <value>Kutoka ute puani</value>
+          </text>
+          <text id="/data/sick/symptoms:option14">
+            <value>Kupungua uzito / kukonda</value>
+          </text>
+          <text id="/data/sick/symptoms:option15">
+            <value>Kushindwa kutembea</value>
+          </text>
+          <text id="/data/sick/symptoms:option16">
+            <value>Harufu mbaya mdomoni</value>
+          </text>
+          <text id="/data/sick/symptoms:option17">
+            <value>Kupumua kwa shida / haraka haraka</value>
+          </text>
+          <text id="/data/sick/symptoms:option18">
+            <value>Vidonda mdomoni</value>
+          </text>
+          <text id="/data/sick/symptoms:option19">
+            <value>Kuvimba ulimi</value>
+          </text>
+          <text id="/data/sick/symptoms:option20">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/sick/symptoms:option21">
+            <value>Mapunye</value>
+          </text>
+          <text id="/data/sick/symptoms:option22">
+            <value>Kutoka upele</value>
+          </text>
+          <text id="/data/sick/symptoms:option23">
+            <value>Kifo cha ghafla</value>
+          </text>
+          <text id="/data/sick/symptoms:option24">
+            <value>Kutupa mimba</value>
+          </text>
+          <text id="/data/sick/symptoms:option25">
+            <value>Dalili isiyo ya kawaida</value>
+          </text>
+          <text id="/data/sick/symptoms:option26">
+            <value>Kutoka mate / mapovu mdomoni</value>
+          </text>
+          <text id="/data/sick/symptoms:option27">
+            <value>Kushindwa kula</value>
+          </text>
+          <text id="/data/sick/symptoms:option28">
+            <value>Kutetemeka</value>
+          </text>
+          <text id="/data/sick/symptoms:option29">
+            <value>Kutoka damu sehemu za matundu</value>
+          </text>
+          <text id="/data/citing:label">
+            <value>Citing</value>
+          </text>
+          <text id="/data/citing/gps:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/citing/picture:label">
+            <value>Picture of Animal</value>
+          </text>
+          <text id="/data/citing/comments:label">
+            <value>Other Comments</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/specie" type="select1"/>
+      <bind nodeset="/data/general/place" type="string"/>
+      <bind nodeset="/data/general/gender" type="select1"/>
+      <bind nodeset="/data/general/age_group" type="select1"/>
+      <bind nodeset="/data/general/vegetation" type="select1"/>
+      <bind nodeset="/data/general/condition" type="select1"/>
+      
+      <bind nodeset="/data/sick" relevant="(selected(/data/general/condition, 'sick'))"/>
+      <bind nodeset="/data/sick/symptoms" type="select"/>
+      <bind nodeset="/data/citing/gps" type="geopoint"/>
+      <bind nodeset="/data/citing/picture" type="binary"/>
+      <bind nodeset="/data/citing/comments" type="string"/>
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat(/data/general/condition,': ',/data/general/specie)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <select1  appearance="minimal" ref="/data/general/specie">
+        <label ref="jr:itext('/data/general/specie:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option0')"/>
+          <value>zebra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option1')"/>
+          <value>elephant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option2')"/>
+          <value>bufalo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option3')"/>
+          <value>giraffe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option4')"/>
+          <value>impala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option5')"/>
+          <value>lion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option6')"/>
+          <value>wildebeast</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option7')"/>
+          <value>Hyaena</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option8')"/>
+          <value>crocodile</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option9')"/>
+          <value>hippo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option10')"/>
+          <value>warthog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option11')"/>
+          <value>waterbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option12')"/>
+          <value>bushbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option13')"/>
+          <value>antelope</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option14')"/>
+          <value>eland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option15')"/>
+          <value>reedbuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option16')"/>
+          <value>wild_dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option17')"/>
+          <value>leopard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/specie:option18')"/>
+          <value>baboon</value>
+        </item>
+      </select1>
+      <input ref="/data/general/place">
+        <label ref="jr:itext('/data/general/place:label')"/>
+      </input>
+      <select1 appearance="minimal"  ref="/data/general/gender">
+        <label ref="jr:itext('/data/general/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/gender:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/gender:option1')"/>
+          <value>female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/gender:option2')"/>
+          <value>uknown</value>
+        </item>
+      </select1>
+      <select1  appearance="minimal"  ref="/data/general/age_group">
+        <label ref="jr:itext('/data/general/age_group:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/age_group:option0')"/>
+          <value>young</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/age_group:option1')"/>
+          <value>juvenile</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/age_group:option2')"/>
+          <value>adult</value>
+        </item>
+      </select1>
+      <select1  appearance="minimal"  ref="/data/general/vegetation">
+        <label ref="jr:itext('/data/general/vegetation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option0')"/>
+          <value>woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option1')"/>
+          <value>open_woodland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option2')"/>
+          <value>grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option3')"/>
+          <value>wooded_grassland</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option4')"/>
+          <value>floodplain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option5')"/>
+          <value>riverin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option6')"/>
+          <value>afromontane_forrest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/vegetation:option7')"/>
+          <value>forrest</value>
+        </item>
+      </select1>
+      <select1  appearance="minimal"  ref="/data/general/condition">
+        <label ref="jr:itext('/data/general/condition:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option0')"/>
+          <value>sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option1')"/>
+          <value>dead</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/condition:option2')"/>
+          <value>normal</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/sick:label')"/>
+      <select ref="/data/sick/symptoms">
+        <label ref="jr:itext('/data/sick/symptoms:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option0')"/>
+          <value>Kuharisha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option1')"/>
+          <value>Kuhara-damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option2')"/>
+          <value>Kubadilika-rangi-ya-ngozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option3')"/>
+          <value>kusimama-manyoya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option4')"/>
+          <value>Macho-mekundu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option5')"/>
+          <value>kuzungukazunguka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option6')"/>
+          <value>tumbo-kujaa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option7')"/>
+          <value>Kukohoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option8')"/>
+          <value>kukojoa-damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option9')"/>
+          <value>kutoka-machozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option10')"/>
+          <value>kupofuka-macho</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option11')"/>
+          <value>kutembea-kwa-kuchechemea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option12')"/>
+          <value>kuvimba-au-vidonda-kwenye-kwato</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option13')"/>
+          <value>kutoka-ute-puani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option14')"/>
+          <value>kupungua-uzito-au-kukonda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option15')"/>
+          <value>kushindwa-kutembea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option16')"/>
+          <value>harufu-mbaya-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option17')"/>
+          <value>kupumua-kwa-shida-haraka-haraka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option18')"/>
+          <value>Vidonda-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option19')"/>
+          <value>kuvimba-ulimi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option20')"/>
+          <value>kuvimba-tezi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option21')"/>
+          <value>Mapunye</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option22')"/>
+          <value>kutoka-upele</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option23')"/>
+          <value>kifo-cha-ghafla</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option24')"/>
+          <value>kutupa-mimba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option25')"/>
+          <value>Dalili-isiyo-ya-kawaida</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option26')"/>
+          <value>kutoka-mate-mapovu-mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option27')"/>
+          <value>Kushindwa-kula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option28')"/>
+          <value>kutetemeka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sick/symptoms:option29')"/>
+          <value>kutoka-damu-sehemu-matundu</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/citing:label')"/>
+      <input ref="/data/citing/gps">
+        <label ref="jr:itext('/data/citing/gps:label')"/>
+      </input>
+      <upload ref="/data/citing/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/citing/picture:label')"/>
+      </upload>
+      <input ref="/data/citing/comments">
+        <label ref="jr:itext('/data/citing/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

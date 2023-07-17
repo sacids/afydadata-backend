@@ -1,0 +1,2665 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>AMR Community</h:title>
+    <model>
+      <instance>
+        <data id="build_Community-AMR_1579081123456">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifa_mhojiwa>
+            <wilaya/>
+            <kata/>
+            <kijiji_kata/>
+            <jina_mhojiwa/>
+            <umri/>
+            <jinsia/>
+            <hali_ndoa/>
+            <juu_elimu/>
+            <kazi/>
+          </taarifa_mhojiwa>
+          <kazi_ingine/>
+          <matazamo_antibayotic_binad_uelewa/>
+          <matumizi_antibiotik/>
+          <mtazamo_matumizi_mengine_antib>
+            <matumizi_antibiotik_mengine>
+              None
+            </matumizi_antibiotik_mengine>
+            <matumizi_antibiotik_mengine2>
+              None
+            </matumizi_antibiotik_mengine2>
+            <matumizi_antibiotik_mengine3>
+              None
+            </matumizi_antibiotik_mengine3>
+          </mtazamo_matumizi_mengine_antib>
+          <mtazamo_aina_tatu_antibayotik>
+            <aina_tatu_antibayotik1>
+              None
+            </aina_tatu_antibayotik1>
+            <aina_tatu_antibayotik2>
+              None
+            </aina_tatu_antibayotik2>
+            <aina_tatu_antibayotik3>
+              None
+            </aina_tatu_antibayotik3>
+          </mtazamo_aina_tatu_antibayotik>
+          <aina_antibiotic_pendelea>
+            <aina_antibiotic_pendelea1>
+              None
+            </aina_antibiotic_pendelea1>
+            <aina_antibiotic_pendelea2>
+              None
+            </aina_antibiotic_pendelea2>
+            <aina_antibiotic_pendelea3>
+              None
+            </aina_antibiotic_pendelea3>
+          </aina_antibiotic_pendelea>
+          <matazamo_antibayotic_binadamu>
+            <mara_mwisho_kutumia_antibiotic/>
+          </matazamo_antibayotic_binadamu>
+          <matazamo_antibayotic_binadamu1>
+            <ulipata_ushauri_mtalaam_kutumia_ant/>
+            <ulipata_wapi_dawa/>
+            <msukumo_kutumia_dawa/>
+            <unafanya_nin_dawa_baada_nafuu/>
+            <mda_sitisha_matumizi_antibayotiki/>
+            <tumia_bila_mtaalam/>
+          </matazamo_antibayotic_binadamu1>
+          <matazamo_antibayotic_binadamu2>
+            <matumizi_mara_antib/>
+            <ulipata_wapi_antib_mara_mwisho/>
+            <sababu_jitibu_mwenyewe/>
+          </matazamo_antibayotic_binadamu2>
+          <zingine_sababu_jitibu_mwenyewe>
+            <zingine_sababu_jitibu_mwenyewe1>
+              None
+            </zingine_sababu_jitibu_mwenyewe1>
+            <zingine_sababu_jitibu_mwenyewe2>
+              None
+            </zingine_sababu_jitibu_mwenyewe2>
+            <zingine_sababu_jitibu_mwenyewe3>
+              None
+            </zingine_sababu_jitibu_mwenyewe3>
+          </zingine_sababu_jitibu_mwenyewe>
+          <mtazamo_matatizo_yapi_peleke_jitibu_mwenyew/>
+          <mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine>
+            <matatizo_mengine1>
+              None
+            </matatizo_mengine1>
+            <matatizo_mengine2>
+              None
+            </matatizo_mengine2>
+            <matatizo_mengine3>
+              None
+            </matatizo_mengine3>
+          </mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine>
+          <mtazamo_nini_tokea_baada_ya_kujitibu/>
+          <mtazamo_vingine_nini_tokea_baada_ya_kujitibu>
+            None
+          </mtazamo_vingine_nini_tokea_baada_ya_kujitibu>
+          <hatua_chukuliwa_matokeo_mabaya/>
+          <hatua_zingine_ulizochukua_kutopata_matokeo_mazuri>
+            <hatua1>
+              None
+            </hatua1>
+            <hatua2>
+              None
+            </hatua2>
+            <hatua3>
+              None
+            </hatua3>
+          </hatua_zingine_ulizochukua_kutopata_matokeo_mazuri>
+          <mtazamo_magonjwa_weza_tibiwa_antibio/>
+          <matazamo_magonjwamengine_tibiwa_anti>
+            <ugonjwa1>
+              None
+            </ugonjwa1>
+            <ugonjwa2>
+              None
+            </ugonjwa2>
+            <ugonjwa3>
+              None
+            </ugonjwa3>
+          </matazamo_magonjwamengine_tibiwa_anti>
+          <kusikia_msamiati>
+            <usugu_dawa_antibiotiki/>
+            <usugu_vimelea_antibiotik/>
+            <usugu_dawa_kuua_vijasumu/>
+          </kusikia_msamiati>
+          <mtazamo_ant_chanzo_cha_habari_msamiati/>
+          <vyanzo_vingine_habari_msamiati>
+            <habari1>
+              None
+            </habari1>
+            <habari2>
+              None
+            </habari2>
+            <habari3>
+              None
+            </habari3>
+          </vyanzo_vingine_habari_msamiati>
+          <matazamo_ant_binad4_kubaliana>
+            <watumie_baada_ushaur_dkt/>
+            <fugaji_tumie_kias_kidogo/>
+            <situmie_iliobaki/>
+            <nawa_mikono_punguza_vimelea/>
+            <dk_zingatie_toa_dawa_inapobidi/>
+          </matazamo_ant_binad4_kubaliana>
+          <matazamo_ant_binad4_kubaliana1>
+            <usugu_tatizo_kubwa/>
+            <wataam_tatua_kabla_madhara/>
+            <kila_mmojawjibu_kutumia_ipasavyo/>
+            <sina_wezo_kuzuia_ongezeko_vimelea/>
+            <wasi_was_madhara_ya_usugu/>
+            <siko_ktk_hatari/>
+          </matazamo_ant_binad4_kubaliana1>
+          <matazamo_ant_binad4_kubaliana2>
+            <sawa_tumia_dawa_toka_rafiki/>
+            <sawa_omba_dawa_kama_awali/>
+          </matazamo_ant_binad4_kubaliana2>
+          <matazamo_ant_binad4_kubaliana3>
+            <usugu_mwili_unakua_sugu/>
+            <maambukizi_jenga_usugu/>
+            <baktria_jenga_usugu/>
+            <usgu_tatizo_kwa_familia/>
+            <usugu_tatizo_nch_zima/>
+            <usgu_kwa_watumiaj_tu/>
+            <bakteria_sugu_enezwa_kwa_mtu_mwingine/>
+            <usugu_kuhathiri_matibabu/>
+          </matazamo_ant_binad4_kubaliana3>
+          <mamlaka_kuratibu_antibayotik/>
+          <jina_mamlaka_kuratibu_antibayotik/>
+          <matazamo_ant_mifugo_shuguli_za_ufugaji/>
+          <aina_mifugo/>
+          <aina_ningine_ya_mifugo>
+            <mifugo1>
+              None
+            </mifugo1>
+            <mifugo2>
+              None
+            </mifugo2>
+            <mifugo3>
+              None
+            </mifugo3>
+          </aina_ningine_ya_mifugo>
+          <antibayotik_tumika_sana_kwa_mifugo/>
+          <mtoa_huduma_matibabu_mifugo/>
+          <mtoa_huduma_matibabu_mifugo_ingine>
+            <mtoa_huduma_matibabu1>
+              None
+            </mtoa_huduma_matibabu1>
+            <mtoa_huduma_matibabu2>
+              None
+            </mtoa_huduma_matibabu2>
+            <mtoa_huduma_matibabu3>
+              None
+            </mtoa_huduma_matibabu3>
+          </mtoa_huduma_matibabu_mifugo_ingine>
+          <matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi/>
+          <matazamo_ant_mifugo_kadirio_la_dawa_mifugo/>
+          <njia_kadiria_uzito/>
+          <aina3_antib_kwa_mnyama>
+            <aina3_antib_kwa_mnyama1/>
+            <aina3_antib_kwa_mnyama2/>
+            <aina3_antib_kwa_mnyama3/>
+          </aina3_antib_kwa_mnyama>
+          <matazamo_ant_mifugo1>
+            <sababu_tumia_antibio_hizo/>
+            <antib_binadam_mifugo/>
+          </matazamo_ant_mifugo1>
+          <aina_3_antibiotic_kwa_binadam_mifugo>
+            <aina_antib_1>
+              None
+            </aina_antib_1>
+            <aina_antib_2>
+              None
+            </aina_antib_2>
+            <aina_antib_3>
+              None
+            </aina_antib_3>
+          </aina_3_antibiotic_kwa_binadam_mifugo>
+          <mda_kusubiri_bidhaa_mifugo_baad_antib/>
+          <ingine_mda_kusubiri_bidhaa_mifugo_baad_antib/>
+          <mamlaka_antib_mifugo/>
+          <jina_mamlaka_ant_mifugo/>
+          <swala_anti_kuhusuika/>
+          <maelezo_swala_anti_kuhusuika>
+            NA
+          </maelezo_swala_anti_kuhusuika>
+          <unapata_ushauri_juu_matumizi/>
+          <sehem_ingine_ushauri_matumiz_antibiotiki>
+            <sehem1>
+              None
+            </sehem1>
+            <sehem2>
+              None
+            </sehem2>
+            <sehem3>
+              None
+            </sehem3>
+          </sehem_ingine_ushauri_matumiz_antibiotiki>
+          <gps/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifa_mhojiwa:label">
+            <value>1. Taarifa Za mhojiwa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/wilaya:label">
+            <value>a) Wilaya</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kata:label">
+            <value>b) Kata</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kijiji_kata:label">
+            <value>c) Kijiji/Kata</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jina_mhojiwa:label">
+            <value>d) Jina la mhojiwa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/umri:label">
+            <value>e) Umri</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsia:label">
+            <value>f) Jinsia</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsia:option0">
+            <value>Mwanaume</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/jinsia:option1">
+            <value>Mwanamke</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:label">
+            <value>2. Hali ya ndoa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:option0">
+            <value>Nimeoa/kuolewa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:option1">
+            <value>Sijaoa/kuolewa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:option2">
+            <value>Tunaishi pamoja bila ndoa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:option3">
+            <value>Mjane/Mgane</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/hali_ndoa:option4">
+            <value>Tumepeana talaka/Tumetengana</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:label">
+            <value>3. Kiwango cha juu cha elimu </value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:option0">
+            <value>Sijasoma</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:option1">
+            <value>Elimu ya msingi</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:option2">
+            <value>Elimu ya sekondari</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:option3">
+            <value>Chuo</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/juu_elimu:option4">
+            <value>Chuo kikuu</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:label">
+            <value>4. Kazi - Chanzo kikuu cha mapato </value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option0">
+            <value>Mkulima</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option1">
+            <value>Nimeajiriwa</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option2">
+            <value>Nimejiajiri</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option3">
+            <value>Mfanya biashara</value>
+          </text>
+          <text id="/data/taarifa_mhojiwa/kazi:option4">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/kazi_ingine:label">
+            <value>Chanzo kingine cha mapato</value>
+          </text>
+          <text id="/data/kazi_ingine:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binad_uelewa:label">
+            <value>5. Je una uelewa kuhusu Viuavijasumu/antibayotiki? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binad_uelewa:hint">
+            <value>Ikiwa jibu kwa swali ni Hapana, sitisha mahojiano na mshukuruku mshiriki kwa muda wake</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binad_uelewa:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binad_uelewa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:label">
+            <value>6. Je antibayotiki ni kwa ajili ya?</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:option0">
+            <value>Kutibu magonjwa</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:option1">
+            <value>Kuzuia maambukizi ya magonjwa</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:option2">
+            <value>Kukuza ukuaji</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:option3">
+            <value>Kuongeza virutubisho</value>
+          </text>
+          <text id="/data/matumizi_antibiotik:option4">
+            <value>Nyingine </value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib:label">
+            <value>Matumiz mengine ya antibayotiki</value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine:label">
+            <value>1</value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik:label">
+            <value>7. Tafadhali nitajie aina tatu za antibayotiki unazozifahamu</value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea:label">
+            <value>8. Je, ni aina gani ya antibayotiki ambazo huwa hupendelea? </value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu:label">
+            <value>Mtazamo na mazoea juu ya antibayotiki kwa binadamu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:label">
+            <value>9. Je, ni lini kwa mara ya mwisho wewe au mmoja wa wanafamilia yako mlitumia dawa za kundi la antibayotiki (viua-vijasumu)? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option0">
+            <value>Ndani ya siku saba (wiki moja) iliyopita</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option1">
+            <value>Mwezi uliopita</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option2">
+            <value>Miezi sita iliyopita</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option3">
+            <value>Mwaka uliopita</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option4">
+            <value>Zaidi ya waka mmoja uliopita</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option5">
+            <value>Sikumbuki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option6">
+            <value>Sijawahi/hatujawahi kutumia dawa za antibayotiki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1:label">
+            <value>Mtazamo na mazoea juu ya antibayotiki kwa binadamu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:label">
+            <value>10. Je, katika kipindi hicho ulichotumia dawa za antibayotiki, ulipata ushauri kutoka kwa mtaalamu wa afya (daktari, nesi ama mfamasia) juu ya matumizi ya dawa hizo? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option2">
+            <value>Sikumbuki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:label">
+            <value>11. Je, katika kipindi hicho ulichotumia antibayotiki, ulipata wapi dawa hizo? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option0">
+            <value>Kituo cha Afya</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option1">
+            <value>Famasi/Duka la dawa muhimu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option2">
+            <value>Kwenye mtandao</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option3">
+            <value>Mwanafamilia ama rafiki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option4">
+            <value>Nilikuwa na mabaki niliyopatiwa awali</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option5">
+            <value>Kutoka kwa mwanajamii</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option6">
+            <value>Sikumbuki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:label">
+            <value>12. Je, ni vitu gani vilikupa msukumo wa kuhitaji dawa za antibayotiki?</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option0">
+            <value>Kuwepo kwa masoko huria ya dawa </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option1">
+            <value>Ushauri kutoka kwa mtoa huduma ya afya</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option2">
+            <value>Ushauri toka kwa wenzangu (wanarika). </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option3">
+            <value>Uwezo wa kununua</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option4">
+            <value>Upatikanaji</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option5">
+            <value>Uzoefu nilioupata siku za nyuma</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:label">
+            <value>13. Kwa kawaida, ikiwa umepata maelekezo ya kutumia dawa kwa siku 3 hadi 7; na baada ya siku 2 hadi 3 ukajisikia nafuu </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:hint">
+            <value>Hapa CHAGUA jibu kama ni NDIYO. Kama HAPANA usichague</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option0">
+            <value>Je, unaweza kusitisha kuendelea kutumia dawa?</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option1">
+            <value>Je, unaweza kuhifadhi dawa ambazo bado hujatumia kwa matumizi ya baadaye utakapougua tena?</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option2">
+            <value>Je, unaweza ukatupa dawa zilizobaki? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option3">
+            <value>Je, unaweza kumalizia dozi yote ya matibabu? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:label">
+            <value>14. Je, ni wakati gani unadhani unaweza kusitisha matumizi ya antibiotiki ya kuanza matibabu? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option0">
+            <value>Ninapojisikia nafuu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option1">
+            <value>Ninapokamilisha matumizi ya dawa zote kadri nilivyoelekezwa </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option2">
+            <value>Sifahamu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:label">
+            <value>15. Je, umewahi kutumia dawa za antibiotiki pasipo maelekezo kutoka kwa mtaalamu?</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2:label">
+            <value>Mtazamo na mazoea juu ya antibayotiki kwa binadamu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:label">
+            <value>16. Je unatumia mara ngapi? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:hint">
+            <value>antibayotiki</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:option0">
+            <value>Mara kwa mara</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:option1">
+            <value>Mara chache</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:label">
+            <value>17. Je, ulizipata wapi dawa za antibiotiki ulizotumia kwa mara ya mwisho (tiba binafsi)</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option0">
+            <value>Nilinunua kutoka famasi/duka la dawa muhimu</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option1">
+            <value>Nilinunua kutoka kwa wauzaji wa dawa mitaani</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option2">
+            <value>Nilitumia dawa nilizobakiza kutoka matumizi ya awali</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option3">
+            <value>Nilinunua mnadani</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:label">
+            <value>18. Je, kwa nini ulijitibu mwenyewe bila ushauri wa mtaalamu wa afya? </value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option0">
+            <value>Sikuwa na uwezo wa kupata tiba sehemu za huduma za afya</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option1">
+            <value>Umbali mrefu kutoka nilipo hadi sehemu ya kupata huduma za afya</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option2">
+            <value>Nilikuwa na ufahamu juu ya ugonjwa/dalili nilizokuwa nazo na tiba zake</value>
+          </text>
+          <text id="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option3">
+            <value>Sababu nyingine </value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe:label">
+            <value>Sababu zingine za kujitibu mwenyewe bila ushauri wa mtaalamu wa afya</value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1:hint">
+            <value></value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2:hint">
+            <value></value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:label">
+            <value>19. Je, ulikuwa na matatizo yapi ya kiafya kwa mara ya mwisho ulipojitibu (uliponunua antibiotiki bila maelekezo ya mtaalamu wa afya)? </value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option0">
+            <value>Kidonda/ugonjwa wa ngozi</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option1">
+            <value>Homa</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option2">
+            <value>Maumivu ya mwili</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option3">
+            <value>Maumivu ya kichwa</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option4">
+            <value>Koo linalowasha </value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option5">
+            <value>Kikohozi</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option6">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option7">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option8">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option9">
+            <value>Mafua na makamasi</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option10">
+            <value>Ugonjwa wa mfumo wa mkojo (UTI)</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option11">
+            <value>Mengineyo</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine:label">
+            <value>Sababu zingine za kujitibu mwenyewe bila ushauri wa mtaalamu wa afya</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_nini_tokea_baada_ya_kujitibu:label">
+            <value>20.Je, nini kilitokea baada ya kujitibu?</value>
+          </text>
+          <text id="/data/mtazamo_nini_tokea_baada_ya_kujitibu:option0">
+            <value>Nilipona</value>
+          </text>
+          <text id="/data/mtazamo_nini_tokea_baada_ya_kujitibu:option1">
+            <value>Hapakuwa na mabadiliko</value>
+          </text>
+          <text id="/data/mtazamo_nini_tokea_baada_ya_kujitibu:option2">
+            <value>Hali ilikuwa mbaya zadi</value>
+          </text>
+          <text id="/data/mtazamo_nini_tokea_baada_ya_kujitibu:option3">
+            <value>Vinginevyo</value>
+          </text>
+          <text id="/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu:label">
+            <value>Kitu kingine kilitokea baada ya kujitibu</value>
+          </text>
+          <text id="/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu:hint">
+            <value></value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:label">
+            <value>21. Ikiwa hukupata matokeo mazuri baada ya kujitibu; ulichukuwa hatua zipi? </value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option0">
+            <value>Sikufanya chochote</value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option1">
+            <value>Nilipata huduma kutoka kwa mganga wa kienyeji</value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option2">
+            <value>Nilipata huduma kutoka kwa mwanamaombi</value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option3">
+            <value>Nilipata huduma kutoka kwa wataalamu wa afya</value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option4">
+            <value>Nilirudia kijitibu kwa kujinunulia dawa</value>
+          </text>
+          <text id="/data/hatua_chukuliwa_matokeo_mabaya:option5">
+            <value>Hatua nyingine</value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri:label">
+            <value>Hatua zingine ulizochukua</value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1:hint">
+            <value></value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2:hint">
+            <value></value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:label">
+            <value>22. Je? ni magonjwa yapi yanaweza kutibiwa na antibiotiki? </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option0">
+            <value>Kidonda/ugonjwa wa Ngozi </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option1">
+            <value>Homa</value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option2">
+            <value>Maumivu ya mwili </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option3">
+            <value>Maumivu ya kichwa </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option4">
+            <value>Koo linalowasha </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option5">
+            <value>Kikohozi </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option6">
+            <value>Kuharisha </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option7">
+            <value>Kuvimba tezi </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option8">
+            <value>Malaria </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option9">
+            <value>Mafua na makamasi </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option10">
+            <value>Ugonjwa wa mfumo wa mkojo (UTI) </value>
+          </text>
+          <text id="/data/mtazamo_magonjwa_weza_tibiwa_antibio:option11">
+            <value>Mengineyo</value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti:label">
+            <value>Magonjwa mengine yanayoweza tibiwa na antibiotiki</value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3:hint">
+            <value></value>
+          </text>
+          <text id="/data/kusikia_msamiati:label">
+            <value>23. Je ulishawahi kusikia msamiati ufuatayo</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_antibiotiki:label">
+            <value>Usugu wa dawa za antibiotiki </value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_antibiotiki:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_antibiotiki:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_vimelea_antibiotik:label">
+            <value>Usugu wa vimelea dhidi ya antibiotiki </value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_vimelea_antibiotik:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_vimelea_antibiotik:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:label">
+            <value>Usugu wa dawa za kuua vijasumu </value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:label">
+            <value>24. 24.	Kama jibu ni NDIYO kwa sehemu mojawapo ama zote kwa swali la 23; Uliza chanzo cha habari </value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option0">
+            <value>Mtoa huduma za afya</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option1">
+            <value>Mfamasia</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option2">
+            <value>Mwanafamilia ama rafiki</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option3">
+            <value>Vyombo vya habari (Runinga, magazeti, radio)</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option4">
+            <value>Kampeni maalum</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option5">
+            <value>Intaneti</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option6">
+            <value>Sikumbuki</value>
+          </text>
+          <text id="/data/mtazamo_ant_chanzo_cha_habari_msamiati:option7">
+            <value>Vinginevyo</value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati:label">
+            <value>Vyanzo vingine vya habari</value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari1:hint">
+            <value></value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari2:hint">
+            <value></value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/vyanzo_vingine_habari_msamiati/habari3:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana:label">
+            <value>25.	Je unakubaliana nami kwa kiasi gani kwa haya nitakayokusomea? JIbu kama: unakubali kwa asilimia 100 (5); Unakubali kwa kiasi fulani tu (4); Hukubali wala kukataa (3); Hukubali kwa kiasi fulani (2); Hukubaliani nami kabisa (1)</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt:label">
+            <value>25.1 Watu watumie antibiotiki pale tu wanapopata ushauri wa wataalamu wa afya</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo:label">
+            <value>25.2 Wafugaji watumie kiasi kidogo cha antibiotiki wanapotibu mifugo</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki:label">
+            <value>25.3 Watu wasihifadhi antibiotiki kwa matumizi mengine pindi wanapomaliza matibabu kwa ajili ya matumizi ya baadae</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea:label">
+            <value>25.4 Watu lazima wanawe mikono mara kwa mara kupunguza maambukizi ya vimelea</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi:label">
+            <value>25.5 Madaktari wazingatie kutoa dawa za antibiotiki kwa wagonjwa pale tu inapo bidi kufanya hivyo</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1:label">
+            <value>26.	Je unakubaliana nami kwa kiasi gani na haya nitakayokusomea? Jibu kama: unakubali kwa asilimia 100 (5); Unakubalia kwa kiasi fulani tu (4); Hukubali wala kukataa (3); Hukubali kwa kiasi fulani (2); Hukubaliani nami kabisa (1) </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa:label">
+            <value>26.1 Usugu wa vimelea dhidi ya antibiotiki ni tatizo kubwa duniani kwa siku hizi</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara:label">
+            <value>26.2 Wataalamu wa afya watatatua changamoto za tatizo la usugu wa vimelea dhidi ya antibaotiki kabla hazijaleta madhara makubwa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo:label">
+            <value>26.3 Kila mmoja wetu anao wajibu wa kutumia ipasavyo dawa za antibiotiki</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea:label">
+            <value>26.4 Mtu kama mimi hana uwezo wa kuzuia ongezeko la vimelea sugu dhidi ya antibiotiki</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu:label">
+            <value>26.5 Napata wasiwasi kuhusu madhara yatokanayo na usugu wa vimelea dhidi ya antibiotiki</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari:label">
+            <value>26.6 Siko kwenye hatari ya kupata maambukizi ya vimelea sugu, ili hali natumia antibiotiki kwa kufuata maelekezo ya wataalamu wa afya</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana2:label">
+            <value>27.	Je unakubaliana nami kwa kiasis gani haya nitakayokusomea? Jibu  kama: unakubali kwa asilimia 100 (5); Unakubali kwa kiasi fulani tu (4); Hukubali wala kukataa (3); Hukubali kwa kiasi fulani (2); Hukubaliani nami kabisa (1)</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki:label">
+            <value>27.1 Ni sawa ikiwa nitatumia antibiotiki ambazo zilitolewa kwa Rafiki ama mwanafamilia, ikiwa zinatibu tatizo la afya linalofanana na la kwangu </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali:label">
+            <value>27.2 Ni sawa ikiwa nitanunua, ama kumuomba mtoa huduma aniandikie antibiotiki ambayo hapo awali ilinitibu vyema nilipokuwa na tatizo linalofanana na la wakati huu. </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3:label">
+            <value>28.	Je unakubaliana nami kwa kiasis gani haya nitakayokusomea? Jibu  kama: unakubali kwa asilimia 100 (5); Unakubali kwa kiasi fulani tu (4); Hukubali wala kukataa (3); Hukubali kwa kiasi fulani (2); Hukubaliani nami kabisa (1)</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu:label">
+            <value>28.1 Usugu wa vimelea vya magonjwa dhidi ya dawa hutokea pale ambapo mwili wako unakuwa sugu kwa dawa na dawa hizo kutokufanya kazi vizuri </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu:label">
+            <value>28.2 Maambukizi mengi yanajenga usugu kwa matibabu ya antibiyotiki </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu:label">
+            <value>28.3 Ikiwa bakteria watajenga usugu, basi itakuwa vigumu sana ama kutowezekana kutibu maambukizi wanayosababisha </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia:label">
+            <value>28.4 Usugu wa antibiotiki ni tatizo ambalo linaweza kuwa na madhara kwangu ama kwa familia yangu</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima:label">
+            <value>28.5 Usugu wa antibiotiki ni tatizo katika nchi nyingine ila sio nchini Tanzania</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu:label">
+            <value>28.6 Usugu wa antibiotiki ni tatizo linalotokea kwa watu wanaotumia antibiotiki mara kwa mara </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine:label">
+            <value>28.7 Bakteria wenye usugu dhidi ya antibiotiki wanaweza kuenezwa kutoka kwa mtu mmoja kwenda kwa mtu mwingine</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu:label">
+            <value>28.8 Maambukizi ya bakteria wenye usugu dhidi ya antibiotiki yanaweza kuathiri taratibu za matibabu kama vile upasuaji au tiba ya saratani </value>
+          </text>
+          <text id="/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu:hint">
+            <value> (5) Nakubali kwa asilimia zote, (4) Nakubali kiasi,  (3) Sikubali wala sikatai, (2) Sikubali kiasi,  (1) Sikubali kabisa</value>
+          </text>
+          <text id="/data/mamlaka_kuratibu_antibayotik:label">
+            <value>29. Je unajua Mamlaka inayoratibu matumizi ya antibiotiki katika binadamu? </value>
+          </text>
+          <text id="/data/mamlaka_kuratibu_antibayotik:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/mamlaka_kuratibu_antibayotik:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/jina_mamlaka_kuratibu_antibayotik:label">
+            <value>Jina la Mamlaka inayoratibu matumizi ya antibiotiki katika binadamu</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_shuguli_za_ufugaji:label">
+            <value>30. Je unajishughulisha na shughuli za ufugaji</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_shuguli_za_ufugaji:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_shuguli_za_ufugaji:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/aina_mifugo:label">
+            <value>31. Aina gani ya mifugo?</value>
+          </text>
+          <text id="/data/aina_mifugo:option0">
+            <value>Ng’ombe</value>
+          </text>
+          <text id="/data/aina_mifugo:option1">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/aina_mifugo:option2">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/aina_mifugo:option3">
+            <value>Nguruwe</value>
+          </text>
+          <text id="/data/aina_mifugo:option4">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/aina_mifugo:option5">
+            <value>Bata</value>
+          </text>
+          <text id="/data/aina_mifugo:option6">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/aina_mifugo:option7">
+            <value>Paka</value>
+          </text>
+          <text id="/data/aina_mifugo:option8">
+            <value>Wengine</value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo:label">
+            <value>Aina zingine za mifugo</value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo1:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo2:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/aina_ningine_ya_mifugo/mifugo3:hint">
+            <value></value>
+          </text>
+          <text id="/data/antibayotik_tumika_sana_kwa_mifugo:label">
+            <value>32. Je unafikiria dawa za antibiotiki zinatumika sana kwa mifugo na wanyama wengine kwenye kijiji/mtaa wako? </value>
+          </text>
+          <text id="/data/antibayotik_tumika_sana_kwa_mifugo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/antibayotik_tumika_sana_kwa_mifugo:option1">
+            <value>Hapan</value>
+          </text>
+          <text id="/data/antibayotik_tumika_sana_kwa_mifugo:option2">
+            <value>Sijui</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:label">
+            <value>33. Je, ni nani anatoa huduma ya matibabu kwa mifugo yako? </value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:option0">
+            <value>Mganga wa mifugo</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:option1">
+            <value>Mwenyewe/mwanafamilia yeyote</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:option2">
+            <value>Mfugaji mwenzangu</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:option3">
+            <value>Hakuna huduma ya matibabu inayotolewa</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo:option4">
+            <value>Mwingine</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine:label">
+            <value>Mtoa huduma mwingine ya matibabu kwa mifugo yako</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2:hint">
+            <value></value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:label">
+            <value>34.	Kama huduma ya tiba kwa mifugo hutolewa na wewe mwenyewe; ni wapi unapata dawa unazotumia? </value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option0">
+            <value>Maduka ya dawa za mifugo/kilimo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option1">
+            <value>Maafisa Mifugo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option2">
+            <value>Vituo vya tiba ya mifugo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option3">
+            <value>Nanunua kutoka kwa watu wengine kwenye jamii</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option4">
+            <value>Swali halihusiki</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:label">
+            <value>35. Ni kwa namna gani unaweza kukadiria kiasi cha dawa kwa mifugo? </value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option0">
+            <value>Aina ya mnyama husika</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option1">
+            <value>Ukubwa wa mnyama husika</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option2">
+            <value>Uzito wa mnyama husika</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option3">
+            <value>Umri wa mnyama husika</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option4">
+            <value>Ukubwa wa tatizo alilo nalo mnyama</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option5">
+            <value>Gharama za antibiotiki</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option6">
+            <value>Sina kigezo chochote</value>
+          </text>
+          <text id="/data/njia_kadiria_uzito:label">
+            <value>36. Ikiwa mojawapo ya jibu kwa swali la 35 ni UZITO; Uliza ni kwa njia gani anakadiridia uzito wa mnyama kabla ya kumpa antibiotiki? </value>
+          </text>
+          <text id="/data/njia_kadiria_uzito:hint">
+            <value>Toa maelezo</value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama:label">
+            <value>37.	Je, ni antibiotiki zipi (gani) unatumia kwa wanyama mara kwa mara? Taja antibiotiki (angalao aina 3) </value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2:hint">
+            <value></value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3:hint">
+            <value></value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1:label">
+            <value>Mtazamo juu ya antibayotiki kwa mifugo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:label">
+            <value>38. Toa sababu za kupendelea kutumia antibiotiki hizo </value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option0">
+            <value>Maelekezo yaliyotolewa kwa wanajamii</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option1">
+            <value>Ushauri kutoka kwa wataalamu wa mifugo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option2">
+            <value>Ushauri kutoka kwa wafugaji wenzangu</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option3">
+            <value>Uwezo wangu wa kununua </value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option4">
+            <value>Upatikanaji wa antibiotiki yenyewe</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option5">
+            <value>Ufanisi wa antibiotiki katika magonjwa ya siku za nyuma</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/antib_binadam_mifugo:label">
+            <value>39. Je antibiotiki zinazotumiwa kwa wanyama/mifugo ndiyo hizo hizo zinazotumika kwa binadamu?</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option2">
+            <value>Sifahamu</value>
+          </text>
+          <text id="/data/aina_3_antibiotic_kwa_binadam_mifugo:label">
+            <value>Aina 3 za antibiotiki zinazotumika kwa wanyama/mifugo na watu</value>
+          </text>
+          <text id="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:label">
+            <value>40.	Je unasubiri muda gani tangu mnyama ametibiwa na antibiotiki kabla hujatumia nyama yake au maziwa?</value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option0">
+            <value>Sisubiri hata siku moja</value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option1">
+            <value>Siku 1-3 </value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option2">
+            <value>Siku 4-7 </value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option3">
+            <value>Zaidi ya siku 7</value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option4">
+            <value>Kama maelekezo ya mtengeneza wa dawa yanavyoshauri </value>
+          </text>
+          <text id="/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option5">
+            <value>Nyingine</value>
+          </text>
+          <text id="/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib:label">
+            <value>Mda unasubiri tangu mnyama ametibiwa na antibiotik kabla ya kutumia nyama au maziwa</value>
+          </text>
+          <text id="/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib:hint">
+            <value></value>
+          </text>
+          <text id="/data/mamlaka_antib_mifugo:label">
+            <value>41. Je unajua Mamlaka inayoratibu matumizi ya antibiotiki katika mifugo? </value>
+          </text>
+          <text id="/data/mamlaka_antib_mifugo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/mamlaka_antib_mifugo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/jina_mamlaka_ant_mifugo:label">
+            <value>Jina la Mamlaka inayoratibu matumizi ya antibiotiki katika mifugo</value>
+          </text>
+          <text id="/data/swala_anti_kuhusuika:label">
+            <value>42. Je swala la usugu wa antibiotiki linakuhusu </value>
+          </text>
+          <text id="/data/swala_anti_kuhusuika:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/swala_anti_kuhusuika:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/maelezo_swala_anti_kuhusuika:label">
+            <value>Elezea kwa vipi swala la usugu wa antibiotiki linakuhusu </value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:label">
+            <value>43. Je, huwa unapata ushauri juu ya matumizi ya antibiotiki kutoka kwa nani?  </value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option0">
+            <value>Mtaalamu wa mifugo</value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option1">
+            <value>Mtaalamu wa afya</value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option2">
+            <value>Mwanafamilia/Rafiki</value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option3">
+            <value>Muuzaji wa vyakula vya mifugo</value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option4">
+            <value>Mwingine</value>
+          </text>
+          <text id="/data/unapata_ushauri_juu_matumizi:option5">
+            <value>Sipati ushauri wowote</value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki:label">
+            <value>Sehem ingine unayapata ushauri juu ya matumizi ya antibiotiki</value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1:label">
+            <value>1</value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1:hint">
+            <value></value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2:label">
+            <value>2</value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2:hint">
+            <value></value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3:label">
+            <value>3</value>
+          </text>
+          <text id="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3:hint">
+            <value></value>
+          </text>
+          <text id="/data/gps:label">
+            <value>GPS points</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifa_mhojiwa/wilaya" type="string" required="true()" jr:requiredMsg="Wilaya is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/kata" type="string" required="true()" jr:requiredMsg="Kata is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/kijiji_kata" type="string" required="true()" jr:requiredMsg="Kijiji/Mtaa is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/jina_mhojiwa" type="string" required="true()" jr:requiredMsg="Jina la mhojiwa is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/umri" type="int" required="true()" jr:requiredMsg="Umri is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/jinsia" type="select1" required="true()" jr:requiredMsg="Jinsia is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/hali_ndoa" type="select1" required="true()" jr:requiredMsg="Hali ya ndoa is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/juu_elimu" type="select1" required="true()" jr:requiredMsg="Kiwango cha juu cha elimu is required"/>
+      <bind nodeset="/data/taarifa_mhojiwa/kazi" type="select1" required="true()" jr:requiredMsg="Kazi/Chanzo cha mapato is required"/>
+     <bind nodeset="/data/kazi_ingine" type="string" relevant="(selected(/data/taarifa_mhojiwa/kazi, 'nyingine'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binad_uelewa" type="select1" required="true()" jr:requiredMsg="Qn.5 is required"/>
+      <bind nodeset="/data/matumizi_antibiotik" type="select" required="true()" jr:requiredMsg="Qn.6 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine" type="string" relevant="(selected(/data/matumizi_antibiotik, 'nyingine'))"/>
+      <bind nodeset="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2" type="string" relevant="(selected(/data/matumizi_antibiotik, 'nyingine'))"/>
+      <bind nodeset="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3" type="string" relevant="(selected(/data/matumizi_antibiotik, 'nyingine'))"/>
+
+      <bind nodeset="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1" type="string" required="true()" jr:requiredMsg="Aina ya antibayotiki is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2" type="string" required="true()" jr:requiredMsg="Aina ya antibayotiki is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3" type="string" required="true()" jr:requiredMsg="Aina ya antibayotiki is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1" type="string" required="true()" jr:requiredMsg="Qn.8 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2" type="string" required="true()" jr:requiredMsg="Qn.8 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3" type="string" required="true()" jr:requiredMsg="Qn.8 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic" type="select1" required="true()" jr:requiredMsg="Qn.9 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant" type="select1" required="true()" jr:requiredMsg="Qn.10 is required" relevant="not(selected(/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic, 'sijawahi_tumia')) and (selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa" type="select" required="true()" jr:requiredMsg="Qn.11 is required" relevant="not(selected(/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic, 'sijawahi_tumia')) and (selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+
+
+
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa" type="select" required="true()" jr:requiredMsg="Qn.12 is required" relevant="not(selected(/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic, 'sijawahi_tumia')) and (selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu" type="select" required="true()" jr:requiredMsg="Qn.13 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki" type="select1" required="true()" jr:requiredMsg="Qn.14 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam" type="select1" required="true()" jr:requiredMsg="Qn.15 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib" type="select1" required="true()" jr:requiredMsg="Qn.16 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho" type="select1" required="true()" jr:requiredMsg="Qn.17 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe" type="select" required="true()" jr:requiredMsg="Qn.18 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1" type="string" relevant="(selected(/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe, 'sababu_zingine'))"/>
+      <bind nodeset="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2" type="string" relevant="(selected(/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe, 'sababu_zingine'))"/>
+      <bind nodeset="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3" type="string" relevant="(selected(/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe, 'sababu_zingine'))"/>
+      <bind nodeset="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew" type="select" required="true()" jr:requiredMsg="Qn.19 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1" type="string" relevant="(selected(/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew, 'mengineyo'))"/>
+      <bind nodeset="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2" type="string" relevant="(selected(/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew, 'mengineyo'))"/>
+      <bind nodeset="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3" type="string" relevant="(selected(/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew, 'mengineyo'))"/>
+      <bind nodeset="/data/mtazamo_nini_tokea_baada_ya_kujitibu" type="select1" required="true()" jr:requiredMsg="Qn.20 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu" type="string" relevant="(selected(/data/mtazamo_nini_tokea_baada_ya_kujitibu, 'vinginevyo'))"/>
+      <bind nodeset="/data/hatua_chukuliwa_matokeo_mabaya" type="select" required="true()" jr:requiredMsg="Qn.21 is required" relevant="(selected(/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam, 'ndiyo'))"/>
+      <bind nodeset="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1" type="string" relevant="(selected(/data/hatua_chukuliwa_matokeo_mabaya, 'hatua_zingine'))"/>
+      <bind nodeset="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2" type="string" relevant="(selected(/data/hatua_chukuliwa_matokeo_mabaya, 'hatua_zingine'))"/>
+      <bind nodeset="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3" type="string" relevant="(selected(/data/hatua_chukuliwa_matokeo_mabaya, 'hatua_zingine'))"/>
+
+
+      <bind nodeset="/data/mtazamo_magonjwa_weza_tibiwa_antibio" type="select" required="true()" jr:requiredMsg="Qn.22 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1" type="string" relevant="(selected(/data/mtazamo_magonjwa_weza_tibiwa_antibio, 'mengineyo'))"/>
+      <bind nodeset="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2" type="string" relevant="(selected(/data/mtazamo_magonjwa_weza_tibiwa_antibio, 'mengineyo'))"/>
+      <bind nodeset="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3" type="string" relevant="(selected(/data/mtazamo_magonjwa_weza_tibiwa_antibio, 'mengineyo'))"/>
+
+      <bind nodeset="/data/kusikia_msamiati/usugu_dawa_antibiotiki" type="select1" required="true()" jr:requiredMsg="Qn.23 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/kusikia_msamiati/usugu_vimelea_antibiotik" type="select1" required="true()" jr:requiredMsg="Qn.23 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu" type="select1" required="true()" jr:requiredMsg="Qn.23 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      
+      <bind nodeset="/data/mtazamo_ant_chanzo_cha_habari_msamiati" type="select" jr:requiredMsg="Qn.24 is required" relevant="(selected(/data/kusikia_msamiati/usugu_dawa_antibiotiki, 'ndiyo')) or (selected(/data/kusikia_msamiati/usugu_vimelea_antibiotik, 'ndiyo')) or (selected(/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu, 'ndiyo')) "/>
+
+      <bind nodeset="/data/vyanzo_vingine_habari_msamiati/habari1" type="string" relevant="(selected(/data/mtazamo_ant_chanzo_cha_habari_msamiati, 'vinginevyo'))"/>
+      <bind nodeset="/data/vyanzo_vingine_habari_msamiati/habari2" type="string" relevant="(selected(/data/mtazamo_ant_chanzo_cha_habari_msamiati, 'vinginevyo'))"/>
+      <bind nodeset="/data/vyanzo_vingine_habari_msamiati/habari3" type="string" relevant="(selected(/data/mtazamo_ant_chanzo_cha_habari_msamiati, 'vinginevyo'))"/>
+
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt" type="int" required="true()" jr:requiredMsg="Qn.25.1 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo" type="int" required="true()" jr:requiredMsg="Qn.25.2 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki" type="int" required="true()" jr:requiredMsg="Qn.25.3 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea" type="int" required="true()" jr:requiredMsg="Qn.25.4 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi" type="int" required="true()" jr:requiredMsg="Qn.25.5 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa" type="int" required="true()" jr:requiredMsg="Qn.26.1 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara" type="int" required="true()" jr:requiredMsg="Qn.26.2 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo" type="int" required="true()" jr:requiredMsg="Qn.26.3 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea" type="int" required="true()" jr:requiredMsg="Qn.26.4 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu" type="int" required="true()" jr:requiredMsg="Qn.26.5 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari" type="int" required="true()" jr:requiredMsg="Qn.26.6 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki" type="int" required="true()" jr:requiredMsg="Qn.27.1 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali" type="int" required="true()" jr:requiredMsg="Qn.27.2 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu" type="int" required="true()" jr:requiredMsg="Qn.28.1 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu" type="int" required="true()" jr:requiredMsg="Qn.28.2 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu" type="int" required="true()" jr:requiredMsg="Qn.28.3 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia" type="int" required="true()" jr:requiredMsg="Qn.28.4 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima" type="int" required="true()" jr:requiredMsg="Qn.28.5 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu" type="int" required="true()" jr:requiredMsg="Qn.28.6 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine" type="int" required="true()" jr:requiredMsg="Qn.28.7 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu" type="int" required="true()" jr:requiredMsg="Qn.28.8 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+
+      <bind nodeset="/data/mamlaka_kuratibu_antibayotik" type="select1" required="true()" jr:requiredMsg="Qn.29 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/jina_mamlaka_kuratibu_antibayotik" type="string" relevant="(selected(/data/mamlaka_kuratibu_antibayotik, 'ndiyo'))"/>
+      <bind nodeset="/data/matazamo_ant_mifugo_shuguli_za_ufugaji" type="select1" required="true()" jr:requiredMsg="Qn.30 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/aina_mifugo" type="select" required="true()" jr:requiredMsg="Qn.31 is required" relevant="(selected(/data/matazamo_ant_mifugo_shuguli_za_ufugaji, 'ndiyo'))"/>
+      <bind nodeset="/data/aina_ningine_ya_mifugo/mifugo1" type="string" relevant="(selected(/data/aina_mifugo, 'wengine'))"/>
+      <bind nodeset="/data/aina_ningine_ya_mifugo/mifugo2" type="string" relevant="(selected(/data/aina_mifugo, 'wengine'))"/>
+      <bind nodeset="/data/aina_ningine_ya_mifugo/mifugo3" type="string" relevant="(selected(/data/aina_mifugo, 'wengine'))"/>
+
+      <bind nodeset="/data/antibayotik_tumika_sana_kwa_mifugo" type="select1" required="true()" jr:requiredMsg="Qn.32 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/mtoa_huduma_matibabu_mifugo" type="select" required="true()" jr:requiredMsg="Qn.33 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1" type="string" relevant="(selected(/data/mtoa_huduma_matibabu_mifugo, 'mwingine'))"/>
+      <bind nodeset="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2" type="string" relevant="(selected(/data/mtoa_huduma_matibabu_mifugo, 'mwingine'))"/>
+      <bind nodeset="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3" type="string" relevant="(selected(/data/mtoa_huduma_matibabu_mifugo, 'mwingine'))"/>
+
+      <bind nodeset="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi" type="select" required="true()" jr:requiredMsg="Qn.34 is required" relevant="(selected(/data/mtoa_huduma_matibabu_mifugo, 'mwenyewe'))"/>
+
+      <bind nodeset="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo" type="select" required="true()" jr:requiredMsg="Qn.35 is required" relevant="(selected(/data/mtoa_huduma_matibabu_mifugo, 'mwenyewe'))"/>
+      <bind nodeset="/data/njia_kadiria_uzito" type="string" required="true()" jr:requiredMsg="Qn.36 is required" relevant="(selected(/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo, 'uzito_husika'))"/>
+
+      <bind nodeset="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1" type="string" required="true()" jr:requiredMsg="Qn.37 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2" type="string" required="true()" jr:requiredMsg="Qn.37 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3" type="string" required="true()" jr:requiredMsg="Qn.37 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo" type="select" required="true()" jr:requiredMsg="Qn.38 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/matazamo_ant_mifugo1/antib_binadam_mifugo" type="select1" required="true()" jr:requiredMsg="Qn.39 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+
+      <bind nodeset="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_1" type="string" relevant="(selected(/data/matazamo_ant_mifugo1/antib_binadam_mifugo, 'ndiyo'))"/>
+      <bind nodeset="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_2" type="string" relevant="(selected(/data/matazamo_ant_mifugo1/antib_binadam_mifugo, 'ndiyo'))"/>
+      <bind nodeset="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_3" type="string" relevant="(selected(/data/matazamo_ant_mifugo1/antib_binadam_mifugo, 'ndiyo'))"/>
+      <bind nodeset="/data/mda_kusubiri_bidhaa_mifugo_baad_antib" type="select1" required="true()" jr:requiredMsg="Qn.40 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib" type="string" relevant="(selected(/data/mda_kusubiri_bidhaa_mifugo_baad_antib, 'nyingine'))"/>
+      <bind nodeset="/data/mamlaka_antib_mifugo" type="select1" required="true()" jr:requiredMsg="Qn.41 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/jina_mamlaka_ant_mifugo" type="string" relevant="(selected(/data/mamlaka_antib_mifugo, 'ndiyo'))"/>
+      <bind nodeset="/data/swala_anti_kuhusuika" type="select1" required="true()" jr:requiredMsg="Qn.42 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/maelezo_swala_anti_kuhusuika" type="string" relevant="(selected(/data/mamlaka_antib_mifugo, 'ndiyo'))"/>
+      <bind nodeset="/data/unapata_ushauri_juu_matumizi" type="select" required="true()" jr:requiredMsg="Qn.43 is required" relevant="(selected(/data/matazamo_antibayotic_binad_uelewa, 'ndio'))"/>
+      <bind nodeset="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1" type="string" relevant="(selected(/data/unapata_ushauri_juu_matumizi, 'mwingine'))"/>
+      <bind nodeset="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2" type="string" relevant="(selected(/data/unapata_ushauri_juu_matumizi, 'mwingine'))"/>
+      <bind nodeset="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3" type="string" relevant="(selected(/data/unapata_ushauri_juu_matumizi, 'mwingine'))"/>
+      <bind nodeset="/data/gps" type="geopoint" required="true()" jr:requiredMsg="GPS is required"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('AMR Community ',': ',/data/taarifa_mhojiwa/jina_mhojiwa)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifa_mhojiwa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_mhojiwa:label')"/>
+      <input ref="/data/taarifa_mhojiwa/wilaya">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/wilaya:label')"/>
+      </input>
+      <input ref="/data/taarifa_mhojiwa/kata">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/kata:label')"/>
+      </input>
+      <input ref="/data/taarifa_mhojiwa/kijiji_kata">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/kijiji_kata:label')"/>
+      </input>
+      <input ref="/data/taarifa_mhojiwa/jina_mhojiwa">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/jina_mhojiwa:label')"/>
+      </input>
+      <input ref="/data/taarifa_mhojiwa/umri">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/umri:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_mhojiwa/jinsia">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/jinsia:option0')"/>
+          <value>me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/jinsia:option1')"/>
+          <value>ke</value>
+        </item>
+      </select1>
+      <select1 ref="/data/taarifa_mhojiwa/hali_ndoa">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:option0')"/>
+          <value>oa_olewa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:option1')"/>
+          <value>sijaoa_olewa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:option2')"/>
+          <value>ishi_bila_ndoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:option3')"/>
+          <value>mjane_mgane</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/hali_ndoa:option4')"/>
+          <value>talaka_tengana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/taarifa_mhojiwa/juu_elimu">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:option0')"/>
+          <value>sijasoma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:option1')"/>
+          <value>elimu_msingi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:option2')"/>
+          <value>elimu_sek</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:option3')"/>
+          <value>chuo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/juu_elimu:option4')"/>
+          <value>chuo_kuu</value>
+        </item>
+      </select1>
+      <select1 ref="/data/taarifa_mhojiwa/kazi">
+        <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option0')"/>
+          <value>mkulima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option1')"/>
+          <value>nimeajiriwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option2')"/>
+          <value>nimejiari</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option3')"/>
+          <value>biashara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_mhojiwa/kazi:option4')"/>
+          <value>nyingine</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/kazi_ingine">
+      <label ref="jr:itext('/data/kazi_ingine:label')"/>
+      <hint ref="jr:itext('/data/kazi_ingine:hint')"/>
+    </input>
+    <select1 ref="/data/matazamo_antibayotic_binad_uelewa">
+      <label ref="jr:itext('/data/matazamo_antibayotic_binad_uelewa:label')"/>
+      <hint ref="jr:itext('/data/matazamo_antibayotic_binad_uelewa:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/matazamo_antibayotic_binad_uelewa:option0')"/>
+        <value>ndio</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_antibayotic_binad_uelewa:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select ref="/data/matumizi_antibiotik">
+      <label ref="jr:itext('/data/matumizi_antibiotik:label')"/>
+      <item>
+        <label ref="jr:itext('/data/matumizi_antibiotik:option0')"/>
+        <value>kutibu_magonjwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matumizi_antibiotik:option1')"/>
+        <value>kuzuia_maambukiz_magonjwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matumizi_antibiotik:option2')"/>
+        <value>kukuza_ukuaji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matumizi_antibiotik:option3')"/>
+        <value>kuongeza_virutubisho</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matumizi_antibiotik:option4')"/>
+        <value>nyingine</value>
+      </item>
+    </select>
+    <group ref="/data/mtazamo_matumizi_mengine_antib" appearance="field-list">
+      <label ref="jr:itext('/data/mtazamo_matumizi_mengine_antib:label')"/>
+      <input ref="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine">
+        <label ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2">
+        <label ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine2:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3">
+        <label ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matumizi_mengine_antib/matumizi_antibiotik_mengine3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/mtazamo_aina_tatu_antibayotik" appearance="field-list">
+      <label ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik:label')"/>
+      <input ref="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1">
+        <label ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik1:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2">
+        <label ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik2:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3">
+        <label ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_aina_tatu_antibayotik/aina_tatu_antibayotik3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/aina_antibiotic_pendelea" appearance="field-list">
+      <label ref="jr:itext('/data/aina_antibiotic_pendelea:label')"/>
+      <input ref="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1">
+        <label ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1:label')"/>
+        <hint ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea1:hint')"/>
+      </input>
+      <input ref="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2">
+        <label ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2:label')"/>
+        <hint ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea2:hint')"/>
+      </input>
+      <input ref="/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3">
+        <label ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3:label')"/>
+        <hint ref="jr:itext('/data/aina_antibiotic_pendelea/aina_antibiotic_pendelea3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/matazamo_antibayotic_binadamu" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_antibayotic_binadamu:label')"/>
+      <select1 ref="/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option0')"/>
+          <value>ndani_wiki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option1')"/>
+          <value>mwezi_uliopita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option2')"/>
+          <value>miezi_sita_pita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option3')"/>
+          <value>mwaka_pita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option4')"/>
+          <value>zaidi_mwaka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option5')"/>
+          <value>sikumbuki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu/mara_mwisho_kutumia_antibiotic:option6')"/>
+          <value>sijawahi_tumia</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/matazamo_antibayotic_binadamu1" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1:label')"/>
+      <select1 ref="/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option0')"/>
+          <value>ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option1')"/>
+          <value>hapana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_ushauri_mtalaam_kutumia_ant:option2')"/>
+          <value>sikumbuki</value>
+        </item>
+      </select1>
+      <select ref="/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option0')"/>
+          <value>kituo_cha_afya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option1')"/>
+          <value>famasi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option2')"/>
+          <value>mtandaoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option3')"/>
+          <value>mwanafamilia_rafiki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option4')"/>
+          <value>nilikua_na_mabaki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option5')"/>
+          <value>kwa_jamii</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/ulipata_wapi_dawa:option6')"/>
+          <value>sikumbuki</value>
+        </item>
+      </select>
+      <select ref="/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option0')"/>
+          <value>Kuwepo_masoko_huria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option1')"/>
+          <value>ushauri_mtoa_huduma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option2')"/>
+          <value>ushauri_toka_wenzangu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option3')"/>
+          <value>uwezo_kununua</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option4')"/>
+          <value>upatikanaji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/msukumo_kutumia_dawa:option5')"/>
+          <value>uzoefu_siku_za_nyuma</value>
+        </item>
+      </select>
+      <select ref="/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option0')"/>
+          <value>kusitisha_dawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option1')"/>
+          <value>hifadhi_matumizi_baadae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option2')"/>
+          <value>tupa_dawa_baki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/unafanya_nin_dawa_baada_nafuu:option3')"/>
+          <value>malizia_dozi_matibabu</value>
+        </item>
+      </select>
+      <select1 ref="/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option0')"/>
+          <value>jisikia_nafuu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option1')"/>
+          <value>kamilisha_dawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/mda_sitisha_matumizi_antibayotiki:option2')"/>
+          <value>sifahamu</value>
+        </item>
+      </select1>
+      <select1 ref="/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu1/tumia_bila_mtaalam:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/matazamo_antibayotic_binadamu2" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2:label')"/>
+      <select1 ref="/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:label')"/>
+        <hint ref="jr:itext('/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:option0')"/>
+          <value>mara_kwa_mara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/matumizi_mara_antib:option1')"/>
+          <value>mara_chache</value>
+        </item>
+      </select1>
+      <select1 ref="/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option0')"/>
+          <value>nilinunua_famasi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option1')"/>
+          <value>nunua_toka_mtaani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option2')"/>
+          <value>tumia_toka_za_awali</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/ulipata_wapi_antib_mara_mwisho:option3')"/>
+          <value>nunua_mnadani</value>
+        </item>
+      </select1>
+      <select ref="/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe">
+        <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option0')"/>
+          <value>sikua_na_uwezo_tiba_maalumu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option1')"/>
+          <value>umbali_sehem_ya_huduma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option2')"/>
+          <value>ufahamu_dalili_na_tiba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_antibayotic_binadamu2/sababu_jitibu_mwenyewe:option3')"/>
+          <value>sababu_zingine</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/zingine_sababu_jitibu_mwenyewe" appearance="field-list">
+      <label ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe:label')"/>
+      <input ref="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1">
+        <label ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1:label')"/>
+        <hint ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe1:hint')"/>
+      </input>
+      <input ref="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2">
+        <label ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2:label')"/>
+        <hint ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe2:hint')"/>
+      </input>
+      <input ref="/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3">
+        <label ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3:label')"/>
+        <hint ref="jr:itext('/data/zingine_sababu_jitibu_mwenyewe/zingine_sababu_jitibu_mwenyewe3:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew">
+      <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option0')"/>
+        <value>kidonda_ugonjwa_ngozi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option1')"/>
+        <value>homa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option2')"/>
+        <value>maumivu_mwili</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option3')"/>
+        <value>maumivu_kichwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option4')"/>
+        <value>koo_washa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option5')"/>
+        <value>kikohozi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option6')"/>
+        <value>kuharisha</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option7')"/>
+        <value>kuvimba_tezi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option8')"/>
+        <value>malaria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option9')"/>
+        <value>mafua_makamasi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option10')"/>
+        <value>ugonjwa_UTI</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenyew:option11')"/>
+        <value>mengineyo</value>
+      </item>
+    </select>
+    <group ref="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine" appearance="field-list">
+      <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine:label')"/>
+      <input ref="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1">
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine1:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2">
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine2:hint')"/>
+      </input>
+      <input ref="/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3">
+        <label ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3:label')"/>
+        <hint ref="jr:itext('/data/mtazamo_matatizo_yapi_peleke_jitibu_mwenye_mengine/matatizo_mengine3:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/mtazamo_nini_tokea_baada_ya_kujitibu">
+      <label ref="jr:itext('/data/mtazamo_nini_tokea_baada_ya_kujitibu:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_nini_tokea_baada_ya_kujitibu:option0')"/>
+        <value>nilipona</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_nini_tokea_baada_ya_kujitibu:option1')"/>
+        <value>mabadiliko_hakuna</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_nini_tokea_baada_ya_kujitibu:option2')"/>
+        <value>hali_mbaya_zaidi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_nini_tokea_baada_ya_kujitibu:option3')"/>
+        <value>vinginevyo</value>
+      </item>
+    </select1>
+    <input ref="/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu">
+      <label ref="jr:itext('/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu:label')"/>
+      <hint ref="jr:itext('/data/mtazamo_vingine_nini_tokea_baada_ya_kujitibu:hint')"/>
+    </input>
+    <select ref="/data/hatua_chukuliwa_matokeo_mabaya">
+      <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:label')"/>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option0')"/>
+        <value>sikufanya_kitu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option1')"/>
+        <value>huduma_toka_mganga_kienyeji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option2')"/>
+        <value>huduma_kwa_waombaji</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option3')"/>
+        <value>huduma_toka_taalam_afya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option4')"/>
+        <value>nilirudi_jitibu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hatua_chukuliwa_matokeo_mabaya:option5')"/>
+        <value>hatua_zingine</value>
+      </item>
+    </select>
+    <group ref="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri" appearance="field-list">
+      <label ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri:label')"/>
+      <input ref="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1">
+        <label ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1:label')"/>
+        <hint ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua1:hint')"/>
+      </input>
+      <input ref="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2">
+        <label ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2:label')"/>
+        <hint ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua2:hint')"/>
+      </input>
+      <input ref="/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3">
+        <label ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3:label')"/>
+        <hint ref="jr:itext('/data/hatua_zingine_ulizochukua_kutopata_matokeo_mazuri/hatua3:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/mtazamo_magonjwa_weza_tibiwa_antibio">
+      <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option0')"/>
+        <value>kidonda_ngozi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option1')"/>
+        <value>homa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option2')"/>
+        <value>maumivu_mwilini</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option3')"/>
+        <value>maumivu_kichwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option4')"/>
+        <value>koo_washa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option5')"/>
+        <value>kikohozi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option6')"/>
+        <value>kuharisha</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option7')"/>
+        <value>vimba_tezi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option8')"/>
+        <value>malaria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option9')"/>
+        <value>mafua_kamasi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option10')"/>
+        <value>UTI</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_magonjwa_weza_tibiwa_antibio:option11')"/>
+        <value>mengineyo</value>
+      </item>
+    </select>
+    <group ref="/data/matazamo_magonjwamengine_tibiwa_anti" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti:label')"/>
+      <input ref="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1">
+        <label ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1:label')"/>
+        <hint ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa1:hint')"/>
+      </input>
+      <input ref="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2">
+        <label ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2:label')"/>
+        <hint ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa2:hint')"/>
+      </input>
+      <input ref="/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3">
+        <label ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3:label')"/>
+        <hint ref="jr:itext('/data/matazamo_magonjwamengine_tibiwa_anti/ugonjwa3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/kusikia_msamiati" appearance="field-list">
+      <label ref="jr:itext('/data/kusikia_msamiati:label')"/>
+      <select1 ref="/data/kusikia_msamiati/usugu_dawa_antibiotiki">
+        <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_antibiotiki:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_antibiotiki:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_antibiotiki:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kusikia_msamiati/usugu_vimelea_antibiotik">
+        <label ref="jr:itext('/data/kusikia_msamiati/usugu_vimelea_antibiotik:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_vimelea_antibiotik:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_vimelea_antibiotik:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu">
+        <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kusikia_msamiati/usugu_dawa_kuua_vijasumu:option1')"/>
+          <value>hapana</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/mtazamo_ant_chanzo_cha_habari_msamiati">
+      <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:label')"/>
+      <hint ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option0')"/>
+        <value>mtoa_huduma_afya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option1')"/>
+        <value>mafamasia</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option2')"/>
+        <value>mwanafamiia_rafik</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option3')"/>
+        <value>vyombo_habari</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option4')"/>
+        <value>kampeni_maalumu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option5')"/>
+        <value>intaneti</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option6')"/>
+        <value>sikumbuki</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtazamo_ant_chanzo_cha_habari_msamiati:option7')"/>
+        <value>vinginevyo</value>
+      </item>
+    </select>
+    <group ref="/data/vyanzo_vingine_habari_msamiati" appearance="field-list">
+      <label ref="jr:itext('/data/vyanzo_vingine_habari_msamiati:label')"/>
+      <input ref="/data/vyanzo_vingine_habari_msamiati/habari1">
+        <label ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari1:label')"/>
+        <hint ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari1:hint')"/>
+      </input>
+      <input ref="/data/vyanzo_vingine_habari_msamiati/habari2">
+        <label ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari2:label')"/>
+        <hint ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari2:hint')"/>
+      </input>
+      <input ref="/data/vyanzo_vingine_habari_msamiati/habari3">
+        <label ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari3:label')"/>
+        <hint ref="jr:itext('/data/vyanzo_vingine_habari_msamiati/habari3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/matazamo_ant_binad4_kubaliana" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana:label')"/>
+      <range ref="/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/watumie_baada_ushaur_dkt:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/fugaji_tumie_kias_kidogo:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/situmie_iliobaki:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/nawa_mikono_punguza_vimelea:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana/dk_zingatie_toa_dawa_inapobidi:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/matazamo_ant_binad4_kubaliana1" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1:label')"/>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/usugu_tatizo_kubwa:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/wataam_tatua_kabla_madhara:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/kila_mmojawjibu_kutumia_ipasavyo:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/sina_wezo_kuzuia_ongezeko_vimelea:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/wasi_was_madhara_ya_usugu:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana1/siko_ktk_hatari:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/matazamo_ant_binad4_kubaliana2" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana2:label')"/>
+      <range ref="/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana2/sawa_tumia_dawa_toka_rafiki:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana2/sawa_omba_dawa_kama_awali:hint')"/>
+      </range>
+    </group>
+    <group ref="/data/matazamo_ant_binad4_kubaliana3" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3:label')"/>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_mwili_unakua_sugu:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/maambukizi_jenga_usugu:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/baktria_jenga_usugu:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usgu_tatizo_kwa_familia:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_tatizo_nch_zima:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usgu_kwa_watumiaj_tu:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/bakteria_sugu_enezwa_kwa_mtu_mwingine:hint')"/>
+      </range>
+      <range ref="/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu:label')"/>
+        <hint ref="jr:itext('/data/matazamo_ant_binad4_kubaliana3/usugu_kuhathiri_matibabu:hint')"/>
+      </range>
+    </group>
+    <select1 ref="/data/mamlaka_kuratibu_antibayotik">
+      <label ref="jr:itext('/data/mamlaka_kuratibu_antibayotik:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mamlaka_kuratibu_antibayotik:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mamlaka_kuratibu_antibayotik:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <input ref="/data/jina_mamlaka_kuratibu_antibayotik">
+      <label ref="jr:itext('/data/jina_mamlaka_kuratibu_antibayotik:label')"/>
+    </input>
+    <select1 ref="/data/matazamo_ant_mifugo_shuguli_za_ufugaji">
+      <label ref="jr:itext('/data/matazamo_ant_mifugo_shuguli_za_ufugaji:label')"/>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_shuguli_za_ufugaji:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_shuguli_za_ufugaji:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <select ref="/data/aina_mifugo">
+      <label ref="jr:itext('/data/aina_mifugo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option0')"/>
+        <value>ngombe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option1')"/>
+        <value>kondoo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option2')"/>
+        <value>mbuzi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option3')"/>
+        <value>nguruwe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option4')"/>
+        <value>kuku</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option5')"/>
+        <value>bata</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option6')"/>
+        <value>mbwa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option7')"/>
+        <value>paka</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aina_mifugo:option8')"/>
+        <value>wengine</value>
+      </item>
+    </select>
+    <group ref="/data/aina_ningine_ya_mifugo" appearance="field-list">
+      <label ref="jr:itext('/data/aina_ningine_ya_mifugo:label')"/>
+      <input ref="/data/aina_ningine_ya_mifugo/mifugo1">
+        <label ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo1:label')"/>
+        <hint ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo1:hint')"/>
+      </input>
+      <input ref="/data/aina_ningine_ya_mifugo/mifugo2">
+        <label ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo2:label')"/>
+        <hint ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo2:hint')"/>
+      </input>
+      <input ref="/data/aina_ningine_ya_mifugo/mifugo3">
+        <label ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo3:label')"/>
+        <hint ref="jr:itext('/data/aina_ningine_ya_mifugo/mifugo3:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/antibayotik_tumika_sana_kwa_mifugo">
+      <label ref="jr:itext('/data/antibayotik_tumika_sana_kwa_mifugo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/antibayotik_tumika_sana_kwa_mifugo:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/antibayotik_tumika_sana_kwa_mifugo:option1')"/>
+        <value>hapana</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/antibayotik_tumika_sana_kwa_mifugo:option2')"/>
+        <value>sijui</value>
+      </item>
+    </select1>
+    <select ref="/data/mtoa_huduma_matibabu_mifugo">
+      <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:option0')"/>
+        <value>mganga_mifugo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:option1')"/>
+        <value>mwenyewe</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:option2')"/>
+        <value>mfugaji_mwenzangu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:option3')"/>
+        <value>hakuna_matibabu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo:option4')"/>
+        <value>mwingine</value>
+      </item>
+    </select>
+    <group ref="/data/mtoa_huduma_matibabu_mifugo_ingine" appearance="field-list">
+      <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine:label')"/>
+      <input ref="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1">
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1:label')"/>
+        <hint ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu1:hint')"/>
+      </input>
+      <input ref="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2">
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2:label')"/>
+        <hint ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu2:hint')"/>
+      </input>
+      <input ref="/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3">
+        <label ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3:label')"/>
+        <hint ref="jr:itext('/data/mtoa_huduma_matibabu_mifugo_ingine/mtoa_huduma_matibabu3:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi">
+      <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option0')"/>
+        <value>maduka_dawa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option1')"/>
+        <value>maafisa_mifugo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option2')"/>
+        <value>vituo_mifugo_tiba</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option3')"/>
+        <value>nunua_kwa_watu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_unatibu_mwnyew_toa_dawa_wapi:option4')"/>
+        <value>halihusiki</value>
+      </item>
+    </select>
+    <select ref="/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo">
+      <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option0')"/>
+        <value>aina_mfugo_husika</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option1')"/>
+        <value>ukubwa_mnyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option2')"/>
+        <value>uzito_husika</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option3')"/>
+        <value>umri_mnyama_husika</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option4')"/>
+        <value>ukubwa_tatizo_la_mnyama</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option5')"/>
+        <value>gharama_antibayotiki</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/matazamo_ant_mifugo_kadirio_la_dawa_mifugo:option6')"/>
+        <value>sina_kigezo</value>
+      </item>
+    </select>
+    <input ref="/data/njia_kadiria_uzito">
+      <label ref="jr:itext('/data/njia_kadiria_uzito:label')"/>
+      <hint ref="jr:itext('/data/njia_kadiria_uzito:hint')"/>
+    </input>
+    <group ref="/data/aina3_antib_kwa_mnyama" appearance="field-list">
+      <label ref="jr:itext('/data/aina3_antib_kwa_mnyama:label')"/>
+      <input ref="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1">
+        <label ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1:label')"/>
+        <hint ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama1:hint')"/>
+      </input>
+      <input ref="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2">
+        <label ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2:label')"/>
+        <hint ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama2:hint')"/>
+      </input>
+      <input ref="/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3">
+        <label ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3:label')"/>
+        <hint ref="jr:itext('/data/aina3_antib_kwa_mnyama/aina3_antib_kwa_mnyama3:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/matazamo_ant_mifugo1" appearance="field-list">
+      <label ref="jr:itext('/data/matazamo_ant_mifugo1:label')"/>
+      <select ref="/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo">
+        <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option0')"/>
+          <value>maelezo_jamii</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option1')"/>
+          <value>ushauri_toka_wataalam</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option2')"/>
+          <value>ushauri_toka_wenzangu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option3')"/>
+          <value>uwezo_kununua</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option4')"/>
+          <value>upatikanaji_antib</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/sababu_tumia_antibio_hizo:option5')"/>
+          <value>ufanisi_wa_awali_wa_antib</value>
+        </item>
+      </select>
+      <select1 ref="/data/matazamo_ant_mifugo1/antib_binadam_mifugo">
+        <label ref="jr:itext('/data/matazamo_ant_mifugo1/antib_binadam_mifugo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option0')"/>
+          <value>ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option1')"/>
+          <value>Hapana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/matazamo_ant_mifugo1/antib_binadam_mifugo:option2')"/>
+          <value>sifahamu</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/aina_3_antibiotic_kwa_binadam_mifugo" appearance="field-list">
+      <label ref="jr:itext('/data/aina_3_antibiotic_kwa_binadam_mifugo:label')"/>
+      <input ref="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_1">
+        <label ref="jr:itext('/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_1:label')"/>
+      </input>
+      <input ref="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_2">
+        <label ref="jr:itext('/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_2:label')"/>
+      </input>
+      <input ref="/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_3">
+        <label ref="jr:itext('/data/aina_3_antibiotic_kwa_binadam_mifugo/aina_antib_3:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/mda_kusubiri_bidhaa_mifugo_baad_antib">
+      <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option0')"/>
+        <value>sisubiri</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option1')"/>
+        <value>siku_1_3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option2')"/>
+        <value>siku_4_7</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option3')"/>
+        <value>zaidi_siku7</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option4')"/>
+        <value>maelezo_ya_dawa</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mda_kusubiri_bidhaa_mifugo_baad_antib:option5')"/>
+        <value>nyingine</value>
+      </item>
+    </select1>
+    <input ref="/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib">
+      <label ref="jr:itext('/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib:label')"/>
+      <hint ref="jr:itext('/data/ingine_mda_kusubiri_bidhaa_mifugo_baad_antib:hint')"/>
+    </input>
+    <select1 ref="/data/mamlaka_antib_mifugo">
+      <label ref="jr:itext('/data/mamlaka_antib_mifugo:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mamlaka_antib_mifugo:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mamlaka_antib_mifugo:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <input ref="/data/jina_mamlaka_ant_mifugo">
+      <label ref="jr:itext('/data/jina_mamlaka_ant_mifugo:label')"/>
+    </input>
+    <select1 ref="/data/swala_anti_kuhusuika">
+      <label ref="jr:itext('/data/swala_anti_kuhusuika:label')"/>
+      <item>
+        <label ref="jr:itext('/data/swala_anti_kuhusuika:option0')"/>
+        <value>ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/swala_anti_kuhusuika:option1')"/>
+        <value>hapana</value>
+      </item>
+    </select1>
+    <input ref="/data/maelezo_swala_anti_kuhusuika">
+      <label ref="jr:itext('/data/maelezo_swala_anti_kuhusuika:label')"/>
+    </input>
+    <select ref="/data/unapata_ushauri_juu_matumizi">
+      <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:label')"/>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option0')"/>
+        <value>mtaalam_mifugo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option1')"/>
+        <value>mtaalam_afya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option2')"/>
+        <value>familia_rafiki</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option3')"/>
+        <value>muuza_vyakula_mifugo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option4')"/>
+        <value>mwingine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/unapata_ushauri_juu_matumizi:option5')"/>
+        <value>sipati_ushauri</value>
+      </item>
+    </select>
+    <group ref="/data/sehem_ingine_ushauri_matumiz_antibiotiki" appearance="field-list">
+      <label ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki:label')"/>
+      <input ref="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1">
+        <label ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1:label')"/>
+        <hint ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem1:hint')"/>
+      </input>
+      <input ref="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2">
+        <label ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2:label')"/>
+        <hint ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem2:hint')"/>
+      </input>
+      <input ref="/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3">
+        <label ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3:label')"/>
+        <hint ref="jr:itext('/data/sehem_ingine_ushauri_matumiz_antibiotiki/sehem3:hint')"/>
+      </input>
+    </group>
+    <input ref="/data/gps">
+      <label ref="jr:itext('/data/gps:label')"/>
+    </input>
+  </h:body>
+</h:html>

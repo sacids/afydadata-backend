@@ -1,0 +1,940 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>PoE Risk Assesment</h:title>
+    <model>
+      <instance>
+        <data id="PoE_Risk_Assesment_Form_1584828093">
+          <meta>
+            <instanceID/>
+            <username/>
+            <start/>
+            <end/>
+          </meta>
+          <traveller>
+            <surname/>
+            <other_name/>
+            <age/>
+            <sex>
+              male
+            </sex>
+            <passport_number/>
+            <passport_country/>
+            <emergency_contact/>
+          </traveller>
+          <location>
+            <village/>
+            <district/>
+            <region/>
+            <from_date/>
+            <to_date/>
+          </location>
+          <have_contact>
+            no
+          </have_contact>
+          <wear_ppe>
+            no
+          </wear_ppe>
+          <breach_in_ppe>
+            no
+          </breach_in_ppe>
+          <work_in_lab>
+            no
+          </work_in_lab>
+          <follow_biosafety>
+            no
+          </follow_biosafety>
+          <breach_in_biosafety>
+            no
+          </breach_in_biosafety>
+          <attend_funeral>
+            no
+          </attend_funeral>
+          <travel_outside>
+            no
+          </travel_outside>
+          <hospitalized/>
+          <hospital_name/>
+          <hospitalize_reason/>
+          <healer_consultation>
+            no
+          </healer_consultation>
+          <exposure_date/>
+          <signs_symptoms>
+            <pain_medication>
+              no
+            </pain_medication>
+            <symptoms/>
+          </signs_symptoms>
+          <other_symptoms>
+            <unexplained_bleeding>
+              0
+            </unexplained_bleeding>
+            <other_hemorrhagic>
+              0
+            </other_hemorrhagic>
+            <other_non_hemorrhagic>
+              0
+            </other_non_hemorrhagic>
+          </other_symptoms>
+          <triage>
+            <health_officer_decision>
+              allowed
+            </health_officer_decision>
+            <decision_rationale/>
+            <other_reason/>
+          </triage>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/traveller:label">
+            <value>Traveller Information</value>
+          </text>
+          <text id="/data/traveller/surname:label">
+            <value>Surname</value>
+          </text>
+          <text id="/data/traveller/other_name:label">
+            <value>Other Name</value>
+          </text>
+          <text id="/data/traveller/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/traveller/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/traveller/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/traveller/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/traveller/passport_number:label">
+            <value>Passport Number</value>
+          </text>
+          <text id="/data/traveller/passport_country:label">
+            <value>Passport Country</value>
+          </text>
+          <text id="/data/traveller/emergency_contact:label">
+            <value>Emergency Contact</value>
+          </text>
+          <text id="/data/location:label">
+            <value>Location where traveler either had exposure of became ill</value>
+          </text>
+          <text id="/data/location/village:label">
+            <value>Village or Town</value>
+          </text>
+          <text id="/data/location/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/location/region:label">
+            <value>Provice or Region</value>
+          </text>
+          <text id="/data/location/from_date:label">
+            <value>From Date</value>
+          </text>
+          <text id="/data/location/to_date:label">
+            <value>To Date</value>
+          </text>
+          <text id="/data/have_contact:label">
+            <value>Did you have contact</value>
+          </text>
+          <text id="/data/have_contact:hint">
+            <value>With a known or suspect case of Ebola, or with any sick person</value>
+          </text>
+          <text id="/data/have_contact:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/have_contact:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/have_contact:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/wear_ppe:label">
+            <value>Appropriate PPE</value>
+          </text>
+          <text id="/data/wear_ppe:hint">
+            <value>Did you wear appropriate personal protective equipment (PPE) during all exposures</value>
+          </text>
+          <text id="/data/wear_ppe:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/wear_ppe:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/wear_ppe:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/breach_in_ppe:label">
+            <value>PPE Breach</value>
+          </text>
+          <text id="/data/breach_in_ppe:hint">
+            <value>Did you experience any breaches in PPE</value>
+          </text>
+          <text id="/data/breach_in_ppe:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/breach_in_ppe:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/breach_in_ppe:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/work_in_lab:label">
+            <value>Work in Lab</value>
+          </text>
+          <text id="/data/work_in_lab:hint">
+            <value>Did you work in a laboratoryprocessing body fluids of Ebola patients</value>
+          </text>
+          <text id="/data/work_in_lab:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/work_in_lab:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/work_in_lab:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/follow_biosafety:label">
+            <value>Biosafety measures</value>
+          </text>
+          <text id="/data/follow_biosafety:hint">
+            <value>Did you wear appropriate PPE and follow standard lab biosafety precautions at all times</value>
+          </text>
+          <text id="/data/follow_biosafety:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/follow_biosafety:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/follow_biosafety:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/breach_in_biosafety:label">
+            <value>Biosafety Breach</value>
+          </text>
+          <text id="/data/breach_in_biosafety:hint">
+            <value>Did you experience any breaches in PPE or biosafety</value>
+          </text>
+          <text id="/data/breach_in_biosafety:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/breach_in_biosafety:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/breach_in_biosafety:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/attend_funeral:label">
+            <value>Funeral Attendance</value>
+          </text>
+          <text id="/data/attend_funeral:hint">
+            <value>Did you attend a funeral</value>
+          </text>
+          <text id="/data/attend_funeral:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/attend_funeral:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/attend_funeral:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/travel_outside:label">
+            <value>Travel Outside</value>
+          </text>
+          <text id="/data/travel_outside:hint">
+            <value>Did you travel outside your home or village/town</value>
+          </text>
+          <text id="/data/travel_outside:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/travel_outside:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/travel_outside:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/data/hospitalized:hint">
+            <value>Were you hospitalized, or did you go to a clinic or visit anyone in the hospital</value>
+          </text>
+          <text id="/data/hospitalized:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/hospitalized:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/hospitalized:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/hospital_name:label">
+            <value>Hospital Name</value>
+          </text>
+          <text id="/data/hospital_name:hint">
+            <value>Please provide name of hospital or clinic</value>
+          </text>
+          <text id="/data/hospitalize_reason:label">
+            <value>Hospitalization Reason</value>
+          </text>
+          <text id="/data/hospitalize_reason:hint">
+            <value>Please provide reason for hospitilization or visit</value>
+          </text>
+          <text id="/data/healer_consultation:label">
+            <value>Consultation</value>
+          </text>
+          <text id="/data/healer_consultation:hint">
+            <value>Did you consult a traditional or spiritual healer</value>
+          </text>
+          <text id="/data/healer_consultation:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/healer_consultation:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/healer_consultation:option2">
+            <value>Uknown</value>
+          </text>
+          <text id="/data/exposure_date:label">
+            <value>Exposure Date</value>
+          </text>
+          <text id="/data/exposure_date:hint">
+            <value>Please provide date you were exposed</value>
+          </text>
+          <text id="/data/signs_symptoms:label">
+            <value>Clinical Sign and Symptoms</value>
+          </text>
+          <text id="/data/signs_symptoms/pain_medication:label">
+            <value>Pain Medication</value>
+          </text>
+          <text id="/data/signs_symptoms/pain_medication:hint">
+            <value>Haye you taken fever or pain reducing medicine in the last 4 hours</value>
+          </text>
+          <text id="/data/signs_symptoms/pain_medication:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/signs_symptoms/pain_medication:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:hint">
+            <value>Have you experienced any of the following symptomms today OR  within the past 48 hours</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option0">
+            <value>Fever &gt;= 38 C</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option1">
+            <value>Vomiting or Nausea</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option2">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option3">
+            <value>Intense fatigue / general weakness</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option4">
+            <value>Anorexia / loss of apetite</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option5">
+            <value>Abdominal Pain</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option6">
+            <value>Chest Pain</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option7">
+            <value>Joint Pain</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option8">
+            <value>Headache</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option9">
+            <value>Cough</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option10">
+            <value>Difficulty breathing</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option11">
+            <value>Difficulty swallowing</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option12">
+            <value>Sore Throat</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option13">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option14">
+            <value>Conjuctivitis (Red Eyes)</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option15">
+            <value>Skin Rash</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option16">
+            <value>Hiccups</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option17">
+            <value>Pain behind eyes / sensitive to light</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option18">
+            <value>Coma / Unconscious</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option19">
+            <value>Confused or disoriented</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option20">
+            <value>Bleeding from Gums</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option21">
+            <value>Bleeding from injection site</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option22">
+            <value>Nose Bleed (epistaxis)</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option23">
+            <value>Blood or black stools (melena)</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option24">
+            <value>Fresh / red blood in vomit</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option25">
+            <value>Coughing up blood</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option26">
+            <value>Bleeding from vagina, other than menstruation</value>
+          </text>
+          <text id="/data/signs_symptoms/symptoms:option27">
+            <value>Bruising of the skin (Petechiae / ecchymosis)</value>
+          </text>
+          <text id="/data/other_symptoms:label">
+            <value>Other Symptoms</value>
+          </text>
+          <text id="/data/other_symptoms/unexplained_bleeding:label">
+            <value>Unexplained bleeding</value>
+          </text>
+          <text id="/data/other_symptoms/unexplained_bleeding:hint">
+            <value>Please specify where (0 for none)</value>
+          </text>
+          <text id="/data/other_symptoms/other_hemorrhagic:label">
+            <value>Other Hemorrhagic Symptoms</value>
+          </text>
+          <text id="/data/other_symptoms/other_hemorrhagic:hint">
+            <value>Please specify (0 for none)</value>
+          </text>
+          <text id="/data/other_symptoms/other_non_hemorrhagic:label">
+            <value>Other Non Hemorrhagic Symptoms</value>
+          </text>
+          <text id="/data/other_symptoms/other_non_hemorrhagic:hint">
+            <value>Please specify (0 for none)</value>
+          </text>
+          <text id="/data/triage:label">
+            <value>Triage, Response, Clinical Specimens and Laboratory testing</value>
+          </text>
+          <text id="/data/triage/health_officer_decision:label">
+            <value>Decision by Port Health Officer</value>
+          </text>
+          <text id="/data/triage/health_officer_decision:option0">
+            <value>Allowed to Proceed with entry / exit formalities</value>
+          </text>
+          <text id="/data/triage/health_officer_decision:option1">
+            <value>Denied / Delayed Travel</value>
+          </text>
+          <text id="/data/triage/health_officer_decision:option2">
+            <value>Allowed to Proceed with condition</value>
+          </text>
+          <text id="/data/triage/decision_rationale:label">
+            <value>Reasons for Decision</value>
+          </text>
+          <text id="/data/triage/decision_rationale:hint">
+            <value>Check all that apply</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option0">
+            <value>Illness not related to Ebola and the traveler obtain medical care at PoE</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option1">
+            <value>Exposure to EVD is low and the traveler can continue travelling while self-monitoring</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option2">
+            <value>Moved to holding facility because met the criteria form suspect case of EVD (complete contact listing form)</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option3">
+            <value>Referred to contact tracing because meth the criteria for high risk contact</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option4">
+            <value>Referred to a nearby health facility because the illness is not related to ebola and require other treatment</value>
+          </text>
+          <text id="/data/triage/decision_rationale:option5">
+            <value>Waiting for laboratory specimen take and sent to laboratory for testing for Ebola</value>
+          </text>
+          <text id="/data/triage/other_reason:label">
+            <value>Other Reason</value>
+          </text>
+          <text id="/data/triage/other_reason:hint">
+            <value>Please speficify other reason</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/traveller/surname" type="string"/>
+      <bind nodeset="/data/traveller/other_name" type="string"/>
+      <bind nodeset="/data/traveller/age" type="int"/>
+      <bind nodeset="/data/traveller/sex" type="select1" required="true()"/>
+      <bind nodeset="/data/traveller/passport_number" type="string"/>
+      <bind nodeset="/data/traveller/passport_country" type="string"/>
+      <bind nodeset="/data/traveller/emergency_contact" type="string"/>
+      <bind nodeset="/data/location/village" type="string"/>
+      <bind nodeset="/data/location/district" type="string"/>
+      <bind nodeset="/data/location/region" type="string"/>
+      <bind nodeset="/data/location/from_date" type="date"/>
+      <bind nodeset="/data/location/to_date" type="date"/>
+      <bind nodeset="/data/have_contact" type="select1" required="true()"/>
+      <bind nodeset="/data/wear_ppe" type="select1" required="true()"/>
+      <bind nodeset="/data/breach_in_ppe" type="select1" required="true()"/>
+      <bind nodeset="/data/work_in_lab" type="select1" required="true()"/>
+      <bind nodeset="/data/follow_biosafety" type="select1" required="true()"/>
+      <bind nodeset="/data/breach_in_biosafety" type="select1" required="true()"/>
+      <bind nodeset="/data/attend_funeral" type="select1" required="true()"/>
+      <bind nodeset="/data/travel_outside" type="select1" required="true()"/>
+      <bind nodeset="/data/hospitalized" type="select1" required="true()"/>
+      <bind nodeset="/data/hospital_name" type="string"/>
+      <bind nodeset="/data/hospitalize_reason" type="string"/>
+      <bind nodeset="/data/healer_consultation" type="select1" required="true()"/>
+      <bind nodeset="/data/exposure_date" type="date"/>
+      <bind nodeset="/data/signs_symptoms/pain_medication" type="select1" required="true()"/>
+      <bind nodeset="/data/signs_symptoms/symptoms" type="select"/>
+      <bind nodeset="/data/other_symptoms/unexplained_bleeding" type="string"/>
+      <bind nodeset="/data/other_symptoms/other_hemorrhagic" type="string"/>
+      <bind nodeset="/data/other_symptoms/other_non_hemorrhagic" type="string"/>
+      <bind nodeset="/data/triage/health_officer_decision" type="select1" required="true()"/>
+      <bind nodeset="/data/triage/decision_rationale" type="select"/>
+      <bind nodeset="/data/triage/other_reason" type="string"/>
+
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/traveller:label')"/>
+      <input ref="/data/traveller/surname">
+        <label ref="jr:itext('/data/traveller/surname:label')"/>
+      </input>
+      <input ref="/data/traveller/other_name">
+        <label ref="jr:itext('/data/traveller/other_name:label')"/>
+      </input>
+      <input ref="/data/traveller/age">
+        <label ref="jr:itext('/data/traveller/age:label')"/>
+      </input>
+      <select1 ref="/data/traveller/sex">
+        <label ref="jr:itext('/data/traveller/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/traveller/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/traveller/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/traveller/passport_number">
+        <label ref="jr:itext('/data/traveller/passport_number:label')"/>
+      </input>
+      <input ref="/data/traveller/passport_country">
+        <label ref="jr:itext('/data/traveller/passport_country:label')"/>
+      </input>
+      <input ref="/data/traveller/emergency_contact">
+        <label ref="jr:itext('/data/traveller/emergency_contact:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/location:label')"/>
+      <input ref="/data/location/village">
+        <label ref="jr:itext('/data/location/village:label')"/>
+      </input>
+      <input ref="/data/location/district">
+        <label ref="jr:itext('/data/location/district:label')"/>
+      </input>
+      <input ref="/data/location/region">
+        <label ref="jr:itext('/data/location/region:label')"/>
+      </input>
+      <input ref="/data/location/from_date">
+        <label ref="jr:itext('/data/location/from_date:label')"/>
+      </input>
+      <input ref="/data/location/to_date">
+        <label ref="jr:itext('/data/location/to_date:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/have_contact">
+      <label ref="jr:itext('/data/have_contact:label')"/>
+      <hint ref="jr:itext('/data/have_contact:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/have_contact:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/have_contact:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/have_contact:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/wear_ppe">
+      <label ref="jr:itext('/data/wear_ppe:label')"/>
+      <hint ref="jr:itext('/data/wear_ppe:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/wear_ppe:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wear_ppe:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/wear_ppe:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/breach_in_ppe">
+      <label ref="jr:itext('/data/breach_in_ppe:label')"/>
+      <hint ref="jr:itext('/data/breach_in_ppe:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/breach_in_ppe:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/breach_in_ppe:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/breach_in_ppe:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/work_in_lab">
+      <label ref="jr:itext('/data/work_in_lab:label')"/>
+      <hint ref="jr:itext('/data/work_in_lab:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/work_in_lab:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/work_in_lab:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/work_in_lab:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/follow_biosafety">
+      <label ref="jr:itext('/data/follow_biosafety:label')"/>
+      <hint ref="jr:itext('/data/follow_biosafety:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/follow_biosafety:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/follow_biosafety:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/follow_biosafety:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/breach_in_biosafety">
+      <label ref="jr:itext('/data/breach_in_biosafety:label')"/>
+      <hint ref="jr:itext('/data/breach_in_biosafety:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/breach_in_biosafety:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/breach_in_biosafety:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/breach_in_biosafety:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/attend_funeral">
+      <label ref="jr:itext('/data/attend_funeral:label')"/>
+      <hint ref="jr:itext('/data/attend_funeral:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/attend_funeral:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/attend_funeral:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/attend_funeral:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/travel_outside">
+      <label ref="jr:itext('/data/travel_outside:label')"/>
+      <hint ref="jr:itext('/data/travel_outside:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/travel_outside:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/travel_outside:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/travel_outside:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <select1 ref="/data/hospitalized">
+      <label ref="jr:itext('/data/hospitalized:label')"/>
+      <hint ref="jr:itext('/data/hospitalized:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/hospitalized:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hospitalized:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/hospitalized:option2')"/>
+        <value>unknown</value>
+      </item>
+    </select1>
+    <input ref="/data/hospital_name">
+      <label ref="jr:itext('/data/hospital_name:label')"/>
+      <hint ref="jr:itext('/data/hospital_name:hint')"/>
+    </input>
+    <input ref="/data/hospitalize_reason">
+      <label ref="jr:itext('/data/hospitalize_reason:label')"/>
+      <hint ref="jr:itext('/data/hospitalize_reason:hint')"/>
+    </input>
+    <select1 ref="/data/healer_consultation">
+      <label ref="jr:itext('/data/healer_consultation:label')"/>
+      <hint ref="jr:itext('/data/healer_consultation:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/healer_consultation:option0')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/healer_consultation:option1')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/healer_consultation:option2')"/>
+        <value>uknown</value>
+      </item>
+    </select1>
+    <input ref="/data/exposure_date">
+      <label ref="jr:itext('/data/exposure_date:label')"/>
+      <hint ref="jr:itext('/data/exposure_date:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/signs_symptoms:label')"/>
+      <select1 ref="/data/signs_symptoms/pain_medication">
+        <label ref="jr:itext('/data/signs_symptoms/pain_medication:label')"/>
+        <hint ref="jr:itext('/data/signs_symptoms/pain_medication:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/pain_medication:option0')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/pain_medication:option1')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select ref="/data/signs_symptoms/symptoms">
+        <label ref="jr:itext('/data/signs_symptoms/symptoms:label')"/>
+        <hint ref="jr:itext('/data/signs_symptoms/symptoms:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option1')"/>
+          <value>vomiting_nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option2')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option3')"/>
+          <value>fatigue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option4')"/>
+          <value>loss_of_appetite</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option5')"/>
+          <value>abdominal_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option6')"/>
+          <value>chest_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option7')"/>
+          <value>joint_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option8')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option9')"/>
+          <value>cough</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option10')"/>
+          <value>difficulty_breathing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option11')"/>
+          <value>difficulty_swallowing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option12')"/>
+          <value>sore_throat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option13')"/>
+          <value>jaundice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option14')"/>
+          <value>conjuctivitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option15')"/>
+          <value>skin_rash</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option16')"/>
+          <value>hiccups</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option17')"/>
+          <value>pain_behind_eyes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option18')"/>
+          <value>coma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option19')"/>
+          <value>confused</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option20')"/>
+          <value>bleeding_from_gums</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option21')"/>
+          <value>bleeding_from_injection_site</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option22')"/>
+          <value>nose_bleed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option23')"/>
+          <value>black_stool</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option24')"/>
+          <value>blood_in_vomit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option25')"/>
+          <value>blood_in_cough</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option26')"/>
+          <value>vagina_bleed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signs_symptoms/symptoms:option27')"/>
+          <value>bruising_of_the_skin</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/other_symptoms:label')"/>
+      <input ref="/data/other_symptoms/unexplained_bleeding">
+        <label ref="jr:itext('/data/other_symptoms/unexplained_bleeding:label')"/>
+        <hint ref="jr:itext('/data/other_symptoms/unexplained_bleeding:hint')"/>
+      </input>
+      <input ref="/data/other_symptoms/other_hemorrhagic">
+        <label ref="jr:itext('/data/other_symptoms/other_hemorrhagic:label')"/>
+        <hint ref="jr:itext('/data/other_symptoms/other_hemorrhagic:hint')"/>
+      </input>
+      <input ref="/data/other_symptoms/other_non_hemorrhagic">
+        <label ref="jr:itext('/data/other_symptoms/other_non_hemorrhagic:label')"/>
+        <hint ref="jr:itext('/data/other_symptoms/other_non_hemorrhagic:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/triage:label')"/>
+      <select1 ref="/data/triage/health_officer_decision">
+        <label ref="jr:itext('/data/triage/health_officer_decision:label')"/>
+        <item>
+          <label ref="jr:itext('/data/triage/health_officer_decision:option0')"/>
+          <value>allowed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/health_officer_decision:option1')"/>
+          <value>denied_delayed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/health_officer_decision:option2')"/>
+          <value>allowed_with_condition</value>
+        </item>
+      </select1>
+      <select ref="/data/triage/decision_rationale">
+        <label ref="jr:itext('/data/triage/decision_rationale:label')"/>
+        <hint ref="jr:itext('/data/triage/decision_rationale:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option0')"/>
+          <value>not_related_to_ebola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option1')"/>
+          <value>low_exposure</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option2')"/>
+          <value>moved_to_holding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option3')"/>
+          <value>contact_tracing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option4')"/>
+          <value>referred_to_facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/triage/decision_rationale:option5')"/>
+          <value>laboratory_specimen</value>
+        </item>
+      </select>
+      <input ref="/data/triage/other_reason">
+        <label ref="jr:itext('/data/triage/other_reason:label')"/>
+        <hint ref="jr:itext('/data/triage/other_reason:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

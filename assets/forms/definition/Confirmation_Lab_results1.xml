@@ -1,0 +1,191 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Confirmation Lab results</h:title>
+    <model>
+      <instance>
+        <data id="build_Confirmation-Lab-results_1478760906">
+          <meta>
+              <instanceID/>
+              <username/>
+              <instanceName/>
+              <start/>
+              <end/>
+          </meta>
+          <confirmation_results>
+            <barcode/>
+            <vibro_cholerae/>
+            <salmonella/>
+            <shigella/>
+            <ecoli/>
+            <campylobacter/>
+          </confirmation_results>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/confirmation_results:label">
+            <value>Confirmation results</value>
+          </text>
+          <text id="/data/confirmation_results/barcode:label">
+            <value>Barcode</value>
+          </text>
+          <text id="/data/confirmation_results/vibro_cholerae:label">
+            <value>V.cholerae</value>
+          </text>
+          <text id="/data/confirmation_results/vibro_cholerae:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/confirmation_results/vibro_cholerae:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/confirmation_results/vibro_cholerae:option2">
+            <value>Test not done</value>
+          </text>
+          <text id="/data/confirmation_results/salmonella:label">
+            <value>Salmonella</value>
+          </text>
+          <text id="/data/confirmation_results/salmonella:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/confirmation_results/salmonella:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/confirmation_results/salmonella:option2">
+            <value>Test not done</value>
+          </text>
+          <text id="/data/confirmation_results/shigella:label">
+            <value>Shigella</value>
+          </text>
+          <text id="/data/confirmation_results/shigella:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/confirmation_results/shigella:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/confirmation_results/shigella:option2">
+            <value>Test not done</value>
+          </text>
+          <text id="/data/confirmation_results/ecoli:label">
+            <value>E.coli</value>
+          </text>
+          <text id="/data/confirmation_results/ecoli:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/confirmation_results/ecoli:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/confirmation_results/ecoli:option2">
+            <value>Test not done</value>
+          </text>
+          <text id="/data/confirmation_results/campylobacter:label">
+            <value>Campylobacter</value>
+          </text>
+          <text id="/data/confirmation_results/campylobacter:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/confirmation_results/campylobacter:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/confirmation_results/campylobacter:option2">
+            <value>Test not done</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/confirmation_results/barcode" type="barcode" required="true()"/>
+      <bind nodeset="/data/confirmation_results/vibro_cholerae" type="select1" required="true()"/>
+      <bind nodeset="/data/confirmation_results/salmonella" type="select1" required="true()"/>
+      <bind nodeset="/data/confirmation_results/shigella" type="select1" required="true()"/>
+      <bind nodeset="/data/confirmation_results/ecoli" type="select1" required="true()"/>
+      <bind nodeset="/data/confirmation_results/campylobacter" type="select1" required="true()"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Conf Results',': ',/data/confirmation_results/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+      
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/confirmation_results:label')"/>
+      <input ref="/data/confirmation_results/barcode">
+        <label ref="jr:itext('/data/confirmation_results/barcode:label')"/>
+      </input>
+      <select1 ref="/data/confirmation_results/vibro_cholerae">
+        <label ref="jr:itext('/data/confirmation_results/vibro_cholerae:label')"/>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/vibro_cholerae:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/vibro_cholerae:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/vibro_cholerae:option2')"/>
+          <value>9</value>
+        </item>
+      </select1>
+      <select1 ref="/data/confirmation_results/salmonella">
+        <label ref="jr:itext('/data/confirmation_results/salmonella:label')"/>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/salmonella:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/salmonella:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/salmonella:option2')"/>
+          <value>9</value>
+        </item>
+      </select1>
+      <select1 ref="/data/confirmation_results/shigella">
+        <label ref="jr:itext('/data/confirmation_results/shigella:label')"/>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/shigella:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/shigella:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/shigella:option2')"/>
+          <value>9</value>
+        </item>
+      </select1>
+      <select1 ref="/data/confirmation_results/ecoli">
+        <label ref="jr:itext('/data/confirmation_results/ecoli:label')"/>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/ecoli:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/ecoli:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/ecoli:option2')"/>
+          <value>9</value>
+        </item>
+      </select1>
+      <select1 ref="/data/confirmation_results/campylobacter">
+        <label ref="jr:itext('/data/confirmation_results/campylobacter:label')"/>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/campylobacter:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/campylobacter:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/confirmation_results/campylobacter:option2')"/>
+          <value>9</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

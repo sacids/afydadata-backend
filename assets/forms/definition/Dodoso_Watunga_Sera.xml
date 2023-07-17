@@ -1,0 +1,613 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Dodoso Watunga Sera</h:title>
+    <model>
+      <instance>
+        <data id="build_Dodoso-Watunga-Sera_1568632291">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifa_awali>
+            <wizara_taasisi/>
+            <cheo/>
+            <jinsia/>
+            <elimu/>
+            <miaka_kazini/>
+            <namba_simu/>
+          </taarifa_awali>
+          <uaandaji_mpango_kazi_taifa>
+            <mpango_udhibiti_2017/>
+            <maswala_husu_usugu_antibiotik/>
+          </uaandaji_mpango_kazi_taifa>
+          <uaandaji_mpango_kazi_taifa1>
+            <washiriki_wa_maendeleo/>
+            <watunga_sera/>
+            <watoa_maamuzi/>
+            <watendaji/>
+            <jamii/>
+            <madau_mwingine/>
+            <madau_mwingine1/>
+            <madau_mwingine2/>
+          </uaandaji_mpango_kazi_taifa1>
+          <uaandaji_mpango_kazi_taifa2>
+            <maswala_muhimu_jadiliwa/>
+            <jukumu_lako_kuandaa_mpango_taifa/>
+            <sekta_kua_na_ushawishi_mkubwa/>
+            <ushiriki_mikutano_andaliwa_kitaifa/>
+            <sekta_wajibu_kuratibu_mkutano_kitaifa/>
+            <namna_mikutano_andaliwa/>
+            <changamoto_wakati_majadiliano/>
+            <maudhui_mpango_taifa_usugu/>
+            <maswali_nyeti_kosekan_mpango_taifa/>
+          </uaandaji_mpango_kazi_taifa2>
+          <utekelezaji_mpango_kazi>
+            <sekta_shirik_afya_binadamu/>
+            <sekta_shirik_afya_wanyama/>
+            <sekta_shirik_wanyama_pori/>
+            <sekta_shirik_wanyama_kilimo_chakula/>
+            <sekta_shirik_wanyama_mazingira/>
+            <sekta_shirik_ingine/>
+            <sekta_shirik_ingine1/>
+          </utekelezaji_mpango_kazi>
+          <utekelezaji_mpango_kazi1>
+            <taasis_yako_shiriki_ongeza_ufahamu/>
+            <kwa_kiasi_gani_taasis_yako_shirik_ufaham/>
+            <mambo_taasisi_yako_inafanya_kujenga_uwezo/>
+            <mikakati_taasisi_yako_kupunguza_maambukizi/>
+            <namna_taasisi_inazuia_uchafu_mazingira/>
+            <sheria_kanuni_zipi_simamia_antibiotiki/>
+            <athari_gani_tabia_matibabu_utoaji_tiba/>
+            <athari_gani_tabia_wateja/>
+            <athari_gani_tabia_wauzaji_dawa_mitaani/>
+            <athari_gani_tabia_bima_afya/>
+            <athari_gani_tabia_viwanda_uzalishaji_dawa_chakula/>
+          </utekelezaji_mpango_kazi1>
+          <utekelezaji_mpango_kazi2>
+            <namna_uwezo_kiuchumi_pelekea_matumiz_sio_antibi/>
+            <maoni_changamoto_za_utekelezaji_mpango_kazi/>
+            <maoni_changamoto_swal22/>
+            <nin_kifanyike_kuboresha_matumiz_antibiotik/>
+            <maoni_kifanyike_dhibiti_ongezeko_usugu/>
+          </utekelezaji_mpango_kazi2>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifa_awali:label">
+            <value>Taarifa Za awali</value>
+          </text>
+          <text id="/data/taarifa_awali/wizara_taasisi:label">
+            <value>Wizara / Taasisi</value>
+          </text>
+          <text id="/data/taarifa_awali/cheo:label">
+            <value>Cheo</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:option0">
+            <value>Me</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:option1">
+            <value>Ke</value>
+          </text>
+          <text id="/data/taarifa_awali/elimu:label">
+            <value>Kiwango cha elimu</value>
+          </text>
+          <text id="/data/taarifa_awali/elimu:option0">
+            <value>Shahada</value>
+          </text>
+          <text id="/data/taarifa_awali/elimu:option1">
+            <value>Astashahada</value>
+          </text>
+          <text id="/data/taarifa_awali/elimu:option2">
+            <value>Cheti</value>
+          </text>
+          <text id="/data/taarifa_awali/miaka_kazini:label">
+            <value>Miaka Uliotumika Katika nafasi ya sasa</value>
+          </text>
+          <text id="/data/taarifa_awali/namba_simu:label">
+            <value>Namba ya simu</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa:label">
+            <value>Uaandaaji wa Mpango-Kazi wa Taifa</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017:label">
+            <value>1. Serikali ya Tanzania imeandaa  Mpango-Kazi wa Utekelezaji wa Udhibiti wa Usugu wa Viuavijasumu 2017-2022 (National Action Plan on Antimicrobial Resistance 2017-2022).  </value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017:hint">
+            <value>Je, unafahamu juu ya uwepo wa mpango huu? Kama ndiyo; Ni hatua gani muhimu zilizoainishwa kwenye mpango huo? </value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa/maswala_husu_usugu_antibiotik:label">
+            <value>2. Ni vigezo gani/maswala yapi ya yanayohusu matumizi na usugu wa antibiotiki/ Viuavijasumu vilitumika katika uandaaji wa ajenda?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1:label">
+            <value>3.	Ni nani walikuwa wadau wakubwa katika kusukuma mbele mchakato huo wa uandaaji wa Mpango wa Taifa (Dodosa: Washirika wa Maendeleo, Watendaji, Watunga Sera, Watoa maamuzi, jamii; Uliza nini yalikuwa majukumu ya kila mdau)</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo:label">
+            <value>3.1 Washirika wa Maendeleo</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo:hint">
+            <value>Nini yalikuwa majukumu yake?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watunga_sera:label">
+            <value>3.2 Watunga sera</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watunga_sera:hint">
+            <value>Nini yalikuwa majukumu yake?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi:label">
+            <value>3.3 Watoa maamuzi</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi:hint">
+            <value>Nini yalikuwa majukumu yake?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watendaji:label">
+            <value>3.4 Watendaji</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/watendaji:hint">
+            <value>Nini yalikuwa majukumu yake?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/jamii:label">
+            <value>3.5 Jamii</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/jamii:hint">
+            <value>Nini yalikuwa majukumu yake?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine:label">
+            <value>3.6 Mdau Mwingine</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine:hint">
+            <value>Mbali ya waliotajwa hapo juu (Nini yalikuwa majukumu yake?)</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1:label">
+            <value>3.7 Mdau Mwingine</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1:hint">
+            <value>Mbali ya waliotajwa hapo juu (Nini yalikuwa majukumu yake?)</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2:label">
+            <value>3.8 Mdau Mwingine</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2:hint">
+            <value>Mbali ya waliotajwa hapo juu (Nini yalikuwa majukumu yake?)</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2:label">
+            <value>Uaandaaji wa Mpango-Kazi wa Taifa</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/maswala_muhimu_jadiliwa:label">
+            <value>4. Maswala gani muhimu yalijadiliwa katika kuandaa Mpango-Kazi wa Taifa wa Utekelezaji wa Udhibiti wa Usugu wa Viuavijasumu (antibiotiki)?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/jukumu_lako_kuandaa_mpango_taifa:label">
+            <value>5. Tafadhali elezea jukumu lako (msimamo wako) katika kuandaa Mpango wa Taifa Mpango-Kazi wa Utekelezaji wa Udhibiti  wa Usugu wa Viuavijasumu 2017-2022</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa:label">
+            <value>6. Je unadhani moja ya Sekta zilizoshiriki ilikuwa na ushawishi mkubwa katika mchakato mzima?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa:hint">
+            <value>Tafadhali jibu NDIYO/HAPANA. Kisha elezea ni kwa nini?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa:label">
+            <value>7. Je ulibahatika kushiriki katika moja ya mikutano iliyoandaa Mpango huo wa Taifa? </value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa:hint">
+            <value>Jibu NDIYO/HAPANA. Kama NDIYO tafadhali toa ufafanuzi jinsi ulivyoshiriki</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/sekta_wajibu_kuratibu_mkutano_kitaifa:label">
+            <value>8. Ni Sekta ipi (zipi) ilikuwa na wajibu wa kuratibu mikutano ya uaandaaji wa Mpango wa Taifa?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/namna_mikutano_andaliwa:label">
+            <value>9. Ni kwa namna gani mikutano hiyo iliratibiwa/andaliwa?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/changamoto_wakati_majadiliano:label">
+            <value>10. Kulikuwa na changamoto gani wakati wa majadiliano?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/maudhui_mpango_taifa_usugu:label">
+            <value>11.	Ni ni maudhui makubwa yaliyomo kwenye Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (antibiotiki)?</value>
+          </text>
+          <text id="/data/uaandaji_mpango_kazi_taifa2/maswali_nyeti_kosekan_mpango_taifa:label">
+            <value>12.	Kwa maoni yako, ni maswala gani nyeti ambayo hayamo/yanakosekana katika Mpango wa Taifa?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi:label">
+            <value>Utekelezaji wa Mpango-Kazi</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu:label">
+            <value>13.	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu:hint">
+            <value>Majukumu yanayotekelezwa (Afya ya Binadamu)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama:label">
+            <value>13.1	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama:hint">
+            <value>Majukumu yanayotekelezwa (Afya ya wanyama/mifugo)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori:label">
+            <value>13.2	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori:hint">
+            <value>Majukumu yanayotekelezwa (Afya ya wanyama pori)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula:label">
+            <value>13.3	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula:hint">
+            <value>Majukumu yanayotekelezwa (Kilimo na Chakula)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira:label">
+            <value>13.4	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira:hint">
+            <value>Majukumu yanayotekelezwa (Sekta ya Mazingira)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine:label">
+            <value>13.5	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine:hint">
+            <value>Majukumu yanayotekelezwa (Sekta ingine mbali ya iliyotajwa)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1:label">
+            <value>13.6	Je ni Sekta zipi ambazo zinashiriki kikamilifu kutekeleza Mpango wa Taifa wa Udhibiti wa Usugu wa Viuavijasumu (UV)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1:hint">
+            <value>Majukumu yanayotekelezwa (Sekta ingine mbali ya iliyotajwa)</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1:label">
+            <value>Utekelezaji wa Mpango-Kazi</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu:label">
+            <value>14.	Ni kwa namna/jinsi gani Taasisi yako inashiriki katika kuongeza ufahamu na uelewa wa jamii wa madhara na jinsi ya kupambana na Usugu wa antibiotiki </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu:hint">
+            <value>Dodosa: uwepo wa programu, mipango na kiwango cha utekelezaji katika ngazi ya taifa, wilaya na jamii</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/kwa_kiasi_gani_taasis_yako_shirik_ufaham:label">
+            <value>15.	Ni kwa namna/kiasi gani Taasisi yako inashiriki katika kutoa mafunzo kuhusu Usugu wa antibiotiki? Eleza.</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo:label">
+            <value>16. Ni mambo gani Taasisi yako inafanya kujenga uwezo wa uelewa na upatikanaji wa takwimu za ufuatiliaji wa usugu wa antibiotiki</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo:hint">
+            <value>Dodosa: mafunzo katika menejimenti ya takwimu; kufanye utafiti; kufanya tathmini; mawasiliano</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi:label">
+            <value>17. Taasisi yako ina mikakati gani kupunguza matokeo ya maambukizi ya magonjwa </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi:hint">
+            <value>Dodosa: usafi wa mazingira; usafi wa mtu, uzuiaji wa maradhi</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira:label">
+            <value>18. Ni kwa namna gani Taasisi yako inachangia katika kuzua uchafuzi wa mazingira unaotokana na antibiotiki/Viuavijasumu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira:hint">
+            <value>Dodosa: Uwepo wa sera,  miongozo, rasilimali</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/sheria_kanuni_zipi_simamia_antibiotiki:label">
+            <value>19. Je ni sheria na kanuni zipi inasimamia matumizi ya Viuavijasumu (antibiotiki)? Zitaje </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba:label">
+            <value>20.a Kuna athari gani zitatokea iwapo udhibiti na usimamizi thabiti wa sheria na kanuni zinazohusu matumizi ya Viuavijasumu (antibiotiki) utatekelezwa katika nchi yetu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba:hint">
+            <value>Dodosa katika maeneo ifuatayo: Tabia za matabibu katika utoaji tiba</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja:label">
+            <value>20.b Kuna athari gani zitatokea iwapo udhibiti na usimamizi thabiti wa sheria na kanuni zinazohusu matumizi ya Viuavijasumu (antibiotiki) utatekelezwa katika nchi yetu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja:hint">
+            <value>Dodosa katika maeneo ifuatayo: Tabia za wateja/wagonjwa</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani:label">
+            <value>20.c Kuna athari gani zitatokea iwapo udhibiti na usimamizi thabiti wa sheria na kanuni zinazohusu matumizi ya Viuavijasumu (antibiotiki) utatekelezwa katika nchi yetu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani:hint">
+            <value>Dodosa katika maeneo ifuatayo: Wauza dawa wa mitaani</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya:label">
+            <value>20.e Kuna athari gani zitatokea iwapo udhibiti na usimamizi thabiti wa sheria na kanuni zinazohusu matumizi ya Viuavijasumu (antibiotiki) utatekelezwa katika nchi yetu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya:hint">
+            <value>Dodosa katika maeneo ifuatayo: Bima ya Afya</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula:label">
+            <value>20.d Kuna athari gani zitatokea iwapo udhibiti na usimamizi thabiti wa sheria na kanuni zinazohusu matumizi ya Viuavijasumu (antibiotiki) utatekelezwa katika nchi yetu? </value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula:hint">
+            <value>Dodosa katika maeneo ifuatayo: Viwanda vya uzalishaji wa dawa/vyakula vya mifugo</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2:label">
+            <value>Utekelezaji wa Mpango-Kazi</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2/namna_uwezo_kiuchumi_pelekea_matumiz_sio_antibi:label">
+            <value>21. Je ni kwa namna gani uwezo wa kiuchumi wa mteja/mgonjwa unapelekea matumizi yasiyo sahihi ya antibiotiki/viuavijasumu?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2/maoni_changamoto_za_utekelezaji_mpango_kazi:label">
+            <value>22. Kwa maoni yako, ni nini changamoto kubwa za utelekezaji wa Mpango-Kazi wa Taifa ya Udhibiti wa Viuavijasumu?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2/maoni_changamoto_swal22:label">
+            <value>23.	Kwa maoni yako, ni nini ushauri wako kupambana na changamoto hizo (Swali la 22)?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2/nin_kifanyike_kuboresha_matumiz_antibiotik:label">
+            <value>24.	Kwa maoni yako, ni nini kifanyike kuboresha matumizi ya antibiotiki/Viuavijasumu  Tanzania?</value>
+          </text>
+          <text id="/data/utekelezaji_mpango_kazi2/maoni_kifanyike_dhibiti_ongezeko_usugu:label">
+            <value>25. Kwa maoni yako, ni nini kifanyike kuzuia/kudhbiti ongezeko la usugu wa antibiotiki/viuavijasumu Tanzania?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifa_awali/wizara_taasisi" type="string"/>
+      <bind nodeset="/data/taarifa_awali/cheo" type="string"/>
+      <bind nodeset="/data/taarifa_awali/jinsia" type="select1"/>
+      <bind nodeset="/data/taarifa_awali/elimu" type="select1"/>
+      <bind nodeset="/data/taarifa_awali/miaka_kazini" type="string"/>
+      <bind nodeset="/data/taarifa_awali/namba_simu" type="decimal"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa/maswala_husu_usugu_antibiotik" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/watunga_sera" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/watendaji" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/jamii" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/maswala_muhimu_jadiliwa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/jukumu_lako_kuandaa_mpango_taifa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/sekta_wajibu_kuratibu_mkutano_kitaifa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/namna_mikutano_andaliwa" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/changamoto_wakati_majadiliano" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/maudhui_mpango_taifa_usugu" type="string"/>
+      <bind nodeset="/data/uaandaji_mpango_kazi_taifa2/maswali_nyeti_kosekan_mpango_taifa" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/kwa_kiasi_gani_taasis_yako_shirik_ufaham" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/sheria_kanuni_zipi_simamia_antibiotiki" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi2/namna_uwezo_kiuchumi_pelekea_matumiz_sio_antibi" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi2/maoni_changamoto_za_utekelezaji_mpango_kazi" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi2/maoni_changamoto_swal22" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi2/nin_kifanyike_kuboresha_matumiz_antibiotik" type="string"/>
+      <bind nodeset="/data/utekelezaji_mpango_kazi2/maoni_kifanyike_dhibiti_ongezeko_usugu" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Watunga Sera ',': ',/data/taarifa_awali/wizara_taasisi)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifa_awali" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_awali:label')"/>
+      <input ref="/data/taarifa_awali/wizara_taasisi">
+        <label ref="jr:itext('/data/taarifa_awali/wizara_taasisi:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/cheo">
+        <label ref="jr:itext('/data/taarifa_awali/cheo:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_awali/jinsia">
+        <label ref="jr:itext('/data/taarifa_awali/jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/jinsia:option0')"/>
+          <value>Me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/jinsia:option1')"/>
+          <value>ke</value>
+        </item>
+      </select1>
+      <select1 ref="/data/taarifa_awali/elimu">
+        <label ref="jr:itext('/data/taarifa_awali/elimu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/elimu:option0')"/>
+          <value>shahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/elimu:option1')"/>
+          <value>astashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/elimu:option2')"/>
+          <value>cheti</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_awali/miaka_kazini">
+        <label ref="jr:itext('/data/taarifa_awali/miaka_kazini:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/namba_simu">
+        <label ref="jr:itext('/data/taarifa_awali/namba_simu:label')"/>
+      </input>
+    </group>
+    <group ref="/data/uaandaji_mpango_kazi_taifa" appearance="field-list">
+      <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa:label')"/>
+      <input ref="/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa/mpango_udhibiti_2017:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa/maswala_husu_usugu_antibiotik">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa/maswala_husu_usugu_antibiotik:label')"/>
+      </input>
+    </group>
+    <group ref="/data/uaandaji_mpango_kazi_taifa1" appearance="field-list">
+      <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1:label')"/>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/washiriki_wa_maendeleo:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/watunga_sera">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watunga_sera:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watunga_sera:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watoa_maamuzi:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/watendaji">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watendaji:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/watendaji:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/jamii">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/jamii:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/jamii:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine1:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa1/madau_mwingine2:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/uaandaji_mpango_kazi_taifa2" appearance="field-list">
+      <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2:label')"/>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/maswala_muhimu_jadiliwa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/maswala_muhimu_jadiliwa:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/jukumu_lako_kuandaa_mpango_taifa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/jukumu_lako_kuandaa_mpango_taifa:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/sekta_kua_na_ushawishi_mkubwa:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa:label')"/>
+        <hint ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/ushiriki_mikutano_andaliwa_kitaifa:hint')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/sekta_wajibu_kuratibu_mkutano_kitaifa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/sekta_wajibu_kuratibu_mkutano_kitaifa:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/namna_mikutano_andaliwa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/namna_mikutano_andaliwa:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/changamoto_wakati_majadiliano">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/changamoto_wakati_majadiliano:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/maudhui_mpango_taifa_usugu">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/maudhui_mpango_taifa_usugu:label')"/>
+      </input>
+      <input ref="/data/uaandaji_mpango_kazi_taifa2/maswali_nyeti_kosekan_mpango_taifa">
+        <label ref="jr:itext('/data/uaandaji_mpango_kazi_taifa2/maswali_nyeti_kosekan_mpango_taifa:label')"/>
+      </input>
+    </group>
+    <group ref="/data/utekelezaji_mpango_kazi" appearance="field-list">
+      <label ref="jr:itext('/data/utekelezaji_mpango_kazi:label')"/>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_afya_binadamu:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_afya_wanyama:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_pori:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_kilimo_chakula:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_wanyama_mazingira:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_ingine:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_ingine:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi/sekta_shirik_ingine1:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/utekelezaji_mpango_kazi1" appearance="field-list">
+      <label ref="jr:itext('/data/utekelezaji_mpango_kazi1:label')"/>
+      <input ref="/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/taasis_yako_shiriki_ongeza_ufahamu:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/kwa_kiasi_gani_taasis_yako_shirik_ufaham">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/kwa_kiasi_gani_taasis_yako_shirik_ufaham:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/mambo_taasisi_yako_inafanya_kujenga_uwezo:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/mikakati_taasisi_yako_kupunguza_maambukizi:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/namna_taasisi_inazuia_uchafu_mazingira:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/sheria_kanuni_zipi_simamia_antibiotiki">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/sheria_kanuni_zipi_simamia_antibiotiki:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_matibabu_utoaji_tiba:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wateja:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_wauzaji_dawa_mitaani:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_bima_afya:hint')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula:label')"/>
+        <hint ref="jr:itext('/data/utekelezaji_mpango_kazi1/athari_gani_tabia_viwanda_uzalishaji_dawa_chakula:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/utekelezaji_mpango_kazi2" appearance="field-list">
+      <label ref="jr:itext('/data/utekelezaji_mpango_kazi2:label')"/>
+      <input ref="/data/utekelezaji_mpango_kazi2/namna_uwezo_kiuchumi_pelekea_matumiz_sio_antibi">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi2/namna_uwezo_kiuchumi_pelekea_matumiz_sio_antibi:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi2/maoni_changamoto_za_utekelezaji_mpango_kazi">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi2/maoni_changamoto_za_utekelezaji_mpango_kazi:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi2/maoni_changamoto_swal22">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi2/maoni_changamoto_swal22:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi2/nin_kifanyike_kuboresha_matumiz_antibiotik">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi2/nin_kifanyike_kuboresha_matumiz_antibiotik:label')"/>
+      </input>
+      <input ref="/data/utekelezaji_mpango_kazi2/maoni_kifanyike_dhibiti_ongezeko_usugu">
+        <label ref="jr:itext('/data/utekelezaji_mpango_kazi2/maoni_kifanyike_dhibiti_ongezeko_usugu:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

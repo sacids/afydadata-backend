@@ -1,0 +1,3136 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>CHR M and E Tool</h:title>
+    <model>
+      <instance>
+        <data id="build_CHR-M-and-E_15831234506032020">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general_info>
+            <district/>
+          </general_info>
+          <general_info2>
+            <ward_gairo/>
+            <ward_mvomero/>
+            <ward_malinyi/>
+            <village/>
+            <name/>
+            <sex/>
+          </general_info2>
+          <integration_community>
+            <intro_self_com_leaders/>
+            <intro_self_com_ward_health_off/>
+            <intro_to_comm_members/>
+          </integration_community>
+          <how_were_introduced/>
+          <how_were_intro_other/>
+          <general_inf_about_disease>
+            <specimen_data_collect/>
+            <detect_invest_disease/>
+            <case_management/>
+            <recording_events/>
+            <data_analy_interpre/>
+            <data_use_planining/>
+            <reporting/>
+            <responses/>
+            <mAndE/>
+            <other5/>
+          </general_inf_about_disease>
+          <roles_disease_surveillance/>
+          <other_roles_disease_surveillance/>
+          <most_diff_aspect_rec_human_animal>
+            <notified_about_case/>
+            <travelling_case_location/>
+            <use_phone/>
+            <gaining_trust/>
+            <explaining_your_role_to_comm/>
+            <gett_com_cooperate/>
+            <gett_leader_communi/>
+            <gett_leader_plitical_leader/>
+            <too_busy_other_acti/>
+            <other7/>
+          </most_diff_aspect_rec_human_animal>
+          <strategy_engage_comm_disease_surve_include>
+            <comm_calls_me/>
+            <visit_comm/>
+            <other8/>
+          </strategy_engage_comm_disease_surve_include>
+          <where_get_most_human_animal_healt_events>
+            <at_house_holds/>
+            <grazing_site/>
+            <dipping_site/>
+            <livestock_market/>
+            <at_celebratory/>
+            <other9/>
+          </where_get_most_human_animal_healt_events>
+          <ever_exper_diseas_outbreak_human_past12months/>
+          <if_yes_10_describe_outbreak>
+            <human_pop_affected_mainly/>
+            <estimation_cases_number/>
+            <major_clinica_manif/>
+            <major_clinica_manif_other>
+              0
+            </major_clinica_manif_other>
+            
+            <number_days_onset_detec>
+              0
+            </number_days_onset_detec>
+            <number_days_onset_notif>
+              0
+            </number_days_onset_notif>
+            <no_btwn_outbreak_onset_verification>
+              0
+            </no_btwn_outbreak_onset_verification>
+            <no_days_btnoutbreak_onset_intervention>
+              0
+            </no_days_btnoutbreak_onset_intervention>
+            <no_days_bten_outbreak_onset_outb_end/>
+          </if_yes_10_describe_outbreak>
+          <ever_exper_diseas_outbreak_animal_past12months/>
+          <if_yes_12_describe_outbreak_animal>
+            <animal_pop_affected_mainly/>
+            <estimation_cases_number_animal/>
+            <major_clinica_manif_animal/>
+              
+            <major_clinica_manif1_animal_other>
+              0
+            </major_clinica_manif1_animal_other>
+            <number_days_onset_detec_animal>
+              0
+            </number_days_onset_detec_animal>
+            <number_days_onset_notif_animal>
+              0
+            </number_days_onset_notif_animal>
+            <no_btwn_outbreak_onset_verification_animal>
+              0
+            </no_btwn_outbreak_onset_verification_animal>
+            <no_days_btnoutbreak_onset_intervention_animal>
+              0
+            </no_days_btnoutbreak_onset_intervention_animal>
+            <no_days_bten_outbreak_onset_outb_end_animal/>
+          </if_yes_12_describe_outbreak_animal>
+          <have_you_notify_higher_level/>
+          <how_notify_higher_level_on_diseas/>
+          <how_notify_higher_level_on_diseas_other/>
+          <factors_influnce_noti>
+            <occurance_new_disease/>
+            <no_human_affected/>
+            <no_animal_affected/>
+            <serious_disease_condition/>
+            <poor_progress_self_treat_attempt/>
+            <fast_spreading_disease/>
+            <increased_mortalities/>
+            <expected_immediate_response/>
+            <location_report_close_to_home/>
+            <disease_aff_both_human_animal/>
+            <other15/>
+          </factors_influnce_noti>
+          <limiting_factors_to_report>
+            <health_care_not_available/>
+            <lack_respons/>
+            <resp_feedb_being_late/>
+            <lack_trans_poor_road/>
+            <not_explicity_aware_to_who/>
+            <not_explicity_aware_time/>
+            <run_out_paper/>
+            <not_able_detect_human/>
+            <not_able_detect_animal/>
+            <not_aware_how_should_record/>
+            <other16/>
+          </limiting_factors_to_report>
+          <feedback_response>
+            <do_you_get_feedback_submission/>
+          </feedback_response>
+          <how_do_get_feedback/>
+          <how_do_get_feedback_other/>
+          <prov_health_care_services>
+            <no_reffered_using_refferal_forms/>
+          </prov_health_care_services>
+          <how_often_use_afyadata/>
+          <technical_issues_afyadata>
+            <how_easy_use_afyadata/>
+            <is_app_working/>
+            <ever_used_feedback_feature/>
+            <features_need_improvement/>
+            <features_need_improvement_other>
+              0
+            </features_need_improvement_other>
+            <features_motivating_cont_use_afyadata/>
+            <features_motivating_cont_use_afyadata_other>
+              None
+            </features_motivating_cont_use_afyadata_other>
+            <challenges_using_afyadata/>
+            <challenges_using_afyadata_other>
+              None
+            </challenges_using_afyadata_other>
+          </technical_issues_afyadata>
+          <whatsapp_being_usefull/>
+          <whatsapp>
+            <how_often_using_whatspp_platform/>
+          </whatsapp>
+          <general_skills_on_tech>
+            <how_rate_skills_using_smart_phones/>
+            <social_value_afyadata_added_to_you/>
+            <social_value_afyadata_added_to_you_other>
+              None
+            </social_value_afyadata_added_to_you_other>
+          </general_skills_on_tech>
+          <benefit_limitation>
+            <benefit1>
+              0
+            </benefit1>
+            <benefit2>
+              0
+            </benefit2>
+            <benefit3>
+              0
+            </benefit3>
+            <limitation1>
+              0
+            </limitation1>
+            <limitation2>
+              0
+            </limitation2>
+            <limitation3>
+              0
+            </limitation3>
+          </benefit_limitation>
+          <recommendation/>
+          <location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general_info:label">
+            <value>A. General Information</value>
+          </text>
+          <text id="/data/general_info/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/general_info/district:option0">
+            <value>Gairo</value>
+          </text>
+          <text id="/data/general_info/district:option1">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/general_info/district:option2">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/general_info2:label">
+            <value>A. General Information</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:label">
+            <value>Ward (Gairo)</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option0">
+            <value>Chakwale</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option1">
+            <value>Chanjale</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option2">
+            <value>Chigela</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option3">
+            <value>Chihwaga</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option4">
+            <value>Chiwale</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option5">
+            <value>Ibuti</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option6">
+            <value>Idibo</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option7">
+            <value>Ihenje </value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option8">
+            <value>Ikege</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option9">
+            <value>Italagwe</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option10">
+            <value>Iyogwe</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option11">
+            <value>Kibedya</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option12">
+            <value>Kilimani</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option13">
+            <value>Kimashale</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option14">
+            <value>Leshata</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option15">
+            <value>Lubeho</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option16">
+            <value>Madege</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option17">
+            <value>Mkalama</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option18">
+            <value>Msingisi</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option19">
+            <value>Muhereza</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option20">
+            <value>Ngayaki</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option21">
+            <value>Ngholongo</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option22">
+            <value>Nguyami</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option23">
+            <value>Rubeho</value>
+          </text>
+          <text id="/data/general_info2/ward_gairo:option24">
+            <value>Talagwe</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:label">
+            <value>Ward (Mvomero)</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option0">
+            <value>Bwega</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option1">
+            <value>Diangaoya</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option2">
+            <value>Dibamba</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option3">
+            <value>Diluma</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option4">
+            <value>Diongoya</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option5">
+            <value>Gonja</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option6">
+            <value>Hembeti</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option7">
+            <value>Kanga</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option8">
+            <value>Kibati</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option9">
+            <value>Kichangani</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option10">
+            <value>Makuyuni</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option11">
+            <value>Matale</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option12">
+            <value>Mgudeni</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option13">
+            <value>Mkindo</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option14">
+            <value>Msimba</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option15">
+            <value>Mtibwa</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option16">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option17">
+            <value>Mziha</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option18">
+            <value>Pandambili</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option19">
+            <value>Pemba</value>
+          </text>
+          <text id="/data/general_info2/ward_mvomero:option20">
+            <value>Sungaji</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:label">
+            <value>ward (Malinyi)</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option0">
+            <value>Biro</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option1">
+            <value>Igawa</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option2">
+            <value>Itete</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option3">
+            <value>Kilosa mpepo</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option4">
+            <value>Kipingo</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option5">
+            <value>Kitiliwele</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option6">
+            <value>Kiwale</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option7">
+            <value>Makerere</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option8">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option9">
+            <value>Mchangani</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option10">
+            <value>Misegese</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option11">
+            <value>Mpepo</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option12">
+            <value>Mtimbira</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option13">
+            <value>Ngohelanga</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option14">
+            <value>Njiwa</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option15">
+            <value>Sofi</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option16">
+            <value>Sofi Majiji</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option17">
+            <value>Usangu</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option18">
+            <value>Usangula</value>
+          </text>
+          <text id="/data/general_info2/ward_malinyi:option19">
+            <value>Usangule A</value>
+          </text>
+          <text id="/data/general_info2/village:label">
+            <value>Village/Street</value>
+          </text>
+          <text id="/data/general_info2/name:label">
+            <value>Name of Interviewee</value>
+          </text>
+          <text id="/data/general_info2/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/general_info2/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/general_info2/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/integration_community:label">
+            <value>B. Integration into the community</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_leaders:label">
+            <value>1.	Did you introduce yourself to your community leaders after you had completed training on the use of ICT tools in disease surveillance?</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_leaders:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_leaders:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_ward_health_off:label">
+            <value>2.	Did you introduce yourself to your ward health officer after you had completed training on the use of ICT tools in disease surveillance?</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_ward_health_off:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/integration_community/intro_self_com_ward_health_off:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/integration_community/intro_to_comm_members:label">
+            <value>3.	Were you introduced to community members (members of your village) after you had completed training on the use of ICT tools in disease surveillance?</value>
+          </text>
+          <text id="/data/integration_community/intro_to_comm_members:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/integration_community/intro_to_comm_members:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_were_introduced:label">
+            <value>4.	If yes to Q3: How were you introduced to your community members?</value>
+          </text>
+          <text id="/data/how_were_introduced:option0">
+            <value>Through village meeting</value>
+          </text>
+          <text id="/data/how_were_introduced:option1">
+            <value>Through household visits</value>
+          </text>
+          <text id="/data/how_were_introduced:option2">
+            <value>Through religious gathering</value>
+          </text>
+          <text id="/data/how_were_introduced:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_were_intro_other:label">
+            <value>Other mechanism were you introduced to community members</value>
+          </text>
+          <text id="/data/how_were_intro_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/general_inf_about_disease:label">
+            <value>C.	General information about Disease Surveillance: 5.	If someone asks you, you describe disease surveillance to them to include the following: Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/specimen_data_collect:label">
+            <value>5.1.	Specimen/sample/data collection and preservation</value>
+          </text>
+          <text id="/data/general_inf_about_disease/specimen_data_collect:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/detect_invest_disease:label">
+            <value>5.2. Detection/investigation of disease events</value>
+          </text>
+          <text id="/data/general_inf_about_disease/detect_invest_disease:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/case_management:label">
+            <value>5.3.	Case management</value>
+          </text>
+          <text id="/data/general_inf_about_disease/case_management:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/recording_events:label">
+            <value>5.4.	Recoding of diseases events</value>
+          </text>
+          <text id="/data/general_inf_about_disease/recording_events:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/data_analy_interpre:label">
+            <value>5.5.	Data analysis and interpretation</value>
+          </text>
+          <text id="/data/general_inf_about_disease/data_analy_interpre:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/data_use_planining:label">
+            <value>5.6.	Data use in planning and decision making</value>
+          </text>
+          <text id="/data/general_inf_about_disease/data_use_planining:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/reporting:label">
+            <value>5.7.	Reporting </value>
+          </text>
+          <text id="/data/general_inf_about_disease/reporting:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/responses:label">
+            <value>5.8.	Responses (actions) on reported diseases</value>
+          </text>
+          <text id="/data/general_inf_about_disease/responses:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/mAndE:label">
+            <value>5.9.	Monitoring and evaluation of responses (actions)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/mAndE:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/general_inf_about_disease/other5:label">
+            <value>5.9 Other</value>
+          </text>
+          <text id="/data/general_inf_about_disease/other5:hint">
+            <value>separate by comma </value>
+          </text>
+          <text id="/data/roles_disease_surveillance:label">
+            <value>6.	Your roles in disease surveillance include</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:hint">
+            <value>Roles, challenges and strategies in disease surveillance</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option0">
+            <value>Specimen/sample/data collection </value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option1">
+            <value>Detection/investigation of disease events</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option2">
+            <value>Case management</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option3">
+            <value>Public health education</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option4">
+            <value>Sensitisation on sanitation and hygiene</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option5">
+            <value>Recoding of diseases events</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option6">
+            <value>Reporting of disease events</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option7">
+            <value>Data analysis and interpretation</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option8">
+            <value>Data use in planning and decision making</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option9">
+            <value>Providing feedback to communities</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option10">
+            <value>Providing first aid services to community </value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option11">
+            <value>Referring patients to health facilities</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option12">
+            <value>Verification of public health events</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option13">
+            <value>Monitoring and evaluation of responses (actions/interventions)</value>
+          </text>
+          <text id="/data/roles_disease_surveillance:option14">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_roles_disease_surveillance:label">
+            <value>Other roles in disease surveillance</value>
+          </text>
+          <text id="/data/other_roles_disease_surveillance:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal:label">
+            <value>7.	The most difficult aspect of recording a case of human or animal in your area has been:</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/notified_about_case:label">
+            <value>7.1.	Being notified about a case</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/notified_about_case:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/travelling_case_location:label">
+            <value>7.2.	Travelling to the case location</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/travelling_case_location:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/use_phone:label">
+            <value>7.3.	Using the phone</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/use_phone:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gaining_trust:label">
+            <value>7.4.	Gaining trust of patient</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gaining_trust:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm:label">
+            <value>7.5.	Explaining your role to patient/community</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_com_cooperate:label">
+            <value>7.6.	Getting community to cooperate</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_com_cooperate:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_leader_communi:label">
+            <value>7.7.	Getting cooperation from community leaders</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_leader_communi:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader:label">
+            <value>7.8.	Getting cooperation from political leaders</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/too_busy_other_acti:label">
+            <value>7.9.	Being too busy with other activities</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/too_busy_other_acti:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/other7:label">
+            <value>7.10. Other</value>
+          </text>
+          <text id="/data/most_diff_aspect_rec_human_animal/other7:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include:label">
+            <value>8.	Your strategies to engage with community in disease surveillance has included</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/comm_calls_me:label">
+            <value>8.1.	Community member calls me</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/comm_calls_me:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/visit_comm:label">
+            <value>8.2 Visit community</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/visit_comm:option0">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/visit_comm:option1">
+            <value>Twice a week</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/visit_comm:option2">
+            <value>Once a month</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/visit_comm:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/other8:label">
+            <value>8.3. Other Strategies</value>
+          </text>
+          <text id="/data/strategy_engage_comm_disease_surve_include/other8:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events:label">
+            <value>9.	While working in your area, you get most of human and animal health events:</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/at_house_holds:label">
+            <value>9.1.	At households</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/at_house_holds:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/grazing_site:label">
+            <value>9.2.	At grazing sites</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/grazing_site:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/dipping_site:label">
+            <value>9.3.	At dipping sites</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/dipping_site:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/livestock_market:label">
+            <value>9.4.	A livestock markets</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/livestock_market:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/at_celebratory:label">
+            <value>9.5.	At celebratory events</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/at_celebratory:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/other9:label">
+            <value>9.6. Other</value>
+          </text>
+          <text id="/data/where_get_most_human_animal_healt_events/other9:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_human_past12months:label">
+            <value>10.	Have you ever experienced any disease outbreak in humans in your village over the past 12 months? </value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_human_past12months:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_human_past12months:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak:label">
+            <value>11.	If yes to Qn. 10, could you describe the last outbreak (probe on average timelines if respondent cannot recall exactly)</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:label">
+            <value>11.1	Human population mainly affected</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:option0">
+            <value>Under five years old</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:option1">
+            <value>≥ 5 years old</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/estimation_cases_number:label">
+            <value>11.2	Estimate of the number of cases</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/estimation_cases_number:option0">
+            <value>Less than 5</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/estimation_cases_number:option1">
+            <value>5-10</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/estimation_cases_number:option2">
+            <value>11-50</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/estimation_cases_number:option3">
+            <value>Above 50</value>
+          </text>
+
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:label">
+            <value>11.3	Major clinical manifestations observed/reported</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option0">
+            <value>Kupoteza hamu ya kula</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option1">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option2">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option3">
+            <value>Kufunga choo</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option4">
+            <value>Kutapika/kichefuchefu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option5">
+            <value>Kutapika damu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option6">
+            <value>Kukosa nguvu/maumivu ya viungo</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option7">
+            <value>Kupumua kwa shida/kukoroma</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option8">
+            <value>Kuhema kwa haraka</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option9">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option10">
+            <value>Kukohoa damu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option11">
+            <value>Damu kutoka puani/mdomoni/masikioni/machoni/sehemu za haja ndogo na kubwa</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option12">
+            <value>Kuvimba tezi maeneo ya shingo, makwapa, mapaja</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option13">
+            <value>Kuwashwa ngozi/mapunye/upele</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option14">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option15">
+            <value>Mimba kutoka</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option16">
+            <value>Kuumwa tumbo</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option17">
+            <value>Kuchanganyikiwa</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option18">
+            <value>Kukakamaa shingo/misuli ya mdomo</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option19">
+            <value>Degedege</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option20">
+            <value>Kuumwa kichwa</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option21">
+            <value>Kutokwa na machozi/kuvimba macho/macho kuwa mekundu</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option22">
+            <value>Macho kutumbukia ndani</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option23">
+            <value>Kupofuka</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option24">
+            <value>Kusinzia mchana</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option25">
+            <value>Manjano kwenye sehemu nyeupe ya macho/ngozi</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option26">
+            <value>Ngozi ikiﬁnywa/ kubonyezwa inarudi polepole sana</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option27">
+            <value>Kung’atwa au kuumwa na mnyama</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option28">
+            <value>Michubuko/vidonda mdomoni</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option29">
+            <value>Homa/kutetemeka/kutokwa jasho/kuhisi baridi</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif:option30">
+            <value>Dalili zingine</value>
+          </text>
+
+          <text id="/data/if_yes_10_describe_outbreak/major_clinica_manif_other:label">
+            <value>Other clinical manifestations observed/reported</value>
+          </text>
+
+          
+          <text id="/data/if_yes_10_describe_outbreak/number_days_onset_detec:label">
+            <value>11.4	No. of days between onset of outbreak and detection</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/number_days_onset_detec:hint">
+            <value>0=Don’t remember</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/number_days_onset_notif:label">
+            <value>11.5	No. of days between onset of outbreak and notification to higher level</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/number_days_onset_notif:hint">
+            <value>0=Don't remember, NN=Never Notified</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification:label">
+            <value>11.6	No. days between outbreak onset and verification</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification:hint">
+            <value>0=Don't remember, NV=Never verified</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention:label">
+            <value>11.7	No. days between outbreak onset and intervention</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention:hint">
+            <value>0=Don't remember, NI=No intervention</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end:label">
+            <value>11.8	No. days between outbreak onset and outbreak end</value>
+          </text>
+          <text id="/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end:hint">
+            <value>0=Don't remember</value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_animal_past12months:label">
+            <value>12.	Have you ever experienced any disease outbreak in animals in your village over the past 12 months? </value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_animal_past12months:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ever_exper_diseas_outbreak_animal_past12months:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal:label">
+            <value>13.	If yes to Qn. 12, could you describe the last outbreak (probe on average timelines if respondent cannot recall exactly)</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:label">
+            <value>13.1	Animal population mainly affected</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:option0">
+            <value>Under 1 year old</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:option1">
+            <value>≥ 1 year old</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:label">
+            <value>13.2	Estimate of the number of cases</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option0">
+            <value>Less than 5</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option1">
+            <value>5-10</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option2">
+            <value>11-50</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option3">
+            <value>Above 50</value>
+          </text>
+
+
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:label">
+            <value>13.3	Major clinical manifestations observed/reported</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option0">
+            <value>Kutupa mimba</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option1">
+            <value>Kupoteza hamu ya kula</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option2">
+            <value>kuhara damu</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option3">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option4">
+            <value>Kutapika</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option5">
+            <value>Kushindwa kusimama/kutembea</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option6">
+            <value>Kupumua kwa shida/kukoroma</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option7">
+            <value>Kuhema kwa haraka</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option8">
+            <value>Kupiga chafya</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option9">
+            <value>Homa/kutetemeka</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option10">
+            <value>Kupunguza utoaji wa maziwa</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option11">
+            <value>Kupunguza utagaji</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option12">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option13">
+            <value>Kuchuriza kamasi/udenda/mate </value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option14">
+            <value>Kutoa mapovu puani/mdomoni</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option15">
+            <value>Damu isiyoganda kutoka puani/mdomoni/masikioni/sehemu za haja ndogo/kubwa</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option16">
+            <value>Uvimbe maungio ya miguu/kichwa/macho</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option17">
+            <value>Kuzurura/kubweka hovyo</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option18">
+            <value>Kushambulia watu/wanyama wengine</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option19">
+            <value>Ukali/ukimya wa kupitiliza</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option20">
+            <value>Kupinda shingo/kuzungukazunguka</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option21">
+            <value>Ukungu machoni</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option22">
+            <value>Kutoa machozi</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option23">
+            <value>Vidonda midomo/miguu/kwato/ulimi</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option24">
+            <value>Kunyonyoka</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option25">
+            <value>Uvimbe mgumu/vipele kwenye ngozi</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option26">
+            <value>Kubadilika rangi ya ngozi</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option27">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option28">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option29">
+            <value>Dalili zingine</value>
+          </text>
+
+
+          <text id="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif1_animal_other:label">
+            <value> Other Major clinical manifestations observed/reported</value>
+          </text>
+          
+
+
+
+          <text id="/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal:label">
+            <value>13.4	No. of days between onset of outbreak and detection</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal:hint">
+            <value>0=Don’t remember</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal:label">
+            <value>13.5	No. of days between onset of outbreak and notification to higher level</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal:hint">
+            <value>0=Don't remember, NN=Never Notified</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal:label">
+            <value>13.6	No. days between outbreak onset and verification</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal:hint">
+            <value>0=Don't remember, NV=Never verified</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal:label">
+            <value>13.7	No. days between outbreak onset and intervention</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal:hint">
+            <value>0=Don't remember, NI=No intervention</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal:label">
+            <value>13.8	No. days between outbreak onset and outbreak end</value>
+          </text>
+          <text id="/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal:hint">
+            <value>0=Don't remember</value>
+          </text>
+          <text id="/data/have_you_notify_higher_level:label">
+            <value>14. Have you ever notify higher level?</value>
+          </text>
+          <text id="/data/have_you_notify_higher_level:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/have_you_notify_higher_level:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:label">
+            <value>14.1	How have you been notifying higher level authority on disease and other health events? </value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option0">
+            <value>Physical visit</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option1">
+            <value>Telephone call</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option2">
+            <value>Short message service</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option3">
+            <value>Sending out report through public transport</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option4">
+            <value>Sending out report through motorcycle</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option5">
+            <value>Through AfyaData</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas_other:label">
+            <value>Other mechanism of notifying higher level authority on disease and other health events</value>
+          </text>
+          <text id="/data/how_notify_higher_level_on_diseas_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/factors_influnce_noti:label">
+            <value>G. Factors influencing notification: 15.	The following factors influence/would influence you to report disease and other health events</value>
+          </text>
+          <text id="/data/factors_influnce_noti/occurance_new_disease:label">
+            <value>15.1	Occurrence of new disease</value>
+          </text>
+          <text id="/data/factors_influnce_noti/occurance_new_disease:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/no_human_affected:label">
+            <value>15.2	Number of humans affected</value>
+          </text>
+          <text id="/data/factors_influnce_noti/no_human_affected:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/no_animal_affected:label">
+            <value>15.3	Number of animals affected</value>
+          </text>
+          <text id="/data/factors_influnce_noti/no_animal_affected:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/serious_disease_condition:label">
+            <value>15.4	Seriousness of the disease condition</value>
+          </text>
+          <text id="/data/factors_influnce_noti/serious_disease_condition:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/poor_progress_self_treat_attempt:label">
+            <value>15.5	Poor progress upon self-treatment attempt</value>
+          </text>
+          <text id="/data/factors_influnce_noti/poor_progress_self_treat_attempt:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/fast_spreading_disease:label">
+            <value>15.6	Fast spreading disease</value>
+          </text>
+          <text id="/data/factors_influnce_noti/fast_spreading_disease:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/increased_mortalities:label">
+            <value>15.7	Increased mortalities</value>
+          </text>
+          <text id="/data/factors_influnce_noti/increased_mortalities:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/expected_immediate_response:label">
+            <value>15.8	Expected immediate response/feedback </value>
+          </text>
+          <text id="/data/factors_influnce_noti/expected_immediate_response:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/location_report_close_to_home:label">
+            <value>15.9	Location to report being close to my home</value>
+          </text>
+          <text id="/data/factors_influnce_noti/location_report_close_to_home:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/disease_aff_both_human_animal:label">
+            <value>15.10	Disease affecting both animals and humans</value>
+          </text>
+          <text id="/data/factors_influnce_noti/disease_aff_both_human_animal:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/factors_influnce_noti/other15:label">
+            <value>15.11. Other</value>
+          </text>
+          <text id="/data/factors_influnce_noti/other15:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/limiting_factors_to_report:label">
+            <value>16.	The limiting factors for you to report disease and other health events include:</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/health_care_not_available:label">
+            <value>16.1	Health care services not available in my area</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/health_care_not_available:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/lack_respons:label">
+            <value>16.2	Lack of response/feedback/support when I report an event</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/lack_respons:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/resp_feedb_being_late:label">
+            <value>16.3	Response/feedback being made late when I report an event</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/resp_feedb_being_late:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/lack_trans_poor_road:label">
+            <value>16.4	Lack of transport/poor road infrastructure</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/lack_trans_poor_road:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_explicity_aware_to_who:label">
+            <value>16.5	Not explicitly aware to whom I should report</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_explicity_aware_to_who:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_explicity_aware_time:label">
+            <value>16.6	Not explicitly aware when I should report</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_explicity_aware_time:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/run_out_paper:label">
+            <value>16.7	Run out of forms</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/run_out_paper:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_able_detect_human:label">
+            <value>16.8	Not able to detect/recognize disease events in humans</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_able_detect_human:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_able_detect_animal:label">
+            <value>16.9	Not able to detect/recognize disease events in animals</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_able_detect_animal:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_aware_how_should_record:label">
+            <value>16.10 Not aware on how I should record disease events</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/not_aware_how_should_record:hint">
+            <value>Strongly agree(1), Agree(2), Neither agree Nor disagree (Neutral)(3), Disagree (4), Strongly disagree(5)</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/other16:label">
+            <value>16.11. Other</value>
+          </text>
+          <text id="/data/limiting_factors_to_report/other16:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/feedback_response:label">
+            <value>H.	Feedback and response </value>
+          </text>
+          <text id="/data/feedback_response/do_you_get_feedback_submission:label">
+            <value>17.	After submitting a report on health events to a higher level, do you get a feedback </value>
+          </text>
+          <text id="/data/feedback_response/do_you_get_feedback_submission:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/feedback_response/do_you_get_feedback_submission:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/how_do_get_feedback:label">
+            <value>18.	If yes in Qn. 17: how do you get feedback?</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option0">
+            <value>Through Afyadata</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option1">
+            <value>Physical visit</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option2">
+            <value>Paper-based communication</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option3">
+            <value>Telephone call</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option4">
+            <value>Short message service</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option5">
+            <value>Public transport</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option6">
+            <value>Motorcycle</value>
+          </text>
+          <text id="/data/how_do_get_feedback:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_do_get_feedback_other:label">
+            <value>Other mechanism of getting feedback</value>
+          </text>
+          <text id="/data/prov_health_care_services:label">
+            <value>I.	Provision of health care services</value>
+          </text>
+          <text id="/data/prov_health_care_services/no_reffered_using_refferal_forms:label">
+            <value>19.	How many people have you referred to health facilities during the past 12 months using referral forms you were provided with? </value>
+          </text>
+          <text id="/data/prov_health_care_services/no_reffered_using_refferal_forms:hint">
+            <value>0=Never made referral</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:label">
+            <value>20.	How often do you use AfyaData?</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:option0">
+            <value>Daily</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:option1">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:option2">
+            <value>Monthly</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:option3">
+            <value>When case occurs</value>
+          </text>
+          <text id="/data/how_often_use_afyadata:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/technical_issues_afyadata:label">
+            <value>21. J.	Technical issues on the usage of AfyaData tools in the collection and submission of disease events report</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/how_easy_use_afyadata:label">
+            <value>21.1	How easy is it to use AfyaData app?</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/how_easy_use_afyadata:option0">
+            <value>Difficult</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/how_easy_use_afyadata:option1">
+            <value>Easy</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/how_easy_use_afyadata:option2">
+            <value>Very Easy</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/is_app_working:label">
+            <value>21.2	Is app working smoothly in your phone?</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/is_app_working:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/is_app_working:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/ever_used_feedback_feature:label">
+            <value>21.3	Have you ever used feedback feature to see if your report has been received?</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/ever_used_feedback_feature:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/ever_used_feedback_feature:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement:label">
+            <value>21.4	Which features of AfyaData tools do you think they need to be improved?</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement:option0">
+            <value>Feedback</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement:option1">
+            <value>Health tips (Afya Taarifa)</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement:option2">
+            <value>Forms (Fill, Edit, Get, Sent, Delete, View)</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement:option3">
+            <value>other</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement_other:label">
+            <value>Other features of AfyaData tools do you think they need to be improved</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_need_improvement_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:label">
+            <value>21.5	What have been the motivation for you to continue using AfyaData?  </value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option0">
+            <value>Enhances capturing of health events</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option1">
+            <value>Supports submission of health events</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option2">
+            <value>Supports feedback provision</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option3">
+            <value>A requirement related to my duties</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option4">
+            <value>Just like it</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other:label">
+            <value>Other Motivations</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:label">
+            <value>21.6	What challenges do you experience while using AfyaData? App </value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option0">
+            <value>Resend Failed forms</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option1">
+            <value>Signing in after accidentally sign out</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option2">
+            <value>Sending forms</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option3">
+            <value>Get Blank Forms</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option4">
+            <value>Fill blank form</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option5">
+            <value>Edit saved form</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option6">
+            <value>View sent forms</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata_other:label">
+            <value>Other Challenges</value>
+          </text>
+          <text id="/data/technical_issues_afyadata/challenges_using_afyadata_other:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/whatsapp_being_usefull:label">
+            <value>22.1 What is your opinions regarding the usefulness of CHR-Specialist WhatsApp group in disease surveillance and clinical case management?</value>
+          </text>
+          <text id="/data/whatsapp_being_usefull:option0">
+            <value>Not useful</value>
+          </text>
+          <text id="/data/whatsapp_being_usefull:option1">
+            <value>useful</value>
+          </text>
+          <text id="/data/whatsapp_being_usefull:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/whatsapp_being_usefull:option3">
+            <value>Never used  CHR-Specialist WhatsApp group </value>
+          </text>
+          <text id="/data/whatsapp:label">
+            <value>22.	WhatsApp group</value>
+          </text>
+          <text id="/data/whatsapp/how_often_using_whatspp_platform:label">
+            <value>22.2 How often do you use the CHR-Specialist WhatsApp platform?</value>
+          </text>
+          <text id="/data/whatsapp/how_often_using_whatspp_platform:option0">
+            <value>Daily</value>
+          </text>
+          <text id="/data/whatsapp/how_often_using_whatspp_platform:option1">
+            <value>Always</value>
+          </text>
+          <text id="/data/whatsapp/how_often_using_whatspp_platform:option2">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/general_skills_on_tech:label">
+            <value>K.	General skills on Technology and associated benefits</value>
+          </text>
+          <text id="/data/general_skills_on_tech/how_rate_skills_using_smart_phones:label">
+            <value>23.	How do you rate your skills of using smartphones since you received training? </value>
+          </text>
+          <text id="/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option0">
+            <value>Very good</value>
+          </text>
+          <text id="/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option1">
+            <value>Avarage</value>
+          </text>
+          <text id="/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option2">
+            <value>Poor</value>
+          </text>
+          <text id="/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option3">
+            <value>Very poor</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:label">
+            <value>24.	What kind of social value has Afyadata/smartphone added to you while working/living in your area</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option0">
+            <value>Gained self confidence</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option1">
+            <value>Recognition by community members</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option2">
+            <value>Respected by community members</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option3">
+            <value>Enhanced communication</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option4">
+            <value>Helped other to use my phone for their communication</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/general_skills_on_tech/social_value_afyadata_added_to_you_other:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/benefit_limitation:label">
+            <value>25.	What have you seen as benefits and limitations while using electronic system (AfyaData) in the collection and submission of outbreak/disease reports in the community?</value>
+          </text>
+          <text id="/data/benefit_limitation/benefit1:label">
+            <value>Benefit 1</value>
+          </text>
+          <text id="/data/benefit_limitation/benefit2:label">
+            <value>Benefit 2</value>
+          </text>
+          <text id="/data/benefit_limitation/benefit3:label">
+            <value>Benefit 3</value>
+          </text>
+          <text id="/data/benefit_limitation/limitation1:label">
+            <value>Limitation 1</value>
+          </text>
+          <text id="/data/benefit_limitation/limitation2:label">
+            <value>Limitation 2</value>
+          </text>
+          <text id="/data/benefit_limitation/limitation3:label">
+            <value>Limitation 3</value>
+          </text>
+          <text id="/data/recommendation:label">
+            <value>26.	What would you recommend to improve use of AfyaData tools in recording and submitting health information in the community</value>
+          </text>
+          <text id="/data/location:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general_info/district" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/general_info2/ward_gairo" type="select1" relevant="(selected(/data/general_info/district, 'gairo'))" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/general_info2/ward_mvomero" type="select1" relevant="(selected(/data/general_info/district, 'mvomero'))" required="true()" jr:requiredMsg="Wards is required"/>
+      <bind nodeset="/data/general_info2/ward_malinyi" type="select1" relevant="(selected(/data/general_info/district, 'malinyi'))" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/general_info2/village" type="string" required="true()" jr:requiredMsg="Village is required"/>
+      <bind nodeset="/data/general_info2/name" type="string" required="true()" jr:requiredMsg="Name is required"/>
+      <bind nodeset="/data/general_info2/sex" type="select1" required="true()" jr:requiredMsg="sex is required"/>
+      <bind nodeset="/data/integration_community/intro_self_com_leaders" type="select1" required="true()"/>
+      <bind nodeset="/data/integration_community/intro_self_com_ward_health_off" type="select1" required="true()"/>
+      <bind nodeset="/data/integration_community/intro_to_comm_members" type="select1" required="true()"/>
+
+      <bind nodeset="/data/how_were_introduced" type="select" relevant="(selected(/data/integration_community/intro_to_comm_members, 'yes'))" required="true()"/>
+      <bind nodeset="/data/how_were_intro_other" type="string" relevant="(selected(/data/how_were_introduced, 'other'))"/>
+
+      <bind nodeset="/data/general_inf_about_disease/specimen_data_collect" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/detect_invest_disease" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/case_management" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/recording_events" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/data_analy_interpre" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/data_use_planining" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/reporting" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/responses" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/mAndE" type="int" required="true()"/>
+      <bind nodeset="/data/general_inf_about_disease/other5" type="string"/>
+
+      <bind nodeset="/data/roles_disease_surveillance" type="select" required="true()"/>
+      <bind nodeset="/data/other_roles_disease_surveillance" type="string" relevant="(selected(/data/roles_disease_surveillance, 'other'))"/>
+
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/notified_about_case" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/travelling_case_location" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/use_phone" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/gaining_trust" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/gett_com_cooperate" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/gett_leader_communi" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader" type="int" required="true()"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/too_busy_other_acti" type="int"/>
+      <bind nodeset="/data/most_diff_aspect_rec_human_animal/other7" type="string"/>
+      <bind nodeset="/data/strategy_engage_comm_disease_surve_include/comm_calls_me" type="int" required="true()"/>
+      <bind nodeset="/data/strategy_engage_comm_disease_surve_include/visit_comm" type="select1" required="true()"/>
+      <bind nodeset="/data/strategy_engage_comm_disease_surve_include/other8" type="string"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/at_house_holds" type="int" required="true()"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/grazing_site" type="int" required="true()"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/dipping_site" type="int" required="true()"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/livestock_market" type="int" required="true()"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/at_celebratory" type="int" required="true()"/>
+      <bind nodeset="/data/where_get_most_human_animal_healt_events/other9" type="string"/>
+      <bind nodeset="/data/ever_exper_diseas_outbreak_human_past12months" type="select1" required="true()"/>
+
+      <bind nodeset="/data/if_yes_10_describe_outbreak/human_pop_affected_mainly" type="select1" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/estimation_cases_number" type="select1" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+
+
+      <bind nodeset="/data/if_yes_10_describe_outbreak/major_clinica_manif" type="select" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/major_clinica_manif_other" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))"/>
+
+
+
+      <bind nodeset="/data/if_yes_10_describe_outbreak/number_days_onset_detec" type="int" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/number_days_onset_notif" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end" type="int" relevant="(selected(/data/ever_exper_diseas_outbreak_human_past12months, 'yes'))" required="true()"/>
+
+      <bind nodeset="/data/ever_exper_diseas_outbreak_animal_past12months" type="select1" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly" type="select1" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal" type="select1" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal" type="select" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif1_animal_other" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))"/>
+
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal" type="int" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal" type="string" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+      <bind nodeset="/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal" type="int" relevant="(selected(/data/ever_exper_diseas_outbreak_animal_past12months, 'yes'))" required="true()"/>
+
+      <bind nodeset="/data/have_you_notify_higher_level" type="select1" required="true()"/>
+      <bind nodeset="/data/how_notify_higher_level_on_diseas" type="select" relevant="(selected(/data/have_you_notify_higher_level, 'yes'))" required="true()"/>
+      <bind nodeset="/data/how_notify_higher_level_on_diseas_other" type="string" relevant="(selected(/data/how_notify_higher_level_on_diseas, 'other'))"/>
+      <bind nodeset="/data/factors_influnce_noti/occurance_new_disease" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/no_human_affected" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/no_animal_affected" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/serious_disease_condition" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/poor_progress_self_treat_attempt" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/fast_spreading_disease" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/increased_mortalities" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/expected_immediate_response" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/location_report_close_to_home" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/disease_aff_both_human_animal" type="int" required="true()"/>
+      <bind nodeset="/data/factors_influnce_noti/other15" type="string"/>
+      <bind nodeset="/data/limiting_factors_to_report/health_care_not_available" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/lack_respons" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/resp_feedb_being_late" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/lack_trans_poor_road" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/not_explicity_aware_to_who" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/not_explicity_aware_time" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/run_out_paper" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/not_able_detect_human" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/not_able_detect_animal" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/not_aware_how_should_record" type="int" required="true()"/>
+      <bind nodeset="/data/limiting_factors_to_report/other16" type="string"/>
+      <bind nodeset="/data/feedback_response/do_you_get_feedback_submission" type="select1" required="true()"/>
+
+      <bind nodeset="/data/how_do_get_feedback" type="select" relevant="(selected(/data/feedback_response/do_you_get_feedback_submission, 'yes'))" required="true()"/>
+      <bind nodeset="/data/how_do_get_feedback_other" type="string" relevant="(selected(/data/how_do_get_feedback, 'other'))"/>
+
+
+      <bind nodeset="/data/prov_health_care_services/no_reffered_using_refferal_forms" type="string" required="true()"/>
+
+      <bind nodeset="/data/how_often_use_afyadata" type="select1" required="true()"/>
+
+      <bind nodeset="/data/technical_issues_afyadata/how_easy_use_afyadata" type="select1" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/is_app_working" type="select1" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/ever_used_feedback_feature" type="select1" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/features_need_improvement" type="select" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/features_need_improvement_other" type="string" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata" type="select" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other" type="string" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/challenges_using_afyadata" type="select" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+      <bind nodeset="/data/technical_issues_afyadata/challenges_using_afyadata_other" type="string" relevant="not(selected(/data/how_often_use_afyadata, 'never'))" required="true()"/>
+
+      <bind nodeset="/data/whatsapp_being_usefull" type="select1" required="true()"/>
+      <bind nodeset="/data/whatsapp/how_often_using_whatspp_platform" type="select1" relevant="not(selected(/data/whatsapp_being_usefull, 'never_used'))" required="true()"/>
+
+      <bind nodeset="/data/general_skills_on_tech/how_rate_skills_using_smart_phones" type="select1" required="true()"/>
+      <bind nodeset="/data/general_skills_on_tech/social_value_afyadata_added_to_you" type="select" required="true()"/>
+      <bind nodeset="/data/general_skills_on_tech/social_value_afyadata_added_to_you_other" type="string" required="true()"/>
+      <bind nodeset="/data/benefit_limitation/benefit1" type="string"/>
+      <bind nodeset="/data/benefit_limitation/benefit2" type="string"/>
+      <bind nodeset="/data/benefit_limitation/benefit3" type="string"/>
+      <bind nodeset="/data/benefit_limitation/limitation1" type="string"/>
+      <bind nodeset="/data/benefit_limitation/limitation2" type="string"/>
+      <bind nodeset="/data/benefit_limitation/limitation3" type="string"/>
+      <bind nodeset="/data/recommendation" type="string"/>
+      <bind nodeset="/data/location" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('CHR M and E ',': ',/data/general_info2/name)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/general_info" appearance="field-list">
+      <label ref="jr:itext('/data/general_info:label')"/>
+      <select1 ref="/data/general_info/district">
+        <label ref="jr:itext('/data/general_info/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_info/district:option0')"/>
+          <value>gairo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info/district:option1')"/>
+          <value>malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info/district:option2')"/>
+          <value>mvomero</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/general_info2" appearance="field-list">
+      <label ref="jr:itext('/data/general_info2:label')"/>
+      <select1 ref="/data/general_info2/ward_gairo">
+        <label ref="jr:itext('/data/general_info2/ward_gairo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option0')"/>
+          <value>Chakwale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option1')"/>
+          <value>Chanjale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option2')"/>
+          <value>Chigela</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option3')"/>
+          <value>Chihwaga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option4')"/>
+          <value>Chiwale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option5')"/>
+          <value>Ibuti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option6')"/>
+          <value>Idibo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option7')"/>
+          <value>Ihenje</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option8')"/>
+          <value>Ikege</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option9')"/>
+          <value>Italagwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option10')"/>
+          <value>Iyogwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option11')"/>
+          <value>Kibedya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option12')"/>
+          <value>Kilimani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option13')"/>
+          <value>Kimashale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option14')"/>
+          <value>Leshata</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option15')"/>
+          <value>Lubeho</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option16')"/>
+          <value>Madege</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option17')"/>
+          <value>Mkalama</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option18')"/>
+          <value>Msingisi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option19')"/>
+          <value>Muhereza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option20')"/>
+          <value>Ngayaki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option21')"/>
+          <value>Ngholongo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option22')"/>
+          <value>Nguyami</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option23')"/>
+          <value>Rubeho</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_gairo:option24')"/>
+          <value>Talagwe</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_info2/ward_mvomero">
+        <label ref="jr:itext('/data/general_info2/ward_mvomero:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option0')"/>
+          <value>Bwega</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option1')"/>
+          <value>Diangaoya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option2')"/>
+          <value>Dibamba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option3')"/>
+          <value>Diluma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option4')"/>
+          <value>Diongoya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option5')"/>
+          <value>Gonja</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option6')"/>
+          <value>Hembeti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option7')"/>
+          <value>Kanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option8')"/>
+          <value>Kibati</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option9')"/>
+          <value>Kichangani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option10')"/>
+          <value>Makuyuni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option11')"/>
+          <value>Matale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option12')"/>
+          <value>Mgudeni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option13')"/>
+          <value>Mkindo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option14')"/>
+          <value>Msimba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option15')"/>
+          <value>Mtibwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option16')"/>
+          <value>Mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option17')"/>
+          <value>Mziha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option18')"/>
+          <value>Pandambili</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option19')"/>
+          <value>Pemba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_mvomero:option20')"/>
+          <value>Sungaji</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_info2/ward_malinyi">
+        <label ref="jr:itext('/data/general_info2/ward_malinyi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option0')"/>
+          <value>Biro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option1')"/>
+          <value>Igawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option2')"/>
+          <value>Itete</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option3')"/>
+          <value>Kilosa_mpepo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option4')"/>
+          <value>Kipingo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option5')"/>
+          <value>Kitiliwele</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option6')"/>
+          <value>Kiwale</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option7')"/>
+          <value>Makerere</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option8')"/>
+          <value>Malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option9')"/>
+          <value>Mchangani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option10')"/>
+          <value>Misegese</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option11')"/>
+          <value>Mpepo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option12')"/>
+          <value>Mtimbira</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option13')"/>
+          <value>Ngohelanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option14')"/>
+          <value>Njiwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option15')"/>
+          <value>Sofi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option16')"/>
+          <value>Sofi_Majiji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option17')"/>
+          <value>Usangu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option18')"/>
+          <value>Usangula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/ward_malinyi:option19')"/>
+          <value>Usangule_A</value>
+        </item>
+      </select1>
+      <input ref="/data/general_info2/village">
+        <label ref="jr:itext('/data/general_info2/village:label')"/>
+      </input>
+      <input ref="/data/general_info2/name">
+        <label ref="jr:itext('/data/general_info2/name:label')"/>
+      </input>
+      <select1 ref="/data/general_info2/sex">
+        <label ref="jr:itext('/data/general_info2/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_info2/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_info2/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/integration_community" appearance="field-list">
+      <label ref="jr:itext('/data/integration_community:label')"/>
+      <select1 ref="/data/integration_community/intro_self_com_leaders">
+        <label ref="jr:itext('/data/integration_community/intro_self_com_leaders:label')"/>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_self_com_leaders:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_self_com_leaders:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/integration_community/intro_self_com_ward_health_off">
+        <label ref="jr:itext('/data/integration_community/intro_self_com_ward_health_off:label')"/>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_self_com_ward_health_off:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_self_com_ward_health_off:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/integration_community/intro_to_comm_members">
+        <label ref="jr:itext('/data/integration_community/intro_to_comm_members:label')"/>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_to_comm_members:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/integration_community/intro_to_comm_members:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/how_were_introduced">
+      <label ref="jr:itext('/data/how_were_introduced:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_were_introduced:option0')"/>
+        <value>village_meeting</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_were_introduced:option1')"/>
+        <value>house_hold_visit</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_were_introduced:option2')"/>
+        <value>religious_gathering</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_were_introduced:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_were_intro_other">
+      <label ref="jr:itext('/data/how_were_intro_other:label')"/>
+      <hint ref="jr:itext('/data/how_were_intro_other:hint')"/>
+    </input>
+    <group ref="/data/general_inf_about_disease" appearance="field-list">
+      <label ref="jr:itext('/data/general_inf_about_disease:label')"/>
+      <range ref="/data/general_inf_about_disease/specimen_data_collect" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/specimen_data_collect:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/specimen_data_collect:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/detect_invest_disease" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/detect_invest_disease:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/detect_invest_disease:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/case_management" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/case_management:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/case_management:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/recording_events" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/recording_events:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/recording_events:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/data_analy_interpre" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/data_analy_interpre:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/data_analy_interpre:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/data_use_planining" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/data_use_planining:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/data_use_planining:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/reporting" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/reporting:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/reporting:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/responses" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/responses:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/responses:hint')"/>
+      </range>
+      <range ref="/data/general_inf_about_disease/mAndE" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/general_inf_about_disease/mAndE:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/mAndE:hint')"/>
+      </range>
+      <input ref="/data/general_inf_about_disease/other5">
+        <label ref="jr:itext('/data/general_inf_about_disease/other5:label')"/>
+        <hint ref="jr:itext('/data/general_inf_about_disease/other5:hint')"/>
+      </input>
+    </group>
+    <select ref="/data/roles_disease_surveillance">
+      <label ref="jr:itext('/data/roles_disease_surveillance:label')"/>
+      <hint ref="jr:itext('/data/roles_disease_surveillance:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option0')"/>
+        <value>speci_data_collect</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option1')"/>
+        <value>detect_invest_disease</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option2')"/>
+        <value>Case_management</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option3')"/>
+        <value>public_health_educ</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option4')"/>
+        <value>sensit_sani_hygiene</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option5')"/>
+        <value>record_disea_events</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option6')"/>
+        <value>reporting_disease_events</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option7')"/>
+        <value>data_anly_intepr</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option8')"/>
+        <value>data_use_plan_decision_making</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option9')"/>
+        <value>providing_feedb_commun</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option10')"/>
+        <value>provide_1st_aid_service</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option11')"/>
+        <value>refering_pat_health_facilities</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option12')"/>
+        <value>verificat_public_h_events</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option13')"/>
+        <value>m_and_e</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/roles_disease_surveillance:option14')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/other_roles_disease_surveillance">
+      <label ref="jr:itext('/data/other_roles_disease_surveillance:label')"/>
+      <hint ref="jr:itext('/data/other_roles_disease_surveillance:hint')"/>
+    </input>
+    <group ref="/data/most_diff_aspect_rec_human_animal" appearance="field-list">
+      <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal:label')"/>
+      <range ref="/data/most_diff_aspect_rec_human_animal/notified_about_case" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/notified_about_case:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/notified_about_case:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/travelling_case_location" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/travelling_case_location:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/travelling_case_location:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/use_phone" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/use_phone:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/use_phone:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/gaining_trust" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gaining_trust:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gaining_trust:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/explaining_your_role_to_comm:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/gett_com_cooperate" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_com_cooperate:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_com_cooperate:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/gett_leader_communi" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_leader_communi:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_leader_communi:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/gett_leader_plitical_leader:hint')"/>
+      </range>
+      <range ref="/data/most_diff_aspect_rec_human_animal/too_busy_other_acti" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/too_busy_other_acti:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/too_busy_other_acti:hint')"/>
+      </range>
+      <input ref="/data/most_diff_aspect_rec_human_animal/other7">
+        <label ref="jr:itext('/data/most_diff_aspect_rec_human_animal/other7:label')"/>
+        <hint ref="jr:itext('/data/most_diff_aspect_rec_human_animal/other7:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/strategy_engage_comm_disease_surve_include" appearance="field-list">
+      <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include:label')"/>
+      <range ref="/data/strategy_engage_comm_disease_surve_include/comm_calls_me" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/comm_calls_me:label')"/>
+        <hint ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/comm_calls_me:hint')"/>
+      </range>
+      <select1 ref="/data/strategy_engage_comm_disease_surve_include/visit_comm">
+        <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/visit_comm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/visit_comm:option0')"/>
+          <value>weekly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/visit_comm:option1')"/>
+          <value>twice_week</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/visit_comm:option2')"/>
+          <value>once_month</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/visit_comm:option3')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <input ref="/data/strategy_engage_comm_disease_surve_include/other8">
+        <label ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/other8:label')"/>
+        <hint ref="jr:itext('/data/strategy_engage_comm_disease_surve_include/other8:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/where_get_most_human_animal_healt_events" appearance="field-list">
+      <label ref="jr:itext('/data/where_get_most_human_animal_healt_events:label')"/>
+      <range ref="/data/where_get_most_human_animal_healt_events/at_house_holds" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/at_house_holds:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/at_house_holds:hint')"/>
+      </range>
+      <range ref="/data/where_get_most_human_animal_healt_events/grazing_site" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/grazing_site:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/grazing_site:hint')"/>
+      </range>
+      <range ref="/data/where_get_most_human_animal_healt_events/dipping_site" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/dipping_site:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/dipping_site:hint')"/>
+      </range>
+      <range ref="/data/where_get_most_human_animal_healt_events/livestock_market" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/livestock_market:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/livestock_market:hint')"/>
+      </range>
+      <range ref="/data/where_get_most_human_animal_healt_events/at_celebratory" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/at_celebratory:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/at_celebratory:hint')"/>
+      </range>
+      <input ref="/data/where_get_most_human_animal_healt_events/other9">
+        <label ref="jr:itext('/data/where_get_most_human_animal_healt_events/other9:label')"/>
+        <hint ref="jr:itext('/data/where_get_most_human_animal_healt_events/other9:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/ever_exper_diseas_outbreak_human_past12months">
+      <label ref="jr:itext('/data/ever_exper_diseas_outbreak_human_past12months:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ever_exper_diseas_outbreak_human_past12months:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ever_exper_diseas_outbreak_human_past12months:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/data/if_yes_10_describe_outbreak" appearance="field-list">
+      <label ref="jr:itext('/data/if_yes_10_describe_outbreak:label')"/>
+      <select1 ref="/data/if_yes_10_describe_outbreak/human_pop_affected_mainly">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:option0')"/>
+          <value>under_five</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/human_pop_affected_mainly:option1')"/>
+          <value>above_5</value>
+        </item>
+      </select1>
+      <select1 ref="/data/if_yes_10_describe_outbreak/estimation_cases_number">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/estimation_cases_number:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/estimation_cases_number:option0')"/>
+          <value>less_5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/estimation_cases_number:option1')"/>
+          <value>5to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/estimation_cases_number:option2')"/>
+          <value>10to50</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/estimation_cases_number:option3')"/>
+          <value>above50</value>
+        </item>
+      </select1>
+
+
+      <select ref="/data/if_yes_10_describe_outbreak/major_clinica_manif">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option0')"/>
+          <value>kup_ham_kula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option1')"/>
+          <value>kuhara_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option2')"/>
+          <value>Kuharisha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option3')"/>
+          <value>kufunga_choo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option4')"/>
+          <value>kutap_kichefuchefu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option5')"/>
+          <value>kutapi_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option6')"/>
+          <value>kukosa_ngu_maum_viu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option7')"/>
+          <value>kupum_shida</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option8')"/>
+          <value>kuhema_haraka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option9')"/>
+          <value>Kukohoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option10')"/>
+          <value>Kukohoa_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option11')"/>
+          <value>damu_kuto_puan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option12')"/>
+          <value>kuvimb_tezi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option13')"/>
+          <value>kuwashw_ngoz</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option14')"/>
+          <value>kojoa_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option15')"/>
+          <value>mimba_kutoka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option16')"/>
+          <value>kuumwa_tumbo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option17')"/>
+          <value>Kuchanganyikiwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option18')"/>
+          <value>kukakamaa_shingo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option19')"/>
+          <value>Degedege</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option20')"/>
+          <value>Kuumwa_kichwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option21')"/>
+          <value>kutokwa_machozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option22')"/>
+          <value>macho_tumbukia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option23')"/>
+          <value>Kupofuka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option24')"/>
+          <value>Kusinzia_mchana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option25')"/>
+          <value>manjano_macho</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option26')"/>
+          <value>Ngozi_bonyea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option27')"/>
+          <value>kungatwa_mnyama</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option28')"/>
+          <value>michubuko_mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option29')"/>
+          <value>homa_tetemeka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif:option30')"/>
+          <value>zingine</value>
+        </item>
+      </select>
+      <input ref="/data/if_yes_10_describe_outbreak/major_clinica_manif_other">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/major_clinica_manif_other:label')"/>
+      </input>
+
+
+      <input ref="/data/if_yes_10_describe_outbreak/number_days_onset_detec">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/number_days_onset_detec:label')"/>
+        <hint ref="jr:itext('/data/if_yes_10_describe_outbreak/number_days_onset_detec:hint')"/>
+      </input>
+      <input ref="/data/if_yes_10_describe_outbreak/number_days_onset_notif">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/number_days_onset_notif:label')"/>
+        <hint ref="jr:itext('/data/if_yes_10_describe_outbreak/number_days_onset_notif:hint')"/>
+      </input>
+      <input ref="/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification:label')"/>
+        <hint ref="jr:itext('/data/if_yes_10_describe_outbreak/no_btwn_outbreak_onset_verification:hint')"/>
+      </input>
+      <input ref="/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention:label')"/>
+        <hint ref="jr:itext('/data/if_yes_10_describe_outbreak/no_days_btnoutbreak_onset_intervention:hint')"/>
+      </input>
+      <input ref="/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end">
+        <label ref="jr:itext('/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end:label')"/>
+        <hint ref="jr:itext('/data/if_yes_10_describe_outbreak/no_days_bten_outbreak_onset_outb_end:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/ever_exper_diseas_outbreak_animal_past12months">
+      <label ref="jr:itext('/data/ever_exper_diseas_outbreak_animal_past12months:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ever_exper_diseas_outbreak_animal_past12months:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ever_exper_diseas_outbreak_animal_past12months:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/data/if_yes_12_describe_outbreak_animal" appearance="field-list">
+      <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal:label')"/>
+      <select1 ref="/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:option0')"/>
+          <value>under_one</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/animal_pop_affected_mainly:option1')"/>
+          <value>above_1</value>
+        </item>
+      </select1>
+      <select1 ref="/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option0')"/>
+          <value>less5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option1')"/>
+          <value>5to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option2')"/>
+          <value>11to50</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/estimation_cases_number_animal:option3')"/>
+          <value>above50</value>
+        </item>
+      </select1>
+
+
+      <select ref="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option0')"/>
+          <value>kutupa_mimba</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option1')"/>
+          <value>kupoteza_kula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option2')"/>
+          <value>kuhara_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option3')"/>
+          <value>Kuharisha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option4')"/>
+          <value>Kutapika</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option5')"/>
+          <value>shindwa_simama</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option6')"/>
+          <value>pumua_shida_tabu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option7')"/>
+          <value>hema_haraka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option8')"/>
+          <value>kupiga_chafya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option9')"/>
+          <value>homa_tetemeka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option10')"/>
+          <value>punguza_maziwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option11')"/>
+          <value>punguza_utagaji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option12')"/>
+          <value>Kukohoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option13')"/>
+          <value>churuzika_kamasi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option14')"/>
+          <value>toa_mapovu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option15')"/>
+          <value>Damu_sio_ganda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option16')"/>
+          <value>uvimbe_maungio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option17')"/>
+          <value>kuzurura_kubweka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option18')"/>
+          <value>kushambulia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option19')"/>
+          <value>ukali_ukimya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option20')"/>
+          <value>kupinda_shingo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option21')"/>
+          <value>ukungu_machon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option22')"/>
+          <value>Kutoa_machozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option23')"/>
+          <value>vidonda_mdomoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option24')"/>
+          <value>Kunyonyoka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option25')"/>
+          <value>uvimbe_miguuni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option26')"/>
+          <value>badili_rangi_ngozi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option27')"/>
+          <value>kuvimba_tez</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option28')"/>
+          <value>kojoa_damu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif_animal:option29')"/>
+          <value>dalili_zingine</value>
+        </item>
+      </select>
+      <input ref="/data/if_yes_12_describe_outbreak_animal/major_clinica_manif1_animal_other">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/major_clinica_manif1_animal_other:label')"/>
+      </input>
+
+
+      
+      <input ref="/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal:label')"/>
+        <hint ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/number_days_onset_detec_animal:hint')"/>
+      </input>
+      <input ref="/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal:label')"/>
+        <hint ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/number_days_onset_notif_animal:hint')"/>
+      </input>
+      <input ref="/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal:label')"/>
+        <hint ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_btwn_outbreak_onset_verification_animal:hint')"/>
+      </input>
+      <input ref="/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal:label')"/>
+        <hint ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_days_btnoutbreak_onset_intervention_animal:hint')"/>
+      </input>
+      <input ref="/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal">
+        <label ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal:label')"/>
+        <hint ref="jr:itext('/data/if_yes_12_describe_outbreak_animal/no_days_bten_outbreak_onset_outb_end_animal:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/have_you_notify_higher_level">
+      <label ref="jr:itext('/data/have_you_notify_higher_level:label')"/>
+      <item>
+        <label ref="jr:itext('/data/have_you_notify_higher_level:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/have_you_notify_higher_level:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/how_notify_higher_level_on_diseas">
+      <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option0')"/>
+        <value>physical_visit</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option1')"/>
+        <value>telephone_call</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option2')"/>
+        <value>sms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option3')"/>
+        <value>sending_report_public_trans</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option4')"/>
+        <value>through_motorcycle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option5')"/>
+        <value>through_afyaData</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_notify_higher_level_on_diseas:option6')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_notify_higher_level_on_diseas_other">
+      <label ref="jr:itext('/data/how_notify_higher_level_on_diseas_other:label')"/>
+      <hint ref="jr:itext('/data/how_notify_higher_level_on_diseas_other:hint')"/>
+    </input>
+    <group ref="/data/factors_influnce_noti" appearance="field-list">
+      <label ref="jr:itext('/data/factors_influnce_noti:label')"/>
+      <range ref="/data/factors_influnce_noti/occurance_new_disease" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/occurance_new_disease:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/occurance_new_disease:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/no_human_affected" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/no_human_affected:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/no_human_affected:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/no_animal_affected" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/no_animal_affected:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/no_animal_affected:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/serious_disease_condition" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/serious_disease_condition:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/serious_disease_condition:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/poor_progress_self_treat_attempt" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/poor_progress_self_treat_attempt:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/poor_progress_self_treat_attempt:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/fast_spreading_disease" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/fast_spreading_disease:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/fast_spreading_disease:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/increased_mortalities" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/increased_mortalities:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/increased_mortalities:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/expected_immediate_response" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/expected_immediate_response:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/expected_immediate_response:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/location_report_close_to_home" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/location_report_close_to_home:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/location_report_close_to_home:hint')"/>
+      </range>
+      <range ref="/data/factors_influnce_noti/disease_aff_both_human_animal" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/factors_influnce_noti/disease_aff_both_human_animal:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/disease_aff_both_human_animal:hint')"/>
+      </range>
+      <input ref="/data/factors_influnce_noti/other15">
+        <label ref="jr:itext('/data/factors_influnce_noti/other15:label')"/>
+        <hint ref="jr:itext('/data/factors_influnce_noti/other15:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/limiting_factors_to_report" appearance="field-list">
+      <label ref="jr:itext('/data/limiting_factors_to_report:label')"/>
+      <range ref="/data/limiting_factors_to_report/health_care_not_available" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/health_care_not_available:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/health_care_not_available:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/lack_respons" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/lack_respons:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/lack_respons:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/resp_feedb_being_late" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/resp_feedb_being_late:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/resp_feedb_being_late:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/lack_trans_poor_road" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/lack_trans_poor_road:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/lack_trans_poor_road:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/not_explicity_aware_to_who" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/not_explicity_aware_to_who:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/not_explicity_aware_to_who:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/not_explicity_aware_time" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/not_explicity_aware_time:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/not_explicity_aware_time:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/run_out_paper" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/run_out_paper:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/run_out_paper:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/not_able_detect_human" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/not_able_detect_human:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/not_able_detect_human:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/not_able_detect_animal" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/not_able_detect_animal:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/not_able_detect_animal:hint')"/>
+      </range>
+      <range ref="/data/limiting_factors_to_report/not_aware_how_should_record" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/limiting_factors_to_report/not_aware_how_should_record:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/not_aware_how_should_record:hint')"/>
+      </range>
+      <input ref="/data/limiting_factors_to_report/other16">
+        <label ref="jr:itext('/data/limiting_factors_to_report/other16:label')"/>
+        <hint ref="jr:itext('/data/limiting_factors_to_report/other16:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/feedback_response" appearance="field-list">
+      <label ref="jr:itext('/data/feedback_response:label')"/>
+      <select1 ref="/data/feedback_response/do_you_get_feedback_submission">
+        <label ref="jr:itext('/data/feedback_response/do_you_get_feedback_submission:label')"/>
+        <item>
+          <label ref="jr:itext('/data/feedback_response/do_you_get_feedback_submission:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/feedback_response/do_you_get_feedback_submission:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/how_do_get_feedback">
+      <label ref="jr:itext('/data/how_do_get_feedback:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option0')"/>
+        <value>through_afyaData</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option1')"/>
+        <value>physical_visit</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option2')"/>
+        <value>paper_based</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option3')"/>
+        <value>tele_call</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option4')"/>
+        <value>sms</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option5')"/>
+        <value>public_transport</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option6')"/>
+        <value>motorcycle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_get_feedback:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_do_get_feedback_other">
+      <label ref="jr:itext('/data/how_do_get_feedback_other:label')"/>
+    </input>
+    <group ref="/data/prov_health_care_services" appearance="field-list">
+      <label ref="jr:itext('/data/prov_health_care_services:label')"/>
+      <input ref="/data/prov_health_care_services/no_reffered_using_refferal_forms">
+        <label ref="jr:itext('/data/prov_health_care_services/no_reffered_using_refferal_forms:label')"/>
+        <hint ref="jr:itext('/data/prov_health_care_services/no_reffered_using_refferal_forms:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/how_often_use_afyadata">
+      <label ref="jr:itext('/data/how_often_use_afyadata:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_often_use_afyadata:option0')"/>
+        <value>daily</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_use_afyadata:option1')"/>
+        <value>weekly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_use_afyadata:option2')"/>
+        <value>monthly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_use_afyadata:option3')"/>
+        <value>case_occurs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_use_afyadata:option4')"/>
+        <value>never</value>
+      </item>
+    </select1>
+    <group ref="/data/technical_issues_afyadata" appearance="field-list">
+      <label ref="jr:itext('/data/technical_issues_afyadata:label')"/>
+      <select1 ref="/data/technical_issues_afyadata/how_easy_use_afyadata">
+        <label ref="jr:itext('/data/technical_issues_afyadata/how_easy_use_afyadata:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/how_easy_use_afyadata:option0')"/>
+          <value>difficult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/how_easy_use_afyadata:option1')"/>
+          <value>easy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/how_easy_use_afyadata:option2')"/>
+          <value>very_easy</value>
+        </item>
+      </select1>
+      <select1 ref="/data/technical_issues_afyadata/is_app_working">
+        <label ref="jr:itext('/data/technical_issues_afyadata/is_app_working:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/is_app_working:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/is_app_working:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/technical_issues_afyadata/ever_used_feedback_feature">
+        <label ref="jr:itext('/data/technical_issues_afyadata/ever_used_feedback_feature:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/ever_used_feedback_feature:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/ever_used_feedback_feature:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/technical_issues_afyadata/features_need_improvement">
+        <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement:option0')"/>
+          <value>feedback</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement:option1')"/>
+          <value>health_tips</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement:option2')"/>
+          <value>forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement:option3')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/technical_issues_afyadata/features_need_improvement_other">
+        <label ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement_other:label')"/>
+        <hint ref="jr:itext('/data/technical_issues_afyadata/features_need_improvement_other:hint')"/>
+      </input>
+      <select ref="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata">
+        <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option0')"/>
+          <value>enhance_capt_health_events</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option1')"/>
+          <value>support_sub_health_events</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option2')"/>
+          <value>support_sub_health_prov</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option3')"/>
+          <value>required_related_my_duties</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata:option4')"/>
+          <value>just_like_it</value>
+        </item>
+      </select>
+      <input ref="/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other">
+        <label ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other:label')"/>
+        <hint ref="jr:itext('/data/technical_issues_afyadata/features_motivating_cont_use_afyadata_other:hint')"/>
+      </input>
+      <select ref="/data/technical_issues_afyadata/challenges_using_afyadata">
+        <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:label')"/>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option0')"/>
+          <value>resend_form</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option1')"/>
+          <value>signing_in_after_sign_out</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option2')"/>
+          <value>sending_forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option3')"/>
+          <value>get_blank_form</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option4')"/>
+          <value>fill_blank_form</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option5')"/>
+          <value>edit_savedform</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option6')"/>
+          <value>view_sent_form</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata:option7')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/technical_issues_afyadata/challenges_using_afyadata_other">
+        <label ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata_other:label')"/>
+        <hint ref="jr:itext('/data/technical_issues_afyadata/challenges_using_afyadata_other:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/whatsapp_being_usefull">
+      <label ref="jr:itext('/data/whatsapp_being_usefull:label')"/>
+      <item>
+        <label ref="jr:itext('/data/whatsapp_being_usefull:option0')"/>
+        <value>not_useful</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/whatsapp_being_usefull:option1')"/>
+        <value>useful</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/whatsapp_being_usefull:option2')"/>
+        <value>not_sure</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/whatsapp_being_usefull:option3')"/>
+        <value>never_used</value>
+      </item>
+    </select1>
+    <group ref="/data/whatsapp" appearance="field-list">
+      <label ref="jr:itext('/data/whatsapp:label')"/>
+      <select1 ref="/data/whatsapp/how_often_using_whatspp_platform">
+        <label ref="jr:itext('/data/whatsapp/how_often_using_whatspp_platform:label')"/>
+        <item>
+          <label ref="jr:itext('/data/whatsapp/how_often_using_whatspp_platform:option0')"/>
+          <value>daily</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp/how_often_using_whatspp_platform:option1')"/>
+          <value>always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/whatsapp/how_often_using_whatspp_platform:option2')"/>
+          <value>rarely</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/general_skills_on_tech" appearance="field-list">
+      <label ref="jr:itext('/data/general_skills_on_tech:label')"/>
+      <select1 ref="/data/general_skills_on_tech/how_rate_skills_using_smart_phones">
+        <label ref="jr:itext('/data/general_skills_on_tech/how_rate_skills_using_smart_phones:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option0')"/>
+          <value>very_good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option1')"/>
+          <value>avarage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option2')"/>
+          <value>poor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/how_rate_skills_using_smart_phones:option3')"/>
+          <value>very_por</value>
+        </item>
+      </select1>
+      <select ref="/data/general_skills_on_tech/social_value_afyadata_added_to_you">
+        <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option0')"/>
+          <value>gained_self_confidence</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option1')"/>
+          <value>recogn_by_comm_members</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option2')"/>
+          <value>respected_by_comm_members</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option3')"/>
+          <value>enhanced_comm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option4')"/>
+          <value>helped_other_using_phone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/general_skills_on_tech/social_value_afyadata_added_to_you_other">
+        <label ref="jr:itext('/data/general_skills_on_tech/social_value_afyadata_added_to_you_other:label')"/>
+      </input>
+    </group>
+    <group ref="/data/benefit_limitation" appearance="field-list">
+      <label ref="jr:itext('/data/benefit_limitation:label')"/>
+      <input ref="/data/benefit_limitation/benefit1">
+        <label ref="jr:itext('/data/benefit_limitation/benefit1:label')"/>
+      </input>
+      <input ref="/data/benefit_limitation/benefit2">
+        <label ref="jr:itext('/data/benefit_limitation/benefit2:label')"/>
+      </input>
+      <input ref="/data/benefit_limitation/benefit3">
+        <label ref="jr:itext('/data/benefit_limitation/benefit3:label')"/>
+      </input>
+      <input ref="/data/benefit_limitation/limitation1">
+        <label ref="jr:itext('/data/benefit_limitation/limitation1:label')"/>
+      </input>
+      <input ref="/data/benefit_limitation/limitation2">
+        <label ref="jr:itext('/data/benefit_limitation/limitation2:label')"/>
+      </input>
+      <input ref="/data/benefit_limitation/limitation3">
+        <label ref="jr:itext('/data/benefit_limitation/limitation3:label')"/>
+      </input>
+    </group>
+    <input ref="/data/recommendation">
+      <label ref="jr:itext('/data/recommendation:label')"/>
+    </input>
+    <input ref="/data/location">
+      <label ref="jr:itext('/data/location:label')"/>
+    </input>
+  </h:body>
+</h:html>

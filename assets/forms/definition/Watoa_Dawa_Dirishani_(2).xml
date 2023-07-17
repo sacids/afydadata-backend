@@ -1,0 +1,440 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Dodoso la Wafamasia/Watoa Dawa Dirishani</h:title>
+    <model>
+      <instance>
+        <data id="build_Dodoso-la-Wafamasia-Watoa-Dawa-Dirishani_1566209096">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifaAwali>
+            <cheo/>
+            <nafasiKitaaluma/>
+            <sifaKitaaluma/>
+            <umri/>
+            <jinsia/>
+          </taarifaAwali>
+          <taarifaMafunzo>
+            <kupataMafunzo/>
+            <utambuziUgonjwaTibaUshauri/>
+          </taarifaMafunzo>
+          <taarifaDoziSahihi>
+            <watejaWanapemaMaelekezoKuhusuDoziSahihi/>
+            <maelezoKuhusuDoziSahihi/>
+          </taarifaDoziSahihi>
+          <taarifaMaelekezoUnapotoaDawa>
+            <maelekezoUnapotoaDawa/>
+            <toaMaelezoKuhusuUtoajiDawa/>
+          </taarifaMaelekezoUnapotoaDawa>
+          <taarifaUzingatiajiMaelekezo>
+            <unazingatiaMaelekezo/>
+            <toaMaelezo/>
+          </taarifaUzingatiajiMaelekezo>
+          <taarifaMawasilianoTabibuMtoaDawa>
+            <mawasilianoTabibuMtoaDawa/>
+            <dodosa/>
+            <makosaKatikaMaelekezo/>
+          </taarifaMawasilianoTabibuMtoaDawa>
+          <miongozoTaratibuUendeshaji/>
+          <taarifaKuhusuMafunzo>
+            <umewahiKupataMafuzo/>
+            <toaMaelezo1/>
+          </taarifaKuhusuMafunzo>
+          <taarifa>
+            <usimamiziElekezi/>
+            <fafanua/>
+          </taarifa>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifaAwali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifaAwali/cheo:label">
+            <value>Cheo</value>
+          </text>
+          <text id="/data/taarifaAwali/nafasiKitaaluma:label">
+            <value>Nafasi ya Kitaaluma </value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:label">
+            <value>Sifa za Kitaaluma </value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option0">
+            <value>Cheti</value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option1">
+            <value>Astashahada</value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option2">
+            <value>Stashahada</value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option3">
+            <value>Shahada</value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option4">
+            <value>Shahada ya uzamili</value>
+          </text>
+          <text id="/data/taarifaAwali/sifaKitaaluma:option5">
+            <value>Shahada ya uzamivu</value>
+          </text>
+          <text id="/data/taarifaAwali/umri:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/taarifaAwali/jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/taarifaAwali/jinsia:option0">
+            <value>Mwanaume</value>
+          </text>
+          <text id="/data/taarifaAwali/jinsia:option1">
+            <value>Mwanamke</value>
+          </text>
+          <text id="/data/taarifaMafunzo:label">
+            <value>Taarifa za mafunzo</value>
+          </text>
+          <text id="/data/taarifaMafunzo/kupataMafunzo:label">
+            <value>1. Je umewahi kupata mafunzo yanayohusiana na taaluma yako katika kipindi cha miezi 12 iliyopita? </value>
+          </text>
+          <text id="/data/taarifaMafunzo/kupataMafunzo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaMafunzo/kupataMafunzo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaMafunzo/utambuziUgonjwaTibaUshauri:label">
+            <value>Dodosa: Maanisho ya ugonjwa/Utambuzi wa ugonjwa; tiba; ushauri nasaha; utoaji wa rufaa</value>
+          </text>
+          <text id="/data/taarifaDoziSahihi:label">
+            <value>Taarifa kuhusu kipimo (dozi) sahihi cha dawa</value>
+          </text>
+          <text id="/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:label">
+            <value>2. Je, watoa dawa (dirisha la dawa) wanawapa wateja maelekezo kuhusu kipimo (dozi) sahihi cha dawa? </value>
+          </text>
+          <text id="/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaDoziSahihi/maelezoKuhusuDoziSahihi:label">
+            <value>Toa maelezo</value>
+          </text>
+          <text id="/data/taarifaMaelekezoUnapotoaDawa:label">
+            <value>Taarifa za utoaji wa dawa kwa mteja</value>
+          </text>
+          <text id="/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:label">
+            <value>3. Je ni kila wakati unapotoa dawa kwa mteja unazingatia maelekezo kutoka kwa Tabibu?</value>
+          </text>
+          <text id="/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaMaelekezoUnapotoaDawa/toaMaelezoKuhusuUtoajiDawa:label">
+            <value>Toa maelezo</value>
+          </text>
+          <text id="/data/taarifaUzingatiajiMaelekezo:label">
+            <value>Taarifa ya uzingatiaji maelekezo ya Tabibu</value>
+          </text>
+          <text id="/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:label">
+            <value>4. Je unazingatia kama maelekezo hayo ya Tabibu (Swali la 3) yanatokana ushahidi wa vipimo vya maabara?).</value>
+          </text>
+          <text id="/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaUzingatiajiMaelekezo/toaMaelezo:label">
+            <value>Tafadhali toa maelezo</value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa:label">
+            <value>Taarifa za mawasiliano kati ya Tabibu na Mtoa dawa</value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:label">
+            <value>5. Je kuna mawasiliano ya mara kwa mara kati ya Tabibu na Mtoa dawa katika kituo chako? </value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/dodosa:label">
+            <value>Dodosa: Nini kinafanyika iwapo dawa iliyopendekezwa na Tabibu imekwisha/haipo; </value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo:label">
+            <value>Je kinatokea nini iwapo kuna makosa katika maelekezo ya Tabibu kuhusu kiwango (dozi) alichoelekeza?</value>
+          </text>
+          <text id="/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo:hint">
+            <value>Tafadhali toa maelezo.</value>
+          </text>
+          <text id="/data/miongozoTaratibuUendeshaji:label">
+            <value>6. Je unayo Miongozo/Taaratibu za Uendeshaji wa Kawaida kuhusu uhifadhi wa dawa za antibiotiki? </value>
+          </text>
+          <text id="/data/miongozoTaratibuUendeshaji:hint">
+            <value>Kama ndiyo omba kuona nakala</value>
+          </text>
+          <text id="/data/miongozoTaratibuUendeshaji:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/miongozoTaratibuUendeshaji:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaKuhusuMafunzo:label">
+            <value>Taarifa kuhusu mafunzo</value>
+          </text>
+          <text id="/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:label">
+            <value>7. Je umewahi kupata mafunzo kuhusu matumizi sahihi ya antibiotiki katika kipindi cha miezi 12 iliyopita? </value>
+          </text>
+          <text id="/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifaKuhusuMafunzo/toaMaelezo1:label">
+            <value>Tafadhali toa maelezo</value>
+          </text>
+          <text id="/data/taarifa:label">
+            <value>Taarifa</value>
+          </text>
+          <text id="/data/taarifa/usimamiziElekezi:label">
+            <value>Je unapata usimamizi elekezi kutoka ndani na nje ya Kituo kuhusu matumizi ya antibiotiki?</value>
+          </text>
+          <text id="/data/taarifa/usimamiziElekezi:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/taarifa/usimamiziElekezi:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/taarifa/fafanua:label">
+            <value>Tafadhali fafanua</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifaAwali/cheo" type="string"/>
+      <bind nodeset="/data/taarifaAwali/nafasiKitaaluma" type="string"/>
+      <bind nodeset="/data/taarifaAwali/sifaKitaaluma" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/taarifaAwali/sifaKitaaluma:requiredMsg')"/>
+      <bind nodeset="/data/taarifaAwali/umri" type="int" required="true()"/>
+      <bind nodeset="/data/taarifaAwali/jinsia" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaMafunzo/kupataMafunzo" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaMafunzo/utambuziUgonjwaTibaUshauri" type="string"/>
+      <bind nodeset="/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaDoziSahihi/maelezoKuhusuDoziSahihi" type="string"/>
+      <bind nodeset="/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaMaelekezoUnapotoaDawa/toaMaelezoKuhusuUtoajiDawa" type="string"/>
+      <bind nodeset="/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaUzingatiajiMaelekezo/toaMaelezo" type="string"/>
+      <bind nodeset="/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaMawasilianoTabibuMtoaDawa/dodosa" type="string"/>
+      <bind nodeset="/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo" type="string"/>
+      <bind nodeset="/data/miongozoTaratibuUendeshaji" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaKuhusuMafunzo/toaMaelezo1" type="string"/>
+      <bind nodeset="/data/taarifa/usimamiziElekezi" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifa/fafanua" type="string"/>
+       <bind nodeset="/data/meta/instanceName" calculate="concat('Wafamasia/Watoa Dawa Dirishani',' : ',/data/taarifaAwali/cheo)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifaAwali" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaAwali:label')"/>
+      <input ref="/data/taarifaAwali/cheo">
+        <label ref="jr:itext('/data/taarifaAwali/cheo:label')"/>
+      </input>
+      <input ref="/data/taarifaAwali/nafasiKitaaluma">
+        <label ref="jr:itext('/data/taarifaAwali/nafasiKitaaluma:label')"/>
+      </input>
+      <select1 ref="/data/taarifaAwali/sifaKitaaluma">
+        <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option0')"/>
+          <value>Cheti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option1')"/>
+          <value>Astashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option2')"/>
+          <value>Stashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option3')"/>
+          <value>Shahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option4')"/>
+          <value>ShahadaUzamili</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/sifaKitaaluma:option5')"/>
+          <value>ShahadaUzamivu</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaAwali/umri">
+        <label ref="jr:itext('/data/taarifaAwali/umri:label')"/>
+      </input>
+      <select1 ref="/data/taarifaAwali/jinsia">
+        <label ref="jr:itext('/data/taarifaAwali/jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/jinsia:option0')"/>
+          <value>Me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaAwali/jinsia:option1')"/>
+          <value>Ke</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/taarifaMafunzo" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaMafunzo:label')"/>
+      <select1 ref="/data/taarifaMafunzo/kupataMafunzo">
+        <label ref="jr:itext('/data/taarifaMafunzo/kupataMafunzo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaMafunzo/kupataMafunzo:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMafunzo/kupataMafunzo:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaMafunzo/utambuziUgonjwaTibaUshauri">
+        <label ref="jr:itext('/data/taarifaMafunzo/utambuziUgonjwaTibaUshauri:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaDoziSahihi" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaDoziSahihi:label')"/>
+      <select1 ref="/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi">
+        <label ref="jr:itext('/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaDoziSahihi/watejaWanapemaMaelekezoKuhusuDoziSahihi:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaDoziSahihi/maelezoKuhusuDoziSahihi">
+        <label ref="jr:itext('/data/taarifaDoziSahihi/maelezoKuhusuDoziSahihi:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaMaelekezoUnapotoaDawa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaMaelekezoUnapotoaDawa:label')"/>
+      <select1 ref="/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa">
+        <label ref="jr:itext('/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMaelekezoUnapotoaDawa/maelekezoUnapotoaDawa:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaMaelekezoUnapotoaDawa/toaMaelezoKuhusuUtoajiDawa">
+        <label ref="jr:itext('/data/taarifaMaelekezoUnapotoaDawa/toaMaelezoKuhusuUtoajiDawa:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaUzingatiajiMaelekezo" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaUzingatiajiMaelekezo:label')"/>
+      <select1 ref="/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo">
+        <label ref="jr:itext('/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaUzingatiajiMaelekezo/unazingatiaMaelekezo:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaUzingatiajiMaelekezo/toaMaelezo">
+        <label ref="jr:itext('/data/taarifaUzingatiajiMaelekezo/toaMaelezo:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaMawasilianoTabibuMtoaDawa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa:label')"/>
+      <select1 ref="/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa">
+        <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/mawasilianoTabibuMtoaDawa:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaMawasilianoTabibuMtoaDawa/dodosa">
+        <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/dodosa:label')"/>
+      </input>
+      <input ref="/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo">
+        <label ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo:label')"/>
+        <hint ref="jr:itext('/data/taarifaMawasilianoTabibuMtoaDawa/makosaKatikaMaelekezo:hint')"/>
+      </input>
+    </group>
+    <select1 ref="/data/miongozoTaratibuUendeshaji">
+      <label ref="jr:itext('/data/miongozoTaratibuUendeshaji:label')"/>
+      <hint ref="jr:itext('/data/miongozoTaratibuUendeshaji:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/miongozoTaratibuUendeshaji:option0')"/>
+        <value>Ndiyo</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/miongozoTaratibuUendeshaji:option1')"/>
+        <value>Hapana</value>
+      </item>
+    </select1>
+    <group ref="/data/taarifaKuhusuMafunzo" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaKuhusuMafunzo:label')"/>
+      <select1 ref="/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo">
+        <label ref="jr:itext('/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaKuhusuMafunzo/umewahiKupataMafuzo:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaKuhusuMafunzo/toaMaelezo1">
+        <label ref="jr:itext('/data/taarifaKuhusuMafunzo/toaMaelezo1:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa:label')"/>
+      <select1 ref="/data/taarifa/usimamiziElekezi">
+        <label ref="jr:itext('/data/taarifa/usimamiziElekezi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa/usimamiziElekezi:option0')"/>
+          <value>Ndiyo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa/usimamiziElekezi:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa/fafanua">
+        <label ref="jr:itext('/data/taarifa/fafanua:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

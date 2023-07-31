@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>KoboAfyaData</h:title>
+    <model>
+      <instance>
+        <KoboAfyaData id="KoboAfyaData">
+          <What_is_your_name/>
+          <Choose_one/>
+          <start/>
+          <end/>
+          <username/>
+          <simserial/>
+          <subscriberid/>
+          <deviceid/>
+          <phonenumber/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </KoboAfyaData>
+      </instance>
+      <bind nodeset="/KoboAfyaData/What_is_your_name" required="true()" type="string"/>
+      <bind nodeset="/KoboAfyaData/Choose_one" required="true()" type="select1"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/KoboAfyaData/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/KoboAfyaData/end" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/KoboAfyaData/username" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/KoboAfyaData/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/KoboAfyaData/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/KoboAfyaData/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/KoboAfyaData/phonenumber" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/KoboAfyaData/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/KoboAfyaData/What_is_your_name">
+      <label>What is your name</label>
+    </input>
+    <select1 ref="/KoboAfyaData/Choose_one">
+      <label>Choose one</label>
+      <item>
+        <label>Option 1</label>
+        <value>option_1</value>
+      </item>
+      <item>
+        <label>Option 2</label>
+        <value>option_2</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

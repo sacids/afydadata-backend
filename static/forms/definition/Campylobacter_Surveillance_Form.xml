@@ -1,0 +1,2706 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Campylobacter Surveillance Form</h:title>
+    <model>
+      <instance>
+        <data id="build_Campylobacter-Surveillance-Form_1559568066">
+          <meta>
+            <instanceID/>
+          </meta>
+          <personal>
+            <patientName/>
+            <age/>
+            <gender/>
+            <village/>
+            <ward/>
+            <address/>
+            <phone/>
+            <interviewDate/>
+          </personal>
+          <personal1>
+            <education/>
+          </personal1>
+          <clinical>
+            <illness_onset_date/>
+            <illiness_duration/>
+          </clinical>
+          <signsDiarrhea>
+            <diarrhea/>
+            <onsetDateDiarrhea/>
+          </signsDiarrhea>
+          <signsBloodyDiarrhea>
+            <bloodyDiarrhea/>
+            <onsetDateBloodyDiarrhea/>
+          </signsBloodyDiarrhea>
+          <signsAbdominalPain>
+            <AbdominalPain/>
+            <onsetDateAbdominal/>
+          </signsAbdominalPain>
+          <signsNausea>
+            <nausea/>
+            <onsetDateNausea/>
+          </signsNausea>
+          <signsVomiting>
+            <vomiting/>
+            <onsetDateVomiting/>
+          </signsVomiting>
+          <signsFever>
+            <fever/>
+            <onsetDateFever/>
+          </signsFever>
+          <signsOthers>
+            <otherSymptoms/>
+            <onsetDateOtherSymptoms/>
+          </signsOthers>
+          <anyClinicalPerson/>
+          <clinicalPersonRelationShip>
+            <personRelationship/>
+            <otherRelationship/>
+            <poultryConsumption/>
+          </clinicalPersonRelationShip>
+          <poultryConsumptionInfo>
+            <typeOfPoultry/>
+            <otherTypeOfPoultry/>
+            <sourceOfPoultry/>
+            <otherSourceOfPoultry/>
+          </poultryConsumptionInfo>
+          <eatReadMeat>
+            <eatBeefMeat/>
+            <eatMuttonMeat/>
+            <eatPorkMeat/>
+            <eatGoatMeat/>
+            <eatWildRedMeat/>
+            <otherEatWildRedMeat/>
+          </eatReadMeat>
+          <eatenRedMeatPrepared>
+            <eatRawMeat/>
+            <eatUnderCookedMeat/>
+            <eatWellCookedMeat/>
+          </eatenRedMeatPrepared>
+          <livestocksInformation>
+            <livestockOwn/>
+            <otherLivestock/>
+            <contactAnimals/>
+          </livestocksInformation>
+          <waterSourceInformation>
+            <waterSource/>
+            <otherWaterSource/>
+            <drinkUntreatedWater/>
+            <otherUntreatedWater/>
+          </waterSourceInformation>
+          <diseaseInformation>
+            <chronicDisease/>
+            <otherChronicDisease/>
+          </diseaseInformation>
+          <kitchenFoodPractices>
+            <useCuttingBoard/>
+            <washCuttingBoard/>
+            <cleanKnife/>
+            <washHandWithSoaps/>
+            <changeDishCloth/>
+          </kitchenFoodPractices>
+          <typeOfToilet/>
+          <rawFoodEat>
+            <lettuce/>
+            <rawCarrots/>
+            <rawMushrooms/>
+            <unpeeledFruits/>
+            <otherRawFood/>
+          </rawFoodEat>
+          <otherRiskFactors>
+            <takeAntibioticsOnsetilliness/>
+            <washHandAfterContactLivestock/>
+          </otherRiskFactors>
+          <washBeforeFeedingChild/>
+          <howOftenWashBeforeFeedingChild/>
+          <washChildHandsAfterDefecation/>
+          <howOftenWashChildHandsAfterDefecation/>
+          <useCleanUtensils/>
+          <otherCleanUtensils/>
+          <accessLandFertilized/>
+          <eatAtBarbecues/>
+          <meatEatAtBarbecues/>
+          <OtherRiskFactors>
+            <eatOutsideHome/>
+            <drinkRawMilk/>
+          </OtherRiskFactors>
+          <travelOutsideTanzania/>
+          <travelCountry/>
+          <otherRiskFactor>
+            <shareHouseWithLivestocks/>
+            <typeOfPoultryKept/>
+            <suspectedTransmissionType/>
+          </otherRiskFactor>
+          <otherRiskComments/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/personal:label">
+            <value>Personal and demographic data</value>
+          </text>
+          <text id="/data/personal/patientName:label">
+            <value>Name of patient </value>
+          </text>
+          <text id="/data/personal/patientName:requiredMsg">
+            <value>Name of patient is required</value>
+          </text>
+          <text id="/data/personal/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/personal/age:requiredMsg">
+            <value>Patient age is required</value>
+          </text>
+          <text id="/data/personal/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/personal/gender:requiredMsg">
+            <value>Gender is required</value>
+          </text>
+          <text id="/data/personal/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/personal/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/personal/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/personal/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/personal/address:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/personal/phone:label">
+            <value>Phone number</value>
+          </text>
+          <text id="/data/personal/interviewDate:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/personal1:label">
+            <value>Personal and demographic data</value>
+          </text>
+          <text id="/data/personal1/education:label">
+            <value>Education background of participant or parent/guardian for &lt; 15 </value>
+          </text>
+          <text id="/data/personal1/education:hint">
+            <value>Tick the correct one</value>
+          </text>
+          <text id="/data/personal1/education:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/personal1/education:option0">
+            <value>No formal Education</value>
+          </text>
+          <text id="/data/personal1/education:option1">
+            <value>Primary school</value>
+          </text>
+          <text id="/data/personal1/education:option2">
+            <value>Secondary school</value>
+          </text>
+          <text id="/data/personal1/education:option3">
+            <value>Tertiary education</value>
+          </text>
+          <text id="/data/clinical:label">
+            <value>Clinical information</value>
+          </text>
+          <text id="/data/clinical/illness_onset_date:label">
+            <value>When did you become ill (illness onset date)? </value>
+          </text>
+          <text id="/data/clinical/illiness_duration:label">
+            <value>Illness duration</value>
+          </text>
+          <text id="/data/clinical/illiness_duration:hint">
+            <value>Write number of days</value>
+          </text>
+          <text id="/data/signsDiarrhea:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:label">
+            <value>Diarrhea (≥3 stools/day)</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsDiarrhea/onsetDateDiarrhea:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:label">
+            <value>Bloody diarrhea</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/onsetDateBloodyDiarrhea:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsAbdominalPain:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:label">
+            <value>Abdominal pain/cramps</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsAbdominalPain/onsetDateAbdominal:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsNausea:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsNausea/nausea:label">
+            <value>Nausea</value>
+          </text>
+          <text id="/data/signsNausea/nausea:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/signsNausea/nausea:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsNausea/nausea:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsNausea/nausea:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsNausea/onsetDateNausea:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsVomiting:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:label">
+            <value>Vomiting</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsVomiting/onsetDateVomiting:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsFever:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsFever/fever:label">
+            <value>Did you have fever?</value>
+          </text>
+          <text id="/data/signsFever/fever:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signsFever/fever:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/signsFever/fever:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/signsFever/onsetDateFever:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/signsOthers:label">
+            <value>Signs and Symptoms presented by patient</value>
+          </text>
+          <text id="/data/signsOthers/otherSymptoms:label">
+            <value>Other symptoms </value>
+          </text>
+          <text id="/data/signsOthers/onsetDateOtherSymptoms:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/anyClinicalPerson:label">
+            <value>Do you know any person who had similar clinical signs in two weeks before or in the two weeks after becoming ill in your household?</value>
+          </text>
+          <text id="/data/anyClinicalPerson:hint">
+            <value></value>
+          </text>
+          <text id="/data/anyClinicalPerson:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/anyClinicalPerson:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip:label">
+            <value>Relationship of person with patient</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:label">
+            <value>What is the relationship of that person with the patient?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option0">
+            <value>Father/household head</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option1">
+            <value>Mother</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option2">
+            <value>House help/ Maid</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option3">
+            <value>Brother or sister to Child</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/otherRelationship:label">
+            <value>Mention other relationship of that person with the patient?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/otherRelationship:hint">
+            <value>Mention other relationship</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:label">
+            <value>Did you eat poultry?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo:label">
+            <value>Poultry consumption</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:label">
+            <value>Which type of poultry meat did you consume?</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option0">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option1">
+            <value>Dove</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option2">
+            <value>Turkey</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option3">
+            <value>Hawk</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option4">
+            <value>Guinea fowl</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/otherTypeOfPoultry:label">
+            <value>Mention other type of poultry meat you consume</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:label">
+            <value>What was the source of the poultry meat that was consumed?</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option0">
+            <value>Restaurant</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option1">
+            <value>Barbecues</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option2">
+            <value>Home</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/otherSourceOfPoultry:label">
+            <value>Mention other source of the poultry meat what was consumed</value>
+          </text>
+          <text id="/data/eatReadMeat:label">
+            <value>Did you eat red meat? </value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:label">
+            <value>Did you eat beef?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:label">
+            <value>Did you eat mutton?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:label">
+            <value>Did you eat pork?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:label">
+            <value>Did you eat goat meat?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:label">
+            <value>Did you eat wild red meat?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatReadMeat/otherEatWildRedMeat:label">
+            <value>If above answer is yes, specify wild red meat you eat</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared:label">
+            <value>How was the eaten red meat prepared?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:label">
+            <value>Did you eat raw meat?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:label">
+            <value>Did you eat undercooked meat?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:label">
+            <value>Did you eat well cooked meat?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/livestocksInformation:label">
+            <value>Livestocks Information</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:label">
+            <value>Which livestock or pet do you own?</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option1">
+            <value>Chickens</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option2">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/livestocksInformation/otherLivestock:label">
+            <value>Mention other type of livestock</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:label">
+            <value>Have you been in contact with animals?</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option0">
+            <value>Contact with cattle</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option1">
+            <value>Contact with sheep </value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option2">
+            <value>Contact with poultry </value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option3">
+            <value>Contact with dogs</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option4">
+            <value>Playing in an area with bird droppings </value>
+          </text>
+          <text id="/data/waterSourceInformation:label">
+            <value>Water source information</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:label">
+            <value>What is your water source?</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option0">
+            <value>Tap/Pipe </value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option1">
+            <value>Well</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option2">
+            <value>Fountain/Spring</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option3">
+            <value>River</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option4">
+            <value>Pond</value>
+          </text>
+          <text id="/data/waterSourceInformation/otherWaterSource:label">
+            <value>Mention other water source, if any</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:label">
+            <value>Do you drink untreated water?</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option0">
+            <value>Drinking unboiled water</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option1">
+            <value>Drinking unchlorinated water</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option2">
+            <value>Drinking water directly from surface source (lake, river, pond, well)</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option3">
+            <value>Drinking water directly from tap</value>
+          </text>
+          <text id="/data/waterSourceInformation/otherUntreatedWater:label">
+            <value>Mention other untreated water</value>
+          </text>
+          <text id="/data/diseaseInformation:label">
+            <value>Chronic diseases Information</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:label">
+            <value>Do you have any of the following chronic diseases? </value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option0">
+            <value>Anaemia</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option1">
+            <value>Gastrointestinal disorder (peptic ulcers disease)</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option2">
+            <value>Recurrent diarrhoea </value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option3">
+            <value>Liver disorder </value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option4">
+            <value>Diabetis</value>
+          </text>
+          <text id="/data/diseaseInformation/otherChronicDisease:label">
+            <value>Mention other chronic diseases</value>
+          </text>
+          <text id="/data/kitchenFoodPractices:label">
+            <value>Kitchen and food-handling practices</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:label">
+            <value>Did you use cutting board for cutting raw meat? </value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:label">
+            <value>Did you wash cutting board after cutting raw meat?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:label">
+            <value>Did you clean a knife when using it for raw meat and other foods?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:label">
+            <value>Did you wash hands with soap and water after touching raw food?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:label">
+            <value>How often do you change dish cloth (≥2/week)?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/typeOfToilet:label">
+            <value>Which types of toilets/latrines do you have at home?</value>
+          </text>
+          <text id="/data/typeOfToilet:option0">
+            <value>Pit latrines </value>
+          </text>
+          <text id="/data/typeOfToilet:option1">
+            <value>Western type</value>
+          </text>
+          <text id="/data/typeOfToilet:option2">
+            <value>Squat toilets</value>
+          </text>
+          <text id="/data/typeOfToilet:option3">
+            <value>All types</value>
+          </text>
+          <text id="/data/rawFoodEat:label">
+            <value>Which of the following raw food (vegetables, mushroom, fruits) did you eat? </value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:label">
+            <value>Lettuce (Cabbage, spinach, radish plant, etc)</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:label">
+            <value>Raw carrots </value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:label">
+            <value>Raw mushrooms</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:label">
+            <value>Unpeeled fruits</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option2">
+            <value>Unsure</value>
+          </text>
+          <text id="/data/rawFoodEat/otherRawFood:label">
+            <value>Other raw food did you eat</value>
+          </text>
+          <text id="/data/otherRiskFactors:label">
+            <value>Other risk factors</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:label">
+            <value>In the month before the onset of illness, did you take antibiotics?</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:label">
+            <value>Do you wash hands after contact with livestock?</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option2">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:label">
+            <value>Do you wash hands before feeding a child?</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:label">
+            <value>How often?</value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:option0">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:option1">
+            <value>Always</value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:label">
+            <value>Do you wash the child’s hands after defecation?  </value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:label">
+            <value>How often?</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:option0">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:option1">
+            <value>Always</value>
+          </text>
+          <text id="/data/useCleanUtensils:label">
+            <value>What do you use to clean utensils? </value>
+          </text>
+          <text id="/data/useCleanUtensils:option0">
+            <value>Water Only</value>
+          </text>
+          <text id="/data/useCleanUtensils:option1">
+            <value>Water and Soap</value>
+          </text>
+          <text id="/data/useCleanUtensils:option2">
+            <value>Other Cemical</value>
+          </text>
+          <text id="/data/otherCleanUtensils:label">
+            <value>Specify other chemicals</value>
+          </text>
+          <text id="/data/accessLandFertilized:label">
+            <value>Do you have access to land fertilized with manure?</value>
+          </text>
+          <text id="/data/accessLandFertilized:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/accessLandFertilized:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/eatAtBarbecues:label">
+            <value>Did you eat at barbecues?</value>
+          </text>
+          <text id="/data/eatAtBarbecues:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/eatAtBarbecues:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/meatEatAtBarbecues:label">
+            <value>Specify meat eat at barbecues</value>
+          </text>
+          <text id="/data/OtherRiskFactors:label">
+            <value>Other Risk Factors</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:label">
+            <value>Did you eat outside of the home?</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:label">
+            <value>Do you drink raw milk?</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:label">
+            <value>Did you travel outside the Tanzania?</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/travelCountry:label">
+            <value>Specify country</value>
+          </text>
+          <text id="/data/otherRiskFactor:label">
+            <value>Other Risk Factors</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:label">
+            <value>Do you share the house with livestock?</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:label">
+            <value>Type of poultry kept?</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option0">
+            <value>Indigenous</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option1">
+            <value>Broiler (Meat)</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option2">
+            <value>Broiler (Laying hen)</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:label">
+            <value>Suspected transmission type</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option0">
+            <value>Foodborne</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option1">
+            <value>Waterborne</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option2">
+            <value>Animal related</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option3">
+            <value>Unknown</value>
+          </text>
+          <text id="/data/otherRiskComments:label">
+            <value>Do you have any comments about this research on Campylobacter species?</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/personal:label">
+            <value>Taarifa binafsi</value>
+          </text>
+          <text id="/data/personal/patientName:label">
+            <value>Jina la mgonjwa</value>
+          </text>
+          <text id="/data/personal/patientName:requiredMsg">
+            <value>Jina la mgonjwa linahitajika</value>
+          </text>
+          <text id="/data/personal/age:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/personal/age:requiredMsg">
+            <value>Umri wa mgonjwa unahitajika</value>
+          </text>
+          <text id="/data/personal/gender:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/personal/gender:requiredMsg">
+            <value>Jinsia ya mgonjwa inahitajika</value>
+          </text>
+          <text id="/data/personal/gender:option0">
+            <value>Mme</value>
+          </text>
+          <text id="/data/personal/gender:option1">
+            <value>Mke</value>
+          </text>
+          <text id="/data/personal/village:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/data/personal/ward:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/personal/address:label">
+            <value>Anwani</value>
+          </text>
+          <text id="/data/personal/phone:label">
+            <value>Nambari ya simu</value>
+          </text>
+          <text id="/data/personal/interviewDate:label">
+            <value>Tarehe ya mahojiano</value>
+          </text>
+          <text id="/data/personal1:label">
+            <value>Taarifa binafsi</value>
+          </text>
+          <text id="/data/personal1/education:label">
+            <value>Historia ya elimu ya mshiriki au mzazi / mlezi wa mtoto  chini ya miaka 15 </value>
+          </text>
+          <text id="/data/personal1/education:hint">
+            <value>Chagua jibu lililo sahihi</value>
+          </text>
+          <text id="/data/personal1/education:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/personal1/education:option0">
+            <value>Hakuna Elimu rasmi</value>
+          </text>
+          <text id="/data/personal1/education:option1">
+            <value>Shule ya msingi</value>
+          </text>
+          <text id="/data/personal1/education:option2">
+            <value>Shule ya Sekondari</value>
+          </text>
+          <text id="/data/personal1/education:option3">
+            <value>Elimu ya juu</value>
+          </text>
+          <text id="/data/clinical:label">
+            <value>Maelezo ya kliniki</value>
+          </text>
+          <text id="/data/clinical/illness_onset_date:label">
+            <value>Lini ulianza kuumwa (tarehe ya kuanza)? </value>
+          </text>
+          <text id="/data/clinical/illiness_duration:label">
+            <value>Umeugua kwa siku ngapi </value>
+          </text>
+          <text id="/data/clinical/illiness_duration:hint">
+            <value>Andika idadi ya siku ulizoumwa</value>
+          </text>
+          <text id="/data/signsDiarrhea:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:label">
+            <value>Kuhara (≥3 kuharisha/siku)</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsDiarrhea/diarrhea:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/signsDiarrhea/onsetDateDiarrhea:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:label">
+            <value>Kuharisha damu</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/bloodyDiarrhea:option2">
+            <value>Haijulikana</value>
+          </text>
+          <text id="/data/signsBloodyDiarrhea/onsetDateBloodyDiarrhea:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsAbdominalPain:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:label">
+            <value>Maumivu ya tumbo</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsAbdominalPain/AbdominalPain:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/signsAbdominalPain/onsetDateAbdominal:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsNausea:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsNausea/nausea:label">
+            <value>Kichefuchefu</value>
+          </text>
+          <text id="/data/signsNausea/nausea:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/signsNausea/nausea:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/signsNausea/nausea:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsNausea/nausea:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/signsNausea/onsetDateNausea:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsVomiting:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:label">
+            <value>Kutapika</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsVomiting/vomiting:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/signsVomiting/onsetDateVomiting:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsFever:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsFever/fever:label">
+            <value>Je, ulikuwa na homa?</value>
+          </text>
+          <text id="/data/signsFever/fever:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/signsFever/fever:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/signsFever/fever:option2">
+            <value>Haijulikana</value>
+          </text>
+          <text id="/data/signsFever/onsetDateFever:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/signsOthers:label">
+            <value>Ishara na Dalili zinazowasilishwa na mgonjwa</value>
+          </text>
+          <text id="/data/signsOthers/otherSymptoms:label">
+            <value>Dalili nyingine</value>
+          </text>
+          <text id="/data/signsOthers/onsetDateOtherSymptoms:label">
+            <value>Tarehe ya kuanza</value>
+          </text>
+          <text id="/data/anyClinicalPerson:label">
+            <value>Je! Unajua mtu yeyote unayeishi naye nyumba moja ambaye alikuwa na dalili za ugonjwa kama zako katika wiki mbili kabla au katika wiki mbili baada ya wewe kuugua?</value>
+          </text>
+          <text id="/data/anyClinicalPerson:hint">
+            <value></value>
+          </text>
+          <text id="/data/anyClinicalPerson:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/anyClinicalPerson:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip:label">
+            <value>Uhusiano wa mtu na mgonjwa</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:label">
+            <value>Je kuna uhusiano gani kati ya huyo mtu na mgonjwa?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option0">
+            <value>Baba/ Mwakilishi wa Familia</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option1">
+            <value>Mama</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option2">
+            <value>Mjakazi</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option3">
+            <value>Ndugu au dada kwa Mtoto</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/personRelationship:option4">
+            <value>Mwingine</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/otherRelationship:label">
+            <value>Taja uhusiano mwingine kati ya huyo mtu na mgonjwa?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/otherRelationship:hint">
+            <value>Taja uhusiano mwingine</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:label">
+            <value>Je, ulikula nyama ya kuku au jamii nyingine ya ndege katika wiki mbili zilizopita?</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/clinicalPersonRelationShip/poultryConsumption:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo:label">
+            <value>Matumizi/ulaji wa nyama ya kuku na jamii nyingine ya ndege</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:label">
+            <value>Je, ulikua aina gani ya nyama ya kuku/ndege?</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option0">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option1">
+            <value>Njiwa</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option2">
+            <value>Bata mzinga</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option3">
+            <value>Mwewe</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/typeOfPoultry:option4">
+            <value>Kanga</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/otherTypeOfPoultry:label">
+            <value>Taja aina nyingine ya nyama ya kuku/ndege?</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:label">
+            <value>Nini ilikuwa chanzo cha nyama hiyo?</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option0">
+            <value>Mgahawa</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option1">
+            <value>Sehemu ya nyama choma</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/sourceOfPoultry:option2">
+            <value>Nyumbani</value>
+          </text>
+          <text id="/data/poultryConsumptionInfo/otherSourceOfPoultry:label">
+            <value>Taja chanzo kingine cha nyama hiyo</value>
+          </text>
+          <text id="/data/eatReadMeat:label">
+            <value>Je, ulikua nyama nyekundu?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:label">
+            <value>Je, ulikula nyama ya ng'ombe?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatReadMeat/eatBeefMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:label">
+            <value>Je, ulikula nyama ya kondoo?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatReadMeat/eatMuttonMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:label">
+            <value>Je, ulikula nyama ya nguruwe?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatReadMeat/eatPorkMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:label">
+            <value>Je, ulikula nyama ya mbuzi?</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatReadMeat/eatGoatMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:label">
+            <value>Je, ulikula nyama nyekundu ya pori</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatReadMeat/eatWildRedMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatReadMeat/otherEatWildRedMeat:label">
+            <value>Kama jibu la juu ndiyo, jaza aina ya nyama nyekundu</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared:label">
+            <value>Uandaaji wa nyama nyekundu iliyotumika/iliyoliwa? </value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:label">
+            <value>Je, ulikula nyama mbichi?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatRawMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:label">
+            <value>Je, ulikula nyama isiyopikwa vizuri?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatUnderCookedMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:label">
+            <value>Je, ulikula nyama iliyopikwa vizuri?</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatenRedMeatPrepared/eatWellCookedMeat:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/livestocksInformation:label">
+            <value>Taarifa za mifugo </value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:label">
+            <value>Je, mifugo au mnyama wa nyumbani gani unayo?</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option1">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option2">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/livestocksInformation/livestockOwn:option3">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/livestocksInformation/otherLivestock:label">
+            <value>Taja aina nyingine ya mnyama</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:label">
+            <value>Je, Uligusana/Ukaribu na wanyama?</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option0">
+            <value>Uligusana na Ng'ombe</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option1">
+            <value>Uligusana na Kondoo</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option2">
+            <value>Uligusana na aina ya kuku</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option3">
+            <value>Uligusana na Mbwa</value>
+          </text>
+          <text id="/data/livestocksInformation/contactAnimals:option4">
+            <value>Ulicheza katika eneo na kinyesi cha ndege</value>
+          </text>
+          <text id="/data/waterSourceInformation:label">
+            <value>Taarifa za maji</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:label">
+            <value>Je, ni aina gani ya chanzo cha maji?</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option0">
+            <value>Bomba</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option1">
+            <value>Kisima</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option2">
+            <value>Chemichemi</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option3">
+            <value>Mto</value>
+          </text>
+          <text id="/data/waterSourceInformation/waterSource:option4">
+            <value>Bwawa</value>
+          </text>
+          <text id="/data/waterSourceInformation/otherWaterSource:label">
+            <value>Taja aina nyingine ya chanzo cha maji</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:label">
+            <value>Ni hali gani ya maji ya kunywa?</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option0">
+            <value>Kunywa maji yasiyochemshwa</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option1">
+            <value>Kunywa maji yasiyo na chlorini</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option2">
+            <value>Kunywa maji moja kwa moja kutoka chanzo cha uso (ziwa, mto, bwawa, kisima)</value>
+          </text>
+          <text id="/data/waterSourceInformation/drinkUntreatedWater:option3">
+            <value>Kunywa maji moja kwa moja kutoka kwenye bomba</value>
+          </text>
+          <text id="/data/waterSourceInformation/otherUntreatedWater:label">
+            <value>Taja aina nyingine ya maji ya kunywa</value>
+          </text>
+          <text id="/data/diseaseInformation:label">
+            <value>Taarifa ya magonjwa ya kudumu</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:label">
+            <value>Je, ni magonjwa gani ya kudumu unayo?</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option0">
+            <value>Upungufu wa damu</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option1">
+            <value>Magonjwa ya matumbo (Vidonda vya tumbo)</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option2">
+            <value>Kuharisha mara kwa mara</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option3">
+            <value>Ugonjwa wa ini</value>
+          </text>
+          <text id="/data/diseaseInformation/chronicDisease:option4">
+            <value>Ugonjwa wa kisukari</value>
+          </text>
+          <text id="/data/diseaseInformation/otherChronicDisease:label">
+            <value>Taja ugonjwa mwingine sugu </value>
+          </text>
+          <text id="/data/kitchenFoodPractices:label">
+            <value>Ujali kuhusu Jikoni na Utunzaji wa Chakula</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:label">
+            <value>Je, unatumia ubao kukata nyama mbichi?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/useCuttingBoard:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:label">
+            <value>Je, unaosha ubao baada ya kukata nyama mbichi?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washCuttingBoard:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:label">
+            <value>Je! unsafisha kisu baada ya kukata nyama mbichi na kabla ya kukitumia kwa vyakula vingine?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/cleanKnife:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:label">
+            <value>Je, unaosha mikono na sabuni na maji baada ya kugusa chakula kibichi?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/washHandWithSoaps:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:label">
+            <value>Je, unabadilisha kitambaa cha kukaushia sahani mara kwa mara (≥2 / wiki)?</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/kitchenFoodPractices/changeDishCloth:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/typeOfToilet:label">
+            <value>Ni  aina gani ya choo kitumikacho?</value>
+          </text>
+          <text id="/data/typeOfToilet:option0">
+            <value>Choo cha shimo</value>
+          </text>
+          <text id="/data/typeOfToilet:option1">
+            <value>Aina ya Magharibi ya kukaa</value>
+          </text>
+          <text id="/data/typeOfToilet:option2">
+            <value>Aina ya Magharibi ya kuchuchumaa</value>
+          </text>
+          <text id="/data/typeOfToilet:option3">
+            <value>Aina zote</value>
+          </text>
+          <text id="/data/rawFoodEat:label">
+            <value>Je, ulikula chakula ghafi/ambacho hakijapikwa (mboga, uyoga na matunda)?</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:label">
+            <value>Letusi (kabichi, Figiri mchicha, etc)</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/rawFoodEat/lettuce:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:label">
+            <value>Karoti</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/rawFoodEat/rawCarrots:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:label">
+            <value>Uyoga usiopikwa</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/rawFoodEat/rawMushrooms:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:label">
+            <value>Matunda yasiyomenywa</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/rawFoodEat/unpeeledFruits:option2">
+            <value>Sina uhakika</value>
+          </text>
+          <text id="/data/rawFoodEat/otherRawFood:label">
+            <value>Taja aina nyingine ya chakula ghafi</value>
+          </text>
+          <text id="/data/otherRiskFactors:label">
+            <value>SSababu nyingine hatarishi</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:label">
+            <value>Je, ulitumia antibiotics mwezi mmoja kabla ya kuugua? </value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/otherRiskFactors/takeAntibioticsOnsetilliness:option2">
+            <value>Haijulikani</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:label">
+            <value>Je, unaosha mikono baada ya kuhudumia au kuwa karibu na mifugo?</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/otherRiskFactors/washHandAfterContactLivestock:option2">
+            <value>Haijuliko</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:label">
+            <value>Je, unaosha mikono kabla ya kumlisha mtoto?</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/washBeforeFeedingChild:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:label">
+            <value>Mara ngapi?              </value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:option0">
+            <value>Mara nyingine</value>
+          </text>
+          <text id="/data/howOftenWashBeforeFeedingChild:option1">
+            <value>Daima</value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:label">
+            <value>Je, unaosha mikono ya mtoto baada ya kujisaidia choo kubwa?</value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/washChildHandsAfterDefecation:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:label">
+            <value>Mara ngapi?</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:option0">
+            <value>Mara nyingine</value>
+          </text>
+          <text id="/data/howOftenWashChildHandsAfterDefecation:option1">
+            <value>Daima</value>
+          </text>
+          <text id="/data/useCleanUtensils:label">
+            <value>Unatumia nini kusafisha vyombo? </value>
+          </text>
+          <text id="/data/useCleanUtensils:option0">
+            <value>Maji tu</value>
+          </text>
+          <text id="/data/useCleanUtensils:option1">
+            <value>Maji na sabuni</value>
+          </text>
+          <text id="/data/useCleanUtensils:option2">
+            <value>Dawa nyingine</value>
+          </text>
+          <text id="/data/otherCleanUtensils:label">
+            <value>Jaza dawa nyingine</value>
+          </text>
+          <text id="/data/accessLandFertilized:label">
+            <value>Je! Unatumia mbolea ya wanyama katika kilimo?/ Una uhusiano na ardhi yenye mbolea?</value>
+          </text>
+          <text id="/data/accessLandFertilized:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/accessLandFertilized:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/eatAtBarbecues:label">
+            <value>Je, ulikula kwenye nyama choma?</value>
+          </text>
+          <text id="/data/eatAtBarbecues:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/eatAtBarbecues:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/meatEatAtBarbecues:label">
+            <value>Aina gani ya nyama?</value>
+          </text>
+          <text id="/data/OtherRiskFactors:label">
+            <value>Sababu nyingine hatarishi</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:label">
+            <value>Je, huwa unakula nje ya nyumbani?</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/OtherRiskFactors/eatOutsideHome:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:label">
+            <value>Je! Huwa unakunywa maziwa yasiyochemshwa?</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/OtherRiskFactors/drinkRawMilk:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:label">
+            <value>Je, ulisafiri nje ya Tanzania?</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/travelOutsideTanzania:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/travelCountry:label">
+            <value>Taja nchi</value>
+          </text>
+          <text id="/data/otherRiskFactor:label">
+            <value>Sababu nyingine hatarishi</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:label">
+            <value>Je! Unaishi na mifugo ndani ya nyumba?</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:option0">
+            <value>Ndiyo</value>
+          </text>
+          <text id="/data/otherRiskFactor/shareHouseWithLivestocks:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:label">
+            <value>Aina za kuku unaofuga</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option0">
+            <value>Asilia</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option1">
+            <value>Wa kisasa(Nyama)</value>
+          </text>
+          <text id="/data/otherRiskFactor/typeOfPoultryKept:option2">
+            <value>Wa kisasa(Mayai)</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:label">
+            <value>Je unafikiri nini ni chanzo cha ugonjwa unaougua</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option0">
+            <value>Chakula</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option1">
+            <value>Maji</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option2">
+            <value>Kuwa karibu na wanyama</value>
+          </text>
+          <text id="/data/otherRiskFactor/suspectedTransmissionType:option3">
+            <value>Sikifahamu</value>
+          </text>
+          <text id="/data/otherRiskComments:label">
+            <value>Je! Una maoni yoyote kuhusu utafiti huu wa Campylobacter?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/personal/patientName" type="string" required="true()" jr:requiredMsg="jr:itext('/data/personal/patientName:requiredMsg')"/>
+      <bind nodeset="/data/personal/age" type="int" required="true()" jr:requiredMsg="jr:itext('/data/personal/age:requiredMsg')"/>
+      <bind nodeset="/data/personal/gender" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/personal/gender:requiredMsg')"/>
+      <bind nodeset="/data/personal/village" type="string" required="true()"/>
+      <bind nodeset="/data/personal/ward" type="string" required="true()"/>
+      <bind nodeset="/data/personal/address" type="string"/>
+      <bind nodeset="/data/personal/phone" type="string"/>
+      <bind nodeset="/data/personal/interviewDate" type="date" required="true()"/>
+      <bind nodeset="/data/personal1/education" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/personal1/education:requiredMsg')"/>
+      <bind nodeset="/data/clinical/illness_onset_date" type="date" required="true()"/>
+      <bind nodeset="/data/clinical/illiness_duration" type="int" required="true()"/>
+      <bind nodeset="/data/signsDiarrhea/diarrhea" type="select1" required="true()"/>
+      <bind nodeset="/data/signsDiarrhea/onsetDateDiarrhea" type="date"/>
+      <bind nodeset="/data/signsBloodyDiarrhea/bloodyDiarrhea" type="select1" required="true()"/>
+      <bind nodeset="/data/signsBloodyDiarrhea/onsetDateBloodyDiarrhea" type="date"/>
+      <bind nodeset="/data/signsAbdominalPain/AbdominalPain" type="select1" required="true()"/>
+      <bind nodeset="/data/signsAbdominalPain/onsetDateAbdominal" type="date"/>
+      <bind nodeset="/data/signsNausea/nausea" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/signsNausea/nausea:requiredMsg')"/>
+      <bind nodeset="/data/signsNausea/onsetDateNausea" type="date"/>
+      <bind nodeset="/data/signsVomiting/vomiting" type="select1" required="true()"/>
+      <bind nodeset="/data/signsVomiting/onsetDateVomiting" type="date"/>
+      <bind nodeset="/data/signsFever/fever" type="select1" required="true()"/>
+      <bind nodeset="/data/signsFever/onsetDateFever" type="date"/>
+      <bind nodeset="/data/signsOthers/otherSymptoms" type="string"/>
+      <bind nodeset="/data/signsOthers/onsetDateOtherSymptoms" type="date"/>
+      <bind nodeset="/data/anyClinicalPerson" type="select1" required="true()"/>
+      <bind nodeset="/data/clinicalPersonRelationShip/personRelationship" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/clinicalPersonRelationShip/personRelationship:requiredMsg')"/>
+      <bind nodeset="/data/clinicalPersonRelationShip/otherRelationship" type="string"/>
+      <bind nodeset="/data/clinicalPersonRelationShip/poultryConsumption" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/clinicalPersonRelationShip/poultryConsumption:requiredMsg')"/>
+      <bind nodeset="/data/poultryConsumptionInfo/typeOfPoultry" type="select" required="true()"/>
+      <bind nodeset="/data/poultryConsumptionInfo/otherTypeOfPoultry" type="string"/>
+      <bind nodeset="/data/poultryConsumptionInfo/sourceOfPoultry" type="select" required="true()"/>
+      <bind nodeset="/data/poultryConsumptionInfo/otherSourceOfPoultry" type="string"/>
+      <bind nodeset="/data/eatReadMeat/eatBeefMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatReadMeat/eatMuttonMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatReadMeat/eatPorkMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatReadMeat/eatGoatMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatReadMeat/eatWildRedMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatReadMeat/otherEatWildRedMeat" type="string"/>
+      <bind nodeset="/data/eatenRedMeatPrepared/eatRawMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatenRedMeatPrepared/eatUnderCookedMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/eatenRedMeatPrepared/eatWellCookedMeat" type="select1" required="true()"/>
+      <bind nodeset="/data/livestocksInformation/livestockOwn" type="select" required="true()"/>
+      <bind nodeset="/data/livestocksInformation/otherLivestock" type="string"/>
+      <bind nodeset="/data/livestocksInformation/contactAnimals" type="select" required="true()"/>
+      <bind nodeset="/data/waterSourceInformation/waterSource" type="select" required="true()"/>
+      <bind nodeset="/data/waterSourceInformation/otherWaterSource" type="string"/>
+      <bind nodeset="/data/waterSourceInformation/drinkUntreatedWater" type="select" required="true()"/>
+      <bind nodeset="/data/waterSourceInformation/otherUntreatedWater" type="string"/>
+      <bind nodeset="/data/diseaseInformation/chronicDisease" type="select" required="true()"/>
+      <bind nodeset="/data/diseaseInformation/otherChronicDisease" type="string"/>
+      <bind nodeset="/data/kitchenFoodPractices/useCuttingBoard" type="select1" required="true()"/>
+      <bind nodeset="/data/kitchenFoodPractices/washCuttingBoard" type="select1" required="true()"/>
+      <bind nodeset="/data/kitchenFoodPractices/cleanKnife" type="select1" required="true()"/>
+      <bind nodeset="/data/kitchenFoodPractices/washHandWithSoaps" type="select1" required="true()"/>
+      <bind nodeset="/data/kitchenFoodPractices/changeDishCloth" type="select1" required="true()"/>
+      <bind nodeset="/data/typeOfToilet" type="select" required="true()"/>
+      <bind nodeset="/data/rawFoodEat/lettuce" type="select1" required="true()"/>
+      <bind nodeset="/data/rawFoodEat/rawCarrots" type="select1" required="true()"/>
+      <bind nodeset="/data/rawFoodEat/rawMushrooms" type="select1" required="true()"/>
+      <bind nodeset="/data/rawFoodEat/unpeeledFruits" type="select1" required="true()"/>
+      <bind nodeset="/data/rawFoodEat/otherRawFood" type="string"/>
+      <bind nodeset="/data/otherRiskFactors/takeAntibioticsOnsetilliness" type="select1" required="true()"/>
+      <bind nodeset="/data/otherRiskFactors/washHandAfterContactLivestock" type="select1" required="true()"/>
+      <bind nodeset="/data/washBeforeFeedingChild" type="select1" required="true()"/>
+      <bind nodeset="/data/howOftenWashBeforeFeedingChild" type="select1" required="true()" relevant="(selected(/data/washBeforeFeedingChild, 'Yes'))"/>
+      <bind nodeset="/data/washChildHandsAfterDefecation" type="select1" required="true()"/>
+      <bind nodeset="/data/howOftenWashChildHandsAfterDefecation" type="select1" required="true()" relevant="(selected(/data/washChildHandsAfterDefecation, 'Yes'))"/>
+      <bind nodeset="/data/useCleanUtensils" type="select1" required="true()"/>
+      <bind nodeset="/data/otherCleanUtensils" type="string" relevant="(selected(/data/useCleanUtensils, 'OtherChemical'))"/>
+      <bind nodeset="/data/accessLandFertilized" type="select1" required="true()"/>
+      <bind nodeset="/data/eatAtBarbecues" type="select1" required="true()"/>
+      <bind nodeset="/data/meatEatAtBarbecues" type="string" required="true()" relevant="(selected(/data/eatAtBarbecues, 'Yes'))"/>
+      <bind nodeset="/data/OtherRiskFactors/eatOutsideHome" type="select1" required="true()"/>
+      <bind nodeset="/data/OtherRiskFactors/drinkRawMilk" type="select1" required="true()"/>
+      <bind nodeset="/data/travelOutsideTanzania" type="select1" required="true()"/>
+      <bind nodeset="/data/travelCountry" type="string" required="true()" relevant="(selected(/data/travelOutsideTanzania, 'Yes'))"/>
+      <bind nodeset="/data/otherRiskFactor/shareHouseWithLivestocks" type="select1" required="true()"/>
+      <bind nodeset="/data/otherRiskFactor/typeOfPoultryKept" type="select1" required="true()"/>
+      <bind nodeset="/data/otherRiskFactor/suspectedTransmissionType" type="select1" required="true()"/>
+      <bind nodeset="/data/otherRiskComments" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/personal" appearance="field-list">
+      <label ref="jr:itext('/data/personal:label')"/>
+      <input ref="/data/personal/patientName">
+        <label ref="jr:itext('/data/personal/patientName:label')"/>
+      </input>
+      <input ref="/data/personal/age">
+        <label ref="jr:itext('/data/personal/age:label')"/>
+      </input>
+      <select1 ref="/data/personal/gender" appearance="horizontal">
+        <label ref="jr:itext('/data/personal/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/personal/gender:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal/gender:option1')"/>
+          <value>Female</value>
+        </item>
+      </select1>
+      <input ref="/data/personal/village">
+        <label ref="jr:itext('/data/personal/village:label')"/>
+      </input>
+      <input ref="/data/personal/ward">
+        <label ref="jr:itext('/data/personal/ward:label')"/>
+      </input>
+      <input ref="/data/personal/address">
+        <label ref="jr:itext('/data/personal/address:label')"/>
+      </input>
+      <input ref="/data/personal/phone">
+        <label ref="jr:itext('/data/personal/phone:label')"/>
+      </input>
+      <input ref="/data/personal/interviewDate">
+        <label ref="jr:itext('/data/personal/interviewDate:label')"/>
+      </input>
+    </group>
+    <group ref="/data/personal1" appearance="field-list">
+      <label ref="jr:itext('/data/personal1:label')"/>
+      <select1 ref="/data/personal1/education">
+        <label ref="jr:itext('/data/personal1/education:label')"/>
+        <hint ref="jr:itext('/data/personal1/education:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/personal1/education:option0')"/>
+          <value>no-formal-education</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal1/education:option1')"/>
+          <value>primary-education</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal1/education:option2')"/>
+          <value>secondary-school</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal1/education:option3')"/>
+          <value>tertiary-education</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/clinical" appearance="field-list">
+      <label ref="jr:itext('/data/clinical:label')"/>
+      <input ref="/data/clinical/illness_onset_date">
+        <label ref="jr:itext('/data/clinical/illness_onset_date:label')"/>
+      </input>
+      <input ref="/data/clinical/illiness_duration">
+        <label ref="jr:itext('/data/clinical/illiness_duration:label')"/>
+        <hint ref="jr:itext('/data/clinical/illiness_duration:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/signsDiarrhea" appearance="field-list">
+      <label ref="jr:itext('/data/signsDiarrhea:label')"/>
+      <select1 ref="/data/signsDiarrhea/diarrhea">
+        <label ref="jr:itext('/data/signsDiarrhea/diarrhea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsDiarrhea/diarrhea:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsDiarrhea/diarrhea:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsDiarrhea/diarrhea:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsDiarrhea/onsetDateDiarrhea">
+        <label ref="jr:itext('/data/signsDiarrhea/onsetDateDiarrhea:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsBloodyDiarrhea" appearance="field-list">
+      <label ref="jr:itext('/data/signsBloodyDiarrhea:label')"/>
+      <select1 ref="/data/signsBloodyDiarrhea/bloodyDiarrhea">
+        <label ref="jr:itext('/data/signsBloodyDiarrhea/bloodyDiarrhea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsBloodyDiarrhea/bloodyDiarrhea:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsBloodyDiarrhea/bloodyDiarrhea:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsBloodyDiarrhea/bloodyDiarrhea:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsBloodyDiarrhea/onsetDateBloodyDiarrhea">
+        <label ref="jr:itext('/data/signsBloodyDiarrhea/onsetDateBloodyDiarrhea:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsAbdominalPain" appearance="field-list">
+      <label ref="jr:itext('/data/signsAbdominalPain:label')"/>
+      <select1 ref="/data/signsAbdominalPain/AbdominalPain">
+        <label ref="jr:itext('/data/signsAbdominalPain/AbdominalPain:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsAbdominalPain/AbdominalPain:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsAbdominalPain/AbdominalPain:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsAbdominalPain/AbdominalPain:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsAbdominalPain/onsetDateAbdominal">
+        <label ref="jr:itext('/data/signsAbdominalPain/onsetDateAbdominal:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsNausea" appearance="field-list">
+      <label ref="jr:itext('/data/signsNausea:label')"/>
+      <select1 ref="/data/signsNausea/nausea">
+        <label ref="jr:itext('/data/signsNausea/nausea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsNausea/nausea:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsNausea/nausea:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsNausea/nausea:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsNausea/onsetDateNausea">
+        <label ref="jr:itext('/data/signsNausea/onsetDateNausea:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsVomiting" appearance="field-list">
+      <label ref="jr:itext('/data/signsVomiting:label')"/>
+      <select1 ref="/data/signsVomiting/vomiting">
+        <label ref="jr:itext('/data/signsVomiting/vomiting:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsVomiting/vomiting:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsVomiting/vomiting:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsVomiting/vomiting:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsVomiting/onsetDateVomiting">
+        <label ref="jr:itext('/data/signsVomiting/onsetDateVomiting:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsFever" appearance="field-list">
+      <label ref="jr:itext('/data/signsFever:label')"/>
+      <select1 ref="/data/signsFever/fever">
+        <label ref="jr:itext('/data/signsFever/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/data/signsFever/fever:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsFever/fever:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/signsFever/fever:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <input ref="/data/signsFever/onsetDateFever">
+        <label ref="jr:itext('/data/signsFever/onsetDateFever:label')"/>
+      </input>
+    </group>
+    <group ref="/data/signsOthers" appearance="field-list">
+      <label ref="jr:itext('/data/signsOthers:label')"/>
+      <input ref="/data/signsOthers/otherSymptoms">
+        <label ref="jr:itext('/data/signsOthers/otherSymptoms:label')"/>
+      </input>
+      <input ref="/data/signsOthers/onsetDateOtherSymptoms">
+        <label ref="jr:itext('/data/signsOthers/onsetDateOtherSymptoms:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/anyClinicalPerson">
+      <label ref="jr:itext('/data/anyClinicalPerson:label')"/>
+      <hint ref="jr:itext('/data/anyClinicalPerson:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/anyClinicalPerson:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/anyClinicalPerson:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <group ref="/data/clinicalPersonRelationShip" appearance="field-list">
+      <label ref="jr:itext('/data/clinicalPersonRelationShip:label')"/>
+      <select1 ref="/data/clinicalPersonRelationShip/personRelationship">
+        <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:label')"/>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:option0')"/>
+          <value>Father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:option1')"/>
+          <value>Mother</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:option2')"/>
+          <value>Maid</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:option3')"/>
+          <value>Brother-Sister</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/personRelationship:option4')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <input ref="/data/clinicalPersonRelationShip/otherRelationship">
+        <label ref="jr:itext('/data/clinicalPersonRelationShip/otherRelationship:label')"/>
+        <hint ref="jr:itext('/data/clinicalPersonRelationShip/otherRelationship:hint')"/>
+      </input>
+      <select1 ref="/data/clinicalPersonRelationShip/poultryConsumption">
+        <label ref="jr:itext('/data/clinicalPersonRelationShip/poultryConsumption:label')"/>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/poultryConsumption:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/poultryConsumption:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinicalPersonRelationShip/poultryConsumption:option2')"/>
+          <value>Unkmown</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/poultryConsumptionInfo" appearance="field-list">
+      <label ref="jr:itext('/data/poultryConsumptionInfo:label')"/>
+      <select ref="/data/poultryConsumptionInfo/typeOfPoultry" appearance="minimal">
+        <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:option0')"/>
+          <value>Chicken</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:option1')"/>
+          <value>Dove</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:option2')"/>
+          <value>Turkey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:option3')"/>
+          <value>Hawk</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/typeOfPoultry:option4')"/>
+          <value>GuineaFowl</value>
+        </item>
+      </select>
+      <input ref="/data/poultryConsumptionInfo/otherTypeOfPoultry">
+        <label ref="jr:itext('/data/poultryConsumptionInfo/otherTypeOfPoultry:label')"/>
+      </input>
+      <select ref="/data/poultryConsumptionInfo/sourceOfPoultry" appearance="minimal">
+        <label ref="jr:itext('/data/poultryConsumptionInfo/sourceOfPoultry:label')"/>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/sourceOfPoultry:option0')"/>
+          <value>Restaurant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/sourceOfPoultry:option1')"/>
+          <value>Barbecues</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/poultryConsumptionInfo/sourceOfPoultry:option2')"/>
+          <value>Home</value>
+        </item>
+      </select>
+      <input ref="/data/poultryConsumptionInfo/otherSourceOfPoultry">
+        <label ref="jr:itext('/data/poultryConsumptionInfo/otherSourceOfPoultry:label')"/>
+      </input>
+    </group>
+    <group ref="/data/eatReadMeat" appearance="field-list">
+      <label ref="jr:itext('/data/eatReadMeat:label')"/>
+      <select1 ref="/data/eatReadMeat/eatBeefMeat">
+        <label ref="jr:itext('/data/eatReadMeat/eatBeefMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatBeefMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatBeefMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatReadMeat/eatMuttonMeat">
+        <label ref="jr:itext('/data/eatReadMeat/eatMuttonMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatMuttonMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatMuttonMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatReadMeat/eatPorkMeat">
+        <label ref="jr:itext('/data/eatReadMeat/eatPorkMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatPorkMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatPorkMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatReadMeat/eatGoatMeat">
+        <label ref="jr:itext('/data/eatReadMeat/eatGoatMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatGoatMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatGoatMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatReadMeat/eatWildRedMeat">
+        <label ref="jr:itext('/data/eatReadMeat/eatWildRedMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatWildRedMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatReadMeat/eatWildRedMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/eatReadMeat/otherEatWildRedMeat">
+        <label ref="jr:itext('/data/eatReadMeat/otherEatWildRedMeat:label')"/>
+      </input>
+    </group>
+    <group ref="/data/eatenRedMeatPrepared" appearance="field-list">
+      <label ref="jr:itext('/data/eatenRedMeatPrepared:label')"/>
+      <select1 ref="/data/eatenRedMeatPrepared/eatRawMeat">
+        <label ref="jr:itext('/data/eatenRedMeatPrepared/eatRawMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatRawMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatRawMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatenRedMeatPrepared/eatUnderCookedMeat">
+        <label ref="jr:itext('/data/eatenRedMeatPrepared/eatUnderCookedMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatUnderCookedMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatUnderCookedMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/eatenRedMeatPrepared/eatWellCookedMeat">
+        <label ref="jr:itext('/data/eatenRedMeatPrepared/eatWellCookedMeat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatWellCookedMeat:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/eatenRedMeatPrepared/eatWellCookedMeat:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/livestocksInformation" appearance="field-list">
+      <label ref="jr:itext('/data/livestocksInformation:label')"/>
+      <select ref="/data/livestocksInformation/livestockOwn">
+        <label ref="jr:itext('/data/livestocksInformation/livestockOwn:label')"/>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/livestockOwn:option0')"/>
+          <value>Cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/livestockOwn:option1')"/>
+          <value>Chickens</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/livestockOwn:option2')"/>
+          <value>Sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/livestockOwn:option3')"/>
+          <value>Dog</value>
+        </item>
+      </select>
+      <input ref="/data/livestocksInformation/otherLivestock">
+        <label ref="jr:itext('/data/livestocksInformation/otherLivestock:label')"/>
+      </input>
+      <select ref="/data/livestocksInformation/contactAnimals" appearance="minimal">
+        <label ref="jr:itext('/data/livestocksInformation/contactAnimals:label')"/>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/contactAnimals:option0')"/>
+          <value>cattleContact</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/contactAnimals:option1')"/>
+          <value>sheepContact</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/contactAnimals:option2')"/>
+          <value>poultryContact</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/contactAnimals:option3')"/>
+          <value>dogsContact</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/livestocksInformation/contactAnimals:option4')"/>
+          <value>playingWithBirdDroppings</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/waterSourceInformation" appearance="field-list">
+      <label ref="jr:itext('/data/waterSourceInformation:label')"/>
+      <select ref="/data/waterSourceInformation/waterSource" appearance="minimal">
+        <label ref="jr:itext('/data/waterSourceInformation/waterSource:label')"/>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/waterSource:option0')"/>
+          <value>Tap</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/waterSource:option1')"/>
+          <value>Well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/waterSource:option2')"/>
+          <value>Fountain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/waterSource:option3')"/>
+          <value>River</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/waterSource:option4')"/>
+          <value>Pond</value>
+        </item>
+      </select>
+      <input ref="/data/waterSourceInformation/otherWaterSource">
+        <label ref="jr:itext('/data/waterSourceInformation/otherWaterSource:label')"/>
+      </input>
+      <select ref="/data/waterSourceInformation/drinkUntreatedWater" appearance="minimal">
+        <label ref="jr:itext('/data/waterSourceInformation/drinkUntreatedWater:label')"/>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/drinkUntreatedWater:option0')"/>
+          <value>unboiledWater</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/drinkUntreatedWater:option1')"/>
+          <value>unchlorinatedWater</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/drinkUntreatedWater:option2')"/>
+          <value>directlyFromSurfaceSource</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/waterSourceInformation/drinkUntreatedWater:option3')"/>
+          <value>directlyFromTap</value>
+        </item>
+      </select>
+      <input ref="/data/waterSourceInformation/otherUntreatedWater">
+        <label ref="jr:itext('/data/waterSourceInformation/otherUntreatedWater:label')"/>
+      </input>
+    </group>
+    <group ref="/data/diseaseInformation" appearance="field-list">
+      <label ref="jr:itext('/data/diseaseInformation:label')"/>
+      <select ref="/data/diseaseInformation/chronicDisease">
+        <label ref="jr:itext('/data/diseaseInformation/chronicDisease:label')"/>
+        <item>
+          <label ref="jr:itext('/data/diseaseInformation/chronicDisease:option0')"/>
+          <value>Anaemia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diseaseInformation/chronicDisease:option1')"/>
+          <value>GastrointestinalDisorder</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diseaseInformation/chronicDisease:option2')"/>
+          <value>RecurrentDiarrhoea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diseaseInformation/chronicDisease:option3')"/>
+          <value>LiverDisorder</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diseaseInformation/chronicDisease:option4')"/>
+          <value>Diabetis</value>
+        </item>
+      </select>
+      <input ref="/data/diseaseInformation/otherChronicDisease">
+        <label ref="jr:itext('/data/diseaseInformation/otherChronicDisease:label')"/>
+      </input>
+    </group>
+    <group ref="/data/kitchenFoodPractices" appearance="field-list">
+      <label ref="jr:itext('/data/kitchenFoodPractices:label')"/>
+      <select1 ref="/data/kitchenFoodPractices/useCuttingBoard">
+        <label ref="jr:itext('/data/kitchenFoodPractices/useCuttingBoard:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/useCuttingBoard:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/useCuttingBoard:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/useCuttingBoard:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kitchenFoodPractices/washCuttingBoard">
+        <label ref="jr:itext('/data/kitchenFoodPractices/washCuttingBoard:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washCuttingBoard:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washCuttingBoard:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washCuttingBoard:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kitchenFoodPractices/cleanKnife">
+        <label ref="jr:itext('/data/kitchenFoodPractices/cleanKnife:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/cleanKnife:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/cleanKnife:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/cleanKnife:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kitchenFoodPractices/washHandWithSoaps">
+        <label ref="jr:itext('/data/kitchenFoodPractices/washHandWithSoaps:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washHandWithSoaps:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washHandWithSoaps:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/washHandWithSoaps:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kitchenFoodPractices/changeDishCloth">
+        <label ref="jr:itext('/data/kitchenFoodPractices/changeDishCloth:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/changeDishCloth:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/changeDishCloth:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchenFoodPractices/changeDishCloth:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/typeOfToilet">
+      <label ref="jr:itext('/data/typeOfToilet:label')"/>
+      <item>
+        <label ref="jr:itext('/data/typeOfToilet:option0')"/>
+        <value>PitLatrines</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/typeOfToilet:option1')"/>
+        <value>WestenType</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/typeOfToilet:option2')"/>
+        <value>SquatToilets</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/typeOfToilet:option3')"/>
+        <value>AllTypes</value>
+      </item>
+    </select>
+    <group ref="/data/rawFoodEat" appearance="field-list">
+      <label ref="jr:itext('/data/rawFoodEat:label')"/>
+      <select1 ref="/data/rawFoodEat/lettuce">
+        <label ref="jr:itext('/data/rawFoodEat/lettuce:label')"/>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/lettuce:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/lettuce:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/lettuce:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/rawFoodEat/rawCarrots">
+        <label ref="jr:itext('/data/rawFoodEat/rawCarrots:label')"/>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawCarrots:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawCarrots:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawCarrots:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/rawFoodEat/rawMushrooms">
+        <label ref="jr:itext('/data/rawFoodEat/rawMushrooms:label')"/>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawMushrooms:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawMushrooms:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/rawMushrooms:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/rawFoodEat/unpeeledFruits">
+        <label ref="jr:itext('/data/rawFoodEat/unpeeledFruits:label')"/>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/unpeeledFruits:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/unpeeledFruits:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rawFoodEat/unpeeledFruits:option2')"/>
+          <value>Unsure</value>
+        </item>
+      </select1>
+      <input ref="/data/rawFoodEat/otherRawFood">
+        <label ref="jr:itext('/data/rawFoodEat/otherRawFood:label')"/>
+      </input>
+    </group>
+    <group ref="/data/otherRiskFactors" appearance="field-list">
+      <label ref="jr:itext('/data/otherRiskFactors:label')"/>
+      <select1 ref="/data/otherRiskFactors/takeAntibioticsOnsetilliness">
+        <label ref="jr:itext('/data/otherRiskFactors/takeAntibioticsOnsetilliness:label')"/>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/takeAntibioticsOnsetilliness:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/takeAntibioticsOnsetilliness:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/takeAntibioticsOnsetilliness:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/data/otherRiskFactors/washHandAfterContactLivestock">
+        <label ref="jr:itext('/data/otherRiskFactors/washHandAfterContactLivestock:label')"/>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/washHandAfterContactLivestock:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/washHandAfterContactLivestock:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactors/washHandAfterContactLivestock:option2')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/washBeforeFeedingChild">
+      <label ref="jr:itext('/data/washBeforeFeedingChild:label')"/>
+      <item>
+        <label ref="jr:itext('/data/washBeforeFeedingChild:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/washBeforeFeedingChild:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <select1 ref="/data/howOftenWashBeforeFeedingChild">
+      <label ref="jr:itext('/data/howOftenWashBeforeFeedingChild:label')"/>
+      <item>
+        <label ref="jr:itext('/data/howOftenWashBeforeFeedingChild:option0')"/>
+        <value>Sometimes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/howOftenWashBeforeFeedingChild:option1')"/>
+        <value>Always</value>
+      </item>
+    </select1>
+    <select1 ref="/data/washChildHandsAfterDefecation">
+      <label ref="jr:itext('/data/washChildHandsAfterDefecation:label')"/>
+      <item>
+        <label ref="jr:itext('/data/washChildHandsAfterDefecation:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/washChildHandsAfterDefecation:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <select1 ref="/data/howOftenWashChildHandsAfterDefecation">
+      <label ref="jr:itext('/data/howOftenWashChildHandsAfterDefecation:label')"/>
+      <item>
+        <label ref="jr:itext('/data/howOftenWashChildHandsAfterDefecation:option0')"/>
+        <value>Sometimes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/howOftenWashChildHandsAfterDefecation:option1')"/>
+        <value>Always</value>
+      </item>
+    </select1>
+    <select1 ref="/data/useCleanUtensils">
+      <label ref="jr:itext('/data/useCleanUtensils:label')"/>
+      <item>
+        <label ref="jr:itext('/data/useCleanUtensils:option0')"/>
+        <value>waterOnly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/useCleanUtensils:option1')"/>
+        <value>WaterSoap</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/useCleanUtensils:option2')"/>
+        <value>OtherChemical</value>
+      </item>
+    </select1>
+    <input ref="/data/otherCleanUtensils">
+      <label ref="jr:itext('/data/otherCleanUtensils:label')"/>
+    </input>
+    <select1 ref="/data/accessLandFertilized">
+      <label ref="jr:itext('/data/accessLandFertilized:label')"/>
+      <item>
+        <label ref="jr:itext('/data/accessLandFertilized:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/accessLandFertilized:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <select1 ref="/data/eatAtBarbecues">
+      <label ref="jr:itext('/data/eatAtBarbecues:label')"/>
+      <item>
+        <label ref="jr:itext('/data/eatAtBarbecues:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/eatAtBarbecues:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <input ref="/data/meatEatAtBarbecues">
+      <label ref="jr:itext('/data/meatEatAtBarbecues:label')"/>
+    </input>
+    <group ref="/data/OtherRiskFactors" appearance="field-list">
+      <label ref="jr:itext('/data/OtherRiskFactors:label')"/>
+      <select1 ref="/data/OtherRiskFactors/eatOutsideHome">
+        <label ref="jr:itext('/data/OtherRiskFactors/eatOutsideHome:label')"/>
+        <item>
+          <label ref="jr:itext('/data/OtherRiskFactors/eatOutsideHome:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OtherRiskFactors/eatOutsideHome:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/OtherRiskFactors/drinkRawMilk">
+        <label ref="jr:itext('/data/OtherRiskFactors/drinkRawMilk:label')"/>
+        <item>
+          <label ref="jr:itext('/data/OtherRiskFactors/drinkRawMilk:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OtherRiskFactors/drinkRawMilk:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/travelOutsideTanzania">
+      <label ref="jr:itext('/data/travelOutsideTanzania:label')"/>
+      <item>
+        <label ref="jr:itext('/data/travelOutsideTanzania:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/travelOutsideTanzania:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <input ref="/data/travelCountry">
+      <label ref="jr:itext('/data/travelCountry:label')"/>
+    </input>
+    <group ref="/data/otherRiskFactor" appearance="field-list">
+      <label ref="jr:itext('/data/otherRiskFactor:label')"/>
+      <select1 ref="/data/otherRiskFactor/shareHouseWithLivestocks">
+        <label ref="jr:itext('/data/otherRiskFactor/shareHouseWithLivestocks:label')"/>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/shareHouseWithLivestocks:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/shareHouseWithLivestocks:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/otherRiskFactor/typeOfPoultryKept">
+        <label ref="jr:itext('/data/otherRiskFactor/typeOfPoultryKept:label')"/>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/typeOfPoultryKept:option0')"/>
+          <value>Indigenous</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/typeOfPoultryKept:option1')"/>
+          <value>BroilerMeat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/typeOfPoultryKept:option2')"/>
+          <value>BroilerLayingHen</value>
+        </item>
+      </select1>
+      <select1 ref="/data/otherRiskFactor/suspectedTransmissionType">
+        <label ref="jr:itext('/data/otherRiskFactor/suspectedTransmissionType:label')"/>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/suspectedTransmissionType:option0')"/>
+          <value>Foodborne</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/suspectedTransmissionType:option1')"/>
+          <value>Waterborne</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/suspectedTransmissionType:option2')"/>
+          <value>AnimalRelated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/otherRiskFactor/suspectedTransmissionType:option3')"/>
+          <value>Unknown</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/otherRiskComments">
+      <label ref="jr:itext('/data/otherRiskComments:label')"/>
+    </input>
+  </h:body>
+</h:html>

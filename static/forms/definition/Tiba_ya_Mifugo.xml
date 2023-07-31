@@ -1,0 +1,389 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Tiba ya Mifugo</h:title>
+    <model>
+      <instance>
+        <data id="build_Tiba-ya-Mifugo_15071085347">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifa_awali>
+            <wilaya/>
+            <jina_kituo/>
+            <tarehe/>
+            <umri/>
+            <jinsia/>
+            <cheo/>
+            <sifa_kitalaam/>
+          </taarifa_awali>
+          <uelewa_usugu_viuavijasumu>
+            <untitled10/>
+            <maoni_matokeo_usugu_antibiotik/>
+            <athari_chanya_hasi_uwepo_sera_udhibiti/>
+            <mambo_kufanyika_ongeza_elewa_usugu/>
+            <fahamisha_wateja_usugu_tumia_dawa/>
+            <vigezo_gani_unachagua/>
+            <nan_kada_anatoa_huduma/>
+          </uelewa_usugu_viuavijasumu>
+          <uelewa_usugu_viuavijasumu1>
+            <watumish_mafunzo_past_12months/>
+            <kutoa_maelez_kipimo_antibiotic/>
+            <kua_na_mwongozo_udhibit_usugu/>
+            <unatumia_vipm_maabara_mongozo_tiba/>
+            <vyanzo_antib_tumika_kazi_yako/>
+            <Vigezo_unatumia_kuchagua/>
+          </uelewa_usugu_viuavijasumu1>
+          <uelewa_usugu_viuavijasumu12>
+            <changamoto_kununua_antib/>
+            <mara_ngapi_changamoto/>
+            <uhifadhi_wa_dawa/>
+            <eneo_uhifadhi_dawa/>
+            <mara_ngapi_ukaguzi_dawa/>
+            <usimamiz_elekezi/>
+          </uelewa_usugu_viuavijasumu12>
+          <uelewa_usugu_viuavijasumu13>
+            <utoaji_tiba_vipimo_uwezo_anti/>
+            <vipimo_mara_ngapi/>
+            <hakiki_bora_huduma/>
+            <ondo_dawa_mda_umekwisha/>
+            <kituo_toa_vipi_maelekezo/>
+          </uelewa_usugu_viuavijasumu13>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifa_awali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifa_awali/wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/taarifa_awali/jina_kituo:label">
+            <value>JIna la Kituo cha Kutolea Huduma za Afya ya Mifugo</value>
+          </text>
+          <text id="/data/taarifa_awali/tarehe:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/taarifa_awali/umri:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:option0">
+            <value>Me</value>
+          </text>
+          <text id="/data/taarifa_awali/jinsia:option1">
+            <value>Ke</value>
+          </text>
+          <text id="/data/taarifa_awali/cheo:label">
+            <value>Cheo cha Mhojiwa</value>
+          </text>
+          <text id="/data/taarifa_awali/sifa_kitalaam:label">
+            <value>Sifa ya Kitaaluma</value>
+          </text>
+          <text id="/data/taarifa_awali/sifa_kitalaam:option0">
+            <value>Cheti</value>
+          </text>
+          <text id="/data/taarifa_awali/sifa_kitalaam:option1">
+            <value>Astashahada</value>
+          </text>
+          <text id="/data/taarifa_awali/sifa_kitalaam:option2">
+            <value>Shahada</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu:label">
+            <value>Uelewa wa Usugu wa Viuavijasumu</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/untitled10:label">
+            <value>1. Kwa maoni yako unaelewa nini kuhusu dhana ya “Usugu wa Viuavijasumu”</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/untitled10:hint">
+            <value>Dodosa: Tafisiri, Vyanzo, Visababishi</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/maoni_matokeo_usugu_antibiotik:label">
+            <value>2. Kwa maoni yako, ni nini adhari/matokeo ya usugu wa antibiotiki/viuavijasumu kwa binadamu, mifugo, na/au mazingira?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/athari_chanya_hasi_uwepo_sera_udhibiti:label">
+            <value>3. Jee ni nini athari (chanya au hasi) za uwepo wa sera ya udhibiti wa antibiotiki/viuavijasumu (UV) kwenye utoaji wa dawa kwa mahitaji ya mifugo?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/mambo_kufanyika_ongeza_elewa_usugu:label">
+            <value>4. Ni mambo gani yanafanyika katika kuongeza uelewa wa watu/wananchi kuhusu usugu wa antibiotiki/viuavijasumu?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa:label">
+            <value>5. Je huwa unawafahamisha wateja wako kuhusu madhara ya kutumia antibiotiki/viuavijasumu katika kutibu mifugo yao?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa:hint">
+            <value>Kama NDIYO (Dodosa: kuhusu “athari mbaya”, “usugu wa viuavijasumu”). Kama HAPANA andika HAPANA</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua:label">
+            <value>6. Unatumia vigezo gani kuchagua viuavijasumu/antibiotiki za kutumia kwa mifugo ya wateja wako? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua:hint">
+            <value>Dodosa: upatikanaji wake, upendeleo wa mfugaji; matokeo ya vipimo vya maabara?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu/nan_kada_anatoa_huduma:label">
+            <value>7. Ni nani (kwa kada za utumishi) wanaotoa huduma ya tiba ya mifugo katika Kituo chako?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1:label">
+            <value>Uelewa wa Usugu wa Viuavijasumu</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/watumish_mafunzo_past_12months:label">
+            <value>8. Katika kundi la watumishi wako, ni wangapi wamepata mafunzo kuhusu matumizi ya viuavijasumu/antibiotiki katika kipindi cha miezi 12 iliyopita?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/kutoa_maelez_kipimo_antibiotic:label">
+            <value>9. kawaida yako kutoa maelekezo kuhusu kipimo (dozi) cha antibiotiki kutumika kutibu mifugo kwa wateja wako?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu:label">
+            <value>10. Je unao mwongozo wowote kuhusu matumizi na udhibiti wa usugu wa viuavijasumu/antibiotiki?) </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu:hint">
+            <value>Andika NDIYO au HAPANA (Kisha toa maelezo)</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/unatumia_vipm_maabara_mongozo_tiba:label">
+            <value>11. Je unatumia matokeo ya vipimo vya maabara katika kufikia maamuzi ya kutoa tiba kwa mifugo?; </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/vyanzo_antib_tumika_kazi_yako:label">
+            <value>12. Ni nini vyanzo vyako kikubwa vya madawa ya antibiotiki zinazotumika katika kazi yako?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu1/Vigezo_unatumia_kuchagua:label">
+            <value>13. Ni vigezo gani unatumia katika kuchagua antibiotiki/viuavijasumu vya kununua?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12:label">
+            <value>Uelewa wa Usugu wa Viuavijasumu</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/changamoto_kununua_antib:label">
+            <value>14. Ni changamoto zipi unakumbana nazo katika kupata/kununua antibiotiki (viuavijasumu) kwa ajili ya majukumu yako ya kikazi?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_changamoto:label">
+            <value>15. Ni mara ngapi unapata changamoto ya kupungukiwa na dawa za aina ya antibiotiki katika kazi zako?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/uhifadhi_wa_dawa:label">
+            <value>16. Unahifadhi/unatunzaje vipi dawa za antibiotiki katika kituo chako? (Dodosa: uwepo wa Miongozo)</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/eneo_uhifadhi_dawa:label">
+            <value>17. Je unayo eneo la kuhifadhi dawa za aina ya antibiotiki?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_ukaguzi_dawa:label">
+            <value>18. Ni mara ngapi unafanya ukaguzi wa dawa za antibiotiki katika shughuli zako za kazi? Tafadhali toa maelezo.</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi:label">
+            <value>19. Je unapata usimamizi elekezi katika utendaji wako wa kazi kutoka ndani au nje ya kituo chako? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi:hint">
+            <value>Eleza nani anatoa usimamizi elekezi?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13:label">
+            <value>Uelewa wa Usugu wa Viuavijasumu</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti:label">
+            <value>20. Katika utoaji wako wa tiba ya mifugo, je unafanya vipimo vya uwezo wa antibiotiki kutibu maradhi? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti:hint">
+            <value>Jibu NDIYO/HAPANA?. Tafadhali toa maelezo. (Dodosa: Je matokeo ya vipimo yanatumika kufanya/kubadilisha maamuzi?)</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi:label">
+            <value>21. Je huwa unafanya vipimo vya uwezo wa antibiotiki mara kwa mara? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi:hint">
+            <value>Dodosa: sababu za kufanya vipimo; aina ya dawa?; dhidi ya vimelea/magonjwa gani?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/hakiki_bora_huduma:label">
+            <value>22. Je unahakisha vipi ubora wa huduma unazotoa?</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha:label">
+            <value>23. Je huwa unaziondoa dawa ambazo muda wake wa matumizi umekwisha? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha:hint">
+            <value>Dodosa: uwepo wa Mwongozo; Uwepo wa eneo la kutupa madawa yaliyoisha muda wake; Ufuatiliaji</value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo:label">
+            <value>24. Je Kituo chako kinatekeleza vipi swala ya Udhibiti wa Maambukizi? </value>
+          </text>
+          <text id="/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo:hint">
+            <value>Kama Jibu NDIYO toa maelekezo (Dodosa: Je utekelezaji huo unafanyika mara kwa mara? Nini athari za usugu wa antibiotiki kwenye udhibiti wa maambukizi)</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifa_awali/wilaya" type="string"/>
+      <bind nodeset="/data/taarifa_awali/jina_kituo" type="string"/>
+      <bind nodeset="/data/taarifa_awali/tarehe" type="date"/>
+      <bind nodeset="/data/taarifa_awali/umri" type="int"/>
+      <bind nodeset="/data/taarifa_awali/jinsia" type="select1"/>
+      <bind nodeset="/data/taarifa_awali/cheo" type="string"/>
+      <bind nodeset="/data/taarifa_awali/sifa_kitalaam" type="select1"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/untitled10" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/maoni_matokeo_usugu_antibiotik" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/athari_chanya_hasi_uwepo_sera_udhibiti" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/mambo_kufanyika_ongeza_elewa_usugu" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu/nan_kada_anatoa_huduma" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/watumish_mafunzo_past_12months" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/kutoa_maelez_kipimo_antibiotic" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/unatumia_vipm_maabara_mongozo_tiba" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/vyanzo_antib_tumika_kazi_yako" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu1/Vigezo_unatumia_kuchagua" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/changamoto_kununua_antib" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_changamoto" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/uhifadhi_wa_dawa" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/eneo_uhifadhi_dawa" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_ukaguzi_dawa" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu13/hakiki_bora_huduma" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha" type="string"/>
+      <bind nodeset="/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('TIBA YA MIFUGO ',': ',/data/taarifa_awali/jina_kituo)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifa_awali" appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_awali:label')"/>
+      <input ref="/data/taarifa_awali/wilaya">
+        <label ref="jr:itext('/data/taarifa_awali/wilaya:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/jina_kituo">
+        <label ref="jr:itext('/data/taarifa_awali/jina_kituo:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/tarehe">
+        <label ref="jr:itext('/data/taarifa_awali/tarehe:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/umri">
+        <label ref="jr:itext('/data/taarifa_awali/umri:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_awali/jinsia">
+        <label ref="jr:itext('/data/taarifa_awali/jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/jinsia:option0')"/>
+          <value>Me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/jinsia:option1')"/>
+          <value>ke</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_awali/cheo">
+        <label ref="jr:itext('/data/taarifa_awali/cheo:label')"/>
+      </input>
+      <select1 ref="/data/taarifa_awali/sifa_kitalaam">
+        <label ref="jr:itext('/data/taarifa_awali/sifa_kitalaam:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/sifa_kitalaam:option0')"/>
+          <value>cheti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/sifa_kitalaam:option1')"/>
+          <value>astashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/sifa_kitalaam:option2')"/>
+          <value>shahada</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/uelewa_usugu_viuavijasumu" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu:label')"/>
+      <input ref="/data/uelewa_usugu_viuavijasumu/untitled10">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/untitled10:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu/untitled10:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/maoni_matokeo_usugu_antibiotik">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/maoni_matokeo_usugu_antibiotik:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/athari_chanya_hasi_uwepo_sera_udhibiti">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/athari_chanya_hasi_uwepo_sera_udhibiti:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/mambo_kufanyika_ongeza_elewa_usugu">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/mambo_kufanyika_ongeza_elewa_usugu:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu/fahamisha_wateja_usugu_tumia_dawa:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu/vigezo_gani_unachagua:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu/nan_kada_anatoa_huduma">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu/nan_kada_anatoa_huduma:label')"/>
+      </input>
+    </group>
+    <group ref="/data/uelewa_usugu_viuavijasumu1" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1:label')"/>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/watumish_mafunzo_past_12months">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/watumish_mafunzo_past_12months:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/kutoa_maelez_kipimo_antibiotic">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/kutoa_maelez_kipimo_antibiotic:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/kua_na_mwongozo_udhibit_usugu:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/unatumia_vipm_maabara_mongozo_tiba">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/unatumia_vipm_maabara_mongozo_tiba:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/vyanzo_antib_tumika_kazi_yako">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/vyanzo_antib_tumika_kazi_yako:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu1/Vigezo_unatumia_kuchagua">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu1/Vigezo_unatumia_kuchagua:label')"/>
+      </input>
+    </group>
+    <group ref="/data/uelewa_usugu_viuavijasumu12" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12:label')"/>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/changamoto_kununua_antib">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/changamoto_kununua_antib:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_changamoto">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/mara_ngapi_changamoto:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/uhifadhi_wa_dawa">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/uhifadhi_wa_dawa:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/eneo_uhifadhi_dawa">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/eneo_uhifadhi_dawa:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/mara_ngapi_ukaguzi_dawa">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/mara_ngapi_ukaguzi_dawa:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu12/usimamiz_elekezi:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/uelewa_usugu_viuavijasumu13" appearance="field-list">
+      <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13:label')"/>
+      <input ref="/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/utoaji_tiba_vipimo_uwezo_anti:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/vipimo_mara_ngapi:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu13/hakiki_bora_huduma">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/hakiki_bora_huduma:label')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/ondo_dawa_mda_umekwisha:hint')"/>
+      </input>
+      <input ref="/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo">
+        <label ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo:label')"/>
+        <hint ref="jr:itext('/data/uelewa_usugu_viuavijasumu13/kituo_toa_vipi_maelekezo:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

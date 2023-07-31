@@ -1,0 +1,686 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Sample Types AMR GPS</h:title>
+    <model>
+      <instance>
+        <data id="build_Sample-Types-AMR-GPS_1621012021">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <district/>
+          <wards>
+            <all_wards/>
+          </wards>
+          <sampling_site>
+            <sample_site_jangwani/>
+            <sample_site_tabata/>
+            <sample_site_Upanga_west/>
+            <sample_site_Kipawa/>
+            <sample_site_Ukonga/>
+            <sample_site_Vingunguti/>
+            <sample_site_Kinyerezi/>
+            <sample_site_Buguruni/>
+            <sample_site_Segerea/>
+            <sample_site_pugu_station/>
+            <sample_site_Gongolamoto/>
+            <sample_site_Kigogo/>
+            <sample_site_Mzimuni/>
+            <sample_site_Magomeni/>
+            <sample_site_Kisarawe/>
+          </sampling_site>
+          <gps_loc/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/district:option2">
+            <value>Kisarawe</value>
+          </text>
+          <text id="/data/wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/all_wards:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/wards/all_wards:option0">
+            <value>Jangwani (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option1">
+            <value>Tabata (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option2">
+            <value>Upanga west (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option3">
+            <value>Kipawa (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option4">
+            <value>Ukonga (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option5">
+            <value>Vingunguti (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option6">
+            <value>Kinyerezi (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option7">
+            <value>Segerea (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option8">
+            <value>Buguruni (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option9">
+            <value>Pugu Station (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option10">
+            <value>Gongolamboto (Ilala)</value>
+          </text>
+          <text id="/data/wards/all_wards:option11">
+            <value>Kigogo (Kinondoni)</value>
+          </text>
+          <text id="/data/wards/all_wards:option12">
+            <value>Mzimuni (Kinondoni)</value>
+          </text>
+          <text id="/data/wards/all_wards:option13">
+            <value>Magomeni (Kinondoni)</value>
+          </text>
+          <text id="/data/wards/all_wards:option14">
+            <value>Hananasif (Kinondoni)</value>
+          </text>
+          <text id="/data/wards/all_wards:option15">
+            <value>Kisarawe (Kisarawe)</value>
+          </text>
+          <text id="/data/wards/all_wards:option16">
+            <value>Kazimzumbwi (Kisarawe)</value>
+          </text>
+          <text id="/data/sampling_site:label">
+            <value>Sampling site</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:label">
+            <value>Jangwani Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option0">
+            <value>Health care settings -&gt; Sample Type: Veterinary sewage and effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option1">
+            <value>Crop farms -&gt; Sample Type: Soils from vegetable farm</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option2">
+            <value>Factory -&gt; Sample Type: Processing plants effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option3">
+            <value>Others -&gt; Sample Type: River water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option4">
+            <value>Others -&gt; Sample Type: Fish</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_jangwani:option5">
+            <value>Others -&gt; Sample Type: Sediments </value>
+          </text>
+          <text id="/data/sampling_site/sample_site_tabata:label">
+            <value>Tabata Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_tabata:option0">
+            <value>Crop farms -&gt; Sample Type: Soils from vegetable and crop farm</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_tabata:option1">
+            <value>Others -&gt; Sample Type: River water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Upanga_west:label">
+            <value>Upanga west Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Upanga_west:option0">
+            <value>Others -&gt; Sample Type: River water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:label">
+            <value>Kipawa Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option0">
+            <value>Healthcare settings -&gt; Sample Type: Veterinary-Sewage and effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option1">
+            <value>Community settings -&gt; Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option2">
+            <value>Crop farms -&gt; Sample Type: Soils from vegetable and crop farm</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option3">
+            <value>Farms- poultry and pigs -&gt; Sample Type: Effluent </value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option4">
+            <value>Factory -&gt; Sample Type: Effluent from Slaughter houses (pigs)</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option5">
+            <value>Others -&gt; Sample Type: River water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kipawa:option6">
+            <value>Others -&gt; Sample Type: Sediments </value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Ukonga:label">
+            <value>Ukonga Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Ukonga:option0">
+            <value>Community settings -&gt; Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Ukonga:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Ukonga:option2">
+            <value>Farms- poultry and pigs -&gt; Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:label">
+            <value>Vingunguti Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option0">
+            <value>Community settings -&gt; Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option2">
+            <value>Farms- poultry and pigs -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option3">
+            <value>Factory -&gt; Sample Types: Slaughter houses (cattle, sheep and goats)</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option4">
+            <value>Factory -&gt; Sample Types: Processing plants</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option5">
+            <value>Others -&gt; Sample Type: River water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Vingunguti:option6">
+            <value>Others -&gt;Sample Type: Sediments</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kinyerezi:label">
+            <value>Kinyerezi  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kinyerezi:option0">
+            <value>Farms- poultry and pigs -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kinyerezi:option1">
+            <value>Others -&gt;Sample Type: Soil </value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Buguruni:label">
+            <value>Buguruni  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Buguruni:option0">
+            <value>Community settings -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Buguruni:option1">
+            <value>Others -&gt;Sample Type: River Water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Buguruni:option2">
+            <value>Others -&gt;Sample Type: Sediments</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Buguruni:option3">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Segerea:label">
+            <value>Segerea  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Segerea:option0">
+            <value>Health care settings -&gt; Sample Types: Veterinary sewage and effluents</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Segerea:option1">
+            <value>Farms poultry and pigs -&gt;Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Segerea:option2">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_pugu_station:label">
+            <value>Pugu station  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_pugu_station:option0">
+            <value>Farms poultry and pigs -&gt;Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_pugu_station:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_pugu_station:option2">
+            <value>Others -&gt;Sample Type: Sediments</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_pugu_station:option3">
+            <value>Others -&gt;Sample Type: River/surface water</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Gongolamoto:label">
+            <value>Gongolamoto  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Gongolamoto:option0">
+            <value>Farms poultry and pigs -&gt;Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Gongolamoto:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kigogo:label">
+            <value>Kigogo  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kigogo:option0">
+            <value>Community settings -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kigogo:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Mzimuni:label">
+            <value>Mzimuni  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Mzimuni:option0">
+            <value>Community settings -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Mzimuni:option1">
+            <value>Crop farms -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Magomeni:label">
+            <value>Magomeni  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Magomeni:option0">
+            <value>Community settings -&gt; Sample Types: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kisarawe:label">
+            <value>Kisarawe  Sampling Sites</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kisarawe:option0">
+            <value>Farms poultry and pigs -&gt;Sample Type: Effluent</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kisarawe:option1">
+            <value>Others -&gt; Sample Type: Rivers surface water </value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kisarawe:option2">
+            <value>Others -&gt; Sample Type: Sediments</value>
+          </text>
+          <text id="/data/sampling_site/sample_site_Kisarawe:option3">
+            <value>Others -&gt; Sample Type: Soil</value>
+          </text>
+          <text id="/data/gps_loc:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/district" type="select1"/>
+      <bind nodeset="/data/wards/all_wards" type="select1"/>
+      <bind nodeset="/data/sampling_site/sample_site_jangwani" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'jangwani'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_tabata" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'tabata'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Upanga_west" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'panga_west'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Kipawa" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'kipawa'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Ukonga" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'ukonga'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Vingunguti" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'vingunguti'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Kinyerezi" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'kinyerezi'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Buguruni" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'buguruni'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Segerea" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'segerea'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_pugu_station" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'pugu_station'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Gongolamoto" type="select1" relevant="(selected(/data/district, 'ilala')) and (selected(/data/wards/all_wards, 'gongolamboto'))"/>
+
+
+
+      <bind nodeset="/data/sampling_site/sample_site_Kigogo" type="select1" relevant="(selected(/data/district, 'kinondoni')) and (selected(/data/wards/all_wards, 'kigogo'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Mzimuni" type="select1" relevant="(selected(/data/district, 'kinondoni')) and (selected(/data/wards/all_wards, 'mzimuni'))"/>
+      <bind nodeset="/data/sampling_site/sample_site_Magomeni" type="select1" relevant="(selected(/data/district, 'kinondoni')) and (selected(/data/wards/all_wards, 'magomeni'))"/>
+
+
+
+      <bind nodeset="/data/sampling_site/sample_site_Kisarawe" type="select1" relevant="(selected(/data/district, 'kisarawe')) and (selected(/data/wards/all_wards, 'kisarawe'))"/>
+      <bind nodeset="/data/gps_loc" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Ward ',': ',/data/wards/all_wards)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/district">
+      <label ref="jr:itext('/data/district:label')"/>
+      <item>
+        <label ref="jr:itext('/data/district:option0')"/>
+        <value>ilala</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option1')"/>
+        <value>kinondoni</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option2')"/>
+        <value>kisarawe</value>
+      </item>
+    </select1>
+    <group ref="/data/wards" appearance="field-list">
+      <label ref="jr:itext('/data/wards:label')"/>
+      <select1 ref="/data/wards/all_wards">
+        <label ref="jr:itext('/data/wards/all_wards:label')"/>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option0')"/>
+          <value>jangwani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option1')"/>
+          <value>tabata</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option2')"/>
+          <value>panga_west</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option3')"/>
+          <value>kipawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option4')"/>
+          <value>ukonga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option5')"/>
+          <value>vingunguti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option6')"/>
+          <value>kinyerezi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option7')"/>
+          <value>segerea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option8')"/>
+          <value>buguruni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option9')"/>
+          <value>pugu_station</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option10')"/>
+          <value>gongolamboto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option11')"/>
+          <value>kigogo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option12')"/>
+          <value>mzimuni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option13')"/>
+          <value>magomeni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option14')"/>
+          <value>hananasif</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option15')"/>
+          <value>kisarawe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/wards/all_wards:option16')"/>
+          <value>kazimzumbwi</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/sampling_site" appearance="field-list">
+      <label ref="jr:itext('/data/sampling_site:label')"/>
+      <select1 ref="/data/sampling_site/sample_site_jangwani">
+        <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option0')"/>
+          <value>health_care_settings_VSE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option1')"/>
+          <value>crop_farms_SOV</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option2')"/>
+          <value>factory_PP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option3')"/>
+          <value>others_river_RW</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option4')"/>
+          <value>others_fish_F</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_jangwani:option5')"/>
+          <value>others_sediments_S</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_tabata">
+        <label ref="jr:itext('/data/sampling_site/sample_site_tabata:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_tabata:option0')"/>
+          <value>crop_farms_SOVC</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_tabata:option1')"/>
+          <value>others_river_RW</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Upanga_west">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Upanga_west:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Upanga_west:option0')"/>
+          <value>others_river_RW</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Kipawa">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option0')"/>
+          <value>healthcare_settings_VSE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option1')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option2')"/>
+          <value>crop_farms_SOVC</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option3')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option4')"/>
+          <value>factory_ESP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option5')"/>
+          <value>others_river_RW</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kipawa:option6')"/>
+          <value>others_sediments_S</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Ukonga">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Ukonga:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Ukonga:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Ukonga:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Ukonga:option2')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Vingunguti">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option2')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option3')"/>
+          <value>factory_slaughter_SH</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option4')"/>
+          <value>factory_proces_PP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option5')"/>
+          <value>others_riverwater_RW</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Vingunguti:option6')"/>
+          <value>other_sediments_S</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Kinyerezi">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Kinyerezi:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kinyerezi:option0')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kinyerezi:option1')"/>
+          <value>other_soil_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Buguruni">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Buguruni:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Buguruni:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Buguruni:option1')"/>
+          <value>other_soil_RW</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Buguruni:option2')"/>
+          <value>other_sediments_S</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Buguruni:option3')"/>
+          <value>crop_farms_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Segerea">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Segerea:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Segerea:option0')"/>
+          <value>health_care_setting_VSE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Segerea:option1')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Segerea:option2')"/>
+          <value>crop_farms_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_pugu_station">
+        <label ref="jr:itext('/data/sampling_site/sample_site_pugu_station:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_pugu_station:option0')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_pugu_station:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_pugu_station:option2')"/>
+          <value>other_sediments_S</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_pugu_station:option3')"/>
+          <value>others_river_surface_RSW</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Gongolamoto">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Gongolamoto:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Gongolamoto:option0')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Gongolamoto:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Kigogo">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Kigogo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kigogo:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kigogo:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Mzimuni">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Mzimuni:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Mzimuni:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Mzimuni:option1')"/>
+          <value>crop_farms_SO</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Magomeni">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Magomeni:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Magomeni:option0')"/>
+          <value>community_settings_E</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sampling_site/sample_site_Kisarawe">
+        <label ref="jr:itext('/data/sampling_site/sample_site_Kisarawe:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kisarawe:option0')"/>
+          <value>farms_poultry_pigs_E</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kisarawe:option1')"/>
+          <value>other_river_surface_RSW</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kisarawe:option2')"/>
+          <value>others_sediments_S</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sampling_site/sample_site_Kisarawe:option3')"/>
+          <value>other_soil_SO</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/gps_loc">
+      <label ref="jr:itext('/data/gps_loc:label')"/>
+    </input>
+  </h:body>
+</h:html>

@@ -1,0 +1,741 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Birth Defects Surv</h:title>
+    <model>
+      <instance>
+        <data id="build_Birth-Defects-Surv_1524478442">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Initial_details>
+            <Case_ID/>
+            <Report_date/>
+            <source_name_health_facility/>
+            <Delivery_place/>
+            <Source_Ascertainment_address/>
+            <details_person_filling_form/>
+          </Initial_details>
+          <infant_details>
+            <infant_name/>
+            <sex/>
+            <age/>
+            <outcome/>
+            <birth_date/>
+            <birth_weight/>
+            <length/>
+            <head_circumference/>
+            <prularity_multiple/>
+            <sex_twin_triplet_set/>
+            <birth_defect_co_twin_triplet/>
+          </infant_details>
+          <diagnosis>
+            <Clinical_diagnosis/>
+            <Syndrome_name/>
+            <picture/>
+            <date_of_death/>
+            <birth_defects_description/>
+          </diagnosis>
+          <diagnosis2 jr:template="">
+            <birth_defects_diagnosis/>
+            <date_of_diagnosis/>
+            <C_P/>
+            <ICD_10_RCPCH/>
+          </diagnosis2>
+          <Diahnostic_procedures/>
+          <parents_details>
+            <father_name/>
+            <father_age/>
+            <father_tribe/>
+            <father_eductaion/>
+            <birth_defects_father/>
+            <mother_name/>
+            <mother_age/>
+            <mother_tribe/>
+            <mother_education/>
+            <birth_defect_mother/>
+            <Parental_consanguinity/>
+            <first_trimester_address/>
+            <current_address_mother/>
+          </parents_details>
+          <previous_pregnancies>
+            <gravida/>
+            <abortion_miscarriage/>
+            <parity/>
+            <Tot_LB/>
+            <Tot_SB/>
+            <multiple_birth/>
+            <previousBirth_withB_defects/>
+          </previous_pregnancies>
+          <Folic_acid_suppl>
+            <untitled46/>
+            <b4_LMP/>
+            <first_trimister/>
+            <second_trimester/>
+            <third_trimester/>
+            <type/>
+            <dose/>
+            <freq_per_week/>
+          </Folic_acid_suppl>
+          <usefull_information/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Initial_details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/Initial_details/Case_ID:label">
+            <value>Case Identification Number</value>
+          </text>
+          <text id="/data/Initial_details/Report_date:label">
+            <value>Report Date</value>
+          </text>
+          <text id="/data/Initial_details/source_name_health_facility:label">
+            <value>Source of ascertainment (Name and level of health facility)</value>
+          </text>
+          <text id="/data/Initial_details/Delivery_place:label">
+            <value>Place of Delivery</value>
+          </text>
+          <text id="/data/Initial_details/Delivery_place:hint">
+            <value>Facility - specify level, TBA, Homr, BBA)</value>
+          </text>
+          <text id="/data/Initial_details/Source_Ascertainment_address:label">
+            <value>Source of Ascertainment </value>
+          </text>
+          <text id="/data/Initial_details/Source_Ascertainment_address:hint">
+            <value>Facility full address</value>
+          </text>
+          <text id="/data/Initial_details/details_person_filling_form:label">
+            <value>Person filling the form</value>
+          </text>
+          <text id="/data/Initial_details/details_person_filling_form:hint">
+            <value>Full name, proffession, contact</value>
+          </text>
+          <text id="/data/infant_details:label">
+            <value>Infant Details</value>
+          </text>
+          <text id="/data/infant_details/infant_name:label">
+            <value>Infant Name</value>
+          </text>
+          <text id="/data/infant_details/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/infant_details/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/infant_details/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/infant_details/sex:option2">
+            <value>AMB</value>
+          </text>
+          <text id="/data/infant_details/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/infant_details/outcome:label">
+            <value>Outcome</value>
+          </text>
+          <text id="/data/infant_details/outcome:option0">
+            <value>FSB</value>
+          </text>
+          <text id="/data/infant_details/outcome:option1">
+            <value>MSB</value>
+          </text>
+          <text id="/data/infant_details/outcome:option2">
+            <value>LB</value>
+          </text>
+          <text id="/data/infant_details/birth_date:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/data/infant_details/birth_weight:label">
+            <value>Birth Weight (gr)</value>
+          </text>
+          <text id="/data/infant_details/length:label">
+            <value>Length (cm)</value>
+          </text>
+          <text id="/data/infant_details/head_circumference:label">
+            <value>Head Circumference (cm)</value>
+          </text>
+          <text id="/data/infant_details/prularity_multiple:label">
+            <value>Plurality / Multiple</value>
+          </text>
+          <text id="/data/infant_details/prularity_multiple:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/infant_details/prularity_multiple:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/infant_details/sex_twin_triplet_set:label">
+            <value>Sex of twin/triplet set</value>
+          </text>
+          <text id="/data/infant_details/sex_twin_triplet_set:option0">
+            <value>yes</value>
+          </text>
+          <text id="/data/infant_details/sex_twin_triplet_set:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/infant_details/birth_defect_co_twin_triplet:label">
+            <value>Birth defects in the co-twin/triplet</value>
+          </text>
+          <text id="/data/infant_details/birth_defect_co_twin_triplet:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/infant_details/birth_defect_co_twin_triplet:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/diagnosis:label">
+            <value>Diagnosis</value>
+          </text>
+          <text id="/data/diagnosis/Clinical_diagnosis:label">
+            <value>Clinical Diagnosis</value>
+          </text>
+          <text id="/data/diagnosis/Syndrome_name:label">
+            <value>Syndrome Name</value>
+          </text>
+          <text id="/data/diagnosis/picture:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/diagnosis/date_of_death:label">
+            <value>Date of death</value>
+          </text>
+          <text id="/data/diagnosis/date_of_death:hint">
+            <value>if died after birth</value>
+          </text>
+          <text id="/data/diagnosis/birth_defects_description:label">
+            <value>Birth Defects Description</value>
+          </text>
+          <text id="/data/diagnosis2:label">
+            <value>Diagnosis</value>
+          </text>
+          <text id="/data/diagnosis2/birth_defects_diagnosis:label">
+            <value>Birth Defects Diagnosis</value>
+          </text>
+          <text id="/data/diagnosis2/date_of_diagnosis:label">
+            <value>Date of Diagnosis</value>
+          </text>
+          <text id="/data/diagnosis2/C_P:label">
+            <value>C / P</value>
+          </text>
+          <text id="/data/diagnosis2/ICD_10_RCPCH:label">
+            <value>ICD-10 RCPCH</value>
+          </text>
+          <text id="/data/Diahnostic_procedures:label">
+            <value>Diagnostic procedures</value>
+          </text>
+          <text id="/data/Diahnostic_procedures:hint">
+            <value>Karyotype, image, autospy, other</value>
+          </text>
+          <text id="/data/parents_details:label">
+            <value>Parents Details</value>
+          </text>
+          <text id="/data/parents_details/father_name:label">
+            <value>Father's Full Name</value>
+          </text>
+          <text id="/data/parents_details/father_age:label">
+            <value>Age (father)</value>
+          </text>
+          <text id="/data/parents_details/father_tribe:label">
+            <value>Tribe / Ethnicity</value>
+          </text>
+          <text id="/data/parents_details/father_eductaion:label">
+            <value>Education (yrs)</value>
+          </text>
+          <text id="/data/parents_details/father_eductaion:hint">
+            <value></value>
+          </text>
+          <text id="/data/parents_details/birth_defects_father:label">
+            <value>List any birth defects - father</value>
+          </text>
+          <text id="/data/parents_details/mother_name:label">
+            <value>Mother's full name</value>
+          </text>
+          <text id="/data/parents_details/mother_age:label">
+            <value>Age (mother)</value>
+          </text>
+          <text id="/data/parents_details/mother_tribe:label">
+            <value>Tribe/Ethnicity (Mother)</value>
+          </text>
+          <text id="/data/parents_details/mother_education:label">
+            <value>Education (Yrs)</value>
+          </text>
+          <text id="/data/parents_details/birth_defect_mother:label">
+            <value>List any birth defects - Mother</value>
+          </text>
+          <text id="/data/parents_details/Parental_consanguinity:label">
+            <value>Parental consangunity</value>
+          </text>
+          <text id="/data/parents_details/first_trimester_address:label">
+            <value>Mother's primary/permanent: Official full physical address</value>
+          </text>
+          <text id="/data/parents_details/first_trimester_address:hint">
+            <value>During First Trimester</value>
+          </text>
+          <text id="/data/parents_details/current_address_mother:label">
+            <value>Mother's Current address and Tel Number</value>
+          </text>
+          <text id="/data/previous_pregnancies:label">
+            <value>Previous pregnancies</value>
+          </text>
+          <text id="/data/previous_pregnancies/gravida:label">
+            <value>Gravida</value>
+          </text>
+          <text id="/data/previous_pregnancies/abortion_miscarriage:label">
+            <value>Abortion / Miscarriage</value>
+          </text>
+          <text id="/data/previous_pregnancies/parity:label">
+            <value>Parity</value>
+          </text>
+          <text id="/data/previous_pregnancies/Tot_LB:label">
+            <value>Tot LB</value>
+          </text>
+          <text id="/data/previous_pregnancies/Tot_SB:label">
+            <value>Tot SB</value>
+          </text>
+          <text id="/data/previous_pregnancies/multiple_birth:label">
+            <value>Multiple Birth</value>
+          </text>
+          <text id="/data/previous_pregnancies/multiple_birth:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/previous_pregnancies/multiple_birth:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/previous_pregnancies/previousBirth_withB_defects:label">
+            <value>Previous birth with birth defects - Describe/List</value>
+          </text>
+          <text id="/data/Folic_acid_suppl:label">
+            <value>Folic Acid Supplementation</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/untitled46:label">
+            <value>Folic acid Supplementation</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/untitled46:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/untitled46:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/untitled46:option2">
+            <value>Uk</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/b4_LMP:label">
+            <value>Before LMP</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/b4_LMP:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/b4_LMP:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/first_trimister:label">
+            <value>During first trimester</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/first_trimister:option0">
+            <value>yes</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/first_trimister:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/second_trimester:label">
+            <value>During Second Trimester</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/second_trimester:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/second_trimester:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/third_trimester:label">
+            <value>During third Trimester</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/third_trimester:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/third_trimester:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/dose:label">
+            <value>Dose (mg)</value>
+          </text>
+          <text id="/data/Folic_acid_suppl/freq_per_week:label">
+            <value>Freq per week</value>
+          </text>
+          <text id="/data/usefull_information:label">
+            <value>Further useful information</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Initial_details/Case_ID" type="int"/>
+      <bind nodeset="/data/Initial_details/Report_date" type="date"/>
+      <bind nodeset="/data/Initial_details/source_name_health_facility" type="string"/>
+      <bind nodeset="/data/Initial_details/Delivery_place" type="string"/>
+      <bind nodeset="/data/Initial_details/Source_Ascertainment_address" type="string"/>
+      <bind nodeset="/data/Initial_details/details_person_filling_form" type="string"/>
+      <bind nodeset="/data/infant_details/infant_name" type="string"/>
+      <bind nodeset="/data/infant_details/sex" type="select1"/>
+      <bind nodeset="/data/infant_details/age" type="int"/>
+      <bind nodeset="/data/infant_details/outcome" type="select1"/>
+      <bind nodeset="/data/infant_details/birth_date" type="date"/>
+      <bind nodeset="/data/infant_details/birth_weight" type="decimal"/>
+      <bind nodeset="/data/infant_details/length" type="decimal"/>
+      <bind nodeset="/data/infant_details/head_circumference" type="decimal"/>
+      <bind nodeset="/data/infant_details/prularity_multiple" type="select1"/>
+      <bind nodeset="/data/infant_details/sex_twin_triplet_set" type="select1"/>
+      <bind nodeset="/data/infant_details/birth_defect_co_twin_triplet" type="select1"/>
+      <bind nodeset="/data/diagnosis/Clinical_diagnosis" type="string"/>
+      <bind nodeset="/data/diagnosis/Syndrome_name" type="string"/>
+      <bind nodeset="/data/diagnosis/picture" type="binary"/>
+      <bind nodeset="/data/diagnosis/date_of_death" type="date"/>
+      <bind nodeset="/data/diagnosis/birth_defects_description" type="string"/>
+      <bind nodeset="/data/diagnosis2/birth_defects_diagnosis" type="string"/>
+      <bind nodeset="/data/diagnosis2/date_of_diagnosis" type="date"/>
+      <bind nodeset="/data/diagnosis2/C_P" type="string"/>
+      <bind nodeset="/data/diagnosis2/ICD_10_RCPCH" type="string"/>
+      <bind nodeset="/data/Diahnostic_procedures" type="string"/>
+      <bind nodeset="/data/parents_details/father_name" type="string"/>
+      <bind nodeset="/data/parents_details/father_age" type="int"/>
+      <bind nodeset="/data/parents_details/father_tribe" type="string"/>
+      <bind nodeset="/data/parents_details/father_eductaion" type="int"/>
+      <bind nodeset="/data/parents_details/birth_defects_father" type="string"/>
+      <bind nodeset="/data/parents_details/mother_name" type="string"/>
+      <bind nodeset="/data/parents_details/mother_age" type="int"/>
+      <bind nodeset="/data/parents_details/mother_tribe" type="string"/>
+      <bind nodeset="/data/parents_details/mother_education" type="int"/>
+      <bind nodeset="/data/parents_details/birth_defect_mother" type="string"/>
+      <bind nodeset="/data/parents_details/Parental_consanguinity" type="string"/>
+      <bind nodeset="/data/parents_details/first_trimester_address" type="string"/>
+      <bind nodeset="/data/parents_details/current_address_mother" type="string"/>
+      <bind nodeset="/data/previous_pregnancies/gravida" type="int"/>
+      <bind nodeset="/data/previous_pregnancies/abortion_miscarriage" type="int"/>
+      <bind nodeset="/data/previous_pregnancies/parity" type="int"/>
+      <bind nodeset="/data/previous_pregnancies/Tot_LB" type="string"/>
+      <bind nodeset="/data/previous_pregnancies/Tot_SB" type="string"/>
+      <bind nodeset="/data/previous_pregnancies/multiple_birth" type="select1"/>
+      <bind nodeset="/data/previous_pregnancies/previousBirth_withB_defects" type="string"/>
+      <bind nodeset="/data/Folic_acid_suppl/untitled46" type="select1"/>
+      <bind nodeset="/data/Folic_acid_suppl/b4_LMP" type="select1"/>
+      <bind nodeset="/data/Folic_acid_suppl/first_trimister" type="select1"/>
+      <bind nodeset="/data/Folic_acid_suppl/second_trimester" type="select1"/>
+      <bind nodeset="/data/Folic_acid_suppl/third_trimester" type="select1"/>
+      <bind nodeset="/data/Folic_acid_suppl/type" type="string"/>
+      <bind nodeset="/data/Folic_acid_suppl/dose" type="decimal"/>
+      <bind nodeset="/data/Folic_acid_suppl/freq_per_week" type="int"/>
+      <bind nodeset="/data/usefull_information" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Birth Defect Surv',': ',/data/Initial_details/Case_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Initial_details:label')"/>
+      <input ref="/data/Initial_details/Case_ID">
+        <label ref="jr:itext('/data/Initial_details/Case_ID:label')"/>
+      </input>
+      <input ref="/data/Initial_details/Report_date">
+        <label ref="jr:itext('/data/Initial_details/Report_date:label')"/>
+      </input>
+      <input ref="/data/Initial_details/source_name_health_facility">
+        <label ref="jr:itext('/data/Initial_details/source_name_health_facility:label')"/>
+      </input>
+      <input ref="/data/Initial_details/Delivery_place">
+        <label ref="jr:itext('/data/Initial_details/Delivery_place:label')"/>
+        <hint ref="jr:itext('/data/Initial_details/Delivery_place:hint')"/>
+      </input>
+      <input ref="/data/Initial_details/Source_Ascertainment_address">
+        <label ref="jr:itext('/data/Initial_details/Source_Ascertainment_address:label')"/>
+        <hint ref="jr:itext('/data/Initial_details/Source_Ascertainment_address:hint')"/>
+      </input>
+      <input ref="/data/Initial_details/details_person_filling_form">
+        <label ref="jr:itext('/data/Initial_details/details_person_filling_form:label')"/>
+        <hint ref="jr:itext('/data/Initial_details/details_person_filling_form:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/infant_details:label')"/>
+      <input ref="/data/infant_details/infant_name">
+        <label ref="jr:itext('/data/infant_details/infant_name:label')"/>
+      </input>
+      <select1 ref="/data/infant_details/sex">
+        <label ref="jr:itext('/data/infant_details/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_details/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/sex:option1')"/>
+          <value>female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/sex:option2')"/>
+          <value>AMB</value>
+        </item>
+      </select1>
+      <input ref="/data/infant_details/age">
+        <label ref="jr:itext('/data/infant_details/age:label')"/>
+      </input>
+      <select1 ref="/data/infant_details/outcome">
+        <label ref="jr:itext('/data/infant_details/outcome:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_details/outcome:option0')"/>
+          <value>FSB</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/outcome:option1')"/>
+          <value>MSB</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/outcome:option2')"/>
+          <value>LB</value>
+        </item>
+      </select1>
+      <input ref="/data/infant_details/birth_date">
+        <label ref="jr:itext('/data/infant_details/birth_date:label')"/>
+      </input>
+      <input ref="/data/infant_details/birth_weight">
+        <label ref="jr:itext('/data/infant_details/birth_weight:label')"/>
+      </input>
+      <input ref="/data/infant_details/length">
+        <label ref="jr:itext('/data/infant_details/length:label')"/>
+      </input>
+      <input ref="/data/infant_details/head_circumference">
+        <label ref="jr:itext('/data/infant_details/head_circumference:label')"/>
+      </input>
+      <select1 ref="/data/infant_details/prularity_multiple">
+        <label ref="jr:itext('/data/infant_details/prularity_multiple:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_details/prularity_multiple:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/prularity_multiple:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/infant_details/sex_twin_triplet_set">
+        <label ref="jr:itext('/data/infant_details/sex_twin_triplet_set:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_details/sex_twin_triplet_set:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/sex_twin_triplet_set:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/infant_details/birth_defect_co_twin_triplet">
+        <label ref="jr:itext('/data/infant_details/birth_defect_co_twin_triplet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_details/birth_defect_co_twin_triplet:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_details/birth_defect_co_twin_triplet:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/diagnosis:label')"/>
+      <input ref="/data/diagnosis/Clinical_diagnosis">
+        <label ref="jr:itext('/data/diagnosis/Clinical_diagnosis:label')"/>
+      </input>
+      <input ref="/data/diagnosis/Syndrome_name">
+        <label ref="jr:itext('/data/diagnosis/Syndrome_name:label')"/>
+      </input>
+      <upload ref="/data/diagnosis/picture" mediatype="image/*">
+        <label ref="jr:itext('/data/diagnosis/picture:label')"/>
+      </upload>
+      <input ref="/data/diagnosis/date_of_death">
+        <label ref="jr:itext('/data/diagnosis/date_of_death:label')"/>
+        <hint ref="jr:itext('/data/diagnosis/date_of_death:hint')"/>
+      </input>
+      <input ref="/data/diagnosis/birth_defects_description">
+        <label ref="jr:itext('/data/diagnosis/birth_defects_description:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/diagnosis2:label')"/>
+      <repeat nodeset="/data/diagnosis2">
+        <group appearance="field-list">
+          <input ref="/data/diagnosis2/birth_defects_diagnosis">
+            <label ref="jr:itext('/data/diagnosis2/birth_defects_diagnosis:label')"/>
+          </input>
+          <input ref="/data/diagnosis2/date_of_diagnosis">
+            <label ref="jr:itext('/data/diagnosis2/date_of_diagnosis:label')"/>
+          </input>
+          <input ref="/data/diagnosis2/C_P">
+            <label ref="jr:itext('/data/diagnosis2/C_P:label')"/>
+          </input>
+          <input ref="/data/diagnosis2/ICD_10_RCPCH">
+            <label ref="jr:itext('/data/diagnosis2/ICD_10_RCPCH:label')"/>
+          </input>
+        </group>
+      </repeat>
+    </group>
+    <input ref="/data/Diahnostic_procedures">
+      <label ref="jr:itext('/data/Diahnostic_procedures:label')"/>
+      <hint ref="jr:itext('/data/Diahnostic_procedures:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/parents_details:label')"/>
+      <input ref="/data/parents_details/father_name">
+        <label ref="jr:itext('/data/parents_details/father_name:label')"/>
+      </input>
+      <input ref="/data/parents_details/father_age">
+        <label ref="jr:itext('/data/parents_details/father_age:label')"/>
+      </input>
+      <input ref="/data/parents_details/father_tribe">
+        <label ref="jr:itext('/data/parents_details/father_tribe:label')"/>
+      </input>
+      <input ref="/data/parents_details/father_eductaion">
+        <label ref="jr:itext('/data/parents_details/father_eductaion:label')"/>
+        <hint ref="jr:itext('/data/parents_details/father_eductaion:hint')"/>
+      </input>
+      <input ref="/data/parents_details/birth_defects_father">
+        <label ref="jr:itext('/data/parents_details/birth_defects_father:label')"/>
+      </input>
+      <input ref="/data/parents_details/mother_name">
+        <label ref="jr:itext('/data/parents_details/mother_name:label')"/>
+      </input>
+      <input ref="/data/parents_details/mother_age">
+        <label ref="jr:itext('/data/parents_details/mother_age:label')"/>
+      </input>
+      <input ref="/data/parents_details/mother_tribe">
+        <label ref="jr:itext('/data/parents_details/mother_tribe:label')"/>
+      </input>
+      <input ref="/data/parents_details/mother_education">
+        <label ref="jr:itext('/data/parents_details/mother_education:label')"/>
+      </input>
+      <input ref="/data/parents_details/birth_defect_mother">
+        <label ref="jr:itext('/data/parents_details/birth_defect_mother:label')"/>
+      </input>
+      <input ref="/data/parents_details/Parental_consanguinity">
+        <label ref="jr:itext('/data/parents_details/Parental_consanguinity:label')"/>
+      </input>
+      <input ref="/data/parents_details/first_trimester_address">
+        <label ref="jr:itext('/data/parents_details/first_trimester_address:label')"/>
+        <hint ref="jr:itext('/data/parents_details/first_trimester_address:hint')"/>
+      </input>
+      <input ref="/data/parents_details/current_address_mother">
+        <label ref="jr:itext('/data/parents_details/current_address_mother:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/previous_pregnancies:label')"/>
+      <input ref="/data/previous_pregnancies/gravida">
+        <label ref="jr:itext('/data/previous_pregnancies/gravida:label')"/>
+      </input>
+      <input ref="/data/previous_pregnancies/abortion_miscarriage">
+        <label ref="jr:itext('/data/previous_pregnancies/abortion_miscarriage:label')"/>
+      </input>
+      <input ref="/data/previous_pregnancies/parity">
+        <label ref="jr:itext('/data/previous_pregnancies/parity:label')"/>
+      </input>
+      <input ref="/data/previous_pregnancies/Tot_LB">
+        <label ref="jr:itext('/data/previous_pregnancies/Tot_LB:label')"/>
+      </input>
+      <input ref="/data/previous_pregnancies/Tot_SB">
+        <label ref="jr:itext('/data/previous_pregnancies/Tot_SB:label')"/>
+      </input>
+      <select1 ref="/data/previous_pregnancies/multiple_birth">
+        <label ref="jr:itext('/data/previous_pregnancies/multiple_birth:label')"/>
+        <item>
+          <label ref="jr:itext('/data/previous_pregnancies/multiple_birth:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/previous_pregnancies/multiple_birth:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/previous_pregnancies/previousBirth_withB_defects">
+        <label ref="jr:itext('/data/previous_pregnancies/previousBirth_withB_defects:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Folic_acid_suppl:label')"/>
+      <select1 ref="/data/Folic_acid_suppl/untitled46">
+        <label ref="jr:itext('/data/Folic_acid_suppl/untitled46:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/untitled46:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/untitled46:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/untitled46:option2')"/>
+          <value>U</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Folic_acid_suppl/b4_LMP">
+        <label ref="jr:itext('/data/Folic_acid_suppl/b4_LMP:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/b4_LMP:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/b4_LMP:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Folic_acid_suppl/first_trimister">
+        <label ref="jr:itext('/data/Folic_acid_suppl/first_trimister:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/first_trimister:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/first_trimister:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Folic_acid_suppl/second_trimester">
+        <label ref="jr:itext('/data/Folic_acid_suppl/second_trimester:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/second_trimester:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/second_trimester:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Folic_acid_suppl/third_trimester">
+        <label ref="jr:itext('/data/Folic_acid_suppl/third_trimester:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/third_trimester:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Folic_acid_suppl/third_trimester:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/Folic_acid_suppl/type">
+        <label ref="jr:itext('/data/Folic_acid_suppl/type:label')"/>
+      </input>
+      <input ref="/data/Folic_acid_suppl/dose">
+        <label ref="jr:itext('/data/Folic_acid_suppl/dose:label')"/>
+      </input>
+      <input ref="/data/Folic_acid_suppl/freq_per_week">
+        <label ref="jr:itext('/data/Folic_acid_suppl/freq_per_week:label')"/>
+      </input>
+    </group>
+    <input ref="/data/usefull_information">
+      <label ref="jr:itext('/data/usefull_information:label')"/>
+    </input>
+  </h:body>
+</h:html>

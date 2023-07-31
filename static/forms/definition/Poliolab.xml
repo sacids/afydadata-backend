@@ -1,0 +1,529 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Poliolab</h:title>
+    <model>
+      <instance>
+        <data id="build_Poliolab_1529580975">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Ident>
+            <IDNumber/>
+            <ZS/>
+            <Prov/>
+            <Villag/>
+            <Adress/>
+          </Ident>
+          <Identit>
+            <gps/>
+            <Nom/>
+            <NomPere/>
+            <NomMere/>
+            <Sex/>
+            <DateNaiss/>
+            <Age/>
+          </Identit>
+          <NotificationEnquete>
+            <CasNot/>
+            <DateNotif/>
+            <DateEnquet/>
+          </NotificationEnquete>
+          <Hospitalisat>
+            <NumHosp/>
+            <Hospital/>
+            <DateAdmis/>
+            <NomAdreHosp/>
+            <Histoire_Maladie>
+              <Fievre_Debut/>
+              <Paralysie_Progres/>
+              <ParalysieFlasque/>
+              <Asymetriq/>
+              <Site_Paralysie/>
+              <Date_Debut_Paral/>
+            </Histoire_Maladie>
+          </Hospitalisat>
+          <AnteceVaccinaux>
+            <Nombre_TDose/>
+            <Naiss/>
+            <Apres/>
+            <VPO6_VPOm2/>
+            <TotalVPI/>
+            <VPObRoutine/>
+            <Date_Dernier_Dose/>
+          </AnteceVaccinaux>
+          <Prelev_Echant>
+            <Date_1_Ech/>
+            <Date_2_Echant/>
+            <Date_Expedit_Central/>
+            <DateExpeLab/>
+          </Prelev_Echant>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="French">
+          <text id="/data/Ident:label">
+            <value>Identification</value>
+          </text>
+          <text id="/data/Ident/IDNumber:label">
+            <value>Numéro Epid</value>
+          </text>
+          <text id="/data/Ident/ZS:label">
+            <value>Zone de Santé</value>
+          </text>
+          <text id="/data/Ident/ZS:hint">
+            <value></value>
+          </text>
+          <text id="/data/Ident/ZS:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/Ident/ZS:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/Ident/Prov:label">
+            <value>Province</value>
+          </text>
+          <text id="/data/Ident/Villag:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/Ident/Adress:label">
+            <value>Adresse</value>
+          </text>
+          <text id="/data/Identit:label">
+            <value>Identité du Patient</value>
+          </text>
+          <text id="/data/Identit/gps:label">
+            <value>GPS Point</value>
+          </text>
+          <text id="/data/Identit/Nom:label">
+            <value>Nom du Patient</value>
+          </text>
+          <text id="/data/Identit/NomPere:label">
+            <value>Nom du Père</value>
+          </text>
+          <text id="/data/Identit/NomMere:label">
+            <value>Nom de la Mère</value>
+          </text>
+          <text id="/data/Identit/Sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/data/Identit/Sex:option0">
+            <value>Masculin</value>
+          </text>
+          <text id="/data/Identit/Sex:option1">
+            <value>Féminin</value>
+          </text>
+          <text id="/data/Identit/DateNaiss:label">
+            <value>Date de Naissance</value>
+          </text>
+          <text id="/data/Identit/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/NotificationEnquete:label">
+            <value>Notification de l'enquete</value>
+          </text>
+          <text id="/data/NotificationEnquete/CasNot:label">
+            <value>Cas notifié par</value>
+          </text>
+          <text id="/data/NotificationEnquete/DateNotif:label">
+            <value>Date de Notification</value>
+          </text>
+          <text id="/data/NotificationEnquete/DateEnquet:label">
+            <value>Date de l'enquete</value>
+          </text>
+          <text id="/data/Hospitalisat:label">
+            <value>Hospitalisation</value>
+          </text>
+          <text id="/data/Hospitalisat/NumHosp:label">
+            <value>Numéro d'hospitalisation</value>
+          </text>
+          <text id="/data/Hospitalisat/Hospital:label">
+            <value>Hospitalise</value>
+          </text>
+          <text id="/data/Hospitalisat/Hospital:option0">
+            <value>Oui</value>
+          </text>
+          <text id="/data/Hospitalisat/Hospital:option1">
+            <value>Non</value>
+          </text>
+          <text id="/data/Hospitalisat/DateAdmis:label">
+            <value>Date d'admission</value>
+          </text>
+          <text id="/data/Hospitalisat/NomAdreHosp:label">
+            <value>Nom et Adresse de l'hôpital</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie:label">
+            <value>Histoire de la Maladie</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:label">
+            <value>Fievre au début</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option0">
+            <value>1</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option2">
+            <value>99</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:label">
+            <value>Paralysie Progressive</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option0">
+            <value>1</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option2">
+            <value>99</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:label">
+            <value>Paralysie Flasque Aigue</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option0">
+            <value>1</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option2">
+            <value>99</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Asymetriq:label">
+            <value>Asymetrique</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Asymetriq:option0">
+            <value>1</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Asymetriq:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Asymetriq:option2">
+            <value>99</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:label">
+            <value>Site de la paralysie</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option0">
+            <value>bj</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option1">
+            <value>jg</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option2">
+            <value>bd</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option3">
+            <value>jd</value>
+          </text>
+          <text id="/data/Hospitalisat/Histoire_Maladie/Date_Debut_Paral:label">
+            <value>Date Début paralysie</value>
+          </text>
+          <text id="/data/AnteceVaccinaux:label">
+            <value>Antecedents vaccinaux</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Nombre_TDose:label">
+            <value>Nombre total de dose VPO</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Naiss:label">
+            <value>Nassance</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Apres:label">
+            <value>Apres enquete, Etait-ce reelement un cas</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Apres:option0">
+            <value>1</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Apres:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/VPO6_VPOm2:label">
+            <value>Doses totales VPO reçues lors des AVS</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/TotalVPI:label">
+            <value>Doses totales VPI</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/VPObRoutine:label">
+            <value>Total doses VPO Routune</value>
+          </text>
+          <text id="/data/AnteceVaccinaux/Date_Dernier_Dose:label">
+            <value>Date dernier dose VPI</value>
+          </text>
+          <text id="/data/Prelev_Echant:label">
+            <value>Prélèvement échantillons de selles</value>
+          </text>
+          <text id="/data/Prelev_Echant/Date_1_Ech:label">
+            <value>Date 1er échantillon</value>
+          </text>
+          <text id="/data/Prelev_Echant/Date_2_Echant:label">
+            <value>Date 2em échantillon</value>
+          </text>
+          <text id="/data/Prelev_Echant/Date_Expedit_Central:label">
+            <value>Date d'expedition des selles vers niveau central</value>
+          </text>
+          <text id="/data/Prelev_Echant/DateExpeLab:label">
+            <value>Date d'expédition vers le labo</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Ident/IDNumber" type="string"/>
+      <bind nodeset="/data/Ident/ZS" type="string" required="true()" jr:requiredMsg="jr:itext('/data/Ident/ZS:requiredMsg')" jr:constraintMsg="jr:itext('/data/Ident/ZS:constraintMsg')"/>
+      <bind nodeset="/data/Ident/Prov" type="string" required="true()"/>
+      <bind nodeset="/data/Ident/Villag" type="string" required="true()"/>
+      <bind nodeset="/data/Ident/Adress" type="string" required="true()"/>
+      <bind nodeset="/data/Identit/gps" type="geopoint"/>
+      <bind nodeset="/data/Identit/Nom" type="string" required="true()"/>
+      <bind nodeset="/data/Identit/NomPere" type="string" required="true()"/>
+      <bind nodeset="/data/Identit/NomMere" type="string" required="true()"/>
+      <bind nodeset="/data/Identit/Sex" type="select1" required="true()"/>
+      <bind nodeset="/data/Identit/DateNaiss" type="date" required="true()"/>
+      <bind nodeset="/data/Identit/Age" type="int" required="true()"/>
+      <bind nodeset="/data/NotificationEnquete/CasNot" type="string" required="true()"/>
+      <bind nodeset="/data/NotificationEnquete/DateNotif" type="date" required="true()"/>
+      <bind nodeset="/data/NotificationEnquete/DateEnquet" type="date" required="true()"/>
+      <bind nodeset="/data/Hospitalisat/NumHosp" type="int" required="true()"/>
+      <bind nodeset="/data/Hospitalisat/Hospital" type="select1"/>
+      <bind nodeset="/data/Hospitalisat/DateAdmis" type="date" required="true()"/>
+      <bind nodeset="/data/Hospitalisat/NomAdreHosp" type="string" required="true()"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut" type="select1"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres" type="select1"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque" type="select1"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/Asymetriq" type="select1"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie" type="select"/>
+      <bind nodeset="/data/Hospitalisat/Histoire_Maladie/Date_Debut_Paral" type="date" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/Nombre_TDose" type="int" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/Naiss" type="date" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/Apres" type="select1" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/VPO6_VPOm2" type="int" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/TotalVPI" type="int" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/VPObRoutine" type="int" required="true()"/>
+      <bind nodeset="/data/AnteceVaccinaux/Date_Dernier_Dose" type="date" required="true()"/>
+      <bind nodeset="/data/Prelev_Echant/Date_1_Ech" type="date" required="true()"/>
+      <bind nodeset="/data/Prelev_Echant/Date_2_Echant" type="date" required="true()"/>
+      <bind nodeset="/data/Prelev_Echant/Date_Expedit_Central" type="date" required="true()"/>
+      <bind nodeset="/data/Prelev_Echant/DateExpeLab" type="date" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Ident:label')"/>
+      <input ref="/data/Ident/IDNumber">
+        <label ref="jr:itext('/data/Ident/IDNumber:label')"/>
+      </input>
+      <input ref="/data/Ident/ZS">
+        <label ref="jr:itext('/data/Ident/ZS:label')"/>
+        <hint ref="jr:itext('/data/Ident/ZS:hint')"/>
+      </input>
+      <input ref="/data/Ident/Prov">
+        <label ref="jr:itext('/data/Ident/Prov:label')"/>
+      </input>
+      <input ref="/data/Ident/Villag">
+        <label ref="jr:itext('/data/Ident/Villag:label')"/>
+      </input>
+      <input ref="/data/Ident/Adress">
+        <label ref="jr:itext('/data/Ident/Adress:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Identit:label')"/>
+      <input ref="/data/Identit/gps">
+        <label ref="jr:itext('/data/Identit/gps:label')"/>
+      </input>
+      <input ref="/data/Identit/Nom">
+        <label ref="jr:itext('/data/Identit/Nom:label')"/>
+      </input>
+      <input ref="/data/Identit/NomPere">
+        <label ref="jr:itext('/data/Identit/NomPere:label')"/>
+      </input>
+      <input ref="/data/Identit/NomMere">
+        <label ref="jr:itext('/data/Identit/NomMere:label')"/>
+      </input>
+      <select1 ref="/data/Identit/Sex">
+        <label ref="jr:itext('/data/Identit/Sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Identit/Sex:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identit/Sex:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/Identit/DateNaiss">
+        <label ref="jr:itext('/data/Identit/DateNaiss:label')"/>
+      </input>
+      <input ref="/data/Identit/Age">
+        <label ref="jr:itext('/data/Identit/Age:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/NotificationEnquete:label')"/>
+      <input ref="/data/NotificationEnquete/CasNot">
+        <label ref="jr:itext('/data/NotificationEnquete/CasNot:label')"/>
+      </input>
+      <input ref="/data/NotificationEnquete/DateNotif">
+        <label ref="jr:itext('/data/NotificationEnquete/DateNotif:label')"/>
+      </input>
+      <input ref="/data/NotificationEnquete/DateEnquet">
+        <label ref="jr:itext('/data/NotificationEnquete/DateEnquet:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Hospitalisat:label')"/>
+      <input ref="/data/Hospitalisat/NumHosp">
+        <label ref="jr:itext('/data/Hospitalisat/NumHosp:label')"/>
+      </input>
+      <select1 ref="/data/Hospitalisat/Hospital">
+        <label ref="jr:itext('/data/Hospitalisat/Hospital:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Hospitalisat/Hospital:option0')"/>
+          <value>O</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Hospitalisat/Hospital:option1')"/>
+          <value>N</value>
+        </item>
+      </select1>
+      <input ref="/data/Hospitalisat/DateAdmis">
+        <label ref="jr:itext('/data/Hospitalisat/DateAdmis:label')"/>
+      </input>
+      <input ref="/data/Hospitalisat/NomAdreHosp">
+        <label ref="jr:itext('/data/Hospitalisat/NomAdreHosp:label')"/>
+      </input>
+      <group appearance="field-list">
+        <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie:label')"/>
+        <select1 ref="/data/Hospitalisat/Histoire_Maladie/Fievre_Debut">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:label')"/>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option0')"/>
+            <value>Oui</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option1')"/>
+            <value>Non</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Fievre_Debut:option2')"/>
+            <value>Inconnu</value>
+          </item>
+        </select1>
+        <select1 ref="/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:label')"/>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option0')"/>
+            <value>Oui</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option1')"/>
+            <value>Non</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Paralysie_Progres:option2')"/>
+            <value>Inconnu</value>
+          </item>
+        </select1>
+        <select1 ref="/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:label')"/>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option0')"/>
+            <value>Oui</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option1')"/>
+            <value>Non</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/ParalysieFlasque:option2')"/>
+            <value>Inconnu</value>
+          </item>
+        </select1>
+        <select1 ref="/data/Hospitalisat/Histoire_Maladie/Asymetriq">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Asymetriq:label')"/>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Asymetriq:option0')"/>
+            <value>Oui</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Asymetriq:option1')"/>
+            <value>Non</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Asymetriq:option2')"/>
+            <value>Inconnu</value>
+          </item>
+        </select1>
+        <select ref="/data/Hospitalisat/Histoire_Maladie/Site_Paralysie">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:label')"/>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option0')"/>
+            <value>BG</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option1')"/>
+            <value>JG</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option2')"/>
+            <value>BD</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Site_Paralysie:option3')"/>
+            <value>JD</value>
+          </item>
+        </select>
+        <input ref="/data/Hospitalisat/Histoire_Maladie/Date_Debut_Paral">
+          <label ref="jr:itext('/data/Hospitalisat/Histoire_Maladie/Date_Debut_Paral:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/AnteceVaccinaux:label')"/>
+      <input ref="/data/AnteceVaccinaux/Nombre_TDose">
+        <label ref="jr:itext('/data/AnteceVaccinaux/Nombre_TDose:label')"/>
+      </input>
+      <input ref="/data/AnteceVaccinaux/Naiss">
+        <label ref="jr:itext('/data/AnteceVaccinaux/Naiss:label')"/>
+      </input>
+      <select1 ref="/data/AnteceVaccinaux/Apres">
+        <label ref="jr:itext('/data/AnteceVaccinaux/Apres:label')"/>
+        <item>
+          <label ref="jr:itext('/data/AnteceVaccinaux/Apres:option0')"/>
+          <value>Oui</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/AnteceVaccinaux/Apres:option1')"/>
+          <value>Non</value>
+        </item>
+      </select1>
+      <input ref="/data/AnteceVaccinaux/VPO6_VPOm2">
+        <label ref="jr:itext('/data/AnteceVaccinaux/VPO6_VPOm2:label')"/>
+      </input>
+      <input ref="/data/AnteceVaccinaux/TotalVPI">
+        <label ref="jr:itext('/data/AnteceVaccinaux/TotalVPI:label')"/>
+      </input>
+      <input ref="/data/AnteceVaccinaux/VPObRoutine">
+        <label ref="jr:itext('/data/AnteceVaccinaux/VPObRoutine:label')"/>
+      </input>
+      <input ref="/data/AnteceVaccinaux/Date_Dernier_Dose">
+        <label ref="jr:itext('/data/AnteceVaccinaux/Date_Dernier_Dose:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Prelev_Echant:label')"/>
+      <input ref="/data/Prelev_Echant/Date_1_Ech">
+        <label ref="jr:itext('/data/Prelev_Echant/Date_1_Ech:label')"/>
+      </input>
+      <input ref="/data/Prelev_Echant/Date_2_Echant">
+        <label ref="jr:itext('/data/Prelev_Echant/Date_2_Echant:label')"/>
+      </input>
+      <input ref="/data/Prelev_Echant/Date_Expedit_Central">
+        <label ref="jr:itext('/data/Prelev_Echant/Date_Expedit_Central:label')"/>
+      </input>
+      <input ref="/data/Prelev_Echant/DateExpeLab">
+        <label ref="jr:itext('/data/Prelev_Echant/DateExpeLab:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

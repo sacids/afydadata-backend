@@ -1,0 +1,2981 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>MoLF Weekly Report</h:title>
+    <model>
+      <instance>
+        <data id="build_MoLF-Weekly-Report_1509529224">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <initial_details>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+            <reporting_period/>
+            <disease_reported/>
+          </initial_details>
+          <species_rabies/>
+          <rabies_cattle>
+            <rabies_cattle_affected>
+              0
+            </rabies_cattle_affected>
+            <rabies_cattle_deaths>
+              0
+            </rabies_cattle_deaths>
+            <rabies_cattle_atRisk>
+              0
+            </rabies_cattle_atRisk>
+            <rabies_cattle_treated>
+              0
+            </rabies_cattle_treated>
+            <rabies_cattle_vaccinated>
+              0
+            </rabies_cattle_vaccinated>
+            <rabies_cattle_slaughtered>
+              0
+            </rabies_cattle_slaughtered>
+          </rabies_cattle>
+          <rabies_goat>
+            <rabies_goat_affected>
+              0
+            </rabies_goat_affected>
+            <rabies_goat_death>
+              0
+            </rabies_goat_death>
+            <rabies_goat_atRisk>
+              0
+            </rabies_goat_atRisk>
+            <rabies_goat_treated>
+              0
+            </rabies_goat_treated>
+            <vaccinated>
+              0
+            </vaccinated>
+            <rabies_goat_slaughtered>
+              0
+            </rabies_goat_slaughtered>
+          </rabies_goat>
+          <rabies_sheep>
+            <rabies_sheep_affected>
+              0
+            </rabies_sheep_affected>
+            <rabies_sheep_death>
+              0
+            </rabies_sheep_death>
+            <rabies_sheep_atRisk>
+              0
+            </rabies_sheep_atRisk>
+            <rabies_sheep_treated>
+              0
+            </rabies_sheep_treated>
+            <rabies_sheep_vaccinated>
+              0
+            </rabies_sheep_vaccinated>
+            <rabies_sheep_slaughtered>
+              0
+            </rabies_sheep_slaughtered>
+          </rabies_sheep>
+          <rabies_dog>
+            <rabies_dog_affected>
+              0
+            </rabies_dog_affected>
+            <rabies_dog_death>
+              0
+            </rabies_dog_death>
+            <rabies_dog_atRisk>
+              0
+            </rabies_dog_atRisk>
+            <rabies_dog_treated>
+              0
+            </rabies_dog_treated>
+            <rabies_dog_vaccinated>
+              0
+            </rabies_dog_vaccinated>
+            <rabies_dog_slaughtered>
+              0
+            </rabies_dog_slaughtered>
+          </rabies_dog>
+          <rabies_pig>
+            <rabies_pig_affected>
+              0
+            </rabies_pig_affected>
+            <rabies_pig_deaths>
+              0
+            </rabies_pig_deaths>
+            <rabies_pig_atRisk>
+              0
+            </rabies_pig_atRisk>
+            <rabies_pig_treated>
+              0
+            </rabies_pig_treated>
+            <rabies_pig_vaccinated>
+              0
+            </rabies_pig_vaccinated>
+            <rabies_pig_slaughtered>
+              0
+            </rabies_pig_slaughtered>
+          </rabies_pig>
+          <rabies_donkey>
+            <rabies_donkey_affected>
+              0
+            </rabies_donkey_affected>
+            <rabies_donkey_deaths>
+              0
+            </rabies_donkey_deaths>
+            <rabies_donkey_atRisk>
+              0
+            </rabies_donkey_atRisk>
+            <rabies_donkey_treated>
+              0
+            </rabies_donkey_treated>
+            <rabies_donkey_vaccinated>
+              0
+            </rabies_donkey_vaccinated>
+            <rabies_donkey_slaughtered>
+              0
+            </rabies_donkey_slaughtered>
+          </rabies_donkey>
+          <species_brucellosis/>
+          <brucellosis_cattle>
+            <brucellosis_cattle_affected>
+              0
+            </brucellosis_cattle_affected>
+            <brucellosis_cattle_deaths>
+              0
+            </brucellosis_cattle_deaths>
+            <brucellosis_cattle_atRisk>
+              0
+            </brucellosis_cattle_atRisk>
+            <brucellosis_cattle_treated>
+              0
+            </brucellosis_cattle_treated>
+            <brucellosis_cattle_vaccinated>
+              0
+            </brucellosis_cattle_vaccinated>
+            <brucellosis_cattle_slaughtered>
+              0
+            </brucellosis_cattle_slaughtered>
+          </brucellosis_cattle>
+          <brucellosis_goat>
+            <brucellosis_goat_affected>
+              0
+            </brucellosis_goat_affected>
+            <brucellosis_goat_deaths>
+              0
+            </brucellosis_goat_deaths>
+            <brucellosis_goat_atRisk>
+              0
+            </brucellosis_goat_atRisk>
+            <brucellosis_goat_treated>
+              0
+            </brucellosis_goat_treated>
+            <brucellosis_goat_vaccinated>
+              0
+            </brucellosis_goat_vaccinated>
+            <brucellosis_goat_slaughtered>
+              0
+            </brucellosis_goat_slaughtered>
+          </brucellosis_goat>
+          <brucellosis_sheep>
+            <brucellosis_sheep_affected>
+              0
+            </brucellosis_sheep_affected>
+            <brucellosis_sheep_deaths>
+              0
+            </brucellosis_sheep_deaths>
+            <brucellosis_sheep_atRisk>
+              0
+            </brucellosis_sheep_atRisk>
+            <brucellosis_sheep_treated>
+              0
+            </brucellosis_sheep_treated>
+            <brucellosis_sheep_vaccinated>
+              0
+            </brucellosis_sheep_vaccinated>
+            <brucellosis_sheep_slaughtered>
+              0
+            </brucellosis_sheep_slaughtered>
+          </brucellosis_sheep>
+          <brucellosis_dog>
+            <brucellosis_dog_affected>
+              0
+            </brucellosis_dog_affected>
+            <brucellosis_dog_deaths>
+              0
+            </brucellosis_dog_deaths>
+            <brucellosis_dog_atRisk>
+              0
+            </brucellosis_dog_atRisk>
+            <brucellosis_dog_treated>
+              0
+            </brucellosis_dog_treated>
+            <brucellosis_dog_vaccinated>
+              0
+            </brucellosis_dog_vaccinated>
+            <brucellosis_dog_slaughtered>
+              0
+            </brucellosis_dog_slaughtered>
+          </brucellosis_dog>
+          <brucellosis_pig>
+            <brucellosis_pig_affected>
+              0
+            </brucellosis_pig_affected>
+            <brucellosis_pig_deaths>
+              0
+            </brucellosis_pig_deaths>
+            <brucellosis_pig_atRisk>
+              0
+            </brucellosis_pig_atRisk>
+            <brucellosis_pig_treated>
+              0
+            </brucellosis_pig_treated>
+            <brucellosis_pig_vaccinated>
+              0
+            </brucellosis_pig_vaccinated>
+            <brucellosis_pig_slaughtered>
+              0
+            </brucellosis_pig_slaughtered>
+          </brucellosis_pig>
+          <brucellosis_donkey>
+            <brucellosis_donkey_affected>
+              0
+            </brucellosis_donkey_affected>
+            <brucellosis_donkey_deaths>
+              0
+            </brucellosis_donkey_deaths>
+            <brucellosis_donkey_atRisk>
+              0
+            </brucellosis_donkey_atRisk>
+            <brucellosis_donkey_treated>
+              0
+            </brucellosis_donkey_treated>
+            <brucellosis_donkey_vaccinated>
+              0
+            </brucellosis_donkey_vaccinated>
+            <brucellosis_donkey_slaughtered>
+              0
+            </brucellosis_donkey_slaughtered>
+          </brucellosis_donkey>
+          <species_anthrax/>
+          <anthrax_cattle>
+            <anthrax_cattle_affected>
+              0
+            </anthrax_cattle_affected>
+            <anthrax_cattle_deaths>
+              0
+            </anthrax_cattle_deaths>
+            <anthrax_atRisk>
+              0
+            </anthrax_atRisk>
+            <anthrax_cattle_treated>
+              0
+            </anthrax_cattle_treated>
+            <anthrax_cattle_vaccinated>
+              0
+            </anthrax_cattle_vaccinated>
+            <anthrax_cattle_slaughtered>
+              0
+            </anthrax_cattle_slaughtered>
+          </anthrax_cattle>
+          <anthrax_goat>
+            <anthrax_goat_affected>
+              0
+            </anthrax_goat_affected>
+            <anthrax_goat_deaths>
+              0
+            </anthrax_goat_deaths>
+            <anthrax_goat_atRisk>
+              0
+            </anthrax_goat_atRisk>
+            <anthrax_goat_treated>
+              0
+            </anthrax_goat_treated>
+            <anthrax_goat_vaccinated>
+              0
+            </anthrax_goat_vaccinated>
+            <anthrax_goat_slaughtered>
+              0
+            </anthrax_goat_slaughtered>
+          </anthrax_goat>
+          <anthrax_sheep>
+            <anthrax_sheep_affected>
+              0
+            </anthrax_sheep_affected>
+            <anthrax_sheep_deaths>
+              0
+            </anthrax_sheep_deaths>
+            <anthrax_sheep_atRisk>
+              0
+            </anthrax_sheep_atRisk>
+            <anthrax_sheep_treated>
+              0
+            </anthrax_sheep_treated>
+            <anthrax_sheep_vaccinated>
+              0
+            </anthrax_sheep_vaccinated>
+            <anthrax_sheep_slaughtered>
+              0
+            </anthrax_sheep_slaughtered>
+          </anthrax_sheep>
+          <anthrax_dog>
+            <anthrax_dog_affected>
+              0
+            </anthrax_dog_affected>
+            <anthrax_dog_deaths>
+              0
+            </anthrax_dog_deaths>
+            <anthrax_dog_atRisk>
+              0
+            </anthrax_dog_atRisk>
+            <anthrax_dog_treated>
+              0
+            </anthrax_dog_treated>
+            <anthrax_dog_vaccinated>
+              0
+            </anthrax_dog_vaccinated>
+            <anthrax_dog_slaughtered>
+              0
+            </anthrax_dog_slaughtered>
+          </anthrax_dog>
+          <anthrax_donkey>
+            <anthrax_donkey_affected>
+              0
+            </anthrax_donkey_affected>
+            <anthrax_donkey_deaths>
+              0
+            </anthrax_donkey_deaths>
+            <anthrax_donkey_atRisk>
+              0
+            </anthrax_donkey_atRisk>
+            <anthrax_donkey_treated>
+              0
+            </anthrax_donkey_treated>
+            <anthrax_donkey_vaccinated>
+              0
+            </anthrax_donkey_vaccinated>
+            <anthrax_donkey_slaughtered>
+              0
+            </anthrax_donkey_slaughtered>
+          </anthrax_donkey>
+          <species_avianinfluenza/>
+          <avianInfluenza_chicken>
+            <avianInfluenza_chicken_affected>
+              0
+            </avianInfluenza_chicken_affected>
+            <avianInfluenza_chicken_deaths>
+              0
+            </avianInfluenza_chicken_deaths>
+            <avianInfluenza_chicken_atRisk>
+              0
+            </avianInfluenza_chicken_atRisk>
+            <avianInfluenza_chicken_treated>
+              0
+            </avianInfluenza_chicken_treated>
+            <avianInfluenza_chicken_vaccinated>
+              0
+            </avianInfluenza_chicken_vaccinated>
+            <avianInfluenza_chicken_slaughtered>
+              0
+            </avianInfluenza_chicken_slaughtered>
+          </avianInfluenza_chicken>
+          <avianinfluenza_duck>
+            <avianinfluenza_duck_affected>
+              0
+            </avianinfluenza_duck_affected>
+            <avianinfluenza_duck_deaths>
+              0
+            </avianinfluenza_duck_deaths>
+            <avianinfluenza_duck_atRisk>
+              0
+            </avianinfluenza_duck_atRisk>
+            <avianinfluenza_duck_treated>
+              0
+            </avianinfluenza_duck_treated>
+            <avianinfluenza_duck_vaccinated>
+              0
+            </avianinfluenza_duck_vaccinated>
+            <avianinfluenza_duck_slaughtered>
+              0
+            </avianinfluenza_duck_slaughtered>
+          </avianinfluenza_duck>
+          <species_rvf/>
+          <rvf_cattle>
+            <RVF_cattle_affected>
+              0
+            </RVF_cattle_affected>
+            <RVF_cattle_deaths>
+              0
+            </RVF_cattle_deaths>
+            <RVF_cattle_atRisk>
+              0
+            </RVF_cattle_atRisk>
+            <RVF_cattle_treated>
+              0
+            </RVF_cattle_treated>
+            <RVF_cattle_vaccinated>
+              0
+            </RVF_cattle_vaccinated>
+            <RVF_cattle_slaughtered>
+              0
+            </RVF_cattle_slaughtered>
+          </rvf_cattle>
+          <RVF_goat>
+            <RVF_goat_affected>
+              0
+            </RVF_goat_affected>
+            <RVF_goat_deaths>
+              0
+            </RVF_goat_deaths>
+            <RVF_goat_atRisk>
+              0
+            </RVF_goat_atRisk>
+            <RVF_goat_treated>
+              0
+            </RVF_goat_treated>
+            <RVF_goat_vaccinated>
+              0
+            </RVF_goat_vaccinated>
+            <RVF_goat_slaughtered>
+              0
+            </RVF_goat_slaughtered>
+          </RVF_goat>
+          <RVF_sheep>
+            <RVF_sheep_affected>
+              0
+            </RVF_sheep_affected>
+            <RVF_sheep_deaths>
+              0
+            </RVF_sheep_deaths>
+            <RVF_sheep_atRisk>
+              0
+            </RVF_sheep_atRisk>
+            <RVF_sheep_treated>
+              0
+            </RVF_sheep_treated>
+            <RVF_sheep_vaccinated>
+              0
+            </RVF_sheep_vaccinated>
+            <RVF_sheep_slaughtered>
+              0
+            </RVF_sheep_slaughtered>
+          </RVF_sheep>
+          <RVF_donkey>
+            <RVF_donkey_affected>
+              0
+            </RVF_donkey_affected>
+            <RVF_donkey_deaths>
+              0
+            </RVF_donkey_deaths>
+            <RVF_donkey_atRisk>
+              0
+            </RVF_donkey_atRisk>
+            <RVF_donkey_treated>
+              0
+            </RVF_donkey_treated>
+            <RVF_donkey_vaccinated>
+              0
+            </RVF_donkey_vaccinated>
+            <RVF_donkey_slaughtered>
+              0
+            </RVF_donkey_slaughtered>
+          </RVF_donkey>
+          <AT_cattle>
+            <AT_cattle_affected>
+              0
+            </AT_cattle_affected>
+            <AT_cattle_deaths>
+              0
+            </AT_cattle_deaths>
+            <AT_cattle_atRisk>
+              0
+            </AT_cattle_atRisk>
+            <AT_cattle_treated>
+              0
+            </AT_cattle_treated>
+            <AT_cattle_vaccinated>
+              0
+            </AT_cattle_vaccinated>
+            <AT_cattle_slaughtered>
+              0
+            </AT_cattle_slaughtered>
+          </AT_cattle>
+          <FMD_cattle>
+            <FMD_cattle_affected>
+              0
+            </FMD_cattle_affected>
+            <FMD_cattle_deaths>
+              0
+            </FMD_cattle_deaths>
+            <FMD_cattle_atRisk>
+              0
+            </FMD_cattle_atRisk>
+            <FMD_cattle_treated>
+              0
+            </FMD_cattle_treated>
+            <FMD_cattle_vaccinated>
+              0
+            </FMD_cattle_vaccinated>
+            <FMD_cattle_slaughtered>
+              0
+            </FMD_cattle_slaughtered>
+          </FMD_cattle>
+          <CBPP_cattle>
+            <CBPP_cattle_affected>
+              0
+            </CBPP_cattle_affected>
+            <CBPP_cattle_deaths>
+              0
+            </CBPP_cattle_deaths>
+            <CBPP_cattle_atRisk>
+              0
+            </CBPP_cattle_atRisk>
+            <CBPP_cattle_treated>
+              0
+            </CBPP_cattle_treated>
+            <CBPP_cattle_vaccinated>
+              0
+            </CBPP_cattle_vaccinated>
+            <CBPP_cattle_slaughtered>
+              0
+            </CBPP_cattle_slaughtered>
+          </CBPP_cattle>
+          <species_ppr/>
+          <PPR_goat>
+            <PPR_goat_affected>
+              0
+            </PPR_goat_affected>
+            <PPR_goat_deaths>
+              0
+            </PPR_goat_deaths>
+            <PPR_goat_atRisk>
+              0
+            </PPR_goat_atRisk>
+            <PPR_goat_treated>
+              0
+            </PPR_goat_treated>
+            <PPR_goat_vaccinated>
+              0
+            </PPR_goat_vaccinated>
+            <PPR_goat_slaughtered>
+              0
+            </PPR_goat_slaughtered>
+          </PPR_goat>
+          <PPR_sheep>
+            <PPR_sheep_affected>
+              0
+            </PPR_sheep_affected>
+            <PPR_sheep_deaths>
+              0
+            </PPR_sheep_deaths>
+            <PPR_sheep_atRisk>
+              0
+            </PPR_sheep_atRisk>
+            <PPR_sheep_treated>
+              0
+            </PPR_sheep_treated>
+            <PPR_sheep_vaccinated>
+              0
+            </PPR_sheep_vaccinated>
+            <PPR_sheep_slaughtered>
+              0
+            </PPR_sheep_slaughtered>
+          </PPR_sheep>
+          <ASF_pigs>
+            <ASF_pigs_affected>
+              0
+            </ASF_pigs_affected>
+            <PPR_sheep_deaths>
+              0
+            </PPR_sheep_deaths>
+            <PPR_sheep_atRisk>
+              0
+            </PPR_sheep_atRisk>
+            <PPR_sheep_treated>
+              0
+            </PPR_sheep_treated>
+            <PPR_sheep_vaccinated>
+              0
+            </PPR_sheep_vaccinated>
+            <PPR_sheep_slaughtered>
+              0
+            </PPR_sheep_slaughtered>
+          </ASF_pigs>
+          <species_ncd/>
+          <NCD_chicken>
+            <NCD_chicken_affected>
+              0
+            </NCD_chicken_affected>
+            <NCD_chicken_deaths>
+              0
+            </NCD_chicken_deaths>
+            <NCD_chicken_atRisk>
+              0
+            </NCD_chicken_atRisk>
+            <NCD_chicken_treated>
+              0
+            </NCD_chicken_treated>
+            <NCD_chicken_vaccinated>
+              0
+            </NCD_chicken_vaccinated>
+            <NCD_chicken_slaughtered>
+              0
+            </NCD_chicken_slaughtered>
+          </NCD_chicken>
+          <NCD_duck>
+            <NCD_duck_affected>
+              0
+            </NCD_duck_affected>
+            <NCD_duck_deaths>
+              0
+            </NCD_duck_deaths>
+            <NCD_duck_atRisk>
+              0
+            </NCD_duck_atRisk>
+            <NCD_duck_treated>
+              0
+            </NCD_duck_treated>
+            <NCD_duck_vaccinated>
+              0
+            </NCD_duck_vaccinated>
+            <NCD_duck_slaughtered>
+              0
+            </NCD_duck_slaughtered>
+          </NCD_duck>
+          <species_ccpp/>
+          <CCPP_goat>
+            <CCPP_goat_affected>
+              0
+            </CCPP_goat_affected>
+            <CCPP_goat_deaths>
+              0
+            </CCPP_goat_deaths>
+            <CCPP_goat_atRisk>
+              0
+            </CCPP_goat_atRisk>
+            <CCPP_goat_treated>
+              0
+            </CCPP_goat_treated>
+            <CCPP_goat_vaccinated>
+              0
+            </CCPP_goat_vaccinated>
+            <CCPP_goat_slaughtered>
+              0
+            </CCPP_goat_slaughtered>
+          </CCPP_goat>
+          <CCPP_sheep>
+            <CCPP_sheep_affected>
+              0
+            </CCPP_sheep_affected>
+            <CCPP_sheep_deaths>
+              0
+            </CCPP_sheep_deaths>
+            <CCPP_sheep_atRisk>
+              0
+            </CCPP_sheep_atRisk>
+            <CCPP_sheep_treated>
+              0
+            </CCPP_sheep_treated>
+            <CCPP_sheep_vaccinated>
+              0
+            </CCPP_sheep_vaccinated>
+            <CCPP_sheep_slaughtered>
+              0
+            </CCPP_sheep_slaughtered>
+          </CCPP_sheep>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/initial_details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/initial_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/initial_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/initial_details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/initial_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/initial_details/reporting_period:label">
+            <value>Reporting Period</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:label">
+            <value>Suspected Disease Reported</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option0">
+            <value>Rabies</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option1">
+            <value>Brucellosis</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option2">
+            <value>Anthrax</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option3">
+            <value>Avian Influenza</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option4">
+            <value>Rift Valley Fever</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option5">
+            <value>AT</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option6">
+            <value>Foot and Mouth Disease</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option7">
+            <value>CBPP</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option8">
+            <value>PPR</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option9">
+            <value>ASF</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option10">
+            <value>NCD</value>
+          </text>
+          <text id="/data/initial_details/disease_reported:option11">
+            <value>CCPP</value>
+          </text>
+          <text id="/data/species_rabies:label">
+            <value>Species reported with rabies</value>
+          </text>
+          <text id="/data/species_rabies:hint">
+            <value>Specify species with reported instances of rabies</value>
+          </text>
+          <text id="/data/species_rabies:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/species_rabies:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_rabies:option2">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/species_rabies:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/species_rabies:option4">
+            <value>Pig</value>
+          </text>
+          <text id="/data/species_rabies:option5">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/rabies_cattle:label">
+            <value>Rabies in Cattle</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_affected:hint">
+            <value>Total number of animals affected </value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_deaths:hint">
+            <value>Total number of deaths</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_atRisk:hint">
+            <value>Total number of animals at Risk</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_treated:hint">
+            <value>Total number of animals treated</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_vaccinated:hint">
+            <value>Total number of animals vaccinated against rabies</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/rabies_cattle/rabies_cattle_slaughtered:hint">
+            <value>Total number of animals slaughtered</value>
+          </text>
+          <text id="/data/rabies_goat:label">
+            <value>Rabies in Goat</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_affected:hint">
+            <value>Total number of goats affected with rabies</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_death:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_death:hint">
+            <value>Total number of goats died with rabies</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_atRisk:hint">
+            <value>Total number of Goats at risk of getting rabies</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_treated:hint">
+            <value>Total number of goats treated </value>
+          </text>
+          <text id="/data/rabies_goat/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_goat/vaccinated:hint">
+            <value>Total number of goats vaccinated </value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/rabies_goat/rabies_goat_slaughtered:hint">
+            <value>Total number of goats slaughtered</value>
+          </text>
+          <text id="/data/rabies_sheep:label">
+            <value>Rabies in Sheep</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_affected:hint">
+            <value>Total number of sheep suspected with rabies</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_death:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_death:hint">
+            <value>Total number of sheep died suspected by rabies</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_atRisk:hint">
+            <value>Total number of sheep at risk of being infected with Rabies</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_atRisk:requiredMsg">
+            <value>0</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_treated:hint">
+            <value>Total number of sheep treated</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_vaccinated:hint">
+            <value>Number of sheep vaccinated</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/rabies_sheep/rabies_sheep_slaughtered:hint">
+            <value>Number of sheep slaughtered due to rabies</value>
+          </text>
+          <text id="/data/rabies_dog:label">
+            <value>Rabies in Dog</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_death:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_dog/rabies_dog_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/rabies_pig:label">
+            <value>Rabies in Pig</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_pig/rabies_pig_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/rabies_donkey:label">
+            <value>Rabies in Donkey</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rabies_donkey/rabies_donkey_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_brucellosis:label">
+            <value>Specify species with reported instances of brucellosis</value>
+          </text>
+          <text id="/data/species_brucellosis:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/species_brucellosis:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_brucellosis:option2">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/species_brucellosis:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/species_brucellosis:option4">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/brucellosis_cattle:label">
+            <value>Brucellosis</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_affected:hint">
+            <value>Total number of cattle affected</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_deaths:hint">
+            <value>Total number of cattle died</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_atRisk:hint">
+            <value>Total number of cattle at Risk</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_treated:hint">
+            <value>Total number of cattle treated</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_vaccinated:hint">
+            <value>Total number of cattle vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_cattle/brucellosis_cattle_slaughtered:hint">
+            <value>Total number of cattle slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_goat:label">
+            <value>Brucellosis in Goat</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_goat/brucellosis_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_sheep:label">
+            <value>Brucellosis in Sheep</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_sheep/brucellosis_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_dog:label">
+            <value>Brucellosis in Dog</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_dog/brucellosis_dog_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_pig:label">
+            <value>Brucellosis in Pig</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_pig/brucellosis_pig_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/brucellosis_donkey:label">
+            <value>Brucellosis in Donkey</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/brucellosis_donkey/brucellosis_donkey_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_anthrax:label">
+            <value>Specify species with suspected instances of anthrax</value>
+          </text>
+          <text id="/data/species_anthrax:requiredMsg">
+            <value>Specify at least one specie to continue</value>
+          </text>
+          <text id="/data/species_anthrax:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/species_anthrax:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_anthrax:option2">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/species_anthrax:option3">
+            <value>Dog</value>
+          </text>
+          <text id="/data/species_anthrax:option4">
+            <value>Pig</value>
+          </text>
+          <text id="/data/species_anthrax:option5">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/anthrax_cattle:label">
+            <value>Anthrax in Cattle</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_affected:hint">
+            <value>Total number of cattle affected</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_deaths:hint">
+            <value>Total number of cattle died from Anthrax</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_atRisk:hint">
+            <value>Total number of animals at risk </value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_treated:hint">
+            <value>Total number of cattle treated</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_vaccinated:label">
+            <value>Number of Cattle Vaccinated</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/anthrax_cattle/anthrax_cattle_slaughtered:hint">
+            <value>Total number of animals slaughtered</value>
+          </text>
+          <text id="/data/anthrax_goat:label">
+            <value>Anthrax in Goat</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/anthrax_goat/anthrax_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/anthrax_sheep:label">
+            <value>Anthrax in Sheep</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/anthrax_sheep/anthrax_sheep_slaughtered:label">
+            <value>slaughtered</value>
+          </text>
+          <text id="/data/anthrax_dog:label">
+            <value>Anthrax in Dog</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/anthrax_dog/anthrax_dog_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/anthrax_donkey:label">
+            <value>Anthrax in Donkey</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/anthrax_donkey/anthrax_donkey_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_avianinfluenza:label">
+            <value>Specify species reported with Avian Influenza</value>
+          </text>
+          <text id="/data/species_avianinfluenza:option0">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/species_avianinfluenza:option1">
+            <value>Duck</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken:label">
+            <value>Avian Influenza</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_affected:hint">
+            <value>Total number of chicken affected</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths:hint">
+            <value>Total number of Deaths</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk:hint">
+            <value>Total number of animals at risk</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_treated:hint">
+            <value>Total number of animals treated</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated:hint">
+            <value>Total number of animals vaccinated</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered:hint">
+            <value>Total number of animals slaughtered due to Avian Influenza</value>
+          </text>
+          <text id="/data/avianinfluenza_duck:label">
+            <value>Avian Influenza in Duck</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/avianinfluenza_duck/avianinfluenza_duck_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/AT_cattle:label">
+            <value>AT</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_affected:hint">
+            <value>Total number of cattle affected by AT</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_deaths:hint">
+            <value>Total number of cattle that died</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_atRisk:label">
+            <value>Total number of animals at Risk</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_treated:hint">
+            <value>Total number of animals treated</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_vaccinated:hint">
+            <value>Total number of animals vaccinated</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/AT_cattle/AT_cattle_slaughtered:hint">
+            <value>Total number of animals slaughtered</value>
+          </text>
+          <text id="/data/species_rvf:label">
+            <value>Specify species with suspected cases of RVF</value>
+          </text>
+          <text id="/data/species_rvf:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/species_rvf:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/species_rvf:option2">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_rvf:option3">
+            <value>Donkey</value>
+          </text>
+          <text id="/data/rvf_cattle:label">
+            <value>RVF in Cattle</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/rvf_cattle/RVF_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/RVF_goat:label">
+            <value>RVF in Goat</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/RVF_goat/RVF_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/RVF_sheep:label">
+            <value>RVF in Sheep</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/RVF_sheep/RVF_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/RVF_donkey:label">
+            <value>RVF in Donkey</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/RVF_donkey/RVF_donkey_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/FMD_cattle:label">
+            <value>Foot and Mouth Disease in Cattle</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/FMD_cattle/FMD_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/CBPP_cattle:label">
+            <value>CBPP in Cattle</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/CBPP_cattle/CBPP_cattle_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_ppr:label">
+            <value>Specify species with instances of PPR</value>
+          </text>
+          <text id="/data/species_ppr:option0">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_ppr:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/PPR_goat:label">
+            <value>PPR in Goat</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/PPR_goat/PPR_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/PPR_sheep:label">
+            <value>PPR in Sheep</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/PPR_sheep/PPR_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/ASF_pigs:label">
+            <value>ASF in Pigs</value>
+          </text>
+          <text id="/data/ASF_pigs/ASF_pigs_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/ASF_pigs/PPR_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/ASF_pigs/PPR_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/ASF_pigs/PPR_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/ASF_pigs/PPR_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/ASF_pigs/PPR_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_ncd:label">
+            <value>Specify species with suspected instances of NCD</value>
+          </text>
+          <text id="/data/species_ncd:option0">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/species_ncd:option1">
+            <value>Duck</value>
+          </text>
+          <text id="/data/NCD_chicken:label">
+            <value>NCD in Chicken</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_affected:hint">
+            <value>Total number of animals affected</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_deaths:hint">
+            <value>Total animals that died</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_atRisk:hint">
+            <value>Total number of animals at Risk</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_treated:hint">
+            <value>Total number of animals treated</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_vaccinated:hint">
+            <value>Total number of animals vaccinated</value>
+          </text>
+          <text id="/data/NCD_chicken/NCD_chicken_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/NCD_duck:label">
+            <value>NCD in Duck</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/NCD_duck/NCD_duck_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/species_ccpp:label">
+            <value>Specify species with suspected CCPP</value>
+          </text>
+          <text id="/data/species_ccpp:option0">
+            <value>Goat</value>
+          </text>
+          <text id="/data/species_ccpp:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/CCPP_goat:label">
+            <value>CCPP in Goat</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_affected:hint">
+            <value>Total number of animals affected</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_deaths:hint">
+            <value>Total number of deaths</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_atRisk:hint">
+            <value>Total number of animals at risk</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_treated:label">
+            <value>Treatment</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_treated:hint">
+            <value>Total number of animals treated</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_vaccinated:hint">
+            <value>Total number of animals vaccinated</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+          <text id="/data/CCPP_goat/CCPP_goat_slaughtered:hint">
+            <value>Total number of animals slaughtered</value>
+          </text>
+          <text id="/data/CCPP_sheep:label">
+            <value>CCPP in Sheep</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_affected:label">
+            <value>Affected</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_atRisk:label">
+            <value>At Risk</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/CCPP_sheep/CCPP_sheep_slaughtered:label">
+            <value>Slaughtered</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/initial_details/region" type="string"/>
+      <bind nodeset="/data/initial_details/district" type="string"/>
+      <bind nodeset="/data/initial_details/ward" type="string" required="true()"/>
+      <bind nodeset="/data/initial_details/village" type="string" required="true()"/>
+      <bind nodeset="/data/initial_details/reporting_period" type="date" required="true()"/>
+      
+      <bind nodeset="/data/initial_details/disease_reported" type="select"/>
+      
+      <bind nodeset="/data/species_rabies" type="select" relevant="(selected(/data/initial_details/disease_reported, 'rabies'))"/>
+      
+      <bind nodeset="/data/rabies_cattle" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_deaths" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      <bind nodeset="/data/rabies_cattle/rabies_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'cattle'))"/>
+      
+      <bind nodeset="/data/rabies_goat" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/rabies_goat_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/rabies_goat_death" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/rabies_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/rabies_goat_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      <bind nodeset="/data/rabies_goat/rabies_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'goat'))"/>
+      
+      <bind nodeset="/data/rabies_sheep" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_death" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      <bind nodeset="/data/rabies_sheep/rabies_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'sheep'))"/>
+      
+      <bind nodeset="/data/rabies_dog" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_death" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      <bind nodeset="/data/rabies_dog/rabies_dog_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'dog'))"/>
+      
+      <bind nodeset="/data/rabies_pig" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_deaths" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      <bind nodeset="/data/rabies_pig/rabies_pig_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'pig'))"/>
+      
+      <bind nodeset="/data/rabies_donkey" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_affected" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_deaths" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_atRisk" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_treated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      <bind nodeset="/data/rabies_donkey/rabies_donkey_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rabies, 'donkey'))"/>
+      
+      <bind nodeset="/data/species_brucellosis" type="select" relevant="(selected(/data/initial_details/disease_reported, 'brucellosis'))"/>
+      
+      <bind nodeset="/data/brucellosis_cattle" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      <bind nodeset="/data/brucellosis_cattle/brucellosis_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'cattle'))"/>
+      
+      <bind nodeset="/data/brucellosis_goat" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      <bind nodeset="/data/brucellosis_goat/brucellosis_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'goat'))"/>
+      
+      <bind nodeset="/data/brucellosis_sheep" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      <bind nodeset="/data/brucellosis_sheep/brucellosis_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'sheep'))"/>
+      
+      <bind nodeset="/data/brucellosis_dog" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      <bind nodeset="/data/brucellosis_dog/brucellosis_dog_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'dog'))"/>
+      
+      <bind nodeset="/data/brucellosis_pig" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      <bind nodeset="/data/brucellosis_pig/brucellosis_pig_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'pig'))"/>
+      
+      <bind nodeset="/data/brucellosis_donkey" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_affected" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_deaths" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_atRisk" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_treated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_vaccinated" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      <bind nodeset="/data/brucellosis_donkey/brucellosis_donkey_slaughtered" type="int" required="true()" relevant="(selected(/data/species_brucellosis, 'donkey'))"/>
+      
+      <bind nodeset="/data/species_anthrax" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'anthrax'))"/>
+      
+      <bind nodeset="/data/anthrax_cattle" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_cattle_affected" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_cattle_deaths" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_atRisk" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_cattle_treated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      <bind nodeset="/data/anthrax_cattle/anthrax_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'cattle'))"/>
+      
+      <bind nodeset="/data/anthrax_goat" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_affected" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_deaths" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_treated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_vaccinated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      <bind nodeset="/data/anthrax_goat/anthrax_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'goat'))"/>
+      
+      <bind nodeset="/data/anthrax_sheep" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_deaths" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      <bind nodeset="/data/anthrax_sheep/anthrax_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'sheep'))"/>
+      
+      <bind nodeset="/data/anthrax_dog" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_affected" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_deaths" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_atRisk" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_treated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_vaccinated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      <bind nodeset="/data/anthrax_dog/anthrax_dog_slaughtered" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'dog'))"/>
+      
+      <bind nodeset="/data/anthrax_donkey" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_affected" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_deaths" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_atRisk" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_treated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_vaccinated" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      <bind nodeset="/data/anthrax_donkey/anthrax_donkey_slaughtered" type="int" required="true()" relevant="(selected(/data/species_anthrax, 'donkey'))"/>
+      
+      <bind nodeset="/data/species_avianinfluenza" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'avianInfluenza'))"/>
+      
+      <bind nodeset="/data/avianInfluenza_chicken" relevant="(selected(/data/species_avianinfluenza,'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_affected" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_treated" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      <bind nodeset="/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'chicken'))"/>
+      
+      <bind nodeset="/data/avianinfluenza_duck" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_affected" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_deaths" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_atRisk" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_treated" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_vaccinated" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+      <bind nodeset="/data/avianinfluenza_duck/avianinfluenza_duck_slaughtered" type="int" required="true()" relevant="(selected(/data/species_avianinfluenza, 'duck'))"/>
+     
+      <bind nodeset="/data/species_rvf" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'RVF'))"/>
+      
+      <bind nodeset="/data/rvf_cattle" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_affected" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_deaths" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_treated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      <bind nodeset="/data/rvf_cattle/RVF_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rvf, 'cattle'))"/>
+      
+      <bind nodeset="/data/RVF_goat" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_affected" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_deaths" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_treated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+      <bind nodeset="/data/RVF_goat/RVF_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rvf, 'goat'))"/>
+     
+      <bind nodeset="/data/RVF_sheep" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_deaths" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      <bind nodeset="/data/RVF_sheep/RVF_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rvf, 'sheep'))"/>
+      
+      <bind nodeset="/data/RVF_donkey" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_affected" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_deaths" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_atRisk" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_treated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_vaccinated" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      <bind nodeset="/data/RVF_donkey/RVF_donkey_slaughtered" type="int" required="true()" relevant="(selected(/data/species_rvf, 'donkey'))"/>
+      
+       
+      <bind nodeset="/data/AT_cattle" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_affected" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_deaths" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_treated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      <bind nodeset="/data/AT_cattle/AT_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'AT'))"/>
+      
+      <bind nodeset="/data/FMD_cattle" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_affected" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_deaths" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_treated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      <bind nodeset="/data/FMD_cattle/FMD_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'FMD'))"/>
+      
+      <bind nodeset="/data/CBPP_cattle" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_affected" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_deaths" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_atRisk" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_treated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_vaccinated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      <bind nodeset="/data/CBPP_cattle/CBPP_cattle_slaughtered" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CBPP'))"/>
+      
+      <bind nodeset="/data/species_ppr" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'PPR'))"/>
+      
+      <bind nodeset="/data/PPR_goat" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_affected" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_deaths" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_treated" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      <bind nodeset="/data/PPR_goat/PPR_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ppr, 'goat'))"/>
+      
+      <bind nodeset="/data/PPR_sheep" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_deaths" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      <bind nodeset="/data/PPR_sheep/PPR_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ppr, 'sheep'))"/>
+      
+      <bind nodeset="/data/ASF_pigs" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/ASF_pigs_affected" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/PPR_sheep_deaths" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/PPR_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/PPR_sheep_treated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/PPR_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      <bind nodeset="/data/ASF_pigs/PPR_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'ASF'))"/>
+      
+      <bind nodeset="/data/species_ncd" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'NCD'))"/>
+      
+      <bind nodeset="/data/NCD_chicken" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_affected" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_deaths" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_atRisk" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_treated" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      <bind nodeset="/data/NCD_chicken/NCD_chicken_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ncd, 'chicken'))"/>
+      
+      <bind nodeset="/data/NCD_duck" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_affected" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_deaths" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_atRisk" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_treated" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      <bind nodeset="/data/NCD_duck/NCD_duck_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ncd, 'duck'))"/>
+      
+      <bind nodeset="/data/species_ccpp" type="select" required="true()" relevant="(selected(/data/initial_details/disease_reported, 'CCPP'))"/>
+      
+      <bind nodeset="/data/CCPP_goat" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_affected" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_deaths" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_atRisk" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_treated" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      <bind nodeset="/data/CCPP_goat/CCPP_goat_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'goat'))"/>
+      
+      <bind nodeset="/data/CCPP_sheep" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_affected" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_deaths" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_atRisk" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_treated" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_vaccinated" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+      <bind nodeset="/data/CCPP_sheep/CCPP_sheep_slaughtered" type="int" required="true()" relevant="(selected(/data/species_ccpp, 'sheep'))"/>
+    
+      <bind nodeset="/data/meta/instanceName" calculate="concat('W-MOLF ',': ',/data/Initial_details/reporting_period)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/initial_details:label')"/>
+      <input ref="/data/initial_details/region">
+        <label ref="jr:itext('/data/initial_details/region:label')"/>
+      </input>
+      <input ref="/data/initial_details/district">
+        <label ref="jr:itext('/data/initial_details/district:label')"/>
+      </input>
+      <input ref="/data/initial_details/ward">
+        <label ref="jr:itext('/data/initial_details/ward:label')"/>
+      </input>
+      <input ref="/data/initial_details/village">
+        <label ref="jr:itext('/data/initial_details/village:label')"/>
+      </input>
+      <input ref="/data/initial_details/reporting_period"  appearance="no-calendar">
+        <label ref="jr:itext('/data/initial_details/reporting_period:label')"/>
+      </input>
+      <select ref="/data/initial_details/disease_reported">
+        <label ref="jr:itext('/data/initial_details/disease_reported:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option0')"/>
+          <value>rabies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option1')"/>
+          <value>brucellosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option2')"/>
+          <value>anthrax</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option3')"/>
+          <value>avianInfluenza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option4')"/>
+          <value>RVF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option5')"/>
+          <value>AT</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option6')"/>
+          <value>FMD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option7')"/>
+          <value>CBPP</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option8')"/>
+          <value>PPR</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option9')"/>
+          <value>ASF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option10')"/>
+          <value>NCD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/disease_reported:option11')"/>
+          <value>CCPP</value>
+        </item>
+      </select>
+    </group>
+    <select ref="/data/species_rabies">
+      <label ref="jr:itext('/data/species_rabies:label')"/>
+      <hint ref="jr:itext('/data/species_rabies:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option0')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option2')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option3')"/>
+        <value>dog</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option4')"/>
+        <value>pig</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rabies:option5')"/>
+        <value>donkey</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_cattle:label')"/>
+      <input ref="/data/rabies_cattle/rabies_cattle_affected">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_affected:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_affected:hint')"/>
+      </input>
+      <input ref="/data/rabies_cattle/rabies_cattle_deaths">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_deaths:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_deaths:hint')"/>
+      </input>
+      <input ref="/data/rabies_cattle/rabies_cattle_atRisk">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_atRisk:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_atRisk:hint')"/>
+      </input>
+      <input ref="/data/rabies_cattle/rabies_cattle_treated">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_treated:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_treated:hint')"/>
+      </input>
+      <input ref="/data/rabies_cattle/rabies_cattle_vaccinated">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/rabies_cattle/rabies_cattle_slaughtered">
+        <label ref="jr:itext('/data/rabies_cattle/rabies_cattle_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/rabies_cattle/rabies_cattle_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_goat:label')"/>
+      <input ref="/data/rabies_goat/rabies_goat_affected">
+        <label ref="jr:itext('/data/rabies_goat/rabies_goat_affected:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/rabies_goat_affected:hint')"/>
+      </input>
+      <input ref="/data/rabies_goat/rabies_goat_death">
+        <label ref="jr:itext('/data/rabies_goat/rabies_goat_death:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/rabies_goat_death:hint')"/>
+      </input>
+      <input ref="/data/rabies_goat/rabies_goat_atRisk">
+        <label ref="jr:itext('/data/rabies_goat/rabies_goat_atRisk:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/rabies_goat_atRisk:hint')"/>
+      </input>
+      <input ref="/data/rabies_goat/rabies_goat_treated">
+        <label ref="jr:itext('/data/rabies_goat/rabies_goat_treated:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/rabies_goat_treated:hint')"/>
+      </input>
+      <input ref="/data/rabies_goat/vaccinated">
+        <label ref="jr:itext('/data/rabies_goat/vaccinated:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/vaccinated:hint')"/>
+      </input>
+      <input ref="/data/rabies_goat/rabies_goat_slaughtered">
+        <label ref="jr:itext('/data/rabies_goat/rabies_goat_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/rabies_goat/rabies_goat_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_sheep:label')"/>
+      <input ref="/data/rabies_sheep/rabies_sheep_affected">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_affected:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_affected:hint')"/>
+      </input>
+      <input ref="/data/rabies_sheep/rabies_sheep_death">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_death:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_death:hint')"/>
+      </input>
+      <input ref="/data/rabies_sheep/rabies_sheep_atRisk">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_atRisk:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_atRisk:hint')"/>
+      </input>
+      <input ref="/data/rabies_sheep/rabies_sheep_treated">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_treated:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_treated:hint')"/>
+      </input>
+      <input ref="/data/rabies_sheep/rabies_sheep_vaccinated">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/rabies_sheep/rabies_sheep_slaughtered">
+        <label ref="jr:itext('/data/rabies_sheep/rabies_sheep_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/rabies_sheep/rabies_sheep_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_dog:label')"/>
+      <input ref="/data/rabies_dog/rabies_dog_affected">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_affected:label')"/>
+      </input>
+      <input ref="/data/rabies_dog/rabies_dog_death">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_death:label')"/>
+      </input>
+      <input ref="/data/rabies_dog/rabies_dog_atRisk">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_atRisk:label')"/>
+      </input>
+      <input ref="/data/rabies_dog/rabies_dog_treated">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_treated:label')"/>
+      </input>
+      <input ref="/data/rabies_dog/rabies_dog_vaccinated">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_vaccinated:label')"/>
+      </input>
+      <input ref="/data/rabies_dog/rabies_dog_slaughtered">
+        <label ref="jr:itext('/data/rabies_dog/rabies_dog_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_pig:label')"/>
+      <input ref="/data/rabies_pig/rabies_pig_affected">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_affected:label')"/>
+      </input>
+      <input ref="/data/rabies_pig/rabies_pig_deaths">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_deaths:label')"/>
+      </input>
+      <input ref="/data/rabies_pig/rabies_pig_atRisk">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_atRisk:label')"/>
+      </input>
+      <input ref="/data/rabies_pig/rabies_pig_treated">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_treated:label')"/>
+      </input>
+      <input ref="/data/rabies_pig/rabies_pig_vaccinated">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_vaccinated:label')"/>
+      </input>
+      <input ref="/data/rabies_pig/rabies_pig_slaughtered">
+        <label ref="jr:itext('/data/rabies_pig/rabies_pig_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rabies_donkey:label')"/>
+      <input ref="/data/rabies_donkey/rabies_donkey_affected">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_affected:label')"/>
+      </input>
+      <input ref="/data/rabies_donkey/rabies_donkey_deaths">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_deaths:label')"/>
+      </input>
+      <input ref="/data/rabies_donkey/rabies_donkey_atRisk">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_atRisk:label')"/>
+      </input>
+      <input ref="/data/rabies_donkey/rabies_donkey_treated">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_treated:label')"/>
+      </input>
+      <input ref="/data/rabies_donkey/rabies_donkey_vaccinated">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_vaccinated:label')"/>
+      </input>
+      <input ref="/data/rabies_donkey/rabies_donkey_slaughtered">
+        <label ref="jr:itext('/data/rabies_donkey/rabies_donkey_slaughtered:label')"/>
+      </input>
+    </group>
+    <select ref="/data/species_brucellosis">
+      <label ref="jr:itext('/data/species_brucellosis:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_brucellosis:option0')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_brucellosis:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_brucellosis:option2')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_brucellosis:option3')"/>
+        <value>dog</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_brucellosis:option4')"/>
+        <value>donkey</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_cattle:label')"/>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_affected">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_affected:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_affected:hint')"/>
+      </input>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_deaths">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_deaths:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_deaths:hint')"/>
+      </input>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_atRisk">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_atRisk:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_atRisk:hint')"/>
+      </input>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_treated">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_treated:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_treated:hint')"/>
+      </input>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/brucellosis_cattle/brucellosis_cattle_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/brucellosis_cattle/brucellosis_cattle_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_goat:label')"/>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_affected">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_affected:label')"/>
+      </input>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_deaths">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_deaths:label')"/>
+      </input>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_atRisk">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_atRisk:label')"/>
+      </input>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_treated">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_treated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_vaccinated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_goat/brucellosis_goat_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_goat/brucellosis_goat_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_sheep:label')"/>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_affected">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_affected:label')"/>
+      </input>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_deaths">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_atRisk">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_treated">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_sheep/brucellosis_sheep_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_sheep/brucellosis_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_dog:label')"/>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_affected">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_affected:label')"/>
+      </input>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_deaths">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_deaths:label')"/>
+      </input>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_atRisk">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_atRisk:label')"/>
+      </input>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_treated">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_treated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_vaccinated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_dog/brucellosis_dog_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_dog/brucellosis_dog_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_pig:label')"/>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_affected">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_affected:label')"/>
+      </input>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_deaths">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_deaths:label')"/>
+      </input>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_atRisk">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_atRisk:label')"/>
+      </input>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_treated">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_treated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_vaccinated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_pig/brucellosis_pig_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_pig/brucellosis_pig_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/brucellosis_donkey:label')"/>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_affected">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_affected:label')"/>
+      </input>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_deaths">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_deaths:label')"/>
+      </input>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_atRisk">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_atRisk:label')"/>
+      </input>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_treated">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_treated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_vaccinated">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_vaccinated:label')"/>
+      </input>
+      <input ref="/data/brucellosis_donkey/brucellosis_donkey_slaughtered">
+        <label ref="jr:itext('/data/brucellosis_donkey/brucellosis_donkey_slaughtered:label')"/>
+      </input>
+    </group>
+    <select ref="/data/species_anthrax">
+      <label ref="jr:itext('/data/species_anthrax:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option0')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option2')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option3')"/>
+        <value>dog</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option4')"/>
+        <value>pig</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_anthrax:option5')"/>
+        <value>donkey</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/anthrax_cattle:label')"/>
+      <input ref="/data/anthrax_cattle/anthrax_cattle_affected">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_affected:label')"/>
+        <hint ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_affected:hint')"/>
+      </input>
+      <input ref="/data/anthrax_cattle/anthrax_cattle_deaths">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_deaths:label')"/>
+        <hint ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_deaths:hint')"/>
+      </input>
+      <input ref="/data/anthrax_cattle/anthrax_atRisk">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_atRisk:label')"/>
+        <hint ref="jr:itext('/data/anthrax_cattle/anthrax_atRisk:hint')"/>
+      </input>
+      <input ref="/data/anthrax_cattle/anthrax_cattle_treated">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_treated:label')"/>
+        <hint ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_treated:hint')"/>
+      </input>
+      <input ref="/data/anthrax_cattle/anthrax_cattle_vaccinated">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_vaccinated:label')"/>
+      </input>
+      <input ref="/data/anthrax_cattle/anthrax_cattle_slaughtered">
+        <label ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/anthrax_cattle/anthrax_cattle_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/anthrax_goat:label')"/>
+      <input ref="/data/anthrax_goat/anthrax_goat_affected">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_affected:label')"/>
+      </input>
+      <input ref="/data/anthrax_goat/anthrax_goat_deaths">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_deaths:label')"/>
+      </input>
+      <input ref="/data/anthrax_goat/anthrax_goat_atRisk">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_atRisk:label')"/>
+      </input>
+      <input ref="/data/anthrax_goat/anthrax_goat_treated">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_treated:label')"/>
+      </input>
+      <input ref="/data/anthrax_goat/anthrax_goat_vaccinated">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_vaccinated:label')"/>
+      </input>
+      <input ref="/data/anthrax_goat/anthrax_goat_slaughtered">
+        <label ref="jr:itext('/data/anthrax_goat/anthrax_goat_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/anthrax_sheep:label')"/>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_affected">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_affected:label')"/>
+      </input>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_deaths">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_atRisk">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_treated">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_vaccinated">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/anthrax_sheep/anthrax_sheep_slaughtered">
+        <label ref="jr:itext('/data/anthrax_sheep/anthrax_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/anthrax_dog:label')"/>
+      <input ref="/data/anthrax_dog/anthrax_dog_affected">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_affected:label')"/>
+      </input>
+      <input ref="/data/anthrax_dog/anthrax_dog_deaths">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_deaths:label')"/>
+      </input>
+      <input ref="/data/anthrax_dog/anthrax_dog_atRisk">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_atRisk:label')"/>
+      </input>
+      <input ref="/data/anthrax_dog/anthrax_dog_treated">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_treated:label')"/>
+      </input>
+      <input ref="/data/anthrax_dog/anthrax_dog_vaccinated">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_vaccinated:label')"/>
+      </input>
+      <input ref="/data/anthrax_dog/anthrax_dog_slaughtered">
+        <label ref="jr:itext('/data/anthrax_dog/anthrax_dog_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/anthrax_donkey:label')"/>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_affected">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_affected:label')"/>
+      </input>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_deaths">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_deaths:label')"/>
+      </input>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_atRisk">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_atRisk:label')"/>
+      </input>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_treated">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_treated:label')"/>
+      </input>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_vaccinated">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_vaccinated:label')"/>
+      </input>
+      <input ref="/data/anthrax_donkey/anthrax_donkey_slaughtered">
+        <label ref="jr:itext('/data/anthrax_donkey/anthrax_donkey_slaughtered:label')"/>
+      </input>
+    </group>
+    <select ref="/data/species_avianinfluenza">
+      <label ref="jr:itext('/data/species_avianinfluenza:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_avianinfluenza:option0')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_avianinfluenza:option1')"/>
+        <value>duck</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/avianInfluenza_chicken:label')"/>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_affected">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_affected:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_affected:hint')"/>
+      </input>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_deaths:hint')"/>
+      </input>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_atRisk:hint')"/>
+      </input>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_treated">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_treated:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_treated:hint')"/>
+      </input>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered">
+        <label ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/avianInfluenza_chicken/avianInfluenza_chicken_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/avianinfluenza_duck:label')"/>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_affected">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_affected:label')"/>
+      </input>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_deaths">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_deaths:label')"/>
+      </input>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_atRisk">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_atRisk:label')"/>
+      </input>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_treated">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_treated:label')"/>
+      </input>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_vaccinated">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_vaccinated:label')"/>
+      </input>
+      <input ref="/data/avianinfluenza_duck/avianinfluenza_duck_slaughtered">
+        <label ref="jr:itext('/data/avianinfluenza_duck/avianinfluenza_duck_slaughtered:label')"/>
+      </input>
+    </group>
+    <select ref="/data/species_rvf">
+      <label ref="jr:itext('/data/species_rvf:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_rvf:option0')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rvf:option1')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rvf:option2')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_rvf:option3')"/>
+        <value>donkey</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/rvf_cattle:label')"/>
+      <input ref="/data/rvf_cattle/RVF_cattle_affected">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_affected:label')"/>
+      </input>
+      <input ref="/data/rvf_cattle/RVF_cattle_deaths">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_deaths:label')"/>
+      </input>
+      <input ref="/data/rvf_cattle/RVF_cattle_atRisk">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_atRisk:label')"/>
+      </input>
+      <input ref="/data/rvf_cattle/RVF_cattle_treated">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_treated:label')"/>
+      </input>
+      <input ref="/data/rvf_cattle/RVF_cattle_vaccinated">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_vaccinated:label')"/>
+      </input>
+      <input ref="/data/rvf_cattle/RVF_cattle_slaughtered">
+        <label ref="jr:itext('/data/rvf_cattle/RVF_cattle_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/RVF_goat:label')"/>
+      <input ref="/data/RVF_goat/RVF_goat_affected">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_affected:label')"/>
+      </input>
+      <input ref="/data/RVF_goat/RVF_goat_deaths">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_deaths:label')"/>
+      </input>
+      <input ref="/data/RVF_goat/RVF_goat_atRisk">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_atRisk:label')"/>
+      </input>
+      <input ref="/data/RVF_goat/RVF_goat_treated">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_treated:label')"/>
+      </input>
+      <input ref="/data/RVF_goat/RVF_goat_vaccinated">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_vaccinated:label')"/>
+      </input>
+      <input ref="/data/RVF_goat/RVF_goat_slaughtered">
+        <label ref="jr:itext('/data/RVF_goat/RVF_goat_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/RVF_sheep:label')"/>
+      <input ref="/data/RVF_sheep/RVF_sheep_affected">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_affected:label')"/>
+      </input>
+      <input ref="/data/RVF_sheep/RVF_sheep_deaths">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/RVF_sheep/RVF_sheep_atRisk">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/RVF_sheep/RVF_sheep_treated">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/RVF_sheep/RVF_sheep_vaccinated">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/RVF_sheep/RVF_sheep_slaughtered">
+        <label ref="jr:itext('/data/RVF_sheep/RVF_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/RVF_donkey:label')"/>
+      <input ref="/data/RVF_donkey/RVF_donkey_affected">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_affected:label')"/>
+      </input>
+      <input ref="/data/RVF_donkey/RVF_donkey_deaths">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_deaths:label')"/>
+      </input>
+      <input ref="/data/RVF_donkey/RVF_donkey_atRisk">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_atRisk:label')"/>
+      </input>
+      <input ref="/data/RVF_donkey/RVF_donkey_treated">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_treated:label')"/>
+      </input>
+      <input ref="/data/RVF_donkey/RVF_donkey_vaccinated">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_vaccinated:label')"/>
+      </input>
+      <input ref="/data/RVF_donkey/RVF_donkey_slaughtered">
+        <label ref="jr:itext('/data/RVF_donkey/RVF_donkey_slaughtered:label')"/>
+      </input>
+    </group>
+    
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/AT_cattle:label')"/>
+      <input ref="/data/AT_cattle/AT_cattle_affected">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_affected:label')"/>
+        <hint ref="jr:itext('/data/AT_cattle/AT_cattle_affected:hint')"/>
+      </input>
+      <input ref="/data/AT_cattle/AT_cattle_deaths">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_deaths:label')"/>
+        <hint ref="jr:itext('/data/AT_cattle/AT_cattle_deaths:hint')"/>
+      </input>
+      <input ref="/data/AT_cattle/AT_cattle_atRisk">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_atRisk:label')"/>
+      </input>
+      <input ref="/data/AT_cattle/AT_cattle_treated">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_treated:label')"/>
+        <hint ref="jr:itext('/data/AT_cattle/AT_cattle_treated:hint')"/>
+      </input>
+      <input ref="/data/AT_cattle/AT_cattle_vaccinated">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/AT_cattle/AT_cattle_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/AT_cattle/AT_cattle_slaughtered">
+        <label ref="jr:itext('/data/AT_cattle/AT_cattle_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/AT_cattle/AT_cattle_slaughtered:hint')"/>
+      </input>
+    </group>
+    
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/FMD_cattle:label')"/>
+      <input ref="/data/FMD_cattle/FMD_cattle_affected">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_affected:label')"/>
+      </input>
+      <input ref="/data/FMD_cattle/FMD_cattle_deaths">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_deaths:label')"/>
+      </input>
+      <input ref="/data/FMD_cattle/FMD_cattle_atRisk">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_atRisk:label')"/>
+      </input>
+      <input ref="/data/FMD_cattle/FMD_cattle_treated">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_treated:label')"/>
+      </input>
+      <input ref="/data/FMD_cattle/FMD_cattle_vaccinated">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_vaccinated:label')"/>
+      </input>
+      <input ref="/data/FMD_cattle/FMD_cattle_slaughtered">
+        <label ref="jr:itext('/data/FMD_cattle/FMD_cattle_slaughtered:label')"/>
+      </input>
+    </group>
+    
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/CBPP_cattle:label')"/>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_affected">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_affected:label')"/>
+      </input>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_deaths">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_deaths:label')"/>
+      </input>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_atRisk">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_atRisk:label')"/>
+      </input>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_treated">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_treated:label')"/>
+      </input>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_vaccinated">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_vaccinated:label')"/>
+      </input>
+      <input ref="/data/CBPP_cattle/CBPP_cattle_slaughtered">
+        <label ref="jr:itext('/data/CBPP_cattle/CBPP_cattle_slaughtered:label')"/>
+      </input>
+    </group>
+    
+    <select ref="/data/species_ppr">
+      <label ref="jr:itext('/data/species_ppr:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_ppr:option0')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_ppr:option1')"/>
+        <value>sheep</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/PPR_goat:label')"/>
+      <input ref="/data/PPR_goat/PPR_goat_affected">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_affected:label')"/>
+      </input>
+      <input ref="/data/PPR_goat/PPR_goat_deaths">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_deaths:label')"/>
+      </input>
+      <input ref="/data/PPR_goat/PPR_goat_atRisk">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_atRisk:label')"/>
+      </input>
+      <input ref="/data/PPR_goat/PPR_goat_treated">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_treated:label')"/>
+      </input>
+      <input ref="/data/PPR_goat/PPR_goat_vaccinated">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_vaccinated:label')"/>
+      </input>
+      <input ref="/data/PPR_goat/PPR_goat_slaughtered">
+        <label ref="jr:itext('/data/PPR_goat/PPR_goat_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/PPR_sheep:label')"/>
+      <input ref="/data/PPR_sheep/PPR_sheep_affected">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_affected:label')"/>
+      </input>
+      <input ref="/data/PPR_sheep/PPR_sheep_deaths">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/PPR_sheep/PPR_sheep_atRisk">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/PPR_sheep/PPR_sheep_treated">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/PPR_sheep/PPR_sheep_vaccinated">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/PPR_sheep/PPR_sheep_slaughtered">
+        <label ref="jr:itext('/data/PPR_sheep/PPR_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+    
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ASF_pigs:label')"/>
+      <input ref="/data/ASF_pigs/ASF_pigs_affected">
+        <label ref="jr:itext('/data/ASF_pigs/ASF_pigs_affected:label')"/>
+      </input>
+      <input ref="/data/ASF_pigs/PPR_sheep_deaths">
+        <label ref="jr:itext('/data/ASF_pigs/PPR_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/ASF_pigs/PPR_sheep_atRisk">
+        <label ref="jr:itext('/data/ASF_pigs/PPR_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/ASF_pigs/PPR_sheep_treated">
+        <label ref="jr:itext('/data/ASF_pigs/PPR_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/ASF_pigs/PPR_sheep_vaccinated">
+        <label ref="jr:itext('/data/ASF_pigs/PPR_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/ASF_pigs/PPR_sheep_slaughtered">
+        <label ref="jr:itext('/data/ASF_pigs/PPR_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+    
+    <select ref="/data/species_ncd">
+      <label ref="jr:itext('/data/species_ncd:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_ncd:option0')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_ncd:option1')"/>
+        <value>duck</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/NCD_chicken:label')"/>
+      <input ref="/data/NCD_chicken/NCD_chicken_affected">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_affected:label')"/>
+        <hint ref="jr:itext('/data/NCD_chicken/NCD_chicken_affected:hint')"/>
+      </input>
+      <input ref="/data/NCD_chicken/NCD_chicken_deaths">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_deaths:label')"/>
+        <hint ref="jr:itext('/data/NCD_chicken/NCD_chicken_deaths:hint')"/>
+      </input>
+      <input ref="/data/NCD_chicken/NCD_chicken_atRisk">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_atRisk:label')"/>
+        <hint ref="jr:itext('/data/NCD_chicken/NCD_chicken_atRisk:hint')"/>
+      </input>
+      <input ref="/data/NCD_chicken/NCD_chicken_treated">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_treated:label')"/>
+        <hint ref="jr:itext('/data/NCD_chicken/NCD_chicken_treated:hint')"/>
+      </input>
+      <input ref="/data/NCD_chicken/NCD_chicken_vaccinated">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/NCD_chicken/NCD_chicken_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/NCD_chicken/NCD_chicken_slaughtered">
+        <label ref="jr:itext('/data/NCD_chicken/NCD_chicken_slaughtered:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/NCD_duck:label')"/>
+      <input ref="/data/NCD_duck/NCD_duck_affected">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_affected:label')"/>
+      </input>
+      <input ref="/data/NCD_duck/NCD_duck_deaths">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_deaths:label')"/>
+      </input>
+      <input ref="/data/NCD_duck/NCD_duck_atRisk">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_atRisk:label')"/>
+      </input>
+      <input ref="/data/NCD_duck/NCD_duck_treated">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_treated:label')"/>
+      </input>
+      <input ref="/data/NCD_duck/NCD_duck_vaccinated">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_vaccinated:label')"/>
+      </input>
+      <input ref="/data/NCD_duck/NCD_duck_slaughtered">
+        <label ref="jr:itext('/data/NCD_duck/NCD_duck_slaughtered:label')"/>
+      </input>
+    </group>
+    <select ref="/data/species_ccpp">
+      <label ref="jr:itext('/data/species_ccpp:label')"/>
+      <item>
+        <label ref="jr:itext('/data/species_ccpp:option0')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/species_ccpp:option1')"/>
+        <value>sheep</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/CCPP_goat:label')"/>
+      <input ref="/data/CCPP_goat/CCPP_goat_affected">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_affected:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_affected:hint')"/>
+      </input>
+      <input ref="/data/CCPP_goat/CCPP_goat_deaths">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_deaths:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_deaths:hint')"/>
+      </input>
+      <input ref="/data/CCPP_goat/CCPP_goat_atRisk">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_atRisk:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_atRisk:hint')"/>
+      </input>
+      <input ref="/data/CCPP_goat/CCPP_goat_treated">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_treated:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_treated:hint')"/>
+      </input>
+      <input ref="/data/CCPP_goat/CCPP_goat_vaccinated">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_vaccinated:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_vaccinated:hint')"/>
+      </input>
+      <input ref="/data/CCPP_goat/CCPP_goat_slaughtered">
+        <label ref="jr:itext('/data/CCPP_goat/CCPP_goat_slaughtered:label')"/>
+        <hint ref="jr:itext('/data/CCPP_goat/CCPP_goat_slaughtered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/CCPP_sheep:label')"/>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_affected">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_affected:label')"/>
+      </input>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_deaths">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_deaths:label')"/>
+      </input>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_atRisk">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_atRisk:label')"/>
+      </input>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_treated">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_treated:label')"/>
+      </input>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_vaccinated">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_vaccinated:label')"/>
+      </input>
+      <input ref="/data/CCPP_sheep/CCPP_sheep_slaughtered">
+        <label ref="jr:itext('/data/CCPP_sheep/CCPP_sheep_slaughtered:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

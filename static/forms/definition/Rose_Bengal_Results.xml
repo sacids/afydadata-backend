@@ -1,0 +1,84 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Rose Bengal Results</h:title>
+    <model>
+      <instance>
+        <data id="build_Rose-Bengal-Results_158980803030">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <rose_bengal_results>
+            <barcode/>
+            <rose_bengal_results_fina/>
+            <comments/>
+          </rose_bengal_results>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/rose_bengal_results:label">
+            <value>Rose Bengal Sample Results</value>
+          </text>
+          <text id="/data/rose_bengal_results/barcode:label">
+            <value>Patient sample results Barcode</value>
+          </text>
+          <text id="/data/rose_bengal_results/rose_bengal_results_fina:label">
+            <value>Rose Bengal Results</value>
+          </text>
+          <text id="/data/rose_bengal_results/rose_bengal_results_fina:hint">
+            <value></value>
+          </text>
+          <text id="/data/rose_bengal_results/rose_bengal_results_fina:option0">
+            <value>Positive</value>
+          </text>
+          <text id="/data/rose_bengal_results/rose_bengal_results_fina:option1">
+            <value>Negative</value>
+          </text>
+          <text id="/data/rose_bengal_results/comments:label">
+            <value>Comments</value>
+          </text>
+          <text id="/data/rose_bengal_results/comments:hint">
+            <value>If there is/are comments</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/rose_bengal_results/barcode" type="barcode" required="true()" jr:requiredMsg="Barcode is required"/>
+      <bind nodeset="/data/rose_bengal_results/rose_bengal_results_fina" type="select1" required="true()" jr:requiredMsg="Rose bengal results is required"/>
+      <bind nodeset="/data/rose_bengal_results/comments" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Rose Bengal Results ',': ',/data/rose_bengal_results/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/rose_bengal_results" appearance="field-list">
+      <label ref="jr:itext('/data/rose_bengal_results:label')"/>
+      <input ref="/data/rose_bengal_results/barcode">
+        <label ref="jr:itext('/data/rose_bengal_results/barcode:label')"/>
+      </input>
+      <select1 ref="/data/rose_bengal_results/rose_bengal_results_fina">
+        <label ref="jr:itext('/data/rose_bengal_results/rose_bengal_results_fina:label')"/>
+        <hint ref="jr:itext('/data/rose_bengal_results/rose_bengal_results_fina:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/rose_bengal_results/rose_bengal_results_fina:option0')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/rose_bengal_results/rose_bengal_results_fina:option1')"/>
+          <value>negative</value>
+        </item>
+      </select1>
+      <input ref="/data/rose_bengal_results/comments">
+        <label ref="jr:itext('/data/rose_bengal_results/comments:label')"/>
+        <hint ref="jr:itext('/data/rose_bengal_results/comments:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

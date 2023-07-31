@@ -1,0 +1,346 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>MosMagnet form</h:title>
+    <model>
+      <instance>
+        <data id="build_MosMagnet-form_1583593641">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <basic_info>
+            <date/>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+          </basic_info>
+          <house_hold_no/>
+          <collection_bag_ID/>
+          <Aedes_aegypt>
+            <tota_male/>
+            <total_female/>
+            <female_per_pool/>
+          </Aedes_aegypt>
+          <Aedes_simpsoni>
+            <Aedes_simpsoni_tota_male/>
+            <Aedes_simpsoni_total_female/>
+            <Aedes_simpsoni_female_per_pool/>
+          </Aedes_simpsoni>
+          <Aedes_africanus>
+            <Aedes_africanus_tota_male/>
+            <Aedes_africanus_total_female/>
+            <Aedes_africanus_female_per_pool/>
+          </Aedes_africanus>
+          <Aedes_albopictus>
+            <Aedes_albopictus_tota_male/>
+            <Aedes_albopictus_total_female/>
+            <Aedes_albopictus_female_per_pool/>
+          </Aedes_albopictus>
+          <An_gambiae_spp>
+            <An_gambiae_spp_tota_male/>
+            <An_gambiae_spp_total_female/>
+          </An_gambiae_spp>
+          <An_funestus_spp>
+            <An_funestus_spp_tota_male/>
+            <An_funestus_spp_total_female/>
+          </An_funestus_spp>
+          <Culex_quinq_spp>
+            <Culex_quinq_spp_tota_male/>
+            <Culex_quinq_spp_total_female/>
+          </Culex_quinq_spp>
+          <Other_Mosquito_spp>
+            <name_of_specie/>
+            <Other_Mosquito_spp_tota_male/>
+            <Other_Mosquito_spp_total_female/>
+          </Other_Mosquito_spp>
+          <comments/>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/basic_info:label">
+            <value># Basic info</value>
+          </text>
+          <text id="/data/basic_info/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/basic_info/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/basic_info/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/basic_info/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/basic_info/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/house_hold_no:label">
+            <value>House Hold Number</value>
+          </text>
+          <text id="/data/collection_bag_ID:label">
+            <value>Collection Bag ID</value>
+          </text>
+          <text id="/data/Aedes_aegypt:label">
+            <value># Aedes aegypt</value>
+          </text>
+          <text id="/data/Aedes_aegypt/tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Aedes_aegypt/total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Aedes_aegypt/female_per_pool:label">
+            <value>female/pool</value>
+          </text>
+          <text id="/data/Aedes_simpsoni:label">
+            <value># Aedes simpsoni</value>
+          </text>
+          <text id="/data/Aedes_simpsoni/Aedes_simpsoni_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Aedes_simpsoni/Aedes_simpsoni_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Aedes_simpsoni/Aedes_simpsoni_female_per_pool:label">
+            <value>female/pool</value>
+          </text>
+          <text id="/data/Aedes_africanus:label">
+            <value># Aedes africanus</value>
+          </text>
+          <text id="/data/Aedes_africanus/Aedes_africanus_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Aedes_africanus/Aedes_africanus_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Aedes_africanus/Aedes_africanus_female_per_pool:label">
+            <value>female/pool</value>
+          </text>
+          <text id="/data/Aedes_albopictus:label">
+            <value># Aedes albopictus</value>
+          </text>
+          <text id="/data/Aedes_albopictus/Aedes_albopictus_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Aedes_albopictus/Aedes_albopictus_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Aedes_albopictus/Aedes_albopictus_female_per_pool:label">
+            <value>female/pool</value>
+          </text>
+          <text id="/data/An_gambiae_spp:label">
+            <value># An gambiae spp</value>
+          </text>
+          <text id="/data/An_gambiae_spp/An_gambiae_spp_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/An_gambiae_spp/An_gambiae_spp_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/An_funestus_spp:label">
+            <value># An funestus spp</value>
+          </text>
+          <text id="/data/An_funestus_spp/An_funestus_spp_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/An_funestus_spp/An_funestus_spp_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Culex_quinq_spp:label">
+            <value># Culex quinq spp</value>
+          </text>
+          <text id="/data/Culex_quinq_spp/Culex_quinq_spp_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Culex_quinq_spp/Culex_quinq_spp_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/Other_Mosquito_spp:label">
+            <value># Other Mosquito spp</value>
+          </text>
+          <text id="/data/Other_Mosquito_spp/name_of_specie:label">
+            <value>Name of Specie</value>
+          </text>
+          <text id="/data/Other_Mosquito_spp/Other_Mosquito_spp_tota_male:label">
+            <value>Total male</value>
+          </text>
+          <text id="/data/Other_Mosquito_spp/Other_Mosquito_spp_total_female:label">
+            <value>Total female</value>
+          </text>
+          <text id="/data/comments:label">
+            <value>Comments</value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/basic_info/date" type="date" required="true()" jr:requiredMsg="date is required"/>
+      <bind nodeset="/data/basic_info/region" type="string" required="true()" jr:requiredMsg="region is required"/>
+      <bind nodeset="/data/basic_info/district" type="string" required="true()" jr:requiredMsg="district is required"/>
+      <bind nodeset="/data/basic_info/ward" type="string" required="true()" jr:requiredMsg="ward is required"/>
+      <bind nodeset="/data/basic_info/village" type="string" required="true()" jr:requiredMsg="village is required"/>
+      <bind nodeset="/data/house_hold_no" type="string" constraint="(regex(., &quot;^.{1,6}$&quot;))" jr:constraintMsg="Response length must be between 1 and 6"/>
+      <bind nodeset="/data/collection_bag_ID" type="string" required="true()" jr:requiredMsg="collection  is required"/>
+      <bind nodeset="/data/Aedes_aegypt/tota_male" type="int" required="true()" jr:requiredMsg="Aedes aegypt  is required"/>
+      <bind nodeset="/data/Aedes_aegypt/total_female" type="int" required="true()" jr:requiredMsg="Aedes aegypt  is required"/>
+      <bind nodeset="/data/Aedes_aegypt/female_per_pool" type="int" required="true()" jr:requiredMsg="Aedes aegypt  is required"/>
+
+      <bind nodeset="/data/Aedes_simpsoni/Aedes_simpsoni_tota_male" type="int" required="true()" jr:requiredMsg="Aedes simpsoni is required"/>
+      <bind nodeset="/data/Aedes_simpsoni/Aedes_simpsoni_total_female" type="int" required="true()" jr:requiredMsg="Aedes simpsoni is required"/>
+      <bind nodeset="/data/Aedes_simpsoni/Aedes_simpsoni_female_per_pool" type="int" required="true()" jr:requiredMsg="Aedes simpsoni is required"/>
+
+      <bind nodeset="/data/Aedes_africanus/Aedes_africanus_tota_male" type="int" required="true()" jr:requiredMsg="Aedes africanus is required"/>
+      <bind nodeset="/data/Aedes_africanus/Aedes_africanus_total_female" type="int" required="true()" jr:requiredMsg="Aedes africanus is required"/>
+      <bind nodeset="/data/Aedes_africanus/Aedes_africanus_female_per_pool" type="int" required="true()" jr:requiredMsg="Aedes africanus is required"/>
+
+      <bind nodeset="/data/Aedes_albopictus/Aedes_albopictus_tota_male" type="int" required="true()" jr:requiredMsg="Aedes albopictus is required"/>
+      <bind nodeset="/data/Aedes_albopictus/Aedes_albopictus_total_female" type="int" required="true()" jr:requiredMsg="Aedes albopictus is required"/>
+      <bind nodeset="/data/Aedes_albopictus/Aedes_albopictus_female_per_pool" type="int" required="true()" jr:requiredMsg="Aedes albopictus is required"/>
+
+      <bind nodeset="/data/An_gambiae_spp/An_gambiae_spp_tota_male" type="int" required="true()" jr:requiredMsg="An gambiae is required"/>
+      <bind nodeset="/data/An_gambiae_spp/An_gambiae_spp_total_female" type="int" required="true()" jr:requiredMsg="An gambiae is required"/>
+      <bind nodeset="/data/An_funestus_spp/An_funestus_spp_tota_male" type="int" required="true()" jr:requiredMsg="An funestus is required"/>
+      <bind nodeset="/data/An_funestus_spp/An_funestus_spp_total_female" type="int" required="true()" jr:requiredMsg="An funestus is required"/>
+      <bind nodeset="/data/Culex_quinq_spp/Culex_quinq_spp_tota_male" type="int" required="true()" jr:requiredMsg="An Culex is required"/>
+      <bind nodeset="/data/Culex_quinq_spp/Culex_quinq_spp_total_female" type="int" required="true()" jr:requiredMsg="An Culex is required"/>
+      <bind nodeset="/data/Other_Mosquito_spp/name_of_specie" type="string"/>
+      <bind nodeset="/data/Other_Mosquito_spp/Other_Mosquito_spp_tota_male" type="int"/>
+      <bind nodeset="/data/Other_Mosquito_spp/Other_Mosquito_spp_total_female" type="int"/>
+      <bind nodeset="/data/comments" type="string"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('MosMagnet form ',': ',/data/collection_bag_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/basic_info" appearance="field-list">
+      <label ref="jr:itext('/data/basic_info:label')"/>
+      <input ref="/data/basic_info/date">
+        <label ref="jr:itext('/data/basic_info/date:label')"/>
+      </input>
+      <input ref="/data/basic_info/region">
+        <label ref="jr:itext('/data/basic_info/region:label')"/>
+      </input>
+      <input ref="/data/basic_info/district">
+        <label ref="jr:itext('/data/basic_info/district:label')"/>
+      </input>
+      <input ref="/data/basic_info/ward">
+        <label ref="jr:itext('/data/basic_info/ward:label')"/>
+      </input>
+      <input ref="/data/basic_info/village">
+        <label ref="jr:itext('/data/basic_info/village:label')"/>
+      </input>
+    </group>
+    <input ref="/data/house_hold_no">
+      <label ref="jr:itext('/data/house_hold_no:label')"/>
+    </input>
+    <input ref="/data/collection_bag_ID">
+      <label ref="jr:itext('/data/collection_bag_ID:label')"/>
+    </input>
+    <group ref="/data/Aedes_aegypt" appearance="field-list">
+      <label ref="jr:itext('/data/Aedes_aegypt:label')"/>
+      <input ref="/data/Aedes_aegypt/tota_male">
+        <label ref="jr:itext('/data/Aedes_aegypt/tota_male:label')"/>
+      </input>
+      <input ref="/data/Aedes_aegypt/total_female">
+        <label ref="jr:itext('/data/Aedes_aegypt/total_female:label')"/>
+      </input>
+      <input ref="/data/Aedes_aegypt/female_per_pool">
+        <label ref="jr:itext('/data/Aedes_aegypt/female_per_pool:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Aedes_simpsoni" appearance="field-list">
+      <label ref="jr:itext('/data/Aedes_simpsoni:label')"/>
+      <input ref="/data/Aedes_simpsoni/Aedes_simpsoni_tota_male">
+        <label ref="jr:itext('/data/Aedes_simpsoni/Aedes_simpsoni_tota_male:label')"/>
+      </input>
+      <input ref="/data/Aedes_simpsoni/Aedes_simpsoni_total_female">
+        <label ref="jr:itext('/data/Aedes_simpsoni/Aedes_simpsoni_total_female:label')"/>
+      </input>
+      <input ref="/data/Aedes_simpsoni/Aedes_simpsoni_female_per_pool">
+        <label ref="jr:itext('/data/Aedes_simpsoni/Aedes_simpsoni_female_per_pool:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Aedes_africanus" appearance="field-list">
+      <label ref="jr:itext('/data/Aedes_africanus:label')"/>
+      <input ref="/data/Aedes_africanus/Aedes_africanus_tota_male">
+        <label ref="jr:itext('/data/Aedes_africanus/Aedes_africanus_tota_male:label')"/>
+      </input>
+      <input ref="/data/Aedes_africanus/Aedes_africanus_total_female">
+        <label ref="jr:itext('/data/Aedes_africanus/Aedes_africanus_total_female:label')"/>
+      </input>
+      <input ref="/data/Aedes_africanus/Aedes_africanus_female_per_pool">
+        <label ref="jr:itext('/data/Aedes_africanus/Aedes_africanus_female_per_pool:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Aedes_albopictus" appearance="field-list">
+      <label ref="jr:itext('/data/Aedes_albopictus:label')"/>
+      <input ref="/data/Aedes_albopictus/Aedes_albopictus_tota_male">
+        <label ref="jr:itext('/data/Aedes_albopictus/Aedes_albopictus_tota_male:label')"/>
+      </input>
+      <input ref="/data/Aedes_albopictus/Aedes_albopictus_total_female">
+        <label ref="jr:itext('/data/Aedes_albopictus/Aedes_albopictus_total_female:label')"/>
+      </input>
+      <input ref="/data/Aedes_albopictus/Aedes_albopictus_female_per_pool">
+        <label ref="jr:itext('/data/Aedes_albopictus/Aedes_albopictus_female_per_pool:label')"/>
+      </input>
+    </group>
+    <group ref="/data/An_gambiae_spp" appearance="field-list">
+      <label ref="jr:itext('/data/An_gambiae_spp:label')"/>
+      <input ref="/data/An_gambiae_spp/An_gambiae_spp_tota_male">
+        <label ref="jr:itext('/data/An_gambiae_spp/An_gambiae_spp_tota_male:label')"/>
+      </input>
+      <input ref="/data/An_gambiae_spp/An_gambiae_spp_total_female">
+        <label ref="jr:itext('/data/An_gambiae_spp/An_gambiae_spp_total_female:label')"/>
+      </input>
+    </group>
+    <group ref="/data/An_funestus_spp" appearance="field-list">
+      <label ref="jr:itext('/data/An_funestus_spp:label')"/>
+      <input ref="/data/An_funestus_spp/An_funestus_spp_tota_male">
+        <label ref="jr:itext('/data/An_funestus_spp/An_funestus_spp_tota_male:label')"/>
+      </input>
+      <input ref="/data/An_funestus_spp/An_funestus_spp_total_female">
+        <label ref="jr:itext('/data/An_funestus_spp/An_funestus_spp_total_female:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Culex_quinq_spp" appearance="field-list">
+      <label ref="jr:itext('/data/Culex_quinq_spp:label')"/>
+      <input ref="/data/Culex_quinq_spp/Culex_quinq_spp_tota_male">
+        <label ref="jr:itext('/data/Culex_quinq_spp/Culex_quinq_spp_tota_male:label')"/>
+      </input>
+      <input ref="/data/Culex_quinq_spp/Culex_quinq_spp_total_female">
+        <label ref="jr:itext('/data/Culex_quinq_spp/Culex_quinq_spp_total_female:label')"/>
+      </input>
+    </group>
+    <group ref="/data/Other_Mosquito_spp" appearance="field-list">
+      <label ref="jr:itext('/data/Other_Mosquito_spp:label')"/>
+      <input ref="/data/Other_Mosquito_spp/name_of_specie">
+        <label ref="jr:itext('/data/Other_Mosquito_spp/name_of_specie:label')"/>
+      </input>
+      <input ref="/data/Other_Mosquito_spp/Other_Mosquito_spp_tota_male">
+        <label ref="jr:itext('/data/Other_Mosquito_spp/Other_Mosquito_spp_tota_male:label')"/>
+      </input>
+      <input ref="/data/Other_Mosquito_spp/Other_Mosquito_spp_total_female">
+        <label ref="jr:itext('/data/Other_Mosquito_spp/Other_Mosquito_spp_total_female:label')"/>
+      </input>
+    </group>
+    <input ref="/data/comments">
+      <label ref="jr:itext('/data/comments:label')"/>
+    </input>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

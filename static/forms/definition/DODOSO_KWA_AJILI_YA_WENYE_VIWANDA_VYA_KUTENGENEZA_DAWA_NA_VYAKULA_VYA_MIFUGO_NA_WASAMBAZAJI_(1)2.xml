@@ -1,0 +1,476 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>DODOSO KWA AJILI YA WENYE VIWANDA VYA KUTENGENEZA DAWA NA VYAKULA VYA MIFUGO NA WASAMBAZAJI</h:title>
+    <model>
+      <instance>
+        <data id="build_dodoso_viwanda_vyakula_vyamifugo_wasambazaji_1566206558">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifaAwali>
+            <jinaKampuni/>
+            <tarehe/>
+          </taarifaAwali>
+          <eneoKampuni>
+            <wilaya/>
+            <mtaa/>
+          </eneoKampuni>
+          <taarifaMhojiwa>
+            <umri/>
+            <jinsia/>
+            <elimu/>
+            <cheo/>
+            <nambaSimu/>
+          </taarifaMhojiwa>
+          <taarifaBidhaa>
+            <kiwandaUzalishaji/>
+            <bidhaaNyingine/>
+          </taarifaBidhaa>
+          <taarifaWatengenezajiVyakula>
+            <mifugoInayolengwa/>
+            <mifugoMingineyo/>
+          </taarifaWatengenezajiVyakula>
+          <watejaWakubwa/>
+          <uelewaUsuguAntibiotiki/>
+          <uelewaMadharaAntibiotiki/>
+          <taarifaMajukumuKampuni>
+            <majukumuKamouni/>
+            <utaratibuKampuni/>
+            <jinsiKampuniInapambana/>
+            <taratibuZinazotumika/>
+            <utaratibuWaMrejesho/>
+          </taarifaMajukumuKampuni>
+          <taarifaWatengenezajiVyakulaMifugo>
+            <antibiotikiKuongezaVirutubisho/>
+            <maelezoYanaambatanishwaVifungashio/>
+            <uwezoWaKampuniKukabilianaOngezekoAntibiotiki/>
+            <mamlakaZinahuskiaUkaguzi/>
+          </taarifaWatengenezajiVyakulaMifugo>
+          <miongozoKampuni>
+            <miongozoInayotumiaNaKampuni/>
+            <utaratibuUhakikiUbora/>
+          </miongozoKampuni>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/taarifaAwali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifaAwali/jinaKampuni:label">
+            <value>Jina la Kiwanda/Kampuni:</value>
+          </text>
+          <text id="/data/taarifaAwali/tarehe:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/eneoKampuni:label">
+            <value>Eneo lilipo Kiwanda/Kampuni</value>
+          </text>
+          <text id="/data/eneoKampuni/wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/eneoKampuni/mtaa:label">
+            <value>Mtaa</value>
+          </text>
+          <text id="/data/taarifaMhojiwa:label">
+            <value>Taarifa za mhojiwa</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/umri:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/jinsia:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/taarifaMhojiwa/jinsia:option0">
+            <value>Mwanaume</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/jinsia:option1">
+            <value>Mwanamke</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:label">
+            <value>Kiwango cha Elimu</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option0">
+            <value>Cheti</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option1">
+            <value>Astashahada</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option2">
+            <value>Stashahada</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option3">
+            <value>Shahada</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option4">
+            <value>Shahada ya uzamili</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/elimu:option5">
+            <value>Shahada ya uzamifu</value>
+          </text>
+          <text id="/data/taarifaMhojiwa/cheo:label">
+            <value>Cheo cha Mhojiwa </value>
+          </text>
+          <text id="/data/taarifaMhojiwa/nambaSimu:label">
+            <value>Namba ya Simu</value>
+          </text>
+          <text id="/data/taarifaBidhaa:label">
+            <value>Taarifa za bidhaa</value>
+          </text>
+          <text id="/data/taarifaBidhaa/kiwandaUzalishaji:label">
+            <value>Je ni bidhaa gani kiwanda chako/Kampuni yako inazalisha/inasambaza?</value>
+          </text>
+          <text id="/data/taarifaBidhaa/kiwandaUzalishaji:option0">
+            <value>Dawa</value>
+          </text>
+          <text id="/data/taarifaBidhaa/kiwandaUzalishaji:option1">
+            <value>Virutubisho vya vyakula </value>
+          </text>
+          <text id="/data/taarifaBidhaa/kiwandaUzalishaji:option2">
+            <value>Chakula cha mifugo </value>
+          </text>
+          <text id="/data/taarifaBidhaa/kiwandaUzalishaji:option3">
+            <value>Nyinginezo</value>
+          </text>
+          <text id="/data/taarifaBidhaa/bidhaaNyingine:label">
+            <value>Bidhaa nyinginezo</value>
+          </text>
+          <text id="/data/taarifaBidhaa/bidhaaNyingine:hint">
+            <value>Weka bidhaa nyinginezo kama zipo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula:label">
+            <value>Taarifa za watengenezaji wa vyakula vya mifugo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:label">
+            <value>Kwa watengenezaji wa vyakula vya mifugo, ni mifugo ipi inalengwa </value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option0">
+            <value>Ng’ombe</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option2">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option3">
+            <value>Nguruwe</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option4">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option5">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option6">
+            <value>Paka</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option7">
+            <value>Mingineyo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoMingineyo:label">
+            <value>Mifugo mingineyo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakula/mifugoMingineyo:hint">
+            <value>Weka mifugo mingineyo, kama ipo</value>
+          </text>
+          <text id="/data/watejaWakubwa:label">
+            <value>Ni nani wateja wako wakubwa?</value>
+          </text>
+          <text id="/data/watejaWakubwa:hint">
+            <value>Dodosa kama anakuwa na mawasiliano ya mara kwa mara na wateja wake?</value>
+          </text>
+          <text id="/data/uelewaUsuguAntibiotiki:label">
+            <value>Kwa maoni yako, unaelewa nini kuhusu dhana ya Usugu wa antibiotiki/vijiuvijasumu.</value>
+          </text>
+          <text id="/data/uelewaUsuguAntibiotiki:hint">
+            <value>Dodosa kama ana ufahamu wa uwepo wa Mpango-Kazi wa Taifa wa Kudhibiti Usugu wa Antibiotiki</value>
+          </text>
+          <text id="/data/uelewaMadharaAntibiotiki:label">
+            <value>Je unaelewa madhara yoyote ya usugu wa antibiotiki katika biashara yako (Usugu wa antibiotiki unaathiri vipi biashara yako? </value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni:label">
+            <value>Majukumu ya kampuni inayofanya kuzuia/kudhibiti ongezeko la uwepo wa usugu wa antibiotiki </value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni/majukumuKamouni:label">
+            <value>Je ni majukumu gani Kampuni yako inayofanya kuzuia/kudhibiti ongezeko la uwepo wa usugu wa antibiotiki nchini? </value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni/utaratibuKampuni:label">
+            <value>Utarabitu wa Kampuni/Kiwanda katika kutupa mabaki ya dawa zinazotengenezwa au kusambazwa</value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni/jinsiKampuniInapambana:label">
+            <value>Ni kwa jinsi gani Kampuni/Kiwanda inapambana na maswala ya uchafunzi wa mazingira?</value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni/taratibuZinazotumika:label">
+            <value>Taratibu zinazotumika kuhakikisha ubora wa bidhaa zinazozalishwa/kusambazwa na kampuni/kiwanda</value>
+          </text>
+          <text id="/data/taarifaMajukumuKampuni/utaratibuWaMrejesho:label">
+            <value>Utaratibu unaotumika kupata mrejesho kutoka kwa wateja</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo:label">
+            <value>Kwa watengeneza vyakula vya mifugo</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo/antibiotikiKuongezaVirutubisho:label">
+            <value>Je ni antibiotiki gani zinatumika katika kuongeza (kama virutubisho) katika vyakula vya mifugo?</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo/maelezoYanaambatanishwaVifungashio:label">
+            <value>Ni maelekezo gani yanaambatanishwa na vifungashio vya vyakula vya mifugo?</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo/uwezoWaKampuniKukabilianaOngezekoAntibiotiki:label">
+            <value>Ni mambo gani yaliyondani ya uwezo wa Kampuni/Kiwanda yanaweza kufanywa kukabiliana na ongezeko la matumizi yasiyo sahihi ya antibiotiki?</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi:label">
+            <value>Ni mamlaka gani zinahusika na ukaguzi wa bidhaa zinazozalishwa na Kiwanda/kusambazwa na kampuni yako?</value>
+          </text>
+          <text id="/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi:hint">
+            <value>Uliza kama kuna ripoti ya ukaguzi katika kipindi cha hivi karibuni</value>
+          </text>
+          <text id="/data/miongozoKampuni:label">
+            <value>Miongozo ya Kampuni/Kiwanda</value>
+          </text>
+          <text id="/data/miongozoKampuni/miongozoInayotumiaNaKampuni:label">
+            <value>Ni Miongozo ipi inatumika na Kampuni/Kiwanda katika uzalishaji wa bidhaa zake?</value>
+          </text>
+          <text id="/data/miongozoKampuni/utaratibuUhakikiUbora:label">
+            <value>Je una utaratibu wa uhakiki wa ubora wa bidhaa zako?</value>
+          </text>
+          <text id="/data/miongozoKampuni/utaratibuUhakikiUbora:hint">
+            <value>Toa maelezo</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifaAwali/jinaKampuni" type="string" required="true()"/>
+      <bind nodeset="/data/taarifaAwali/tarehe" type="date" required="true()"/>
+      <bind nodeset="/data/eneoKampuni/wilaya" type="string" required="true()"/>
+      <bind nodeset="/data/eneoKampuni/mtaa" type="string"/>
+      <bind nodeset="/data/taarifaMhojiwa/umri" type="int" required="true()"/>
+      <bind nodeset="/data/taarifaMhojiwa/jinsia" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/taarifaMhojiwa/jinsia:requiredMsg')"/>
+      <bind nodeset="/data/taarifaMhojiwa/elimu" type="select1" required="true()"/>
+      <bind nodeset="/data/taarifaMhojiwa/cheo" type="string" required="true()"/>
+      <bind nodeset="/data/taarifaMhojiwa/nambaSimu" type="string"/>
+      <bind nodeset="/data/taarifaBidhaa/kiwandaUzalishaji" type="select" required="true()"/>
+      <bind nodeset="/data/taarifaBidhaa/bidhaaNyingine" type="string"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa" type="select" required="true()"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakula/mifugoMingineyo" type="string"/>
+      <bind nodeset="/data/watejaWakubwa" type="string" required="true()"/>
+      <bind nodeset="/data/uelewaUsuguAntibiotiki" type="string" required="true()"/>
+      <bind nodeset="/data/uelewaMadharaAntibiotiki" type="string" required="true()"/>
+      <bind nodeset="/data/taarifaMajukumuKampuni/majukumuKamouni" type="string" required="true()"/>
+      <bind nodeset="/data/taarifaMajukumuKampuni/utaratibuKampuni" type="string"/>
+      <bind nodeset="/data/taarifaMajukumuKampuni/jinsiKampuniInapambana" type="string"/>
+      <bind nodeset="/data/taarifaMajukumuKampuni/taratibuZinazotumika" type="string"/>
+      <bind nodeset="/data/taarifaMajukumuKampuni/utaratibuWaMrejesho" type="string"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakulaMifugo/antibiotikiKuongezaVirutubisho" type="string"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakulaMifugo/maelezoYanaambatanishwaVifungashio" type="string"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakulaMifugo/uwezoWaKampuniKukabilianaOngezekoAntibiotiki" type="string"/>
+      <bind nodeset="/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi" type="string"/>
+      <bind nodeset="/data/miongozoKampuni/miongozoInayotumiaNaKampuni" type="string" required="true()"/>
+      <bind nodeset="/data/miongozoKampuni/utaratibuUhakikiUbora" type="string" required="true()"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Viwanda vya vyakula vyamifugo na wasambazaji',' : ',/data/taarifaAwali/jinaKampuni)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/taarifaAwali" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaAwali:label')"/>
+      <input ref="/data/taarifaAwali/jinaKampuni">
+        <label ref="jr:itext('/data/taarifaAwali/jinaKampuni:label')"/>
+      </input>
+      <input ref="/data/taarifaAwali/tarehe" appearance="no-calendar">
+        <label ref="jr:itext('/data/taarifaAwali/tarehe:label')"/>
+      </input>
+    </group>
+    <group ref="/data/eneoKampuni" appearance="field-list">
+      <label ref="jr:itext('/data/eneoKampuni:label')"/>
+      <input ref="/data/eneoKampuni/wilaya">
+        <label ref="jr:itext('/data/eneoKampuni/wilaya:label')"/>
+      </input>
+      <input ref="/data/eneoKampuni/mtaa">
+        <label ref="jr:itext('/data/eneoKampuni/mtaa:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaMhojiwa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaMhojiwa:label')"/>
+      <input ref="/data/taarifaMhojiwa/umri">
+        <label ref="jr:itext('/data/taarifaMhojiwa/umri:label')"/>
+      </input>
+      <select1 ref="/data/taarifaMhojiwa/jinsia">
+        <label ref="jr:itext('/data/taarifaMhojiwa/jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/jinsia:option0')"/>
+          <value>Me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/jinsia:option1')"/>
+          <value>Ke</value>
+        </item>
+      </select1>
+      <select1 ref="/data/taarifaMhojiwa/elimu" appearance="minimal">
+        <label ref="jr:itext('/data/taarifaMhojiwa/elimu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option0')"/>
+          <value>cheti</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option1')"/>
+          <value>astashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option2')"/>
+          <value>stashahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option3')"/>
+          <value>shahada</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option4')"/>
+          <value>shahadaUzamili</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaMhojiwa/elimu:option5')"/>
+          <value>shahadaUzamivu</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifaMhojiwa/cheo">
+        <label ref="jr:itext('/data/taarifaMhojiwa/cheo:label')"/>
+      </input>
+      <input ref="/data/taarifaMhojiwa/nambaSimu">
+        <label ref="jr:itext('/data/taarifaMhojiwa/nambaSimu:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaBidhaa" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaBidhaa:label')"/>
+      <select ref="/data/taarifaBidhaa/kiwandaUzalishaji">
+        <label ref="jr:itext('/data/taarifaBidhaa/kiwandaUzalishaji:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaBidhaa/kiwandaUzalishaji:option0')"/>
+          <value>Dawa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaBidhaa/kiwandaUzalishaji:option1')"/>
+          <value>VirutubishoVyaVyakula</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaBidhaa/kiwandaUzalishaji:option2')"/>
+          <value>ChakulaChaMifugo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaBidhaa/kiwandaUzalishaji:option3')"/>
+          <value>Nyinginezo</value>
+        </item>
+      </select>
+      <input ref="/data/taarifaBidhaa/bidhaaNyingine">
+        <label ref="jr:itext('/data/taarifaBidhaa/bidhaaNyingine:label')"/>
+        <hint ref="jr:itext('/data/taarifaBidhaa/bidhaaNyingine:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaWatengenezajiVyakula" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaWatengenezajiVyakula:label')"/>
+      <select ref="/data/taarifaWatengenezajiVyakula/mifugoInayolengwa">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option0')"/>
+          <value>Ngombe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option1')"/>
+          <value>Mbuzi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option2')"/>
+          <value>Kondoo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option3')"/>
+          <value>Nguruwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option4')"/>
+          <value>Kuku</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option5')"/>
+          <value>Mbwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option6')"/>
+          <value>Paka</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoInayolengwa:option7')"/>
+          <value>Mingineyo</value>
+        </item>
+      </select>
+      <input ref="/data/taarifaWatengenezajiVyakula/mifugoMingineyo">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoMingineyo:label')"/>
+        <hint ref="jr:itext('/data/taarifaWatengenezajiVyakula/mifugoMingineyo:hint')"/>
+      </input>
+    </group>
+    <input ref="/data/watejaWakubwa">
+      <label ref="jr:itext('/data/watejaWakubwa:label')"/>
+      <hint ref="jr:itext('/data/watejaWakubwa:hint')"/>
+    </input>
+    <input ref="/data/uelewaUsuguAntibiotiki">
+      <label ref="jr:itext('/data/uelewaUsuguAntibiotiki:label')"/>
+      <hint ref="jr:itext('/data/uelewaUsuguAntibiotiki:hint')"/>
+    </input>
+    <input ref="/data/uelewaMadharaAntibiotiki">
+      <label ref="jr:itext('/data/uelewaMadharaAntibiotiki:label')"/>
+    </input>
+    <group ref="/data/taarifaMajukumuKampuni" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaMajukumuKampuni:label')"/>
+      <input ref="/data/taarifaMajukumuKampuni/majukumuKamouni">
+        <label ref="jr:itext('/data/taarifaMajukumuKampuni/majukumuKamouni:label')"/>
+      </input>
+      <input ref="/data/taarifaMajukumuKampuni/utaratibuKampuni">
+        <label ref="jr:itext('/data/taarifaMajukumuKampuni/utaratibuKampuni:label')"/>
+      </input>
+      <input ref="/data/taarifaMajukumuKampuni/jinsiKampuniInapambana">
+        <label ref="jr:itext('/data/taarifaMajukumuKampuni/jinsiKampuniInapambana:label')"/>
+      </input>
+      <input ref="/data/taarifaMajukumuKampuni/taratibuZinazotumika">
+        <label ref="jr:itext('/data/taarifaMajukumuKampuni/taratibuZinazotumika:label')"/>
+      </input>
+      <input ref="/data/taarifaMajukumuKampuni/utaratibuWaMrejesho">
+        <label ref="jr:itext('/data/taarifaMajukumuKampuni/utaratibuWaMrejesho:label')"/>
+      </input>
+    </group>
+    <group ref="/data/taarifaWatengenezajiVyakulaMifugo" appearance="field-list">
+      <label ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo:label')"/>
+      <input ref="/data/taarifaWatengenezajiVyakulaMifugo/antibiotikiKuongezaVirutubisho">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo/antibiotikiKuongezaVirutubisho:label')"/>
+      </input>
+      <input ref="/data/taarifaWatengenezajiVyakulaMifugo/maelezoYanaambatanishwaVifungashio">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo/maelezoYanaambatanishwaVifungashio:label')"/>
+      </input>
+      <input ref="/data/taarifaWatengenezajiVyakulaMifugo/uwezoWaKampuniKukabilianaOngezekoAntibiotiki">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo/uwezoWaKampuniKukabilianaOngezekoAntibiotiki:label')"/>
+      </input>
+      <input ref="/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi">
+        <label ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi:label')"/>
+        <hint ref="jr:itext('/data/taarifaWatengenezajiVyakulaMifugo/mamlakaZinahuskiaUkaguzi:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/miongozoKampuni" appearance="field-list">
+      <label ref="jr:itext('/data/miongozoKampuni:label')"/>
+      <input ref="/data/miongozoKampuni/miongozoInayotumiaNaKampuni">
+        <label ref="jr:itext('/data/miongozoKampuni/miongozoInayotumiaNaKampuni:label')"/>
+      </input>
+      <input ref="/data/miongozoKampuni/utaratibuUhakikiUbora">
+        <label ref="jr:itext('/data/miongozoKampuni/utaratibuUhakikiUbora:label')"/>
+        <hint ref="jr:itext('/data/miongozoKampuni/utaratibuUhakikiUbora:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

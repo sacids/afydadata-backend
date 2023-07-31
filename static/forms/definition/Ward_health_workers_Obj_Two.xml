@@ -1,0 +1,932 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Ward H workers Objec Two</h:title>
+    <model>
+      <instance>
+        <data id="build_Ward-health-workers-Objec-Two_1576836123452020">
+          <meta>
+           <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <respondant_details>
+            <name/>
+            <sex/>
+            <telNo/>
+            <region/>
+            <district/>
+            <ward/>
+            <village/>
+            <date/>
+            <proffession/>
+            <proffession_other/>
+          </respondant_details>
+          <where_document_Taeni_epileptic/>
+          <where_do_document/>
+          <where_do_document_other/>
+          <what_info_filled_in_book/>
+          <what_info_filled_in_book_other/>
+          <what_do_with_inform_record/>
+          <what_do_with_inform_record_other/>
+          <specific_form_report_Ta_epile/>
+          <who_provide_format/>
+          <contents_of_report/>
+          <contents_of_report_other/>
+          <who_facilitate_report_prep/>
+          <who_facilitate_report_prep_other/>
+          <aspects_facilitated/>
+          <where_send_report/>
+          <how_often_report_respective_office/>
+          <how_send_report_respective/>
+          <how_send_report_respective_other/>
+          <how_do_know_report_reached/>
+          <how_do_know_report_reached_other/>
+          <submit_ontime/>
+          <reason_for_delay/>
+          <reason_for_delay_other/>
+          <gps_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/respondant_details:label">
+            <value>Respondent Particular</value>
+          </text>
+          <text id="/data/respondant_details/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/respondant_details/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/respondant_details/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/respondant_details/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/respondant_details/telNo:label">
+            <value>Telephone Number</value>
+          </text>
+          <text id="/data/respondant_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/respondant_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/respondant_details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/respondant_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/respondant_details/date:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/respondant_details/proffession:label">
+            <value>Profession</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option0">
+            <value>Medical Officer (MD)</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option1">
+            <value>Assistant MD</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option2">
+            <value>Clinical Officer </value>
+          </text>
+          <text id="/data/respondant_details/proffession:option3">
+            <value>Clinical Assistant</value>
+          </text>
+          <text id="/data/respondant_details/proffession:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/respondant_details/proffession_other:label">
+            <value>Other professions</value>
+          </text>
+          <text id="/data/where_document_Taeni_epileptic:label">
+            <value>1.	Is there a place where you document the Taeniosis/epileptic cases you diagnose every day?</value>
+          </text>
+          <text id="/data/where_document_Taeni_epileptic:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/where_document_Taeni_epileptic:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/where_do_document:label">
+            <value>2. Where do you document the cases</value>
+          </text>
+          <text id="/data/where_do_document:option0">
+            <value>In a record book </value>
+          </text>
+          <text id="/data/where_do_document:option1">
+            <value>In a specifically designed form </value>
+          </text>
+          <text id="/data/where_do_document:option2">
+            <value>In a Health Management Information system registry book (HMIS/MTUHA) </value>
+          </text>
+          <text id="/data/where_do_document:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/where_do_document_other:label">
+            <value>Other mechanism you document the cases</value>
+          </text>
+
+          <text id="/data/what_info_filled_in_book:label">
+            <value>3. In summary, what information is filled in a record book or the form</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option0">
+            <value>Date</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option1">
+            <value>Patient Name</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option2">
+            <value>Age of patient</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option3">
+            <value>Sex</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option4">
+            <value>Place of Domicile</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option5">
+            <value>Disease status</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option6">
+            <value>Decision</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option7">
+            <value>Action taken</value>
+          </text>
+          <text id="/data/what_info_filled_in_book:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/what_info_filled_in_book_other:label">
+            <value>What other information is filled in a record book/form</value>
+          </text>
+          <text id="/data/what_do_with_inform_record:label">
+            <value>4. What do you do with the information/record you have? </value>
+          </text>
+          <text id="/data/what_do_with_inform_record:option0">
+            <value>I put them in the office shelf</value>
+          </text>
+          <text id="/data/what_do_with_inform_record:option1">
+            <value>I use them to prepare the report</value>
+          </text>
+          <text id="/data/what_do_with_inform_record:option2">
+            <value>I send them to the ward executive officer</value>
+          </text>
+          <text id="/data/what_do_with_inform_record:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/what_do_with_inform_record_other:label">
+            <value>What other ways you do with the information/record you have</value>
+          </text>
+
+          <text id="/data/specific_form_report_Ta_epile:label">
+            <value>5.	Do you have a specific format (or form) for report writing/preparation for Taeniosis/epileptic cases?</value>
+          </text>
+          <text id="/data/specific_form_report_Ta_epile:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/specific_form_report_Ta_epile:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/who_provide_format:label">
+            <value>6. Who provides the format?(will have a look on the format</value>
+          </text>
+          <text id="/data/who_provide_format:option0">
+            <value>District Medical Officer </value>
+          </text>
+          <text id="/data/who_provide_format:option1">
+            <value>The Ministry for Health </value>
+          </text>
+          <text id="/data/who_provide_format:option2">
+            <value>Regional Medical Officer</value>
+          </text>
+          <text id="/data/contents_of_report:label">
+            <value>7. what are the contents of your report?</value>
+          </text>
+          <text id="/data/contents_of_report:option0">
+            <value>Date</value>
+          </text>
+          <text id="/data/contents_of_report:option1">
+            <value>Patient Name</value>
+          </text>
+          <text id="/data/contents_of_report:option2">
+            <value>Age of patient</value>
+          </text>
+          <text id="/data/contents_of_report:option3">
+            <value>Sex</value>
+          </text>
+          <text id="/data/contents_of_report:option4">
+            <value>Place of Domicile</value>
+          </text>
+          <text id="/data/contents_of_report:option5">
+            <value>Disease status</value>
+          </text>
+          <text id="/data/contents_of_report:option6">
+            <value>Decision</value>
+          </text>
+          <text id="/data/contents_of_report:option7">
+            <value>Action taken</value>
+          </text>
+          <text id="/data/contents_of_report:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/contents_of_report_other:label">
+            <value>What are other contents of your report</value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:label">
+            <value>8.	Who facilitates you in report preparation and submission? </value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:option0">
+            <value>I am facilitating myself </value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:option1">
+            <value>The DMO Office facilitates me </value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:option2">
+            <value>The Ministry for Health facilitates me</value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:option3">
+            <value>A Non-Governmental Organisation facilitates me </value>
+          </text>
+          <text id="/data/who_facilitate_report_prep:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/who_facilitate_report_prep_other:label">
+            <value>Who else facilitate you in report preparation and submission?</value>
+          </text>
+
+
+
+          <text id="/data/aspects_facilitated:label">
+            <value>9 Choose from a list of statements below, the aspects in which you are facilitated</value>
+          </text>
+          <text id="/data/aspects_facilitated:option0">
+            <value>Given stationeries</value>
+          </text>
+          <text id="/data/aspects_facilitated:option1">
+            <value>Air time bundles</value>
+          </text>
+          <text id="/data/aspects_facilitated:option2">
+            <value>Given motorcycle</value>
+          </text>
+          <text id="/data/aspects_facilitated:option3">
+            <value>Given fuel</value>
+          </text>
+          <text id="/data/aspects_facilitated:option4">
+            <value>Given portable computer</value>
+          </text>
+          <text id="/data/aspects_facilitated:option5">
+            <value>Given tablets</value>
+          </text>
+          <text id="/data/aspects_facilitated:option6">
+            <value>Given smart phones </value>
+          </text>
+          <text id="/data/aspects_facilitated:option7">
+            <value>Given transport fare to send the report to DMO/TMO Office </value>
+          </text>
+          <text id="/data/aspects_facilitated:option8">
+            <value>Given per diem / extra duty on sending the report to DMO/TMO Office</value>
+          </text>
+          <text id="/data/where_send_report:label">
+            <value>10. Where do you send the report you have prepared</value>
+          </text>
+          <text id="/data/where_send_report:option0">
+            <value>To the District Medical Office </value>
+          </text>
+          <text id="/data/where_send_report:option1">
+            <value>To the Regional Medical Office</value>
+          </text>
+          <text id="/data/where_send_report:option2">
+            <value>To the Ministry For Health</value>
+          </text>
+          <text id="/data/where_send_report:option3">
+            <value>To the Ward Executive Office   </value>
+          </text>
+          <text id="/data/where_send_report:option4">
+            <value>Not submitting</value>
+          </text>
+          <text id="/data/how_often_report_respective_office:label">
+            <value>11.	How often are you supposed to send the report to the respective office? </value>
+          </text>
+          <text id="/data/how_often_report_respective_office:option0">
+            <value>Daily</value>
+          </text>
+          <text id="/data/how_often_report_respective_office:option1">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/how_often_report_respective_office:option2">
+            <value>Montly</value>
+          </text>
+          <text id="/data/how_often_report_respective_office:option3">
+            <value>Quarterly</value>
+          </text>
+          <text id="/data/how_often_report_respective_office:option4">
+            <value>Annualy</value>
+          </text>
+          <text id="/data/how_send_report_respective:label">
+            <value>12. How do you send the report to the respective office</value>
+          </text>
+          <text id="/data/how_send_report_respective:option0">
+            <value>Using phone text message </value>
+          </text>
+          <text id="/data/how_send_report_respective:option1">
+            <value>Using an email/any electronic system</value>
+          </text>
+          <text id="/data/how_send_report_respective:option2">
+            <value>Use any bodaboda/familiar traveller heading to district head quarters </value>
+          </text>
+          <text id="/data/how_send_report_respective:option3">
+            <value>Using any civil servant going to town or District Council Office (DED)</value>
+          </text>
+          <text id="/data/how_send_report_respective:option4">
+            <value>I send them in person</value>
+          </text>
+          <text id="/data/how_send_report_respective:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_send_report_respective_other:label">
+            <value>Other mechanism sending report to the respective office</value>
+          </text>
+          <text id="/data/how_do_know_report_reached:label">
+            <value>13. How do you know that the report has reached the respective office?</value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option0">
+            <value>I usually call to ask </value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option1">
+            <value>They call to acknowledge the receipt of the report</value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option2">
+            <value>They write a text message  </value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option3">
+            <value>They write an email to acknowledge the receipt of the report</value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option4">
+            <value>They neither call nor write to acknowledge receipt of the report and I don’t call either </value>
+          </text>
+          <text id="/data/how_do_know_report_reached:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/how_do_know_report_reached_other:label">
+            <value>Other mechanism of knowing report has reached the respective office</value>
+          </text>
+          <text id="/data/submit_ontime:label">
+            <value>14. Do you always submit report on time?</value>
+          </text>
+          <text id="/data/submit_ontime:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/submit_ontime:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reason_for_delay:label">
+            <value>15. what is (are) the reason(s) for the delay? </value>
+          </text>
+          <text id="/data/reason_for_delay:option0">
+            <value>I am very occupied by field activities  </value>
+          </text>
+          <text id="/data/reason_for_delay:option1">
+            <value>I hardly get time to write a report</value>
+          </text>
+          <text id="/data/reason_for_delay:option2">
+            <value>I am not facilitated by any means </value>
+          </text>
+          <text id="/data/reason_for_delay:option3">
+            <value>I don’t see why I should bother to prepare it early and send on time</value>
+          </text>
+          <text id="/data/reason_for_delay:option4">
+            <value>No one cares whether I send on time or I don’t send all</value>
+          </text>
+          <text id="/data/reason_for_delay:option5">
+            <value>I don’t get anyone to help me send the report </value>
+          </text>
+          <text id="/data/reason_for_delay:option6">
+            <value>The office head quarter is very far away for me to send report on time</value>
+          </text>
+          <text id="/data/reason_for_delay:option7">
+            <value>other</value>
+          </text>
+          <text id="/data/reason_for_delay_other:label">
+            <value>what is (are) other the reason(s) for the delay? </value>
+          </text>
+          <text id="/data/gps_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/respondant_details/name" type="string" required="true()" jr:requiredMsg="Name is required"/>
+      <bind nodeset="/data/respondant_details/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/respondant_details/telNo" type="decimal" required="true()" jr:requiredMsg="Telephone No. is required"/>
+      <bind nodeset="/data/respondant_details/region" type="string" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/respondant_details/district" type="string" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/respondant_details/ward" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/respondant_details/village" type="string" required="true()" jr:requiredMsg="Village is required"/>
+      <bind nodeset="/data/respondant_details/date" type="date" required="true()" jr:requiredMsg="Date is required"/>
+      <bind nodeset="/data/respondant_details/proffession" type="select1" required="true()" jr:requiredMsg="Profession is required"/>
+      <bind nodeset="/data/respondant_details/proffession_other" type="string"/>
+
+      <bind nodeset="/data/where_document_Taeni_epileptic" type="select1" required="true()" jr:requiredMsg="Qn1. is required"/>
+      <bind nodeset="/data/where_do_document" type="select" required="true()" jr:requiredMsg="Qn2. is required" relevant="(selected(/data/where_document_Taeni_epileptic, 'yes'))"/>
+      <bind nodeset="/data/where_do_document_other" type="string" relevant="(selected(/data/where_do_document, 'other'))"/>
+
+      <bind nodeset="/data/what_info_filled_in_book" type="select" relevant="(selected(/data/where_do_document, 'in_record_book')) or (selected(/data/where_do_document, 'specific_form'))" required="true()" jr:requiredMsg="Qn3. is required"/>
+
+      <bind nodeset="/data/what_info_filled_in_book_other" type="string" relevant="(selected(/data/what_info_filled_in_book, 'other'))"/>
+      <bind nodeset="/data/what_do_with_inform_record" type="select1" required="true()" jr:requiredMsg="Qn4. is required" relevant="(selected(/data/where_document_Taeni_epileptic, 'yes'))"/>
+      <bind nodeset="/data/what_do_with_inform_record_other" type="string" relevant="(selected(/data/what_do_with_inform_record, 'other'))"/>
+
+      <bind nodeset="/data/specific_form_report_Ta_epile" type="select1" required="true()" jr:requiredMsg="Qn5. is required" relevant="(selected(/data/where_document_Taeni_epileptic, 'yes')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+
+      <bind nodeset="/data/who_provide_format" type="select1" required="true()" jr:requiredMsg="Qn6. is required" relevant="(selected(/data/specific_form_report_Ta_epile, 'yes')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/contents_of_report" type="select" required="true()" jr:requiredMsg="Qn7. is required" relevant="(selected(/data/specific_form_report_Ta_epile, 'no')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/contents_of_report_other" type="string" relevant="(selected(/data/contents_of_report, 'other'))"/>
+
+      <bind nodeset="/data/who_facilitate_report_prep" type="select" required="true()" jr:requiredMsg="Qn8. is required" relevant="(selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/who_facilitate_report_prep_other" type="string" relevant="(selected(/data/who_facilitate_report_prep, 'other'))"/>
+      <bind nodeset="/data/aspects_facilitated" type="select" required="true()" jr:requiredMsg="Qn9. is required" relevant="not(selected(/data/who_facilitate_report_prep, 'myself')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+
+
+      <bind nodeset="/data/where_send_report" type="select1" required="true()" jr:requiredMsg="Qn10. is required" relevant="(selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/how_often_report_respective_office" type="select1" required="true()" jr:requiredMsg="Qn11. is required" relevant="not(selected(/data/where_send_report, 'not_submitting')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/how_send_report_respective" type="select" required="true()" jr:requiredMsg="Qn12. is required" relevant="not(selected(/data/where_send_report, 'not_submitting')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+
+      <bind nodeset="/data/how_send_report_respective_other" type="string" relevant="(selected(/data/how_send_report_respective, 'other'))"/>
+      <bind nodeset="/data/how_do_know_report_reached" type="select" required="true()" jr:requiredMsg="Qn13. is required" relevant="not(selected(/data/where_send_report, 'not_submitting')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/how_do_know_report_reached_other" type="string" relevant="(selected(/data/how_do_know_report_reached, 'other'))"/>
+      <bind nodeset="/data/submit_ontime" type="select1"  required="true()" jr:requiredMsg="Qn14. is required" relevant="not(selected(/data/where_send_report, 'not_submitting')) and (selected(/data/what_do_with_inform_record, 'used_prep_report'))"/>
+      <bind nodeset="/data/reason_for_delay" type="select"  required="true()" jr:requiredMsg="Qn15. is required" relevant="(selected(/data/submit_ontime, 'no'))"/>
+      <bind nodeset="/data/reason_for_delay_other" type="string" relevant="(selected(/data/reason_for_delay, 'other'))"/>
+      <bind nodeset="/data/gps_location" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Ward Health Workes Obj 2 ',': ',/data/respondant_details/telNo)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/respondant_details" appearance="field-list">
+      <label ref="jr:itext('/data/respondant_details:label')"/>
+      <input ref="/data/respondant_details/name">
+        <label ref="jr:itext('/data/respondant_details/name:label')"/>
+      </input>
+      <select1 ref="/data/respondant_details/sex">
+        <label ref="jr:itext('/data/respondant_details/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/respondant_details/telNo">
+        <label ref="jr:itext('/data/respondant_details/telNo:label')"/>
+      </input>
+      <input ref="/data/respondant_details/region">
+        <label ref="jr:itext('/data/respondant_details/region:label')"/>
+      </input>
+      <input ref="/data/respondant_details/district">
+        <label ref="jr:itext('/data/respondant_details/district:label')"/>
+      </input>
+      <input ref="/data/respondant_details/ward">
+        <label ref="jr:itext('/data/respondant_details/ward:label')"/>
+      </input>
+      <input ref="/data/respondant_details/village">
+        <label ref="jr:itext('/data/respondant_details/village:label')"/>
+      </input>
+      <input ref="/data/respondant_details/date">
+        <label ref="jr:itext('/data/respondant_details/date:label')"/>
+      </input>
+      <select1 ref="/data/respondant_details/proffession">
+        <label ref="jr:itext('/data/respondant_details/proffession:label')"/>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option0')"/>
+          <value>medical_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option1')"/>
+          <value>assistant_MD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option2')"/>
+          <value>clinical_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option3')"/>
+          <value>clinical_assistant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/respondant_details/proffession:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/respondant_details/proffession_other">
+        <label ref="jr:itext('/data/respondant_details/proffession_other:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/where_document_Taeni_epileptic">
+      <label ref="jr:itext('/data/where_document_Taeni_epileptic:label')"/>
+      <item>
+        <label ref="jr:itext('/data/where_document_Taeni_epileptic:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_document_Taeni_epileptic:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/where_do_document">
+      <label ref="jr:itext('/data/where_do_document:label')"/>
+      <item>
+        <label ref="jr:itext('/data/where_do_document:option0')"/>
+        <value>in_record_book</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_do_document:option1')"/>
+        <value>specific_form</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_do_document:option2')"/>
+        <value>HIMS_MTUHA</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_do_document:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/where_do_document_other">
+        <label ref="jr:itext('/data/where_do_document_other:label')"/>
+    </input>
+
+
+
+    <select ref="/data/what_info_filled_in_book">
+      <label ref="jr:itext('/data/what_info_filled_in_book:label')"/>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option0')"/>
+        <value>date</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option1')"/>
+        <value>patient_name</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option2')"/>
+        <value>age_patient</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option3')"/>
+        <value>sex</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option4')"/>
+        <value>place_domicile</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option5')"/>
+        <value>disease_status</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option6')"/>
+        <value>decision</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option7')"/>
+        <value>action_taken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_info_filled_in_book:option8')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/what_info_filled_in_book_other">
+      <label ref="jr:itext('/data/what_info_filled_in_book_other:label')"/>
+    </input>
+    <select1 ref="/data/what_do_with_inform_record">
+      <label ref="jr:itext('/data/what_do_with_inform_record:label')"/>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_inform_record:option0')"/>
+        <value>put_office_shelf</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_inform_record:option1')"/>
+        <value>used_prep_report</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_inform_record:option2')"/>
+        <value>send_ward_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/what_do_with_inform_record:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/what_do_with_inform_record_other">
+        <label ref="jr:itext('/data/what_do_with_inform_record_other:label')"/>
+    </input>
+
+    <select1 ref="/data/specific_form_report_Ta_epile">
+      <label ref="jr:itext('/data/specific_form_report_Ta_epile:label')"/>
+      <item>
+        <label ref="jr:itext('/data/specific_form_report_Ta_epile:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/specific_form_report_Ta_epile:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/who_provide_format">
+      <label ref="jr:itext('/data/who_provide_format:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_provide_format:option0')"/>
+        <value>district_MD</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_provide_format:option1')"/>
+        <value>the_ministry_health</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_provide_format:option2')"/>
+        <value>region_officer</value>
+      </item>
+    </select1>
+    <select ref="/data/contents_of_report">
+      <label ref="jr:itext('/data/contents_of_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option0')"/>
+        <value>date</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option1')"/>
+        <value>patient_name</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option2')"/>
+        <value>age_patient</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option3')"/>
+        <value>sex</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option4')"/>
+        <value>place_domicile</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option5')"/>
+        <value>disease_status</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option6')"/>
+        <value>decision</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option7')"/>
+        <value>action_taken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/contents_of_report:option8')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/contents_of_report_other">
+      <label ref="jr:itext('/data/contents_of_report_other:label')"/>
+    </input>
+    <select ref="/data/who_facilitate_report_prep">
+      <label ref="jr:itext('/data/who_facilitate_report_prep:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_facilitate_report_prep:option0')"/>
+        <value>myself</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitate_report_prep:option1')"/>
+        <value>DMO_office</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitate_report_prep:option2')"/>
+        <value>ministry</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitate_report_prep:option3')"/>
+        <value>non_governmnt_organization</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_facilitate_report_prep:option4')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/who_facilitate_report_prep_other">
+        <label ref="jr:itext('/data/who_facilitate_report_prep_other:label')"/>
+    </input>
+
+
+    <select ref="/data/aspects_facilitated">
+      <label ref="jr:itext('/data/aspects_facilitated:label')"/>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option0')"/>
+        <value>given_stationery</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option1')"/>
+        <value>airtime_bundles</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option2')"/>
+        <value>given_motorcycle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option3')"/>
+        <value>given_fuel</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option4')"/>
+        <value>portable_computer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option5')"/>
+        <value>tablets</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option6')"/>
+        <value>smart_phones</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option7')"/>
+        <value>fare_DMO_TMO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/aspects_facilitated:option8')"/>
+        <value>perdiem_DMO_TMO</value>
+      </item>
+    </select>
+    <select1 ref="/data/where_send_report">
+      <label ref="jr:itext('/data/where_send_report:label')"/>
+      <item>
+        <label ref="jr:itext('/data/where_send_report:option0')"/>
+        <value>to_district_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_send_report:option1')"/>
+        <value>to_regional_MD</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_send_report:option2')"/>
+        <value>ministry_health</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_send_report:option3')"/>
+        <value>ward_executive_offcier</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_send_report:option4')"/>
+        <value>not_submitting</value>
+      </item>
+    </select1>
+    <select1 ref="/data/how_often_report_respective_office">
+      <label ref="jr:itext('/data/how_often_report_respective_office:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_often_report_respective_office:option0')"/>
+        <value>daily</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_report_respective_office:option1')"/>
+        <value>weekly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_report_respective_office:option2')"/>
+        <value>monthly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_report_respective_office:option3')"/>
+        <value>quarterly</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_often_report_respective_office:option4')"/>
+        <value>annualy</value>
+      </item>
+    </select1>
+    <select ref="/data/how_send_report_respective">
+      <label ref="jr:itext('/data/how_send_report_respective:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option0')"/>
+        <value>phone_txt</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option1')"/>
+        <value>using_mail</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option2')"/>
+        <value>use_boda</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option3')"/>
+        <value>use_civil_servant</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option4')"/>
+        <value>sent_in_person</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_send_report_respective:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_send_report_respective_other">
+      <label ref="jr:itext('/data/how_send_report_respective_other:label')"/>
+    </input>
+    <select ref="/data/how_do_know_report_reached">
+      <label ref="jr:itext('/data/how_do_know_report_reached:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option0')"/>
+        <value>usualy_ask</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option1')"/>
+        <value>call_acknowledge</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option2')"/>
+        <value>they_text</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option3')"/>
+        <value>they_write_email</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option4')"/>
+        <value>no_ackn</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_do_know_report_reached:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/how_do_know_report_reached_other">
+      <label ref="jr:itext('/data/how_do_know_report_reached_other:label')"/>
+    </input>
+    <select1 ref="/data/submit_ontime">
+      <label ref="jr:itext('/data/submit_ontime:label')"/>
+      <item>
+        <label ref="jr:itext('/data/submit_ontime:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/submit_ontime:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/reason_for_delay">
+      <label ref="jr:itext('/data/reason_for_delay:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option0')"/>
+        <value>occupied</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option1')"/>
+        <value>hardly_get_time</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option2')"/>
+        <value>not_facilitated</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option3')"/>
+        <value>dont_see_why_should_bother</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option4')"/>
+        <value>no_one_cares</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option5')"/>
+        <value>dont_get_one_to_help</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option6')"/>
+        <value>office_very_far</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_for_delay:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/reason_for_delay_other">
+      <label ref="jr:itext('/data/reason_for_delay_other:label')"/>
+    </input>
+    <input ref="/data/gps_location">
+      <label ref="jr:itext('/data/gps_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

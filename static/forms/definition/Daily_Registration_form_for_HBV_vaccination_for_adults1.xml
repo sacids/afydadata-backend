@@ -1,0 +1,309 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Daily Registration form for HBV vaccination for adults</h:title>
+    <model>
+      <instance>
+        <data id="build_Daily-Registration-form-for-HBV-vaccination_1584661752">
+          <meta>
+            <instanceID/>
+          </meta>
+          <facilityInformation>
+            <facilityName/>
+            <regNo/>
+            <region/>
+            <council/>
+            <ward/>
+            <village/>
+            <contacts/>
+          </facilityInformation>
+          <patientInformation>
+            <name/>
+            <sex/>
+            <age/>
+            <fileNo/>
+            <screeningStatus/>
+            <occupation/>
+            <lotNo/>
+          </patientInformation>
+          <dosageInformation>
+            <firstDose/>
+          </dosageInformation>
+          <secondDose>
+            <appointedDate/>
+            <injectionDate/>
+          </secondDose>
+          <thirdDose>
+            <appointedDate3rd/>
+            <injectionDate3rd/>
+            <appointedDate3rd2/>
+          </thirdDose>
+          <fourthDose>
+            <injectionDate4th/>
+          </fourthDose>
+          <remarks/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/facilityInformation:label">
+            <value>Facility Information</value>
+          </text>
+          <text id="/data/facilityInformation/facilityName:label">
+            <value>Name of facility</value>
+          </text>
+          <text id="/data/facilityInformation/facilityName:requiredMsg">
+            <value>Name of facility is required</value>
+          </text>
+          <text id="/data/facilityInformation/regNo:label">
+            <value>Reg. No</value>
+          </text>
+          <text id="/data/facilityInformation/regNo:requiredMsg">
+            <value>Registration Number is required</value>
+          </text>
+          <text id="/data/facilityInformation/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/facilityInformation/region:requiredMsg">
+            <value>Region is required</value>
+          </text>
+          <text id="/data/facilityInformation/council:label">
+            <value>Council</value>
+          </text>
+          <text id="/data/facilityInformation/council:requiredMsg">
+            <value>Council is required</value>
+          </text>
+          <text id="/data/facilityInformation/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/facilityInformation/ward:requiredMsg">
+            <value>Ward is required</value>
+          </text>
+          <text id="/data/facilityInformation/village:label">
+            <value>Street/Village</value>
+          </text>
+          <text id="/data/facilityInformation/contacts:label">
+            <value>Contacts</value>
+          </text>
+          <text id="/data/patientInformation:label">
+            <value>Patient Information</value>
+          </text>
+          <text id="/data/patientInformation/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/patientInformation/name:requiredMsg">
+            <value>Patient Name is required</value>
+          </text>
+          <text id="/data/patientInformation/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/patientInformation/sex:requiredMsg">
+            <value>Sex is required</value>
+          </text>
+          <text id="/data/patientInformation/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/patientInformation/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/patientInformation/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/patientInformation/age:requiredMsg">
+            <value>Age is required</value>
+          </text>
+          <text id="/data/patientInformation/fileNo:label">
+            <value>File No</value>
+          </text>
+          <text id="/data/patientInformation/fileNo:requiredMsg">
+            <value>File Number is required</value>
+          </text>
+          <text id="/data/patientInformation/screeningStatus:label">
+            <value>Screening status for HBsAg</value>
+          </text>
+          <text id="/data/patientInformation/screeningStatus:requiredMsg">
+            <value>Screening status for HBsAg is required</value>
+          </text>
+          <text id="/data/patientInformation/screeningStatus:option0">
+            <value>Positive (+ve)</value>
+          </text>
+          <text id="/data/patientInformation/screeningStatus:option1">
+            <value>Negative (-ve)</value>
+          </text>
+          <text id="/data/patientInformation/occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/patientInformation/lotNo:label">
+            <value>Lot No. of the Test Kit</value>
+          </text>
+          <text id="/data/patientInformation/lotNo:requiredMsg">
+            <value>Lot No. of the Test Kit is required</value>
+          </text>
+          <text id="/data/dosageInformation:label">
+            <value>Dosage Information</value>
+          </text>
+          <text id="/data/dosageInformation/firstDose:label">
+            <value>1st Dose (Date)</value>
+          </text>
+          <text id="/data/dosageInformation/firstDose:requiredMsg">
+            <value>1st Dose (Date) is required</value>
+          </text>
+          <text id="/data/secondDose:label">
+            <value>2nd Dose Information</value>
+          </text>
+          <text id="/data/secondDose/appointedDate:label">
+            <value>Appointed date</value>
+          </text>
+          <text id="/data/secondDose/injectionDate:label">
+            <value>Date of Injection</value>
+          </text>
+          <text id="/data/thirdDose:label">
+            <value>3rd Dose Information</value>
+          </text>
+          <text id="/data/thirdDose/appointedDate3rd:label">
+            <value>Appointed date</value>
+          </text>
+          <text id="/data/thirdDose/injectionDate3rd:label">
+            <value>Date of Injection</value>
+          </text>
+          <text id="/data/thirdDose/appointedDate3rd2:label">
+            <value>Appointed date</value>
+          </text>
+          <text id="/data/fourthDose:label">
+            <value>4th Dose</value>
+          </text>
+          <text id="/data/fourthDose/injectionDate4th:label">
+            <value>Date of Injection</value>
+          </text>
+          <text id="/data/remarks:label">
+            <value>Remarks</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/facilityInformation/facilityName" type="string" required="true()" jr:requiredMsg="jr:itext('/data/facilityInformation/facilityName:requiredMsg')"/>
+      <bind nodeset="/data/facilityInformation/regNo" type="string" required="true()" jr:requiredMsg="jr:itext('/data/facilityInformation/regNo:requiredMsg')"/>
+      <bind nodeset="/data/facilityInformation/region" type="string" required="true()" jr:requiredMsg="jr:itext('/data/facilityInformation/region:requiredMsg')"/>
+      <bind nodeset="/data/facilityInformation/council" type="string" required="true()" jr:requiredMsg="jr:itext('/data/facilityInformation/council:requiredMsg')"/>
+      <bind nodeset="/data/facilityInformation/ward" type="string" required="true()" jr:requiredMsg="jr:itext('/data/facilityInformation/ward:requiredMsg')"/>
+      <bind nodeset="/data/facilityInformation/village" type="string"/>
+      <bind nodeset="/data/facilityInformation/contacts" type="string"/>
+      <bind nodeset="/data/patientInformation/name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/name:requiredMsg')"/>
+      <bind nodeset="/data/patientInformation/sex" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/sex:requiredMsg')"/>
+      <bind nodeset="/data/patientInformation/age" type="int" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/age:requiredMsg')"/>
+      <bind nodeset="/data/patientInformation/fileNo" type="string" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/fileNo:requiredMsg')"/>
+      <bind nodeset="/data/patientInformation/screeningStatus" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/screeningStatus:requiredMsg')"/>
+      <bind nodeset="/data/patientInformation/occupation" type="string"/>
+      <bind nodeset="/data/patientInformation/lotNo" type="string" required="true()" jr:requiredMsg="jr:itext('/data/patientInformation/lotNo:requiredMsg')"/>
+      <bind nodeset="/data/dosageInformation/firstDose" type="date" required="true()" jr:requiredMsg="jr:itext('/data/dosageInformation/firstDose:requiredMsg')"/>
+      <bind nodeset="/data/secondDose/appointedDate" type="date"/>
+      <bind nodeset="/data/secondDose/injectionDate" type="date"/>
+      <bind nodeset="/data/thirdDose/appointedDate3rd" type="date"/>
+      <bind nodeset="/data/thirdDose/injectionDate3rd" type="date"/>
+      <bind nodeset="/data/thirdDose/appointedDate3rd2" type="date"/>
+      <bind nodeset="/data/fourthDose/injectionDate4th" type="date"/>
+      <bind nodeset="/data/remarks" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/facilityInformation" appearance="field-list">
+      <label ref="jr:itext('/data/facilityInformation:label')"/>
+      <input ref="/data/facilityInformation/facilityName">
+        <label ref="jr:itext('/data/facilityInformation/facilityName:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/regNo">
+        <label ref="jr:itext('/data/facilityInformation/regNo:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/region">
+        <label ref="jr:itext('/data/facilityInformation/region:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/council">
+        <label ref="jr:itext('/data/facilityInformation/council:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/ward">
+        <label ref="jr:itext('/data/facilityInformation/ward:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/village">
+        <label ref="jr:itext('/data/facilityInformation/village:label')"/>
+      </input>
+      <input ref="/data/facilityInformation/contacts">
+        <label ref="jr:itext('/data/facilityInformation/contacts:label')"/>
+      </input>
+    </group>
+    <group ref="/data/patientInformation" appearance="field-list">
+      <label ref="jr:itext('/data/patientInformation:label')"/>
+      <input ref="/data/patientInformation/name">
+        <label ref="jr:itext('/data/patientInformation/name:label')"/>
+      </input>
+      <select1 ref="/data/patientInformation/sex">
+        <label ref="jr:itext('/data/patientInformation/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/patientInformation/sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/patientInformation/sex:option1')"/>
+          <value>Female</value>
+        </item>
+      </select1>
+      <input ref="/data/patientInformation/age">
+        <label ref="jr:itext('/data/patientInformation/age:label')"/>
+      </input>
+      <input ref="/data/patientInformation/fileNo">
+        <label ref="jr:itext('/data/patientInformation/fileNo:label')"/>
+      </input>
+      <select1 ref="/data/patientInformation/screeningStatus">
+        <label ref="jr:itext('/data/patientInformation/screeningStatus:label')"/>
+        <item>
+          <label ref="jr:itext('/data/patientInformation/screeningStatus:option0')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/patientInformation/screeningStatus:option1')"/>
+          <value>negative</value>
+        </item>
+      </select1>
+      <input ref="/data/patientInformation/occupation">
+        <label ref="jr:itext('/data/patientInformation/occupation:label')"/>
+      </input>
+      <input ref="/data/patientInformation/lotNo">
+        <label ref="jr:itext('/data/patientInformation/lotNo:label')"/>
+      </input>
+    </group>
+    <group ref="/data/dosageInformation" appearance="field-list">
+      <label ref="jr:itext('/data/dosageInformation:label')"/>
+      <input ref="/data/dosageInformation/firstDose" appearance="no-calendar">
+        <label ref="jr:itext('/data/dosageInformation/firstDose:label')"/>
+      </input>
+    </group>
+    <group ref="/data/secondDose" appearance="field-list">
+      <label ref="jr:itext('/data/secondDose:label')"/>
+      <input ref="/data/secondDose/appointedDate" appearance="no-calendar">
+        <label ref="jr:itext('/data/secondDose/appointedDate:label')"/>
+      </input>
+      <input ref="/data/secondDose/injectionDate" appearance="no-calendar">
+        <label ref="jr:itext('/data/secondDose/injectionDate:label')"/>
+      </input>
+    </group>
+    <group ref="/data/thirdDose" appearance="field-list">
+      <label ref="jr:itext('/data/thirdDose:label')"/>
+      <input ref="/data/thirdDose/appointedDate3rd" appearance="no-calendar">
+        <label ref="jr:itext('/data/thirdDose/appointedDate3rd:label')"/>
+      </input>
+      <input ref="/data/thirdDose/injectionDate3rd" appearance="no-calendar">
+        <label ref="jr:itext('/data/thirdDose/injectionDate3rd:label')"/>
+      </input>
+      <input ref="/data/thirdDose/appointedDate3rd2" appearance="no-calendar">
+        <label ref="jr:itext('/data/thirdDose/appointedDate3rd2:label')"/>
+      </input>
+    </group>
+    <group ref="/data/fourthDose" appearance="field-list">
+      <label ref="jr:itext('/data/fourthDose:label')"/>
+      <input ref="/data/fourthDose/injectionDate4th" appearance="no-calendar">
+        <label ref="jr:itext('/data/fourthDose/injectionDate4th:label')"/>
+      </input>
+    </group>
+    <input ref="/data/remarks">
+      <label ref="jr:itext('/data/remarks:label')"/>
+    </input>
+  </h:body>
+</h:html>

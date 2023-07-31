@@ -1,0 +1,2715 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>OHD Gap Analysis</h:title>
+    <model>
+      <instance>
+        <data id="OHD-Gap-Analysis" version="1653559210">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <demographic>
+            <tool_ID/>
+            <designation/>
+            <age/>
+            <gender/>
+            <education/>
+            <years_exp_field/>
+            <year_exp_cureent_P/>
+          </demographic>
+          <inst_arrangement>
+            <familiar_with_OH_EBS/>
+            <depart_org_dealing_OH/>
+            <name_depart_org_deal_OH>
+              None
+            </name_depart_org_deal_OH>
+            <section_resp_for_OH/>
+            <SOP_available/>
+            <TOR_for_OH/>
+            <design_focal_P_OH/>
+            <names_contact>
+              None
+            </names_contact>
+          </inst_arrangement>
+          <OH_management>
+            <SOP_available_all_levels/>
+            <demons_commitment/>
+            <which_min_tend_collaborate/>
+            <manager_autonomous_enough/>
+          </OH_management>
+          <governance_structure>
+            <untitled23/>
+            <name_reports/>
+            <clear_TORs/>
+            <untitled26/>
+            <more_details_GVN_Support/>
+            <lab_for_OH/>
+            <lab_for_OH_details/>
+            <NRL_capable/>
+            <regular_meeting_rel_OH/>
+            <assessment_OH/>
+            <reference_assessment_oh>
+              None
+            </reference_assessment_oh>
+            <assessment_HR/>
+            <reference_assessment_hr>
+              None
+            </reference_assessment_hr>
+            <challanges_opp_recom/>
+            <challenges/>
+            <opp_options/>
+            <recomend/>
+          </governance_structure>
+          <reg_fram_planning>
+            <adhoc_regular/>
+            <SOP_Protocols_for_OH/>
+            <routine_info_collect/>
+            <standard_training_cu/>
+            <training_plan_OHMIS/>
+            <speci_training_plan_OHIMS/>
+          </reg_fram_planning>
+          <data_collect>
+            <uniform_surveillance_MIS/>
+            <list_facility_data_collect/>
+            <tool_from_com/>
+          </data_collect>
+          <software_app_from_comm>
+            <tool_name/>
+            <tech_type/>
+            <data_collectors/>
+            <type_data_collected/>
+          </software_app_from_comm>
+          <data_centre/>
+          <details_call_centre>
+            <centre_locationm/>
+            <untitled48/>
+            <trunk_type/>
+            <max_calls/>
+            <numb_call_centre_agent/>
+            <data_coll_type_call_cent/>
+          </details_call_centre>
+          <media_scan/>
+          <media_scan_details>
+            <media_scan_loc/>
+            <infranstructure_used/>
+            <source_identfied/>
+            <personnel_centre/>
+            <type_data_colle_media_scan/>
+          </media_scan_details>
+          <type_of_system_in_place/>
+          <G1_i>
+            <program_work_since_i/>
+            <system_name_i/>
+            <manual_comp_i/>
+            <imple_scale_i/>
+          </G1_i>
+          <G1_ii>
+            <program_work_since_ii/>
+            <system_name_ii/>
+            <manual_comp_ii/>
+            <imple_scale_ii/>
+          </G1_ii>
+          <G1_iii>
+            <program_work_since_iii/>
+            <system_name_iii/>
+            <manual_comp_iii/>
+            <imple_scale_iii/>
+          </G1_iii>
+          <G1_iv>
+            <program_work_since_iv/>
+            <system_name_iv/>
+            <manual_comp_iv/>
+            <imple_scale_iv/>
+          </G1_iv>
+          <data_being_shared/>
+          <G2.i>
+            <name_program_i/>
+            <comm_mode_i/>
+          </G2.i>
+          <G2.ii>
+            <name_program_ii/>
+            <comm_mode_ii/>
+          </G2.ii>
+          <G2.iii>
+            <name_program_iii/>
+            <comm_mode_iii/>
+          </G2.iii>
+          <G2.iv>
+            <name_program_iv/>
+            <comm_mode_iv/>
+          </G2.iv>
+          <data_management>
+            <human_animal_protocols/>
+            <data_coll_clinical_epsodes/>
+            <data_transm_next_level/>
+            <there_mech_of_feedback/>
+            <there_clear_policies/>
+            <there_integrated/>
+          </data_management>
+          <data_quality_ass_ICT_frame>
+            <data_quality_report/>
+            <data_quality_improve/>
+            <national_prov_policy/>
+            <adequate_ICT/>
+            <adequate_provision/>
+            <huma_food_secu_inform/>
+            <printed_guidelines/>
+            <data_disaggreg/>
+            <data_transfer/>
+          </data_quality_ass_ICT_frame>
+          <EBS_data>
+            <comm_bas_infor_need/>
+            <min_set_comm/>
+            <the_design_health/>
+            <comm_bas_interv/>
+            <facil_base_inf/>
+          </EBS_data>
+          <other_surve_resp>
+            <adeq_human_res/>
+            <adeq_capacity/>
+            <epidemic_prepd/>
+            <mechan_in_Place/>
+            <any_regular_system/>
+            <evidence_regular_system>
+              None
+            </evidence_regular_system>
+            <report_health_facility/>
+            <culture_information_use/>
+            <EBS_in_place/>
+            <more_det_EBS_in_place/>
+            <arrangement_exchange/>
+          </other_surve_resp>
+          <challn_opp_>
+            <challennges/>
+            <opp_Options/>
+            <recommendation/>
+          </challn_opp_>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/demographic:label">
+            <value>Section A: Demographic characteristics of the respondent</value>
+          </text>
+          <text id="/data/demographic/tool_ID:label">
+            <value>A0. Tool ID</value>
+          </text>
+          <text id="/data/demographic/designation:label">
+            <value>A1. Respondent’s designation</value>
+          </text>
+          <text id="/data/demographic/age:label">
+            <value>A2. Age of the respondent</value>
+          </text>
+          <text id="/data/demographic/gender:label">
+            <value>A3. Gender of  the respondent</value>
+          </text>
+          <text id="/data/demographic/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/demographic/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/demographic/education:label">
+            <value>A4. Education level</value>
+          </text>
+          <text id="/data/demographic/education:option0">
+            <value>Primary school </value>
+          </text>
+          <text id="/data/demographic/education:option1">
+            <value>Secondary School </value>
+          </text>
+          <text id="/data/demographic/education:option2">
+            <value>Certificate level</value>
+          </text>
+          <text id="/data/demographic/education:option3">
+            <value>Diploma</value>
+          </text>
+          <text id="/data/demographic/education:option4">
+            <value>Bachelor degree</value>
+          </text>
+          <text id="/data/demographic/education:option5">
+            <value>Higher degrees</value>
+          </text>
+          <text id="/data/demographic/years_exp_field:label">
+            <value>A5. Years of experience in the field</value>
+          </text>
+          <text id="/data/demographic/year_exp_cureent_P:label">
+            <value>A6. Years of experience in the current position</value>
+          </text>
+          <text id="/data/inst_arrangement:label">
+            <value>SECTION B: OH Institutional Arrangements</value>
+          </text>
+          <text id="/data/inst_arrangement/familiar_with_OH_EBS:label">
+            <value>B1. Are you familiar with any of the terms One Health / Diseases Surveillance System / intersectional coordination / Event Based Surveillance</value>
+          </text>
+          <text id="/data/inst_arrangement/familiar_with_OH_EBS:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inst_arrangement/familiar_with_OH_EBS:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inst_arrangement/familiar_with_OH_EBS:option2">
+            <value>Partially Don’t know</value>
+          </text>
+          <text id="/data/inst_arrangement/depart_org_dealing_OH:label">
+            <value>B.2 Is there any department /unit in your organization currently operating/ dealing with One Health or intersectoral related functions?</value>
+          </text>
+          <text id="/data/inst_arrangement/depart_org_dealing_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inst_arrangement/depart_org_dealing_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inst_arrangement/depart_org_dealing_OH:option2">
+            <value>In process </value>
+          </text>
+          <text id="/data/inst_arrangement/name_depart_org_deal_OH:label">
+            <value>If Yes from above, please Write Name</value>
+          </text>
+          <text id="/data/inst_arrangement/section_resp_for_OH:label">
+            <value>B.3 Which section / unit is responsible or looking after for One Health coordination / surveillance system in your department/organization?</value>
+          </text>
+          <text id="/data/inst_arrangement/SOP_available:label">
+            <value>B.4 One Health Guidelines / SOPs are available, if yes please provide copy.</value>
+          </text>
+          <text id="/data/inst_arrangement/SOP_available:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inst_arrangement/SOP_available:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inst_arrangement/SOP_available:option2">
+            <value>In process </value>
+          </text>
+          <text id="/data/inst_arrangement/TOR_for_OH:label">
+            <value>B.5 Are there some TORs / Scope of Work for OH department/unit? (Please provide copy)</value>
+          </text>
+          <text id="/data/inst_arrangement/TOR_for_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inst_arrangement/TOR_for_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inst_arrangement/TOR_for_OH:option2">
+            <value>In Process</value>
+          </text>
+          <text id="/data/inst_arrangement/design_focal_P_OH:label">
+            <value>B.6 Is there some designated Focal Person or staff working for OH promotion or related subject</value>
+          </text>
+          <text id="/data/inst_arrangement/design_focal_P_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/inst_arrangement/design_focal_P_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inst_arrangement/names_contact:label">
+            <value>If yes from above, Provide names and contact details</value>
+          </text>
+          <text id="/data/OH_management:label">
+            <value>SECTION C: OH Management / Leadership</value>
+          </text>
+          <text id="/data/OH_management/SOP_available_all_levels:label">
+            <value>C1. SOPs for interdepartmental / sectoral coordination are available for all levels with clear guidance on data collection, reporting, aggregation, processing, transmission, analysis, dissemination and quality assurance of the data.</value>
+          </text>
+          <text id="/data/OH_management/SOP_available_all_levels:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/OH_management/SOP_available_all_levels:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/OH_management/SOP_available_all_levels:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/OH_management/demons_commitment:label">
+            <value>C.2  There is a demonstrated commitment available for OH promotion in department at multiple levels (Central / Province / District / Unit)</value>
+          </text>
+          <text id="/data/OH_management/demons_commitment:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/OH_management/demons_commitment:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/OH_management/demons_commitment:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/OH_management/which_min_tend_collaborate:label">
+            <value>C.3  With which Ministry other department or agency you tend to collaborate or usually liaise for technical or administrative matters?</value>
+          </text>
+          <text id="/data/OH_management/manager_autonomous_enough:label">
+            <value>C4  The Managers are autonomous enough to determine their own information/data needs and have sufficient authority to take decisions for using data as per the objective of the department or system?</value>
+          </text>
+          <text id="/data/OH_management/manager_autonomous_enough:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/OH_management/manager_autonomous_enough:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/OH_management/manager_autonomous_enough:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/governance_structure:label">
+            <value>SECTION D: Governance and Structures</value>
+          </text>
+          <text id="/data/governance_structure/untitled23:label">
+            <value>D.1 Do you know if there is some Ministry / Department already designated to take overall / inter-departmental coordination role/lead for OH promotion? </value>
+          </text>
+          <text id="/data/governance_structure/untitled23:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/untitled23:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/untitled23:option2">
+            <value>Don't Know</value>
+          </text>
+          <text id="/data/governance_structure/name_reports:label">
+            <value>Provide names/ reports / notification</value>
+          </text>
+          <text id="/data/governance_structure/name_reports:hint">
+            <value>Comments</value>
+          </text>
+          <text id="/data/governance_structure/clear_TORs:label">
+            <value>D.2 Are there some clear TORs assigned to Intersectoral coordinating unit. Yes (Please provide copy).</value>
+          </text>
+          <text id="/data/governance_structure/clear_TORs:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/clear_TORs:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/clear_TORs:option2">
+            <value>Don't Know</value>
+          </text>
+          <text id="/data/governance_structure/untitled26:label">
+            <value>D.3 There is some separate budgetary support by Government or Partners for development of One Health Program/intersectoral coordination. Or work either through development or non-development budget (e.g. PC-1 etc.). If yes, provide more detail.</value>
+          </text>
+          <text id="/data/governance_structure/untitled26:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/untitled26:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/untitled26:option2">
+            <value>Don't Know</value>
+          </text>
+          <text id="/data/governance_structure/more_details_GVN_Support:label">
+            <value>If yes from above, provide more details</value>
+          </text>
+          <text id="/data/governance_structure/lab_for_OH:label">
+            <value>D.4 Is there a National / provincial Laboratory (NL) for OH surveillance system in the area of Human, Animal, Food, Poultry and Environment etc.? </value>
+          </text>
+          <text id="/data/governance_structure/lab_for_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/lab_for_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/lab_for_OH:option2">
+            <value>Don’t know</value>
+          </text>
+          <text id="/data/governance_structure/lab_for_OH_details:label">
+            <value>If yes from above, Please provide list with major functions</value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:label">
+            <value>D.5 Please Tick from following diseases that your National or Provincial Laboratory (NRL) is capable for sample collection, Lab Analysis &amp; final result</value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option0">
+            <value>Zoonotic influenza </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option1">
+            <value>Enteric fever / Salmonellosis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option2">
+            <value>Rabies </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option3">
+            <value>Brucellosis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option4">
+            <value>Crimean-Congo hemorrhagic fever (CCHF) </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option5">
+            <value>Anthrax </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option6">
+            <value>Dengue </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option7">
+            <value>Tuberculosis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option8">
+            <value>Emerging coronaviruses – COVID-19 </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option9">
+            <value>Bacterial / viral meningitis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option10">
+            <value>Cutaneous Leishmaniasis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option11">
+            <value>Visceral Leishmaniasis </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option12">
+            <value>Plague </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option13">
+            <value>Botulism </value>
+          </text>
+          <text id="/data/governance_structure/NRL_capable:option14">
+            <value>Nosocomial infection </value>
+          </text>
+          <text id="/data/governance_structure/regular_meeting_rel_OH:label">
+            <value>D.6 Are there some regular meetings/reviews being organized or in past organized on OH or related issues. (Please provide evidence/reference)</value>
+          </text>
+          <text id="/data/governance_structure/assessment_OH:label">
+            <value>D.7 Do you know if up to date/annual assessment of OH project has been organized? (If yes, plz provide reference below)</value>
+          </text>
+          <text id="/data/governance_structure/assessment_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/assessment_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/assessment_OH:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/governance_structure/reference_assessment_oh:label">
+            <value>If yes on D.7, plz provide reference</value>
+          </text>
+          <text id="/data/governance_structure/assessment_HR:label">
+            <value>D.8 Do you know if up to date/annual assessment of HR has been organized? (If yes, plz provide reference)</value>
+          </text>
+          <text id="/data/governance_structure/assessment_HR:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/governance_structure/assessment_HR:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/governance_structure/assessment_HR:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/governance_structure/reference_assessment_hr:label">
+            <value>If yes on D.8, plz provide reference</value>
+          </text>
+          <text id="/data/governance_structure/challanges_opp_recom:label">
+            <value>D.8 Challenges, Opportunities/Options &amp; Recommendations for OH Promotion / Intersectoral Coordination (Please provide necessary information against sub-topics)</value>
+          </text>
+          <text id="/data/governance_structure/challanges_opp_recom:hint">
+            <value>Please provide necessary information against sub-topics</value>
+          </text>
+          <text id="/data/governance_structure/challenges:label">
+            <value>Challenges</value>
+          </text>
+          <text id="/data/governance_structure/opp_options:label">
+            <value>Opportunities/Options</value>
+          </text>
+          <text id="/data/governance_structure/recomend:label">
+            <value>Recommendations</value>
+          </text>
+          <text id="/data/reg_fram_planning:label">
+            <value>SECTION E. Regulatory Framework &amp; Planning</value>
+          </text>
+          <text id="/data/reg_fram_planning/adhoc_regular:label">
+            <value>E.1 There is up-to-date regulatory mechanism (adhoc or regular) among sectors for data exchange or sharing for OH diseases/issues.</value>
+          </text>
+          <text id="/data/reg_fram_planning/adhoc_regular:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/reg_fram_planning/adhoc_regular:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reg_fram_planning/adhoc_regular:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/reg_fram_planning/SOP_Protocols_for_OH:label">
+            <value>E.2 There are regular SOPs/Protocols in place for OH coordination for data collection and consolidation.</value>
+          </text>
+          <text id="/data/reg_fram_planning/SOP_Protocols_for_OH:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/reg_fram_planning/SOP_Protocols_for_OH:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reg_fram_planning/SOP_Protocols_for_OH:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/reg_fram_planning/routine_info_collect:label">
+            <value>E.3 The routine information collection and use component is integrated in overall sector plan or part of some project documents reflected under M&amp;E framework. </value>
+          </text>
+          <text id="/data/reg_fram_planning/routine_info_collect:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/reg_fram_planning/routine_info_collect:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reg_fram_planning/routine_info_collect:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/reg_fram_planning/standard_training_cu:label">
+            <value>E.4 Is there any standardized training curriculum / Manual available for MIS / Surveillance system?</value>
+          </text>
+          <text id="/data/reg_fram_planning/standard_training_cu:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/reg_fram_planning/standard_training_cu:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reg_fram_planning/standard_training_cu:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/reg_fram_planning/training_plan_OHMIS:label">
+            <value>E.5 Is there any training plan for One Health MIS / Surveillance system?  If yes, plz specify below</value>
+          </text>
+          <text id="/data/reg_fram_planning/training_plan_OHMIS:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/reg_fram_planning/training_plan_OHMIS:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reg_fram_planning/training_plan_OHMIS:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/reg_fram_planning/speci_training_plan_OHIMS:label">
+            <value>If yes from E.5, please specify</value>
+          </text>
+          <text id="/data/data_collect:label">
+            <value>SECTION F. Data Collection / Surveillance system in Place</value>
+          </text>
+          <text id="/data/data_collect/uniform_surveillance_MIS:label">
+            <value>F.1. Is there any uniform Surveillance / MIS System / database (IT Software/ MIS) currently operating at Federal / provincial or district level?</value>
+          </text>
+          <text id="/data/data_collect/uniform_surveillance_MIS:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collect/uniform_surveillance_MIS:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collect/uniform_surveillance_MIS:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_collect/list_facility_data_collect:label">
+            <value>F.2. Is there any list of facility / data collecting unit available from where data is being collected? </value>
+          </text>
+          <text id="/data/data_collect/list_facility_data_collect:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collect/list_facility_data_collect:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collect/list_facility_data_collect:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_collect/tool_from_com:label">
+            <value>F.3. Is there any data collection tools (software/APP) currently used to collect information direct from communities </value>
+          </text>
+          <text id="/data/data_collect/tool_from_com:hint">
+            <value></value>
+          </text>
+          <text id="/data/data_collect/tool_from_com:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_collect/tool_from_com:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_collect/tool_from_com:option2">
+            <value>Not Sure</value>
+          </text>
+          <text id="/data/software_app_from_comm:label">
+            <value>SECTION F: Software/App Currently used to collect data from community</value>
+          </text>
+          <text id="/data/software_app_from_comm/tool_name:label">
+            <value>F.3.1 Tool Name</value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:label">
+            <value>F.3.2. Technology type </value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:option0">
+            <value>SMS</value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:option1">
+            <value>USSD</value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:option2">
+            <value>Web</value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:option3">
+            <value>iOS</value>
+          </text>
+          <text id="/data/software_app_from_comm/tech_type:option4">
+            <value>Android</value>
+          </text>
+          <text id="/data/software_app_from_comm/data_collectors:label">
+            <value>F.3.3 Number of data collectors</value>
+          </text>
+          <text id="/data/software_app_from_comm/data_collectors:option0">
+            <value>Dont Know</value>
+          </text>
+          <text id="/data/software_app_from_comm/data_collectors:option1">
+            <value>1 to 30</value>
+          </text>
+          <text id="/data/software_app_from_comm/data_collectors:option2">
+            <value>31 to 60</value>
+          </text>
+          <text id="/data/software_app_from_comm/data_collectors:option3">
+            <value>61 and above</value>
+          </text>
+          <text id="/data/software_app_from_comm/type_data_collected:label">
+            <value>F.3.4 Type of data is collected</value>
+          </text>
+          <text id="/data/data_centre:label">
+            <value>F.4. Is there Call center currently in use</value>
+          </text>
+          <text id="/data/data_centre:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_centre:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_centre:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/details_call_centre:label">
+            <value>SECTION F: Call centre</value>
+          </text>
+          <text id="/data/details_call_centre/centre_locationm:label">
+            <value>F.4.1 Location of centre</value>
+          </text>
+          <text id="/data/details_call_centre/untitled48:label">
+            <value>F.4.2 Infrastructure used – make, model, software</value>
+          </text>
+          <text id="/data/details_call_centre/trunk_type:label">
+            <value>F.4.3 Trunk type SIP/PSTN/PRI</value>
+          </text>
+          <text id="/data/details_call_centre/trunk_type:option0">
+            <value>SIP</value>
+          </text>
+          <text id="/data/details_call_centre/trunk_type:option1">
+            <value>PSTN</value>
+          </text>
+          <text id="/data/details_call_centre/trunk_type:option2">
+            <value>PRI</value>
+          </text>
+          <text id="/data/details_call_centre/max_calls:label">
+            <value>F.4.4 Maximum concurrent calls</value>
+          </text>
+          <text id="/data/details_call_centre/numb_call_centre_agent:label">
+            <value>F.4.5 Number of call center agents</value>
+          </text>
+          <text id="/data/details_call_centre/data_coll_type_call_cent:label">
+            <value>F.4.6 What type of data is collected</value>
+          </text>
+          <text id="/data/media_scan:label">
+            <value>F.5. Is there media scanning center currently in use</value>
+          </text>
+          <text id="/data/media_scan:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/media_scan:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/media_scan:option2">
+            <value>Don't know</value>
+          </text>
+          <text id="/data/media_scan_details:label">
+            <value>SECTION F: Media Scanning Centre details</value>
+          </text>
+          <text id="/data/media_scan_details/media_scan_loc:label">
+            <value>F.5.1 Location of Media Scanning centre</value>
+          </text>
+          <text id="/data/media_scan_details/infranstructure_used:label">
+            <value>F.5.2 Infrastructure used</value>
+          </text>
+          <text id="/data/media_scan_details/infranstructure_used:hint">
+            <value>Please quantify eg TV(6), Radios (1), Laptop (4) etc</value>
+          </text>
+          <text id="/data/media_scan_details/source_identfied:label">
+            <value>F.5.3 Media source identified</value>
+          </text>
+          <text id="/data/media_scan_details/personnel_centre:label">
+            <value>F.5.4 Number of personnel running center</value>
+          </text>
+          <text id="/data/media_scan_details/type_data_colle_media_scan:label">
+            <value>F.5.5 Type of data collected</value>
+          </text>
+          <text id="/data/type_of_system_in_place:label">
+            <value>SECTION G. System Information.</value>
+          </text>
+          <text id="/data/type_of_system_in_place:hint">
+            <value>G.1. What types of (Plz circle; Human Health/ Animal Health/Environment Health/Food Security) System / database are in place. List down as per below mentioned details: (Provide briefs)</value>
+          </text>
+          <text id="/data/G1_i:label">
+            <value>G1.i</value>
+          </text>
+          <text id="/data/G1_i/program_work_since_i:label">
+            <value>Program (Also Working Since)</value>
+          </text>
+          <text id="/data/G1_i/system_name_i:label">
+            <value>System / Application Developed (Name Software)</value>
+          </text>
+          <text id="/data/G1_i/manual_comp_i:label">
+            <value>Manual / Computerized</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:label">
+            <value>Scale of Implementation</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:hint">
+            <value>federal/provincial/district/pilot</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:option0">
+            <value>federal</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:option1">
+            <value>provincial</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:option2">
+            <value>district</value>
+          </text>
+          <text id="/data/G1_i/imple_scale_i:option3">
+            <value>pilot</value>
+          </text>
+          <text id="/data/G1_ii:label">
+            <value>G1.ii</value>
+          </text>
+          <text id="/data/G1_ii/program_work_since_ii:label">
+            <value>Program (Also Working Since)</value>
+          </text>
+          <text id="/data/G1_ii/system_name_ii:label">
+            <value>System / Application Developed (Name Software)</value>
+          </text>
+          <text id="/data/G1_ii/manual_comp_ii:label">
+            <value>Manual / Computerized</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:label">
+            <value>Scale of Implementation</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:hint">
+            <value>federal/provincial/district/pilot</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:option0">
+            <value>federal</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:option1">
+            <value>provincial</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:option2">
+            <value>district</value>
+          </text>
+          <text id="/data/G1_ii/imple_scale_ii:option3">
+            <value>pilot</value>
+          </text>
+          <text id="/data/G1_iii:label">
+            <value>G1.iii</value>
+          </text>
+          <text id="/data/G1_iii/program_work_since_iii:label">
+            <value>Program (Also Working Since)</value>
+          </text>
+          <text id="/data/G1_iii/system_name_iii:label">
+            <value>System / Application Developed (Name Software)</value>
+          </text>
+          <text id="/data/G1_iii/manual_comp_iii:label">
+            <value>Manual / Computerized</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:label">
+            <value>Scale of Implementation</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:hint">
+            <value>federal/provincial/district/pilot</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:option0">
+            <value>federal</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:option1">
+            <value>provincial</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:option2">
+            <value>district</value>
+          </text>
+          <text id="/data/G1_iii/imple_scale_iii:option3">
+            <value>pilot</value>
+          </text>
+          <text id="/data/G1_iv:label">
+            <value>G1.iv</value>
+          </text>
+          <text id="/data/G1_iv/program_work_since_iv:label">
+            <value>Program (Also Working Since)</value>
+          </text>
+          <text id="/data/G1_iv/system_name_iv:label">
+            <value>System / Application Developed (Name Software)</value>
+          </text>
+          <text id="/data/G1_iv/manual_comp_iv:label">
+            <value>Manual / Computerized</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:label">
+            <value>Scale of Implementation</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:hint">
+            <value>federal/provincial/district/pilot</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:option0">
+            <value>federal</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:option1">
+            <value>provincial</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:option2">
+            <value>district</value>
+          </text>
+          <text id="/data/G1_iv/imple_scale_iv:option3">
+            <value>pilot</value>
+          </text>
+          <text id="/data/data_being_shared:label">
+            <value>SECTION G. System Information.</value>
+          </text>
+          <text id="/data/data_being_shared:hint">
+            <value>G.2 How the data is being shared from multiple data sources at various level (Federal /Provincial/District). Information / Data Flow diagram? (If available, plz provide copy) </value>
+          </text>
+          <text id="/data/G2.i:label">
+            <value>G2.i</value>
+          </text>
+          <text id="/data/G2.i/name_program_i:label">
+            <value>Name of Program </value>
+          </text>
+          <text id="/data/G2.i/comm_mode_i:label">
+            <value>Communication mode </value>
+          </text>
+          <text id="/data/G2.i/comm_mode_i:hint">
+            <value>(Mention whether Computer application or Manual system)</value>
+          </text>
+          <text id="/data/G2.ii:label">
+            <value>G2.ii</value>
+          </text>
+          <text id="/data/G2.ii/name_program_ii:label">
+            <value>Name of Program </value>
+          </text>
+          <text id="/data/G2.ii/comm_mode_ii:label">
+            <value>Communication mode </value>
+          </text>
+          <text id="/data/G2.ii/comm_mode_ii:hint">
+            <value>(Mention whether Computer application or Manual system)</value>
+          </text>
+          <text id="/data/G2.iii:label">
+            <value>G2.iii</value>
+          </text>
+          <text id="/data/G2.iii/name_program_iii:label">
+            <value>Name of Program </value>
+          </text>
+          <text id="/data/G2.iii/comm_mode_iii:label">
+            <value>Communication mode </value>
+          </text>
+          <text id="/data/G2.iii/comm_mode_iii:hint">
+            <value>(Mention whether Computer application or Manual system)</value>
+          </text>
+          <text id="/data/G2.iv:label">
+            <value>G2.iv</value>
+          </text>
+          <text id="/data/G2.iv/name_program_iv:label">
+            <value>Name of Program </value>
+          </text>
+          <text id="/data/G2.iv/comm_mode_iv:label">
+            <value>Communication mode </value>
+          </text>
+          <text id="/data/G2.iv/comm_mode_iv:hint">
+            <value>(Mention whether Computer application or Manual system)</value>
+          </text>
+          <text id="/data/data_management:label">
+            <value>SECTION H. Data Management / Reporting &amp; Feedback</value>
+          </text>
+          <text id="/data/data_management/human_animal_protocols:label">
+            <value>H.1 Human Health/Animal Health/Environment Health/Food Security data (paper or electronic) are stored appropriately and according to some standard protocols.</value>
+          </text>
+          <text id="/data/data_management/human_animal_protocols:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/human_animal_protocols:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/human_animal_protocols:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_management/data_coll_clinical_epsodes:label">
+            <value>H.2 Data collection systems for client data (e.g. clinical episodes) are standardized across all implementing partners and departments.</value>
+          </text>
+          <text id="/data/data_management/data_coll_clinical_epsodes:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/data_coll_clinical_epsodes:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/data_coll_clinical_epsodes:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_management/data_transm_next_level:label">
+            <value>H.3 Data transmission to the next level occurs in a timely way, making use of innovation and IT</value>
+          </text>
+          <text id="/data/data_management/data_transm_next_level:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/data_transm_next_level:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/data_transm_next_level:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_management/there_mech_of_feedback:label">
+            <value>H.4. Is there a mechanism of Feedback in place and systematically provided to all sub-reporting units on the quality of their reporting (i.e. accuracy, completeness and timeliness) and use of data for decision-making based on their submitted reports.</value>
+          </text>
+          <text id="/data/data_management/there_mech_of_feedback:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/there_mech_of_feedback:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/there_mech_of_feedback:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_management/there_clear_policies:label">
+            <value>H.5 There are clear policies and guidelines for adequate storage of aggregate reports (paper or electronic) at different levels (national, provincial).</value>
+          </text>
+          <text id="/data/data_management/there_clear_policies:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/there_clear_policies:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/there_clear_policies:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_management/there_integrated:label">
+            <value>H.6 There is an integrated, on-line national data repository to store and maintain the all aggregated data and to enable online data entry, effective data analysis and use.</value>
+          </text>
+          <text id="/data/data_management/there_integrated:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_management/there_integrated:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_management/there_integrated:option2">
+            <value>Partially</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame:label">
+            <value>SECTION J. Data Quality Assurance / ICT framework</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_report:label">
+            <value>J.1 Data quality assurance plan is developed and shared to guide stakeholders in improving the reported data quality. </value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_report:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_report:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_report:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_improve:label">
+            <value>J.2 Data quality improvement plans are developed, implemented and monitored to address quality problems identified in the assessments</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_improve:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_improve:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_quality_improve:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/national_prov_policy:label">
+            <value>J.3 There is a national /provincial policy for routine Human Health/ Animal Health / Environment Health information governing the acquisition and use of ICT that is adhered to by the reporting entities.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/national_prov_policy:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/national_prov_policy:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/national_prov_policy:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_ICT:label">
+            <value>J.4 There is an adequate ICT (e.g. computers, internet connection, telemedicine, telephones, computer networks etc.) appropriately used.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_ICT:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_ICT:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_ICT:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_provision:label">
+            <value>J.5 There is adequate provision for maintenance (e.g. backups, antivirus protection, etc.) and troubleshooting of the ICT resources at each level.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_provision:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_provision:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/adequate_provision:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/huma_food_secu_inform:label">
+            <value>J.6 Human Health / Animal Health / Environment Health / Food Security information systems are interoperable (i.e. data can be shared between systems) at the same level.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/printed_guidelines:label">
+            <value>J.7 There are printed guidelines available for peripheral facilities (and are applicable community-based programs) to assist in data compilation and reporting.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/printed_guidelines:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/printed_guidelines:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/printed_guidelines:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_disaggreg:label">
+            <value>J.8 Data disaggregation by key stratifies (age, sex, geography or some other) are maintained during compilation and transfer in order to permit equity analysis.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_disaggreg:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_disaggreg:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_disaggreg:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_transfer:label">
+            <value>J.9 Data transfer to the next level occurs in a timely way, making use of innovation and IT where appropriate and available.</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_transfer:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_transfer:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/data_quality_ass_ICT_frame/data_transfer:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/EBS_data:label">
+            <value>SECTION K. Community-Based Service Data (Outbreak / Pandemic info only)</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_infor_need:label">
+            <value>K.1 Community-based information needs are defined according to a community needs or sectoral strategy.</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_infor_need:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_infor_need:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_infor_need:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/EBS_data/min_set_comm:label">
+            <value>K.2 A minimum set of community-based indicators (with standard definitions, appropriate disaggregation and frequency of collection) have been developed to monitor the implementation of community-based interventions.</value>
+          </text>
+          <text id="/data/EBS_data/min_set_comm:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/EBS_data/min_set_comm:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/EBS_data/min_set_comm:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/EBS_data/the_design_health:label">
+            <value>K.3 The design of the health/animal facility and community information systems include input from end users and other key stakeholders at all levels.</value>
+          </text>
+          <text id="/data/EBS_data/the_design_health:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/EBS_data/the_design_health:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/EBS_data/the_design_health:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_interv:label">
+            <value>K.4 Community based interventions and data are appropriately linked to health/animal facilities to facilitate management, oversight and reporting. </value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_interv:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_interv:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/EBS_data/comm_bas_interv:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/EBS_data/facil_base_inf:label">
+            <value>k.5 The facility-based information system is interoperable with other systems at various levels.</value>
+          </text>
+          <text id="/data/EBS_data/facil_base_inf:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/EBS_data/facil_base_inf:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/EBS_data/facil_base_inf:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp:label">
+            <value>SECTION L. Other Surveillance &amp; Response Aspects</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_human_res:label">
+            <value>L.1 There are adequate Human Resources and laboratory capacity for surveillance and response to notifiable diseases.</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_human_res:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_human_res:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_human_res:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_capacity:label">
+            <value>L2. The department / agency has adequate capacity to diagnose and record cases of notifiable diseases.</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_capacity:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_capacity:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/adeq_capacity:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/epidemic_prepd:label">
+            <value>L3. Epidemic preparedness and response plans are in place with distinct procedures, rapid response teams and contingency stocks of drugs, vaccines, reagents and supplies</value>
+          </text>
+          <text id="/data/other_surve_resp/epidemic_prepd:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/epidemic_prepd:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/epidemic_prepd:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/mechan_in_Place:label">
+            <value>L.4 There are mechanisms in place for effective risk communication during a public health emergency.</value>
+          </text>
+          <text id="/data/other_surve_resp/mechan_in_Place:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/mechan_in_Place:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/mechan_in_Place:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/any_regular_system:label">
+            <value>L.5 Is there any regular system for progress review meeting / supervision / Monitoring &amp; Evaluation? (Plz provide evidence) </value>
+          </text>
+          <text id="/data/other_surve_resp/any_regular_system:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/any_regular_system:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/any_regular_system:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/evidence_regular_system:label">
+            <value>If yes from L.5 above please provide evidence</value>
+          </text>
+          <text id="/data/other_surve_resp/report_health_facility:label">
+            <value>L.6 A report of health/facility statistics is produced regularly i.e. monthly, biannually or annually?</value>
+          </text>
+          <text id="/data/other_surve_resp/report_health_facility:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/report_health_facility:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/report_health_facility:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/culture_information_use:label">
+            <value>L.7 A culture of information use is promoted by policy leaders and decision-makers and reflected in the use of facility &amp; community-based data in planning, monitoring and evaluation reports.</value>
+          </text>
+          <text id="/data/other_surve_resp/culture_information_use:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/culture_information_use:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/culture_information_use:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/EBS_in_place:label">
+            <value>L.8 Is there some event bases surveillance (EBS) is in place e.g. reporting of potential events by Health Workers, Farmers, Media Reporting for detection of diseases or early warning? If so, please provide more detail</value>
+          </text>
+          <text id="/data/other_surve_resp/EBS_in_place:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/EBS_in_place:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/EBS_in_place:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/other_surve_resp/more_det_EBS_in_place:label">
+            <value>If yes from L.8, please provide more detail.</value>
+          </text>
+          <text id="/data/other_surve_resp/arrangement_exchange:label">
+            <value>L.9 Is there any arrangement for exchange of disease information either inter-district, inter-province or transboundary</value>
+          </text>
+          <text id="/data/other_surve_resp/arrangement_exchange:hint">
+            <value>If yes, plz provide   evidence</value>
+          </text>
+          <text id="/data/other_surve_resp/arrangement_exchange:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other_surve_resp/arrangement_exchange:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other_surve_resp/arrangement_exchange:option2">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/challn_opp_:label">
+            <value>L.10 Challenges, Opportunities/Options &amp; Recommendations for OH Promotion / Intersectoral Coordination (Please provide necessary information against sub-topics)</value>
+          </text>
+          <text id="/data/challn_opp_/challennges:label">
+            <value>L.10.1 Challenges</value>
+          </text>
+          <text id="/data/challn_opp_/opp_Options:label">
+            <value>L.10.2 Opportunities/Options</value>
+          </text>
+          <text id="/data/challn_opp_/recommendation:label">
+            <value>L.10.3 Recommendations</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" jr:preload="uid"/>
+      <bind nodeset="/data/demographic/tool_ID" type="string"/>
+      <bind nodeset="/data/demographic/designation" type="string"/>
+      <bind nodeset="/data/demographic/age" type="int"/>
+      <bind nodeset="/data/demographic/gender" type="select1"/>
+      <bind nodeset="/data/demographic/education" type="select1"/>
+      <bind nodeset="/data/demographic/years_exp_field" type="int"/>
+      <bind nodeset="/data/demographic/year_exp_cureent_P" type="int"/>
+      <bind nodeset="/data/inst_arrangement/familiar_with_OH_EBS" type="select1"/>
+      <bind nodeset="/data/inst_arrangement/depart_org_dealing_OH" type="select1"/>
+      <bind nodeset="/data/inst_arrangement/name_depart_org_deal_OH" type="string"/>
+      <bind nodeset="/data/inst_arrangement/section_resp_for_OH" type="string"/>
+      <bind nodeset="/data/inst_arrangement/SOP_available" type="select1"/>
+      <bind nodeset="/data/inst_arrangement/TOR_for_OH" type="select1"/>
+      <bind nodeset="/data/inst_arrangement/design_focal_P_OH" type="select1"/>
+      <bind nodeset="/data/inst_arrangement/names_contact" type="string"/>
+      <bind nodeset="/data/OH_management/SOP_available_all_levels" type="select1"/>
+      <bind nodeset="/data/OH_management/demons_commitment" type="select1"/>
+      <bind nodeset="/data/OH_management/which_min_tend_collaborate" type="string"/>
+      <bind nodeset="/data/OH_management/manager_autonomous_enough" type="select1"/>
+      <bind nodeset="/data/governance_structure/untitled23" type="select1"/>
+      <bind nodeset="/data/governance_structure/name_reports" type="string"/>
+      <bind nodeset="/data/governance_structure/clear_TORs" type="select1"/>
+      <bind nodeset="/data/governance_structure/untitled26" type="select1"/>
+      <bind nodeset="/data/governance_structure/more_details_GVN_Support" type="string"/>
+      <bind nodeset="/data/governance_structure/lab_for_OH" type="select1"/>
+      <bind nodeset="/data/governance_structure/lab_for_OH_details" type="string"/>
+      <bind nodeset="/data/governance_structure/NRL_capable" type="select"/>
+      <bind nodeset="/data/governance_structure/regular_meeting_rel_OH" type="string"/>
+      <bind nodeset="/data/governance_structure/assessment_OH" type="select1"/>
+      <bind nodeset="/data/governance_structure/reference_assessment_oh" type="string"/>
+      <bind nodeset="/data/governance_structure/assessment_HR" type="select1"/>
+      <bind nodeset="/data/governance_structure/reference_assessment_hr" type="string"/>
+      <bind nodeset="/data/governance_structure/challanges_opp_recom" type="string" readonly="true()"/>
+      <bind nodeset="/data/governance_structure/challenges" type="string"/>
+      <bind nodeset="/data/governance_structure/opp_options" type="string"/>
+      <bind nodeset="/data/governance_structure/recomend" type="string"/>
+      <bind nodeset="/data/reg_fram_planning/adhoc_regular" type="select1"/>
+      <bind nodeset="/data/reg_fram_planning/SOP_Protocols_for_OH" type="select1"/>
+      <bind nodeset="/data/reg_fram_planning/routine_info_collect" type="select1"/>
+      <bind nodeset="/data/reg_fram_planning/standard_training_cu" type="select1"/>
+      <bind nodeset="/data/reg_fram_planning/training_plan_OHMIS" type="select1"/>
+      <bind nodeset="/data/reg_fram_planning/speci_training_plan_OHIMS" type="string"/>
+      <bind nodeset="/data/data_collect/uniform_surveillance_MIS" type="select1"/>
+      <bind nodeset="/data/data_collect/list_facility_data_collect" type="select1"/>
+      <bind nodeset="/data/data_collect/tool_from_com" type="select1"/>
+      <bind nodeset="/data/software_app_from_comm/tool_name" type="string" relevant="(/data/data_collect/tool_from_com='yes')"/>
+      <bind nodeset="/data/software_app_from_comm/tech_type" type="select" relevant="(/data/data_collect/tool_from_com='yes')"/>
+      <bind nodeset="/data/software_app_from_comm/data_collectors" type="select1" relevant="(/data/data_collect/tool_from_com='yes')"/>
+      <bind nodeset="/data/software_app_from_comm/type_data_collected" type="string" relevant="(/data/data_collect/tool_from_com='yes')"/>
+      <bind nodeset="/data/data_centre" type="select1"/>
+      <bind nodeset="/data/details_call_centre/centre_locationm" type="string" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/details_call_centre/untitled48" type="string" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/details_call_centre/trunk_type" type="select" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/details_call_centre/max_calls" type="int" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/details_call_centre/numb_call_centre_agent" type="int" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/details_call_centre/data_coll_type_call_cent" type="string" relevant="(/data/data_centre='yes')"/>
+      <bind nodeset="/data/media_scan" type="select1"/>
+      <bind nodeset="/data/media_scan_details/media_scan_loc" type="string" relevant="(/data/media_scan='yes')"/>
+      <bind nodeset="/data/media_scan_details/infranstructure_used" type="string" relevant="(/data/media_scan='yes')"/>
+      <bind nodeset="/data/media_scan_details/source_identfied" type="string" relevant="(/data/media_scan='yes')"/>
+      <bind nodeset="/data/media_scan_details/personnel_centre" type="int" relevant="(/data/media_scan='yes')"/>
+      <bind nodeset="/data/media_scan_details/type_data_colle_media_scan" type="string" relevant="(/data/media_scan='yes')"/>
+      <bind nodeset="/data/type_of_system_in_place" type="string" readonly="true()"/>
+      <bind nodeset="/data/G1_i/program_work_since_i" type="string"/>
+      <bind nodeset="/data/G1_i/system_name_i" type="string"/>
+      <bind nodeset="/data/G1_i/manual_comp_i" type="string"/>
+      <bind nodeset="/data/G1_i/imple_scale_i" type="select1"/>
+      <bind nodeset="/data/G1_ii/program_work_since_ii" type="string"/>
+      <bind nodeset="/data/G1_ii/system_name_ii" type="string"/>
+      <bind nodeset="/data/G1_ii/manual_comp_ii" type="string"/>
+      <bind nodeset="/data/G1_ii/imple_scale_ii" type="select1"/>
+      <bind nodeset="/data/G1_iii/program_work_since_iii" type="string"/>
+      <bind nodeset="/data/G1_iii/system_name_iii" type="string"/>
+      <bind nodeset="/data/G1_iii/manual_comp_iii" type="string"/>
+      <bind nodeset="/data/G1_iii/imple_scale_iii" type="select1"/>
+      <bind nodeset="/data/G1_iv/program_work_since_iv" type="string"/>
+      <bind nodeset="/data/G1_iv/system_name_iv" type="string"/>
+      <bind nodeset="/data/G1_iv/manual_comp_iv" type="string"/>
+      <bind nodeset="/data/G1_iv/imple_scale_iv" type="select1"/>
+      <bind nodeset="/data/data_being_shared" type="string"/>
+      <bind nodeset="/data/G2.i/name_program_i" type="string"/>
+      <bind nodeset="/data/G2.i/comm_mode_i" type="string"/>
+      <bind nodeset="/data/G2.ii/name_program_ii" type="string"/>
+      <bind nodeset="/data/G2.ii/comm_mode_ii" type="string"/>
+      <bind nodeset="/data/G2.iii/name_program_iii" type="string"/>
+      <bind nodeset="/data/G2.iii/comm_mode_iii" type="string"/>
+      <bind nodeset="/data/G2.iv/name_program_iv" type="string"/>
+      <bind nodeset="/data/G2.iv/comm_mode_iv" type="string"/>
+      <bind nodeset="/data/data_management/human_animal_protocols" type="select1"/>
+      <bind nodeset="/data/data_management/data_coll_clinical_epsodes" type="select1"/>
+      <bind nodeset="/data/data_management/data_transm_next_level" type="select1"/>
+      <bind nodeset="/data/data_management/there_mech_of_feedback" type="select1"/>
+      <bind nodeset="/data/data_management/there_clear_policies" type="select1"/>
+      <bind nodeset="/data/data_management/there_integrated" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/data_quality_report" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/data_quality_improve" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/national_prov_policy" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/adequate_ICT" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/adequate_provision" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/huma_food_secu_inform" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/printed_guidelines" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/data_disaggreg" type="select1"/>
+      <bind nodeset="/data/data_quality_ass_ICT_frame/data_transfer" type="select1"/>
+      <bind nodeset="/data/EBS_data/comm_bas_infor_need" type="select1"/>
+      <bind nodeset="/data/EBS_data/min_set_comm" type="select1"/>
+      <bind nodeset="/data/EBS_data/the_design_health" type="select1"/>
+      <bind nodeset="/data/EBS_data/comm_bas_interv" type="select1"/>
+      <bind nodeset="/data/EBS_data/facil_base_inf" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/adeq_human_res" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/adeq_capacity" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/epidemic_prepd" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/mechan_in_Place" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/any_regular_system" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/evidence_regular_system" type="string"/>
+      <bind nodeset="/data/other_surve_resp/report_health_facility" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/culture_information_use" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/EBS_in_place" type="select1"/>
+      <bind nodeset="/data/other_surve_resp/more_det_EBS_in_place" type="string"/>
+      <bind nodeset="/data/other_surve_resp/arrangement_exchange" type="select1"/>
+      <bind nodeset="/data/challn_opp_/challennges" type="string"/>
+      <bind nodeset="/data/challn_opp_/opp_Options" type="string"/>
+      <bind nodeset="/data/challn_opp_/recommendation" type="string"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('OHD Gap Analysis',': ',/data/demographic/tool_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/demographic" appearance="field-list">
+      <label ref="jr:itext('/data/demographic:label')"/>
+      <input ref="/data/demographic/tool_ID">
+        <label ref="jr:itext('/data/demographic/tool_ID:label')"/>
+      </input>
+      <input ref="/data/demographic/designation">
+        <label ref="jr:itext('/data/demographic/designation:label')"/>
+      </input>
+      <input ref="/data/demographic/age">
+        <label ref="jr:itext('/data/demographic/age:label')"/>
+      </input>
+      <select1 ref="/data/demographic/gender">
+        <label ref="jr:itext('/data/demographic/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/demographic/gender:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/gender:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 ref="/data/demographic/education">
+        <label ref="jr:itext('/data/demographic/education:label')"/>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option0')"/>
+          <value>primary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option1')"/>
+          <value>secondary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option2')"/>
+          <value>certificate</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option3')"/>
+          <value>diploma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option4')"/>
+          <value>bachelor_degree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/demographic/education:option5')"/>
+          <value>higher_degree</value>
+        </item>
+      </select1>
+      <input ref="/data/demographic/years_exp_field">
+        <label ref="jr:itext('/data/demographic/years_exp_field:label')"/>
+      </input>
+      <input ref="/data/demographic/year_exp_cureent_P">
+        <label ref="jr:itext('/data/demographic/year_exp_cureent_P:label')"/>
+      </input>
+    </group>
+    <group ref="/data/inst_arrangement" appearance="field-list">
+      <label ref="jr:itext('/data/inst_arrangement:label')"/>
+      <select1 ref="/data/inst_arrangement/familiar_with_OH_EBS">
+        <label ref="jr:itext('/data/inst_arrangement/familiar_with_OH_EBS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/familiar_with_OH_EBS:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/familiar_with_OH_EBS:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/familiar_with_OH_EBS:option2')"/>
+          <value>partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inst_arrangement/depart_org_dealing_OH">
+        <label ref="jr:itext('/data/inst_arrangement/depart_org_dealing_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/depart_org_dealing_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/depart_org_dealing_OH:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/depart_org_dealing_OH:option2')"/>
+          <value>in_process</value>
+        </item>
+      </select1>
+      <input ref="/data/inst_arrangement/name_depart_org_deal_OH">
+        <label ref="jr:itext('/data/inst_arrangement/name_depart_org_deal_OH:label')"/>
+      </input>
+      <input ref="/data/inst_arrangement/section_resp_for_OH">
+        <label ref="jr:itext('/data/inst_arrangement/section_resp_for_OH:label')"/>
+      </input>
+      <select1 ref="/data/inst_arrangement/SOP_available">
+        <label ref="jr:itext('/data/inst_arrangement/SOP_available:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/SOP_available:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/SOP_available:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/SOP_available:option2')"/>
+          <value>in_process</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inst_arrangement/TOR_for_OH">
+        <label ref="jr:itext('/data/inst_arrangement/TOR_for_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/TOR_for_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/TOR_for_OH:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/TOR_for_OH:option2')"/>
+          <value>in_process</value>
+        </item>
+      </select1>
+      <select1 ref="/data/inst_arrangement/design_focal_P_OH">
+        <label ref="jr:itext('/data/inst_arrangement/design_focal_P_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/design_focal_P_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inst_arrangement/design_focal_P_OH:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/inst_arrangement/names_contact">
+        <label ref="jr:itext('/data/inst_arrangement/names_contact:label')"/>
+      </input>
+    </group>
+    <group ref="/data/OH_management" appearance="field-list">
+      <label ref="jr:itext('/data/OH_management:label')"/>
+      <select1 ref="/data/OH_management/SOP_available_all_levels">
+        <label ref="jr:itext('/data/OH_management/SOP_available_all_levels:label')"/>
+        <item>
+          <label ref="jr:itext('/data/OH_management/SOP_available_all_levels:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/SOP_available_all_levels:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/SOP_available_all_levels:option2')"/>
+          <value>partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/OH_management/demons_commitment">
+        <label ref="jr:itext('/data/OH_management/demons_commitment:label')"/>
+        <item>
+          <label ref="jr:itext('/data/OH_management/demons_commitment:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/demons_commitment:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/demons_commitment:option2')"/>
+          <value>partially</value>
+        </item>
+      </select1>
+      <input ref="/data/OH_management/which_min_tend_collaborate">
+        <label ref="jr:itext('/data/OH_management/which_min_tend_collaborate:label')"/>
+      </input>
+      <select1 ref="/data/OH_management/manager_autonomous_enough">
+        <label ref="jr:itext('/data/OH_management/manager_autonomous_enough:label')"/>
+        <item>
+          <label ref="jr:itext('/data/OH_management/manager_autonomous_enough:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/manager_autonomous_enough:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/OH_management/manager_autonomous_enough:option2')"/>
+          <value>partially</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/governance_structure" appearance="field-list">
+      <label ref="jr:itext('/data/governance_structure:label')"/>
+      <select1 ref="/data/governance_structure/untitled23">
+        <label ref="jr:itext('/data/governance_structure/untitled23:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled23:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled23:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled23:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <input ref="/data/governance_structure/name_reports">
+        <label ref="jr:itext('/data/governance_structure/name_reports:label')"/>
+        <hint ref="jr:itext('/data/governance_structure/name_reports:hint')"/>
+      </input>
+      <select1 ref="/data/governance_structure/clear_TORs">
+        <label ref="jr:itext('/data/governance_structure/clear_TORs:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/clear_TORs:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/clear_TORs:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/clear_TORs:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/data/governance_structure/untitled26">
+        <label ref="jr:itext('/data/governance_structure/untitled26:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled26:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled26:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/untitled26:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <input ref="/data/governance_structure/more_details_GVN_Support">
+        <label ref="jr:itext('/data/governance_structure/more_details_GVN_Support:label')"/>
+      </input>
+      <select1 ref="/data/governance_structure/lab_for_OH">
+        <label ref="jr:itext('/data/governance_structure/lab_for_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/lab_for_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/lab_for_OH:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/lab_for_OH:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <input ref="/data/governance_structure/lab_for_OH_details">
+        <label ref="jr:itext('/data/governance_structure/lab_for_OH_details:label')"/>
+      </input>
+      <select ref="/data/governance_structure/NRL_capable">
+        <label ref="jr:itext('/data/governance_structure/NRL_capable:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option0')"/>
+          <value>zoonotic_influenza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option1')"/>
+          <value>enteric_fever_salm</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option2')"/>
+          <value>rabies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option3')"/>
+          <value>brucellosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option4')"/>
+          <value>CCHF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option5')"/>
+          <value>anthrax</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option6')"/>
+          <value>dengue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option7')"/>
+          <value>TB</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option8')"/>
+          <value>COVID</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option9')"/>
+          <value>bact_viral_mengitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option10')"/>
+          <value>cutan_leishmaniasis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option11')"/>
+          <value>visc_leishmaniasis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option12')"/>
+          <value>plague</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option13')"/>
+          <value>botulism</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/NRL_capable:option14')"/>
+          <value>nosocomial_infection</value>
+        </item>
+      </select>
+      <input ref="/data/governance_structure/regular_meeting_rel_OH">
+        <label ref="jr:itext('/data/governance_structure/regular_meeting_rel_OH:label')"/>
+      </input>
+      <select1 ref="/data/governance_structure/assessment_OH">
+        <label ref="jr:itext('/data/governance_structure/assessment_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_OH:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_OH:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <input ref="/data/governance_structure/reference_assessment_oh">
+        <label ref="jr:itext('/data/governance_structure/reference_assessment_oh:label')"/>
+      </input>
+      <select1 ref="/data/governance_structure/assessment_HR">
+        <label ref="jr:itext('/data/governance_structure/assessment_HR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_HR:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_HR:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/governance_structure/assessment_HR:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <input ref="/data/governance_structure/reference_assessment_hr">
+        <label ref="jr:itext('/data/governance_structure/reference_assessment_hr:label')"/>
+      </input>
+      <input ref="/data/governance_structure/challanges_opp_recom">
+        <label ref="jr:itext('/data/governance_structure/challanges_opp_recom:label')"/>
+        <hint ref="jr:itext('/data/governance_structure/challanges_opp_recom:hint')"/>
+      </input>
+      <input ref="/data/governance_structure/challenges">
+        <label ref="jr:itext('/data/governance_structure/challenges:label')"/>
+      </input>
+      <input ref="/data/governance_structure/opp_options">
+        <label ref="jr:itext('/data/governance_structure/opp_options:label')"/>
+      </input>
+      <input ref="/data/governance_structure/recomend">
+        <label ref="jr:itext('/data/governance_structure/recomend:label')"/>
+      </input>
+    </group>
+    <group ref="/data/reg_fram_planning" appearance="field-list">
+      <label ref="jr:itext('/data/reg_fram_planning:label')"/>
+      <select1 ref="/data/reg_fram_planning/adhoc_regular">
+        <label ref="jr:itext('/data/reg_fram_planning/adhoc_regular:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/adhoc_regular:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/adhoc_regular:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/adhoc_regular:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/reg_fram_planning/SOP_Protocols_for_OH">
+        <label ref="jr:itext('/data/reg_fram_planning/SOP_Protocols_for_OH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/SOP_Protocols_for_OH:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/SOP_Protocols_for_OH:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/SOP_Protocols_for_OH:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/reg_fram_planning/routine_info_collect">
+        <label ref="jr:itext('/data/reg_fram_planning/routine_info_collect:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/routine_info_collect:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/routine_info_collect:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/routine_info_collect:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/reg_fram_planning/standard_training_cu">
+        <label ref="jr:itext('/data/reg_fram_planning/standard_training_cu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/standard_training_cu:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/standard_training_cu:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/standard_training_cu:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/reg_fram_planning/training_plan_OHMIS">
+        <label ref="jr:itext('/data/reg_fram_planning/training_plan_OHMIS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/training_plan_OHMIS:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/training_plan_OHMIS:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/reg_fram_planning/training_plan_OHMIS:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <input ref="/data/reg_fram_planning/speci_training_plan_OHIMS">
+        <label ref="jr:itext('/data/reg_fram_planning/speci_training_plan_OHIMS:label')"/>
+      </input>
+    </group>
+    <group ref="/data/data_collect" appearance="field-list">
+      <label ref="jr:itext('/data/data_collect:label')"/>
+      <select1 ref="/data/data_collect/uniform_surveillance_MIS">
+        <label ref="jr:itext('/data/data_collect/uniform_surveillance_MIS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collect/uniform_surveillance_MIS:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/uniform_surveillance_MIS:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/uniform_surveillance_MIS:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collect/list_facility_data_collect">
+        <label ref="jr:itext('/data/data_collect/list_facility_data_collect:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collect/list_facility_data_collect:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/list_facility_data_collect:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/list_facility_data_collect:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_collect/tool_from_com">
+        <label ref="jr:itext('/data/data_collect/tool_from_com:label')"/>
+        <hint ref="jr:itext('/data/data_collect/tool_from_com:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/data_collect/tool_from_com:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/tool_from_com:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_collect/tool_from_com:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/software_app_from_comm" appearance="field-list">
+      <label ref="jr:itext('/data/software_app_from_comm:label')"/>
+      <input ref="/data/software_app_from_comm/tool_name">
+        <label ref="jr:itext('/data/software_app_from_comm/tool_name:label')"/>
+      </input>
+      <select ref="/data/software_app_from_comm/tech_type">
+        <label ref="jr:itext('/data/software_app_from_comm/tech_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/tech_type:option0')"/>
+          <value>SMS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/tech_type:option1')"/>
+          <value>USSD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/tech_type:option2')"/>
+          <value>web</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/tech_type:option3')"/>
+          <value>iOS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/tech_type:option4')"/>
+          <value>android</value>
+        </item>
+      </select>
+      <select1 ref="/data/software_app_from_comm/data_collectors">
+        <label ref="jr:itext('/data/software_app_from_comm/data_collectors:label')"/>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/data_collectors:option0')"/>
+          <value>dont_know</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/data_collectors:option1')"/>
+          <value>1_to_30</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/data_collectors:option2')"/>
+          <value>31_to_60</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/software_app_from_comm/data_collectors:option3')"/>
+          <value>61_above</value>
+        </item>
+      </select1>
+      <input ref="/data/software_app_from_comm/type_data_collected">
+        <label ref="jr:itext('/data/software_app_from_comm/type_data_collected:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/data_centre">
+      <label ref="jr:itext('/data/data_centre:label')"/>
+      <item>
+        <label ref="jr:itext('/data/data_centre:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/data_centre:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/data_centre:option2')"/>
+        <value>dont_know</value>
+      </item>
+    </select1>
+    <group ref="/data/details_call_centre" appearance="field-list">
+      <label ref="jr:itext('/data/details_call_centre:label')"/>
+      <input ref="/data/details_call_centre/centre_locationm">
+        <label ref="jr:itext('/data/details_call_centre/centre_locationm:label')"/>
+      </input>
+      <input ref="/data/details_call_centre/untitled48">
+        <label ref="jr:itext('/data/details_call_centre/untitled48:label')"/>
+      </input>
+      <select ref="/data/details_call_centre/trunk_type">
+        <label ref="jr:itext('/data/details_call_centre/trunk_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/details_call_centre/trunk_type:option0')"/>
+          <value>sip</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/details_call_centre/trunk_type:option1')"/>
+          <value>PSTN</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/details_call_centre/trunk_type:option2')"/>
+          <value>PRI</value>
+        </item>
+      </select>
+      <input ref="/data/details_call_centre/max_calls">
+        <label ref="jr:itext('/data/details_call_centre/max_calls:label')"/>
+      </input>
+      <input ref="/data/details_call_centre/numb_call_centre_agent">
+        <label ref="jr:itext('/data/details_call_centre/numb_call_centre_agent:label')"/>
+      </input>
+      <input ref="/data/details_call_centre/data_coll_type_call_cent">
+        <label ref="jr:itext('/data/details_call_centre/data_coll_type_call_cent:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/media_scan">
+      <label ref="jr:itext('/data/media_scan:label')"/>
+      <item>
+        <label ref="jr:itext('/data/media_scan:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/media_scan:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/media_scan:option2')"/>
+        <value>dont_know</value>
+      </item>
+    </select1>
+    <group ref="/data/media_scan_details" appearance="field-list">
+      <label ref="jr:itext('/data/media_scan_details:label')"/>
+      <input ref="/data/media_scan_details/media_scan_loc">
+        <label ref="jr:itext('/data/media_scan_details/media_scan_loc:label')"/>
+      </input>
+      <input ref="/data/media_scan_details/infranstructure_used">
+        <label ref="jr:itext('/data/media_scan_details/infranstructure_used:label')"/>
+        <hint ref="jr:itext('/data/media_scan_details/infranstructure_used:hint')"/>
+      </input>
+      <input ref="/data/media_scan_details/source_identfied">
+        <label ref="jr:itext('/data/media_scan_details/source_identfied:label')"/>
+      </input>
+      <input ref="/data/media_scan_details/personnel_centre">
+        <label ref="jr:itext('/data/media_scan_details/personnel_centre:label')"/>
+      </input>
+      <input ref="/data/media_scan_details/type_data_colle_media_scan">
+        <label ref="jr:itext('/data/media_scan_details/type_data_colle_media_scan:label')"/>
+      </input>
+    </group>
+    <input ref="/data/type_of_system_in_place">
+      <label ref="jr:itext('/data/type_of_system_in_place:label')"/>
+      <hint ref="jr:itext('/data/type_of_system_in_place:hint')"/>
+    </input>
+    <group ref="/data/G1_i" appearance="field-list">
+      <label ref="jr:itext('/data/G1_i:label')"/>
+      <input ref="/data/G1_i/program_work_since_i">
+        <label ref="jr:itext('/data/G1_i/program_work_since_i:label')"/>
+      </input>
+      <input ref="/data/G1_i/system_name_i">
+        <label ref="jr:itext('/data/G1_i/system_name_i:label')"/>
+      </input>
+      <input ref="/data/G1_i/manual_comp_i">
+        <label ref="jr:itext('/data/G1_i/manual_comp_i:label')"/>
+      </input>
+      <select1 ref="/data/G1_i/imple_scale_i">
+        <label ref="jr:itext('/data/G1_i/imple_scale_i:label')"/>
+        <hint ref="jr:itext('/data/G1_i/imple_scale_i:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/G1_i/imple_scale_i:option0')"/>
+          <value>federal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_i/imple_scale_i:option1')"/>
+          <value>provincial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_i/imple_scale_i:option2')"/>
+          <value>district</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_i/imple_scale_i:option3')"/>
+          <value>pilot</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/G1_ii" appearance="field-list">
+      <label ref="jr:itext('/data/G1_ii:label')"/>
+      <input ref="/data/G1_ii/program_work_since_ii">
+        <label ref="jr:itext('/data/G1_ii/program_work_since_ii:label')"/>
+      </input>
+      <input ref="/data/G1_ii/system_name_ii">
+        <label ref="jr:itext('/data/G1_ii/system_name_ii:label')"/>
+      </input>
+      <input ref="/data/G1_ii/manual_comp_ii">
+        <label ref="jr:itext('/data/G1_ii/manual_comp_ii:label')"/>
+      </input>
+      <select1 ref="/data/G1_ii/imple_scale_ii">
+        <label ref="jr:itext('/data/G1_ii/imple_scale_ii:label')"/>
+        <hint ref="jr:itext('/data/G1_ii/imple_scale_ii:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/G1_ii/imple_scale_ii:option0')"/>
+          <value>federal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_ii/imple_scale_ii:option1')"/>
+          <value>provincial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_ii/imple_scale_ii:option2')"/>
+          <value>district</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_ii/imple_scale_ii:option3')"/>
+          <value>pilot</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/G1_iii" appearance="field-list">
+      <label ref="jr:itext('/data/G1_iii:label')"/>
+      <input ref="/data/G1_iii/program_work_since_iii">
+        <label ref="jr:itext('/data/G1_iii/program_work_since_iii:label')"/>
+      </input>
+      <input ref="/data/G1_iii/system_name_iii">
+        <label ref="jr:itext('/data/G1_iii/system_name_iii:label')"/>
+      </input>
+      <input ref="/data/G1_iii/manual_comp_iii">
+        <label ref="jr:itext('/data/G1_iii/manual_comp_iii:label')"/>
+      </input>
+      <select1 ref="/data/G1_iii/imple_scale_iii">
+        <label ref="jr:itext('/data/G1_iii/imple_scale_iii:label')"/>
+        <hint ref="jr:itext('/data/G1_iii/imple_scale_iii:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/G1_iii/imple_scale_iii:option0')"/>
+          <value>federal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iii/imple_scale_iii:option1')"/>
+          <value>provincial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iii/imple_scale_iii:option2')"/>
+          <value>district</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iii/imple_scale_iii:option3')"/>
+          <value>pilot</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/G1_iv" appearance="field-list">
+      <label ref="jr:itext('/data/G1_iv:label')"/>
+      <input ref="/data/G1_iv/program_work_since_iv">
+        <label ref="jr:itext('/data/G1_iv/program_work_since_iv:label')"/>
+      </input>
+      <input ref="/data/G1_iv/system_name_iv">
+        <label ref="jr:itext('/data/G1_iv/system_name_iv:label')"/>
+      </input>
+      <input ref="/data/G1_iv/manual_comp_iv">
+        <label ref="jr:itext('/data/G1_iv/manual_comp_iv:label')"/>
+      </input>
+      <select1 ref="/data/G1_iv/imple_scale_iv">
+        <label ref="jr:itext('/data/G1_iv/imple_scale_iv:label')"/>
+        <hint ref="jr:itext('/data/G1_iv/imple_scale_iv:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/G1_iv/imple_scale_iv:option0')"/>
+          <value>federal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iv/imple_scale_iv:option1')"/>
+          <value>provincial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iv/imple_scale_iv:option2')"/>
+          <value>district</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/G1_iv/imple_scale_iv:option3')"/>
+          <value>pilot</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/data_being_shared">
+      <label ref="jr:itext('/data/data_being_shared:label')"/>
+      <hint ref="jr:itext('/data/data_being_shared:hint')"/>
+    </input>
+    <group ref="/data/G2.i" appearance="field-list">
+      <label ref="jr:itext('/data/G2.i:label')"/>
+      <input ref="/data/G2.i/name_program_i">
+        <label ref="jr:itext('/data/G2.i/name_program_i:label')"/>
+      </input>
+      <input ref="/data/G2.i/comm_mode_i">
+        <label ref="jr:itext('/data/G2.i/comm_mode_i:label')"/>
+        <hint ref="jr:itext('/data/G2.i/comm_mode_i:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/G2.ii" appearance="field-list">
+      <label ref="jr:itext('/data/G2.ii:label')"/>
+      <input ref="/data/G2.ii/name_program_ii">
+        <label ref="jr:itext('/data/G2.ii/name_program_ii:label')"/>
+      </input>
+      <input ref="/data/G2.ii/comm_mode_ii">
+        <label ref="jr:itext('/data/G2.ii/comm_mode_ii:label')"/>
+        <hint ref="jr:itext('/data/G2.ii/comm_mode_ii:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/G2.iii" appearance="field-list">
+      <label ref="jr:itext('/data/G2.iii:label')"/>
+      <input ref="/data/G2.iii/name_program_iii">
+        <label ref="jr:itext('/data/G2.iii/name_program_iii:label')"/>
+      </input>
+      <input ref="/data/G2.iii/comm_mode_iii">
+        <label ref="jr:itext('/data/G2.iii/comm_mode_iii:label')"/>
+        <hint ref="jr:itext('/data/G2.iii/comm_mode_iii:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/G2.iv" appearance="field-list">
+      <label ref="jr:itext('/data/G2.iv:label')"/>
+      <input ref="/data/G2.iv/name_program_iv">
+        <label ref="jr:itext('/data/G2.iv/name_program_iv:label')"/>
+      </input>
+      <input ref="/data/G2.iv/comm_mode_iv">
+        <label ref="jr:itext('/data/G2.iv/comm_mode_iv:label')"/>
+        <hint ref="jr:itext('/data/G2.iv/comm_mode_iv:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/data_management" appearance="field-list">
+      <label ref="jr:itext('/data/data_management:label')"/>
+      <select1 ref="/data/data_management/human_animal_protocols">
+        <label ref="jr:itext('/data/data_management/human_animal_protocols:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/human_animal_protocols:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/human_animal_protocols:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/human_animal_protocols:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_management/data_coll_clinical_epsodes">
+        <label ref="jr:itext('/data/data_management/data_coll_clinical_epsodes:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_coll_clinical_epsodes:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_coll_clinical_epsodes:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_coll_clinical_epsodes:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_management/data_transm_next_level">
+        <label ref="jr:itext('/data/data_management/data_transm_next_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_transm_next_level:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_transm_next_level:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/data_transm_next_level:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_management/there_mech_of_feedback">
+        <label ref="jr:itext('/data/data_management/there_mech_of_feedback:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_mech_of_feedback:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_mech_of_feedback:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_mech_of_feedback:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_management/there_clear_policies">
+        <label ref="jr:itext('/data/data_management/there_clear_policies:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_clear_policies:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_clear_policies:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_clear_policies:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_management/there_integrated">
+        <label ref="jr:itext('/data/data_management/there_integrated:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_integrated:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_integrated:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_management/there_integrated:option2')"/>
+          <value>Partially</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/data_quality_ass_ICT_frame" appearance="field-list">
+      <label ref="jr:itext('/data/data_quality_ass_ICT_frame:label')"/>
+      <select1 ref="/data/data_quality_ass_ICT_frame/data_quality_report">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_report:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_report:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_report:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/data_quality_improve">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_improve:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_improve:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_improve:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_quality_improve:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/national_prov_policy">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/national_prov_policy:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/national_prov_policy:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/national_prov_policy:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/national_prov_policy:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/adequate_ICT">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_ICT:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_ICT:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_ICT:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_ICT:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/adequate_provision">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_provision:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_provision:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_provision:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/adequate_provision:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/huma_food_secu_inform">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/huma_food_secu_inform:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/huma_food_secu_inform:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/printed_guidelines">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/printed_guidelines:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/printed_guidelines:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/printed_guidelines:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/printed_guidelines:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/data_disaggreg">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_disaggreg:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_disaggreg:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_disaggreg:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_disaggreg:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/data_quality_ass_ICT_frame/data_transfer">
+        <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_transfer:label')"/>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_transfer:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_transfer:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/data_quality_ass_ICT_frame/data_transfer:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/EBS_data" appearance="field-list">
+      <label ref="jr:itext('/data/EBS_data:label')"/>
+      <select1 ref="/data/EBS_data/comm_bas_infor_need">
+        <label ref="jr:itext('/data/EBS_data/comm_bas_infor_need:label')"/>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_infor_need:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_infor_need:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_infor_need:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/EBS_data/min_set_comm">
+        <label ref="jr:itext('/data/EBS_data/min_set_comm:label')"/>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/min_set_comm:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/min_set_comm:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/min_set_comm:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/EBS_data/the_design_health">
+        <label ref="jr:itext('/data/EBS_data/the_design_health:label')"/>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/the_design_health:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/the_design_health:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/the_design_health:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/EBS_data/comm_bas_interv">
+        <label ref="jr:itext('/data/EBS_data/comm_bas_interv:label')"/>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_interv:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_interv:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/comm_bas_interv:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/EBS_data/facil_base_inf">
+        <label ref="jr:itext('/data/EBS_data/facil_base_inf:label')"/>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/facil_base_inf:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/facil_base_inf:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/EBS_data/facil_base_inf:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/other_surve_resp" appearance="field-list">
+      <label ref="jr:itext('/data/other_surve_resp:label')"/>
+      <select1 ref="/data/other_surve_resp/adeq_human_res">
+        <label ref="jr:itext('/data/other_surve_resp/adeq_human_res:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_human_res:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_human_res:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_human_res:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/adeq_capacity">
+        <label ref="jr:itext('/data/other_surve_resp/adeq_capacity:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_capacity:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_capacity:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/adeq_capacity:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/epidemic_prepd">
+        <label ref="jr:itext('/data/other_surve_resp/epidemic_prepd:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/epidemic_prepd:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/epidemic_prepd:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/epidemic_prepd:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/mechan_in_Place">
+        <label ref="jr:itext('/data/other_surve_resp/mechan_in_Place:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/mechan_in_Place:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/mechan_in_Place:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/mechan_in_Place:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/any_regular_system">
+        <label ref="jr:itext('/data/other_surve_resp/any_regular_system:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/any_regular_system:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/any_regular_system:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/any_regular_system:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <input ref="/data/other_surve_resp/evidence_regular_system">
+        <label ref="jr:itext('/data/other_surve_resp/evidence_regular_system:label')"/>
+      </input>
+      <select1 ref="/data/other_surve_resp/report_health_facility">
+        <label ref="jr:itext('/data/other_surve_resp/report_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/report_health_facility:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/report_health_facility:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/report_health_facility:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/culture_information_use">
+        <label ref="jr:itext('/data/other_surve_resp/culture_information_use:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/culture_information_use:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/culture_information_use:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/culture_information_use:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <select1 ref="/data/other_surve_resp/EBS_in_place">
+        <label ref="jr:itext('/data/other_surve_resp/EBS_in_place:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/EBS_in_place:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/EBS_in_place:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/EBS_in_place:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+      <input ref="/data/other_surve_resp/more_det_EBS_in_place">
+        <label ref="jr:itext('/data/other_surve_resp/more_det_EBS_in_place:label')"/>
+      </input>
+      <select1 ref="/data/other_surve_resp/arrangement_exchange">
+        <label ref="jr:itext('/data/other_surve_resp/arrangement_exchange:label')"/>
+        <hint ref="jr:itext('/data/other_surve_resp/arrangement_exchange:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/arrangement_exchange:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/arrangement_exchange:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other_surve_resp/arrangement_exchange:option2')"/>
+          <value>not_sure</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/challn_opp_" appearance="field-list">
+      <label ref="jr:itext('/data/challn_opp_:label')"/>
+      <input ref="/data/challn_opp_/challennges">
+        <label ref="jr:itext('/data/challn_opp_/challennges:label')"/>
+      </input>
+      <input ref="/data/challn_opp_/opp_Options">
+        <label ref="jr:itext('/data/challn_opp_/opp_Options:label')"/>
+      </input>
+      <input ref="/data/challn_opp_/recommendation">
+        <label ref="jr:itext('/data/challn_opp_/recommendation:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

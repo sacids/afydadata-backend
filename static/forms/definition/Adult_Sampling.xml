@@ -1,0 +1,286 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Adult Sampling</h:title>
+    <model>
+      <instance>
+        <data id="build_Adult-Sampling_1582796859">
+          <meta>
+            <instanceID/>
+          </meta>
+          <loca_details>
+            <region/>
+            <district/>
+            <village/>
+            <survey_date/>
+          </loca_details>
+          <specie_details>
+            <shelter_type/>
+            <wall_type/>
+            <roof_type/>
+            <species/>
+          </specie_details>
+          <other_species>
+            <specie1>
+              None
+            </specie1>
+            <specie2>
+              None
+            </specie2>
+            <specie3>
+              None
+            </specie3>
+            <specie4>
+              None
+            </specie4>
+            <specie5>
+              None
+            </specie5>
+          </other_species>
+          <gps_locat/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/loca_details:label">
+            <value>Location Details</value>
+          </text>
+          <text id="/data/loca_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/loca_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/loca_details/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/loca_details/survey_date:label">
+            <value>Survey Date</value>
+          </text>
+          <text id="/data/specie_details:label">
+            <value>specie details</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:label">
+            <value>1. Shelter Type</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:option0">
+            <value>human house</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:option1">
+            <value>cowshed</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:option2">
+            <value>Store</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:option3">
+            <value>chicken house</value>
+          </text>
+          <text id="/data/specie_details/shelter_type:option4">
+            <value>unoccupied house</value>
+          </text>
+          <text id="/data/specie_details/wall_type:label">
+            <value>2. Wall Type</value>
+          </text>
+          <text id="/data/specie_details/wall_type:option0">
+            <value>mud wall</value>
+          </text>
+          <text id="/data/specie_details/wall_type:option1">
+            <value>thatch wall</value>
+          </text>
+          <text id="/data/specie_details/wall_type:option2">
+            <value>cement bricks</value>
+          </text>
+          <text id="/data/specie_details/wall_type:option3">
+            <value>Burnt bricks</value>
+          </text>
+          <text id="/data/specie_details/roof_type:label">
+            <value>3. Roof Type</value>
+          </text>
+          <text id="/data/specie_details/roof_type:option0">
+            <value>Thatched roof</value>
+          </text>
+          <text id="/data/specie_details/roof_type:option1">
+            <value>Corrogated Iron sheets</value>
+          </text>
+          <text id="/data/specie_details/species:label">
+            <value>4. Species</value>
+          </text>
+          <text id="/data/specie_details/species:option0">
+            <value>Aedes aegypty</value>
+          </text>
+          <text id="/data/specie_details/species:option1">
+            <value>An. Gambiae</value>
+          </text>
+          <text id="/data/specie_details/species:option2">
+            <value>An. funestus</value>
+          </text>
+          <text id="/data/specie_details/species:option3">
+            <value>An. Implexus</value>
+          </text>
+          <text id="/data/specie_details/species:option4">
+            <value>An.squamous</value>
+          </text>
+          <text id="/data/specie_details/species:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_species:label">
+            <value>Other Species</value>
+          </text>
+          <text id="/data/other_species/specie1:label">
+            <value>1 Specie</value>
+          </text>
+          <text id="/data/other_species/specie2:label">
+            <value>2 Specie </value>
+          </text>
+          <text id="/data/other_species/specie3:label">
+            <value>3 Specie </value>
+          </text>
+          <text id="/data/other_species/specie4:label">
+            <value>4 Specie </value>
+          </text>
+          <text id="/data/other_species/specie5:label">
+            <value>5 Specie </value>
+          </text>
+          <text id="/data/gps_locat:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/loca_details/region" type="string"/>
+      <bind nodeset="/data/loca_details/district" type="string"/>
+      <bind nodeset="/data/loca_details/village" type="string"/>
+      <bind nodeset="/data/loca_details/survey_date" type="date"/>
+      <bind nodeset="/data/specie_details/shelter_type" type="select1"/>
+      <bind nodeset="/data/specie_details/wall_type" type="select1"/>
+      <bind nodeset="/data/specie_details/roof_type" type="select1"/>
+      <bind nodeset="/data/specie_details/species" type="select"/>
+      <bind nodeset="/data/other_species/specie1" type="string"/>
+      <bind nodeset="/data/other_species/specie2" type="string"/>
+      <bind nodeset="/data/other_species/specie3" type="string"/>
+      <bind nodeset="/data/other_species/specie4" type="string"/>
+      <bind nodeset="/data/other_species/specie5" type="string"/>
+      <bind nodeset="/data/gps_locat" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/loca_details" appearance="field-list">
+      <label ref="jr:itext('/data/loca_details:label')"/>
+      <input ref="/data/loca_details/region">
+        <label ref="jr:itext('/data/loca_details/region:label')"/>
+      </input>
+      <input ref="/data/loca_details/district">
+        <label ref="jr:itext('/data/loca_details/district:label')"/>
+      </input>
+      <input ref="/data/loca_details/village">
+        <label ref="jr:itext('/data/loca_details/village:label')"/>
+      </input>
+      <input ref="/data/loca_details/survey_date">
+        <label ref="jr:itext('/data/loca_details/survey_date:label')"/>
+      </input>
+    </group>
+    <group ref="/data/specie_details" appearance="field-list">
+      <label ref="jr:itext('/data/specie_details:label')"/>
+      <select1 ref="/data/specie_details/shelter_type">
+        <label ref="jr:itext('/data/specie_details/shelter_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/specie_details/shelter_type:option0')"/>
+          <value>human_house</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/shelter_type:option1')"/>
+          <value>cowshed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/shelter_type:option2')"/>
+          <value>Store</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/shelter_type:option3')"/>
+          <value>chicken_house</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/shelter_type:option4')"/>
+          <value>unoccupied_house</value>
+        </item>
+      </select1>
+      <select1 ref="/data/specie_details/wall_type">
+        <label ref="jr:itext('/data/specie_details/wall_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/specie_details/wall_type:option0')"/>
+          <value>mud_wall</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/wall_type:option1')"/>
+          <value>thatch_wall</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/wall_type:option2')"/>
+          <value>cement_bricks</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/wall_type:option3')"/>
+          <value>Burnt_bricks</value>
+        </item>
+      </select1>
+      <select1 ref="/data/specie_details/roof_type">
+        <label ref="jr:itext('/data/specie_details/roof_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/specie_details/roof_type:option0')"/>
+          <value>thatched_roof</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/roof_type:option1')"/>
+          <value>corrogated_iron_sheets</value>
+        </item>
+      </select1>
+      <select ref="/data/specie_details/species" appearance="horizontal">
+        <label ref="jr:itext('/data/specie_details/species:label')"/>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option0')"/>
+          <value>aedes_aegypty</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option1')"/>
+          <value>an_Gambiae</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option2')"/>
+          <value>An_funestus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option3')"/>
+          <value>An_Implexus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option4')"/>
+          <value>An_squamous</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/specie_details/species:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/other_species" appearance="field-list">
+      <label ref="jr:itext('/data/other_species:label')"/>
+      <input ref="/data/other_species/specie1">
+        <label ref="jr:itext('/data/other_species/specie1:label')"/>
+      </input>
+      <input ref="/data/other_species/specie2">
+        <label ref="jr:itext('/data/other_species/specie2:label')"/>
+      </input>
+      <input ref="/data/other_species/specie3">
+        <label ref="jr:itext('/data/other_species/specie3:label')"/>
+      </input>
+      <input ref="/data/other_species/specie4">
+        <label ref="jr:itext('/data/other_species/specie4:label')"/>
+      </input>
+      <input ref="/data/other_species/specie5">
+        <label ref="jr:itext('/data/other_species/specie5:label')"/>
+      </input>
+    </group>
+    <input ref="/data/gps_locat">
+      <label ref="jr:itext('/data/gps_locat:label')"/>
+    </input>
+  </h:body>
+</h:html>

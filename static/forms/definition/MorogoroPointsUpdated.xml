@@ -1,0 +1,245 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>MorogoroPointsUpdated</h:title>
+    <model>
+      <instance>
+        <data id="build_MorogoroPointsUpdated_1504638608">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Details>
+            <Point/>
+            <District/>
+            <Ward/>
+            <VillageName/>
+            <Health_Fac_livestock_office/>
+          </Details>
+          <Stat_data>
+            <chr/>
+            <LFO/>
+            <M_service_provider/>
+            <internet/>
+            <Image/>
+            <GPS/>
+          </Stat_data>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/Details/Point:label">
+            <value>Data collection point</value>
+          </text>
+          <text id="/data/Details/Point:option0">
+            <value>Health facility</value>
+          </text>
+          <text id="/data/Details/Point:option1">
+            <value>Village</value>
+          </text>
+          <text id="/data/Details/Point:option2">
+            <value>Livestock office</value>
+          </text>
+          <text id="/data/Details/District:label">
+            <value>District</value>
+          </text>
+          <text id="/data/Details/District:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/Details/District:option1">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/Details/District:option2">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/Details/Ward:label">
+            <value> Ward</value>
+          </text>
+          <text id="/data/Details/Ward:hint">
+            <value></value>
+          </text>
+          <text id="/data/Details/VillageName:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/data/Details/Health_Fac_livestock_office:label">
+            <value>Name of Health Facility / Livestock office</value>
+          </text>
+          <text id="/data/Stat_data:label">
+            <value>Statistic Data</value>
+          </text>
+          <text id="/data/Stat_data/chr:label">
+            <value>Number of Community reporters</value>
+          </text>
+          <text id="/data/Stat_data/LFO:label">
+            <value>Number of Livestock field officers</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:label">
+            <value>Mobile service providers available</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option0">
+            <value>Vodacom</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option1">
+            <value>Airtel</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option2">
+            <value>Tigo</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option3">
+            <value>Halotel</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option4">
+            <value>TTCL</value>
+          </text>
+          <text id="/data/Stat_data/M_service_provider:option5">
+            <value>Zantel</value>
+          </text>
+          <text id="/data/Stat_data/internet:label">
+            <value>Internet</value>
+          </text>
+          <text id="/data/Stat_data/internet:option0">
+            <value>3G</value>
+          </text>
+          <text id="/data/Stat_data/internet:option1">
+            <value>GPRS</value>
+          </text>
+          <text id="/data/Stat_data/internet:option2">
+            <value>EDGE</value>
+          </text>
+          <text id="/data/Stat_data/internet:option3">
+            <value>4G</value>
+          </text>
+          <text id="/data/Stat_data/Image:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Stat_data/Image:hint">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Stat_data/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Details/Point" type="select1"/>
+      <bind nodeset="/data/Details/District" type="select1"/>
+      <bind nodeset="/data/Details/Ward" type="string"/>
+      <bind nodeset="/data/Details/VillageName" type="string"/>
+      <bind nodeset="/data/Details/Health_Fac_livestock_office" type="string"/>
+      <bind nodeset="/data/Stat_data/chr" type="int"/>
+      <bind nodeset="/data/Stat_data/LFO" type="int"/>
+      <bind nodeset="/data/Stat_data/M_service_provider" type="select"/>
+      <bind nodeset="/data/Stat_data/internet" type="select1"/>
+      <bind nodeset="/data/Stat_data/Image" type="binary"/>
+      <bind nodeset="/data/Stat_data/GPS" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Details:label')"/>
+      <select1 ref="/data/Details/Point">
+        <label ref="jr:itext('/data/Details/Point:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Details/Point:option0')"/>
+          <value>Health_facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Point:option1')"/>
+          <value>Village</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/Point:option2')"/>
+          <value>livestock_office</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Details/District">
+        <label ref="jr:itext('/data/Details/District:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option0')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option1')"/>
+          <value>Malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Details/District:option2')"/>
+          <value>Ulanga</value>
+        </item>
+      </select1>
+      <input ref="/data/Details/Ward">
+        <label ref="jr:itext('/data/Details/Ward:label')"/>
+        <hint ref="jr:itext('/data/Details/Ward:hint')"/>
+      </input>
+      <input ref="/data/Details/VillageName">
+        <label ref="jr:itext('/data/Details/VillageName:label')"/>
+      </input>
+      <input ref="/data/Details/Health_Fac_livestock_office">
+        <label ref="jr:itext('/data/Details/Health_Fac_livestock_office:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Stat_data:label')"/>
+      <input ref="/data/Stat_data/chr">
+        <label ref="jr:itext('/data/Stat_data/chr:label')"/>
+      </input>
+      <input ref="/data/Stat_data/LFO">
+        <label ref="jr:itext('/data/Stat_data/LFO:label')"/>
+      </input>
+      <select ref="/data/Stat_data/M_service_provider">
+        <label ref="jr:itext('/data/Stat_data/M_service_provider:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option0')"/>
+          <value>Vodacom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option1')"/>
+          <value>Airtel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option2')"/>
+          <value>Tigo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option3')"/>
+          <value>Halotel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option4')"/>
+          <value>TTCL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/M_service_provider:option5')"/>
+          <value>Zantel</value>
+        </item>
+      </select>
+      <select1 ref="/data/Stat_data/internet">
+        <label ref="jr:itext('/data/Stat_data/internet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/internet:option0')"/>
+          <value>3G</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/internet:option1')"/>
+          <value>GPRS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/internet:option2')"/>
+          <value>EDGE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Stat_data/internet:option3')"/>
+          <value>4G</value>
+        </item>
+      </select1>
+      <upload ref="/data/Stat_data/Image" mediatype="image/*">
+        <label ref="jr:itext('/data/Stat_data/Image:label')"/>
+        <hint ref="jr:itext('/data/Stat_data/Image:hint')"/>
+      </upload>
+      <input ref="/data/Stat_data/GPS">
+        <label ref="jr:itext('/data/Stat_data/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

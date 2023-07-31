@@ -1,0 +1,143 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Mikumi Weather Data</h:title>
+    <model>
+      <instance>
+        <data id="build_Mikumi-Weather-Data_1518775940">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <station/>
+            <date/>
+            <min_temp/>
+            <max_temp/>
+            <rainfall/>
+          </general>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>Daily Weather Data Collection</value>
+          </text>
+          <text id="/data/general/station:label">
+            <value>Name of Station</value>
+          </text>
+          <text id="/data/general/station:option0">
+            <value>Head Quaters</value>
+          </text>
+          <text id="/data/general/station:option1">
+            <value>Chamgore</value>
+          </text>
+          <text id="/data/general/station:option2">
+            <value>Mbogayaga</value>
+          </text>
+          <text id="/data/general/station:option3">
+            <value>Mgoda</value>
+          </text>
+          <text id="/data/general/station:option4">
+            <value>Doma</value>
+          </text>
+          <text id="/data/general/station:option5">
+            <value>Kikwaraza</value>
+          </text>
+          <text id="/data/general/station:option6">
+            <value>Mahondo</value>
+          </text>
+          <text id="/data/general/station:option7">
+            <value>Lumanga</value>
+          </text>
+          <text id="/data/general/station:option8">
+            <value>Pwaga</value>
+          </text>
+          <text id="/data/general/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/general/min_temp:label">
+            <value>Minimum Temperature</value>
+          </text>
+          <text id="/data/general/max_temp:label">
+            <value>Maximum Temperature</value>
+          </text>
+          <text id="/data/general/rainfall:label">
+            <value>Rainfall in mm</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/station" type="select1"/>
+      <bind nodeset="/data/general/date" type="date"/>
+      <bind nodeset="/data/general/min_temp" type="int" required="true()" constraint="(. &gt;= '0') and (. &lt;= '25')" jr:constraintMsg="Value must be between 0 and 25"/>
+      <bind nodeset="/data/general/max_temp" type="int" required="true()" constraint="(. &gt; '15') and (. &lt; '45')" jr:constraintMsg="Value must be between 15 and 45"/>
+      <bind nodeset="/data/general/rainfall" type="int" required="true()"/>
+      
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat(/data/general/station,': ',/data/general/date)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <select1 appearance="minimal" ref="/data/general/station">
+        <label ref="jr:itext('/data/general/station:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/station:option0')"/>
+          <value>HQ</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option1')"/>
+          <value>chamgore</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option2')"/>
+          <value>mbogayaga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option3')"/>
+          <value>mgoda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option4')"/>
+          <value>doma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option5')"/>
+          <value>kikwaraza</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option6')"/>
+          <value>mahondo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option7')"/>
+          <value>lumanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/station:option8')"/>
+          <value>pwaga</value>
+        </item>
+      </select1>
+      <input ref="/data/general/date">
+        <label ref="jr:itext('/data/general/date:label')"/>
+      </input>
+      <input ref="/data/general/min_temp">
+        <label ref="jr:itext('/data/general/min_temp:label')"/>
+      </input>
+      <input ref="/data/general/max_temp">
+        <label ref="jr:itext('/data/general/max_temp:label')"/>
+      </input>
+      <input ref="/data/general/rainfall">
+        <label ref="jr:itext('/data/general/rainfall:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

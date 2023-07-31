@@ -1,0 +1,226 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Lab Request Form</h:title>
+    <model>
+      <instance>
+        <data id="build_Lab_Request_55">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <patient_details>
+            <barcode/>
+            <admission_number/>
+            <patient_name/>
+            <age/>
+            <gender/>
+          </patient_details>
+          <locality>
+            <district/>
+            <ward/>
+            <address/>
+          </locality>
+          <lab_request>
+              <Lab_tests/>
+          </lab_request>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/patient_details:label">
+            <value>Patient Details</value>
+          </text>
+          <text id="/data/patient_details/barcode:label">
+            <value>Barcode</value>
+          </text>
+          <text id="/data/patient_details/admission_number:label">
+            <value>Admission Number</value>
+          </text>
+          <text id="/data/patient_details/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/data/patient_details/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/patient_details/age:option0">
+            <value>Below 5</value>
+          </text>
+          <text id="/data/patient_details/age:option1">
+            <value>Above 5</value>
+          </text>
+          <text id="/data/patient_details/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/patient_details/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/patient_details/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/locality:label">
+            <value>Patient Locality</value>
+          </text>
+          <text id="/data/locality/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/locality/district:option0">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/locality/district:option1">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/locality/district:option2">
+            <value>Temeke</value>
+          </text>
+          <text id="/data/locality/district:option3">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/locality/district:option4">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/locality/district:option5">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/locality/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/locality/address:label">
+            <value>Physical address</value>
+          </text>
+          <text id="/data/locality/address:hint">
+            <value>Street/Village/Mtaa</value>
+          </text>
+          <text id="/data/lab_request:label">
+              <value>Lab Request</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:label">
+              <value>Test requested</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option0">
+              <value>Cholera</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option1">
+              <value>Malaria</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option2">
+              <value>Typhoid</value>
+          </text>
+          <text id="/data/lab_request/Lab_tests:option3">
+              <value>Brusolosis</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/patient_details/barcode" type="barcode" required="true()"/>
+      <bind nodeset="/data/patient_details/admission_number" type="int" required="true()"/>
+      <bind nodeset="/data/patient_details/patient_name" type="string" required="true()"/>
+      <bind nodeset="/data/patient_details/age" type="select1"/>
+      <bind nodeset="/data/patient_details/gender" type="select1" required="true()"/>
+      <bind nodeset="/data/locality/district" type="select1" required="true()"/>
+      <bind nodeset="/data/locality/ward" type="string"/>
+      <bind nodeset="/data/locality/address" type="string"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Request',': ',/data/patient_details/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+      <bind nodeset="/data/lab_request/Lab_tests" type="select"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/patient_details:label')"/>
+      <input ref="/data/patient_details/barcode">
+        <label ref="jr:itext('/data/patient_details/barcode:label')"/>
+      </input>
+      <input ref="/data/patient_details/admission_number">
+        <label ref="jr:itext('/data/patient_details/admission_number:label')"/>
+      </input>
+      <input ref="/data/patient_details/patient_name">
+        <label ref="jr:itext('/data/patient_details/patient_name:label')"/>
+      </input>
+      <select1 ref="/data/patient_details/age">
+        <label ref="jr:itext('/data/patient_details/age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/patient_details/age:option0')"/>
+          <value>Below 5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/patient_details/age:option1')"/>
+          <value>About 5</value>
+        </item>
+      </select1>
+      <select1 ref="/data/patient_details/gender">
+        <label ref="jr:itext('/data/patient_details/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/patient_details/gender:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/patient_details/gender:option1')"/>
+          <value>Female</value>
+        </item>
+      </select1>
+    </group>
+    <group  appearance="field-list">
+      <label ref="jr:itext('/data/locality:label')"/>
+      <select1 ref="/data/locality/district">
+        <label ref="jr:itext('/data/locality/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option0')"/>
+          <value>Kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option1')"/>
+          <value>Ilala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option2')"/>
+          <value>Temeke</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option3')"/>
+          <value>Morogoro Mjin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option4')"/>
+          <value>Mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/locality/district:option5')"/>
+          <value>Kilosa</value>
+        </item>
+      </select1>
+      <input ref="/data/locality/ward">
+        <label ref="jr:itext('/data/locality/ward:label')"/>
+      </input>
+      <input ref="/data/locality/address">
+        <label ref="jr:itext('/data/locality/address:label')"/>
+        <hint ref="jr:itext('/data/locality/address:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+        <select ref="/data/lab_request/Lab_tests">
+            <label ref="jr:itext('/data/lab_request/Lab_tests:label')"/>
+            <item>
+                <label ref="jr:itext('/data/lab_request/Lab_tests:option0')"/>
+                <value>cholera</value>
+            </item>
+            <item>
+                <label ref="jr:itext('/data/lab_request/Lab_tests:option1')"/>
+                <value>malaria</value>
+            </item>
+            <item>
+                <label ref="jr:itext('/data/lab_request/Lab_tests:option2')"/>
+                <value>typhoid</value>
+            </item>
+            <item>
+                <label ref="jr:itext('/data/lab_request/Lab_tests:option3')"/>
+                <value>Brucellosis</value>
+            </item>
+        </select>
+    </group>
+  </h:body>
+</h:html>

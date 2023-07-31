@@ -1,0 +1,89 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Lab Results</h:title>
+    <model>
+      <instance>
+        <data id="build_Lab-Results_27">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Lab_results>
+            <adminission_number/>
+            <lab_results/>
+            <differential_diagnosis/>
+          </Lab_results>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Lab_results:label">
+            <value>Lab Results</value>
+          </text>
+          <text id="/data/Lab_results/adminission_number:label">
+            <value>Admission Number</value>
+          </text>
+          <text id="/data/Lab_results/lab_results:label">
+            <value>Lab Results</value>
+          </text>
+          <text id="/data/Lab_results/lab_results:option0">
+            <value>Cholera</value>
+          </text>
+          <text id="/data/Lab_results/lab_results:option1">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/Lab_results/lab_results:option2">
+            <value>Typhoid</value>
+          </text>
+          <text id="/data/Lab_results/lab_results:option3">
+            <value>Brucelosis</value>
+          </text>
+          <text id="/data/Lab_results/differential_diagnosis:label">
+            <value>Differential Diagnosis</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Lab_results/adminission_number" type="barcode" required="true()"/>
+      <bind nodeset="/data/Lab_results/lab_results" type="select1"/>
+      <bind nodeset="/data/Lab_results/differential_diagnosis" type="string"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Mifugo',': ',/data/Lab_results/adminission_number)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Lab_results:label')"/>
+      <input ref="/data/Lab_results/adminission_number">
+        <label ref="jr:itext('/data/Lab_results/adminission_number:label')"/>
+      </input>
+      <select1 ref="/data/Lab_results/lab_results">
+        <label ref="jr:itext('/data/Lab_results/lab_results:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Lab_results/lab_results:option0')"/>
+          <value>cholera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Lab_results/lab_results:option1')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Lab_results/lab_results:option2')"/>
+          <value>typhoid</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Lab_results/lab_results:option3')"/>
+          <value>brucelosis</value>
+        </item>
+      </select1>
+      <input ref="/data/Lab_results/differential_diagnosis">
+        <label ref="jr:itext('/data/Lab_results/differential_diagnosis:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

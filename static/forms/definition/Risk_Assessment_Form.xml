@@ -1,0 +1,1679 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Risk Assessment Form</h:title>
+    <model>
+      <instance>
+        <data id="build_Risk-Assessment-Form_1527865727">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Identification>
+            <region/>
+            <district/>
+            <vilage_or_street/>
+            <interview_date/>
+            <sample_coll_place/>
+          </Identification>
+          <facility>
+            <facility_name/>
+            <level/>
+          </facility>
+          <participants_details>
+            <participantID/>
+            <age_months/>
+            <age_years/>
+            <sex/>
+            <place_living/>
+            <how_long_months/>
+            <how_long_years/>
+            <Occupation/>
+          </participants_details>
+          <participants_details_travelH>
+            <other_occupation/>
+            <highest_education_level/>
+            <travel_hist_ave_time_spent_outside_region/>
+          </participants_details_travelH>
+          <trav_hist_other_countries/>
+          <clinical_assessment>
+            <past1month_suffered_from_fever/>
+            <past3months_fever_history_antimal/>
+            <clinical_signs/>
+          </clinical_assessment>
+          <other_clinical_signs/>
+          <exposure_risk_practices1>
+            <tick_bite_remv_tick_crush_tick_bare_hand/>
+            <mosquito_bite/>
+            <contacted_wild_animals_rodents/>
+            <contact_wild_birds/>
+            <contact_with_bats/>
+            <consume_raw_meat/>
+            <consume_raw_milk/>
+            <consume_raw_blood/>
+            <consume_game_meat/>
+            <consume_primate/>
+          </exposure_risk_practices1>
+          <exposure_risk_practices2>
+            <handled_meet_of_butchered_dead_primates/>
+            <contact_body_fluids_dead_animal/>
+            <contact_boady_fluids_dead_animal/>
+            <visited_caves/>
+            <visit_mines/>
+            <stagnant_water/>
+            <piped_water_at_home/>
+            <freq_visit_recreation_facilty/>
+            <use_mosq_net/>
+            <use_mosq_repellants/>
+            <keep_animal/>
+          </exposure_risk_practices2>
+          <exposure_risk_animal_kept/>
+          <exposure_risk_pract_animal>
+            <other_animals_kept/>
+            <keep_animal_within_hous_sleep/>
+          </exposure_risk_pract_animal>
+          <exposure_risk_animal_within_house/>
+          <exposure_risk_other_animal_kept_within_house/>
+          <awareness_heard_VHF_human/>
+          <awareness_heard_VHF_human_disease/>
+          <awareness>
+            <Other_disease_heard/>
+            <source_of_info/>
+            <how_VHF_prevented/>
+          </awareness>
+          <GPS_location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Identification:label">
+            <value>Identification Information</value>
+          </text>
+          <text id="/data/Identification/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/Identification/region:option0">
+            <value>Dar es Salaam</value>
+          </text>
+          <text id="/data/Identification/region:option1">
+            <value>Pwani</value>
+          </text>
+          <text id="/data/Identification/region:option2">
+            <value>Morogoro</value>
+          </text>
+          <text id="/data/Identification/region:option3">
+            <value>Dodoma</value>
+          </text>
+          <text id="/data/Identification/region:option4">
+            <value>Kigoma</value>
+          </text>
+          <text id="/data/Identification/region:option5">
+            <value>Tanga</value>
+          </text>
+          <text id="/data/Identification/region:option6">
+            <value>Rukwa</value>
+          </text>
+          <text id="/data/Identification/region:option7">
+            <value>Mbeya</value>
+          </text>
+          <text id="/data/Identification/region:option8">
+            <value>Mwanza</value>
+          </text>
+          <text id="/data/Identification/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/Identification/district:option0">
+            <value>Buhigwe</value>
+          </text>
+          <text id="/data/Identification/district:option1">
+            <value>Kalambo</value>
+          </text>
+          <text id="/data/Identification/district:option2">
+            <value>Kyela</value>
+          </text>
+          <text id="/data/Identification/district:option3">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/Identification/district:option4">
+            <value>Kilindi</value>
+          </text>
+          <text id="/data/Identification/district:option5">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/Identification/district:option6">
+            <value>Kondoa</value>
+          </text>
+          <text id="/data/Identification/district:option7">
+            <value>Ukerewe</value>
+          </text>
+          <text id="/data/Identification/vilage_or_street:label">
+            <value>Village / Street</value>
+          </text>
+          <text id="/data/Identification/interview_date:label">
+            <value>Date of Interview / sample collection</value>
+          </text>
+          <text id="/data/Identification/sample_coll_place:label">
+            <value>Place of Sample / Data colection</value>
+          </text>
+          <text id="/data/Identification/sample_coll_place:option0">
+            <value>Household</value>
+          </text>
+          <text id="/data/Identification/sample_coll_place:option1">
+            <value>Facility</value>
+          </text>
+          <text id="/data/facility:label">
+            <value>Facility Detatils</value>
+          </text>
+          <text id="/data/facility/facility_name:label">
+            <value>Facility Name</value>
+          </text>
+          <text id="/data/facility/level:label">
+            <value>Facility level</value>
+          </text>
+          <text id="/data/facility/level:option0">
+            <value>Dispensary</value>
+          </text>
+          <text id="/data/facility/level:option1">
+            <value>Health Centre </value>
+          </text>
+          <text id="/data/facility/level:option2">
+            <value>Hospital</value>
+          </text>
+          <text id="/data/participants_details:label">
+            <value>Participants Details</value>
+          </text>
+          <text id="/data/participants_details/participantID:label">
+            <value>Participant ID</value>
+          </text>
+          <text id="/data/participants_details/participantID:hint">
+            <value>Take from names sheet; use it to label the sample). The first three letters represent the district name, followed by three numbers representing the ID of participant</value>
+          </text>
+          <text id="/data/participants_details/age_months:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/participants_details/age_months:hint">
+            <value>Months (less than 12months)</value>
+          </text>
+          <text id="/data/participants_details/age_years:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/participants_details/age_years:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/participants_details/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/participants_details/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/participants_details/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/participants_details/place_living:label">
+            <value>Place of Living</value>
+          </text>
+          <text id="/data/participants_details/place_living:hint">
+            <value>Village / Street</value>
+          </text>
+          <text id="/data/participants_details/how_long_months:label">
+            <value>How long have you lived in this Village / street</value>
+          </text>
+          <text id="/data/participants_details/how_long_months:hint">
+            <value>Months</value>
+          </text>
+          <text id="/data/participants_details/how_long_years:label">
+            <value>How long have you lived in this Village / street</value>
+          </text>
+          <text id="/data/participants_details/how_long_years:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/participants_details/Occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option0">
+            <value>Livestock farming</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option1">
+            <value>Crop farming</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option2">
+            <value>Fishing</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option3">
+            <value>Hunting</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option4">
+            <value>Informal sector (Daily laboured/self-employed )</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option5">
+            <value>Formal employment (Public service, /private sector/NGOs)</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option6">
+            <value>Student (primary/secondary)</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option7">
+            <value>Business/trader</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option8">
+            <value>Mining</value>
+          </text>
+          <text id="/data/participants_details/Occupation:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/participants_details_travelH:label">
+            <value>Participants Details &amp; Travel History</value>
+          </text>
+          <text id="/data/participants_details_travelH/other_occupation:label">
+            <value>Other Occupation</value>
+          </text>
+          <text id="/data/participants_details_travelH/other_occupation:hint">
+            <value>Please specify</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:label">
+            <value>Highest education level of the respondent</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option0">
+            <value>Primary school</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option1">
+            <value>Secondary school</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option2">
+            <value>College/University</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option3">
+            <value>Vocational training school</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option4">
+            <value>Adult education</value>
+          </text>
+          <text id="/data/participants_details_travelH/highest_education_level:option5">
+            <value>None</value>
+          </text>
+          <text id="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:label">
+            <value>On average how many times have you been outside your region during the past 12 months?</value>
+          </text>
+          <text id="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option0">
+            <value>None</value>
+          </text>
+          <text id="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option1">
+            <value>Weekly</value>
+          </text>
+          <text id="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option2">
+            <value>Monthly</value>
+          </text>
+          <text id="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option3">
+            <value>Quarterly</value>
+          </text>
+          <text id="/data/trav_hist_other_countries:label">
+            <value>Please, mention the countries other than Tanzania where you have been to during the past 12 months</value>
+          </text>
+          <text id="/data/trav_hist_other_countries:hint">
+            <value>Please, separate by comma</value>
+          </text>
+          <text id="/data/clinical_assessment:label">
+            <value>Clinical Assessment</value>
+          </text>
+          <text id="/data/clinical_assessment/past1month_suffered_from_fever:label">
+            <value>Ever suffered from fever?</value>
+          </text>
+          <text id="/data/clinical_assessment/past1month_suffered_from_fever:hint">
+            <value>For the past one month</value>
+          </text>
+          <text id="/data/clinical_assessment/past1month_suffered_from_fever:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/clinical_assessment/past1month_suffered_from_fever:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/clinical_assessment/past1month_suffered_from_fever:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/clinical_assessment/past3months_fever_history_antimal:label">
+            <value>History of fever persisting after using antimalarials</value>
+          </text>
+          <text id="/data/clinical_assessment/past3months_fever_history_antimal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/clinical_assessment/past3months_fever_history_antimal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/clinical_assessment/past3months_fever_history_antimal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:label">
+            <value>Clinical Signs</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option0">
+            <value>Headache</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option1">
+            <value>Rash</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option2">
+            <value>Muscle, bone, back or joint pain</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option3">
+            <value>Bleeding from natural body openings</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option4">
+            <value>Nausea</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option5">
+            <value>Vomiting</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option6">
+            <value>Bruising</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option7">
+            <value>Fatigue</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option8">
+            <value>Stomach ache</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option9">
+            <value>Red spots (skin/eyes/mucosa)</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option10">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option11">
+            <value>Other</value>
+          </text>
+          <text id="/data/clinical_assessment/clinical_signs:option12">
+            <value>None</value>
+          </text>
+          <text id="/data/other_clinical_signs:label">
+            <value>Please mention other Clinical signs</value>
+          </text>
+          <text id="/data/other_clinical_signs:hint">
+            <value>Please, separate by comma</value>
+          </text>
+          <text id="/data/exposure_risk_practices1:label">
+            <value>Exposure risk practices: During the past 3 months; has participant: (Keep to mentioning examples of VHF diseases to particpants for each relevant questions)</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:label">
+            <value>Received a tick bite &amp;/or removed a tick &amp;/or crushed a tick with their bare hands</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/mosquito_bite:label">
+            <value>Received Mosquito bite</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/mosquito_bite:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/mosquito_bite:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/mosquito_bite:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contacted_wild_animals_rodents:label">
+            <value>Been into contact with wild animals or rodents?</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contacted_wild_animals_rodents:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contacted_wild_animals_rodents:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contacted_wild_animals_rodents:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_wild_birds:label">
+            <value>Been into contact with wild birds?</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_wild_birds:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_wild_birds:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_wild_birds:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_with_bats:label">
+            <value>Been into contact with bats?</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_with_bats:hint">
+            <value></value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_with_bats:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_with_bats:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/contact_with_bats:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_meat:label">
+            <value>Do you consume raw meat? </value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_meat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_meat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_meat:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_milk:label">
+            <value>Do you consume raw milk? </value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_milk:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_milk:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_milk:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_blood:label">
+            <value>Do you consume raw blood? </value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_blood:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_blood:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_raw_blood:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_game_meat:label">
+            <value>Do you consume game meat? </value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_game_meat:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_game_meat:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_game_meat:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_primate:label">
+            <value>Do you consume primates meat? </value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_primate:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_primate:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices1/consume_primate:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2:label">
+            <value>Exposure risk practices: During the past 3 months; has participant: (Keep to mentioning examples of VHF diseases to particpants for each relevant questions)</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:label">
+            <value>Handled or butchered dead primates/been involved in drying or smoking</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_body_fluids_dead_animal:label">
+            <value>Come into contact with the body fluids of, or had direct contact with dead animal</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:label">
+            <value>Come into contact with the body fluids of, or had direct contact with dead individual</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visited_caves:label">
+            <value>Have you visited caves?</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visited_caves:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visited_caves:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visited_caves:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visit_mines:label">
+            <value>Have you visited  mines</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visit_mines:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visit_mines:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/visit_mines:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/stagnant_water:label">
+            <value>Are there some stagnant water bodies at home</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/stagnant_water:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/stagnant_water:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/stagnant_water:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/piped_water_at_home:label">
+            <value>Do you have piped water at home</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/piped_water_at_home:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/piped_water_at_home:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/piped_water_at_home:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/freq_visit_recreation_facilty:label">
+            <value>Do you Frequently visit recreation facilities</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/freq_visit_recreation_facilty:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/freq_visit_recreation_facilty:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/freq_visit_recreation_facilty:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_net:label">
+            <value>Do you use mosquito net</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_net:hint">
+            <value></value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_net:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_net:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_net:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_repellants:label">
+            <value>Do you use mosquito repellants</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_repellants:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_repellants:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/use_mosq_repellants:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/keep_animal:label">
+            <value>Do you keep animals</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/keep_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_practices2/keep_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:label">
+            <value>Please select animals which are being kept</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option3">
+            <value>Cat</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option4">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option5">
+            <value>Pigs</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option6">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/exposure_risk_animal_kept:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal:label">
+            <value>Exposure risk practices</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal/other_animals_kept:label">
+            <value>Other animals kept apart from listed ones</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal/other_animals_kept:hint">
+            <value>Please separate by comma</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:label">
+            <value>Do you keep animals within the house you sleep?</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:label">
+            <value>Please select animals which are kept within the house you sleep</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option0">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option2">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option3">
+            <value>Cat</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option4">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option5">
+            <value>Pigs</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option6">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/exposure_risk_animal_within_house:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/exposure_risk_other_animal_kept_within_house:label">
+            <value>Other animals which are kept within the house apart from listed ones</value>
+          </text>
+          <text id="/data/exposure_risk_other_animal_kept_within_house:hint">
+            <value>Please separate by comma</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human:label">
+            <value>Awareness: Have you heard of human disease characterised by high fever &amp; body bleeding </value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human:hint">
+            <value>prior to this interview </value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human_disease:label">
+            <value>Awareness: Please select human diseases heard characterised by high fever &amp; body bleeding </value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human_disease:option0">
+            <value>Ebola</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human_disease:option1">
+            <value>RVF</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human_disease:option2">
+            <value>Yellow fever</value>
+          </text>
+          <text id="/data/awareness_heard_VHF_human_disease:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/awareness:label">
+            <value>Awareness</value>
+          </text>
+          <text id="/data/awareness/Other_disease_heard:label">
+            <value>Other diseases heard, characterised by high fever &amp; body bleeding </value>
+          </text>
+          <text id="/data/awareness/source_of_info:label">
+            <value>What was the source of information (TV, Radio, family, friend, school, newspaper)? </value>
+          </text>
+          <text id="/data/awareness/how_VHF_prevented:label">
+            <value>Do you know how VHF can be prevented</value>
+          </text>
+          <text id="/data/awareness/how_VHF_prevented:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/awareness/how_VHF_prevented:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/awareness/how_VHF_prevented:option2">
+            <value>NK</value>
+          </text>
+          <text id="/data/GPS_location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Identification/region" type="select1" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/Identification/district" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/Identification/vilage_or_street" type="string" required="true()" jr:requiredMsg="Village/street is required"/>
+      <bind nodeset="/data/Identification/interview_date" type="date" required="true()" jr:requiredMsg="Date is required"/>
+      <bind nodeset="/data/Identification/sample_coll_place" type="select1" required="true()" jr:requiredMsg="Place of sample/data collection is required"/>
+
+      <bind nodeset="/data/facility/facility_name" type="string" relevant="(selected(/data/Identification/sample_coll_place, 'facility'))" required="true()" jr:requiredMsg="Facility name is required" required="true()" jr:requiredMsg="Facility name is required"/>
+      <bind nodeset="/data/facility/level" type="select1" relevant="(selected(/data/Identification/sample_coll_place, 'facility'))" required="true()" jr:requiredMsg="Facility level is required" required="true()" jr:requiredMsg="Facility level is required"/>
+
+      <bind nodeset="/data/participants_details/participantID" type="string" required="true()" jr:requiredMsg="Participants ID is required"/>
+      <bind nodeset="/data/participants_details/age_months" type="int" required="true()" jr:requiredMsg="Age (months) is required"/>
+      <bind nodeset="/data/participants_details/age_years" type="int" required="true()" jr:requiredMsg="Age (years) is required"/>
+      <bind nodeset="/data/participants_details/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/participants_details/place_living" type="string" required="true()" jr:requiredMsg="Place of Living is required"/>
+      <bind nodeset="/data/participants_details/how_long_months" type="int" required="true()" jr:requiredMsg="How long have you lived (month) is required"/>
+      <bind nodeset="/data/participants_details/how_long_years" type="int" required="true()" jr:requiredMsg="How long have you lived (years) is required"/>
+      <bind nodeset="/data/participants_details/Occupation" type="select" required="true()" jr:requiredMsg="Occupation is required"/>
+
+      <bind nodeset="/data/participants_details_travelH/other_occupation" type="string" relevant="(selected(/data/participants_details/Occupation, 'other'))" required="true()" jr:requiredMsg="Other Occupation is required"/>
+
+      <bind nodeset="/data/participants_details_travelH/highest_education_level" type="select1" required="true()" jr:requiredMsg="Highest education level is required"/>
+      <bind nodeset="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region" type="select1" required="true()" jr:requiredMsg="avarage time spent ouside the region is required"/>
+
+      <bind nodeset="/data/trav_hist_other_countries" type="string" relevant="not(selected(/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region, 'none'))"/>
+
+      <bind nodeset="/data/clinical_assessment/past1month_suffered_from_fever" type="select1" required="true()" jr:requiredMsg="Seffered from fever opt is required"/>
+      <bind nodeset="/data/clinical_assessment/past3months_fever_history_antimal" type="select1" required="true()" jr:requiredMsg="Persisting after using antimalarials is required"/>
+      <bind nodeset="/data/clinical_assessment/clinical_signs" type="select" required="true()" jr:requiredMsg="Clinical signs is/are required"/>
+
+      <bind nodeset="/data/other_clinical_signs" type="string" relevant="(selected(/data/clinical_assessment/clinical_signs, 'other_clinical_sign'))" required="true()" jr:requiredMsg="other clinical signs is/are required"/>
+
+      <bind nodeset="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand" type="select1" required="true()" jr:requiredMsg="Received tick bite is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/mosquito_bite" type="select1" required="true()" jr:requiredMsg="Mosquito bite is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/contacted_wild_animals_rodents" type="select1" required="true()" jr:requiredMsg="Contact with wild animals is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/contact_wild_birds" type="select1" required="true()" jr:requiredMsg="Contact with wild birds is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/contact_with_bats" type="select1" required="true()" jr:requiredMsg="Contact with bats is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/consume_raw_meat" type="select1" required="true()" jr:requiredMsg="Consume raw meat is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/consume_raw_milk" type="select1" required="true()" jr:requiredMsg="Consume raw milk is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/consume_raw_blood" type="select1" required="true()" jr:requiredMsg="Consume raw blood is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/consume_game_meat" type="select1" required="true()" jr:requiredMsg="Consume game meat is required"/>
+      <bind nodeset="/data/exposure_risk_practices1/consume_primate" type="select1" required="true()" jr:requiredMsg="Consume primantes meat is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates" type="select1" required="true()" jr:requiredMsg="Handled/butchered dead primates is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/contact_body_fluids_dead_animal" type="select1" required="true()" jr:requiredMsg="Contact body fluids/dead animal is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal" type="select1" required="true()" jr:requiredMsg="Contact body fluid/dead individual is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/visited_caves" type="select1" required="true()" jr:requiredMsg="Caves visitation is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/visit_mines" type="select1" required="true()" jr:requiredMsg="Mines visitation is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/stagnant_water" type="select1" required="true()" jr:requiredMsg="Stagnant water bodies is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/piped_water_at_home" type="select1" required="true()" jr:requiredMsg="Piped water is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/freq_visit_recreation_facilty" type="select1" required="true()" jr:requiredMsg="Recreation visitation is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/use_mosq_net" type="select1" required="true()" jr:requiredMsg="Usage of mosquito net is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/use_mosq_repellants" type="select1" required="true()" jr:requiredMsg="Mosquito repellants is required"/>
+      <bind nodeset="/data/exposure_risk_practices2/keep_animal" type="select1" required="true()" jr:requiredMsg="Keeping animals is required"/>
+
+      <bind nodeset="/data/exposure_risk_animal_kept" type="select" relevant="(selected(/data/exposure_risk_practices2/keep_animal, 'yes'))" required="true()" jr:requiredMsg="Animals kept are required"/>
+      <bind nodeset="/data/exposure_risk_pract_animal/other_animals_kept" type="string" relevant="(selected(/data/exposure_risk_animal_kept, 'other'))" required="true()" jr:requiredMsg="Other animals kept are required"/>
+
+      <bind nodeset="/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep" type="select1" relevant="(selected(/data/exposure_risk_practices2/keep_animal, 'yes'))" required="true()" jr:requiredMsg="Animals within house is required"/>
+      <bind nodeset="/data/exposure_risk_animal_within_house" type="select" relevant="(selected(/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep, 'yes'))" required="true()" jr:requiredMsg="Animals kept within house are required"/>
+      <bind nodeset="/data/exposure_risk_other_animal_kept_within_house" type="string" relevant="(selected(/data/exposure_risk_animal_within_house, 'other'))" required="true()" jr:requiredMsg="Other Animals kept within house is/are required"/>
+
+      <bind nodeset="/data/awareness_heard_VHF_human" type="select1" required="true()" jr:requiredMsg="Human disease heard characterised by VHF is required"/>
+      <bind nodeset="/data/awareness_heard_VHF_human_disease" type="select" relevant="(selected(/data/awareness_heard_VHF_human, 'yes'))" required="true()" jr:requiredMsg="Exapmles of VHF is/are required"/>
+      <bind nodeset="/data/awareness/Other_disease_heard" type="string" type="select" relevant="(selected(/data/awareness_heard_VHF_human_disease, 'other'))" required="true()" jr:requiredMsg="Other example of VHF is/are required"/>
+      <bind nodeset="/data/awareness/source_of_info" type="string" relevant="(selected(/data/awareness_heard_VHF_human, 'yes'))" required="true()" jr:requiredMsg="Source of information is required"/>
+      <bind nodeset="/data/awareness/how_VHF_prevented" type="select1" relevant="(selected(/data/awareness_heard_VHF_human, 'yes'))" required="true()" jr:requiredMsg="How to prevent VHF is required"/>
+      <bind nodeset="/data/GPS_location" type="geopoint" required="true()" jr:requiredMsg="GPS Location is required"/>
+
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('RAF ',': ',/data/participants_details/participantID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Identification:label')"/>
+      <select1 ref="/data/Identification/region" appearance="minimal">
+        <label ref="jr:itext('/data/Identification/region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option0')"/>
+          <value>Dar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option1')"/>
+          <value>pwani</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option2')"/>
+          <value>morogoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option3')"/>
+          <value>dodoma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option4')"/>
+          <value>kigoma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option5')"/>
+          <value>Tanga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option6')"/>
+          <value>rukwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option7')"/>
+          <value>mbeya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/region:option8')"/>
+          <value>mwanza</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Identification/district" appearance="minimal">
+        <label ref="jr:itext('/data/Identification/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option0')"/>
+          <value>buhigwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option1')"/>
+          <value>kalambo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option2')"/>
+          <value>kyela</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option3')"/>
+          <value>kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option4')"/>
+          <value>kilindi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option5')"/>
+          <value>mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option6')"/>
+          <value>kondoa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/district:option7')"/>
+          <value>ukerewe</value>
+        </item>
+      </select1>
+      <input ref="/data/Identification/vilage_or_street">
+        <label ref="jr:itext('/data/Identification/vilage_or_street:label')"/>
+      </input>
+      <input ref="/data/Identification/interview_date" appearance="no-calendar">
+        <label ref="jr:itext('/data/Identification/interview_date:label')"/>
+      </input>
+      <select1 ref="/data/Identification/sample_coll_place" appearance="minimal">
+        <label ref="jr:itext('/data/Identification/sample_coll_place:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Identification/sample_coll_place:option0')"/>
+          <value>household</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Identification/sample_coll_place:option1')"/>
+          <value>facility</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/facility:label')"/>
+      <input ref="/data/facility/facility_name">
+        <label ref="jr:itext('/data/facility/facility_name:label')"/>
+      </input>
+      <select1 ref="/data/facility/level" appearance="minimal">
+        <label ref="jr:itext('/data/facility/level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/facility/level:option0')"/>
+          <value>Dispensary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility/level:option1')"/>
+          <value>health_centre</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/facility/level:option2')"/>
+          <value>Hospital</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/participants_details:label')"/>
+      <input ref="/data/participants_details/participantID">
+        <label ref="jr:itext('/data/participants_details/participantID:label')"/>
+        <hint ref="jr:itext('/data/participants_details/participantID:hint')"/>
+      </input>
+      <input ref="/data/participants_details/age_months">
+        <label ref="jr:itext('/data/participants_details/age_months:label')"/>
+        <hint ref="jr:itext('/data/participants_details/age_months:hint')"/>
+      </input>
+      <input ref="/data/participants_details/age_years">
+        <label ref="jr:itext('/data/participants_details/age_years:label')"/>
+        <hint ref="jr:itext('/data/participants_details/age_years:hint')"/>
+      </input>
+      <select1 ref="/data/participants_details/sex" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/sex:option1')"/>
+          <value>Female</value>
+        </item>
+      </select1>
+      <input ref="/data/participants_details/place_living">
+        <label ref="jr:itext('/data/participants_details/place_living:label')"/>
+        <hint ref="jr:itext('/data/participants_details/place_living:hint')"/>
+      </input>
+      <input ref="/data/participants_details/how_long_months">
+        <label ref="jr:itext('/data/participants_details/how_long_months:label')"/>
+        <hint ref="jr:itext('/data/participants_details/how_long_months:hint')"/>
+      </input>
+      <input ref="/data/participants_details/how_long_years">
+        <label ref="jr:itext('/data/participants_details/how_long_years:label')"/>
+        <hint ref="jr:itext('/data/participants_details/how_long_years:hint')"/>
+      </input>
+      <select ref="/data/participants_details/Occupation" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details/Occupation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option0')"/>
+          <value>livestock_farming</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option1')"/>
+          <value>crop_farming</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option2')"/>
+          <value>fishing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option3')"/>
+          <value>Hunting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option4')"/>
+          <value>informal_sector</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option5')"/>
+          <value>formal_employement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option6')"/>
+          <value>student</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option7')"/>
+          <value>busisness_trader</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option8')"/>
+          <value>Mining</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/Occupation:option9')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/participants_details_travelH:label')"/>
+      <input ref="/data/participants_details_travelH/other_occupation">
+        <label ref="jr:itext('/data/participants_details_travelH/other_occupation:label')"/>
+        <hint ref="jr:itext('/data/participants_details_travelH/other_occupation:hint')"/>
+      </input>
+      <select1 ref="/data/participants_details_travelH/highest_education_level" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option0')"/>
+          <value>primary_school</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option1')"/>
+          <value>secondary_school</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option2')"/>
+          <value>College_universirty</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option3')"/>
+          <value>vocational_training</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option4')"/>
+          <value>adult_education</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/highest_education_level:option5')"/>
+          <value>none</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option0')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option1')"/>
+          <value>weekly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option2')"/>
+          <value>Monthly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details_travelH/travel_hist_ave_time_spent_outside_region:option3')"/>
+          <value>Quarterly</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/trav_hist_other_countries">
+      <label ref="jr:itext('/data/trav_hist_other_countries:label')"/>
+      <hint ref="jr:itext('/data/trav_hist_other_countries:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/clinical_assessment:label')"/>
+      <select1 ref="/data/clinical_assessment/past1month_suffered_from_fever" appearance="minimal">
+        <label ref="jr:itext('/data/clinical_assessment/past1month_suffered_from_fever:label')"/>
+        <hint ref="jr:itext('/data/clinical_assessment/past1month_suffered_from_fever:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past1month_suffered_from_fever:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past1month_suffered_from_fever:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past1month_suffered_from_fever:option2')"/>
+          <value>nk</value>
+        </item>
+      </select1>
+      <select1 ref="/data/clinical_assessment/past3months_fever_history_antimal" appearance="minimal">
+        <label ref="jr:itext('/data/clinical_assessment/past3months_fever_history_antimal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past3months_fever_history_antimal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past3months_fever_history_antimal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/past3months_fever_history_antimal:option2')"/>
+          <value>nk</value>
+        </item>
+      </select1>
+      <select ref="/data/clinical_assessment/clinical_signs" appearance="minimal">
+        <label ref="jr:itext('/data/clinical_assessment/clinical_signs:label')"/>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option0')"/>
+          <value>Headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option1')"/>
+          <value>Rash</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option2')"/>
+          <value>Muscle_bone_back_joint_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option3')"/>
+          <value>Bleeding_from_natural_body_openi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option4')"/>
+          <value>Nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option5')"/>
+          <value>Vomiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option6')"/>
+          <value>Bruising</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option7')"/>
+          <value>Fatigue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option8')"/>
+          <value>Stomach_ache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option9')"/>
+          <value>Red_spots_skin_eyes_mucosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option10')"/>
+          <value>Jaundice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option11')"/>
+          <value>other_clinical_sign</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/clinical_assessment/clinical_signs:option12')"/>
+          <value>none</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/other_clinical_signs">
+      <label ref="jr:itext('/data/other_clinical_signs:label')"/>
+      <hint ref="jr:itext('/data/other_clinical_signs:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/exposure_risk_practices1:label')"/>
+      <select1 ref="/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/tick_bite_remv_tick_crush_tick_bare_hand:option2')"/>
+          <value>nk</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/mosquito_bite" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/mosquito_bite:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/mosquito_bite:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/mosquito_bite:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/mosquito_bite:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/contacted_wild_animals_rodents" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/contacted_wild_animals_rodents:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contacted_wild_animals_rodents:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contacted_wild_animals_rodents:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contacted_wild_animals_rodents:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/contact_wild_birds" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/contact_wild_birds:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_wild_birds:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_wild_birds:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_wild_birds:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/contact_with_bats" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/contact_with_bats:label')"/>
+        <hint ref="jr:itext('/data/exposure_risk_practices1/contact_with_bats:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_with_bats:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_with_bats:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/contact_with_bats:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/consume_raw_meat" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_meat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_meat:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_meat:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_meat:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/consume_raw_milk" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_milk:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_milk:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_milk:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_milk:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/consume_raw_blood" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_blood:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_blood:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_blood:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_raw_blood:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/consume_game_meat" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/consume_game_meat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_game_meat:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_game_meat:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_game_meat:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices1/consume_primate" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices1/consume_primate:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_primate:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_primate:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices1/consume_primate:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/exposure_risk_practices2:label')"/>
+      <select1 ref="/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/handled_meet_of_butchered_dead_primates:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/contact_body_fluids_dead_animal" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/contact_body_fluids_dead_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_body_fluids_dead_animal:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/contact_boady_fluids_dead_animal" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/contact_boady_fluids_dead_animal:option2')"/>
+          <value>Nk</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/visited_caves" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/visited_caves:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visited_caves:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visited_caves:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visited_caves:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/visit_mines" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/visit_mines:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visit_mines:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visit_mines:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/visit_mines:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/stagnant_water" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/stagnant_water:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/stagnant_water:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/stagnant_water:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/stagnant_water:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/piped_water_at_home" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/piped_water_at_home:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/piped_water_at_home:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/piped_water_at_home:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/piped_water_at_home:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/freq_visit_recreation_facilty" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/freq_visit_recreation_facilty:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/freq_visit_recreation_facilty:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/freq_visit_recreation_facilty:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/freq_visit_recreation_facilty:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/use_mosq_net" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_net:label')"/>
+        <hint ref="jr:itext('/data/exposure_risk_practices2/use_mosq_net:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_net:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_net:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_net:option2')"/>
+          <value>nk</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/use_mosq_repellants" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_repellants:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_repellants:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_repellants:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/use_mosq_repellants:option2')"/>
+          <value>nk</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure_risk_practices2/keep_animal" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_practices2/keep_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/keep_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_practices2/keep_animal:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/exposure_risk_animal_kept" appearance="minimal">
+      <label ref="jr:itext('/data/exposure_risk_animal_kept:label')"/>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option3')"/>
+        <value>cat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option4')"/>
+        <value>dogs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option5')"/>
+        <value>pigs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option6')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_kept:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/exposure_risk_pract_animal:label')"/>
+      <input ref="/data/exposure_risk_pract_animal/other_animals_kept">
+        <label ref="jr:itext('/data/exposure_risk_pract_animal/other_animals_kept:label')"/>
+        <hint ref="jr:itext('/data/exposure_risk_pract_animal/other_animals_kept:hint')"/>
+      </input>
+      <select1 ref="/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep" appearance="minimal">
+        <label ref="jr:itext('/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure_risk_pract_animal/keep_animal_within_hous_sleep:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/exposure_risk_animal_within_house" appearance="minimal">
+      <label ref="jr:itext('/data/exposure_risk_animal_within_house:label')"/>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option0')"/>
+        <value>sheep</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option1')"/>
+        <value>goat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option2')"/>
+        <value>cattle</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option3')"/>
+        <value>cat</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option4')"/>
+        <value>dogs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option5')"/>
+        <value>pigs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option6')"/>
+        <value>chicken</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/exposure_risk_animal_within_house:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/exposure_risk_other_animal_kept_within_house">
+      <label ref="jr:itext('/data/exposure_risk_other_animal_kept_within_house:label')"/>
+      <hint ref="jr:itext('/data/exposure_risk_other_animal_kept_within_house:hint')"/>
+    </input>
+    <select1 ref="/data/awareness_heard_VHF_human" appearance="minimal">
+      <label ref="jr:itext('/data/awareness_heard_VHF_human:label')"/>
+      <hint ref="jr:itext('/data/awareness_heard_VHF_human:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/awareness_heard_VHF_human_disease" appearance="minimal">
+      <label ref="jr:itext('/data/awareness_heard_VHF_human_disease:label')"/>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human_disease:option0')"/>
+        <value>Ebola</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human_disease:option1')"/>
+        <value>RVF</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human_disease:option2')"/>
+        <value>Yellow_fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/awareness_heard_VHF_human_disease:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/awareness:label')"/>
+      <input ref="/data/awareness/Other_disease_heard">
+        <label ref="jr:itext('/data/awareness/Other_disease_heard:label')"/>
+      </input>
+      <input ref="/data/awareness/source_of_info">
+        <label ref="jr:itext('/data/awareness/source_of_info:label')"/>
+      </input>
+      <select1 ref="/data/awareness/how_VHF_prevented" appearance="minimal">
+        <label ref="jr:itext('/data/awareness/how_VHF_prevented:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness/how_VHF_prevented:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness/how_VHF_prevented:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness/how_VHF_prevented:option2')"/>
+          <value>NK</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/GPS_location">
+      <label ref="jr:itext('/data/GPS_location:label')"/>
+    </input>
+  </h:body>
+</h:html>

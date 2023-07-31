@@ -1,0 +1,323 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>CHR Cholera Form</h:title>
+    <model>
+      <instance>
+        <data id="build_CHR-Cholera-Form_14782732941">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Taarifa_za_mgonjwa>
+            <Namba_ya_utambulisho/>
+            <Wilaya/>
+            <Kata/>
+            <Kijiji/>
+            <Kitongoji/>
+            <Majina_matatu_mkuu_wa_kaya/>
+            <Namba_ya_mkuu_wa_kaya/>
+          </Taarifa_za_mgonjwa>
+          <Taarifa_zamgonjwa>
+            <Jinsia/>
+            <Umri/>
+            <Amefariki/>
+            <Dalili/>
+            <Picha/>
+            <GPS/>
+          </Taarifa_zamgonjwa>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Taarifa_za_mgonjwa:label">
+            <value>Taarifa za Mgonjwa</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho:label">
+            <value>Namba ya Utambulisho</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho:hint">
+            <value>Herufi ya kwanza ya jina la mgonjwa ikifuatiwa na herufi ya kwanza ya jina la mkuu wa kaya, ikifuatiwa na tarakimu nne za namba za utambulisho. Jaza namba za utambulisho kaitka fomu ya rufaa ikiwa umempa mgonjwa rufaa ya kwenda kituo cha afya: Mfano kama mgonjwa wa nne unayechukua taarifa zake ni Songoi na majina ya mkuu wa kaya ni Sambweti Lemunya, itakua SS0004</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option0">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option1">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option2">
+            <value>Mvomero</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option3">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option4">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Wilaya:option5">
+            <value>Temeke</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Kata:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Kijiji:label">
+            <value>Kijiji / Mtaa</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Kitongoji:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Kitongoji:hint">
+            <value>Sehemu / Eneo maarufu</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Majina_matatu_mkuu_wa_kaya:label">
+            <value>Majina Matatu ya Mkuu wa Kaya</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya:label">
+            <value>Namba Ya Mkuu wa Kaya</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya:hint">
+            <value>Kama ipo</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa:label">
+            <value>Taarifa za Mgonjwa</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Jinsia:option0">
+            <value>Mme</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Jinsia:option1">
+            <value>Mke</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Umri:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Umri:hint">
+            <value></value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Umri:option0">
+            <value>Chini ya Miaka 5</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Umri:option1">
+            <value>Zaidi ya Miaka 5</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Amefariki:label">
+            <value>Amefariki</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Amefariki:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Amefariki:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option0">
+            <value>Kuharisha mfululizo</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option1">
+            <value>Kuharisha kunakofanana na maji yaliyoosha mchele</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option2">
+            <value>Kutapika mfululizo</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option3">
+            <value>Kichefuchefu</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option4">
+            <value>Ngozi kutorudi kwa haraka mara inapobonyezwa</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option5">
+            <value>Ndani ya siku tatu zilizopita; mgonjwa alikunywa maji yasiyochemshwa/yasiyotiwa dawa </value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option6">
+            <value>Ndani ya siku tatu zilizopita; mgonjwa alikula chakula baridi/kisichopikwa vizuri</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option7">
+            <value>Mgonjwa hakunawa mikono kwa sabuni kabla ya kula/baada ya kutoka chooni</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option8">
+            <value>Mgonjwa alikula matunda yasiyooshwa na maji salama</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Dalili:option9">
+            <value>Mgonjwa alimhudumia/alitembelewa/tembelea mtu aliyekuwa na dalili za kuharisha na kutapika</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Picha:label">
+            <value>Picha</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/Picha:hint">
+            <value>ya dalili zinazoonekana (ENDAPO UTARUHUSIWA NA MGONJWA)</value>
+          </text>
+          <text id="/data/Taarifa_zamgonjwa/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Wilaya" type="select1" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Kata" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Kijiji" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Kitongoji" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Majina_matatu_mkuu_wa_kaya" type="string" required="true()"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya" type="decimal"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/Jinsia" type="select1" required="true()"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/Umri" type="select1" required="true()"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/Amefariki" type="select1" required="true()"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/Dalili" type="select" required="true()"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/Picha" type="binary"/>
+      <bind nodeset="/data/Taarifa_zamgonjwa/GPS" type="geopoint" required="true()"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Cholera',': ',/data/Taarifa_za_mgonjwa/Majina_matatu_mkuu_wa_kaya)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_mgonjwa:label')"/>
+      <input ref="/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_mgonjwa/Namba_ya_utambulisho:hint')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/Taarifa_za_mgonjwa/Wilaya">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option0')"/>
+          <value>Morogoro_mjini</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option1')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option2')"/>
+          <value>Mvomero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option3')"/>
+          <value>Ilala</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option4')"/>
+          <value>Kinondoni</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Wilaya:option5')"/>
+          <value>Temeke</value>
+        </item>
+      </select1>
+      <input ref="/data/Taarifa_za_mgonjwa/Kata">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Kata:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_mgonjwa/Kijiji">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Kijiji:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_mgonjwa/Kitongoji">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Kitongoji:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_mgonjwa/Kitongoji:hint')"/>
+      </input>
+      <input ref="/data/Taarifa_za_mgonjwa/Majina_matatu_mkuu_wa_kaya">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Majina_matatu_mkuu_wa_kaya:label')"/>
+      </input>
+      <input ref="/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_mgonjwa/Namba_ya_mkuu_wa_kaya:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_zamgonjwa:label')"/>
+      <select1 ref="/data/Taarifa_zamgonjwa/Jinsia">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/Jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Jinsia:option0')"/>
+          <value>Mme</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Jinsia:option1')"/>
+          <value>Mke</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_zamgonjwa/Umri">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/Umri:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_zamgonjwa/Umri:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Umri:option0')"/>
+          <value>Chini_miaka_5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Umri:option1')"/>
+          <value>Zaidi_miaka_5</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_zamgonjwa/Amefariki">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/Amefariki:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Amefariki:option0')"/>
+          <value>Ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Amefariki:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/data/Taarifa_zamgonjwa/Dalili">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option0')"/>
+          <value>C01</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option1')"/>
+          <value>A31</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option2')"/>
+          <value>C02</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option3')"/>
+          <value>C03</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option4')"/>
+          <value>C04</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option5')"/>
+          <value>C05</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option6')"/>
+          <value>C06</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option7')"/>
+          <value>C07</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option8')"/>
+          <value>C08</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_zamgonjwa/Dalili:option9')"/>
+          <value>C09</value>
+        </item>
+      </select>
+      <upload ref="/data/Taarifa_zamgonjwa/Picha" mediatype="image/*">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/Picha:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_zamgonjwa/Picha:hint')"/>
+      </upload>
+      <input ref="/data/Taarifa_zamgonjwa/GPS">
+        <label ref="jr:itext('/data/Taarifa_zamgonjwa/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

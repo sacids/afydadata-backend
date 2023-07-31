@@ -1,0 +1,83 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>LAB Sample receipt</h:title>
+    <model>
+      <instance>
+        <data id="build_LAB-Sample-receipt_1478760655">
+          <meta>
+              <instanceID/>
+              <username/>
+              <instanceName/>
+              <start/>
+              <end/>
+          </meta>
+          <sample>
+            <recipient_name/>
+            <barcode/>
+            <sample_status/>
+          </sample>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/sample:label">
+            <value>Sample receipt</value>
+          </text>
+          <text id="/data/sample/recipient_name:label">
+            <value>Recipient Name</value>
+          </text>
+          <text id="/data/sample/barcode:label">
+            <value>Barcode Number</value>
+          </text>
+          <text id="/data/sample/sample_status:label">
+            <value>Sample Status</value>
+          </text>
+          <text id="/data/sample/sample_status:option0">
+            <value>Accepted</value>
+          </text>
+          <text id="/data/sample/sample_status:option1">
+            <value>Improper Labelling</value>
+          </text>
+          <text id="/data/sample/sample_status:option2">
+            <value>Poor Quality</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/sample/recipient_name" type="string"/>
+      <bind nodeset="/data/sample/barcode" type="string" required="true()"/>
+      <bind nodeset="/data/sample/sample_status" type="select1"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Received',': ',/data/sample/barcode)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+      
+    </model>
+  </h:head>
+  <h:body>
+    <group  appearance="field-list">
+      <label ref="jr:itext('/data/sample:label')"/>
+      <input ref="/data/sample/recipient_name">
+        <label ref="jr:itext('/data/sample/recipient_name:label')"/>
+      </input>
+      <input ref="/data/sample/barcode">
+        <label ref="jr:itext('/data/sample/barcode:label')"/>
+      </input>
+      <select1 ref="/data/sample/sample_status">
+        <label ref="jr:itext('/data/sample/sample_status:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sample/sample_status:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample/sample_status:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sample/sample_status:option2')"/>
+          <value>3</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,3240 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Animal Disease Reporting Mech</h:title>
+    <model>
+      <instance>
+        <data id="build_Animal-Disease-Reporting-Mech_1528483373">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <general_details>
+            <interview_date/>
+            <region/>
+            <district/>
+            <ward/>
+            <village_street/>
+          </general_details>
+          <general_deta>
+            <gvnt_vet_officer_deliver_animal_health_services/>
+            <prv_vet_officer_deliver_animal_health_services/>
+            <CHWA_availability/>
+            <NGO_CBO_supporting_AH_services/>
+          </general_deta>
+          <list_NGO_CBO_supporting/>
+          <participants_details>
+            <partcipant_ID/>
+            <sex/>
+            <how_long_lived/>
+            <livestock_owned/>
+          </participants_details>
+          <participants_detail_animals_count>
+            <number_cattles/>
+            <number_sheeps/>
+            <number_goats/>
+            <number_pigs/>
+            <number_donkeys/>
+            <number_horses/>
+            <number_poultry/>
+            <number_dogs/>
+            <number_cats/>
+            <number_and_other_animals/>
+          </participants_detail_animals_count>
+          <keep_livest_disease_cases/>
+          <inform_do_yo_records/>
+          <records_livest_disease_case2>
+            <other_info_abut_diseas_events/>
+            <where_kept_records_oflivest_dis_events/>
+          </records_livest_disease_case2>
+          <other_where_kept_records_oflivest_dis_events/>
+          <Action_notification_in_an_event>
+            <notificat_for_sick_died_animal/>
+            <practices_other_than_notif_for_sick_animal/>
+          </Action_notification_in_an_event>
+          <Action_notification_in_an_event2>
+            <Other_practices_other_than_notif_for_sick_animal/>
+            <practices_other_than_notif_for_dead_animal/>
+          </Action_notification_in_an_event2>
+          <Action_notification_in_an_event3>
+            <Other_practices_other_than_notif_for_dead_animal/>
+            <decision_who_to_consult/>
+          </Action_notification_in_an_event3>
+          <Action_notification_in_an_event4>
+            <other_decision_who_to_consult/>
+            <how_notify_higher_level/>
+          </Action_notification_in_an_event4>
+          <Action_notification_in_an_event5>
+            <other_notify_higher_level/>
+            <factors_influence_report/>
+          </Action_notification_in_an_event5>
+          <Action_notification_in_an_event6>
+            <other_factors_influence_report/>
+            <limit_factors_to_report/>
+          </Action_notification_in_an_event6>
+          <Action_notification_in_an_event7>
+            <other_limit_factors_to_report/>
+            <easy_way_would_inform_vet_officer/>
+          </Action_notification_in_an_event7>
+          <Action_notification_in_an_event8>
+            <why_easy_way_would_not_inform_vet_officer/>
+            <which_would_prefer_to_report/>
+          </Action_notification_in_an_event8>
+          <Action_notification_in_an_event9>
+            <other_which_would_prefer_to_report/>
+            <opinion_on_improving_reporting/>
+          </Action_notification_in_an_event9>
+          <Acce_uti_source_of_inf_on_livestock_disease/>
+          <access_utiliza_livestck_health_service>
+            <other_source_of_inf_on_livestock_disease/>
+            <who_mainly_provide_lvstck_health/>
+          </access_utiliza_livestck_health_service>
+          <access_utiliza_livestck_health_service2>
+            <other_mainly_provide_lvstck_health/>
+            <responsible_contro_disease_in_herd/>
+          </access_utiliza_livestck_health_service2>
+          <other_responsible_contro_disease_in_herd/>
+          <interactio_with_lvstck_hea_care_vet_off>
+            <how_long_to_reach_vet_service/>
+            <freque_inter_with_LFO/>
+            <ever_called_officer_visit_animal/>
+          </interactio_with_lvstck_hea_care_vet_off>
+          <reason_not_called_officer_visit_animal/>
+          <interactio_with_lvstck_hea_care_vet_off2>
+            <other_reason_not_called_officer_visit_animal/>
+            <last_visit_officer/>
+          </interactio_with_lvstck_hea_care_vet_off2>
+          <who_initiate_call/>
+          <how_long_took_last_call/>
+          <vet_officer_visi_who_usual_speaks/>
+          <other_vet_officer_visi_who_usual_speaks/>
+          <challanges_comm_with_vet_officer/>
+          <explai_challanges_comm_with_vet_officer/>
+          <CAHW_availability/>
+          <interaction_with_CAHW>
+            <how_long_reach_CAHW/>
+            <last_time_CAHW_visited_livestock/>
+            <experience_challngse_comm_CAHW/>
+          </interaction_with_CAHW>
+          <interaction_with_CAHW2>
+            <explain-experience_challngse_comm_CAHW/>
+            <ever_call_CAHW_to_visit_livstck/>
+          </interaction_with_CAHW2>
+          <reason_not_call_CAHW/>
+          <other_reason_not_call_CAHW/>
+          <ever_shared_report_higher_level/>
+          <feedback_response>
+            <did_u_get_feedback_after_report/>
+          </feedback_response>
+          <mechanism_of_feedback/>
+          <other_mechanism_of_feedback/>
+          <avarage_number_days_of_feedback/>
+          <mechanism_would_recom_sharing/>
+          <recommen_mechanism_of_infosharing/>
+          <do_you_own_mobile/>
+          <mobile_phone_owner_ship>
+            <type_of_mobile_phone/>
+            <does_have_internet/>
+          </mobile_phone_owner_ship>
+          <type_of_OS_version/>
+          <mobile_phone_owner_ship2>
+            <aware_of_mobile_in_disease_report/>
+            <ever_use_mobile_reporting/>
+            <functions_used_for_reporting/>
+          </mobile_phone_owner_ship2>
+          <any_org_using_phone_in_reporting/>
+          <mentioend_org_using_phone_in_reporting/>
+          <social_anthr_often_go_familiy/>
+          <social_anthropology>
+            <often_go_market_number_of_days/>
+            <often_go_food_shop_number_of_days/>
+            <other_places_often_go/>
+            <who_leads_house/>
+            <who_makes_decision_on_cattle/>
+            <who_makes_decision_on_goats_sheeps/>
+            <who_make_decision_onchickens_ducks/>
+          </social_anthropology>
+          <know_info_about_animal_bird_vacc_schedule/>
+          <disease_prev_practices>
+            <Explai_dont_want_vacc_animals_birds/>
+            <bestways_to_inform_abt_vacc/>
+            <best_way_to_protect_animals/>
+          </disease_prev_practices>
+          
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general_details:label">
+            <value>General Information (Ask Local leaders)</value>
+          </text>
+          <text id="/data/general_details/interview_date:label">
+            <value>Date of Interview</value>
+          </text>
+          <text id="/data/general_details/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/general_details/region:option0">
+            <value>Morogoro</value>
+          </text>
+          <text id="/data/general_details/region:option1">
+            <value>Kagera</value>
+          </text>
+          <text id="/data/general_details/region:option2">
+            <value>Pemba</value>
+          </text>
+          <text id="/data/general_details/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/general_details/district:option0">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/general_details/district:option1">
+            <value>Ngara</value>
+          </text>
+          <text id="/data/general_details/district:option2">
+            <value>Wete</value>
+          </text>
+          <text id="/data/general_details/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/general_details/village_street:label">
+            <value>Village / Street</value>
+          </text>
+          <text id="/data/general_deta:label">
+            <value>General Information (Ask local leader)</value>
+          </text>
+          <text id="/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:label">
+            <value>Government veterinary/Livestock field officer delivers animal health services in the village/street </value>
+          </text>
+          <text id="/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/general_deta/prv_vet_officer_deliver_animal_health_services:label">
+            <value>Private veterinary/Livestock  field officer delivers animal health services in the village/street </value>
+          </text>
+          <text id="/data/general_deta/prv_vet_officer_deliver_animal_health_services:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/general_deta/prv_vet_officer_deliver_animal_health_services:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/general_deta/CHWA_availability:label">
+            <value>Animal Community Health Worker available in the village/street </value>
+          </text>
+          <text id="/data/general_deta/CHWA_availability:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/general_deta/CHWA_availability:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/general_deta/NGO_CBO_supporting_AH_services:label">
+            <value>NGO/CBO supporting provision of  animal health services available in the village/street </value>
+          </text>
+          <text id="/data/general_deta/NGO_CBO_supporting_AH_services:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/general_deta/NGO_CBO_supporting_AH_services:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/list_NGO_CBO_supporting:label">
+            <value>Mention the NGO/CBO supporting provision of animal health services</value>
+          </text>
+          <text id="/data/list_NGO_CBO_supporting:hint">
+            <value>Remember to put NGO/CBO in bracket eg SACIDS (NGO)</value>
+          </text>
+          <text id="/data/participants_details:label">
+            <value>About participant</value>
+          </text>
+          <text id="/data/participants_details/partcipant_ID:label">
+            <value>Participant ID</value>
+          </text>
+          <text id="/data/participants_details/partcipant_ID:hint">
+            <value>1st three latters of District, followed by namba, eg KAG01 </value>
+          </text>
+          <text id="/data/participants_details/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/participants_details/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/participants_details/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/participants_details/how_long_lived:label">
+            <value>How long have you lived in this area</value>
+          </text>
+          <text id="/data/participants_details/how_long_lived:option0">
+            <value>&lt;1 year</value>
+          </text>
+          <text id="/data/participants_details/how_long_lived:option1">
+            <value>1-5 years</value>
+          </text>
+          <text id="/data/participants_details/how_long_lived:option2">
+            <value>&gt; 5 years</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:label">
+            <value>What type of livestock do you own</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option1">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option2">
+            <value>Goats</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option3">
+            <value>Pigs</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option4">
+            <value>Donkeys</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option5">
+            <value>Horses</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option6">
+            <value>Poultry</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option7">
+            <value>Dogs</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option8">
+            <value>Cats</value>
+          </text>
+          <text id="/data/participants_details/livestock_owned:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/participants_detail_animals_count:label">
+            <value>About participant: Number of livestock</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cattles:label">
+            <value>Number of cattle</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cattles:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cattles:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cattles:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_sheeps:label">
+            <value>Number of Sheep</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_sheeps:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_sheeps:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_sheeps:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_goats:label">
+            <value>Number of Goats</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_goats:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_goats:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_goats:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_pigs:label">
+            <value>Number of Pigs</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_pigs:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_pigs:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_pigs:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_donkeys:label">
+            <value>Number of Donkeys</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_donkeys:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_donkeys:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_donkeys:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_horses:label">
+            <value>Number of Horses</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_horses:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_horses:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_horses:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_poultry:label">
+            <value>Number of Poultry </value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_poultry:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_poultry:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_poultry:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_dogs:label">
+            <value>Number of Dogs </value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_dogs:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_dogs:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_dogs:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cats:label">
+            <value>Number of cats </value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cats:option0">
+            <value>1 to 5</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cats:option1">
+            <value>6 to 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_cats:option2">
+            <value>More than 10</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_and_other_animals:label">
+            <value>Please specify other animals kept and how many</value>
+          </text>
+          <text id="/data/participants_detail_animals_count/number_and_other_animals:hint">
+            <value>for each animal, write number in brackets separate by coma, eg hare(9), kangaroo(4)</value>
+          </text>
+          <text id="/data/keep_livest_disease_cases:label">
+            <value>Do you keep livestock disease records?</value>
+          </text>
+          <text id="/data/keep_livest_disease_cases:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/keep_livest_disease_cases:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/inform_do_yo_records:label">
+            <value>What information do you usually record about livestock disease events? </value>
+          </text>
+          <text id="/data/inform_do_yo_records:option0">
+            <value>Date/Month/Year</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option1">
+            <value>District</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option2">
+            <value>Ward</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option3">
+            <value>Village</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option4">
+            <value>address</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option5">
+            <value>Geographical coordinates</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option6">
+            <value>Species</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option7">
+            <value>Number of sick livestock in the herd</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option8">
+            <value>Number of deaths</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option9">
+            <value>Herd size</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option10">
+            <value>Clinical manifestations</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option11">
+            <value>Suspected disease</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option12">
+            <value>Age </value>
+          </text>
+          <text id="/data/inform_do_yo_records:option13">
+            <value>Sex</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option14">
+            <value>Most likely exposure</value>
+          </text>
+          <text id="/data/inform_do_yo_records:option15">
+            <value>Other</value>
+          </text>
+          <text id="/data/records_livest_disease_case2:label">
+            <value>Recording livestock disease cases</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/other_info_abut_diseas_events:label">
+            <value>Please, list other Information recorded on animal disease events</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/other_info_abut_diseas_events:hint">
+            <value>Separate by comma</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:label">
+            <value>Where do you keep records on livestock disease events?</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option0">
+            <value>Notebook</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option1">
+            <value>Piece of paper</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option2">
+            <value>Surveillance forms</value>
+          </text>
+          <text id="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_where_kept_records_oflivest_dis_events:label">
+            <value>Where you keep records on livestock disease events, apart from listed ones</value>
+          </text>
+          <text id="/data/other_where_kept_records_oflivest_dis_events:hint">
+            <value>Separate by coma</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:label">
+            <value>Who do you usually prefer to notify if your animal fall sick/die? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:hint">
+            <value>(Please, tick ONLY three actions USUALLY practiced</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option0">
+            <value>Notify Government veterinary/Livestock field officer</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option1">
+            <value>Notify private veterinary/Livestock field officer </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option2">
+            <value>Notify the District Veterinary Officer</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option3">
+            <value>Notify community animal health worker </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option4">
+            <value>Notify local leaders </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option5">
+            <value>Share the case with other livestock keepers/neighbours </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:label">
+            <value>Practices other than notification for sick livestock: Besides notification; what other steps would you take/have taken if your livestock fall sick</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option0">
+            <value>I try to  work out what is wrong with it myself and attempt to manage the case on my own using traditional medicine</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option1">
+            <value>I try to  work out what is wrong with it myself and attempt to manage the case on my own using modern drugs from veterinary drug shops</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option2">
+            <value>Slaughter and eat at home</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option3">
+            <value>Slaughter and eat with neighbours</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option4">
+            <value>Sell out at the alive animal market</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option5">
+            <value>Kill it by yourself and sell the meat at a market</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option6">
+            <value>Send to a slaughter-slab/abattoir/butcher</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option7">
+            <value>Slaughter and take the hide/skin to sell it later</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option8">
+            <value>Slaughter/kill and give the carcass to dogs</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option9">
+            <value>Do nothing and wait for any outcome</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option10">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/Other_practices_other_than_notif_for_sick_animal:label">
+            <value>Please mention other Practices other than notification for sick livestock: Besides notification; what other steps would you take/have taken if your livestock fall sick</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:label">
+            <value>Practices other than notification for died livestock: Besides notification; what other steps would you take/have taken if your livestock fall sick</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option0">
+            <value>Slaughter and eat at home</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option1">
+            <value>Slaughter and eat with neighbours</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option2">
+            <value>Sell the meat at a market</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option3">
+            <value>Send to a slaughter-slab/abattoir/butcher</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option4">
+            <value>Take the hide/skin to sell it later</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option5">
+            <value>Throw away to a river or elsewhere</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option6">
+            <value>Give the carcass to dogs</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option7">
+            <value>Dispose in the pit</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option8">
+            <value>Burn the body</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/Other_practices_other_than_notif_for_dead_animal:label">
+            <value>Please mention other Practices other than notification for dead livestock: Besides notification; what other steps would you take/have taken if your livestock fall sick</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:label">
+            <value>What do you usually take into account in deciding who to consult on disease event? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:hint">
+            <value>Select three actions frequently practiced</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option0">
+            <value>Expected response/feedback</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option1">
+            <value>Cost</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option2">
+            <value>Value of an animal</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option3">
+            <value>Distance</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option4">
+            <value>Relationship</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event3/decision_who_to_consult:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/other_decision_who_to_consult:label">
+            <value>Please mention other decision who to consult on disease events</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:label">
+            <value>How do/would you notify higher level/others on disease events? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:hint">
+            <value>If livestock keeper reports animal health events to higher level</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option0">
+            <value>Physical visit</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option1">
+            <value>Telephone call</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option2">
+            <value>Short message service</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option3">
+            <value>Email</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option4">
+            <value>Sending out report through public transport</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option5">
+            <value>I do/would not make any notification</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event4/how_notify_higher_level:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/other_notify_higher_level:label">
+            <value>Other ways of How do/would you notify higher level/others on disease events? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:label">
+            <value>What factors influence you to report disease events? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option0">
+            <value>Occurrence of new disease</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option1">
+            <value>Number of animals affected</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option2">
+            <value>Seriousness of the disease condition</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option3">
+            <value>Poor progress upon self-treatment attempt</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option4">
+            <value>Fast spreading disease</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option5">
+            <value>Increased mortalities</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option6">
+            <value>Value of the animal</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option7">
+            <value>Satisfied with veterinary services in my area including immediate response/feedback </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option8">
+            <value>Veterinary service being close to my home</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option9">
+            <value>Money spent on veterinary services is offset by savings in production losses </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option10">
+            <value>Disease affecting both animals and humans</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option11">
+            <value>Other livestock keepers keeping to reporting</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event5/factors_influence_report:option12">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/other_factors_influence_report:label">
+            <value>Other factors influence you to report disease events</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:label">
+            <value>What are the limiting factors for you to report disease events? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option0">
+            <value>Health care services not available in my area</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option1">
+            <value>Lack of response/feedback/support when I report an event</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option2">
+            <value>Response/feedback being made late when I report an event</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option3">
+            <value>Livestock health care service providers in my area being difficult to consult</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option4">
+            <value>Lack of transport/poor road infrastructure</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option5">
+            <value>Financial issues</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option6">
+            <value>Veterinary drug shop is within my vicinity</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option7">
+            <value>Lack/inadequate credit to make calls</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option8">
+            <value>Scared to have my animals culled as a result</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option9">
+            <value>Control measures would restrict animal movements and trade</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option10">
+            <value>Traditional herbs are effective over the modern drugs</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option11">
+            <value>Have skills and confidence to recognize and manage livestock cases on my own</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option12">
+            <value>Is what my neighbours/fellow livestock keepers are doing</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option13">
+            <value>Not explicitly aware to whom I should report</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option14">
+            <value>Not explicitly aware when I should report</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option15">
+            <value>Not able to detect/recognize disease events in my herd</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option16">
+            <value>Not aware on how I should record disease events</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option17">
+            <value>No recording tools</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event6/limit_factors_to_report:option18">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7/other_limit_factors_to_report:label">
+            <value>Other limiting factors for you to report disease events</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:label">
+            <value>If there is an easy way to inform veterinary officers, you might inform them? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option2">
+            <value>I do not want veterinary services to be informed </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/why_easy_way_would_not_inform_vet_officer:label">
+            <value>Please explain why would you not inform vet officers if there was an easy way to report?</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:label">
+            <value>Which of the following would you prefer to report to livestock health care service provider when it occurs in your herd? </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option0">
+            <value>Drought</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option1">
+            <value>Disease outbreak</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option2">
+            <value>Increased mortality rate</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option3">
+            <value>Floods</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option4">
+            <value>Reduced production</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option5">
+            <value>Occurrence of new disease</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option6">
+            <value>Theft/disappearance of animal in the herd</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event8/which_would_prefer_to_report:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event9:label">
+            <value>Actions related to notification in an event of livestock diseases </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event9/other_which_would_prefer_to_report:label">
+            <value>what are other options would you prefer to report to livestock health care service provider </value>
+          </text>
+          <text id="/data/Action_notification_in_an_event9/other_which_would_prefer_to_report:hint">
+            <value>apart from listed ones</value>
+          </text>
+          <text id="/data/Action_notification_in_an_event9/opinion_on_improving_reporting:label">
+            <value>What would be your opinions to improve reporting of animal health events occurring in your area/herd</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:label">
+            <value>The information on livestock diseases that is most useful to you comes from</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option0">
+            <value>Government veterinary officer</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option1">
+            <value>Private veterinary officer</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option2">
+            <value>Fellow livestock keeper</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option3">
+            <value>Research/Learning institutions</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option4">
+            <value>NGO</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option5">
+            <value>Radio</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option6">
+            <value>Television</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option7">
+            <value>Newspaper</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option8">
+            <value>Brochures</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option9">
+            <value>Internet</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option10">
+            <value>School Children</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option11">
+            <value>Other</value>
+          </text>
+          <text id="/data/Acce_uti_source_of_inf_on_livestock_disease:option12">
+            <value>None</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service:label">
+            <value>Access and utilization of livestock health care services</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/other_source_of_inf_on_livestock_disease:label">
+            <value>List other source of information on livestock diseases that is most useful to you comes from</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:label">
+            <value>Who mainly provide livestock health care services in your area? </value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:hint">
+            <value>Animal health care service provider</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option0">
+            <value>Government veterinary officer</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option1">
+            <value>Private veterinary officer</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option2">
+            <value>Community animal health worker</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option3">
+            <value>Traditional healers</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option4">
+            <value>NGOs/CBOs</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2:label">
+            <value>Access and utilization of livestock health care services</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/other_mainly_provide_lvstck_health:label">
+            <value>List other Animal health care service provider</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:label">
+            <value>Who do you think is/are responsible to control/prevent emergence of diseases in your herd? </value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:hint">
+            <value>Person responsible for disease control/prevention</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option0">
+            <value>Livestock owner</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option1">
+            <value>Veterinary Officer</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option2">
+            <value>Government</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option3">
+            <value>NGO</value>
+          </text>
+          <text id="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_responsible_contro_disease_in_herd:label">
+            <value>Please list other Person responsible for disease control/prevention</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off:label">
+            <value>Interactions with livestock health care service providers:  Vet officer</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:label">
+            <value>How long does it take you to reach the closest veterinary service</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option0">
+            <value>&lt; 1hr</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option1">
+            <value>1 to 6 hrs</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option2">
+            <value>6 to 12 hrs</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option3">
+            <value>&gt; 12hrs</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option4">
+            <value>Not aware</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:label">
+            <value>How frequently do you interact with veterinary/livestock field officer to provide health care services to your livestock? </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option0">
+            <value>Most of the time </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option1">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option2">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option3">
+            <value>Never</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:label">
+            <value>Have you ever called the veterinary/livestock field officer to visit your animal?</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:label">
+            <value>Reason of not calling the vet/livestock field officer to visit your animal</value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option0">
+            <value>veterinary/livestock field officer not available in my area </value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option1">
+            <value>Can manage my livestock on my own </value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option2">
+            <value>veterinary services in my area been not useful </value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option3">
+            <value>The associated costs are higher for me to manage </value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option4">
+            <value>Never experienced the challenge with my livestock necessitating to seek for veterinary services </value>
+          </text>
+          <text id="/data/reason_not_called_officer_visit_animal:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2:label">
+            <value>Interactions with livestock health care service providers:  Vet officer</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/other_reason_not_called_officer_visit_animal:label">
+            <value>Other Reason of not calling the vet/livestock field officer to visit your animal</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:label">
+            <value>When was the last time the veterinary/livestock field officer visited your livestock?</value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option0">
+            <value>&lt;3 months ago </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option1">
+            <value>&gt;3-6 months </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option2">
+            <value>&gt;6-12 months </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option3">
+            <value>&gt;12 months </value>
+          </text>
+          <text id="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option4">
+            <value>Never visited my livestock</value>
+          </text>
+          <text id="/data/who_initiate_call:label">
+            <value>Who initiated the call during the last time when the veterinary/livestock field officer visited your herd?</value>
+          </text>
+          <text id="/data/who_initiate_call:option0">
+            <value>Call was initiated by livestock owner/keeper </value>
+          </text>
+          <text id="/data/who_initiate_call:option1">
+            <value>Veterinary officer visited the herd on routine schedule</value>
+          </text>
+          <text id="/data/how_long_took_last_call:label">
+            <value>How long did it take the veterinary/livestock field officer to visit your herd during the last call?</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option0">
+            <value>Within 12 hrs</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option1">
+            <value>1 to 3 days</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option2">
+            <value>4 to 7 days</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option3">
+            <value>1 week</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option4">
+            <value>2 weeks</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option5">
+            <value>3 to 4 weeks</value>
+          </text>
+          <text id="/data/how_long_took_last_call:option6">
+            <value>&gt; 1 month</value>
+          </text>
+          <text id="/data/vet_officer_visi_who_usual_speaks:label">
+            <value>If veterinary/livestock field officer visits your herd, who usually speaks to him or her?</value>
+          </text>
+          <text id="/data/vet_officer_visi_who_usual_speaks:option0">
+            <value>Livestock owner/household head </value>
+          </text>
+          <text id="/data/vet_officer_visi_who_usual_speaks:option1">
+            <value>Livestock herder</value>
+          </text>
+          <text id="/data/vet_officer_visi_who_usual_speaks:option2">
+            <value>Any family member</value>
+          </text>
+          <text id="/data/vet_officer_visi_who_usual_speaks:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_vet_officer_visi_who_usual_speaks:label">
+            <value>If veterinary/livestock field officer visits your herd, who usually speaks to him or her?</value>
+          </text>
+          <text id="/data/other_vet_officer_visi_who_usual_speaks:hint">
+            <value>apart from listed ones</value>
+          </text>
+          <text id="/data/challanges_comm_with_vet_officer:label">
+            <value>Have you ever experienced any challenges in communicating with veterinary/livestock field officers? </value>
+          </text>
+          <text id="/data/challanges_comm_with_vet_officer:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/challanges_comm_with_vet_officer:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/explai_challanges_comm_with_vet_officer:label">
+            <value>Explain challenges in communicating with veterinary/livestock field officers</value>
+          </text>
+          <text id="/data/interaction_with_CAHW:label">
+            <value>Interaction with Community Animal Health Worker </value>
+          </text>
+          <text id="/data/CAHW_availability:label">
+            <value>Do you have CAHW in your area?</value>
+          </text>
+          <text id="/data/CAHW_availability:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/CAHW_availability:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/CAHW_availability:option2">
+            <value>Not aware</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:label">
+            <value>How long does it take you to reach the closest CAHW?</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:option0">
+            <value>&lt; 1hrs</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:option1">
+            <value>1-6hrs</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:option2">
+            <value>&gt;6-12hrs</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:option3">
+            <value>&gt;12 hrs </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/how_long_reach_CAHW:option4">
+            <value>Not aware </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:label">
+            <value>When was the last time the CAHW visited your livestock?</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option0">
+            <value>&lt;3 months ago </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option1">
+            <value>&gt;3-6 months </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option2">
+            <value>&gt;6-12 months </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option3">
+            <value>&gt;12 months </value>
+          </text>
+          <text id="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option4">
+            <value>CAHW never visited my livestock</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/experience_challngse_comm_CAHW:label">
+            <value>Have you ever experienced any challenges in communicating with CAHWs?</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/experience_challngse_comm_CAHW:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/interaction_with_CAHW/experience_challngse_comm_CAHW:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/interaction_with_CAHW2:label">
+            <value>Interaction with Community Animal Health Worker </value>
+          </text>
+          <text id="/data/interaction_with_CAHW2/explain-experience_challngse_comm_CAHW:label">
+            <value>Explanation on any challenges in communicating with CAHWs</value>
+          </text>
+          <text id="/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:label">
+            <value>Did you ever call CAHW from any location to visit your livestock</value>
+          </text>
+          <text id="/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:label">
+            <value>What could be the reason of not calling CAHW?</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option0">
+            <value>CAHW not available in my area</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option1">
+            <value>Can manage my livestock on my own</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option2">
+            <value>CAHW not useful </value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option3">
+            <value>CAHW charge for a cost which is higher for me to manage</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option4">
+            <value>Never experienced the challenge with my livestock necessitating to seek for veterinary services from CAHW</value>
+          </text>
+          <text id="/data/reason_not_call_CAHW:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_reason_not_call_CAHW:label">
+            <value>What could be Other reason of not calling CAHW?</value>
+          </text>
+          <text id="/data/feedback_response:label">
+            <value>Feedback/response to disease events</value>
+          </text>
+          <text id="/data/ever_shared_report_higher_level:label">
+            <value>Have you ever shared report of livestock disease with higher levels?</value>
+          </text>
+          <text id="/data/ever_shared_report_higher_level:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ever_shared_report_higher_level:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/feedback_response/did_u_get_feedback_after_report:label">
+            <value>After submitting a report to a higher level, do you get feedback/response</value>
+          </text>
+          <text id="/data/feedback_response/did_u_get_feedback_after_report:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/feedback_response/did_u_get_feedback_after_report:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:label">
+            <value>How do you get feedback/response?</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option0">
+            <value>Regular meetings within the village</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option1">
+            <value>Paper-based communication</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option2">
+            <value>Phone calls</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option3">
+            <value>SMS</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option4">
+            <value>Digital technology </value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option5">
+            <value>Radio</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option6">
+            <value>Veterinary officer visits me</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option7">
+            <value>I visited the veterinary officer</value>
+          </text>
+          <text id="/data/mechanism_of_feedback:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_mechanism_of_feedback:label">
+            <value>Other mechanism of feedback</value>
+          </text>
+          <text id="/data/avarage_number_days_of_feedback:label">
+            <value>On average, what is the number of days between report submission and receipt of feedback/response from higher level</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:label">
+            <value>What three mechanisms would you recommend most, which can be used to share information/provide feedback on disease occurrence between the animal health care service providers and livestock owners/keepers in your area? </value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option0">
+            <value>Regular meetings within the village</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option1">
+            <value>Paper-based communication</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option2">
+            <value>Phone calls</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option3">
+            <value>SMS</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option4">
+            <value>Digital technology </value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option5">
+            <value>Radio</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option6">
+            <value>Veterinary officer visits me</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option7">
+            <value>I visited the veterinary officer</value>
+          </text>
+          <text id="/data/mechanism_would_recom_sharing:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/recommen_mechanism_of_infosharing:label">
+            <value>Other mechanism of feedback</value>
+          </text>
+          <text id="/data/do_you_own_mobile:label">
+            <value>Do you own a mobile phone? </value>
+          </text>
+          <text id="/data/do_you_own_mobile:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/do_you_own_mobile:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship:label">
+            <value>Ownership of mobile phone and usage in the collection and submission  of disease reports</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/type_of_mobile_phone:label">
+            <value>What type of mobile phone do you own? </value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/type_of_mobile_phone:option0">
+            <value>Ordinary Phone</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/type_of_mobile_phone:option1">
+            <value>Smart phone (check for functionalities such as, internet, emails, browsing, apps like whatsapp)</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/does_have_internet:label">
+            <value>Does your mobile phone support internet?</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/does_have_internet:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship/does_have_internet:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/type_of_OS_version:label">
+            <value>If smartphone selected, please mention OS and type eg. Android - Ver4, OS -ver2</value>
+          </text>
+          <text id="/data/type_of_OS_version:hint">
+            <value>For android Go to Settings &gt; System &gt; About Device and OS Go to Settings &gt; General &gt; About / Other's please specify</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2:label">
+            <value>Ownership of mobile phone and usage in the collection and submission  of disease reports</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:label">
+            <value>Are you aware of the usage of mobile phone to collect and transmit (send) disease reports?</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:label">
+            <value>Have you ever used mobile phone to collect and transmit disease reports? </value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/functions_used_for_reporting:label">
+            <value>If ever used/using mobile phone to collect and submit disease reports; what function did you use/are you using? </value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/functions_used_for_reporting:option0">
+            <value>Voice call</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/functions_used_for_reporting:option1">
+            <value>SMS</value>
+          </text>
+          <text id="/data/mobile_phone_owner_ship2/functions_used_for_reporting:option2">
+            <value>Whatsapp / Social apps</value>
+          </text>
+          <text id="/data/any_org_using_phone_in_reporting:label">
+            <value>Is there any organization working to facilitate use of mobile phone technology to collect and submit disease reports in your community? </value>
+          </text>
+          <text id="/data/any_org_using_phone_in_reporting:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/any_org_using_phone_in_reporting:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/mentioend_org_using_phone_in_reporting:label">
+            <value>Mention organisation using mobile phones to collect and submit disease events</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:label">
+            <value>Social Anthropology: Where do you (or your family member) go often?</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option0">
+            <value>Primary school</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option1">
+            <value>Other scholl</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option2">
+            <value>Church/ mosque/ religious event</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option3">
+            <value>Market</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option4">
+            <value>Food shops </value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option5">
+            <value>Well (for drinking water)</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option6">
+            <value>Bore hole (for animals)</value>
+          </text>
+          <text id="/data/social_anthr_often_go_familiy:option7">
+            <value>Other</value>
+          </text>
+          <text id="/data/social_anthropology:label">
+            <value>Social/Anthropological questions</value>
+          </text>
+          <text id="/data/social_anthropology/often_go_market_number_of_days:label">
+            <value>Please specify days per a month for Market</value>
+          </text>
+          <text id="/data/social_anthropology/often_go_food_shop_number_of_days:label">
+            <value>Please specify days per a month for food shops</value>
+          </text>
+          <text id="/data/social_anthropology/other_places_often_go:label">
+            <value>Please list other places apart from listed ones</value>
+          </text>
+          <text id="/data/social_anthropology/who_leads_house:label">
+            <value>Is your household lead by </value>
+          </text>
+          <text id="/data/social_anthropology/who_leads_house:option0">
+            <value>Man</value>
+          </text>
+          <text id="/data/social_anthropology/who_leads_house:option1">
+            <value>Woman</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_cattle:label">
+            <value>If you have cattle, decision making on the cattle is done by a family member who is</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_cattle:option0">
+            <value>Man</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_cattle:option1">
+            <value>Woman</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_goats_sheeps:label">
+            <value>If you have sheep/goat/pig, decision making on these small animals is done by a family member who is:</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_goats_sheeps:option0">
+            <value>Man</value>
+          </text>
+          <text id="/data/social_anthropology/who_makes_decision_on_goats_sheeps:option1">
+            <value>Woman</value>
+          </text>
+          <text id="/data/social_anthropology/who_make_decision_onchickens_ducks:label">
+            <value>If you have chicken/duck/other birds, decision making on these birds is done by a family member who is:</value>
+          </text>
+          <text id="/data/social_anthropology/who_make_decision_onchickens_ducks:option0">
+            <value>Man</value>
+          </text>
+          <text id="/data/social_anthropology/who_make_decision_onchickens_ducks:option1">
+            <value>Woman</value>
+          </text>
+          <text id="/data/disease_prev_practices:label">
+            <value>Disease prevention practices: Some diseases are infectious, vaccination before disease season may save your animals. So, if you know what kind of vaccination is planned by season may help you safe-guarding your animals/birds.</value>
+          </text>
+          <text id="/data/know_info_about_animal_bird_vacc_schedule:label">
+            <value>Do you like to know information about animal/bird vaccination schedule in your area? </value>
+          </text>
+          <text id="/data/know_info_about_animal_bird_vacc_schedule:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/know_info_about_animal_bird_vacc_schedule:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/disease_prev_practices/Explai_dont_want_vacc_animals_birds:label">
+            <value>why don’t yo want to vaccinate your animals/birds? Please explain</value>
+          </text>
+          <text id="/data/disease_prev_practices/bestways_to_inform_abt_vacc:label">
+            <value>What are the best ways to inform you about vaccination for livestock?</value>
+          </text>
+          <text id="/data/disease_prev_practices/bestways_to_inform_abt_vacc:hint">
+            <value>please list the ways of information sharing, with priority (what is the option if veterinary service cannot come to visit you just to inform about vaccination as they have limited funds for fuel/vehicle/man power…) Please explain:</value>
+          </text>
+          <text id="/data/disease_prev_practices/best_way_to_protect_animals:label">
+            <value>What you think is a good / best idea to protect your animals/ animals in your village from animal diseases? Please explain</value>
+          </text>
+          
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general_details/interview_date" type="date" required="true()" jr:requiredMsg="Date is required"/>
+      <bind nodeset="/data/general_details/region" type="select1" required="true()" jr:requiredMsg="Region is required"/>
+      <bind nodeset="/data/general_details/district" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/general_details/ward" type="string" required="true()" jr:requiredMsg="ward is required"/>
+      <bind nodeset="/data/general_details/village_street" type="string" required="true()" jr:requiredMsg="Village is required"/>
+      <bind nodeset="/data/general_deta/gvnt_vet_officer_deliver_animal_health_services" type="select1" required="true()"/>
+      <bind nodeset="/data/general_deta/prv_vet_officer_deliver_animal_health_services" type="select1" required="true()"/>
+      <bind nodeset="/data/general_deta/CHWA_availability" type="select1" required="true()" jr:requiredMsg="Availability of CHWA is required"/>
+      <bind nodeset="/data/general_deta/NGO_CBO_supporting_AH_services" type="select1" required="true()" jr:requiredMsg="NGO/CBO is required"/>
+
+      <bind nodeset="/data/list_NGO_CBO_supporting" type="string" relevant="(selected(/data/general_deta/NGO_CBO_supporting_AH_services, 'yes'))"/>
+
+      <bind nodeset="/data/participants_details/partcipant_ID" type="string" required="true()" jr:requiredMsg="Participant ID is required"/>
+      <bind nodeset="/data/participants_details/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/participants_details/how_long_lived" type="select1" required="true()" jr:requiredMsg="How long lived is required"/>
+      <bind nodeset="/data/participants_details/livestock_owned" type="select" required="true()" jr:requiredMsg="Livestock ownership is required"/>
+
+      <bind nodeset="/data/participants_detail_animals_count/number_cattles" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'cattle'))" required="true()" jr:requiredMsg="Number of cattle is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_sheeps" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'sheep'))" required="true()" jr:requiredMsg="Number of sheep is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_goats" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'goat'))" required="true()" jr:requiredMsg="Number of goats is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_pigs" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'pigs'))" required="true()" jr:requiredMsg="Number of pigs is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_donkeys" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'Donkeys'))" required="true()" jr:requiredMsg="Number of donkeys is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_horses" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'horses'))" required="true()" jr:requiredMsg="Number of horses is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_poultry" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'Poultry'))" required="true()" jr:requiredMsg="Number of Poultry is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_dogs" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'Dogs'))" required="true()" jr:requiredMsg="Number of dogs is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_cats" type="select1" relevant="(selected(/data/participants_details/livestock_owned, 'Cats'))" required="true()" jr:requiredMsg="Number of cats is required"/>
+      <bind nodeset="/data/participants_detail_animals_count/number_and_other_animals" type="string" relevant="(selected(/data/participants_details/livestock_owned, 'other'))"/>
+
+      <bind nodeset="/data/keep_livest_disease_cases" type="select1" required="true()" jr:requiredMsg="Info about livestock is required"/>
+      <bind nodeset="/data/inform_do_yo_records" type="select" relevant="(selected(/data/keep_livest_disease_cases, 'yes'))" required="true()" jr:requiredMsg="Record Info is required"/>
+
+      <bind nodeset="/data/records_livest_disease_case2/other_info_abut_diseas_events" type="string" relevant="(selected(/data/inform_do_yo_records, 'other'))"/>
+
+      <bind nodeset="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events" type="select" relevant="(selected(/data/keep_livest_disease_cases, 'yes'))" required="true()" jr:requiredMsg="Where do you keep records is required"/>
+      <bind nodeset="/data/other_where_kept_records_oflivest_dis_events" type="string" relevant="(selected(/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event/notificat_for_sick_died_animal" type="select" required="true()" jr:requiredMsg="Info about notifying sick animal is required"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event2/Other_practices_other_than_notif_for_sick_animal" type="string" relevant="(selected(/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event3/Other_practices_other_than_notif_for_dead_animal" type="string" relevant="(selected(/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event3/decision_who_to_consult" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event4/other_decision_who_to_consult" type="string" relevant="(selected(/data/Action_notification_in_an_event3/decision_who_to_consult, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event4/how_notify_higher_level" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event5/other_notify_higher_level" type="string" relevant="(selected(/data/Action_notification_in_an_event4/how_notify_higher_level, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event5/factors_influence_report" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event6/other_factors_influence_report" type="string" relevant="(selected(/data/Action_notification_in_an_event5/factors_influence_report, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event6/limit_factors_to_report" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event7/other_limit_factors_to_report" type="string" relevant="(selected(/data/Action_notification_in_an_event6/limit_factors_to_report, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer" type="select1" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event8/why_easy_way_would_not_inform_vet_officer" type="string" relevant="(selected(/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer, 'no'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event8/which_would_prefer_to_report" type="select" required="true()"/>
+      <bind nodeset="/data/Action_notification_in_an_event9/other_which_would_prefer_to_report" type="string" relevant="(selected(/data/Action_notification_in_an_event8/which_would_prefer_to_report, 'other'))"/>
+
+      <bind nodeset="/data/Action_notification_in_an_event9/opinion_on_improving_reporting" type="string" required="true()"/>
+      <bind nodeset="/data/Acce_uti_source_of_inf_on_livestock_disease" type="select"/>
+      <bind nodeset="/data/access_utiliza_livestck_health_service/other_source_of_inf_on_livestock_disease" type="string" relevant="(selected(/data/Acce_uti_source_of_inf_on_livestock_disease, 'other'))"/>
+
+      <bind nodeset="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health" type="select" required="true()"/>
+      <bind nodeset="/data/access_utiliza_livestck_health_service2/other_mainly_provide_lvstck_health" type="string" relevant="(selected(/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health, 'other'))"/>
+
+      <bind nodeset="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd" type="select" required="true()"/>
+      <bind nodeset="/data/other_responsible_contro_disease_in_herd" type="string" relevant="(selected(/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd, 'other'))"/>
+
+      <bind nodeset="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service" type="select1" required="true()"/>
+      <bind nodeset="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO" type="select1" required="true()"/>
+      <bind nodeset="/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal" type="select1"/>
+      <bind nodeset="/data/reason_not_called_officer_visit_animal" type="select1" relevant="(selected(/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal, 'no'))" required="true()"/>
+
+      <bind nodeset="/data/interactio_with_lvstck_hea_care_vet_off2/other_reason_not_called_officer_visit_animal" type="string" relevant="(selected(/data/reason_not_called_officer_visit_animal, 'no'))" required="true()"/>
+
+      <bind nodeset="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer" type="select1" required="true()"/>
+      <bind nodeset="/data/who_initiate_call" type="select1" relevant="not(selected(/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer, 'never_visited_my_livstck'))" required="true()"/>
+      <bind nodeset="/data/how_long_took_last_call" type="select1" relevant="(selected(/data/who_initiate_call, 'livestock_keeper'))" required="true()"/>
+      <bind nodeset="/data/vet_officer_visi_who_usual_speaks" type="select1" relevant="not(selected(/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer, 'never_visited_my_livstck'))" required="true()"/>
+      <bind nodeset="/data/other_vet_officer_visi_who_usual_speaks" type="string" relevant="(selected(/data/vet_officer_visi_who_usual_speaks, 'other'))" required="true()"/>
+      <bind nodeset="/data/challanges_comm_with_vet_officer" type="select1" relevant="not(selected(/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer, 'never_visited_my_livstck'))" required="true()"/>
+      <bind nodeset="/data/explai_challanges_comm_with_vet_officer" type="string" relevant="(selected(/data/challanges_comm_with_vet_officer, 'yes'))" required="true()"/>
+
+      <bind nodeset="/data/CAHW_availability" type="select1" required="true()"/>
+      <bind nodeset="/data/interaction_with_CAHW/how_long_reach_CAHW" type="select1" relevant="(selected(/data/CAHW_availability, 'yes'))" required="true()"/>
+      <bind nodeset="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock" type="select1" relevant="(selected(/data/CAHW_availability, 'yes'))" required="true()"/>
+      <bind nodeset="/data/interaction_with_CAHW/experience_challngse_comm_CAHW" type="select1" relevant="(selected(/data/CAHW_availability, 'yes'))" required="true()"/>
+      <bind nodeset="/data/interaction_with_CAHW2/explain-experience_challngse_comm_CAHW" type="string" relevant="(selected(/data/interaction_with_CAHW/experience_challngse_comm_CAHW, 'yes'))" required="true()"/>
+      <bind nodeset="/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck" type="select1" relevant="(selected(/data/CAHW_availability, 'yes'))" required="true()"/>
+      <bind nodeset="/data/reason_not_call_CAHW" type="select1" relevant="(selected(/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck, 'no'))" required="true()"/>
+      <bind nodeset="/data/other_reason_not_call_CAHW" type="string" relevant="(selected(/data/reason_not_call_CAHW, 'other'))" required="true()"/>
+
+      <bind nodeset="/data/ever_shared_report_higher_level" type="select1" required="true()"/>
+      <bind nodeset="/data/feedback_response/did_u_get_feedback_after_report" type="select1" relevant="(selected(/data/ever_shared_report_higher_level, 'yes'))" required="true()"/>
+      <bind nodeset="/data/mechanism_of_feedback" type="select" relevant="(selected(/data/feedback_response/did_u_get_feedback_after_report, 'yes'))" required="true()"/>
+      <bind nodeset="/data/other_mechanism_of_feedback" type="string" relevant="(selected(/data/mechanism_of_feedback, 'other'))" required="true()"/>
+      <bind nodeset="/data/avarage_number_days_of_feedback" type="int" relevant="(selected(/data/feedback_response/did_u_get_feedback_after_report, 'yes'))" required="true()"/>
+      <bind nodeset="/data/mechanism_would_recom_sharing" type="select" required="true()"/>
+      <bind nodeset="/data/recommen_mechanism_of_infosharing" type="string" relevant="(selected(/data/mechanism_would_recom_sharing, 'other'))" required="true()"/>
+
+      <bind nodeset="/data/do_you_own_mobile" type="select1" required="true()"/>
+      <bind nodeset="/data/mobile_phone_owner_ship/type_of_mobile_phone" type="select" relevant="(selected(/data/do_you_own_mobile, 'yes'))" required="true()"/>
+      <bind nodeset="/data/mobile_phone_owner_ship/does_have_internet" type="select1" relevant="(selected(/data/do_you_own_mobile, 'yes'))" required="true()"/>
+      <bind nodeset="/data/type_of_OS_version" type="string" relevant="(selected(/data/mobile_phone_owner_ship/type_of_mobile_phone, 'smartPhone'))" required="true()"/>
+      <bind nodeset="/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report" type="select1" required="true()"/>
+      <bind nodeset="/data/mobile_phone_owner_ship2/ever_use_mobile_reporting" type="select1" required="true()"/>
+      <bind nodeset="/data/mobile_phone_owner_ship2/functions_used_for_reporting" type="select" relevant="(selected(/data/mobile_phone_owner_ship2/ever_use_mobile_reporting, 'yes'))" required="true()"/>
+      <bind nodeset="/data/any_org_using_phone_in_reporting" type="select1" required="true()"/>
+      <bind nodeset="/data/mentioend_org_using_phone_in_reporting" type="string" relevant="(selected(/data/any_org_using_phone_in_reporting, 'yes'))" required="true()"/>
+
+      <bind nodeset="/data/social_anthr_often_go_familiy" type="select" required="true()"/>
+      <bind nodeset="/data/social_anthropology/often_go_market_number_of_days" type="int" relevant="(selected(/data/social_anthr_often_go_familiy, 'Market'))" required="true()"/>
+      <bind nodeset="/data/social_anthropology/often_go_food_shop_number_of_days" type="int" relevant="(selected(/data/social_anthr_often_go_familiy, 'food_shops'))" required="true()"/>
+      <bind nodeset="/data/social_anthropology/other_places_often_go" type="string" relevant="(selected(/data/social_anthr_often_go_familiy, 'other'))" required="true()"/>
+      <bind nodeset="/data/social_anthropology/who_leads_house" type="select1" required="true()"/>
+      <bind nodeset="/data/social_anthropology/who_makes_decision_on_cattle" type="select1" required="true()"/>
+      <bind nodeset="/data/social_anthropology/who_makes_decision_on_goats_sheeps" type="select1" required="true()"/>
+      <bind nodeset="/data/social_anthropology/who_make_decision_onchickens_ducks" type="select1" required="true()"/>
+      <bind nodeset="/data/know_info_about_animal_bird_vacc_schedule" type="select1" required="true()"/>
+      <bind nodeset="/data/disease_prev_practices/Explai_dont_want_vacc_animals_birds" type="string" relevant="(selected(/data/know_info_about_animal_bird_vacc_schedule, 'no'))"/>
+      <bind nodeset="/data/disease_prev_practices/bestways_to_inform_abt_vacc" type="string"/>
+      <bind nodeset="/data/disease_prev_practices/best_way_to_protect_animals" type="string"/>
+      
+
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Livestock Keeper',': ',/data/participants_details/partcipant_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general_details:label')"/>
+      <input ref="/data/general_details/interview_date" appearance="no-calendar">
+        <label ref="jr:itext('/data/general_details/interview_date:label')"/>
+      </input>
+      <select1 ref="/data/general_details/region" appearance="minimal">
+        <label ref="jr:itext('/data/general_details/region:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_details/region:option0')"/>
+          <value>morogoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_details/region:option1')"/>
+          <value>kagera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_details/region:option2')"/>
+          <value>pemba</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_details/district" appearance="minimal">
+        <label ref="jr:itext('/data/general_details/district:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_details/district:option0')"/>
+          <value>kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_details/district:option1')"/>
+          <value>ngara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_details/district:option2')"/>
+          <value>wete</value>
+        </item>
+      </select1>
+      <input ref="/data/general_details/ward">
+        <label ref="jr:itext('/data/general_details/ward:label')"/>
+      </input>
+      <input ref="/data/general_details/village_street">
+        <label ref="jr:itext('/data/general_details/village_street:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general_deta:label')"/>
+      <select1 ref="/data/general_deta/gvnt_vet_officer_deliver_animal_health_services" appearance="minimal">
+        <label ref="jr:itext('/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_deta/gvnt_vet_officer_deliver_animal_health_services:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_deta/prv_vet_officer_deliver_animal_health_services" appearance="minimal">
+        <label ref="jr:itext('/data/general_deta/prv_vet_officer_deliver_animal_health_services:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_deta/prv_vet_officer_deliver_animal_health_services:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_deta/prv_vet_officer_deliver_animal_health_services:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_deta/CHWA_availability" appearance="minimal">
+        <label ref="jr:itext('/data/general_deta/CHWA_availability:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_deta/CHWA_availability:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_deta/CHWA_availability:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/general_deta/NGO_CBO_supporting_AH_services" appearance="minimal">
+        <label ref="jr:itext('/data/general_deta/NGO_CBO_supporting_AH_services:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general_deta/NGO_CBO_supporting_AH_services:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general_deta/NGO_CBO_supporting_AH_services:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/list_NGO_CBO_supporting">
+      <label ref="jr:itext('/data/list_NGO_CBO_supporting:label')"/>
+      <hint ref="jr:itext('/data/list_NGO_CBO_supporting:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/participants_details:label')"/>
+      <input ref="/data/participants_details/partcipant_ID">
+        <label ref="jr:itext('/data/participants_details/partcipant_ID:label')"/>
+        <hint ref="jr:itext('/data/participants_details/partcipant_ID:hint')"/>
+      </input>
+      <select1 ref="/data/participants_details/sex" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/sex:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/sex:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_details/how_long_lived" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details/how_long_lived:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/how_long_lived:option0')"/>
+          <value>less_than_year</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/how_long_lived:option1')"/>
+          <value>between1and5years</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/how_long_lived:option2')"/>
+          <value>morethan5years</value>
+        </item>
+      </select1>
+      <select ref="/data/participants_details/livestock_owned" appearance="minimal">
+        <label ref="jr:itext('/data/participants_details/livestock_owned:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option0')"/>
+          <value>cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option1')"/>
+          <value>sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option2')"/>
+          <value>goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option3')"/>
+          <value>pigs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option4')"/>
+          <value>Donkeys</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option5')"/>
+          <value>horses</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option6')"/>
+          <value>Poultry</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option7')"/>
+          <value>Dogs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option8')"/>
+          <value>Cats</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_details/livestock_owned:option9')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/participants_detail_animals_count:label')"/>
+      <select1 ref="/data/participants_detail_animals_count/number_cattles" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_cattles:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cattles:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cattles:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cattles:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_sheeps" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_sheeps:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_sheeps:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_sheeps:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_sheeps:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_goats" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_goats:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_goats:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_goats:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_goats:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_pigs" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_pigs:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_pigs:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_pigs:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_pigs:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_donkeys" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_donkeys:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_donkeys:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_donkeys:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_donkeys:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_horses" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_horses:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_horses:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_horses:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_horses:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_poultry" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_poultry:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_poultry:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_poultry:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_poultry:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_dogs" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_dogs:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_dogs:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_dogs:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_dogs:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <select1 ref="/data/participants_detail_animals_count/number_cats" appearance="minimal">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_cats:label')"/>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cats:option0')"/>
+          <value>1to5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cats:option1')"/>
+          <value>6to10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/participants_detail_animals_count/number_cats:option2')"/>
+          <value>morethan10</value>
+        </item>
+      </select1>
+      <input ref="/data/participants_detail_animals_count/number_and_other_animals">
+        <label ref="jr:itext('/data/participants_detail_animals_count/number_and_other_animals:label')"/>
+        <hint ref="jr:itext('/data/participants_detail_animals_count/number_and_other_animals:hint')"/>
+      </input>
+    </group>
+
+    
+      <select1 ref="/data/keep_livest_disease_cases" appearance="minimal">
+        <label ref="jr:itext('/data/keep_livest_disease_cases:label')"/>
+        <item>
+          <label ref="jr:itext('/data/keep_livest_disease_cases:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/keep_livest_disease_cases:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/inform_do_yo_records" appearance="minimal">
+        <label ref="jr:itext('/data/inform_do_yo_records:label')"/>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option0')"/>
+          <value>date_month_year</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option1')"/>
+          <value>district</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option2')"/>
+          <value>wars</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option3')"/>
+          <value>village</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option4')"/>
+          <value>address</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option5')"/>
+          <value>GPS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option6')"/>
+          <value>Species</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option7')"/>
+          <value>numb_sick_livestock_in_herd</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option8')"/>
+          <value>Number_of_deaths</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option9')"/>
+          <value>Herd_size</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option10')"/>
+          <value>Clinical_manifestations</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option11')"/>
+          <value>Suspected_disease</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option12')"/>
+          <value>Age</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option13')"/>
+          <value>sex</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option14')"/>
+          <value>Most_likely_exposure</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/inform_do_yo_records:option15')"/>
+          <value>other</value>
+        </item>
+      </select>
+   
+
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/records_livest_disease_case2:label')"/>
+      <input ref="/data/records_livest_disease_case2/other_info_abut_diseas_events">
+        <label ref="jr:itext('/data/records_livest_disease_case2/other_info_abut_diseas_events:label')"/>
+        <hint ref="jr:itext('/data/records_livest_disease_case2/other_info_abut_diseas_events:hint')"/>
+      </input>
+      <select ref="/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events" appearance="minimal">
+        <label ref="jr:itext('/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:label')"/>
+        <item>
+          <label ref="jr:itext('/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option0')"/>
+          <value>notebook</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option1')"/>
+          <value>Piece_of_paper</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option2')"/>
+          <value>surveillance_forms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/records_livest_disease_case2/where_kept_records_oflivest_dis_events:option3')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/other_where_kept_records_oflivest_dis_events">
+      <label ref="jr:itext('/data/other_where_kept_records_oflivest_dis_events:label')"/>
+      <hint ref="jr:itext('/data/other_where_kept_records_oflivest_dis_events:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event:label')"/>
+      <select ref="/data/Action_notification_in_an_event/notificat_for_sick_died_animal" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:label')"/>
+        <hint ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option0')"/>
+          <value>notify_gove_vet_LOF</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option1')"/>
+          <value>notify_privt_vet_LFO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option2')"/>
+          <value>notify_DVO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option3')"/>
+          <value>notify_CHWA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option4')"/>
+          <value>notify_local_leader</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/notificat_for_sick_died_animal:option5')"/>
+          <value>share_case_with_LVkeep_neighb</value>
+        </item>
+      </select>
+      <select ref="/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option0')"/>
+          <value>work_my_self_use_trad_medicine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option1')"/>
+          <value>work_my_self_use_modern_drugs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option2')"/>
+          <value>Slaughter_and_eat_at_home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option3')"/>
+          <value>Slaughter_and_eat_with_neighbou</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option4')"/>
+          <value>Sell_out_at_the_aliv_animal_mar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option5')"/>
+          <value>kill_it_by_urself_sell_meat_mark</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option6')"/>
+          <value>send_slaugh_abatt_butcher</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option7')"/>
+          <value>slaugh_hide_sell_later</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option8')"/>
+          <value>slaug_kill_give_carcass_dog</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option9')"/>
+          <value>do_non_wait_outcome</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event/practices_other_than_notif_for_sick_animal:option10')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event2:label')"/>
+      <input ref="/data/Action_notification_in_an_event2/Other_practices_other_than_notif_for_sick_animal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event2/Other_practices_other_than_notif_for_sick_animal:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option0')"/>
+          <value>Slaughter_and_eat_at_home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option1')"/>
+          <value>slaugh_and_eat_withNeigh</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option2')"/>
+          <value>Sell_the_meat_at_a_market</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option3')"/>
+          <value>send_slaug_abattoi_butcher</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option4')"/>
+          <value>take_hide_sell_later</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option5')"/>
+          <value>throw_away</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option6')"/>
+          <value>give_carcass_to_dogs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option7')"/>
+          <value>Dispose_in_the_pit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option8')"/>
+          <value>burn_the_body</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event2/practices_other_than_notif_for_dead_animal:option9')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event3:label')"/>
+      <input ref="/data/Action_notification_in_an_event3/Other_practices_other_than_notif_for_dead_animal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event3/Other_practices_other_than_notif_for_dead_animal:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event3/decision_who_to_consult" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:label')"/>
+        <hint ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option0')"/>
+          <value>respond_feedback</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option1')"/>
+          <value>cost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option2')"/>
+          <value>animal_value</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option3')"/>
+          <value>distance</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option4')"/>
+          <value>Relationship</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event3/decision_who_to_consult:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event4:label')"/>
+      <input ref="/data/Action_notification_in_an_event4/other_decision_who_to_consult">
+        <label ref="jr:itext('/data/Action_notification_in_an_event4/other_decision_who_to_consult:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event4/how_notify_higher_level" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:label')"/>
+        <hint ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option0')"/>
+          <value>Physical_visit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option1')"/>
+          <value>telephone_call</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option2')"/>
+          <value>sms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option3')"/>
+          <value>email</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option4')"/>
+          <value>send_report_throu_public_trans</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option5')"/>
+          <value>non_notification</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event4/how_notify_higher_level:option6')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event5:label')"/>
+      <input ref="/data/Action_notification_in_an_event5/other_notify_higher_level">
+        <label ref="jr:itext('/data/Action_notification_in_an_event5/other_notify_higher_level:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event5/factors_influence_report" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option0')"/>
+          <value>Occurrence_of_new_disease</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option1')"/>
+          <value>animal_affected</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option2')"/>
+          <value>diseas_seriousness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option3')"/>
+          <value>poor_self_treatment_attemp</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option4')"/>
+          <value>fast_spread_diseas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option5')"/>
+          <value>mortalities_increased</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option6')"/>
+          <value>value_of_animal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option7')"/>
+          <value>satisfied_with_vet_service</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option8')"/>
+          <value>vet_service_close_home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option9')"/>
+          <value>money_spent_vet_service_offset</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option10')"/>
+          <value>diseas_affect_animal_humans</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option11')"/>
+          <value>other_liv_keepers_keep_report</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event5/factors_influence_report:option12')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event6:label')"/>
+      <input ref="/data/Action_notification_in_an_event6/other_factors_influence_report">
+        <label ref="jr:itext('/data/Action_notification_in_an_event6/other_factors_influence_report:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event6/limit_factors_to_report" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option0')"/>
+          <value>health_servic_not_availlable</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option1')"/>
+          <value>lack_respo_feedback_afterRepor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option2')"/>
+          <value>late_feedbac_response</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option3')"/>
+          <value>diffic_to_consul_health_service</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option4')"/>
+          <value>lack_poor_infas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option5')"/>
+          <value>financial_issues</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option6')"/>
+          <value>vet_drug_shops_vicinity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option7')"/>
+          <value>lack_credit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option8')"/>
+          <value>scared_my_animal_culled</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option9')"/>
+          <value>control_measure_restr_Anmove</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option10')"/>
+          <value>trad_herbs_effective</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option11')"/>
+          <value>able_recognize_my_self</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option12')"/>
+          <value>my_neigbour_do</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option13')"/>
+          <value>not_where_aware_to_report</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option14')"/>
+          <value>not_aware_whn_report</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option15')"/>
+          <value>not_able_detect_recognize</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option16')"/>
+          <value>not_aware_how_to_record</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option17')"/>
+          <value>no_reco_tools</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event6/limit_factors_to_report:option18')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event7:label')"/>
+      <input ref="/data/Action_notification_in_an_event7/other_limit_factors_to_report">
+        <label ref="jr:itext('/data/Action_notification_in_an_event7/other_limit_factors_to_report:label')"/>
+      </input>
+      <select1 ref="/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event7/easy_way_would_inform_vet_officer:option2')"/>
+          <value>dont_want_to_be_informed</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event8:label')"/>
+      <input ref="/data/Action_notification_in_an_event8/why_easy_way_would_not_inform_vet_officer">
+        <label ref="jr:itext('/data/Action_notification_in_an_event8/why_easy_way_would_not_inform_vet_officer:label')"/>
+      </input>
+      <select ref="/data/Action_notification_in_an_event8/which_would_prefer_to_report" appearance="minimal">
+        <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option0')"/>
+          <value>Drought</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option1')"/>
+          <value>Disease_outbreak</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option2')"/>
+          <value>Increased_mortality_rate</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option3')"/>
+          <value>floods</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option4')"/>
+          <value>Reduced_production</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option5')"/>
+          <value>Occurrence_of_new_disease</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option6')"/>
+          <value>theft</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Action_notification_in_an_event8/which_would_prefer_to_report:option7')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Action_notification_in_an_event9:label')"/>
+      <input ref="/data/Action_notification_in_an_event9/other_which_would_prefer_to_report">
+        <label ref="jr:itext('/data/Action_notification_in_an_event9/other_which_would_prefer_to_report:label')"/>
+        <hint ref="jr:itext('/data/Action_notification_in_an_event9/other_which_would_prefer_to_report:hint')"/>
+      </input>
+      <input ref="/data/Action_notification_in_an_event9/opinion_on_improving_reporting">
+        <label ref="jr:itext('/data/Action_notification_in_an_event9/opinion_on_improving_reporting:label')"/>
+      </input>
+    </group>
+    <select ref="/data/Acce_uti_source_of_inf_on_livestock_disease" appearance="minimal">
+      <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option0')"/>
+        <value>gvtn_vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option1')"/>
+        <value>prvt_vet_officer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option2')"/>
+        <value>fellow_livestock_keeper</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option3')"/>
+        <value>reserch_learn_institute</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option4')"/>
+        <value>NGO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option5')"/>
+        <value>radio</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option6')"/>
+        <value>TV</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option7')"/>
+        <value>newspaper</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option8')"/>
+        <value>Brochures</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option9')"/>
+        <value>internet</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option10')"/>
+        <value>school_children</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option11')"/>
+        <value>other</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Acce_uti_source_of_inf_on_livestock_disease:option12')"/>
+        <value>none</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/access_utiliza_livestck_health_service:label')"/>
+      <input ref="/data/access_utiliza_livestck_health_service/other_source_of_inf_on_livestock_disease">
+        <label ref="jr:itext('/data/access_utiliza_livestck_health_service/other_source_of_inf_on_livestock_disease:label')"/>
+      </input>
+      <select ref="/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health" appearance="minimal">
+        <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:label')"/>
+        <hint ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option0')"/>
+          <value>gvnt_vet_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option1')"/>
+          <value>prvt_vet_officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option2')"/>
+          <value>CHWA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option3')"/>
+          <value>traditio_healers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option4')"/>
+          <value>NGO_CBO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service/who_mainly_provide_lvstck_health:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/access_utiliza_livestck_health_service2:label')"/>
+      <input ref="/data/access_utiliza_livestck_health_service2/other_mainly_provide_lvstck_health">
+        <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/other_mainly_provide_lvstck_health:label')"/>
+      </input>
+      <select ref="/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd" appearance="minimal">
+        <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:label')"/>
+        <hint ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option0')"/>
+          <value>Livestock_owner</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option1')"/>
+          <value>Veterinary_Officer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option2')"/>
+          <value>Government</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option3')"/>
+          <value>NGO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/access_utiliza_livestck_health_service2/responsible_contro_disease_in_herd:option4')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/other_responsible_contro_disease_in_herd">
+      <label ref="jr:itext('/data/other_responsible_contro_disease_in_herd:label')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off:label')"/>
+      <select1 ref="/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service" appearance="minimal">
+        <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option0')"/>
+          <value>less_than1hr</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option1')"/>
+          <value>1to6hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option2')"/>
+          <value>6to12hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option3')"/>
+          <value>moreThan12hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/how_long_to_reach_vet_service:option4')"/>
+          <value>notaware</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO" appearance="minimal">
+        <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option0')"/>
+          <value>most_of_times</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option1')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option2')"/>
+          <value>Rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/freque_inter_with_LFO:option3')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal" appearance="minimal">
+        <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off/ever_called_officer_visit_animal:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/reason_not_called_officer_visit_animal" appearance="minimal">
+      <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option0')"/>
+        <value>vet_officer_not_avail_in_area</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option1')"/>
+        <value>can_manage_on_my_own</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option2')"/>
+        <value>vet_services_not_usefull</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option3')"/>
+        <value>higher_cost</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option4')"/>
+        <value>never_exp_challngs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_called_officer_visit_animal:option5')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2:label')"/>
+      <input ref="/data/interactio_with_lvstck_hea_care_vet_off2/other_reason_not_called_officer_visit_animal">
+        <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/other_reason_not_called_officer_visit_animal:label')"/>
+      </input>
+      <select1 ref="/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer" appearance="minimal">
+        <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option0')"/>
+          <value>lessthan3months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option1')"/>
+          <value>3to6months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option2')"/>
+          <value>6to12months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option3')"/>
+          <value>morethan12months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interactio_with_lvstck_hea_care_vet_off2/last_visit_officer:option4')"/>
+          <value>never_visited_my_livstck</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/who_initiate_call" appearance="minimal">
+      <label ref="jr:itext('/data/who_initiate_call:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_initiate_call:option0')"/>
+        <value>livestock_keeper</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_initiate_call:option1')"/>
+        <value>vet_officer_visited</value>
+      </item>
+    </select1>
+    <select1 ref="/data/how_long_took_last_call" appearance="minimal">
+      <label ref="jr:itext('/data/how_long_took_last_call:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option0')"/>
+        <value>within_12hrs</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option1')"/>
+        <value>1to3days</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option2')"/>
+        <value>4to7days</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option3')"/>
+        <value>1week</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option4')"/>
+        <value>2weeks</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option5')"/>
+        <value>3to4weeks</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_long_took_last_call:option6')"/>
+        <value>morethan1month</value>
+      </item>
+    </select1>
+    <select1 ref="/data/vet_officer_visi_who_usual_speaks" appearance="minimal">
+      <label ref="jr:itext('/data/vet_officer_visi_who_usual_speaks:label')"/>
+      <item>
+        <label ref="jr:itext('/data/vet_officer_visi_who_usual_speaks:option0')"/>
+        <value>livestock_owner</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vet_officer_visi_who_usual_speaks:option1')"/>
+        <value>livestock_herder</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vet_officer_visi_who_usual_speaks:option2')"/>
+        <value>any_family_member</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/vet_officer_visi_who_usual_speaks:option3')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/other_vet_officer_visi_who_usual_speaks">
+      <label ref="jr:itext('/data/other_vet_officer_visi_who_usual_speaks:label')"/>
+      <hint ref="jr:itext('/data/other_vet_officer_visi_who_usual_speaks:hint')"/>
+    </input>
+    <select1 ref="/data/challanges_comm_with_vet_officer" appearance="minimal">
+      <label ref="jr:itext('/data/challanges_comm_with_vet_officer:label')"/>
+      <item>
+        <label ref="jr:itext('/data/challanges_comm_with_vet_officer:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/challanges_comm_with_vet_officer:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/explai_challanges_comm_with_vet_officer">
+      <label ref="jr:itext('/data/explai_challanges_comm_with_vet_officer:label')"/>
+    </input>
+
+    <select1 ref="/data/CAHW_availability" appearance="minimal">
+        <label ref="jr:itext('/data/CAHW_availability:label')"/>
+        <item>
+          <label ref="jr:itext('/data/CAHW_availability:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CAHW_availability:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CAHW_availability:option2')"/>
+          <value>not_aware</value>
+        </item>
+      </select1>
+
+
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interaction_with_CAHW:label')"/>
+      
+      <select1 ref="/data/interaction_with_CAHW/how_long_reach_CAHW" appearance="minimal">
+        <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:option0')"/>
+          <value>lessthan1hr</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:option1')"/>
+          <value>1to6hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:option2')"/>
+          <value>6to12hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:option3')"/>
+          <value>morethan12hrs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/how_long_reach_CAHW:option4')"/>
+          <value>notaware</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interaction_with_CAHW/last_time_CAHW_visited_livestock" appearance="minimal">
+        <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option0')"/>
+          <value>lessthan3monthsago</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option1')"/>
+          <value>3to6months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option2')"/>
+          <value>6to12months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option3')"/>
+          <value>morethan12months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/last_time_CAHW_visited_livestock:option4')"/>
+          <value>CAHW_never_visited</value>
+        </item>
+      </select1>
+      <select1 ref="/data/interaction_with_CAHW/experience_challngse_comm_CAHW" appearance="minimal">
+        <label ref="jr:itext('/data/interaction_with_CAHW/experience_challngse_comm_CAHW:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/experience_challngse_comm_CAHW:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW/experience_challngse_comm_CAHW:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interaction_with_CAHW2:label')"/>
+      <input ref="/data/interaction_with_CAHW2/explain-experience_challngse_comm_CAHW">
+        <label ref="jr:itext('/data/interaction_with_CAHW2/explain-experience_challngse_comm_CAHW:label')"/>
+      </input>
+      <select1 ref="/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck" appearance="minimal">
+        <label ref="jr:itext('/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interaction_with_CAHW2/ever_call_CAHW_to_visit_livstck:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/reason_not_call_CAHW" appearance="minimal">
+      <label ref="jr:itext('/data/reason_not_call_CAHW:label')"/>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option0')"/>
+        <value>CAHW_not_available</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option1')"/>
+        <value>can_manage_on_my_own</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option2')"/>
+        <value>CAHW_not_usefull</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option3')"/>
+        <value>high_cost_of_CAHW</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option4')"/>
+        <value>neve_exp_chall_to_call_CAHW</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/reason_not_call_CAHW:option5')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/other_reason_not_call_CAHW">
+      <label ref="jr:itext('/data/other_reason_not_call_CAHW:label')"/>
+    </input>
+
+    <select1 ref="/data/ever_shared_report_higher_level" appearance="minimal">
+        <label ref="jr:itext('/data/ever_shared_report_higher_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ever_shared_report_higher_level:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ever_shared_report_higher_level:option1')"/>
+          <value>no</value>
+        </item>
+     </select1>
+
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/feedback_response:label')"/>
+      
+      <select1 ref="/data/feedback_response/did_u_get_feedback_after_report" appearance="minimal">
+        <label ref="jr:itext('/data/feedback_response/did_u_get_feedback_after_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/feedback_response/did_u_get_feedback_after_report:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/feedback_response/did_u_get_feedback_after_report:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>      
+    </group>
+   
+    <select ref="/data/mechanism_of_feedback" appearance="minimal">
+        <label ref="jr:itext('/data/mechanism_of_feedback:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option0')"/>
+          <value>village_meetings</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option1')"/>
+          <value>paper_based</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option2')"/>
+          <value>phone_calls</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option3')"/>
+          <value>SMS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option4')"/>
+          <value>digital_technology</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option5')"/>
+          <value>radio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option6')"/>
+          <value>vet_officer_visiting_me</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option7')"/>
+          <value>I_visited_vet_office</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mechanism_of_feedback:option8')"/>
+          <value>other</value>
+        </item>
+      </select>
+
+    <input ref="/data/other_mechanism_of_feedback">
+      <label ref="jr:itext('/data/other_mechanism_of_feedback:label')"/>
+    </input>
+    <input ref="/data/avarage_number_days_of_feedback">
+      <label ref="jr:itext('/data/avarage_number_days_of_feedback:label')"/>
+    </input>
+    <select ref="/data/mechanism_would_recom_sharing" appearance="minimal">
+      <label ref="jr:itext('/data/mechanism_would_recom_sharing:label')"/>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option0')"/>
+        <value>village_meetings</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option1')"/>
+        <value>paper_based</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option2')"/>
+        <value>phone_calls</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option3')"/>
+        <value>SMS</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option4')"/>
+        <value>digital_technology</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option5')"/>
+        <value>radio</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option6')"/>
+        <value>vet_officer_visiting_me</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option7')"/>
+        <value>I_visited_vet_office</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/mechanism_would_recom_sharing:option8')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/recommen_mechanism_of_infosharing">
+      <label ref="jr:itext('/data/recommen_mechanism_of_infosharing:label')"/>
+    </input>
+    <select1 ref="/data/do_you_own_mobile" appearance="minimal">
+      <label ref="jr:itext('/data/do_you_own_mobile:label')"/>
+      <item>
+        <label ref="jr:itext('/data/do_you_own_mobile:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/do_you_own_mobile:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/mobile_phone_owner_ship:label')"/>
+      <select ref="/data/mobile_phone_owner_ship/type_of_mobile_phone" appearance="minimal">
+        <label ref="jr:itext('/data/mobile_phone_owner_ship/type_of_mobile_phone:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship/type_of_mobile_phone:option0')"/>
+          <value>ordinary_phone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship/type_of_mobile_phone:option1')"/>
+          <value>smartPhone</value>
+        </item>
+      </select>
+      <select1 ref="/data/mobile_phone_owner_ship/does_have_internet" appearance="minimal">
+        <label ref="jr:itext('/data/mobile_phone_owner_ship/does_have_internet:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship/does_have_internet:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship/does_have_internet:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/type_of_OS_version">
+      <label ref="jr:itext('/data/type_of_OS_version:label')"/>
+      <hint ref="jr:itext('/data/type_of_OS_version:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/mobile_phone_owner_ship2:label')"/>
+      <select1 ref="/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report" appearance="minimal">
+        <label ref="jr:itext('/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/aware_of_mobile_in_disease_report:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/mobile_phone_owner_ship2/ever_use_mobile_reporting" appearance="minimal">
+        <label ref="jr:itext('/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/ever_use_mobile_reporting:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/mobile_phone_owner_ship2/functions_used_for_reporting" appearance="minimal">
+        <label ref="jr:itext('/data/mobile_phone_owner_ship2/functions_used_for_reporting:label')"/>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/functions_used_for_reporting:option0')"/>
+          <value>voice_call</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/functions_used_for_reporting:option1')"/>
+          <value>sms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/mobile_phone_owner_ship2/functions_used_for_reporting:option2')"/>
+          <value>whatsapp_social_apps</value>
+        </item>
+      </select>
+    </group>
+    <select1 ref="/data/any_org_using_phone_in_reporting" appearance="minimal">
+      <label ref="jr:itext('/data/any_org_using_phone_in_reporting:label')"/>
+      <item>
+        <label ref="jr:itext('/data/any_org_using_phone_in_reporting:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/any_org_using_phone_in_reporting:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/mentioend_org_using_phone_in_reporting">
+      <label ref="jr:itext('/data/mentioend_org_using_phone_in_reporting:label')"/>
+    </input>
+    <select ref="/data/social_anthr_often_go_familiy" appearance="minimal">
+      <label ref="jr:itext('/data/social_anthr_often_go_familiy:label')"/>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option0')"/>
+        <value>primary_school</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option1')"/>
+        <value>other_school</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option2')"/>
+        <value>church_mosque_religious_event</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option3')"/>
+        <value>Market</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option4')"/>
+        <value>food_shops</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option5')"/>
+        <value>well</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option6')"/>
+        <value>Bore_hole</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/social_anthr_often_go_familiy:option7')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/social_anthropology:label')"/>
+      <input ref="/data/social_anthropology/often_go_market_number_of_days">
+        <label ref="jr:itext('/data/social_anthropology/often_go_market_number_of_days:label')"/>
+      </input>
+      <input ref="/data/social_anthropology/often_go_food_shop_number_of_days">
+        <label ref="jr:itext('/data/social_anthropology/often_go_food_shop_number_of_days:label')"/>
+      </input>
+      <input ref="/data/social_anthropology/other_places_often_go">
+        <label ref="jr:itext('/data/social_anthropology/other_places_often_go:label')"/>
+      </input>
+      <select1 ref="/data/social_anthropology/who_leads_house" appearance="minimal">
+        <label ref="jr:itext('/data/social_anthropology/who_leads_house:label')"/>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_leads_house:option0')"/>
+          <value>man</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_leads_house:option1')"/>
+          <value>woman</value>
+        </item>
+      </select1>
+      <select1 ref="/data/social_anthropology/who_makes_decision_on_cattle" appearance="minimal">
+        <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_cattle:label')"/>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_cattle:option0')"/>
+          <value>man</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_cattle:option1')"/>
+          <value>woman</value>
+        </item>
+      </select1>
+      <select1 ref="/data/social_anthropology/who_makes_decision_on_goats_sheeps" appearance="minimal">
+        <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_goats_sheeps:label')"/>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_goats_sheeps:option0')"/>
+          <value>man</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_makes_decision_on_goats_sheeps:option1')"/>
+          <value>woman</value>
+        </item>
+      </select1>
+      <select1 ref="/data/social_anthropology/who_make_decision_onchickens_ducks" appearance="minimal">
+        <label ref="jr:itext('/data/social_anthropology/who_make_decision_onchickens_ducks:label')"/>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_make_decision_onchickens_ducks:option0')"/>
+          <value>man</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/social_anthropology/who_make_decision_onchickens_ducks:option1')"/>
+          <value>woman</value>
+        </item>
+      </select1>
+    </group>
+
+    <select1 ref="/data/know_info_about_animal_bird_vacc_schedule" appearance="minimal">
+        <label ref="jr:itext('/data/know_info_about_animal_bird_vacc_schedule:label')"/>
+        <item>
+          <label ref="jr:itext('/data/know_info_about_animal_bird_vacc_schedule:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/know_info_about_animal_bird_vacc_schedule:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/disease_prev_practices:label')"/>
+     <input ref="/data/disease_prev_practices/Explai_dont_want_vacc_animals_birds">
+      <label ref="jr:itext('/data/disease_prev_practices/Explai_dont_want_vacc_animals_birds:label')"/>
+     </input>
+      <input ref="/data/disease_prev_practices/bestways_to_inform_abt_vacc">
+        <label ref="jr:itext('/data/disease_prev_practices/bestways_to_inform_abt_vacc:label')"/>
+        <hint ref="jr:itext('/data/disease_prev_practices/bestways_to_inform_abt_vacc:hint')"/>
+      </input>
+      <input ref="/data/disease_prev_practices/best_way_to_protect_animals">
+        <label ref="jr:itext('/data/disease_prev_practices/best_way_to_protect_animals:label')"/>
+      </input>
+    </group>
+    
+  </h:body>
+</h:html>

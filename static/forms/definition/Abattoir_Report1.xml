@@ -1,0 +1,406 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Abattoir Report</h:title>
+    <model>
+      <instance>
+        <data id="build_Abattoir-Report-Form_150953613200">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <initialDetails>
+            <reportDate/>
+            <villageCode/>
+            <anteMortem/>
+            <carCass/>
+            <numberSlaughtered>
+              0
+            </numberSlaughtered>
+            <fitForConsumption>
+              0
+            </fitForConsumption>
+          </initialDetails>
+          <totalCondemned>
+            <anthrax>
+              0
+            </anthrax>
+            <generalizedTB>
+              0
+            </generalizedTB>
+            <cysts>
+              0
+            </cysts>
+            <jaundice>
+              0
+            </jaundice>
+            <otherTotalCondemned/>
+            <numberOtherTotalCondemned>
+              0
+            </numberOtherTotalCondemned>
+          </totalCondemned>
+          <partialCondemned>
+            <helminthosis>
+              0
+            </helminthosis>
+            <cysticercosis>
+              0
+            </cysticercosis>
+            <hydatidosis>
+              0
+            </hydatidosis>
+            <localizedTB>
+              0
+            </localizedTB>
+            <aesthetic>
+              0
+            </aesthetic>
+            <otherPartialCondemned/>
+            <numberOtherPartialCondemned>
+              0
+            </numberOtherPartialCondemned>
+          </partialCondemned>
+          <organCondemned>
+            <organLiver>
+              0
+            </organLiver>
+            <organKidney>
+              0
+            </organKidney>
+            <organLungs>
+              0
+            </organLungs>
+            <organSpleen>
+              0
+            </organSpleen>
+            <organHeart>
+              0
+            </organHeart>
+            <organTongue>
+              0
+            </organTongue>
+            <organHead>
+              0
+            </organHead>
+            <otherOrgan/>
+            <otherOrganKG>
+              0
+            </otherOrganKG>
+          </organCondemned>
+          <gpsLocation/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/initialDetails:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/initialDetails/reportDate:label">
+            <value>Report Date</value>
+          </text>
+          <text id="/data/initialDetails/villageCode:label">
+            <value>Village Code</value>
+          </text>
+          <text id="/data/initialDetails/anteMortem:label">
+            <value>Ante Mortem</value>
+          </text>
+          <text id="/data/initialDetails/anteMortem:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/initialDetails/anteMortem:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/initialDetails/carCass:label">
+            <value>Carcass</value>
+          </text>
+          <text id="/data/initialDetails/carCass:option0">
+            <value>Cattle</value>
+          </text>
+          <text id="/data/initialDetails/carCass:option1">
+            <value>Goat</value>
+          </text>
+          <text id="/data/initialDetails/carCass:option2">
+            <value>Sheep</value>
+          </text>
+          <text id="/data/initialDetails/carCass:option3">
+            <value>Pig</value>
+          </text>
+          <text id="/data/initialDetails/carCass:option4">
+            <value>Chicken</value>
+          </text>
+          <text id="/data/initialDetails/numberSlaughtered:label">
+            <value>Number Slaughtered</value>
+          </text>
+          <text id="/data/initialDetails/fitForConsumption:label">
+            <value>Fit For Consumption</value>
+          </text>
+          <text id="/data/totalCondemned:label">
+            <value>Total Condemned</value>
+          </text>
+          <text id="/data/totalCondemned/anthrax:label">
+            <value>Anthrax</value>
+          </text>
+          <text id="/data/totalCondemned/generalizedTB:label">
+            <value>Generalized TB</value>
+          </text>
+          <text id="/data/totalCondemned/cysts:label">
+            <value>Cysts</value>
+          </text>
+          <text id="/data/totalCondemned/jaundice:label">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/totalCondemned/otherTotalCondemned:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/totalCondemned/otherTotalCondemned:hint">
+            <value>Please specify if any</value>
+          </text>
+          <text id="/data/totalCondemned/numberOtherTotalCondemned:label">
+            <value>Number of Other condemned</value>
+          </text>
+          <text id="/data/totalCondemned/numberOtherTotalCondemned:hint">
+            <value>If specified above</value>
+          </text>
+          <text id="/data/partialCondemned:label">
+            <value>Partial Condemned</value>
+          </text>
+          <text id="/data/partialCondemned/helminthosis:label">
+            <value>Helminthosis</value>
+          </text>
+          <text id="/data/partialCondemned/cysticercosis:label">
+            <value>Cysticercosis</value>
+          </text>
+          <text id="/data/partialCondemned/hydatidosis:label">
+            <value>Hydatidosis</value>
+          </text>
+          <text id="/data/partialCondemned/localizedTB:label">
+            <value>Localized TB</value>
+          </text>
+          <text id="/data/partialCondemned/aesthetic:label">
+            <value>Aesthetic</value>
+          </text>
+          <text id="/data/partialCondemned/otherPartialCondemned:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/partialCondemned/otherPartialCondemned:hint">
+            <value>Please specify if any</value>
+          </text>
+          <text id="/data/partialCondemned/numberOtherPartialCondemned:label">
+            <value>Number of other condemned</value>
+          </text>
+          <text id="/data/partialCondemned/numberOtherPartialCondemned:hint">
+            <value>If specified above</value>
+          </text>
+          <text id="/data/organCondemned:label">
+            <value>Organ Condemned</value>
+          </text>
+          <text id="/data/organCondemned/organLiver:label">
+            <value>Liver (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organKidney:label">
+            <value>Kidney (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organLungs:label">
+            <value>Lungs (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organSpleen:label">
+            <value>Spleen (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organHeart:label">
+            <value>Heart (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organTongue:label">
+            <value>Tongue (Kg)</value>
+          </text>
+          <text id="/data/organCondemned/organHead:label">
+            <value>Head (kg)</value>
+          </text>
+          <text id="/data/organCondemned/otherOrgan:label">
+            <value>Other Organ</value>
+          </text>
+          <text id="/data/organCondemned/otherOrgan:hint">
+            <value>Please specify if any</value>
+          </text>
+          <text id="/data/organCondemned/otherOrganKG:label">
+            <value>Other Organ (Kg)</value>
+          </text>
+           <text id="/data/gpsLocation:label">
+            <value>Location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/initialDetails/reportDate" type="date" required="true()" jr:requiredMsg="ReportDate is Required"/>
+      <bind nodeset="/data/initialDetails/villageCode" type="string" required="true()" jr:requiredMsg="Village Code is Required"/>
+      <bind nodeset="/data/initialDetails/anteMortem" type="select1" required="true()" jr:requiredMsg="Ante Mortem is Required"/>
+      <bind nodeset="/data/initialDetails/carCass" type="select1" required="true()" jr:requiredMsg="Carass is Required"/>
+      <bind nodeset="/data/initialDetails/numberSlaughtered" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Number Slaughtered Should be equal or greater than 0"/>
+      <bind nodeset="/data/initialDetails/fitForConsumption" type="int" required="true()" constraint="(.  &lt;=  /data/initialDetails/numberSlaughtered) and (. &gt;= '0')"
+          jr:constraintMsg="Fit for Consumption should be less or equal to Number Slaughtered and equal or greater than zero." />
+      <bind nodeset="/data/totalCondemned/anthrax" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Condemned with Anthrax Should be equal or greater than 0"/>
+      <bind nodeset="/data/totalCondemned/generalizedTB" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Condemned with Generalized TB Should be equal or greater than 0"/>
+      <bind nodeset="/data/totalCondemned/cysts" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Condemned with Cysts Should be equal or greater than 0"/>
+      <bind nodeset="/data/totalCondemned/jaundice" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Condemned with Jaundice Should be equal or greater than 0"/>
+      <bind nodeset="/data/totalCondemned/otherTotalCondemned" type="string"/>
+      <bind nodeset="/data/totalCondemned/numberOtherTotalCondemned" type="int" constraint="(. &gt;= '0')" jr:constraintMsg="Condemned with Above mentioned disease Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/helminthosis" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with helminthosis Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/cysticercosis" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with Cysticercosis Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/hydatidosis" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with Hydatidosis Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/localizedTB" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with Localized TB Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/aesthetic" type="int" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with Aesthetic Should be equal or greater than 0"/>
+      <bind nodeset="/data/partialCondemned/otherPartialCondemned" type="string"/>
+      <bind nodeset="/data/partialCondemned/numberOtherPartialCondemned" type="int" constraint="(. &gt;= '0')" jr:constraintMsg="Partial Condemned with Above mentioned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organLiver" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganLiver Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organKidney" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganKidney Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organLungs" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganLungs Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organSpleen" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganSpleen Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organHeart" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganHeart Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organTongue" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganTongue Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/organHead" type="decimal" required="true()" constraint="(. &gt;= '0')" jr:constraintMsg="OrganHead Condemned Should be equal or greater than 0"/>
+      <bind nodeset="/data/organCondemned/otherOrgan" type="string"/>
+      <bind nodeset="/data/organCondemned/otherOrganKG" type="decimal" constraint="(. &gt;= '0')" jr:constraintMsg="Organ mentioned above Should be equal or greater than 0"/>
+      <bind nodeset="/data/gpsLocation" type="geopoint" required="true()" jr:requiredMsg="GPS Location is Required"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Abbatoir Report',': ',/data/initialDetails/carCass)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/initialDetails:label')"/>
+      <input ref="/data/initialDetails/reportDate" appearance="no-calendar">
+        <label ref="jr:itext('/data/initialDetails/reportDate:label')"/>
+      </input>
+      <input ref="/data/initialDetails/villageCode">
+        <label ref="jr:itext('/data/initialDetails/villageCode:label')"/>
+      </input>
+      <select1 ref="/data/initialDetails/anteMortem">
+        <label ref="jr:itext('/data/initialDetails/anteMortem:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/anteMortem:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/anteMortem:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initialDetails/carCass">
+        <label ref="jr:itext('/data/initialDetails/carCass:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/carCass:option0')"/>
+          <value>cattle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/carCass:option1')"/>
+          <value>goat</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/carCass:option2')"/>
+          <value>sheep</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/carCass:option3')"/>
+          <value>pig</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initialDetails/carCass:option4')"/>
+          <value>chicken</value>
+        </item>
+      </select1>
+      <input ref="/data/initialDetails/numberSlaughtered">
+        <label ref="jr:itext('/data/initialDetails/numberSlaughtered:label')"/>
+      </input>
+      <input ref="/data/initialDetails/fitForConsumption">
+        <label ref="jr:itext('/data/initialDetails/fitForConsumption:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/totalCondemned:label')"/>
+      <input ref="/data/totalCondemned/anthrax">
+        <label ref="jr:itext('/data/totalCondemned/anthrax:label')"/>
+      </input>
+      <input ref="/data/totalCondemned/generalizedTB">
+        <label ref="jr:itext('/data/totalCondemned/generalizedTB:label')"/>
+      </input>
+      <input ref="/data/totalCondemned/cysts">
+        <label ref="jr:itext('/data/totalCondemned/cysts:label')"/>
+      </input>
+      <input ref="/data/totalCondemned/jaundice">
+        <label ref="jr:itext('/data/totalCondemned/jaundice:label')"/>
+      </input>
+      <input ref="/data/totalCondemned/otherTotalCondemned">
+        <label ref="jr:itext('/data/totalCondemned/otherTotalCondemned:label')"/>
+        <hint ref="jr:itext('/data/totalCondemned/otherTotalCondemned:hint')"/>
+      </input>
+      <input ref="/data/totalCondemned/numberOtherTotalCondemned">
+        <label ref="jr:itext('/data/totalCondemned/numberOtherTotalCondemned:label')"/>
+        <hint ref="jr:itext('/data/totalCondemned/numberOtherTotalCondemned:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/partialCondemned:label')"/>
+      <input ref="/data/partialCondemned/helminthosis">
+        <label ref="jr:itext('/data/partialCondemned/helminthosis:label')"/>
+      </input>
+      <input ref="/data/partialCondemned/cysticercosis">
+        <label ref="jr:itext('/data/partialCondemned/cysticercosis:label')"/>
+      </input>
+      <input ref="/data/partialCondemned/hydatidosis">
+        <label ref="jr:itext('/data/partialCondemned/hydatidosis:label')"/>
+      </input>
+      <input ref="/data/partialCondemned/localizedTB">
+        <label ref="jr:itext('/data/partialCondemned/localizedTB:label')"/>
+      </input>
+      <input ref="/data/partialCondemned/aesthetic">
+        <label ref="jr:itext('/data/partialCondemned/aesthetic:label')"/>
+      </input>
+      <input ref="/data/partialCondemned/otherPartialCondemned">
+        <label ref="jr:itext('/data/partialCondemned/otherPartialCondemned:label')"/>
+        <hint ref="jr:itext('/data/partialCondemned/otherPartialCondemned:hint')"/>
+      </input>
+      <input ref="/data/partialCondemned/numberOtherPartialCondemned">
+        <label ref="jr:itext('/data/partialCondemned/numberOtherPartialCondemned:label')"/>
+        <hint ref="jr:itext('/data/partialCondemned/numberOtherPartialCondemned:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/organCondemned:label')"/>
+      <input ref="/data/organCondemned/organLiver">
+        <label ref="jr:itext('/data/organCondemned/organLiver:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organKidney">
+        <label ref="jr:itext('/data/organCondemned/organKidney:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organLungs">
+        <label ref="jr:itext('/data/organCondemned/organLungs:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organSpleen">
+        <label ref="jr:itext('/data/organCondemned/organSpleen:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organHeart">
+        <label ref="jr:itext('/data/organCondemned/organHeart:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organTongue">
+        <label ref="jr:itext('/data/organCondemned/organTongue:label')"/>
+      </input>
+      <input ref="/data/organCondemned/organHead">
+        <label ref="jr:itext('/data/organCondemned/organHead:label')"/>
+      </input>
+      <input ref="/data/organCondemned/otherOrgan">
+        <label ref="jr:itext('/data/organCondemned/otherOrgan:label')"/>
+        <hint ref="jr:itext('/data/organCondemned/otherOrgan:hint')"/>
+      </input>
+      <input ref="/data/organCondemned/otherOrganKG">
+        <label ref="jr:itext('/data/organCondemned/otherOrganKG:label')"/>
+      </input>
+    </group>
+     <input ref="/data/gpsLocation">
+      <label ref="jr:itext('/data/gpsLocation:label')"/>
+    </input>
+  </h:body>
+</h:html>

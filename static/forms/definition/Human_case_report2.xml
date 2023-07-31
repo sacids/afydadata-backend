@@ -1,0 +1,1599 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Human case reportv4</h:title>
+    <model>
+      <instance>
+        <data id="build_Human-case-report_4444207">
+          <meta>
+           <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <location/>
+          <initial_details>
+            <name_facility_dar/>
+            <name_facility_mwanza/>
+            <type_facility/>
+            <patient_ID/>
+            <invest_ID/>
+            <type_patient/>
+            <patient_name/>
+            <patient_name_gur_No/>
+            <age/>
+            <date_birth/>
+            <gender/>
+            <occupation/>
+          </initial_details>
+          <other_occupation/>
+          <initial_details1>
+            <religion/>
+            <marital_status/>
+            <type_of_latrine/>
+            <source_water/>
+          </initial_details1>
+          <date_vist/>
+          <preg_with_follow_symptoms/>
+          <non_preg_or_men_with_at/>
+          <child_with_following_sym/>
+          <symptoms>
+            <date_onset/>
+            <duration_symptoms/>
+            <recurrence_symptoms/>
+          </symptoms>
+          <previous_treatment/>
+          <types_previ_treatment/>
+          <prev_treat_other/>
+          <antibiotic/>
+          <was_treat_presc/>
+          <if_treat_presc/>
+          <where_obt_treatment/>
+          <where_obt_treatment_other/>
+          <any_comorbidity/>
+          <comorbidity/>
+          <other_comorbodility/>
+          <visited_hospital_30days/>
+          <visited_hospital/>
+          <where_you_admitted/>
+          <history_antibiotic/>
+          <type_ant_biotic/>
+          <final_diagnosisi/>
+          <who_made_diag/>
+          <other_who_made_diag/>
+          <how_diag_made/>
+          <other_how_diag_made/>
+          <sample_collected/>
+          <sample_collect_time/>
+          <anti_prescribed_health_centre/>
+          <name_sampler_mwanza/>
+          <name_sampler_dar/>
+          <urine_results>
+            <leucocytes/>
+            <Glucose/>
+            <blood/>
+            <Nitrite/>
+          </urine_results>
+          <urine_culture_results/>
+          <ESBL_results/>
+          <date_urine_resu_rele/>
+          <GPS/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="Português">
+          <text id="/data/location:label">
+            <value>1. Location</value>
+          </text>
+          <text id="/data/location:requiredMsg">
+            <value>Location is required</value>
+          </text>
+          <text id="/data/location:option0">
+            <value>Dar es Salaam</value>
+          </text>
+          <text id="/data/location:option1">
+            <value>Mwanza</value>
+          </text>
+          <text id="/data/initial_details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/initial_details/name_facility_dar:label">
+            <value>2.	Name of health facility</value>
+          </text>
+          <text id="/data/initial_details/name_facility_dar:requiredMsg">
+            <value>Qn. No 2 is required</value>
+          </text>
+          <text id="/data/initial_details/name_facility_dar:option0">
+            <value>Magomeni Health centre</value>
+          </text>
+          <text id="/data/initial_details/name_facility_dar:option1">
+            <value>Buguruni health centre</value>
+          </text>
+          <text id="/data/initial_details/name_facility_mwanza:label">
+            <value>2.	Name of health facility</value>
+          </text>
+          <text id="/data/initial_details/name_facility_mwanza:requiredMsg">
+            <value>Qn. No 2 is required</value>
+          </text>
+          <text id="/data/initial_details/name_facility_mwanza:option0">
+            <value>Buzuruga</value>
+          </text>
+          <text id="/data/initial_details/name_facility_mwanza:option1">
+            <value>Karume</value>
+          </text>
+          <text id="/data/initial_details/type_facility:label">
+            <value>3.	Type of Health facility </value>
+          </text>
+          <text id="/data/initial_details/type_facility:requiredMsg">
+            <value>Qn. No 3 is required</value>
+          </text>
+          <text id="/data/initial_details/type_facility:option0">
+            <value>Dispensary</value>
+          </text>
+          <text id="/data/initial_details/type_facility:option1">
+            <value>Health Centre</value>
+          </text>
+          <text id="/data/initial_details/type_facility:option2">
+            <value>District hospital</value>
+          </text>
+          <text id="/data/initial_details/type_facility:option3">
+            <value>Regional</value>
+          </text>
+          <text id="/data/initial_details/type_facility:option4">
+            <value>Tertiary hospital </value>
+          </text>
+          <text id="/data/initial_details/patient_ID:label">
+            <value>4.	Patient ID</value>
+          </text>
+          <text id="/data/initial_details/patient_ID:requiredMsg">
+            <value>Qn. No 4 is required</value>
+          </text>
+          <text id="/data/initial_details/invest_ID:label">
+            <value>5.	Investigation ID</value>
+          </text>
+          <text id="/data/initial_details/invest_ID:requiredMsg">
+            <value>Qn. No 5 is required</value>
+          </text>
+          <text id="/data/initial_details/type_patient:label">
+            <value>6.	Type of patient </value>
+          </text>
+          <text id="/data/initial_details/type_patient:requiredMsg">
+            <value>Qn. No 6 is required</value>
+          </text>
+          <text id="/data/initial_details/type_patient:option0">
+            <value>Child</value>
+          </text>
+          <text id="/data/initial_details/type_patient:option1">
+            <value>Adult non-Pregnant</value>
+          </text>
+          <text id="/data/initial_details/type_patient:option2">
+            <value>Pregnant</value>
+          </text>
+          <text id="/data/initial_details/patient_name:label">
+            <value>7.	Name of the patient </value>
+          </text>
+          <text id="/data/initial_details/patient_name:requiredMsg">
+            <value>Qn. No 7 is required</value>
+          </text>
+          <text id="/data/initial_details/patient_name_gur_No:label">
+            <value>8.	Patient/guardian contact (phone number)</value>
+          </text>
+          <text id="/data/initial_details/patient_name_gur_No:hint">
+            <value>Enter the correct phone number format eg 0718000000</value>
+          </text>
+          <text id="/data/initial_details/patient_name_gur_No:requiredMsg">
+            <value>Qn. No 8 is required</value>
+          </text>
+          <text id="/data/initial_details/patient_name_gur_No:constraintMsg">
+            <value>Enter the correct phone number</value>
+          </text>
+          <text id="/data/initial_details/age:label">
+            <value>9.	Age</value>
+          </text>
+          <text id="/data/initial_details/age:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/initial_details/age:requiredMsg">
+            <value>Qn. No 9 is required</value>
+          </text>
+          <text id="/data/initial_details/date_birth:label">
+            <value>10.	Date of Birth</value>
+          </text>
+          <text id="/data/initial_details/date_birth:requiredMsg">
+            <value>Qn. No 10 is required</value>
+          </text>
+          <text id="/data/initial_details/gender:label">
+            <value>11.	Gender</value>
+          </text>
+          <text id="/data/initial_details/gender:requiredMsg">
+            <value>Qn. No 11 is required</value>
+          </text>
+          <text id="/data/initial_details/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/initial_details/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/initial_details/occupation:label">
+            <value>12. Occupation</value>
+          </text>
+          <text id="/data/initial_details/occupation:requiredMsg">
+            <value>Qn. No 12 is required</value>
+          </text>
+          <text id="/data/initial_details/occupation:option0">
+            <value>Farmer</value>
+          </text>
+          <text id="/data/initial_details/occupation:option1">
+            <value>Business</value>
+          </text>
+          <text id="/data/initial_details/occupation:option2">
+            <value>Housewife</value>
+          </text>
+          <text id="/data/initial_details/occupation:option3">
+            <value>Civil Servant</value>
+          </text>
+          <text id="/data/initial_details/occupation:option4">
+            <value>Still on studies </value>
+          </text>
+          <text id="/data/initial_details/occupation:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/initial_details/occupation:option6">
+            <value>None</value>
+          </text>
+          <text id="/data/other_occupation:label">
+            <value>Other Occupation</value>
+          </text>
+          <text id="/data/initial_details1:label">
+            <value>Initial details</value>
+          </text>
+          <text id="/data/initial_details1/religion:label">
+            <value>13.	Religion </value>
+          </text>
+          <text id="/data/initial_details1/religion:requiredMsg">
+            <value>Qn. No 13 is required</value>
+          </text>
+          <text id="/data/initial_details1/religion:option0">
+            <value>Christian</value>
+          </text>
+          <text id="/data/initial_details1/religion:option1">
+            <value>Muslim</value>
+          </text>
+          <text id="/data/initial_details1/marital_status:label">
+            <value>14.	Marital  status </value>
+          </text>
+          <text id="/data/initial_details1/marital_status:requiredMsg">
+            <value>Qn. No 14 is required</value>
+          </text>
+          <text id="/data/initial_details1/marital_status:option0">
+            <value>Single</value>
+          </text>
+          <text id="/data/initial_details1/marital_status:option1">
+            <value>Married/Cohabiting </value>
+          </text>
+          <text id="/data/initial_details1/type_of_latrine:label">
+            <value>15.	Type of latrine</value>
+          </text>
+          <text id="/data/initial_details1/type_of_latrine:requiredMsg">
+            <value>Qn. No 15 is required</value>
+          </text>
+          <text id="/data/initial_details1/type_of_latrine:option0">
+            <value>Pit latrine</value>
+          </text>
+          <text id="/data/initial_details1/type_of_latrine:option1">
+            <value>Flush latrine </value>
+          </text>
+          <text id="/data/initial_details1/type_of_latrine:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/initial_details1/source_water:label">
+            <value>16.	Source of water</value>
+          </text>
+          <text id="/data/initial_details1/source_water:requiredMsg">
+            <value>Qn. No 16 is required</value>
+          </text>
+          <text id="/data/initial_details1/source_water:option0">
+            <value>Tap water</value>
+          </text>
+          <text id="/data/initial_details1/source_water:option1">
+            <value>Well water </value>
+          </text>
+          <text id="/data/initial_details1/source_water:option2">
+            <value>Lake</value>
+          </text>
+          <text id="/data/date_vist:label">
+            <value>17.	Date of visit </value>
+          </text>
+          <text id="/data/date_vist:requiredMsg">
+            <value>Qn. No 17 is required</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:label">
+            <value>18.a Pregnant woman with the following symptoms</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option0">
+            <value>Lower abdominal pain  </value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option1">
+            <value>Flank/back pain</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option2">
+            <value>Strong-smelling urine </value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option3">
+            <value>Fever</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option4">
+            <value>Dysuria</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option5">
+            <value>Pyuria</value>
+          </text>
+          <text id="/data/preg_with_follow_symptoms:option6">
+            <value>Haematuria</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:label">
+            <value>18.b Non-pregnant woman or man with the following symptoms</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option0">
+            <value>Lower abdominal pain  </value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option1">
+            <value>Flank/back pain</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option2">
+            <value>Strong-smelling urine </value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option3">
+            <value>Fever</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option4">
+            <value>Dysuria</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option5">
+            <value>Pyuria</value>
+          </text>
+          <text id="/data/non_preg_or_men_with_at:option6">
+            <value>Haematuria</value>
+          </text>
+          <text id="/data/child_with_following_sym:label">
+            <value>18c. Child with the following symptoms</value>
+          </text>
+          <text id="/data/child_with_following_sym:option0">
+            <value>Lower abdominal pain  </value>
+          </text>
+          <text id="/data/child_with_following_sym:option1">
+            <value>Flank/back pain</value>
+          </text>
+          <text id="/data/child_with_following_sym:option2">
+            <value>Strong-smelling urine </value>
+          </text>
+          <text id="/data/child_with_following_sym:option3">
+            <value>Enuresis</value>
+          </text>
+          <text id="/data/child_with_following_sym:option4">
+            <value>Fever</value>
+          </text>
+          <text id="/data/child_with_following_sym:option5">
+            <value>Dysuria</value>
+          </text>
+          <text id="/data/child_with_following_sym:option6">
+            <value>Pyuria</value>
+          </text>
+          <text id="/data/child_with_following_sym:option7">
+            <value>Haematuria</value>
+          </text>
+          <text id="/data/child_with_following_sym:option8">
+            <value>Urgency</value>
+          </text>
+          <text id="/data/child_with_following_sym:option9">
+            <value>Frequency</value>
+          </text>
+          <text id="/data/child_with_following_sym:option10">
+            <value>Costovertebral angle tenderness</value>
+          </text>
+          <text id="/data/child_with_following_sym:option11">
+            <value>Abdominal or Suprapubic tenderness to palpation</value>
+          </text>
+          <text id="/data/child_with_following_sym:option12">
+            <value>Palpable bladder; dribbling/poor stream</value>
+          </text>
+          <text id="/data/symptoms:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/symptoms/date_onset:label">
+            <value>19.	Symptoms onset date (DD/MM/YYYY)</value>
+          </text>
+          <text id="/data/symptoms/date_onset:requiredMsg">
+            <value>Qn. No 19 is required</value>
+          </text>
+          <text id="/data/symptoms/duration_symptoms:label">
+            <value>20.	Duration of symptoms  (days)</value>
+          </text>
+          <text id="/data/symptoms/duration_symptoms:requiredMsg">
+            <value>Qn. No 20 is required</value>
+          </text>
+          <text id="/data/symptoms/recurrence_symptoms:label">
+            <value>21.	Recurrence of symptoms  </value>
+          </text>
+          <text id="/data/symptoms/recurrence_symptoms:requiredMsg">
+            <value>Qn. No 21 is required</value>
+          </text>
+          <text id="/data/symptoms/recurrence_symptoms:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/symptoms/recurrence_symptoms:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/symptoms/recurrence_symptoms:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/previous_treatment:label">
+            <value>22.	Previous treatment </value>
+          </text>
+          <text id="/data/previous_treatment:requiredMsg">
+            <value>Qn. No 22 is required</value>
+          </text>
+          <text id="/data/previous_treatment:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/previous_treatment:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/previous_treatment:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/types_previ_treatment:label">
+            <value>23.	Type of previous treatment </value>
+          </text>
+          <text id="/data/types_previ_treatment:option0">
+            <value>Antibiotic</value>
+          </text>
+          <text id="/data/types_previ_treatment:option1">
+            <value>Traditional medicine </value>
+          </text>
+          <text id="/data/types_previ_treatment:option2">
+            <value>Ant-Pain</value>
+          </text>
+          <text id="/data/types_previ_treatment:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/prev_treat_other:label">
+            <value>Other previous treatment</value>
+          </text>
+          <text id="/data/antibiotic:label">
+            <value>24.	If antibiotic mention</value>
+          </text>
+          <text id="/data/antibiotic:requiredMsg">
+            <value>Qn. No 24 is required</value>
+          </text>
+          <text id="/data/was_treat_presc:label">
+            <value>25.	Was treatment prescribed </value>
+          </text>
+          <text id="/data/was_treat_presc:requiredMsg">
+            <value>Qn. No 25 is required</value>
+          </text>
+          <text id="/data/was_treat_presc:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/was_treat_presc:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/was_treat_presc:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/if_treat_presc:label">
+            <value>26.	If Yes who prescribed the treatment </value>
+          </text>
+          <text id="/data/where_obt_treatment:label">
+            <value>27.	Where did you obtain treatment </value>
+          </text>
+          <text id="/data/where_obt_treatment:requiredMsg">
+            <value>Qn. No 27 is required</value>
+          </text>
+          <text id="/data/where_obt_treatment:option0">
+            <value>Health facility </value>
+          </text>
+          <text id="/data/where_obt_treatment:option1">
+            <value>Community pharmacy </value>
+          </text>
+          <text id="/data/where_obt_treatment:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/where_obt_treatment_other:label">
+            <value>Other place treatment obtained</value>
+          </text>
+          <text id="/data/any_comorbidity:label">
+            <value>28.	Any comorbidity </value>
+          </text>
+          <text id="/data/any_comorbidity:requiredMsg">
+            <value>Qn. No 28 is required</value>
+          </text>
+          <text id="/data/any_comorbidity:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/any_comorbidity:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/comorbidity:label">
+            <value>Comorbidity </value>
+          </text>
+          <text id="/data/comorbidity:requiredMsg">
+            <value>Qn. is required</value>
+          </text>
+          <text id="/data/comorbidity:option0">
+            <value>HIV</value>
+          </text>
+          <text id="/data/comorbidity:option1">
+            <value>DM</value>
+          </text>
+          <text id="/data/comorbidity:option2">
+            <value>Hypertension</value>
+          </text>
+          <text id="/data/comorbidity:option3">
+            <value>Cancer</value>
+          </text>
+          <text id="/data/comorbidity:option4">
+            <value>Congenital anomalies </value>
+          </text>
+          <text id="/data/comorbidity:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_comorbodility:label">
+            <value>Other comorbidity</value>
+          </text>
+          <text id="/data/visited_hospital_30days:label">
+            <value>29.	Have you ever visited a Hospital in the last 30 days?</value>
+          </text>
+          <text id="/data/visited_hospital_30days:requiredMsg">
+            <value>Qn. No 29 is required</value>
+          </text>
+          <text id="/data/visited_hospital_30days:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/visited_hospital_30days:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/visited_hospital:label">
+            <value>When was your last visit</value>
+          </text>
+          <text id="/data/visited_hospital:requiredMsg">
+            <value>Qn. No 29 is required</value>
+          </text>
+          <text id="/data/visited_hospital:option0">
+            <value>In the last 7 days</value>
+          </text>
+          <text id="/data/visited_hospital:option1">
+            <value>In the last 2 weeks</value>
+          </text>
+          <text id="/data/visited_hospital:option2">
+            <value>In the last 3 weeks</value>
+          </text>
+          <text id="/data/visited_hospital:option3">
+            <value>In the last 4 weeks</value>
+          </text>
+          <text id="/data/where_you_admitted:label">
+            <value>30.	Were you admitted </value>
+          </text>
+          <text id="/data/where_you_admitted:requiredMsg">
+            <value>Qn. No 30 is required</value>
+          </text>
+          <text id="/data/where_you_admitted:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/where_you_admitted:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/where_you_admitted:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/history_antibiotic:label">
+            <value>31.	History of antibiotic use in the past 3 months</value>
+          </text>
+          <text id="/data/history_antibiotic:requiredMsg">
+            <value>Qn. No 31 is required</value>
+          </text>
+          <text id="/data/history_antibiotic:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/history_antibiotic:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/history_antibiotic:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/type_ant_biotic:label">
+            <value>32.	Type of antibiotics used </value>
+          </text>
+          <text id="/data/final_diagnosisi:label">
+            <value>33.	What was the diagnosis</value>
+          </text>
+          <text id="/data/final_diagnosisi:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/who_made_diag:label">
+            <value>34.	Who made the diagnosis</value>
+          </text>
+          <text id="/data/who_made_diag:requiredMsg">
+            <value>Qn. No 34 is required</value>
+          </text>
+          <text id="/data/who_made_diag:option0">
+            <value>Doctor</value>
+          </text>
+          <text id="/data/who_made_diag:option1">
+            <value>Pharmacist</value>
+          </text>
+          <text id="/data/who_made_diag:option2">
+            <value>Nurse</value>
+          </text>
+          <text id="/data/who_made_diag:option3">
+            <value>Lab personnel</value>
+          </text>
+          <text id="/data/who_made_diag:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_who_made_diag:label">
+            <value>Who made diagnosis (Other)</value>
+          </text>
+          <text id="/data/how_diag_made:label">
+            <value>35.	How was the diagnosis made</value>
+          </text>
+          <text id="/data/how_diag_made:requiredMsg">
+            <value>Qn. No 35 is required</value>
+          </text>
+          <text id="/data/how_diag_made:option0">
+            <value>Clinically</value>
+          </text>
+          <text id="/data/how_diag_made:option1">
+            <value>Lab test</value>
+          </text>
+          <text id="/data/how_diag_made:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/other_how_diag_made:label">
+            <value>How was the diagnosis made (Others)</value>
+          </text>
+          <text id="/data/sample_collected:label">
+            <value>36.	Sample collected </value>
+          </text>
+          <text id="/data/sample_collected:requiredMsg">
+            <value>Qn. No 36 is required</value>
+          </text>
+          <text id="/data/sample_collected:option0">
+            <value>MSU</value>
+          </text>
+          <text id="/data/sample_collected:option1">
+            <value>Catheter urine</value>
+          </text>
+          <text id="/data/sample_collected:option2">
+            <value>Suprapubic urine</value>
+          </text>
+          <text id="/data/sample_collect_time:label">
+            <value>37.	Sample collection time Hrs: Min </value>
+          </text>
+          <text id="/data/sample_collect_time:requiredMsg">
+            <value>Qn. No 37 is required</value>
+          </text>
+          <text id="/data/anti_prescribed_health_centre:label">
+            <value>38.  Antibiotic prescribed at the health center</value>
+          </text>
+          <text id="/data/anti_prescribed_health_centre:requiredMsg">
+            <value>Qn. No 38 is required</value>
+          </text>
+          <text id="/data/name_sampler_mwanza:label">
+            <value>39. Name of sampler</value>
+          </text>
+          <text id="/data/name_sampler_mwanza:option0">
+            <value>Abias Anton Moshi</value>
+          </text>
+          <text id="/data/name_sampler_mwanza:option1">
+            <value>Kenan Kenan Malindisa</value>
+          </text>
+          <text id="/data/name_sampler_dar:label">
+            <value>39. Name of sampler</value>
+          </text>
+          <text id="/data/name_sampler_dar:option0">
+            <value>Elias Boniphace</value>
+          </text>
+          <text id="/data/name_sampler_dar:option1">
+            <value>Ibrahim Mauki</value>
+          </text>
+          <text id="/data/urine_results:label">
+            <value>40.	Urinalysis results </value>
+          </text>
+          <text id="/data/urine_results/leucocytes:label">
+            <value>40.1 Leucocytes</value>
+          </text>
+          <text id="/data/urine_results/leucocytes:option0">
+            <value>Negative</value>
+          </text>
+          <text id="/data/urine_results/leucocytes:option1">
+            <value>+1</value>
+          </text>
+          <text id="/data/urine_results/leucocytes:option2">
+            <value>+2</value>
+          </text>
+          <text id="/data/urine_results/leucocytes:option3">
+            <value>+3</value>
+          </text>
+          <text id="/data/urine_results/Glucose:label">
+            <value>40.2 Glucose</value>
+          </text>
+          <text id="/data/urine_results/Glucose:option0">
+            <value>Negative</value>
+          </text>
+          <text id="/data/urine_results/Glucose:option1">
+            <value>+/-</value>
+          </text>
+          <text id="/data/urine_results/Glucose:option2">
+            <value>+1</value>
+          </text>
+          <text id="/data/urine_results/Glucose:option3">
+            <value>+2</value>
+          </text>
+          <text id="/data/urine_results/Glucose:option4">
+            <value>+3</value>
+          </text>
+          <text id="/data/urine_results/blood:label">
+            <value>40.3 Blood</value>
+          </text>
+          <text id="/data/urine_results/blood:option0">
+            <value>Negative</value>
+          </text>
+          <text id="/data/urine_results/blood:option1">
+            <value>+1</value>
+          </text>
+          <text id="/data/urine_results/blood:option2">
+            <value>+2</value>
+          </text>
+          <text id="/data/urine_results/blood:option3">
+            <value>+3</value>
+          </text>
+          <text id="/data/urine_results/blood:option4">
+            <value>+1 NH</value>
+          </text>
+          <text id="/data/urine_results/blood:option5">
+            <value>+2 NH</value>
+          </text>
+          <text id="/data/urine_results/Nitrite:label">
+            <value>40.4 Nitrite</value>
+          </text>
+          <text id="/data/urine_results/Nitrite:option0">
+            <value>Negative</value>
+          </text>
+          <text id="/data/urine_results/Nitrite:option1">
+            <value>Positive</value>
+          </text>
+          <text id="/data/urine_results/Nitrite:option2">
+            <value>Trace</value>
+          </text>
+          <text id="/data/urine_culture_results:label">
+            <value>41. Urine culture results</value>
+          </text>
+          <text id="/data/urine_culture_results:option0">
+            <value>NBG</value>
+          </text>
+          <text id="/data/urine_culture_results:option1">
+            <value>NSG</value>
+          </text>
+          <text id="/data/urine_culture_results:option2">
+            <value>SBG</value>
+          </text>
+          <text id="/data/ESBL_results:label">
+            <value>42. ESBL test results</value>
+          </text>
+          <text id="/data/ESBL_results:option0">
+            <value>Positvie</value>
+          </text>
+          <text id="/data/ESBL_results:option1">
+            <value>Negative</value>
+          </text>
+          <text id="/data/date_urine_resu_rele:label">
+            <value>43. Date urine culture results released </value>
+          </text>
+          <text id="/data/GPS:label">
+            <value>GPS</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/location" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/location:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/name_facility_dar" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/name_facility_dar:requiredMsg')" relevant="(/data/location='dar')"/>
+      <bind nodeset="/data/initial_details/name_facility_mwanza" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/name_facility_mwanza:requiredMsg')" relevant="(/data/location='mwanza')"/>
+      <bind nodeset="/data/initial_details/type_facility" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/type_facility:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/patient_ID" type="string" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/patient_ID:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/invest_ID" type="string" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/invest_ID:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/type_patient" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/type_patient:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/patient_name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/patient_name:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/patient_name_gur_No" type="string" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/patient_name_gur_No:requiredMsg')" constraint="(regex(.,'^[0-9]{10}$'))" jr:constraintMsg="jr:itext('/data/initial_details/patient_name_gur_No:constraintMsg')"/>
+      <bind nodeset="/data/initial_details/age" type="int" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/age:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/date_birth" type="date" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/date_birth:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/gender" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/gender:requiredMsg')"/>
+      <bind nodeset="/data/initial_details/occupation" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details/occupation:requiredMsg')"/>
+      <bind nodeset="/data/other_occupation" type="string" relevant="(/data/initial_details/occupation='other')"/>
+      <bind nodeset="/data/initial_details1/religion" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details1/religion:requiredMsg')"/>
+      <bind nodeset="/data/initial_details1/marital_status" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details1/marital_status:requiredMsg')"/>
+      <bind nodeset="/data/initial_details1/type_of_latrine" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details1/type_of_latrine:requiredMsg')"/>
+      <bind nodeset="/data/initial_details1/source_water" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/initial_details1/source_water:requiredMsg')"/>
+      <bind nodeset="/data/date_vist" type="date" required="true()" jr:requiredMsg="jr:itext('/data/date_vist:requiredMsg')"/>
+      <bind nodeset="/data/preg_with_follow_symptoms" type="select" required="true()" relevant="(/data/initial_details/type_patient='Pregnant')"/>
+      <bind nodeset="/data/non_preg_or_men_with_at" type="select" required="true()" relevant="(/data/initial_details/type_patient='adult_non_preg')"/>
+      <bind nodeset="/data/child_with_following_sym" type="select" required="true()" relevant="(/data/initial_details/type_patient='child')"/>
+      <bind nodeset="/data/symptoms/date_onset" type="date" required="true()" jr:requiredMsg="jr:itext('/data/symptoms/date_onset:requiredMsg')"/>
+      <bind nodeset="/data/symptoms/duration_symptoms" type="int" required="true()" jr:requiredMsg="jr:itext('/data/symptoms/duration_symptoms:requiredMsg')"/>
+      <bind nodeset="/data/symptoms/recurrence_symptoms" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/symptoms/recurrence_symptoms:requiredMsg')"/>
+      <bind nodeset="/data/previous_treatment" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/previous_treatment:requiredMsg')"/>
+
+      <bind nodeset="/data/types_previ_treatment" type="select" relevant="(/data/previous_treatment='yes')"/>
+      <bind nodeset="/data/prev_treat_other" type="string" relevant="(selected(/data/types_previ_treatment, 'other'))"/> 
+      <bind nodeset="/data/antibiotic" type="string" required="true()" jr:requiredMsg="jr:itext('/data/antibiotic:requiredMsg')" relevant="(selected(/data/types_previ_treatment, 'antibiotic'))"/>
+
+
+      <bind nodeset="/data/was_treat_presc" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/was_treat_presc:requiredMsg')" relevant="(/data/previous_treatment='yes')"/>
+      <bind nodeset="/data/if_treat_presc" type="string" relevant="(selected(/data/was_treat_presc, 'yes'))"/>
+      <bind nodeset="/data/where_obt_treatment" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/where_obt_treatment:requiredMsg')" relevant="(/data/previous_treatment='yes')"/>
+      <bind nodeset="/data/where_obt_treatment_other" type="string" relevant="(selected(/data/where_obt_treatment, 'others'))"/>
+      <bind nodeset="/data/any_comorbidity" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/any_comorbidity:requiredMsg')"/>
+      <bind nodeset="/data/comorbidity" type="select" required="true()" jr:requiredMsg="jr:itext('/data/comorbidity:requiredMsg')" relevant="(selected(/data/any_comorbidity, 'yes'))"/>
+      <bind nodeset="/data/other_comorbodility" type="string" relevant="(selected(/data/comorbidity, 'other'))"/>
+      <bind nodeset="/data/visited_hospital_30days" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/visited_hospital_30days:requiredMsg')"/>
+      <bind nodeset="/data/visited_hospital" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/visited_hospital:requiredMsg')" relevant="(selected(/data/visited_hospital_30days, 'yes'))"/>
+      <bind nodeset="/data/where_you_admitted" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/where_you_admitted:requiredMsg')" relevant="(/data/visited_hospital_30days='yes')"/>
+      <bind nodeset="/data/history_antibiotic" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/history_antibiotic:requiredMsg')"/>
+      <bind nodeset="/data/type_ant_biotic" type="string" required="true()" relevant="(/data/history_antibiotic='yes')"/>
+      <bind nodeset="/data/final_diagnosisi" type="string" required="true()" jr:requiredMsg="jr:itext('/data/final_diagnosisi:requiredMsg')" relevant="(/data/history_antibiotic='yes')"/>
+      <bind nodeset="/data/who_made_diag" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/who_made_diag:requiredMsg')" relevant="(/data/history_antibiotic='yes')"/>
+      <bind nodeset="/data/other_who_made_diag" type="string" relevant="(selected(/data/who_made_diag, 'other'))"/>
+      <bind nodeset="/data/how_diag_made" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/how_diag_made:requiredMsg')" relevant="(/data/history_antibiotic='yes')"/>
+      <bind nodeset="/data/other_how_diag_made" type="string" relevant="(selected(/data/how_diag_made, 'other'))"/>
+      <bind nodeset="/data/sample_collected" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/sample_collected:requiredMsg')"/>
+      <bind nodeset="/data/sample_collect_time" type="dateTime" required="true()" jr:requiredMsg="jr:itext('/data/sample_collect_time:requiredMsg')"/>
+      <bind nodeset="/data/anti_prescribed_health_centre" type="string" required="true()" jr:requiredMsg="jr:itext('/data/anti_prescribed_health_centre:requiredMsg')"/>
+      <bind nodeset="/data/name_sampler_mwanza" type="select1" required="true()" relevant="(/data/location='mwanza')"/>
+      <bind nodeset="/data/name_sampler_dar" type="select1" required="true()" relevant="(/data/location='dar')"/>
+      <bind nodeset="/data/urine_results/leucocytes" type="select1" required="true()"/>
+      <bind nodeset="/data/urine_results/Glucose" type="select1" required="true()"/>
+      <bind nodeset="/data/urine_results/blood" type="select1" required="true()"/>
+      <bind nodeset="/data/urine_results/Nitrite" type="select1" required="true()"/>
+      <bind nodeset="/data/urine_culture_results" type="select1"/>
+
+      <bind nodeset="/data/ESBL_results" type="select1" relevant="(selected(/data/urine_culture_results, 'SBG'))"/>
+
+      <bind nodeset="/data/date_urine_resu_rele" type="date"/>
+      <bind nodeset="/data/GPS" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Human Case Reportv4 ',': ',/data/initial_details/invest_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/location">
+      <label ref="jr:itext('/data/location:label')"/>
+      <item>
+        <label ref="jr:itext('/data/location:option0')"/>
+        <value>dar</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/location:option1')"/>
+        <value>mwanza</value>
+      </item>
+    </select1>
+    <group ref="/data/initial_details" appearance="field-list">
+      <label ref="jr:itext('/data/initial_details:label')"/>
+      <select1 ref="/data/initial_details/name_facility_dar">
+        <label ref="jr:itext('/data/initial_details/name_facility_dar:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/name_facility_dar:option0')"/>
+          <value>magomeni_health_cen</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/name_facility_dar:option1')"/>
+          <value>buguruni_health_c</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details/name_facility_mwanza">
+        <label ref="jr:itext('/data/initial_details/name_facility_mwanza:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/name_facility_mwanza:option0')"/>
+          <value>buzuruga</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/name_facility_mwanza:option1')"/>
+          <value>karume</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details/type_facility">
+        <label ref="jr:itext('/data/initial_details/type_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_facility:option0')"/>
+          <value>dispensary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_facility:option1')"/>
+          <value>health_centre</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_facility:option2')"/>
+          <value>district_hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_facility:option3')"/>
+          <value>regional</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_facility:option4')"/>
+          <value>tert_hospital</value>
+        </item>
+      </select1>
+      <input ref="/data/initial_details/patient_ID">
+        <label ref="jr:itext('/data/initial_details/patient_ID:label')"/>
+      </input>
+      <input ref="/data/initial_details/invest_ID">
+        <label ref="jr:itext('/data/initial_details/invest_ID:label')"/>
+      </input>
+      <select1 ref="/data/initial_details/type_patient">
+        <label ref="jr:itext('/data/initial_details/type_patient:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_patient:option0')"/>
+          <value>child</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_patient:option1')"/>
+          <value>adult_non_preg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/type_patient:option2')"/>
+          <value>Pregnant</value>
+        </item>
+      </select1>
+      <input ref="/data/initial_details/patient_name">
+        <label ref="jr:itext('/data/initial_details/patient_name:label')"/>
+      </input>
+      <input ref="/data/initial_details/patient_name_gur_No" appearance="numbers">
+        <label ref="jr:itext('/data/initial_details/patient_name_gur_No:label')"/>
+        <hint ref="jr:itext('/data/initial_details/patient_name_gur_No:hint')"/>
+      </input>
+      <input ref="/data/initial_details/age">
+        <label ref="jr:itext('/data/initial_details/age:label')"/>
+        <hint ref="jr:itext('/data/initial_details/age:hint')"/>
+      </input>
+      <input ref="/data/initial_details/date_birth">
+        <label ref="jr:itext('/data/initial_details/date_birth:label')"/>
+      </input>
+      <select1 ref="/data/initial_details/gender">
+        <label ref="jr:itext('/data/initial_details/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/gender:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/gender:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details/occupation">
+        <label ref="jr:itext('/data/initial_details/occupation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option0')"/>
+          <value>farmer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option1')"/>
+          <value>business</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option2')"/>
+          <value>housewife</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option3')"/>
+          <value>civil_servant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option4')"/>
+          <value>still_on_studies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option5')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details/occupation:option6')"/>
+          <value>none</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/other_occupation">
+      <label ref="jr:itext('/data/other_occupation:label')"/>
+    </input>
+    <group ref="/data/initial_details1" appearance="field-list">
+      <label ref="jr:itext('/data/initial_details1:label')"/>
+      <select1 ref="/data/initial_details1/religion">
+        <label ref="jr:itext('/data/initial_details1/religion:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/religion:option0')"/>
+          <value>christian</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/religion:option1')"/>
+          <value>muslim</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details1/marital_status">
+        <label ref="jr:itext('/data/initial_details1/marital_status:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/marital_status:option0')"/>
+          <value>single</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/marital_status:option1')"/>
+          <value>married</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details1/type_of_latrine">
+        <label ref="jr:itext('/data/initial_details1/type_of_latrine:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/type_of_latrine:option0')"/>
+          <value>pit_latrine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/type_of_latrine:option1')"/>
+          <value>flush_latrine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/type_of_latrine:option2')"/>
+          <value>N_A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/initial_details1/source_water">
+        <label ref="jr:itext('/data/initial_details1/source_water:label')"/>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/source_water:option0')"/>
+          <value>tap_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/source_water:option1')"/>
+          <value>well_water</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/initial_details1/source_water:option2')"/>
+          <value>lake</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/date_vist">
+      <label ref="jr:itext('/data/date_vist:label')"/>
+    </input>
+    <select ref="/data/preg_with_follow_symptoms">
+      <label ref="jr:itext('/data/preg_with_follow_symptoms:label')"/>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option0')"/>
+        <value>lower_abd_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option1')"/>
+        <value>back_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option2')"/>
+        <value>smell_urine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option3')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option4')"/>
+        <value>dysuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option5')"/>
+        <value>pyuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/preg_with_follow_symptoms:option6')"/>
+        <value>haematuria</value>
+      </item>
+    </select>
+    <select ref="/data/non_preg_or_men_with_at">
+      <label ref="jr:itext('/data/non_preg_or_men_with_at:label')"/>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option0')"/>
+        <value>lower_abd_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option1')"/>
+        <value>flank_back_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option2')"/>
+        <value>strn_smell_urine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option3')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option4')"/>
+        <value>dysuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option5')"/>
+        <value>pyuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/non_preg_or_men_with_at:option6')"/>
+        <value>haematuria</value>
+      </item>
+    </select>
+    <select ref="/data/child_with_following_sym">
+      <label ref="jr:itext('/data/child_with_following_sym:label')"/>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option0')"/>
+        <value>lower_abd_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option1')"/>
+        <value>flank_back_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option2')"/>
+        <value>strng_smell_urine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option3')"/>
+        <value>Enuresis</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option4')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option5')"/>
+        <value>Dysuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option6')"/>
+        <value>Pyuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option7')"/>
+        <value>Haematuria</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option8')"/>
+        <value>Urgency</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option9')"/>
+        <value>Frequency</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option10')"/>
+        <value>costovert_tenderness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option11')"/>
+        <value>abdominal_suprapubic</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/child_with_following_sym:option12')"/>
+        <value>palpable</value>
+      </item>
+    </select>
+    <group ref="/data/symptoms" appearance="field-list">
+      <label ref="jr:itext('/data/symptoms:label')"/>
+      <input ref="/data/symptoms/date_onset">
+        <label ref="jr:itext('/data/symptoms/date_onset:label')"/>
+      </input>
+      <input ref="/data/symptoms/duration_symptoms">
+        <label ref="jr:itext('/data/symptoms/duration_symptoms:label')"/>
+      </input>
+      <select1 ref="/data/symptoms/recurrence_symptoms">
+        <label ref="jr:itext('/data/symptoms/recurrence_symptoms:label')"/>
+        <item>
+          <label ref="jr:itext('/data/symptoms/recurrence_symptoms:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/recurrence_symptoms:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/recurrence_symptoms:option2')"/>
+          <value>na</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/previous_treatment">
+      <label ref="jr:itext('/data/previous_treatment:label')"/>
+      <item>
+        <label ref="jr:itext('/data/previous_treatment:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/previous_treatment:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/previous_treatment:option2')"/>
+        <value>na</value>
+      </item>
+    </select1>
+    <select ref="/data/types_previ_treatment">
+      <label ref="jr:itext('/data/types_previ_treatment:label')"/>
+      <item>
+        <label ref="jr:itext('/data/types_previ_treatment:option0')"/>
+        <value>antibiotic</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/types_previ_treatment:option1')"/>
+        <value>trad_medicine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/types_previ_treatment:option2')"/>
+        <value>ant_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/types_previ_treatment:option3')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/prev_treat_other">
+      <label ref="jr:itext('/data/prev_treat_other:label')"/>
+    </input>
+    <input ref="/data/antibiotic">
+      <label ref="jr:itext('/data/antibiotic:label')"/>
+    </input>
+    <select1 ref="/data/was_treat_presc">
+      <label ref="jr:itext('/data/was_treat_presc:label')"/>
+      <item>
+        <label ref="jr:itext('/data/was_treat_presc:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/was_treat_presc:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/was_treat_presc:option2')"/>
+        <value>na</value>
+      </item>
+    </select1>
+    <input ref="/data/if_treat_presc">
+      <label ref="jr:itext('/data/if_treat_presc:label')"/>
+    </input>
+    <select1 ref="/data/where_obt_treatment">
+      <label ref="jr:itext('/data/where_obt_treatment:label')"/>
+      <item>
+        <label ref="jr:itext('/data/where_obt_treatment:option0')"/>
+        <value>health_facil</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_obt_treatment:option1')"/>
+        <value>community_pharmacy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_obt_treatment:option2')"/>
+        <value>others</value>
+      </item>
+    </select1>
+    <input ref="/data/where_obt_treatment_other">
+      <label ref="jr:itext('/data/where_obt_treatment_other:label')"/>
+    </input>
+    <select1 ref="/data/any_comorbidity">
+      <label ref="jr:itext('/data/any_comorbidity:label')"/>
+      <item>
+        <label ref="jr:itext('/data/any_comorbidity:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/any_comorbidity:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select ref="/data/comorbidity">
+      <label ref="jr:itext('/data/comorbidity:label')"/>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option0')"/>
+        <value>HIV</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option1')"/>
+        <value>DM</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option2')"/>
+        <value>Hypertension</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option3')"/>
+        <value>Cancer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option4')"/>
+        <value>congenital_anomalies</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/comorbidity:option5')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/data/other_comorbodility">
+      <label ref="jr:itext('/data/other_comorbodility:label')"/>
+    </input>
+    <select1 ref="/data/visited_hospital_30days">
+      <label ref="jr:itext('/data/visited_hospital_30days:label')"/>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital_30days:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital_30days:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/visited_hospital">
+      <label ref="jr:itext('/data/visited_hospital:label')"/>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital:option0')"/>
+        <value>last7days</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital:option1')"/>
+        <value>last2weeks</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital:option2')"/>
+        <value>last3weeks</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/visited_hospital:option3')"/>
+        <value>last4weeks</value>
+      </item>
+    </select1>
+    <select1 ref="/data/where_you_admitted">
+      <label ref="jr:itext('/data/where_you_admitted:label')"/>
+      <item>
+        <label ref="jr:itext('/data/where_you_admitted:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_you_admitted:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/where_you_admitted:option2')"/>
+        <value>na</value>
+      </item>
+    </select1>
+    <select1 ref="/data/history_antibiotic">
+      <label ref="jr:itext('/data/history_antibiotic:label')"/>
+      <item>
+        <label ref="jr:itext('/data/history_antibiotic:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/history_antibiotic:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/history_antibiotic:option2')"/>
+        <value>na</value>
+      </item>
+    </select1>
+    <input ref="/data/type_ant_biotic">
+      <label ref="jr:itext('/data/type_ant_biotic:label')"/>
+    </input>
+    <input ref="/data/final_diagnosisi">
+      <label ref="jr:itext('/data/final_diagnosisi:label')"/>
+    </input>
+    <select1 ref="/data/who_made_diag">
+      <label ref="jr:itext('/data/who_made_diag:label')"/>
+      <item>
+        <label ref="jr:itext('/data/who_made_diag:option0')"/>
+        <value>doc</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_made_diag:option1')"/>
+        <value>pharma</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_made_diag:option2')"/>
+        <value>nurse</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_made_diag:option3')"/>
+        <value>lab_perso</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/who_made_diag:option4')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/other_who_made_diag">
+      <label ref="jr:itext('/data/other_who_made_diag:label')"/>
+    </input>
+    <select1 ref="/data/how_diag_made">
+      <label ref="jr:itext('/data/how_diag_made:label')"/>
+      <item>
+        <label ref="jr:itext('/data/how_diag_made:option0')"/>
+        <value>clinically</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_diag_made:option1')"/>
+        <value>lab_test</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/how_diag_made:option2')"/>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/data/other_how_diag_made">
+      <label ref="jr:itext('/data/other_how_diag_made:label')"/>
+    </input>
+    <select1 ref="/data/sample_collected">
+      <label ref="jr:itext('/data/sample_collected:label')"/>
+      <item>
+        <label ref="jr:itext('/data/sample_collected:option0')"/>
+        <value>MSU</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/sample_collected:option1')"/>
+        <value>catheter_urine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/sample_collected:option2')"/>
+        <value>suprapubicu_urine</value>
+      </item>
+    </select1>
+    <input ref="/data/sample_collect_time">
+      <label ref="jr:itext('/data/sample_collect_time:label')"/>
+    </input>
+    <input ref="/data/anti_prescribed_health_centre">
+      <label ref="jr:itext('/data/anti_prescribed_health_centre:label')"/>
+    </input>
+    <select1 ref="/data/name_sampler_mwanza">
+      <label ref="jr:itext('/data/name_sampler_mwanza:label')"/>
+      <item>
+        <label ref="jr:itext('/data/name_sampler_mwanza:option0')"/>
+        <value>Abias_Moshi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/name_sampler_mwanza:option1')"/>
+        <value>lenan_malindisa</value>
+      </item>
+    </select1>
+    <select1 ref="/data/name_sampler_dar">
+      <label ref="jr:itext('/data/name_sampler_dar:label')"/>
+      <item>
+        <label ref="jr:itext('/data/name_sampler_dar:option0')"/>
+        <value>elias_boniphace</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/name_sampler_dar:option1')"/>
+        <value>ibrahim_mauki</value>
+      </item>
+    </select1>
+    <group ref="/data/urine_results" appearance="field-list">
+      <label ref="jr:itext('/data/urine_results:label')"/>
+      <select1 ref="/data/urine_results/leucocytes">
+        <label ref="jr:itext('/data/urine_results/leucocytes:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_results/leucocytes:option0')"/>
+          <value>Negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/leucocytes:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/leucocytes:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/leucocytes:option3')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 ref="/data/urine_results/Glucose">
+        <label ref="jr:itext('/data/urine_results/Glucose:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Glucose:option0')"/>
+          <value>Negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Glucose:option1')"/>
+          <value>pos_neg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Glucose:option2')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Glucose:option3')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Glucose:option4')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 ref="/data/urine_results/blood">
+        <label ref="jr:itext('/data/urine_results/blood:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option0')"/>
+          <value>Negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option4')"/>
+          <value>1NH</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/blood:option5')"/>
+          <value>2NH</value>
+        </item>
+      </select1>
+      <select1 ref="/data/urine_results/Nitrite">
+        <label ref="jr:itext('/data/urine_results/Nitrite:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Nitrite:option0')"/>
+          <value>Negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Nitrite:option1')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_results/Nitrite:option2')"/>
+          <value>trace</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/urine_culture_results">
+      <label ref="jr:itext('/data/urine_culture_results:label')"/>
+      <item>
+        <label ref="jr:itext('/data/urine_culture_results:option0')"/>
+        <value>NBG</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/urine_culture_results:option1')"/>
+        <value>NSG</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/urine_culture_results:option2')"/>
+        <value>SBG</value>
+      </item>
+    </select1>
+    <select1 ref="/data/ESBL_results">
+      <label ref="jr:itext('/data/ESBL_results:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ESBL_results:option0')"/>
+        <value>pos</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ESBL_results:option1')"/>
+        <value>neg</value>
+      </item>
+    </select1>
+    <input ref="/data/date_urine_resu_rele">
+      <label ref="jr:itext('/data/date_urine_resu_rele:label')"/>
+    </input>
+    <input ref="/data/GPS">
+      <label ref="jr:itext('/data/GPS:label')"/>
+    </input>
+  </h:body>
+</h:html>

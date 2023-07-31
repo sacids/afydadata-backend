@@ -1,0 +1,1851 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>PANDORA District Key Informants</h:title>
+    <model>
+      <instance>
+        <data id="build_PANDORA-District-Key-Informants_160071222200">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <district/>
+          <personal_infor1>
+            <personal_info_position/>
+          </personal_infor1>
+          <personal_infor12>
+            <other_position_key_inf/>
+            <how_long_position/>
+            <months/>
+            <proffesional_backg/>
+            <highest_edu/>
+          </personal_infor12>
+          <personal_infor13>
+            <highest_edu_other/>
+            <sex/>
+            <age/>
+          </personal_infor13>
+          <sect2_heal_data_attr_data_source>
+            <routine_weekly_reports/>
+            <routine_monthly_reports/>
+            <admin_record/>
+            <routine_weekly_vertical_program/>
+            <routine_monthly_vertical_program/>
+            <outbreak_epidemic_line/>
+            <other_data_system>
+              None
+            </other_data_system>
+          </sect2_heal_data_attr_data_source>
+          <data_obtained_vertical_program/>
+          <sect2_heal_data_attr_data_acces>
+            <easily_conveniently/>
+            <take_lot_time/>
+            <data_stored_in_way_difficult/>
+            <not_capacity_to_manipulate_DHIS2/>
+            <report_frm_healthcare/>
+            <data_corrective_actions/>
+            <data_always_available/>
+          </sect2_heal_data_attr_data_acces>
+          <sect2_heal_data_attr_data_storage>
+            <data_kept_in_paper/>
+            <data_kept_in_computer/>
+            <data_kept_in_server/>
+            <other_storage/>
+          </sect2_heal_data_attr_data_storage>
+          <sect2_heal_data_attr__data_accuracy>
+            <frequently_encounter_inacc/>
+            <innaccurate_data/>
+            <you_normally_take_corrective/>
+            <normal_rely/>
+          </sect2_heal_data_attr__data_accuracy>
+          <sect2_heal_data_attr_data_quality>
+            <the_data_you_receive/>
+            <the_data_you_receive_sufficie/>
+            <the_data_you_receive_relevant/>
+            <limited_value_aggreg/>
+          </sect2_heal_data_attr_data_quality>
+          <sect2_heal_data_attr_data_producers_us_interact>
+            <frequency_of_interaction/>
+            <joint_data_analysis_interpre/>
+            <joint_discusion/>
+            <provide_feedback/>
+          </sect2_heal_data_attr_data_producers_us_interact>
+          <sect3_data_analy_capacity>
+            <technical_skil_data_capt/>
+            <data_manipulation/>
+            <calculation_percentages/>
+            <plotting_data_weeks/>
+            <plotting_data_bar/>
+            <map_production/>
+            <technical_skil_data_prese/>
+            <technical_skil_report/>
+            <technical_skil_information_disse/>
+            <motivation_interests/>
+          </sect3_data_analy_capacity>
+          <sect3_data_analy_analy_proces>
+            <dashboard_sufficient/>
+            <analyses_generated/>
+            <analyses_generated_immediate_alert/>
+            <additional_analyses_needed/>
+            <additional_analyses_needed_conduct_com/>
+            <ability_to_export_data/>
+          </sect3_data_analy_analy_proces>
+          <specific_programme_data_analysis/>
+          <specific_programme_map_prod/>
+          <sect3_data_analy_analy_data>
+            <data_analysed_manualy/>
+            <data_analysed_used_calculator/>
+            <data_analysed_used_computer/>
+            <data_analysed_used_DHIS2/>
+          </sect3_data_analy_analy_data>
+          <sect3_data_analy_data_usage>
+            <for_day_day_program/>
+            <to_make_decision/>
+            <access_health_facility/>
+            <evaluate_staff_perf/>
+            <monitor_the_pattern/>
+            <planing_supervision/>
+            <for_interventions/>
+            <for_med_supply/>
+            <for_setting_targets_goals/>
+            <for_budget_prep/>
+            <for_human_resources_manag/>
+            <for_identificati_emergi_epidem/>
+            <for_influenc_decision_marker/>
+            <for_informing_best_practices/>
+            <other_data_usage/>
+          </sect3_data_analy_data_usage>
+          <sect3_data_analy_usage_in_planining>
+            <community/>
+            <primary_health_fac/>
+            <distric/>
+            <regional/>
+            <national/>
+          </sect3_data_analy_usage_in_planining>
+          <sect3_data_analy_descr_characteris>
+            <HIMS_DHIS/>
+            <MCH/>
+            <IVD/>
+            <TB_leprosy/>
+            <Laboratory/>
+            <IDSR/>
+            <Other_data_analy_descr/>
+          </sect3_data_analy_descr_characteris>
+          <sect3_data_analy_how_often>
+            <meeting_for_reviewing/>
+            <provide_staff_with_cont/>
+            <send_feedback_regard_data/>
+            <seek_advice_terms_data_manage/>
+          </sect3_data_analy_how_often>
+          <sect3_data_analy_often_discussed>
+            <data_source/>
+            <data_quality/>
+            <data_analysis_presentation/>
+            <findings_frm_data_analy_interp/>
+            <data_users/>
+            <data_dissemination/>
+            <data_use_decision_making_planning/>
+            <feedback_from_users/>
+            <feedback_to_data_collector/>
+            <other/>
+          </sect3_data_analy_often_discussed>
+          <existence_plan_guideline/>
+          <sect3_data_analy_usefulness_of_guidelines/>
+          <sect3_data_analy_computeriz_H_manage>
+            <data_capture/>
+            <data_storage/>
+            <quality_assesement/>
+            <data_analysis/>
+            <data_presentation/>
+            <data_usage/>
+            <reporting/>
+          </sect3_data_analy_computeriz_H_manage>
+          <sect4_admin_manag2>
+            <copy_National_guide/>
+            <training_related_IDSR/>
+            <health_facility_supervision/>
+          </sect4_admin_manag2>
+          <supervision_cover/>
+          <aspect_covered/>
+          <expected_do/>
+          <receive_supervision/>
+          <RHMT_supervisory/>
+          <specific_budget/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/district:option0">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/district:option1">
+            <value>Kinondoni</value>
+          </text>
+          <text id="/data/personal_infor1:label">
+            <value>SECTION 1: PERSONAL INFORMATION</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:label">
+            <value>1. Position of Key Informant</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option0">
+            <value>District Medical Officer</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option1">
+            <value>District Health Officer</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option2">
+            <value>IDSR Focal person</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option3">
+            <value>MTUHA (HIMS) Focal Person</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option4">
+            <value>District Health Secretary</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option5">
+            <value>District Laboratory Technologist</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option6">
+            <value>District MCH Coordinator</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option7">
+            <value>Tuberculosis and Leprosy Coordinator</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option8">
+            <value>Immunization and Vaccine Development Coordinator</value>
+          </text>
+          <text id="/data/personal_infor1/personal_info_position:option9">
+            <value>Other</value>
+          </text>
+          <text id="/data/personal_infor12:label">
+            <value>SECTION 1: PERSONAL INFORMATION</value>
+          </text>
+          <text id="/data/personal_infor12/other_position_key_inf:label">
+            <value>Other position of Key informant</value>
+          </text>
+          <text id="/data/personal_infor12/how_long_position:label">
+            <value>2. How long have you been in your current position? Years</value>
+          </text>
+          <text id="/data/personal_infor12/how_long_position:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/personal_infor12/months:label">
+            <value>In months</value>
+          </text>
+          <text id="/data/personal_infor12/proffesional_backg:label">
+            <value>3. What is your professional background Specify</value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:label">
+            <value>4. What is your highest level of education? </value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option0">
+            <value>Diploma</value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option1">
+            <value>Bachelor degree</value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option2">
+            <value>MD </value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option3">
+            <value>Master’s degre</value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option4">
+            <value>PhD</value>
+          </text>
+          <text id="/data/personal_infor12/highest_edu:option5">
+            <value>Other</value>
+          </text>
+          <text id="/data/personal_infor13:label">
+            <value>SECTION 1: PERSONAL INFORMATION</value>
+          </text>
+          <text id="/data/personal_infor13/highest_edu_other:label">
+            <value>Other Highest Education Level </value>
+          </text>
+          <text id="/data/personal_infor13/sex:label">
+            <value>5. Sex</value>
+          </text>
+          <text id="/data/personal_infor13/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/personal_infor13/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/personal_infor13/age:label">
+            <value>6. What is your current age in years </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source:label">
+            <value>SECTION 2: HEALTH DATA ATTRIBUTES: 7. (a) Data sources: which of the following are the major sources of health data for your routine work and how frequently are used?</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_reports:label">
+            <value>i. Routine weekly reports of health care services from health facilities</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_reports:label">
+            <value>ii. Routine monthly reports of health care services from health facilities</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/admin_record:label">
+            <value>iii. Administrative record of district offices</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/admin_record:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/admin_record:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/admin_record:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:label">
+            <value>iv. Routine weekly Vertical program </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:label">
+            <value>v. Routine monthly Vertical program </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:label">
+            <value>vi. Outbreaks/epidemics line list</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option0">
+            <value>Frequently</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option1">
+            <value>Rarely</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option2">
+            <value>Never</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/other_data_system:label">
+            <value>vii. Other data system (Specify) </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_source/other_data_system:hint">
+            <value>in the following format: Data system1 (Rate), Data system2 (Rate), ...</value>
+          </text>
+          <text id="/data/data_obtained_vertical_program:label">
+            <value>7 (b). If data is obtained from the routine weekly/monthly/quarterly vertical programmes, please mention the programmes </value>
+          </text>
+          <text id="/data/data_obtained_vertical_program:hint">
+            <value>By indicating Weekly/Monthly/Quarterly in brackets eg. PANDORA (Weekly), SUA (Monthly),......</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces:label">
+            <value>8. Data accessibility and timelines: On the scale shown, kindly indicate how you agree with the statements regarding your accessibility to data ( Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3), Disagree slightly (2), Disagree strongly (1) )</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/easily_conveniently:label">
+            <value>i. You easily and conveniently access data that you need to make an evidence-based decision</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/take_lot_time:label">
+            <value>ii. It takes a lot of time to find the required data to make timely decisions</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/data_stored_in_way_difficult:label">
+            <value>iii. Data is stored in a way that is difficult for you to access</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/not_capacity_to_manipulate_DHIS2:label">
+            <value>iv. You do not have the capacity to manipulate the DHIS2 to generate data reports</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/report_frm_healthcare:label">
+            <value>v. Reporting from the healthcare facility level is always on time (according to the set national reporting timelines)</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/data_corrective_actions:label">
+            <value>vi. Data corrective actions are always taken within a reasonable time</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_acces/data_always_available:label">
+            <value>vii. Data is always available on time for decision making</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage:label">
+            <value>9. Data storage: Where do you currently keep/store health-related data that you use for your routine work including decision making? (Always (2),  Rarely (1), No (0))</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage/data_kept_in_paper:label">
+            <value>i. Data is kept in paper report forms</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage/data_kept_in_computer:label">
+            <value>ii. Data is kept in a computer</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage/data_kept_in_server:label">
+            <value>iii. Data is kept in the server</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage/other_storage:label">
+            <value>iv. Other</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_storage/other_storage:hint">
+            <value>in format: Storage1 (Rate). eg Laptop (1)</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr__data_accuracy:label">
+            <value>10.	Data accuracy: Please rate your performance on the stated data accuracy domains ( Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3), Disagree slightly (2), Disagree strongly (1) )</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr__data_accuracy/frequently_encounter_inacc:label">
+            <value>i. You frequently encounter inaccurate data </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr__data_accuracy/innaccurate_data:label">
+            <value>ii. Inaccurate data has hindered you from routinely using data to make decisions</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr__data_accuracy/you_normally_take_corrective:label">
+            <value>iii. You normally take corrective action to address noted data accuracy issues before use</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr__data_accuracy/normal_rely:label">
+            <value>iv. You normally use other data sources and not only routine health data to make decisions</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_quality:label">
+            <value>11.	Data quality: Please rate the quality of the following data completeness domains ( Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3), Disagree slightly (2), Disagree strongly (1) )</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_quality/the_data_you_receive:label">
+            <value>i. The data that you receive includes all the necessary dataset reports</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_sufficie:label">
+            <value>ii. The data that you receive is sufficiently complete and detailed for your needs </value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_relevant:label">
+            <value>iii. The data that you receive is relevant to your current data analysis and aggregation needs</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_quality/limited_value_aggreg:label">
+            <value>iv. There is limited value due to aggregating inconsistent data</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_producers_us_interact:label">
+            <value>12.	Data producers/users interaction: Please, rate your frequency of interactions with data producers on specific activities (Always (2),  Rarely (1), No (0))</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_producers_us_interact/frequency_of_interaction:label">
+            <value>i. What is your frequency of interaction (working together) with data producers (your data sources, e.g. healthcare facility)?</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_producers_us_interact/joint_data_analysis_interpre:label">
+            <value>ii. As the data user; do you carry out a joint data analysis and interpretation with data producers?</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_producers_us_interact/joint_discusion:label">
+            <value>iii. As the data user; do you carry out a joint discussion regarding data quality with data producers?</value>
+          </text>
+          <text id="/data/sect2_heal_data_attr_data_producers_us_interact/provide_feedback:label">
+            <value>iv. As the data user; do you provide feedback to data producers regarding the quality of data?</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity:label">
+            <value>SECTION 3: DATA ANALYSIS: 13.	Data analysis capability: Please rate your capability to conduct the following data analysis activities (Excellent (5), Above average (4), Average (3), Below average (2), Poor (1))</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/technical_skil_data_capt:label">
+            <value>i. Technical skill in data capture and organization</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/data_manipulation:label">
+            <value>ii. Data manipulation, organization and preparation for analysis</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/calculation_percentages:label">
+            <value>iii. Calculation of percentages, frequency or rates correctly</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/plotting_data_weeks:label">
+            <value>iv. Plotting data by weeks, months or years or by areas</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/plotting_data_bar:label">
+            <value>v. Plotting data into bar charts</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/map_production:label">
+            <value>vi. Maps production</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/technical_skil_data_prese:label">
+            <value>vii. Technical skills on data presentation and interpretation</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/technical_skil_report:label">
+            <value>viii. Technical skills on report writing</value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/technical_skil_information_disse:label">
+            <value>ix. Technical skills on information dissemination </value>
+          </text>
+          <text id="/data/sect3_data_analy_capacity/motivation_interests:label">
+            <value>x. Motivation and interests related to data management cycle</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces:label">
+            <value>14.	Analysis processes: Please rate the processes related to conduct data analysis ( Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3), Disagree slightly (2), Disagree strongly (1) )</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/dashboard_sufficient:label">
+            <value>i. Dashboard/system contains sufficient and readily available analysed data to download and utilize (e.g. charts, tables)?</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/analyses_generated:label">
+            <value>ii. Analyses generated by the dashboard/system contain sufficient information to monitor trends and patterns</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/analyses_generated_immediate_alert:label">
+            <value>iii. Analyses generated by the dashboard/system is  sufficient and sensitive for Early Warning Alert and Response System, i.e. provide immediate alerts on unusual trends or exceeded thresholds</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/additional_analyses_needed:label">
+            <value>iv. Additional analyses needed to complement automated results from dashboard/system</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/additional_analyses_needed_conduct_com:label">
+            <value>v. Additional analyses needed to conduct comparison analyses (over time, between facilities, between indicators performance)</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_proces/ability_to_export_data:label">
+            <value>vi. Ability to export data for custom analysis</value>
+          </text>
+          <text id="/data/specific_programme_data_analysis:label">
+            <value>15.	Please, mention the specific programme/software that is used for routine data analysis </value>
+          </text>
+          <text id="/data/specific_programme_map_prod:label">
+            <value>16.	Please, mention the specific programme/software that is used for maps production</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_data:label">
+            <value>17.	How do you currently analyse data? (Frequently (2), Occasionally (1), Never (0))</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_data/data_analysed_manualy:label">
+            <value>i. Data is analysed manually</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_data/data_analysed_used_calculator:label">
+            <value>ii. Data is analysed using a calculator</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_data/data_analysed_used_computer:label">
+            <value>iii. Data is analysed using computer</value>
+          </text>
+          <text id="/data/sect3_data_analy_analy_data/data_analysed_used_DHIS2:label">
+            <value>iv. Data is analysed using DHIS2</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage:label">
+            <value>18.	Data use: On the scale shown, how much do you agree or disagree with the following statement regarding your practices on data use in planning, monitoring, evaluation and decision making in the following categories. You use data (Always (2), Rarely (1), Never (0))</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_day_day_program:label">
+            <value>i. For day-to-day program management</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/to_make_decision:label">
+            <value>ii. To make decisions </value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/access_health_facility:label">
+            <value>iii. To assess district performance</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/evaluate_staff_perf:label">
+            <value>iv. To evaluate staff performance </value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/monitor_the_pattern:label">
+            <value>v. To monitor the pattern and trend of diseases</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/planing_supervision:label">
+            <value>vi. For planning, supervision and health promotion</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_interventions:label">
+            <value>vii. For interventions </value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_med_supply:label">
+            <value>viii. For medical supply and drug management</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_setting_targets_goals:label">
+            <value>ix. For setting targets and goals</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_budget_prep:label">
+            <value>x. For budget preparation and reallocation</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_human_resources_manag:label">
+            <value>xi. For human resources management</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_identificati_emergi_epidem:label">
+            <value>xii. For identification of emerging epidemics</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_influenc_decision_marker:label">
+            <value>xiii. For influencing decision markers</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/for_informing_best_practices:label">
+            <value>xiv. For informing best practices in health care delivery</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/other_data_usage:label">
+            <value>Other data usage</value>
+          </text>
+          <text id="/data/sect3_data_analy_data_usage/other_data_usage:hint">
+            <value>in format: Data Usage (Rate)</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining:label">
+            <value>19.	Data use in planning, monitoring, evaluation and decisions making is most important in which levels of health system (Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3),  Disagree slightly (2), Disagree strongly (1))</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining/community:label">
+            <value>i. Community</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining/primary_health_fac:label">
+            <value>ii. Primary health facility</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining/distric:label">
+            <value>iii. District</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining/regional:label">
+            <value>iv. Regional</value>
+          </text>
+          <text id="/data/sect3_data_analy_usage_in_planining/national:label">
+            <value>v. National</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris:label">
+            <value>20.	In your opinion describe the characteristic of the information system you are responsible with in term of the following attributes </value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:label">
+            <value>HMIS/DHIS2</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:label">
+            <value>MCH</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/MCH:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:label">
+            <value>IVD</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IVD:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:label">
+            <value>TB&amp;Leprosy</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/TB_leprosy:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:label">
+            <value>Laboratory</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Laboratory:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:label">
+            <value>IDSR</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option0">
+            <value>Simplicity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option1">
+            <value>Flexibility</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option2">
+            <value>Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option3">
+            <value>Acceptability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option4">
+            <value>Sensitivity</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option5">
+            <value>Representativeness</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/IDSR:option6">
+            <value>Stability</value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Other_data_analy_descr:label">
+            <value>Other System/ Programme </value>
+          </text>
+          <text id="/data/sect3_data_analy_descr_characteris/Other_data_analy_descr:hint">
+            <value>Rate (Simplicity/Flexibility/Data quality/Acceptability/Sensitivity/Representativeness /Stability): eg Programme (Rates)</value>
+          </text>
+          <text id="/data/sect3_data_analy_how_often:label">
+            <value>21.	Kindly indicate how often the following happen (Daily  (5), Weekly (4),  Monthly (3),  Quarterly (2), Annually (1), Never (0)</value>
+          </text>
+          <text id="/data/sect3_data_analy_how_often/meeting_for_reviewing:label">
+            <value>i. Meetings for reviewing managerial or administrative matters?</value>
+          </text>
+          <text id="/data/sect3_data_analy_how_often/provide_staff_with_cont:label">
+            <value>ii. Do you provide your staff with continuous professional training related to data management cycle</value>
+          </text>
+          <text id="/data/sect3_data_analy_how_often/send_feedback_regard_data:label">
+            <value>iii. Do you send feedback regarding data analysis outputs to healthcare facilities</value>
+          </text>
+          <text id="/data/sect3_data_analy_how_often/seek_advice_terms_data_manage:label">
+            <value>iv. Do you seek advice in terms of data management from the higher levels (Regional/National) </value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed:label">
+            <value>22.	How often are the following issues related to health data discussed in your routine meetings? (Always (2), Rarely (1), Never (0))</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_source:label">
+            <value>i. Data sources</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_quality:label">
+            <value>ii. Data quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_analysis_presentation:label">
+            <value>iii. Data analysis and presentation</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/findings_frm_data_analy_interp:label">
+            <value>iv. Findings from data analysis and  interpretation</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_users:label">
+            <value>v. Data users</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_dissemination:label">
+            <value>vi. Data dissemination/sharing</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/data_use_decision_making_planning:label">
+            <value>vii. Data use in decision making &amp; planning</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/feedback_from_users:label">
+            <value>viii. Feedback from data users</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/feedback_to_data_collector:label">
+            <value>x. Feedback to data generators (health facilities)</value>
+          </text>
+          <text id="/data/sect3_data_analy_often_discussed/other:label">
+            <value>Others, specify and rank </value>
+          </text>
+          <text id="/data/existence_plan_guideline:label">
+            <value>23. Are plans/guidelines for data analysis exist?</value>
+          </text>
+          <text id="/data/existence_plan_guideline:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/existence_plan_guideline:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sect3_data_analy_usefulness_of_guidelines:label">
+            <value>What would you comment on their usefulness </value>
+          </text>
+          <text id="/data/sect3_data_analy_usefulness_of_guidelines:hint">
+            <value>probe on the frequency of use and associated challenges including training, the complexity of the plan/guidelines, language e.t.c</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage:label">
+            <value>24.	Please indicate how you agree or disagree with the following statements. The introduction of computerized health management information system has strengthened: (Strongly agree (5), Agree slightly (4), Neither agree nor disagree (3), Disagree slightly (2), Disagree strongly (1))</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/data_capture:label">
+            <value>i. Data capture</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/data_storage:label">
+            <value>ii. Data storage</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/quality_assesement:label">
+            <value>iii. Data Quality</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/data_analysis:label">
+            <value>iv. Data analysis</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/data_presentation:label">
+            <value>v. Data presentation</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/data_usage:label">
+            <value>vi. Data use</value>
+          </text>
+          <text id="/data/sect3_data_analy_computeriz_H_manage/reporting:label">
+            <value>vii. Reporting</value>
+          </text>
+          <text id="/data/sect4_admin_manag2:label">
+            <value>SECTION 4: ADMINISTRATIVE AND MANAGEMENT ISSUES</value>
+          </text>
+          <text id="/data/sect4_admin_manag2/copy_National_guide:label">
+            <value>25 a) Do you have a copy of the National Guidelines for Integrated Disease Surveillance and Response 2011? </value>
+          </text>
+          <text id="/data/sect4_admin_manag2/copy_National_guide:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sect4_admin_manag2/copy_National_guide:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/sect4_admin_manag2/training_related_IDSR:label">
+            <value>26.	Have you received any training related to IDSR during the past 12 months?  (probe when, what topics, and who provided the training)</value>
+          </text>
+          <text id="/data/sect4_admin_manag2/health_facility_supervision:label">
+            <value>27.	(i) Are you involved in healthcare facility supervision visits? </value>
+          </text>
+          <text id="/data/sect4_admin_manag2/health_facility_supervision:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sect4_admin_manag2/health_facility_supervision:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/supervision_cover:label">
+            <value>(ii)	Do these supervision visits cover facility performance related to integrated disease surveillance and response?</value>
+          </text>
+          <text id="/data/supervision_cover:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/supervision_cover:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/aspect_covered:label">
+            <value>(iii)	What aspects are covered? (probe for: IDSR reporting performance? HMIS/DHIS2 issues?  Laboratory issues? Antimicrobial use and resistance issues?)</value>
+          </text>
+          <text id="/data/expected_do:label">
+            <value>28.	What are you expected to do if a facility did not heed your previous recommendations or follow certain guidelines/protocols?  What have you done in the past? </value>
+          </text>
+          <text id="/data/receive_supervision:label">
+            <value>29.	Do you receive supervision from the Regional Health Management Team (RHMT) regularly?  In reality, how often have they come in the 12 months?  Do these visits cover issues related to IDSR/MTUHA/DHIS2?  (Probe for which issues).</value>
+          </text>
+          <text id="/data/RHMT_supervisory:label">
+            <value>30.	Do you find the RHMT supervisory visits helpful?  How have they helped you? (Give examples).  What would you find most helpful in a supervisory visit from the RHMT?</value>
+          </text>
+          <text id="/data/specific_budget:label">
+            <value>31.	Is there a specific budget item for data management for the district?</value>
+          </text>
+          <text id="/data/specific_budget:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/specific_budget:option1">
+            <value>No</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/district" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/personal_infor1/personal_info_position" type="select1" required="true()" jr:requiredMsg="Position is required"/>
+      <bind nodeset="/data/personal_infor12/other_position_key_inf" type="string" relevant="(selected(/data/personal_infor1/personal_info_position, 'other'))"/>
+
+      <bind nodeset="/data/personal_infor12/how_long_position" type="int" required="true()" jr:requiredMsg="Qn.2 is required"/>
+      <bind nodeset="/data/personal_infor12/months" type="int" constraint="(. &gt; '1') and (. &lt;= '11')" jr:constraintMsg="Value must be between 1 and 11"/>
+      <bind nodeset="/data/personal_infor12/proffesional_backg" type="string" required="true()" jr:requiredMsg="Qn.3 is required"/>
+      <bind nodeset="/data/personal_infor12/highest_edu" type="select1" required="true()" jr:requiredMsg="Qn.4 is required"/>
+      <bind nodeset="/data/personal_infor13/highest_edu_other" type="string" relevant="(selected(/data/personal_infor12/highest_edu, 'other'))"/>
+
+      <bind nodeset="/data/personal_infor13/sex" type="select1" required="true()" jr:requiredMsg="Qn.5 is required"/>
+      <bind nodeset="/data/personal_infor13/age" type="int" required="true()" jr:requiredMsg="Qn.6 is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/routine_weekly_reports" type="select1" required="true()" jr:requiredMsg="Qn.7i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/routine_monthly_reports" type="select1" required="true()" jr:requiredMsg="Qn.7ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/admin_record" type="select1" required="true()" jr:requiredMsg="Qn.7iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program" type="select1" required="true()" jr:requiredMsg="Qn.7iv is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program" type="select1" required="true()" jr:requiredMsg="Qn.7v is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line" type="select1" required="true()" jr:requiredMsg="Qn.7vi is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_source/other_data_system" type="string"/>
+      <bind nodeset="/data/data_obtained_vertical_program" type="string" relevant="(selected(/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program, 'frequently')) or (selected(/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program, 'rarely')) or (selected(/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program, 'frequently')) or (selected(/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program, 'rarely'))"/>
+
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/easily_conveniently" type="int" required="true()" jr:requiredMsg="Qn.8i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/take_lot_time" type="int" required="true()" jr:requiredMsg="Qn.8ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/data_stored_in_way_difficult" type="int" required="true()" jr:requiredMsg="Qn.8iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/not_capacity_to_manipulate_DHIS2" type="int" required="true()" jr:requiredMsg="Qn.8iv is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/report_frm_healthcare" type="int" required="true()" jr:requiredMsg="Qn.8v is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/data_corrective_actions" type="int" required="true()" jr:requiredMsg="Qn.8vi is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_acces/data_always_available" type="int" required="true()" jr:requiredMsg="Qn.8vii is required"/>
+
+      <bind nodeset="/data/sect2_heal_data_attr_data_storage/data_kept_in_paper" type="int" required="true()" jr:requiredMsg="Qn.9i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_storage/data_kept_in_computer" type="int" required="true()" jr:requiredMsg="Qn.9ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_storage/data_kept_in_server" type="int" required="true()" jr:requiredMsg="Qn.9iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_storage/other_storage" type="string"/>
+
+      <bind nodeset="/data/sect2_heal_data_attr__data_accuracy/frequently_encounter_inacc" type="int" required="true()" jr:requiredMsg="Qn.10i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr__data_accuracy/innaccurate_data" type="int" required="true()" jr:requiredMsg="Qn.10ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr__data_accuracy/you_normally_take_corrective" type="int" required="true()" jr:requiredMsg="Qn.10iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr__data_accuracy/normal_rely" type="int" required="true()" jr:requiredMsg="Qn.10iv is required"/>
+
+      <bind nodeset="/data/sect2_heal_data_attr_data_quality/the_data_you_receive" type="int" required="true()" jr:requiredMsg="Qn.11i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_sufficie" type="int" required="true()" jr:requiredMsg="Qn.11ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_relevant" type="int" required="true()" jr:requiredMsg="Qn.11iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_quality/limited_value_aggreg" type="int" required="true()" jr:requiredMsg="Qn.11iv is required"/>
+
+
+      <bind nodeset="/data/sect2_heal_data_attr_data_producers_us_interact/frequency_of_interaction" type="int" required="true()" jr:requiredMsg="Qn.12i is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_producers_us_interact/joint_data_analysis_interpre" type="int" required="true()" jr:requiredMsg="Qn.12ii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_producers_us_interact/joint_discusion" type="int" required="true()" jr:requiredMsg="Qn.12iii is required"/>
+      <bind nodeset="/data/sect2_heal_data_attr_data_producers_us_interact/provide_feedback" type="int" required="true()" jr:requiredMsg="Qn.12iv is required"/>
+
+
+      <bind nodeset="/data/sect3_data_analy_capacity/technical_skil_data_capt" type="int" required="true()" jr:requiredMsg="Qn.13i is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/data_manipulation" type="int" required="true()" jr:requiredMsg="Qn.13ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/calculation_percentages" type="int" required="true()" jr:requiredMsg="Qn.13iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/plotting_data_weeks" type="int" required="true()" jr:requiredMsg="Qn.13iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/plotting_data_bar" type="int" required="true()" jr:requiredMsg="Qn.13v is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/map_production" type="int" required="true()" jr:requiredMsg="Qn.13vi is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/technical_skil_data_prese" type="int" required="true()" jr:requiredMsg="Qn.13vii is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/technical_skil_report" type="int" required="true()" jr:requiredMsg="Qn.13viii is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/technical_skil_information_disse" type="int" required="true()" jr:requiredMsg="Qn.13ix is required"/>
+      <bind nodeset="/data/sect3_data_analy_capacity/motivation_interests" type="int" required="true()" jr:requiredMsg="Qn.13x is required"/>
+
+
+
+      <bind nodeset="/data/sect3_data_analy_analy_proces/dashboard_sufficient" type="int" required="true()" jr:requiredMsg="Qn.14i is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_proces/analyses_generated" type="int" required="true()" jr:requiredMsg="Qn.14ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_proces/analyses_generated_immediate_alert" type="int" required="true()" jr:requiredMsg="Qn.14iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_proces/additional_analyses_needed" type="int" required="true()" jr:requiredMsg="Qn.14iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_proces/additional_analyses_needed_conduct_com" type="int" required="true()" jr:requiredMsg="Qn.14v is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_proces/ability_to_export_data" type="int" required="true()" jr:requiredMsg="Qn.14vi is required"/>
+
+
+      <bind nodeset="/data/specific_programme_data_analysis" type="string" required="true()" jr:requiredMsg="Qn.15 is required"/>
+      <bind nodeset="/data/specific_programme_map_prod" type="string" required="true()" jr:requiredMsg="Qn.16 is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_data/data_analysed_manualy" type="int" required="true()" jr:requiredMsg="Qn.17i is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_data/data_analysed_used_calculator" type="int" required="true()" jr:requiredMsg="Qn.17ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_data/data_analysed_used_computer" type="int" required="true()" jr:requiredMsg="Qn.17iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_analy_data/data_analysed_used_DHIS2" type="int" required="true()" jr:requiredMsg="Qn.17iv is required"/>
+
+
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_day_day_program" type="int" required="true()" jr:requiredMsg="Qn.18i is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/to_make_decision" type="int" required="true()" jr:requiredMsg="Qn.18ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/access_health_facility" type="int" required="true()" jr:requiredMsg="Qn.18iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/evaluate_staff_perf" type="int" required="true()" jr:requiredMsg="Qn.18iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/monitor_the_pattern" type="int" required="true()" jr:requiredMsg="Qn.18v is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/planing_supervision" type="int" required="true()" jr:requiredMsg="Qn.18vi is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_interventions" type="int" required="true()" jr:requiredMsg="Qn.18vii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_med_supply" type="int" required="true()" jr:requiredMsg="Qn.18viii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_setting_targets_goals" type="int" required="true()" jr:requiredMsg="Qn.18ix is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_budget_prep" type="int" required="true()" jr:requiredMsg="Qn.18x is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_human_resources_manag" type="int" required="true()" jr:requiredMsg="Qn.18xi is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_identificati_emergi_epidem" type="int" required="true()" jr:requiredMsg="Qn.18xii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_influenc_decision_marker" type="int" required="true()" jr:requiredMsg="Qn.18xiii is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/for_informing_best_practices" type="int" required="true()" jr:requiredMsg="Qn.18iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_data_usage/other_data_usage" type="string"/>
+
+      <bind nodeset="/data/sect3_data_analy_usage_in_planining/community" type="int" required="true()" jr:requiredMsg="Qn.19i is required"/>
+      <bind nodeset="/data/sect3_data_analy_usage_in_planining/primary_health_fac" type="int" equired="true()" jr:requiredMsg="Qn.19ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_usage_in_planining/distric" type="int" required="true()" jr:requiredMsg="Qn.19iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_usage_in_planining/regional" type="int" required="true()" jr:requiredMsg="Qn.19iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_usage_in_planining/national" type="int" required="true()" jr:requiredMsg="Qn.19v is required"/>
+
+
+     <bind nodeset="/data/sect3_data_analy_descr_characteris/HIMS_DHIS" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'MTUHA'))" required="true()" jr:requiredMsg="Qn.20(HMIS/DHIS2) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/MCH" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'DMC'))" required="true()" jr:requiredMsg="Qn.20(MCH) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/IVD" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'immun_vacc_devel'))" required="true()" jr:requiredMsg="Qn.20(IVD) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/TB_leprosy" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'TBLC'))" required="true()" jr:requiredMsg="Qn.20(TB-Leprosy) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/Laboratory" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'DLT'))" required="true()" jr:requiredMsg="Qn.20(Laboratory) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/IDSR" type="select" relevant="(selected(/data/personal_infor1/personal_info_position, 'IDSR'))" required="true()" jr:requiredMsg="Qn.20(IDSR) is required"/>
+      <bind nodeset="/data/sect3_data_analy_descr_characteris/Other_data_analy_descr" type="string" relevant="(selected(/data/personal_infor1/personal_info_position, 'other'))"/>
+
+
+      <bind nodeset="/data/sect3_data_analy_how_often/meeting_for_reviewing" type="int" required="true()" jr:requiredMsg="Qn.21i is required"/>
+      <bind nodeset="/data/sect3_data_analy_how_often/provide_staff_with_cont" type="int" required="true()" jr:requiredMsg="Qn.21ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_how_often/send_feedback_regard_data" type="int" required="true()" jr:requiredMsg="Qn.21iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_how_often/seek_advice_terms_data_manage" type="int" required="true()" jr:requiredMsg="Qn.21iv is required"/>
+
+
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_source" type="int" required="true()" jr:requiredMsg="Qn.22i is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_quality" type="int" required="true()" jr:requiredMsg="Qn.22ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_analysis_presentation" type="int" required="true()" jr:requiredMsg="Qn.22iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/findings_frm_data_analy_interp" type="int" required="true()" jr:requiredMsg="Qn.22iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_users" type="int" required="true()" jr:requiredMsg="Qn.22v is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_dissemination" type="int" required="true()" jr:requiredMsg="Qn.22vi is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/data_use_decision_making_planning" type="int" required="true()" jr:requiredMsg="Qn.22vii is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/feedback_from_users" type="int" required="true()" jr:requiredMsg="Qn.22viii is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/feedback_to_data_collector" type="int" required="true()" jr:requiredMsg="Qn.22ix is required"/>
+      <bind nodeset="/data/sect3_data_analy_often_discussed/other" type="string"/>
+
+
+
+      <bind nodeset="/data/existence_plan_guideline" type="select1" required="true()" jr:requiredMsg="Qn.23 is required"/>
+      <bind nodeset="/data/sect3_data_analy_usefulness_of_guidelines" type="string" relevant="(selected(/data/existence_plan_guideline, 'yes'))"/>
+
+
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/data_capture" type="int" required="true()" jr:requiredMsg="Qn.24i is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/data_storage" type="int" required="true()" jr:requiredMsg="Qn.24ii is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/quality_assesement" type="int" required="true()" jr:requiredMsg="Qn.24iii is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/data_analysis" type="int" required="true()" jr:requiredMsg="Qn.24iv is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/data_presentation" type="int" required="true()" jr:requiredMsg="Qn.24v is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/data_usage" type="int" required="true()" jr:requiredMsg="Qn.24vi is required"/>
+      <bind nodeset="/data/sect3_data_analy_computeriz_H_manage/reporting" type="int" required="true()" jr:requiredMsg="Qn.24vii is required"/>
+
+
+      <bind nodeset="/data/sect4_admin_manag2/copy_National_guide" type="select1" required="true()" jr:requiredMsg="Qn.25 is required"/>
+      <bind nodeset="/data/sect4_admin_manag2/training_related_IDSR" type="string" required="true()" jr:requiredMsg="Qn.26 is required"/>
+      <bind nodeset="/data/sect4_admin_manag2/health_facility_supervision" type="select1" required="true()" jr:requiredMsg="Qn.27i is required"/>
+
+      <bind nodeset="/data/supervision_cover" type="select1" relevant="(selected(/data/sect4_admin_manag2/health_facility_supervision, 'yes'))" required="true()" jr:requiredMsg="Qn.27ii is required"/>
+      <bind nodeset="/data/aspect_covered" type="string" relevant="(selected(/data/sect4_admin_manag2/health_facility_supervision, 'yes'))" required="true()" jr:requiredMsg="Qn.28 is required"/>
+      <bind nodeset="/data/expected_do" type="string" relevant="(selected(/data/sect4_admin_manag2/health_facility_supervision, 'yes'))"/>
+
+      <bind nodeset="/data/receive_supervision" type="string" required="true()" jr:requiredMsg="Qn.29 is required"/>
+      <bind nodeset="/data/RHMT_supervisory" type="string" required="true()" jr:requiredMsg="Qn.30 is required"/>
+      <bind nodeset="/data/specific_budget" type="select1" required="true()" jr:requiredMsg="Qn.31 is required"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('District Key Informant ',': ',/data/district)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/district">
+      <label ref="jr:itext('/data/district:label')"/>
+      <item>
+        <label ref="jr:itext('/data/district:option0')"/>
+        <value>ilala</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/district:option1')"/>
+        <value>kinondoni</value>
+      </item>
+    </select1>
+    <group ref="/data/personal_infor1" appearance="field-list">
+      <label ref="jr:itext('/data/personal_infor1:label')"/>
+      <select1 ref="/data/personal_infor1/personal_info_position">
+        <label ref="jr:itext('/data/personal_infor1/personal_info_position:label')"/>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option0')"/>
+          <value>DMO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option1')"/>
+          <value>DHO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option2')"/>
+          <value>IDSR</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option3')"/>
+          <value>MTUHA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option4')"/>
+          <value>DHS</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option5')"/>
+          <value>DLT</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option6')"/>
+          <value>DMC</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option7')"/>
+          <value>TBLC</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option8')"/>
+          <value>immun_vacc_devel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor1/personal_info_position:option9')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/personal_infor12" appearance="field-list">
+      <label ref="jr:itext('/data/personal_infor12:label')"/>
+      <input ref="/data/personal_infor12/other_position_key_inf">
+        <label ref="jr:itext('/data/personal_infor12/other_position_key_inf:label')"/>
+      </input>
+      <input ref="/data/personal_infor12/how_long_position">
+        <label ref="jr:itext('/data/personal_infor12/how_long_position:label')"/>
+        <hint ref="jr:itext('/data/personal_infor12/how_long_position:hint')"/>
+      </input>
+      <input ref="/data/personal_infor12/months">
+        <label ref="jr:itext('/data/personal_infor12/months:label')"/>
+      </input>
+      <input ref="/data/personal_infor12/proffesional_backg">
+        <label ref="jr:itext('/data/personal_infor12/proffesional_backg:label')"/>
+      </input>
+      <select1 ref="/data/personal_infor12/highest_edu">
+        <label ref="jr:itext('/data/personal_infor12/highest_edu:label')"/>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option0')"/>
+          <value>diploma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option1')"/>
+          <value>bachelor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option2')"/>
+          <value>MD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option3')"/>
+          <value>masters</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option4')"/>
+          <value>PhD</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor12/highest_edu:option5')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/personal_infor13" appearance="field-list">
+      <label ref="jr:itext('/data/personal_infor13:label')"/>
+      <input ref="/data/personal_infor13/highest_edu_other">
+        <label ref="jr:itext('/data/personal_infor13/highest_edu_other:label')"/>
+      </input>
+      <select1 ref="/data/personal_infor13/sex">
+        <label ref="jr:itext('/data/personal_infor13/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/personal_infor13/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/personal_infor13/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/personal_infor13/age">
+        <label ref="jr:itext('/data/personal_infor13/age:label')"/>
+      </input>
+    </group>
+    <group ref="/data/sect2_heal_data_attr_data_source" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr_data_source:label')"/>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/routine_weekly_reports">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_reports:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_reports:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/routine_monthly_reports">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_reports:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_reports:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/admin_record">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/admin_record:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/admin_record:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/admin_record:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/admin_record:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_weekly_vertical_program:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/routine_monthly_vertical_program:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <select1 ref="/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option0')"/>
+          <value>frequently</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option1')"/>
+          <value>rarely</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/outbreak_epidemic_line:option2')"/>
+          <value>never</value>
+        </item>
+      </select1>
+      <input ref="/data/sect2_heal_data_attr_data_source/other_data_system">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_source/other_data_system:label')"/>
+        <hint ref="jr:itext('/data/sect2_heal_data_attr_data_source/other_data_system:hint')"/>
+      </input>
+    </group>
+    <input ref="/data/data_obtained_vertical_program">
+      <label ref="jr:itext('/data/data_obtained_vertical_program:label')"/>
+      <hint ref="jr:itext('/data/data_obtained_vertical_program:hint')"/>
+    </input>
+    <group ref="/data/sect2_heal_data_attr_data_acces" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces:label')"/>
+      <range ref="/data/sect2_heal_data_attr_data_acces/easily_conveniently" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/easily_conveniently:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/take_lot_time" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/take_lot_time:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/data_stored_in_way_difficult" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/data_stored_in_way_difficult:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/not_capacity_to_manipulate_DHIS2" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/not_capacity_to_manipulate_DHIS2:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/report_frm_healthcare" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/report_frm_healthcare:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/data_corrective_actions" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/data_corrective_actions:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_acces/data_always_available" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_acces/data_always_available:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect2_heal_data_attr_data_storage" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr_data_storage:label')"/>
+      <range ref="/data/sect2_heal_data_attr_data_storage/data_kept_in_paper" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_storage/data_kept_in_paper:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_storage/data_kept_in_computer" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_storage/data_kept_in_computer:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_storage/data_kept_in_server" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_storage/data_kept_in_server:label')"/>
+      </range>
+      <input ref="/data/sect2_heal_data_attr_data_storage/other_storage">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_storage/other_storage:label')"/>
+        <hint ref="jr:itext('/data/sect2_heal_data_attr_data_storage/other_storage:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/sect2_heal_data_attr__data_accuracy" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr__data_accuracy:label')"/>
+      <range ref="/data/sect2_heal_data_attr__data_accuracy/frequently_encounter_inacc" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr__data_accuracy/frequently_encounter_inacc:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr__data_accuracy/innaccurate_data" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr__data_accuracy/innaccurate_data:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr__data_accuracy/you_normally_take_corrective" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr__data_accuracy/you_normally_take_corrective:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr__data_accuracy/normal_rely" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr__data_accuracy/normal_rely:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect2_heal_data_attr_data_quality" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr_data_quality:label')"/>
+      <range ref="/data/sect2_heal_data_attr_data_quality/the_data_you_receive" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_quality/the_data_you_receive:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_sufficie" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_quality/the_data_you_receive_sufficie:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_quality/the_data_you_receive_relevant" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_quality/the_data_you_receive_relevant:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_quality/limited_value_aggreg" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_quality/limited_value_aggreg:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect2_heal_data_attr_data_producers_us_interact" appearance="field-list">
+      <label ref="jr:itext('/data/sect2_heal_data_attr_data_producers_us_interact:label')"/>
+      <range ref="/data/sect2_heal_data_attr_data_producers_us_interact/frequency_of_interaction" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_producers_us_interact/frequency_of_interaction:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_producers_us_interact/joint_data_analysis_interpre" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_producers_us_interact/joint_data_analysis_interpre:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_producers_us_interact/joint_discusion" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_producers_us_interact/joint_discusion:label')"/>
+      </range>
+      <range ref="/data/sect2_heal_data_attr_data_producers_us_interact/provide_feedback" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect2_heal_data_attr_data_producers_us_interact/provide_feedback:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect3_data_analy_capacity" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_capacity:label')"/>
+      <range ref="/data/sect3_data_analy_capacity/technical_skil_data_capt" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/technical_skil_data_capt:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/data_manipulation" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/data_manipulation:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/calculation_percentages" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/calculation_percentages:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/plotting_data_weeks" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/plotting_data_weeks:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/plotting_data_bar" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/plotting_data_bar:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/map_production" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/map_production:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/technical_skil_data_prese" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/technical_skil_data_prese:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/technical_skil_report" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/technical_skil_report:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/technical_skil_information_disse" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/technical_skil_information_disse:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_capacity/motivation_interests" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_capacity/motivation_interests:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect3_data_analy_analy_proces" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_analy_proces:label')"/>
+      <range ref="/data/sect3_data_analy_analy_proces/dashboard_sufficient" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/dashboard_sufficient:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_proces/analyses_generated" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/analyses_generated:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_proces/analyses_generated_immediate_alert" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/analyses_generated_immediate_alert:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_proces/additional_analyses_needed" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/additional_analyses_needed:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_proces/additional_analyses_needed_conduct_com" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/additional_analyses_needed_conduct_com:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_proces/ability_to_export_data" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_proces/ability_to_export_data:label')"/>
+      </range>
+    </group>
+    <input ref="/data/specific_programme_data_analysis">
+      <label ref="jr:itext('/data/specific_programme_data_analysis:label')"/>
+    </input>
+    <input ref="/data/specific_programme_map_prod">
+      <label ref="jr:itext('/data/specific_programme_map_prod:label')"/>
+    </input>
+    <group ref="/data/sect3_data_analy_analy_data" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_analy_data:label')"/>
+      <range ref="/data/sect3_data_analy_analy_data/data_analysed_manualy" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_data/data_analysed_manualy:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_data/data_analysed_used_calculator" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_data/data_analysed_used_calculator:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_data/data_analysed_used_computer" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_data/data_analysed_used_computer:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_analy_data/data_analysed_used_DHIS2" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_analy_data/data_analysed_used_DHIS2:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect3_data_analy_data_usage" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_data_usage:label')"/>
+      <range ref="/data/sect3_data_analy_data_usage/for_day_day_program" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_day_day_program:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/to_make_decision" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/to_make_decision:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/access_health_facility" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/access_health_facility:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/evaluate_staff_perf" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/evaluate_staff_perf:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/monitor_the_pattern" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/monitor_the_pattern:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/planing_supervision" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/planing_supervision:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_interventions" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_interventions:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_med_supply" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_med_supply:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_setting_targets_goals" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_setting_targets_goals:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_budget_prep" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_budget_prep:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_human_resources_manag" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_human_resources_manag:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_identificati_emergi_epidem" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_identificati_emergi_epidem:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_influenc_decision_marker" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_influenc_decision_marker:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_data_usage/for_informing_best_practices" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/for_informing_best_practices:label')"/>
+      </range>
+      <input ref="/data/sect3_data_analy_data_usage/other_data_usage">
+        <label ref="jr:itext('/data/sect3_data_analy_data_usage/other_data_usage:label')"/>
+        <hint ref="jr:itext('/data/sect3_data_analy_data_usage/other_data_usage:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/sect3_data_analy_usage_in_planining" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining:label')"/>
+      <range ref="/data/sect3_data_analy_usage_in_planining/community" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining/community:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_usage_in_planining/primary_health_fac" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining/primary_health_fac:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_usage_in_planining/distric" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining/distric:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_usage_in_planining/regional" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining/regional:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_usage_in_planining/national" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_usage_in_planining/national:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect3_data_analy_descr_characteris" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_descr_characteris:label')"/>
+      <select ref="/data/sect3_data_analy_descr_characteris/HIMS_DHIS">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/HIMS_DHIS:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <select ref="/data/sect3_data_analy_descr_characteris/MCH">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/MCH:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <select ref="/data/sect3_data_analy_descr_characteris/IVD">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IVD:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <select ref="/data/sect3_data_analy_descr_characteris/TB_leprosy">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/TB_leprosy:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <select ref="/data/sect3_data_analy_descr_characteris/Laboratory">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Laboratory:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <select ref="/data/sect3_data_analy_descr_characteris/IDSR">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option0')"/>
+          <value>Simplicity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option1')"/>
+          <value>Flexibility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option2')"/>
+          <value>data_quality</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option3')"/>
+          <value>Acceptability</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option4')"/>
+          <value>Sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option5')"/>
+          <value>Representativeness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/IDSR:option6')"/>
+          <value>Stability</value>
+        </item>
+      </select>
+      <input ref="/data/sect3_data_analy_descr_characteris/Other_data_analy_descr">
+        <label ref="jr:itext('/data/sect3_data_analy_descr_characteris/Other_data_analy_descr:label')"/>
+        <hint ref="jr:itext('/data/sect3_data_analy_descr_characteris/Other_data_analy_descr:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/sect3_data_analy_how_often" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_how_often:label')"/>
+      <range ref="/data/sect3_data_analy_how_often/meeting_for_reviewing" start="0" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_how_often/meeting_for_reviewing:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_how_often/provide_staff_with_cont" start="0" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_how_often/provide_staff_with_cont:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_how_often/send_feedback_regard_data" start="0" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_how_often/send_feedback_regard_data:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_how_often/seek_advice_terms_data_manage" start="0" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_how_often/seek_advice_terms_data_manage:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect3_data_analy_often_discussed" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_often_discussed:label')"/>
+      <range ref="/data/sect3_data_analy_often_discussed/data_source" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_source:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/data_quality" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_quality:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/data_analysis_presentation" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_analysis_presentation:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/findings_frm_data_analy_interp" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/findings_frm_data_analy_interp:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/data_users" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_users:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/data_dissemination" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_dissemination:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/data_use_decision_making_planning" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/data_use_decision_making_planning:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/feedback_from_users" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/feedback_from_users:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_often_discussed/feedback_to_data_collector" start="0" end="2" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/feedback_to_data_collector:label')"/>
+      </range>
+      <input ref="/data/sect3_data_analy_often_discussed/other">
+        <label ref="jr:itext('/data/sect3_data_analy_often_discussed/other:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/existence_plan_guideline">
+      <label ref="jr:itext('/data/existence_plan_guideline:label')"/>
+      <item>
+        <label ref="jr:itext('/data/existence_plan_guideline:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/existence_plan_guideline:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/sect3_data_analy_usefulness_of_guidelines">
+      <label ref="jr:itext('/data/sect3_data_analy_usefulness_of_guidelines:label')"/>
+      <hint ref="jr:itext('/data/sect3_data_analy_usefulness_of_guidelines:hint')"/>
+    </input>
+    <group ref="/data/sect3_data_analy_computeriz_H_manage" appearance="field-list">
+      <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage:label')"/>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/data_capture" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/data_capture:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/data_storage" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/data_storage:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/quality_assesement" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/quality_assesement:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/data_analysis" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/data_analysis:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/data_presentation" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/data_presentation:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/data_usage" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/data_usage:label')"/>
+      </range>
+      <range ref="/data/sect3_data_analy_computeriz_H_manage/reporting" start="1" end="5" step="1" appearance="picker">
+        <label ref="jr:itext('/data/sect3_data_analy_computeriz_H_manage/reporting:label')"/>
+      </range>
+    </group>
+    <group ref="/data/sect4_admin_manag2" appearance="field-list">
+      <label ref="jr:itext('/data/sect4_admin_manag2:label')"/>
+      <select1 ref="/data/sect4_admin_manag2/copy_National_guide">
+        <label ref="jr:itext('/data/sect4_admin_manag2/copy_National_guide:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect4_admin_manag2/copy_National_guide:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect4_admin_manag2/copy_National_guide:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/sect4_admin_manag2/training_related_IDSR">
+        <label ref="jr:itext('/data/sect4_admin_manag2/training_related_IDSR:label')"/>
+      </input>
+      <select1 ref="/data/sect4_admin_manag2/health_facility_supervision">
+        <label ref="jr:itext('/data/sect4_admin_manag2/health_facility_supervision:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sect4_admin_manag2/health_facility_supervision:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sect4_admin_manag2/health_facility_supervision:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/supervision_cover">
+      <label ref="jr:itext('/data/supervision_cover:label')"/>
+      <item>
+        <label ref="jr:itext('/data/supervision_cover:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/supervision_cover:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/aspect_covered">
+      <label ref="jr:itext('/data/aspect_covered:label')"/>
+    </input>
+    <input ref="/data/expected_do">
+      <label ref="jr:itext('/data/expected_do:label')"/>
+    </input>
+    <input ref="/data/receive_supervision">
+      <label ref="jr:itext('/data/receive_supervision:label')"/>
+    </input>
+    <input ref="/data/RHMT_supervisory">
+      <label ref="jr:itext('/data/RHMT_supervisory:label')"/>
+    </input>
+    <select1 ref="/data/specific_budget">
+      <label ref="jr:itext('/data/specific_budget:label')"/>
+      <item>
+        <label ref="jr:itext('/data/specific_budget:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/specific_budget:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

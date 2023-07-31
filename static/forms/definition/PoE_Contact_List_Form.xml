@@ -1,0 +1,488 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>PoE Contact List Form</h:title>
+    <model>
+      <instance>
+        <data id="build_PoE-Contact-List-Form_15840032020531">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <category>
+            <category_list/>
+            <temp/>
+            <time_PoE/>
+          </category>
+          <case_info>
+            <case_1st_name/>
+            <middle_name/>
+            <surname/>
+            <sex_case/>
+            <age_case/>
+            <name_head_house_hold/>
+          </case_info>
+          <case_info2>
+            <Address/>
+            <address_street_village/>
+            <ward/>
+            <district/>
+            <date_symp_onset/>
+            <location_case_ident/>
+          </case_info2>
+          <contact_info>
+            <Surname/>
+            <other_names/>
+            <sex/>
+            <age/>
+            <relation_to_case/>
+            <date_last_contact/>
+            <type_contact/>
+          </contact_info>
+          <contact_info2>
+            <other_type_contact/>
+            <head_house_hold/>
+            <Address1/>
+            <address_street_village1/>
+            <ward2/>
+            <district2/>
+            <phone_number/>
+            <health_care_worker/>
+          </contact_info2>
+          <facility/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/category:label">
+            <value>Category</value>
+          </text>
+          <text id="/data/category/category_list:label">
+            <value>Category</value>
+          </text>
+          <text id="/data/category/category_list:option0">
+            <value>Suspected</value>
+          </text>
+          <text id="/data/category/category_list:option1">
+            <value>Probable</value>
+          </text>
+          <text id="/data/category/category_list:option2">
+            <value>Confirmed</value>
+          </text>
+          <text id="/data/category/temp:label">
+            <value>Temperature (oC) reading at PoE</value>
+          </text>
+          <text id="/data/category/time_PoE:label">
+            <value>Time at PoE</value>
+          </text>
+          <text id="/data/case_info:label">
+            <value>Case Information</value>
+          </text>
+          <text id="/data/case_info/case_1st_name:label">
+            <value>Outbreak case First Name</value>
+          </text>
+          <text id="/data/case_info/middle_name:label">
+            <value>Middle Name</value>
+          </text>
+          <text id="/data/case_info/surname:label">
+            <value>Surname</value>
+          </text>
+          <text id="/data/case_info/sex_case:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/case_info/sex_case:option0">
+            <value>M</value>
+          </text>
+          <text id="/data/case_info/sex_case:option1">
+            <value>F</value>
+          </text>
+          <text id="/data/case_info/age_case:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/case_info/age_case:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/case_info/name_head_house_hold:label">
+            <value>Name of head of Household</value>
+          </text>
+          <text id="/data/case_info2:label">
+            <value>Case Information</value>
+          </text>
+          <text id="/data/case_info2/Address:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/case_info2/Address:option0">
+            <value>Street</value>
+          </text>
+          <text id="/data/case_info2/Address:option1">
+            <value>Village</value>
+          </text>
+          <text id="/data/case_info2/Address:option2">
+            <value>Hamlet</value>
+          </text>
+          <text id="/data/case_info2/address_street_village:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/case_info2/address_street_village:hint">
+            <value>Name of Street / Village / Hamlet</value>
+          </text>
+          <text id="/data/case_info2/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/case_info2/district:label">
+            <value>District</value>
+          </text>
+          <text id="/data/case_info2/date_symp_onset:label">
+            <value>Date of Symptom Onset</value>
+          </text>
+          <text id="/data/case_info2/location_case_ident:label">
+            <value>Location of Case Identified</value>
+          </text>
+          <text id="/data/contact_info:label">
+            <value>Contact Information</value>
+          </text>
+          <text id="/data/contact_info/Surname:label">
+            <value>Surname</value>
+          </text>
+          <text id="/data/contact_info/other_names:label">
+            <value>Other name</value>
+          </text>
+          <text id="/data/contact_info/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/contact_info/sex:option0">
+            <value>M</value>
+          </text>
+          <text id="/data/contact_info/sex:option1">
+            <value>F</value>
+          </text>
+          <text id="/data/contact_info/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/contact_info/age:hint">
+            <value>Years</value>
+          </text>
+          <text id="/data/contact_info/relation_to_case:label">
+            <value>Relation to Case</value>
+          </text>
+          <text id="/data/contact_info/date_last_contact:label">
+            <value>Date of Last Contact with Case</value>
+          </text>
+          <text id="/data/contact_info/type_contact:label">
+            <value>Type of Contact</value>
+          </text>
+          <text id="/data/contact_info/type_contact:hint">
+            <value>List All</value>
+          </text>
+          <text id="/data/contact_info/type_contact:option0">
+            <value>Touched body fluids of the EVD case (blood, vomit, saliva, urine, feces, semen, sweat)</value>
+          </text>
+          <text id="/data/contact_info/type_contact:option1">
+            <value>Had direct physical contact with the body of the patient (alive or dead)</value>
+          </text>
+          <text id="/data/contact_info/type_contact:option2">
+            <value>Touched or cleaned the linens, clothes, or dishes of the patient</value>
+          </text>
+          <text id="/data/contact_info/type_contact:option3">
+            <value>Slept or ate in the same household as the patient</value>
+          </text>
+          <text id="/data/contact_info/type_contact:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/contact_info2:label">
+            <value>Contact Information</value>
+          </text>
+          <text id="/data/contact_info2/other_type_contact:label">
+            <value>Other type of Contact</value>
+          </text>
+          <text id="/data/contact_info2/other_type_contact:hint">
+            <value>separate by comma</value>
+          </text>
+          <text id="/data/contact_info2/head_house_hold:label">
+            <value>Head of Household</value>
+          </text>
+          <text id="/data/contact_info2/Address1:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/contact_info2/Address1:option0">
+            <value>Street</value>
+          </text>
+          <text id="/data/contact_info2/Address1:option1">
+            <value>Village</value>
+          </text>
+          <text id="/data/contact_info2/Address1:option2">
+            <value>Hamlet</value>
+          </text>
+          <text id="/data/contact_info2/address_street_village1:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/contact_info2/address_street_village1:hint">
+            <value>Name of Street / Village / Hamlet</value>
+          </text>
+          <text id="/data/contact_info2/ward2:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/contact_info2/district2:label">
+            <value>District</value>
+          </text>
+          <text id="/data/contact_info2/phone_number:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/contact_info2/phone_number:hint">
+            <value>in this format 255710000000</value>
+          </text>
+          <text id="/data/contact_info2/health_care_worker:label">
+            <value>Healthcare Worker</value>
+          </text>
+          <text id="/data/contact_info2/health_care_worker:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/contact_info2/health_care_worker:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/facility:label">
+            <value>What Facility?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/category/category_list" type="select1" required="true()" jr:requiredMsg="Category is required"/>
+      <bind nodeset="/data/category/temp" type="decimal" required="true()" jr:requiredMsg="Temp reading is required"/>
+      <bind nodeset="/data/category/time_PoE" type="time" required="true()" jr:requiredMsg="Time at PoE is required"/>
+      <bind nodeset="/data/case_info/case_1st_name" type="string" required="true()" jr:requiredMsg="Outbreak case first Name is required"/>
+      <bind nodeset="/data/case_info/middle_name" type="string" required="true()" jr:requiredMsg="Middle name is required"/>
+      <bind nodeset="/data/case_info/surname" type="string" required="true()" jr:requiredMsg="Surname is required"/>
+      <bind nodeset="/data/case_info/sex_case" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/case_info/age_case" type="int" required="true()" jr:requiredMsg="Age is required"/>
+      <bind nodeset="/data/case_info/name_head_house_hold" type="string" required="true()" jr:requiredMsg="Name of head of household is required"/>
+      <bind nodeset="/data/case_info2/Address" type="select1" required="true()" jr:requiredMsg="Type of address is required"/>
+      <bind nodeset="/data/case_info2/address_street_village" type="string" required="true()" jr:requiredMsg="Address is required"/>
+      <bind nodeset="/data/case_info2/ward" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/case_info2/district" type="string" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/case_info2/date_symp_onset" type="date" required="true()" jr:requiredMsg="Date of Symptom Onset is required"/>
+      <bind nodeset="/data/case_info2/location_case_ident" type="string" required="true()" jr:requiredMsg="Location of case Identified is required"/>
+      <bind nodeset="/data/contact_info/Surname" type="string" required="true()" jr:requiredMsg="Contact Surname is required"/>
+      <bind nodeset="/data/contact_info/other_names" type="string" required="true()" jr:requiredMsg="Contact other names is required"/>
+      <bind nodeset="/data/contact_info/sex" type="select1" required="true()" jr:requiredMsg="Contact sex is required"/>
+      <bind nodeset="/data/contact_info/age" type="int" required="true()" jr:requiredMsg="Contact age is required"/>
+      <bind nodeset="/data/contact_info/relation_to_case" type="string"  required="true()" jr:requiredMsg="Relation to case is required"/>
+      <bind nodeset="/data/contact_info/date_last_contact" type="date" required="true()" jr:requiredMsg="Date of last contact with case is required"/>
+      <bind nodeset="/data/contact_info/type_contact" type="select" required="true()" jr:requiredMsg="Type of contact is required"/>
+
+      <bind nodeset="/data/contact_info2/other_type_contact" type="string" relevant="(selected(/data/contact_info/type_contact, 'other'))"/>
+
+      <bind nodeset="/data/contact_info2/head_house_hold" type="string" required="true()" jr:requiredMsg="Head of household is required"/>
+      <bind nodeset="/data/contact_info2/Address1" type="select1" required="true()" jr:requiredMsg="Type of adrress of head of household  is required"/>
+      <bind nodeset="/data/contact_info2/address_street_village1" type="string" required="true()" jr:requiredMsg="Address of household  is required"/>
+      <bind nodeset="/data/contact_info2/ward2" type="string" required="true()" jr:requiredMsg="Ward of household  is required"/>
+      <bind nodeset="/data/contact_info2/district2" type="string" required="true()" jr:requiredMsg="District of head of household is required"/>
+      <bind nodeset="/data/contact_info2/phone_number" type="string" constraint="(regex(., &quot;^.{12,12}$&quot;))" jr:constraintMsg="Phone Number length must be 12" required="true()" jr:requiredMsg="Phone number is required"/>
+      <bind nodeset="/data/contact_info2/health_care_worker" type="select1" required="true()" jr:requiredMsg="Healthcare worker is required"/>
+      <bind nodeset="/data/facility" type="string" relevant="(selected(/data/contact_info2/health_care_worker, 'yes'))"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('PoE Contact List ',': ',/data/contact_info2/phone_number)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/category" appearance="field-list">
+      <label ref="jr:itext('/data/category:label')"/>
+      <select1 ref="/data/category/category_list">
+        <label ref="jr:itext('/data/category/category_list:label')"/>
+        <item>
+          <label ref="jr:itext('/data/category/category_list:option0')"/>
+          <value>suspected</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/category/category_list:option1')"/>
+          <value>Probable</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/category/category_list:option2')"/>
+          <value>Confirmed</value>
+        </item>
+      </select1>
+      <input ref="/data/category/temp">
+        <label ref="jr:itext('/data/category/temp:label')"/>
+      </input>
+      <input ref="/data/category/time_PoE">
+        <label ref="jr:itext('/data/category/time_PoE:label')"/>
+      </input>
+    </group>
+    <group ref="/data/case_info" appearance="field-list">
+      <label ref="jr:itext('/data/case_info:label')"/>
+      <input ref="/data/case_info/case_1st_name">
+        <label ref="jr:itext('/data/case_info/case_1st_name:label')"/>
+      </input>
+      <input ref="/data/case_info/middle_name">
+        <label ref="jr:itext('/data/case_info/middle_name:label')"/>
+      </input>
+      <input ref="/data/case_info/surname">
+        <label ref="jr:itext('/data/case_info/surname:label')"/>
+      </input>
+      <select1 ref="/data/case_info/sex_case">
+        <label ref="jr:itext('/data/case_info/sex_case:label')"/>
+        <item>
+          <label ref="jr:itext('/data/case_info/sex_case:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_info/sex_case:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/case_info/age_case">
+        <label ref="jr:itext('/data/case_info/age_case:label')"/>
+        <hint ref="jr:itext('/data/case_info/age_case:hint')"/>
+      </input>
+      <input ref="/data/case_info/name_head_house_hold">
+        <label ref="jr:itext('/data/case_info/name_head_house_hold:label')"/>
+      </input>
+    </group>
+    <group ref="/data/case_info2" appearance="field-list">
+      <label ref="jr:itext('/data/case_info2:label')"/>
+      <select1 ref="/data/case_info2/Address">
+        <label ref="jr:itext('/data/case_info2/Address:label')"/>
+        <item>
+          <label ref="jr:itext('/data/case_info2/Address:option0')"/>
+          <value>street</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_info2/Address:option1')"/>
+          <value>village</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/case_info2/Address:option2')"/>
+          <value>hamlet</value>
+        </item>
+      </select1>
+      <input ref="/data/case_info2/address_street_village">
+        <label ref="jr:itext('/data/case_info2/address_street_village:label')"/>
+        <hint ref="jr:itext('/data/case_info2/address_street_village:hint')"/>
+      </input>
+      <input ref="/data/case_info2/ward">
+        <label ref="jr:itext('/data/case_info2/ward:label')"/>
+      </input>
+      <input ref="/data/case_info2/district">
+        <label ref="jr:itext('/data/case_info2/district:label')"/>
+      </input>
+      <input ref="/data/case_info2/date_symp_onset" appearance="no-calendar">
+        <label ref="jr:itext('/data/case_info2/date_symp_onset:label')"/>
+      </input>
+      <input ref="/data/case_info2/location_case_ident">
+        <label ref="jr:itext('/data/case_info2/location_case_ident:label')"/>
+      </input>
+    </group>
+    <group ref="/data/contact_info" appearance="field-list">
+      <label ref="jr:itext('/data/contact_info:label')"/>
+      <input ref="/data/contact_info/Surname">
+        <label ref="jr:itext('/data/contact_info/Surname:label')"/>
+      </input>
+      <input ref="/data/contact_info/other_names">
+        <label ref="jr:itext('/data/contact_info/other_names:label')"/>
+      </input>
+      <select1 ref="/data/contact_info/sex">
+        <label ref="jr:itext('/data/contact_info/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/contact_info/sex:option0')"/>
+          <value>M</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info/sex:option1')"/>
+          <value>F</value>
+        </item>
+      </select1>
+      <input ref="/data/contact_info/age">
+        <label ref="jr:itext('/data/contact_info/age:label')"/>
+        <hint ref="jr:itext('/data/contact_info/age:hint')"/>
+      </input>
+      <input ref="/data/contact_info/relation_to_case">
+        <label ref="jr:itext('/data/contact_info/relation_to_case:label')"/>
+      </input>
+      <input ref="/data/contact_info/date_last_contact" appearance="no-calendar">
+        <label ref="jr:itext('/data/contact_info/date_last_contact:label')"/>
+      </input>
+      <select ref="/data/contact_info/type_contact">
+        <label ref="jr:itext('/data/contact_info/type_contact:label')"/>
+        <hint ref="jr:itext('/data/contact_info/type_contact:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/contact_info/type_contact:option0')"/>
+          <value>touched_body_fluids</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info/type_contact:option1')"/>
+          <value>had_direct_physical</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info/type_contact:option2')"/>
+          <value>touched_cleaned_the_lines</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info/type_contact:option3')"/>
+          <value>slept_ate_the_same_hous</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info/type_contact:option4')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/data/contact_info2" appearance="field-list">
+      <label ref="jr:itext('/data/contact_info2:label')"/>
+      <input ref="/data/contact_info2/other_type_contact">
+        <label ref="jr:itext('/data/contact_info2/other_type_contact:label')"/>
+        <hint ref="jr:itext('/data/contact_info2/other_type_contact:hint')"/>
+      </input>
+      <input ref="/data/contact_info2/head_house_hold">
+        <label ref="jr:itext('/data/contact_info2/head_house_hold:label')"/>
+      </input>
+      <select1 ref="/data/contact_info2/Address1">
+        <label ref="jr:itext('/data/contact_info2/Address1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/contact_info2/Address1:option0')"/>
+          <value>street</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info2/Address1:option1')"/>
+          <value>village</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info2/Address1:option2')"/>
+          <value>hamlet</value>
+        </item>
+      </select1>
+      <input ref="/data/contact_info2/address_street_village1">
+        <label ref="jr:itext('/data/contact_info2/address_street_village1:label')"/>
+        <hint ref="jr:itext('/data/contact_info2/address_street_village1:hint')"/>
+      </input>
+      <input ref="/data/contact_info2/ward2">
+        <label ref="jr:itext('/data/contact_info2/ward2:label')"/>
+      </input>
+      <input ref="/data/contact_info2/district2">
+        <label ref="jr:itext('/data/contact_info2/district2:label')"/>
+      </input>
+      <input ref="/data/contact_info2/phone_number" appearance="numbers">
+        <label ref="jr:itext('/data/contact_info2/phone_number:label')"/>
+        <hint ref="jr:itext('/data/contact_info2/phone_number:hint')"/>
+      </input>
+      <select1 ref="/data/contact_info2/health_care_worker">
+        <label ref="jr:itext('/data/contact_info2/health_care_worker:label')"/>
+        <item>
+          <label ref="jr:itext('/data/contact_info2/health_care_worker:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/contact_info2/health_care_worker:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/facility">
+      <label ref="jr:itext('/data/facility:label')"/>
+    </input>
+  </h:body>
+</h:html>

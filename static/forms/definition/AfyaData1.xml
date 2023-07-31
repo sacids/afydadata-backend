@@ -1,0 +1,454 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>AfyaData</h:title>
+    <model>
+      <instance>
+        <data id="build_AfyaData_1524816863">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <event>
+            <image/>
+            <type/>
+            <location/>
+          </event>
+          <environment/>
+          <animals/>
+          <humans/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/event:label">
+            <value>Event</value>
+          </text>
+          <text id="/data/event/image:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/event/image:hint">
+            <value>Please take picture of event</value>
+          </text>
+          <text id="/data/event/image:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/event/type:label">
+            <value>Event Type</value>
+          </text>
+          <text id="/data/event/type:hint">
+            <value>Please select type of event</value>
+          </text>
+          <text id="/data/event/type:option0">
+            <value>People</value>
+          </text>
+          <text id="/data/event/type:option1">
+            <value>Animals</value>
+          </text>
+          <text id="/data/event/type:option2">
+            <value>Environment</value>
+          </text>
+          <text id="/data/event/location:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/environment:label">
+            <value>Indicators</value>
+          </text>
+          <text id="/data/environment:hint">
+            <value>Please select indicators seen</value>
+          </text>
+          <text id="/data/environment:option0">
+            <value>Accident</value>
+          </text>
+          <text id="/data/environment:option1">
+            <value>Flooding</value>
+          </text>
+          <text id="/data/environment:option2">
+            <value>Fire</value>
+          </text>
+          <text id="/data/environment:option3">
+            <value>Toxic waste</value>
+          </text>
+          <text id="/data/environment:option4">
+            <value>Infrastructure destroyed</value>
+          </text>
+          <text id="/data/environment:option5">
+            <value>Bad smell</value>
+          </text>
+          <text id="/data/environment:option6">
+            <value>Dead Body</value>
+          </text>
+          <text id="/data/environment:option7">
+            <value>Landslide</value>
+          </text>
+          <text id="/data/environment:option8">
+            <value>Pests</value>
+          </text>
+          <text id="/data/animals:label">
+            <value>Indicators</value>
+          </text>
+          <text id="/data/animals:hint">
+            <value>Please choose all symptoms</value>
+          </text>
+          <text id="/data/animals:option0">
+            <value>Abortion</value>
+          </text>
+          <text id="/data/animals:option1">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/animals:option2">
+            <value>Inability to stand</value>
+          </text>
+          <text id="/data/animals:option3">
+            <value>Blood from natural openings (nose, mouth, ears etc)</value>
+          </text>
+          <text id="/data/animals:option4">
+            <value>Sudden change in behavior (fierce, sorrow, running )</value>
+          </text>
+          <text id="/data/animals:option5">
+            <value>Mouth, foot or tongue wounds</value>
+          </text>
+          <text id="/data/animals:option6">
+            <value>Fever / Shivering</value>
+          </text>
+          <text id="/data/animals:option7">
+            <value>Reduction in egg laying</value>
+          </text>
+          <text id="/data/animals:option8">
+            <value>Difficulty in breathing</value>
+          </text>
+          <text id="/data/humans:label">
+            <value>Indicators</value>
+          </text>
+          <text id="/data/humans:hint">
+            <value>Please select all symptoms that you see</value>
+          </text>
+          <text id="/data/humans:option0">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/humans:option1">
+            <value>Difficulty breathing / snoring</value>
+          </text>
+          <text id="/data/humans:option2">
+            <value>Fever / Shivering</value>
+          </text>
+          <text id="/data/humans:option3">
+            <value>Bleeding from natural body openings (nose/mouth/ears etc)</value>
+          </text>
+          <text id="/data/humans:option4">
+            <value>Abortions</value>
+          </text>
+          <text id="/data/humans:option5">
+            <value>Epilepsy</value>
+          </text>
+          <text id="/data/humans:option6">
+            <value>Animal Bite</value>
+          </text>
+          <text id="/data/humans:option7">
+            <value>Yellowish eye/skin</value>
+          </text>
+          <text id="/data/humans:option8">
+            <value>Vomiting / Nausea</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/event:label">
+            <value>Tukio</value>
+          </text>
+          <text id="/data/event/image:label">
+            <value>Picha</value>
+          </text>
+          <text id="/data/event/image:hint">
+            <value>Tafadhali chukua picha ya tukio</value>
+          </text>
+          <text id="/data/event/image:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/event/type:label">
+            <value>Tukio inahusu</value>
+          </text>
+          <text id="/data/event/type:hint">
+            <value>Tafadhali chagua aina ya tukio</value>
+          </text>
+          <text id="/data/event/type:option0">
+            <value>Binadamu</value>
+          </text>
+          <text id="/data/event/type:option1">
+            <value>Wanyama</value>
+          </text>
+          <text id="/data/event/type:option2">
+            <value>Mazingira</value>
+          </text>
+          <text id="/data/event/location:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/environment:label">
+            <value>Viashiria</value>
+          </text>
+          <text id="/data/environment:hint">
+            <value>Tafadhali taja viashiria vya tukio</value>
+          </text>
+          <text id="/data/environment:option0">
+            <value>Ajali</value>
+          </text>
+          <text id="/data/environment:option1">
+            <value>Mafuriko</value>
+          </text>
+          <text id="/data/environment:option2">
+            <value>Moto</value>
+          </text>
+          <text id="/data/environment:option3">
+            <value>Uchafu kurundikana</value>
+          </text>
+          <text id="/data/environment:option4">
+            <value>Miundombinu kuharibika </value>
+          </text>
+          <text id="/data/environment:option5">
+            <value>Harufu mbaya</value>
+          </text>
+          <text id="/data/environment:option6">
+            <value>Mzoga</value>
+          </text>
+          <text id="/data/environment:option7">
+            <value>Mporomoko</value>
+          </text>
+          <text id="/data/environment:option8">
+            <value>wadudu haribifu</value>
+          </text>
+          <text id="/data/animals:label">
+            <value>Dalili na viashiria</value>
+          </text>
+          <text id="/data/animals:hint">
+            <value>Tafadhali andika dalili zote uonazo</value>
+          </text>
+          <text id="/data/animals:option0">
+            <value>Kutupa Mimba</value>
+          </text>
+          <text id="/data/animals:option1">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/animals:option2">
+            <value>Kushindwa kusimama / kutembea</value>
+          </text>
+          <text id="/data/animals:option3">
+            <value>Damu isiyoganda kutoka puani / mdomoni / masikioni n.k</value>
+          </text>
+          <text id="/data/animals:option4">
+            <value>Kubadilika tabia (kushambulia, kuzurura, ukali, ukimya)</value>
+          </text>
+          <text id="/data/animals:option5">
+            <value>Vidonda mdomoni / mguuni / kwato / ulimi</value>
+          </text>
+          <text id="/data/animals:option6">
+            <value>Homa / Kutetemeka</value>
+          </text>
+          <text id="/data/animals:option7">
+            <value>Kupunguza utagaji</value>
+          </text>
+          <text id="/data/animals:option8">
+            <value>Kupumua kwa shida/kukoroma</value>
+          </text>
+          <text id="/data/humans:label">
+            <value>Dalili na Viashiria</value>
+          </text>
+          <text id="/data/humans:hint">
+            <value>Tafadhali chagua dalili zote unazoziona</value>
+          </text>
+          <text id="/data/humans:option0">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/humans:option1">
+            <value>Kupumua kwa shida</value>
+          </text>
+          <text id="/data/humans:option2">
+            <value>Homa / Kutetemeka / kuhisi baridi</value>
+          </text>
+          <text id="/data/humans:option3">
+            <value>Damu kutoka puani / mdomoni / masikioni / machoni / sehem za haja ndogo na kubwa</value>
+          </text>
+          <text id="/data/humans:option4">
+            <value>Mimba kutoka</value>
+          </text>
+          <text id="/data/humans:option5">
+            <value>Degedege</value>
+          </text>
+          <text id="/data/humans:option6">
+            <value>kung'atwa na mnyama</value>
+          </text>
+          <text id="/data/humans:option7">
+            <value>Manjano sehemu nyeupe ya macho/ngozi</value>
+          </text>
+          <text id="/data/humans:option8">
+            <value>Kutapika</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/event/image" type="binary" jr:constraintMsg="jr:itext('/data/event/image:constraintMsg')"/>
+      <bind nodeset="/data/event/type" type="select1"/>
+      <bind nodeset="/data/event/location" type="geopoint"/>
+      
+      <bind nodeset="/data/environment" type="select"  relevant="(selected(/data/event/type, 'environment'))"/>
+      <bind nodeset="/data/animals" type="select"  relevant="(selected(/data/event/type, 'animal'))" />
+      <bind nodeset="/data/humans" type="select"  relevant="(selected(/data/event/type, 'human'))" />
+      
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Report ',': ',/data/event/type)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+      
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/event:label')"/>
+      <upload ref="/data/event/image" mediatype="image/*">
+        <label ref="jr:itext('/data/event/image:label')"/>
+        <hint ref="jr:itext('/data/event/image:hint')"/>
+      </upload>
+      <select1 ref="/data/event/type">
+        <label ref="jr:itext('/data/event/type:label')"/>
+        <hint ref="jr:itext('/data/event/type:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/event/type:option0')"/>
+          <value>human</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event/type:option1')"/>
+          <value>animal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/event/type:option2')"/>
+          <value>environment</value>
+        </item>
+      </select1>
+      <input ref="/data/event/location">
+        <label ref="jr:itext('/data/event/location:label')"/>
+      </input>
+    </group>
+    <select ref="/data/environment">
+      <label ref="jr:itext('/data/environment:label')"/>
+      <hint ref="jr:itext('/data/environment:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/environment:option0')"/>
+        <value>accident</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option1')"/>
+        <value>flooding</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option2')"/>
+        <value>fire</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option3')"/>
+        <value>waste</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option4')"/>
+        <value>infrastructure_destroyed</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option5')"/>
+        <value>smell</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option6')"/>
+        <value>dead_body</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option7')"/>
+        <value>landslide</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/environment:option8')"/>
+        <value>pests</value>
+      </item>
+    </select>
+    <select ref="/data/animals">
+      <label ref="jr:itext('/data/animals:label')"/>
+      <hint ref="jr:itext('/data/animals:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/animals:option0')"/>
+        <value>abortion</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option1')"/>
+        <value>diarrhea</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option2')"/>
+        <value>inability_to_stand</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option3')"/>
+        <value>blood_natural_openings</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option4')"/>
+        <value>sudden_behavior_change</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option5')"/>
+        <value>foot_and_mouth_wounds</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option6')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option7')"/>
+        <value>reduction_egg_laying</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/animals:option8')"/>
+        <value>breathing_diffculty</value>
+      </item>
+    </select>
+    <select ref="/data/humans">
+      <label ref="jr:itext('/data/humans:label')"/>
+      <hint ref="jr:itext('/data/humans:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/humans:option0')"/>
+        <value>diarrhea</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option1')"/>
+        <value>difficult_breathing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option2')"/>
+        <value>fever</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option3')"/>
+        <value>bleeding_from_openings</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option4')"/>
+        <value>abortion</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option5')"/>
+        <value>epilepsy</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option6')"/>
+        <value>animal_bite</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option7')"/>
+        <value>yellowish_eye_skin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/humans:option8')"/>
+        <value>vomiting</value>
+      </item>
+    </select>
+  </h:body>
+</h:html>

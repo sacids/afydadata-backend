@@ -1,0 +1,646 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Traveller Surveillance Form</h:title>
+    <model>
+      <instance>
+        <data id="Traveller_Surveillance-Form_1584940671">
+          <meta>
+            <instanceID/>
+            <username/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <name/>
+            <age/>
+            <sex>
+              male
+            </sex>
+            <nationality/>
+            <passport_number/>
+            <vessel_number/>
+            <arrival_date/>
+            <point_of_entry/>
+            <seat_number/>
+          </general>
+          <stay>
+            <purpose>
+              resident
+            </purpose>
+            <other_purpose/>
+            <duration/>
+            <physical_address/>
+            <hotel_name/>
+            <locality/>
+            <email/>
+            <mobile_number/>
+          </stay>
+          <journey>
+            <journey_start/>
+            <visitation/>
+            <country_1/>
+            <location_1/>
+            <date_1/>
+            <no_of_days_1/>
+            <country_2/>
+            <location_2/>
+            <date_2/>
+            <no_of_days_2/>
+            <country_3/>
+            <location_3/>
+            <date_3/>
+            <no_of_days_3/>
+          </journey>
+          <condition>
+            <symptoms/>
+          </condition>
+          <outbreak>
+            <visited>
+              no
+            </visited>
+            <cared_for_sick>
+              no
+            </cared_for_sick>
+            <buried_sick>
+              no
+            </buried_sick>
+          </outbreak>
+          <measures>
+            <action_taken>
+              allowed
+            </action_taken>
+            <date_of_action/>
+            <name_of_officer/>
+          </measures>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value>Travellers Information</value>
+          </text>
+          <text id="/data/general/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/general/name:requiredMsg">
+            <value>Please type in Name</value>
+          </text>
+          <text id="/data/general/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/general/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/general/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/general/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/general/nationality:label">
+            <value>Nationality</value>
+          </text>
+          <text id="/data/general/passport_number:label">
+            <value>Passport Number</value>
+          </text>
+          <text id="/data/general/vessel_number:label">
+            <value>Vessel / Flight / Vehicle Name/Number</value>
+          </text>
+          <text id="/data/general/arrival_date:label">
+            <value>Arrival Date</value>
+          </text>
+          <text id="/data/general/point_of_entry:label">
+            <value>Point of Entry</value>
+          </text>
+          <text id="/data/general/seat_number:label">
+            <value>Seat Number</value>
+          </text>
+          <text id="/data/stay:label">
+            <value>Details about your stay in Tanzania</value>
+          </text>
+          <text id="/data/stay/purpose:label">
+            <value>Purpose to visit in Tanzania</value>
+          </text>
+          <text id="/data/stay/purpose:requiredMsg">
+            <value>Please state purpose of your visit</value>
+          </text>
+          <text id="/data/stay/purpose:option0">
+            <value>Resident</value>
+          </text>
+          <text id="/data/stay/purpose:option1">
+            <value>Tourist</value>
+          </text>
+          <text id="/data/stay/purpose:option2">
+            <value>Transit</value>
+          </text>
+          <text id="/data/stay/purpose:option3">
+            <value>Business</value>
+          </text>
+          <text id="/data/stay/purpose:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/stay/other_purpose:label">
+            <value>Purpose to visit</value>
+          </text>
+          <text id="/data/stay/duration:label">
+            <value>Duration of stay in Tanzania (days)</value>
+          </text>
+          <text id="/data/stay/physical_address:label">
+            <value>Physical/Home Address</value>
+          </text>
+          <text id="/data/stay/hotel_name:label">
+            <value>Hotel Name</value>
+          </text>
+          <text id="/data/stay/locality:label">
+            <value>Street/Ward/District</value>
+          </text>
+          <text id="/data/stay/email:label">
+            <value>Email</value>
+          </text>
+          <text id="/data/stay/mobile_number:label">
+            <value>Mobile Number</value>
+          </text>
+          <text id="/data/journey:label">
+            <value>Details about your journey</value>
+          </text>
+          <text id="/data/journey/journey_start:label">
+            <value>Country where journey started</value>
+          </text>
+          <text id="/data/journey/visitation:label">
+            <value>For the past 21 days (3 weeks) which countries have you visited ?</value>
+          </text>
+          <text id="/data/journey/visitation:hint">
+            <value>Please specify country name, province, date visited and number of days spent in the country</value>
+          </text>
+          <text id="/data/journey/country_1:label">
+            <value>Country 1</value>
+          </text>
+          <text id="/data/journey/country_1:hint">
+            <value>Please specify details of country 1</value>
+          </text>
+          <text id="/data/journey/location_1:label">
+            <value>Location visited/Province</value>
+          </text>
+          <text id="/data/journey/date_1:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/journey/no_of_days_1:label">
+            <value>Number of days</value>
+          </text>
+          <text id="/data/journey/country_2:label">
+            <value>Country 2</value>
+          </text>
+          <text id="/data/journey/country_2:hint">
+            <value>Please specifiy details of country 2</value>
+          </text>
+          <text id="/data/journey/location_2:label">
+            <value>Location visited/Province</value>
+          </text>
+          <text id="/data/journey/date_2:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/journey/no_of_days_2:label">
+            <value>Number of days</value>
+          </text>
+          <text id="/data/journey/country_3:label">
+            <value>Country 3</value>
+          </text>
+          <text id="/data/journey/country_3:hint">
+            <value>Please specify details of country 3</value>
+          </text>
+          <text id="/data/journey/location_3:label">
+            <value>Location visited/Province</value>
+          </text>
+          <text id="/data/journey/date_3:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/journey/no_of_days_3:label">
+            <value>Number of days</value>
+          </text>
+          <text id="/data/condition:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/condition/symptoms:label">
+            <value>Signs and Symptoms</value>
+          </text>
+          <text id="/data/condition/symptoms:hint">
+            <value>Do you have the following conditions or experienced them during the last 7 days (1 week) ?</value>
+          </text>
+          <text id="/data/condition/symptoms:option0">
+            <value>Fever</value>
+          </text>
+          <text id="/data/condition/symptoms:option1">
+            <value>Swollen glands</value>
+          </text>
+          <text id="/data/condition/symptoms:option2">
+            <value>Vomitting</value>
+          </text>
+          <text id="/data/condition/symptoms:option3">
+            <value>Coughing / Shortness of breath</value>
+          </text>
+          <text id="/data/condition/symptoms:option4">
+            <value>Skin rash</value>
+          </text>
+          <text id="/data/condition/symptoms:option5">
+            <value>Jaundice</value>
+          </text>
+          <text id="/data/condition/symptoms:option6">
+            <value>Headache</value>
+          </text>
+          <text id="/data/condition/symptoms:option7">
+            <value>Loss of appetite</value>
+          </text>
+          <text id="/data/condition/symptoms:option8">
+            <value>Joint / Muscle pain</value>
+          </text>
+          <text id="/data/condition/symptoms:option9">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/condition/symptoms:option10">
+            <value>Body Weakness</value>
+          </text>
+          <text id="/data/condition/symptoms:option11">
+            <value>Unusual bleeding</value>
+          </text>
+          <text id="/data/condition/symptoms:option12">
+            <value>Flu like symptoms</value>
+          </text>
+          <text id="/data/condition/symptoms:option13">
+            <value>Difficulty in swallowing</value>
+          </text>
+          <text id="/data/condition/symptoms:option14">
+            <value>Chills</value>
+          </text>
+          <text id="/data/condition/symptoms:option15">
+            <value>Paralysis</value>
+          </text>
+          <text id="/data/condition/symptoms:option16">
+            <value>Other</value>
+          </text>
+          <text id="/data/outbreak:label">
+            <value>Outbreak history in last 21 days</value>
+          </text>
+          <text id="/data/outbreak/visited:label">
+            <value>Visited/resided in an area with ongoing disease outbreak</value>
+          </text>
+          <text id="/data/outbreak/visited:hint">
+            <value>e.g. Ebola, Corona or Yellow Fever</value>
+          </text>
+          <text id="/data/outbreak/visited:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/outbreak/visited:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/outbreak/cared_for_sick:label">
+            <value>Participated in taking care of a sick person with symptoms above</value>
+          </text>
+          <text id="/data/outbreak/cared_for_sick:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/outbreak/cared_for_sick:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/outbreak/buried_sick:label">
+            <value>Participated in the burial of a dead person</value>
+          </text>
+          <text id="/data/outbreak/buried_sick:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/outbreak/buried_sick:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/measures:label">
+            <value>Public health measures taken</value>
+          </text>
+          <text id="/data/measures/action_taken:label">
+            <value>Action Taken</value>
+          </text>
+          <text id="/data/measures/action_taken:option0">
+            <value>Allowed to proceed</value>
+          </text>
+          <text id="/data/measures/action_taken:option1">
+            <value>Sent to secondary screening</value>
+          </text>
+          <text id="/data/measures/date_of_action:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/measures/name_of_officer:label">
+            <value>Name of Officer</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/name" type="string" required="true()" jr:requiredMsg="jr:itext('/data/general/name:requiredMsg')"/>
+      <bind nodeset="/data/general/age" type="int"/>
+      <bind nodeset="/data/general/sex" type="select1" required="true()"/>
+      <bind nodeset="/data/general/nationality" type="string"/>
+      <bind nodeset="/data/general/passport_number" type="string"/>
+      <bind nodeset="/data/general/vessel_number" type="string"/>
+      <bind nodeset="/data/general/arrival_date" type="date"/>
+      <bind nodeset="/data/general/point_of_entry" type="string"/>
+      <bind nodeset="/data/general/seat_number" type="string"/>
+      <bind nodeset="/data/stay/purpose" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/stay/purpose:requiredMsg')"/>
+      <bind nodeset="/data/stay/other_purpose" type="string"/>
+      <bind nodeset="/data/stay/duration" type="int"/>
+      <bind nodeset="/data/stay/physical_address" type="string"/>
+      <bind nodeset="/data/stay/hotel_name" type="string"/>
+      <bind nodeset="/data/stay/locality" type="string"/>
+      <bind nodeset="/data/stay/email" type="string"/>
+      <bind nodeset="/data/stay/mobile_number" type="string"/>
+      <bind nodeset="/data/journey/journey_start" type="string"/>
+      <bind nodeset="/data/journey/visitation" type="string" readonly="true()"/>
+      <bind nodeset="/data/journey/country_1" type="string" required="true()"/>
+      <bind nodeset="/data/journey/location_1" type="string" required="true()"/>
+      <bind nodeset="/data/journey/date_1" type="date" required="true()"/>
+      <bind nodeset="/data/journey/no_of_days_1" type="int" required="true()"/>
+      <bind nodeset="/data/journey/country_2" type="string"/>
+      <bind nodeset="/data/journey/location_2" type="string"/>
+      <bind nodeset="/data/journey/date_2" type="date"/>
+      <bind nodeset="/data/journey/no_of_days_2" type="int"/>
+      <bind nodeset="/data/journey/country_3" type="string"/>
+      <bind nodeset="/data/journey/location_3" type="string"/>
+      <bind nodeset="/data/journey/date_3" type="date"/>
+      <bind nodeset="/data/journey/no_of_days_3" type="int"/>
+      <bind nodeset="/data/condition/symptoms" type="select"/>
+      <bind nodeset="/data/outbreak/visited" type="select1" required="true()"/>
+      <bind nodeset="/data/outbreak/cared_for_sick" type="select1" required="true()"/>
+      <bind nodeset="/data/outbreak/buried_sick" type="select1" required="true()"/>
+      <bind nodeset="/data/measures/action_taken" type="select1" required="true()"/>
+      <bind nodeset="/data/measures/date_of_action" type="date"/>
+      <bind nodeset="/data/measures/name_of_officer" type="string" required="true()"/>
+      
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <input ref="/data/general/name">
+        <label ref="jr:itext('/data/general/name:label')"/>
+      </input>
+      <input ref="/data/general/age">
+        <label ref="jr:itext('/data/general/age:label')"/>
+      </input>
+      <select1 ref="/data/general/sex">
+        <label ref="jr:itext('/data/general/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/general/nationality">
+        <label ref="jr:itext('/data/general/nationality:label')"/>
+      </input>
+      <input ref="/data/general/passport_number">
+        <label ref="jr:itext('/data/general/passport_number:label')"/>
+      </input>
+      <input ref="/data/general/vessel_number">
+        <label ref="jr:itext('/data/general/vessel_number:label')"/>
+      </input>
+      <input ref="/data/general/arrival_date">
+        <label ref="jr:itext('/data/general/arrival_date:label')"/>
+      </input>
+      <input ref="/data/general/point_of_entry">
+        <label ref="jr:itext('/data/general/point_of_entry:label')"/>
+      </input>
+      <input ref="/data/general/seat_number">
+        <label ref="jr:itext('/data/general/seat_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/stay:label')"/>
+      <select1 ref="/data/stay/purpose">
+        <label ref="jr:itext('/data/stay/purpose:label')"/>
+        <item>
+          <label ref="jr:itext('/data/stay/purpose:option0')"/>
+          <value>resident</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/stay/purpose:option1')"/>
+          <value>tourist</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/stay/purpose:option2')"/>
+          <value>transit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/stay/purpose:option3')"/>
+          <value>business</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/stay/purpose:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/stay/other_purpose">
+        <label ref="jr:itext('/data/stay/other_purpose:label')"/>
+      </input>
+      <input ref="/data/stay/duration">
+        <label ref="jr:itext('/data/stay/duration:label')"/>
+      </input>
+      <input ref="/data/stay/physical_address">
+        <label ref="jr:itext('/data/stay/physical_address:label')"/>
+      </input>
+      <input ref="/data/stay/hotel_name">
+        <label ref="jr:itext('/data/stay/hotel_name:label')"/>
+      </input>
+      <input ref="/data/stay/locality">
+        <label ref="jr:itext('/data/stay/locality:label')"/>
+      </input>
+      <input ref="/data/stay/email">
+        <label ref="jr:itext('/data/stay/email:label')"/>
+      </input>
+      <input ref="/data/stay/mobile_number">
+        <label ref="jr:itext('/data/stay/mobile_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/journey:label')"/>
+      <input ref="/data/journey/journey_start">
+        <label ref="jr:itext('/data/journey/journey_start:label')"/>
+      </input>
+      <input ref="/data/journey/visitation">
+        <label ref="jr:itext('/data/journey/visitation:label')"/>
+        <hint ref="jr:itext('/data/journey/visitation:hint')"/>
+      </input>
+      <input ref="/data/journey/country_1">
+        <label ref="jr:itext('/data/journey/country_1:label')"/>
+        <hint ref="jr:itext('/data/journey/country_1:hint')"/>
+      </input>
+      <input ref="/data/journey/location_1">
+        <label ref="jr:itext('/data/journey/location_1:label')"/>
+      </input>
+      <input ref="/data/journey/date_1">
+        <label ref="jr:itext('/data/journey/date_1:label')"/>
+      </input>
+      <input ref="/data/journey/no_of_days_1">
+        <label ref="jr:itext('/data/journey/no_of_days_1:label')"/>
+      </input>
+      <input ref="/data/journey/country_2">
+        <label ref="jr:itext('/data/journey/country_2:label')"/>
+        <hint ref="jr:itext('/data/journey/country_2:hint')"/>
+      </input>
+      <input ref="/data/journey/location_2">
+        <label ref="jr:itext('/data/journey/location_2:label')"/>
+      </input>
+      <input ref="/data/journey/date_2">
+        <label ref="jr:itext('/data/journey/date_2:label')"/>
+      </input>
+      <input ref="/data/journey/no_of_days_2">
+        <label ref="jr:itext('/data/journey/no_of_days_2:label')"/>
+      </input>
+      <input ref="/data/journey/country_3">
+        <label ref="jr:itext('/data/journey/country_3:label')"/>
+        <hint ref="jr:itext('/data/journey/country_3:hint')"/>
+      </input>
+      <input ref="/data/journey/location_3">
+        <label ref="jr:itext('/data/journey/location_3:label')"/>
+      </input>
+      <input ref="/data/journey/date_3">
+        <label ref="jr:itext('/data/journey/date_3:label')"/>
+      </input>
+      <input ref="/data/journey/no_of_days_3">
+        <label ref="jr:itext('/data/journey/no_of_days_3:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/condition:label')"/>
+      <select ref="/data/condition/symptoms">
+        <label ref="jr:itext('/data/condition/symptoms:label')"/>
+        <hint ref="jr:itext('/data/condition/symptoms:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option1')"/>
+          <value>swollen_glands</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option2')"/>
+          <value>vomitting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option3')"/>
+          <value>coughing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option4')"/>
+          <value>skin_rash</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option5')"/>
+          <value>jaundice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option6')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option7')"/>
+          <value>loss_of_appetite</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option8')"/>
+          <value>joint_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option9')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option10')"/>
+          <value>body_weakness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option11')"/>
+          <value>unusal_bleeding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option12')"/>
+          <value>flu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option13')"/>
+          <value>difficulty_in_swallowing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option14')"/>
+          <value>chills</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option15')"/>
+          <value>paralysis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/condition/symptoms:option16')"/>
+          <value>other</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/outbreak:label')"/>
+      <select1 ref="/data/outbreak/visited">
+        <label ref="jr:itext('/data/outbreak/visited:label')"/>
+        <hint ref="jr:itext('/data/outbreak/visited:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/outbreak/visited:option0')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/outbreak/visited:option1')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/data/outbreak/cared_for_sick">
+        <label ref="jr:itext('/data/outbreak/cared_for_sick:label')"/>
+        <item>
+          <label ref="jr:itext('/data/outbreak/cared_for_sick:option0')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/outbreak/cared_for_sick:option1')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/data/outbreak/buried_sick">
+        <label ref="jr:itext('/data/outbreak/buried_sick:label')"/>
+        <item>
+          <label ref="jr:itext('/data/outbreak/buried_sick:option0')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/outbreak/buried_sick:option1')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/measures:label')"/>
+      <select1 ref="/data/measures/action_taken">
+        <label ref="jr:itext('/data/measures/action_taken:label')"/>
+        <item>
+          <label ref="jr:itext('/data/measures/action_taken:option0')"/>
+          <value>allowed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/measures/action_taken:option1')"/>
+          <value>secondary_screening</value>
+        </item>
+      </select1>
+      <input ref="/data/measures/date_of_action">
+        <label ref="jr:itext('/data/measures/date_of_action:label')"/>
+      </input>
+      <input ref="/data/measures/name_of_officer">
+        <label ref="jr:itext('/data/measures/name_of_officer:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,422 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Dalili za Binadamu</h:title>
+    <model>
+      <instance>
+        <data id="build_Dalili-Binadamu-Skolls-A_14674360203">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <taarifa_awali>
+            <Wilaya/>
+            <Kata/>
+            <Kijiji/>
+            <Jina_la_mkuu_kaya/>
+          </taarifa_awali>
+          <Taarifa_za_mgonjwa>
+            <Jinsia/>
+            <Umri/>
+            <Hali/>
+          </Taarifa_za_mgonjwa>
+          <Dalili>
+            <Dalili/>
+            <zingine/>
+          </Dalili>
+          <Utambuzi>
+            <picha/>
+            <GPS/>
+          </Utambuzi>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="Swah">
+          <text id="/data/taarifa_awali:label">
+            <value>Taarifa za awali</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option0">
+            <value>Kibaha</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option1">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option2">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option3">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option4">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option5">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/taarifa_awali/Kata:label">
+            <value>Kata</value>
+          </text>
+          <text id="/data/taarifa_awali/Kijiji:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/data/taarifa_awali/Jina_la_mkuu_kaya:label">
+            <value>Jina la mkuu wa kaya</value>
+          </text>
+          <text id="/data/taarifa_awali/Jina_la_mkuu_kaya:hint">
+            <value>Majina matatu</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa:label">
+            <value>Taarifa za mgonjwa</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:option0">
+            <value>Mme</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:option1">
+            <value>Mke</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:label">
+            <value>Umri</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:option0">
+            <value>Chini ya miaka 5</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:option1">
+            <value>Miaka 5 na zaidi</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:label">
+            <value>Hali</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:hint">
+            <value>Chagua hali ya mgonjwa</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:option0">
+            <value>Mzima</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:option1">
+            <value>Amekufa</value>
+          </text>
+          <text id="/data/Dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/Dalili/Dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/Dalili/Dalili:hint">
+            <value>Chagua dalili alizoonesha mgonjwa</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option0">
+            <value>Kupoteza hamu ya kula</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option1">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option2">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option4">
+            <value>Kutapika/kichefuchefu</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option5">
+            <value>Kutapika damu</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option6">
+            <value>Damu kutoka puani/mdomoni/masikioni/machoni/sehemu za haja ndogo na kubwa</value>
+          </text>
+          <text id="/data/Dalili/zingine:label">
+            <value>Dalili Zingine</value>
+          </text>
+          <text id="/data/Dalili/zingine:hint">
+            <value>Tafadhali taja dalili zingine alizoonesha mgonjwa mbali ya hizo zilizotajwa hapo juu</value>
+          </text>
+          <text id="/data/Utambuzi:label">
+            <value>Utambuzi</value>
+          </text>
+          <text id="/data/Utambuzi/picha:label">
+            <value>Picha</value>
+          </text>
+          <text id="/data/Utambuzi/picha:hint">
+            <value>Chukua picha dalili inayoonekana, ENDAPO TU UTARUHUSIWA NA MUHUSIKA</value>
+          </text>
+          <text id="/data/Utambuzi/GPS:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/Utambuzi/GPS:hint">
+            <value>Tafadhali chukua gps ya eneo ulipochukua taarifa</value>
+          </text>
+        </translation>
+
+        <translation lang="Eng">
+
+          <text id="/data/taarifa_awali:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:label">
+            <value>District</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option0">
+            <value>Kibaha</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option1">
+            <value>Morogoro Mjini</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option2">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option3">
+            <value>Kilosa</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option4">
+            <value>Malinyi</value>
+          </text>
+          <text id="/data/taarifa_awali/Wilaya:option5">
+            <value>Ulanga</value>
+          </text>
+          <text id="/data/taarifa_awali/Kata:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/taarifa_awali/Kijiji:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/taarifa_awali/Jina_la_mkuu_kaya:label">
+            <value>Head of house hold</value>
+          </text>
+          <text id="/data/taarifa_awali/Jina_la_mkuu_kaya:hint">
+            <value>Three names </value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa:label">
+            <value>Patient Information</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:option0">
+            <value>M</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Jinsia:option1">
+            <value>F</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:option0">
+            <value>Below 5</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Umri:option1">
+            <value>5 and above</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:label">
+            <value>Status</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:hint">
+            <value>Choose</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:option0">
+            <value>Alive</value>
+          </text>
+          <text id="/data/Taarifa_za_mgonjwa/Hali:option1">
+            <value>Dead</value>
+          </text>
+          <text id="/data/Dalili:label">
+            <value>Clinical Signs</value>
+          </text>
+          <text id="/data/Dalili/Dalili:label">
+            <value>Signs</value>
+          </text>
+          <text id="/data/Dalili/Dalili:hint">
+            <value>Choose clinical signs</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option0">
+            <value>Loss of appettites</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option1">
+            <value>Blood Diarrhea</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option2">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option4">
+            <value>Vomitting / nausea</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option5">
+            <value>Vomiting blood</value>
+          </text>
+          <text id="/data/Dalili/Dalili:option6">
+            <value>Bleeding from the nose or gums / internal bleeding</value>
+          </text>
+          <text id="/data/Dalili/zingine:label">
+            <value>Other Clinical Signs</value>
+          </text>
+          <text id="/data/Dalili/zingine:hint">
+            <value>Please mention other signs observed apart from mentioned ones</value>
+          </text>
+          <text id="/data/Utambuzi:label">
+            <value>Visualization data</value>
+          </text>
+          <text id="/data/Utambuzi/picha:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Utambuzi/picha:hint">
+            <value>Please take a picture, with consent</value>
+          </text>
+          <text id="/data/Utambuzi/GPS:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/Utambuzi/GPS:hint">
+            <value>Please take GPS location</value>
+          </text>
+        </translation>
+
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/taarifa_awali/Wilaya" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/taarifa_awali/Kata" type="string" required="true()" jr:requiredMsg="Ward is required"/>
+      <bind nodeset="/data/taarifa_awali/Kijiji" type="string" required="true()" jr:requiredMsg="Village is required"/>
+      <bind nodeset="/data/taarifa_awali/Jina_la_mkuu_kaya" type="string" required="true()" jr:requiredMsg="Head of household is required"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Jinsia" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Umri" type="select1" required="true()" jr:requiredMsg="Age is required"/>
+      <bind nodeset="/data/Taarifa_za_mgonjwa/Hali" type="select1" required="true()" jr:requiredMsg="Patient Status is required"/>
+      <bind nodeset="/data/Dalili/Dalili" type="select" required="true()" jr:requiredMsg="Clinical sign(s) required"/>
+      <bind nodeset="/data/Dalili/zingine" type="string"/>
+      <bind nodeset="/data/Utambuzi/picha" type="binary"/>
+      <bind nodeset="/data/Utambuzi/GPS" type="geopoint" required="true()" jr:requiredMsg="GPS location is required"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Binadamu',': ',/data/taarifa_awali/Jina_la_mkuu_kaya)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/taarifa_awali:label')"/>
+      <select1 appearance="minimal" ref="/data/taarifa_awali/Wilaya">
+        <label ref="jr:itext('/data/taarifa_awali/Wilaya:label')"/>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option0')"/>
+          <value>Kibaha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option1')"/>
+          <value>Morogoro_mjini</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option2')"/>
+          <value>Ngorongoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option3')"/>
+          <value>Kilosa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option4')"/>
+          <value>Malinyi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/taarifa_awali/Wilaya:option5')"/>
+          <value>Ulanga</value>
+        </item>
+      </select1>
+      <input ref="/data/taarifa_awali/Kata">
+        <label ref="jr:itext('/data/taarifa_awali/Kata:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/Kijiji">
+        <label ref="jr:itext('/data/taarifa_awali/Kijiji:label')"/>
+      </input>
+      <input ref="/data/taarifa_awali/Jina_la_mkuu_kaya">
+        <label ref="jr:itext('/data/taarifa_awali/Jina_la_mkuu_kaya:label')"/>
+        <hint ref="jr:itext('/data/taarifa_awali/Jina_la_mkuu_kaya:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Taarifa_za_mgonjwa:label')"/>
+      <select1 ref="/data/Taarifa_za_mgonjwa/Jinsia">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Jinsia:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Jinsia:option0')"/>
+          <value>mme</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Jinsia:option1')"/>
+          <value>mke</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_mgonjwa/Umri">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Umri:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Umri:option0')"/>
+          <value>chini_ya_miaka_mitano</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Umri:option1')"/>
+          <value>zaid_ya_miaka_mitano</value>
+        </item>
+      </select1>
+      <select1 ref="/data/Taarifa_za_mgonjwa/Hali">
+        <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Hali:label')"/>
+        <hint ref="jr:itext('/data/Taarifa_za_mgonjwa/Hali:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Hali:option0')"/>
+          <value>mzima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Taarifa_za_mgonjwa/Hali:option1')"/>
+          <value>amekufa</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Dalili:label')"/>
+      <select appearance="minimal" ref="/data/Dalili/Dalili">
+        <label ref="jr:itext('/data/Dalili/Dalili:label')"/>
+        <hint ref="jr:itext('/data/Dalili/Dalili:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option0')"/>
+          <value>A01</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option1')"/>
+          <value>A02</value>
+        </item>       
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option2')"/>
+          <value>AO3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option4')"/>
+          <value>AO5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option5')"/>
+          <value>AO6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Dalili/Dalili:option6')"/>
+          <value>A12</value>
+        </item>
+        
+      </select>
+      <input ref="/data/Dalili/zingine">
+        <label ref="jr:itext('/data/Dalili/zingine:label')"/>
+        <hint ref="jr:itext('/data/Dalili/zingine:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Utambuzi:label')"/>
+      <upload ref="/data/Utambuzi/picha" mediatype="image/*">
+        <label ref="jr:itext('/data/Utambuzi/picha:label')"/>
+        <hint ref="jr:itext('/data/Utambuzi/picha:hint')"/>
+      </upload>
+      <input ref="/data/Utambuzi/GPS">
+        <label ref="jr:itext('/data/Utambuzi/GPS:label')"/>
+        <hint ref="jr:itext('/data/Utambuzi/GPS:hint')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

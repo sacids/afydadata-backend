@@ -1,0 +1,573 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Brucellosis Human</h:title>
+    <model>
+      <instance>
+        <data id="build_Brucellosis-Human_1488888735">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Initial_details>
+            <District/>
+            <Village/>
+            <Health_facility/>
+            <Code_number/>
+            <Age/>
+            <Sex/>
+            <Marital_status/>
+          </Initial_details>
+          <More_details>
+            <Symptoms/>
+            <Other_symptoms/>
+            <Consumption_of_animal_product/>
+            <Animal_contact/>
+            <Disposing_aborted_materials/>
+            <otherways_dispose/>
+            <Occupation/>
+          </More_details>
+          <Location/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Initial_details:label">
+            <value>Initial Details</value>
+          </text>
+          <text id="/data/Initial_details/District:label">
+            <value>District</value>
+          </text>
+          <text id="/data/Initial_details/District:option0">
+            <value>Karagwe</value>
+          </text>
+          <text id="/data/Initial_details/District:option1">
+            <value>Ngara</value>
+          </text>
+          <text id="/data/Initial_details/Village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/Initial_details/Health_facility:label">
+            <value>Health Facility</value>
+          </text>
+          <text id="/data/Initial_details/Code_number:label">
+            <value>Code Number</value>
+          </text>
+          <text id="/data/Initial_details/Code_number:hint">
+            <value>Instead of name</value>
+          </text>
+          <text id="/data/Initial_details/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/Initial_details/Sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/Initial_details/Sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/Initial_details/Sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:label">
+            <value>Marital Status</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option0">
+            <value>Single</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option1">
+            <value>Married</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option2">
+            <value>Widowed / Widower</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option3">
+            <value>Divorced </value>
+          </text>
+          <text id="/data/More_details:label">
+            <value>More details</value>
+          </text>
+          <text id="/data/More_details/Symptoms:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/More_details/Symptoms:hint">
+            <value>Shown</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option0">
+            <value>Fever</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option1">
+            <value>Headache</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option2">
+            <value>Fatigue</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option3">
+            <value>Back pain</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option4">
+            <value>Joint pain</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option5">
+            <value>Sleep disturbance</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option6">
+            <value>Abortion</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option7">
+            <value>Others</value>
+          </text>
+          <text id="/data/More_details/Other_symptoms:label">
+            <value>Other symptoms</value>
+          </text>
+          <text id="/data/More_details/Other_symptoms:hint">
+            <value>Apart from mentioned ones</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:label">
+            <value>Consumption of animal Products</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option0">
+            <value>Drink unpasteurized milk</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option1">
+            <value>Consume the fresh blood</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option2">
+            <value>Consume raw meat</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option3">
+            <value>Consume cheese</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option4">
+            <value>Non of above consumptions</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:label">
+            <value>Animal Contact</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option0">
+            <value>Live with domestic animals at home</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option1">
+            <value>Assist animals during parturition</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option2">
+            <value>Abortion’ (s) case (s) in your herd</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:label">
+            <value>How do you dispose the aborted materials</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:hint">
+            <value>If there is any abortion case</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option0">
+            <value>Hook</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option1">
+            <value>Burying in the pit </value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option2">
+            <value>Feeding dogs</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option3">
+            <value>Others</value>
+          </text>
+          <text id="/data/More_details/otherways_dispose:label">
+            <value>Other ways of disposing</value>
+          </text>
+          <text id="/data/More_details/otherways_dispose:hint">
+            <value>If there is another way (s) of disposing, please mention</value>
+          </text>
+          <text id="/data/More_details/Occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/More_details/Occupation:option0">
+            <value>Farmer Keeper</value>
+          </text>
+          <text id="/data/More_details/Occupation:option1">
+            <value>Working in abattoir </value>
+          </text>
+          <text id="/data/More_details/Occupation:option2">
+            <value>Veterinarian Doctor</value>
+          </text>
+          <text id="/data/More_details/Occupation:option3">
+            <value>Working in laboratory</value>
+          </text>
+          <text id="/data/Location:label">
+            <value>GPS Location</value>
+          </text>
+        </translation>
+        <translation lang="swa">
+          <text id="/data/Initial_details:label">
+            <value>Maelezo ya awali</value>
+          </text>
+          <text id="/data/Initial_details/District:label">
+            <value>Wilaya</value>
+          </text>
+          <text id="/data/Initial_details/District:option0">
+            <value>Karagwe</value>
+          </text>
+          <text id="/data/Initial_details/District:option1">
+            <value>Ngara</value>
+          </text>
+          <text id="/data/Initial_details/Village:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/data/Initial_details/Health_facility:label">
+            <value>Kituo cha afya</value>
+          </text>
+          <text id="/data/Initial_details/Code_number:label">
+            <value>Namba ya Utambulisho</value>
+          </text>
+          <text id="/data/Initial_details/Code_number:hint">
+            <value>Badala ya jina</value>
+          </text>
+          <text id="/data/Initial_details/Age:label">
+            <value>umri</value>
+          </text>
+          <text id="/data/Initial_details/Sex:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/Initial_details/Sex:option0">
+            <value>Mme</value>
+          </text>
+          <text id="/data/Initial_details/Sex:option1">
+            <value>Mke</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:label">
+            <value>Hali ya ndoa</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option0">
+            <value>Sija Oa / Olewa</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option1">
+            <value>Oa / Olewa</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option2">
+            <value>Mjane</value>
+          </text>
+          <text id="/data/Initial_details/Marital_status:option3">
+            <value>Mtalaka</value>
+          </text>
+          <text id="/data/More_details:label">
+            <value>Maelezo zaidi</value>
+          </text>
+          <text id="/data/More_details/Symptoms:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/More_details/Symptoms:hint">
+            <value>Zilizoonekana</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option0">
+            <value>Homa</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option1">
+            <value>Maumivu ya kichwa</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option2">
+            <value>Uchovu</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option3">
+            <value>Maumivu ya mgongo</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option4">
+            <value>Maumivu ya viungo</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option5">
+            <value>Kulala kwa shida</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option6">
+            <value>Kutoa mimba</value>
+          </text>
+          <text id="/data/More_details/Symptoms:option7">
+            <value>Zingine</value>
+          </text>
+          <text id="/data/More_details/Other_symptoms:label">
+            <value>kama kuna dalili ingine</value>
+          </text>
+          <text id="/data/More_details/Other_symptoms:hint">
+            <value>Mbali ya zilizotajwa</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:label">
+            <value>Matumizi ya bidhaa / mazao ya mnyama asilia</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option0">
+            <value>Kunywa maziwa yasiyochemshwa</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option1">
+            <value>Kutumia damu mbichi</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option2">
+            <value>Kutumia nyama mbichi</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option3">
+            <value>Kutumia jibini</value>
+          </text>
+          <text id="/data/More_details/Consumption_of_animal_product:option4">
+            <value>Hakuna</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:label">
+            <value>Kugusana na wanyama</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option0">
+            <value>Mnaishi na wanyama wa kufugwa nyumbani</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option1">
+            <value>Mnawasaidia wanyama wakati wa mchakato wa kujifungua</value>
+          </text>
+          <text id="/data/More_details/Animal_contact:option2">
+            <value>Ushapata matukio ya utupaji mimba kwa wanyama wafugwao</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:label">
+            <value>Njia gani unatumia kuteketeza masalia ya utoaji mimba</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:hint">
+            <value>Kama kumeshatokea matukio ya utoaji mimba</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option0">
+            <value>Ndoano</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option1">
+            <value>Kufukia</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option2">
+            <value>Kulisha mbwa</value>
+          </text>
+          <text id="/data/More_details/Disposing_aborted_materials:option3">
+            <value>Nyngine</value>
+          </text>
+          <text id="/data/More_details/otherways_dispose:label">
+            <value>Njia zingine za kuteketeza</value>
+          </text>
+          <text id="/data/More_details/otherways_dispose:hint">
+            <value>Kama kuna njia nyingine za kuteketeza, tafadhali taja</value>
+          </text>
+          <text id="/data/More_details/Occupation:label">
+            <value>kazi</value>
+          </text>
+          <text id="/data/More_details/Occupation:option0">
+            <value>Mkulima</value>
+          </text>
+          <text id="/data/More_details/Occupation:option1">
+            <value>Kazi machinjioni</value>
+          </text>
+          <text id="/data/More_details/Occupation:option2">
+            <value>Daktari wa mifugo</value>
+          </text>
+          <text id="/data/More_details/Occupation:option3">
+            <value>Kazi maabara</value>
+          </text>
+          <text id="/data/Location:label">
+            <value>Anuani / Mahali</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Initial_details/District" type="select1" required="true()"/>
+      <bind nodeset="/data/Initial_details/Village" type="string" required="true()"/>
+      <bind nodeset="/data/Initial_details/Health_facility" type="string" required="true()"/>
+      <bind nodeset="/data/Initial_details/Code_number" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_details/Age" type="int" required="true()"/>
+      <bind nodeset="/data/Initial_details/Sex" type="select1" required="true()"/>
+      <bind nodeset="/data/Initial_details/Marital_status" type="select1" required="true()"/>
+      <bind nodeset="/data/More_details/Symptoms" type="select" required="true()"/>
+      <bind nodeset="/data/More_details/Other_symptoms" type="string"/>
+      <bind nodeset="/data/More_details/Consumption_of_animal_product" type="select" required="true()"/>
+      <bind nodeset="/data/More_details/Animal_contact" type="select"/>
+      <bind nodeset="/data/More_details/Disposing_aborted_materials" type="select"/>
+      <bind nodeset="/data/More_details/otherways_dispose" type="string"/>
+      <bind nodeset="/data/More_details/Occupation" type="select"/>
+      <bind nodeset="/data/Location" type="geopoint"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Brucellosis',': ',/data/Initial_details/Code_number)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Initial_details:label')"/>
+      <select1 appearance="minimal" ref="/data/Initial_details/District">
+        <label ref="jr:itext('/data/Initial_details/District:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/District:option0')"/>
+          <value>Karagwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/District:option1')"/>
+          <value>Ngara</value>
+        </item>
+      </select1>
+      <input ref="/data/Initial_details/Village">
+        <label ref="jr:itext('/data/Initial_details/Village:label')"/>
+      </input>
+      <input ref="/data/Initial_details/Health_facility">
+        <label ref="jr:itext('/data/Initial_details/Health_facility:label')"/>
+      </input>
+      <input ref="/data/Initial_details/Code_number">
+        <label ref="jr:itext('/data/Initial_details/Code_number:label')"/>
+        <hint ref="jr:itext('/data/Initial_details/Code_number:hint')"/>
+      </input>
+      <input ref="/data/Initial_details/Age">
+        <label ref="jr:itext('/data/Initial_details/Age:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/data/Initial_details/Sex">
+        <label ref="jr:itext('/data/Initial_details/Sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Sex:option0')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Initial_details/Marital_status">
+        <label ref="jr:itext('/data/Initial_details/Marital_status:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Marital_status:option0')"/>
+          <value>Single</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Marital_status:option1')"/>
+          <value>Married</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Marital_status:option2')"/>
+          <value>widowed_widower</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Initial_details/Marital_status:option3')"/>
+          <value>Divorced</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/More_details:label')"/>
+      <select appearance="minimal" ref="/data/More_details/Symptoms">
+        <label ref="jr:itext('/data/More_details/Symptoms:label')"/>
+        <hint ref="jr:itext('/data/More_details/Symptoms:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option0')"/>
+          <value>BK1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option1')"/>
+          <value>BK2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option2')"/>
+          <value>BK3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option3')"/>
+          <value>BK4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option4')"/>
+          <value>BK5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option5')"/>
+          <value>BK6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option6')"/>
+          <value>BK7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Symptoms:option7')"/>
+          <value>BK8</value>
+        </item>
+      </select>
+      <input ref="/data/More_details/Other_symptoms">
+        <label ref="jr:itext('/data/More_details/Other_symptoms:label')"/>
+        <hint ref="jr:itext('/data/More_details/Other_symptoms:hint')"/>
+      </input>
+      <select appearance="minimal" ref="/data/More_details/Consumption_of_animal_product">
+        <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:label')"/>
+        <item>
+          <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:option0')"/>
+          <value>BN1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:option1')"/>
+          <value>BN2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:option2')"/>
+          <value>BN3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:option3')"/>
+          <value>BN4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Consumption_of_animal_product:option4')"/>
+          <value>BN5</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/More_details/Animal_contact">
+        <label ref="jr:itext('/data/More_details/Animal_contact:label')"/>
+        <item>
+          <label ref="jr:itext('/data/More_details/Animal_contact:option0')"/>
+          <value>BA1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Animal_contact:option1')"/>
+          <value>BA2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Animal_contact:option2')"/>
+          <value>BA3</value>
+        </item>
+      </select>
+      <select appearance="minimal" ref="/data/More_details/Disposing_aborted_materials">
+        <label ref="jr:itext('/data/More_details/Disposing_aborted_materials:label')"/>
+        <hint ref="jr:itext('/data/More_details/Disposing_aborted_materials:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/More_details/Disposing_aborted_materials:option0')"/>
+          <value>Hook</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Disposing_aborted_materials:option1')"/>
+          <value>Burying</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Disposing_aborted_materials:option2')"/>
+          <value>Feeding_dogs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Disposing_aborted_materials:option3')"/>
+          <value>Others</value>
+        </item>
+      </select>
+      <input ref="/data/More_details/otherways_dispose">
+        <label ref="jr:itext('/data/More_details/otherways_dispose:label')"/>
+        <hint ref="jr:itext('/data/More_details/otherways_dispose:hint')"/>
+      </input>
+      <select appearance="minimal" ref="/data/More_details/Occupation">
+        <label ref="jr:itext('/data/More_details/Occupation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/More_details/Occupation:option0')"/>
+          <value>Farmer_keper</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Occupation:option1')"/>
+          <value>working_abattoir</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Occupation:option2')"/>
+          <value>Veterinarian</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/More_details/Occupation:option3')"/>
+          <value>working_in_laboratory</value>
+        </item>
+      </select>
+    </group>
+    <input ref="/data/Location">
+      <label ref="jr:itext('/data/Location:label')"/>
+    </input>
+  </h:body>
+</h:html>

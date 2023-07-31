@@ -1,0 +1,373 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Animal Sampling</h:title>
+    <model>
+      <instance>
+        <data id="build_Animal-Sampling_1583587035420">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <basic_info>
+            <study_districts/>
+            <village/>
+            <ward/>
+            <sampling_location/>
+            <date/>
+          </basic_info>
+          <animal_leve_inf>
+            <herd_ID/>
+            <spp/>
+            <anima_ID/>
+            <breed/>
+            <anima_movement/>
+          </animal_leve_inf>
+          <animal_leve_inf1>
+            <source_after_moved/>
+            <age/>
+            <sex/>
+          </animal_leve_inf1>
+          <animal_leve_inf2>
+            <abortion/>
+            <body_temp/>
+            <any_illness/>
+          </animal_leve_inf2>
+          <gps/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/basic_info:label">
+            <value>Basic information</value>
+          </text>
+          <text id="/data/basic_info/study_districts:label">
+            <value>Study districts</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option0">
+            <value>Sengerema</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option1">
+            <value>Rufiji</value>
+          </text>
+          <text id="/data/basic_info/study_districts:option2">
+            <value>Ilala</value>
+          </text>
+          <text id="/data/basic_info/village:label">
+            <value>Village / Street</value>
+          </text>
+          <text id="/data/basic_info/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:label">
+            <value>Sampling location</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option0">
+            <value>Household</value>
+          </text>
+          <text id="/data/basic_info/sampling_location:option1">
+            <value>Slaughter house</value>
+          </text>
+          <text id="/data/basic_info/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/animal_leve_inf:label">
+            <value>Animal Level Information</value>
+          </text>
+          <text id="/data/animal_leve_inf/herd_ID:label">
+            <value>1. Herd ID</value>
+          </text>
+          <text id="/data/animal_leve_inf/spp:label">
+            <value>2. SPP</value>
+          </text>
+          <text id="/data/animal_leve_inf/spp:option0">
+            <value>ovine</value>
+          </text>
+          <text id="/data/animal_leve_inf/spp:option1">
+            <value>caprine</value>
+          </text>
+          <text id="/data/animal_leve_inf/spp:option2">
+            <value>bovine</value>
+          </text>
+          <text id="/data/animal_leve_inf/anima_ID:label">
+            <value>3. Animal ID/Sample ID (preceded with 1st 3 letters of village/street name)</value>
+          </text>
+          <text id="/data/animal_leve_inf/breed:label">
+            <value>4. Breed</value>
+          </text>
+          <text id="/data/animal_leve_inf/breed:option0">
+            <value>Local</value>
+          </text>
+          <text id="/data/animal_leve_inf/breed:option1">
+            <value>Cross</value>
+          </text>
+          <text id="/data/animal_leve_inf/breed:option2">
+            <value>exotic</value>
+          </text>
+          <text id="/data/animal_leve_inf/anima_movement:label">
+            <value>5. Animal moved into or born within this village/street? </value>
+          </text>
+          <text id="/data/animal_leve_inf/anima_movement:option0">
+            <value>Born</value>
+          </text>
+          <text id="/data/animal_leve_inf/anima_movement:option1">
+            <value>Moved</value>
+          </text>
+          <text id="/data/animal_leve_inf/anima_movement:option2">
+            <value>don’t know</value>
+          </text>
+          <text id="/data/animal_leve_inf1:label">
+            <value>Animal Level Information</value>
+          </text>
+          <text id="/data/animal_leve_inf1/source_after_moved:label">
+            <value>6. If Animal moved into the village/street; mention the source-district</value>
+          </text>
+          <text id="/data/animal_leve_inf1/age:label">
+            <value>7. Age</value>
+          </text>
+          <text id="/data/animal_leve_inf1/age:option0">
+            <value>&lt; 1 Year</value>
+          </text>
+          <text id="/data/animal_leve_inf1/age:option1">
+            <value>=&gt; 1 Year</value>
+          </text>
+          <text id="/data/animal_leve_inf1/sex:label">
+            <value>8. Sex</value>
+          </text>
+          <text id="/data/animal_leve_inf1/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/animal_leve_inf1/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/animal_leve_inf2:label">
+            <value>Animal Level Information</value>
+          </text>
+          <text id="/data/animal_leve_inf2/abortion:label">
+            <value>9.Abortion in the past 12 months </value>
+          </text>
+          <text id="/data/animal_leve_inf2/abortion:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/animal_leve_inf2/abortion:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/animal_leve_inf2/abortion:option2">
+            <value>Don’t know </value>
+          </text>
+          <text id="/data/animal_leve_inf2/abortion:option3">
+            <value>NA</value>
+          </text>
+          <text id="/data/animal_leve_inf2/body_temp:label">
+            <value>10. Body temperature(oC) on the date of survey </value>
+          </text>
+          <text id="/data/animal_leve_inf2/body_temp:option0">
+            <value>normal {37.8-40} </value>
+          </text>
+          <text id="/data/animal_leve_inf2/body_temp:option1">
+            <value>High (&gt;40 {fever})</value>
+          </text>
+          <text id="/data/animal_leve_inf2/any_illness:label">
+            <value>11. Any ill- health signs on the date of the survey </value>
+          </text>
+          <text id="/data/animal_leve_inf2/any_illness:hint">
+            <value>Separate by coma</value>
+          </text>
+          <text id="/data/gps:label">
+            <value>GPS location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/basic_info/study_districts" type="select1" required="true()" jr:requiredMsg="District is required"/>
+      <bind nodeset="/data/basic_info/village" type="string" required="true()" jr:requiredMsg="village is required"/>
+      <bind nodeset="/data/basic_info/ward" type="string" required="true()" jr:requiredMsg="ward is required"/>
+      <bind nodeset="/data/basic_info/sampling_location" type="select1" required="true()" jr:requiredMsg="Sampling location is required"/>
+      <bind nodeset="/data/basic_info/date" type="date" required="true()" jr:requiredMsg="date is required"/>
+      <bind nodeset="/data/animal_leve_inf/herd_ID" type="string" constraint="(regex(., &quot;^.{1,6}$&quot;))" jr:constraintMsg="Response length must be between 1 and 6" required="true()" jr:requiredMsg="Herd ID is required"/>
+      <bind nodeset="/data/animal_leve_inf/spp" type="select1" required="true()" jr:requiredMsg="SPP is required"/>
+      <bind nodeset="/data/animal_leve_inf/anima_ID" type="string" constraint="(regex(., &quot;^.{1,7}$&quot;))" jr:constraintMsg="Response length must be between 1 and 7" required="true()" jr:requiredMsg="Animal ID is required"/>
+      <bind nodeset="/data/animal_leve_inf/breed" type="select1" required="true()" jr:requiredMsg="Breed is required"/>
+      <bind nodeset="/data/animal_leve_inf/anima_movement" type="select1" required="true()" jr:requiredMsg="Movement is required"/>
+
+      <bind nodeset="/data/animal_leve_inf1/source_after_moved" type="string" required="true()" jr:requiredMsg="Source of Movement is required" relevant="(selected(/data/animal_leve_inf/anima_movement, 'moved'))"/>
+      <bind nodeset="/data/animal_leve_inf1/age" type="select1" required="true()" jr:requiredMsg="Age is required"/>
+      <bind nodeset="/data/animal_leve_inf1/sex" type="select1" required="true()" jr:requiredMsg="Sex is required"/>
+
+      <bind nodeset="/data/animal_leve_inf2/abortion" type="select1" required="true()" jr:requiredMsg="Abortion is required" relevant="(selected(/data/animal_leve_inf1/sex, 'female'))"/>
+
+      <bind nodeset="/data/animal_leve_inf2/body_temp" type="select1" required="true()" jr:requiredMsg="Body Temp is required"/>
+      <bind nodeset="/data/animal_leve_inf2/any_illness" type="string"/>
+      <bind nodeset="/data/gps" type="geopoint"/>
+
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Anima Sampling ',': ',/data/animal_leve_inf/anima_ID)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/basic_info" appearance="field-list">
+      <label ref="jr:itext('/data/basic_info:label')"/>
+      <select1 ref="/data/basic_info/study_districts">
+        <label ref="jr:itext('/data/basic_info/study_districts:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option0')"/>
+          <value>sengerema</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option1')"/>
+          <value>rufiji</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/study_districts:option2')"/>
+          <value>ilala</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_info/village">
+        <label ref="jr:itext('/data/basic_info/village:label')"/>
+      </input>
+      <input ref="/data/basic_info/ward">
+        <label ref="jr:itext('/data/basic_info/ward:label')"/>
+      </input>
+      <select1 ref="/data/basic_info/sampling_location">
+        <label ref="jr:itext('/data/basic_info/sampling_location:label')"/>
+        <item>
+          <label ref="jr:itext('/data/basic_info/sampling_location:option0')"/>
+          <value>household</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/basic_info/sampling_location:option1')"/>
+          <value>slaughter_house</value>
+        </item>
+      </select1>
+      <input ref="/data/basic_info/date">
+        <label ref="jr:itext('/data/basic_info/date:label')"/>
+      </input>
+    </group>
+    <group ref="/data/animal_leve_inf" appearance="field-list">
+      <label ref="jr:itext('/data/animal_leve_inf:label')"/>
+      <input ref="/data/animal_leve_inf/herd_ID">
+        <label ref="jr:itext('/data/animal_leve_inf/herd_ID:label')"/>
+      </input>
+      <select1 ref="/data/animal_leve_inf/spp">
+        <label ref="jr:itext('/data/animal_leve_inf/spp:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/spp:option0')"/>
+          <value>ovine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/spp:option1')"/>
+          <value>caprine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/spp:option2')"/>
+          <value>bovine</value>
+        </item>
+      </select1>
+      <input ref="/data/animal_leve_inf/anima_ID">
+        <label ref="jr:itext('/data/animal_leve_inf/anima_ID:label')"/>
+      </input>
+      <select1 ref="/data/animal_leve_inf/breed">
+        <label ref="jr:itext('/data/animal_leve_inf/breed:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/breed:option0')"/>
+          <value>local</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/breed:option1')"/>
+          <value>cross</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/breed:option2')"/>
+          <value>exotic</value>
+        </item>
+      </select1>
+      <select1 ref="/data/animal_leve_inf/anima_movement">
+        <label ref="jr:itext('/data/animal_leve_inf/anima_movement:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/anima_movement:option0')"/>
+          <value>born</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/anima_movement:option1')"/>
+          <value>moved</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf/anima_movement:option2')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/animal_leve_inf1" appearance="field-list">
+      <label ref="jr:itext('/data/animal_leve_inf1:label')"/>
+      <input ref="/data/animal_leve_inf1/source_after_moved">
+        <label ref="jr:itext('/data/animal_leve_inf1/source_after_moved:label')"/>
+      </input>
+      <select1 ref="/data/animal_leve_inf1/age">
+        <label ref="jr:itext('/data/animal_leve_inf1/age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf1/age:option0')"/>
+          <value>less_one_year</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf1/age:option1')"/>
+          <value>more_than_1yr</value>
+        </item>
+      </select1>
+      <select1 ref="/data/animal_leve_inf1/sex">
+        <label ref="jr:itext('/data/animal_leve_inf1/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf1/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf1/sex:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/animal_leve_inf2" appearance="field-list">
+      <label ref="jr:itext('/data/animal_leve_inf2:label')"/>
+      <select1 ref="/data/animal_leve_inf2/abortion">
+        <label ref="jr:itext('/data/animal_leve_inf2/abortion:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/abortion:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/abortion:option1')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/abortion:option2')"/>
+          <value>dont_know</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/abortion:option3')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select1 ref="/data/animal_leve_inf2/body_temp">
+        <label ref="jr:itext('/data/animal_leve_inf2/body_temp:label')"/>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/body_temp:option0')"/>
+          <value>normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/animal_leve_inf2/body_temp:option1')"/>
+          <value>higher_fever</value>
+        </item>
+      </select1>
+      <input ref="/data/animal_leve_inf2/any_illness">
+        <label ref="jr:itext('/data/animal_leve_inf2/any_illness:label')"/>
+        <hint ref="jr:itext('/data/animal_leve_inf2/any_illness:hint')"/>
+      </input>
+    </group>
+    <input ref="/data/gps">
+      <label ref="jr:itext('/data/gps:label')"/>
+    </input>
+  </h:body>
+</h:html>

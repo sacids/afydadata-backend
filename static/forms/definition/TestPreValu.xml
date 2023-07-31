@@ -1,0 +1,34 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>TestPreValu</h:title>
+    <model>
+      <instance>
+        <data id="build_TestPreValu_1573816858">
+          <meta>
+            <instanceID/>
+          </meta>
+          <readMwabu/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/readMwabu:label">
+            <value>Mwabu</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/readMwabu:label">
+            <value>Mwabu</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/readMwabu" type="string" readonly="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/readMwabu">
+      <label ref="jr:itext('/data/readMwabu:label')"/>
+    </input>
+  </h:body>
+</h:html>

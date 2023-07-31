@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Binadamu</h:title>
+    <model>
+      <instance>
+        <Binadamu id="Binadamu">
+          <Taarifa_za_awali>
+            <Jina_la_mtoa_taarifa/>
+            <Wilaya/>
+            <Kijiji/>
+            <Tarehe/>
+            <Jina_la_mkuu_wa_kaya/>
+          </Taarifa_za_awali>
+          <taarifa_za_mgonjwa>
+            <Namba_ya_utambulisho/>
+            <Jinsia/>
+            <Umri/>
+            <Hali/>
+          </taarifa_za_mgonjwa>
+          <Dalili>
+            <Dalili/>
+            <Dalili_zingine/>
+          </Dalili>
+          <utambuzi>
+            <Picha/>
+            <GPS/>
+          </utambuzi>
+          <start/>
+          <end/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Binadamu>
+      </instance>
+      <bind nodeset="/Binadamu/Taarifa_za_awali/Jina_la_mtoa_taarifa" required="true()" type="string"/>
+      <bind nodeset="/Binadamu/Taarifa_za_awali/Wilaya" required="true()" type="select1"/>
+      <bind nodeset="/Binadamu/Taarifa_za_awali/Kijiji" required="true()" type="string"/>
+      <bind nodeset="/Binadamu/Taarifa_za_awali/Tarehe" required="true()" type="date"/>
+      <bind nodeset="/Binadamu/Taarifa_za_awali/Jina_la_mkuu_wa_kaya" required="true()" type="string"/>
+      <bind nodeset="/Binadamu/taarifa_za_mgonjwa/Namba_ya_utambulisho" required="true()" type="string"/>
+      <bind nodeset="/Binadamu/taarifa_za_mgonjwa/Jinsia" required="true()" type="select1"/>
+      <bind nodeset="/Binadamu/taarifa_za_mgonjwa/Umri" required="true()" type="select1"/>
+      <bind nodeset="/Binadamu/taarifa_za_mgonjwa/Hali" required="true()" type="select1"/>
+      <bind nodeset="/Binadamu/Dalili/Dalili" required="true()" type="select"/>
+      <bind nodeset="/Binadamu/Dalili/Dalili_zingine" required="false()" type="string"/>
+      <bind nodeset="/Binadamu/utambuzi/Picha" required="false()" type="binary"/>
+      <bind nodeset="/Binadamu/utambuzi/GPS" required="true()" type="geopoint"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/Binadamu/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/Binadamu/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Binadamu/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/Binadamu/Taarifa_za_awali">
+      <label>Taarifa za awali</label>
+      <input ref="/Binadamu/Taarifa_za_awali/Jina_la_mtoa_taarifa">
+        <label>Jina la mtoa taarifa</label>
+      </input>
+      <select1 appearance="minimal" ref="/Binadamu/Taarifa_za_awali/Wilaya">
+        <label>Wilaya</label>
+        <item>
+          <label>Kibaha</label>
+          <value>Kibaha</value>
+        </item>
+        <item>
+          <label>Morogoro</label>
+          <value>morogoro</value>
+        </item>
+        <item>
+          <label>Ngorongoro</label>
+          <value>ngorongoro</value>
+        </item>
+      </select1>
+      <input ref="/Binadamu/Taarifa_za_awali/Kijiji">
+        <label>Kijiji</label>
+        <hint>Jina la kijiji taarifa ilipochukuliwa</hint>
+      </input>
+      <input ref="/Binadamu/Taarifa_za_awali/Tarehe">
+        <label>Tarehe</label>
+        <hint>Tarehe ya kuchukua taarifa</hint>
+      </input>
+      <input ref="/Binadamu/Taarifa_za_awali/Jina_la_mkuu_wa_kaya">
+        <label>Jina la mkuu wa kaya</label>
+        <hint>Majina matatu</hint>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/Binadamu/taarifa_za_mgonjwa">
+      <label>Taarifa za mgonjwa</label>
+      <input ref="/Binadamu/taarifa_za_mgonjwa/Namba_ya_utambulisho">
+        <label>Namba ya utambulisho</label>
+        <hint>Herufi mbili za mwanzo za jina la mgonjwa zikifuatiwa na tarakimu mbili za namba za utambulisho bila kuacha nafasi. Jaza namba za utambulisho katika fomu ya rufaa ikiwa umempa mgonjwa rufaa ya kwenda kituo cha afya</hint>
+      </input>
+      <select1 appearance="minimal" ref="/Binadamu/taarifa_za_mgonjwa/Jinsia">
+        <label>Jinsia</label>
+        <hint>Chagua jinsia</hint>
+        <item>
+          <label>Mme</label>
+          <value>Mme</value>
+        </item>
+        <item>
+          <label>Mke</label>
+          <value>Mke</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/Binadamu/taarifa_za_mgonjwa/Umri">
+        <label>Umri</label>
+        <item>
+          <label>Chini ya miaka 5</label>
+          <value>Chini_ya_tano</value>
+        </item>
+        <item>
+          <label>Juu ya miaka 5</label>
+          <value>Juu_ya_tano</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/Binadamu/taarifa_za_mgonjwa/Hali">
+        <label>Hali</label>
+        <hint>Chagua hali ya mgonjwa</hint>
+        <item>
+          <label>Mzima</label>
+          <value>mzima</value>
+        </item>
+        <item>
+          <label>Amekufa</label>
+          <value>amekufa</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/Binadamu/Dalili">
+      <label>Dalili</label>
+      <select appearance="minimal" ref="/Binadamu/Dalili/Dalili">
+        <label>Dalili</label>
+        <hint>Chagua dalili alizoonesha mgonjwa</hint>
+        <item>
+          <label>Kupoteza hamu ya kula</label>
+          <value>A01</value>
+        </item>
+        <item>
+          <label>kuhara damu</label>
+          <value>A02</value>
+        </item>
+        <item>
+          <label>Kuharisha</label>
+          <value>A03</value>
+        </item>
+        <item>
+          <label>Kufunga choo</label>
+          <value>A04</value>
+        </item>
+        <item>
+          <label>Kutapika/kichefuchefu</label>
+          <value>A05</value>
+        </item>
+        <item>
+          <label>Kutapika damu</label>
+          <value>A06</value>
+        </item>
+        <item>
+          <label>Kukosa nguvu/maumivu ya viungo</label>
+          <value>A07</value>
+        </item>
+        <item>
+          <label>Kupumua kwa shida/kukoroma</label>
+          <value>A08</value>
+        </item>
+        <item>
+          <label>Kuhema kwa haraka</label>
+          <value>A09</value>
+        </item>
+        <item>
+          <label>Homa/kutetemeka/kutokwa jasho/kuhisi baridi</label>
+          <value>Homa_kutetemeka_kutokwa_jasho_</value>
+        </item>
+        <item>
+          <label>Kukohoa</label>
+          <value>A10</value>
+        </item>
+        <item>
+          <label>Kukohoa damu</label>
+          <value>A11</value>
+        </item>
+        <item>
+          <label>Damu kutoka puani/mdomoni/masikioni/machoni/sehemu za haja ndogo na kubwa</label>
+          <value>A12</value>
+        </item>
+        <item>
+          <label>Kuvimba tezi maeneo ya shingo, makwapa, mapaja</label>
+          <value>A13</value>
+        </item>
+        <item>
+          <label>Kuwashwa ngozi/mapunye/upele</label>
+          <value>A14</value>
+        </item>
+        <item>
+          <label>Kukojoa damu</label>
+          <value>A15</value>
+        </item>
+        <item>
+          <label>Mimba kutoka</label>
+          <value>A16</value>
+        </item>
+        <item>
+          <label>Kuumwa tumbo</label>
+          <value>A17</value>
+        </item>
+        <item>
+          <label>Kuchanganyikiwa</label>
+          <value>A18</value>
+        </item>
+        <item>
+          <label>Kukakamaa shingo/misuli ya mdomo</label>
+          <value>A19</value>
+        </item>
+        <item>
+          <label>Degedege</label>
+          <value>A20</value>
+        </item>
+        <item>
+          <label>Kuumwa kichwa</label>
+          <value>A21</value>
+        </item>
+        <item>
+          <label>Kutokwa na machozi/kuvimba macho/macho kuwa mekundu</label>
+          <value>A22</value>
+        </item>
+        <item>
+          <label>Macho kutumbukia ndani</label>
+          <value>A23</value>
+        </item>
+        <item>
+          <label>Kupofuka</label>
+          <value>A24</value>
+        </item>
+        <item>
+          <label>Kusinzia mchana</label>
+          <value>A25</value>
+        </item>
+        <item>
+          <label>Manjano kwenye sehemu nyeupe ya macho/ngozi</label>
+          <value>A26</value>
+        </item>
+        <item>
+          <label>Ngozi ikiﬁnywa/ kubonyezwa inarudi polepole sana.</label>
+          <value>A27</value>
+        </item>
+        <item>
+          <label>Kung’atwa au kuumwa na mnyama</label>
+          <value>A28</value>
+        </item>
+        <item>
+          <label>Michubuko/vidonda mdomoni</label>
+          <value>A29</value>
+        </item>
+        <item>
+          <label>Dalili zingine</label>
+          <value>zingine</value>
+        </item>
+      </select>
+      <input ref="/Binadamu/Dalili/Dalili_zingine">
+        <label>Dalili zingine</label>
+        <hint>Kama kuna dalili ingine/zingine mbali ya zilizotajwa hapojuu, tafadhali taja, weka alama ya koma kila baada ya dalili</hint>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/Binadamu/utambuzi">
+      <label>Utambuzi</label>
+      <upload mediatype="image/*" ref="/Binadamu/utambuzi/Picha">
+        <label>Picha</label>
+        <hint>Tafadhali chukua picha dalili inayoonekana ENDAPO TU UTAPATA RIDHAA TOKA KWA MHUSIKA</hint>
+      </upload>
+      <input ref="/Binadamu/utambuzi/GPS">
+        <label>GPS</label>
+        <hint>Tafadhali chukua GPS ya sehemu uliyochukua taarifa</hint>
+      </input>
+    </group>
+  </h:body>
+</h:html>

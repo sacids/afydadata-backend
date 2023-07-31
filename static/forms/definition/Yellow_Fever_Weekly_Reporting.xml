@@ -1,0 +1,455 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Yellow Fever Weekly Reporting</h:title>
+    <model>
+      <instance>
+        <data id="Yellow_Fever_Weekly-Form_1584828012">
+          <meta>
+            <instanceID/>
+            <username/>
+            <start/>
+            <end/>
+          </meta>
+          <general>
+            <name_of_poe/>
+            <name_of_health_incharge/>
+            <from_date/>
+            <to_date/>
+          </general>
+          <yf_stock>
+            <yf_balance/>
+            <yf_received/>
+            <yf_used/>
+            <yf_wasted/>
+            <yf_remained/>
+          </yf_stock>
+          <yf_screening>
+            <yf_screen_label/>
+            <Yf_screened_male>
+              0
+            </Yf_screened_male>
+            <yf_screened_female>
+              0
+            </yf_screened_female>
+            <yf_vacinated_label/>
+            <yf_vaccinated_male>
+              0
+            </yf_vaccinated_male>
+            <yf_vaccinated_female>
+              0
+            </yf_vaccinated_female>
+            <yf_exempted_label/>
+            <yf_exempted_male>
+              0
+            </yf_exempted_male>
+            <yf_exempted_female>
+              0
+            </yf_exempted_female>
+            <yf_exempted_reason_label/>
+            <yf_exempted_med>
+              0
+            </yf_exempted_med>
+            <Yf_exempted_age>
+              0
+            </Yf_exempted_age>
+            <yf_exempted_preg>
+              0
+            </yf_exempted_preg>
+          </yf_screening>
+          <yf_remarks/>
+          <icvp_label/>
+          <exemp_stock>
+            <exemp_balance>
+              0
+            </exemp_balance>
+            <exemp_received>
+              0
+            </exemp_received>
+            <exemp_used>
+              0
+            </exemp_used>
+            <exemp_wastage>
+              0
+            </exemp_wastage>
+            <exemp_remained>
+              0
+            </exemp_remained>
+          </exemp_stock>
+          <icvp_stock>
+            <icvp_balance/>
+            <icvp_received/>
+            <icvp_used>
+              0
+            </icvp_used>
+            <icvp_wastage>
+              0
+            </icvp_wastage>
+            <icvp_remained>
+              0
+            </icvp_remained>
+          </icvp_stock>
+          <amount>
+            <collected>
+              0
+            </collected>
+            <banked>
+              0
+            </banked>
+            <banked_date/>
+          </amount>
+          <icvp_remarks/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/general:label">
+            <value></value>
+          </text>
+          <text id="/data/general/name_of_poe:label">
+            <value>Name of PoE</value>
+          </text>
+          <text id="/data/general/name_of_health_incharge:label">
+            <value>Name of Port Health Incharge</value>
+          </text>
+          <text id="/data/general/from_date:label">
+            <value>From Date</value>
+          </text>
+          <text id="/data/general/to_date:label">
+            <value>To Date</value>
+          </text>
+          <text id="/data/yf_stock:label">
+            <value>Yellow Fever Vacines Stock</value>
+          </text>
+          <text id="/data/yf_stock/yf_balance:label">
+            <value>Amount of Vaccines in balance </value>
+          </text>
+          <text id="/data/yf_stock/yf_balance:hint">
+            <value>Doses</value>
+          </text>
+          <text id="/data/yf_stock/yf_received:label">
+            <value>Amount of vaccines received</value>
+          </text>
+          <text id="/data/yf_stock/yf_received:hint">
+            <value>Doses</value>
+          </text>
+          <text id="/data/yf_stock/yf_used:label">
+            <value>Amount of Vaccines used</value>
+          </text>
+          <text id="/data/yf_stock/yf_used:hint">
+            <value>Doses</value>
+          </text>
+          <text id="/data/yf_stock/yf_wasted:label">
+            <value>Amount of Vaccines wasted</value>
+          </text>
+          <text id="/data/yf_stock/yf_wasted:hint">
+            <value>Doses</value>
+          </text>
+          <text id="/data/yf_stock/yf_remained:label">
+            <value>Amount of Vaccines remained</value>
+          </text>
+          <text id="/data/yf_stock/yf_remained:hint">
+            <value>Doses</value>
+          </text>
+          <text id="/data/yf_screening:label">
+            <value>Yellow Fever Screening</value>
+          </text>
+          <text id="/data/yf_screening/yf_screen_label:label">
+            <value>Number of travellers screened for yellow fever</value>
+          </text>
+          <text id="/data/yf_screening/Yf_screened_male:label">
+            <value>Male</value>
+          </text>
+          <text id="/data/yf_screening/yf_screened_female:label">
+            <value>Female</value>
+          </text>
+          <text id="/data/yf_screening/yf_vacinated_label:label">
+            <value>Number of travellers vaccinated</value>
+          </text>
+          <text id="/data/yf_screening/yf_vaccinated_male:label">
+            <value>Male</value>
+          </text>
+          <text id="/data/yf_screening/yf_vaccinated_female:label">
+            <value>Female</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_label:label">
+            <value>Number of travellers exempted</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_label:hint">
+            <value>Please provide number of exempted travellers per gender</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_male:label">
+            <value>Male</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_female:label">
+            <value>Female</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_reason_label:label">
+            <value>Reason for Exemption</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_reason_label:hint">
+            <value>Please provide number of travellers exempted per reason</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_med:label">
+            <value>Medical</value>
+          </text>
+          <text id="/data/yf_screening/Yf_exempted_age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/yf_screening/yf_exempted_preg:label">
+            <value>Pregnancy</value>
+          </text>
+          <text id="/data/icvp_label:label">
+            <value>International Certificate of Vaccination and Prophylaxis/Exemption</value>
+          </text>
+          <text id="/data/exemp_stock:label">
+            <value>EXEMP Stock</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_balance:label">
+            <value>EXEMP in Balance</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_received:label">
+            <value>EXEMP Received</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_received:hint">
+            <value>Current Week</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_used:label">
+            <value>EXEMP Used</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_wastage:label">
+            <value>EXEMP Wastage</value>
+          </text>
+          <text id="/data/exemp_stock/exemp_remained:label">
+            <value>EXEMP Remained</value>
+          </text>
+          <text id="/data/icvp_stock:label">
+            <value>ICVP Stock</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_balance:label">
+            <value>ICVP Balance</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_balance:hint">
+            <value>0</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_received:label">
+            <value>ICVP Received</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_received:hint">
+            <value>Current Week</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_used:label">
+            <value>ICVP Used</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_used:hint">
+            <value></value>
+          </text>
+          <text id="/data/icvp_stock/icvp_wastage:label">
+            <value>ICVP Wastage</value>
+          </text>
+          <text id="/data/icvp_stock/icvp_remained:label">
+            <value>ICVP Remained</value>
+          </text>
+          <text id="/data/amount:label">
+            <value>ICVP/E Fund Collection</value>
+          </text>
+          <text id="/data/amount/collected:label">
+            <value>Collected</value>
+          </text>
+          <text id="/data/amount/banked:label">
+            <value>Banked</value>
+          </text>
+          <text id="/data/icvp_remarks:label">
+            <value>ICVP/E Remarks</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/general/name_of_poe" type="string"/>
+      <bind nodeset="/data/general/name_of_health_incharge" type="string"/>
+      <bind nodeset="/data/general/from_date" type="date"/>
+      <bind nodeset="/data/general/to_date" type="date"/>
+      <bind nodeset="/data/yf_stock/yf_balance" type="int"/>
+      <bind nodeset="/data/yf_stock/yf_received" type="int"/>
+      <bind nodeset="/data/yf_stock/yf_used" type="int"/>
+      <bind nodeset="/data/yf_stock/yf_wasted" type="int"/>
+      <bind nodeset="/data/yf_stock/yf_remained" type="int"/>
+      <bind nodeset="/data/yf_screening/yf_screen_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/yf_screening/Yf_screened_male" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_screened_female" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_vacinated_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/yf_screening/yf_vaccinated_male" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_vaccinated_female" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_male" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_female" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_reason_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_med" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/Yf_exempted_age" type="int" required="true()"/>
+      <bind nodeset="/data/yf_screening/yf_exempted_preg" type="int" required="true()"/>
+      <bind nodeset="/data/yf_remarks" type="string"/>
+      <bind nodeset="/data/icvp_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/exemp_stock/exemp_balance" type="int" required="true()"/>
+      <bind nodeset="/data/exemp_stock/exemp_received" type="int" required="true()"/>
+      <bind nodeset="/data/exemp_stock/exemp_used" type="int" required="true()"/>
+      <bind nodeset="/data/exemp_stock/exemp_wastage" type="int" required="true()"/>
+      <bind nodeset="/data/exemp_stock/exemp_remained" type="int" required="true()"/>
+      <bind nodeset="/data/icvp_stock/icvp_balance" type="int" required="true()"/>
+      <bind nodeset="/data/icvp_stock/icvp_received" type="int"/>
+      <bind nodeset="/data/icvp_stock/icvp_used" type="int" required="true()"/>
+      <bind nodeset="/data/icvp_stock/icvp_wastage" type="int" required="true()"/>
+      <bind nodeset="/data/icvp_stock/icvp_remained" type="int" required="true()"/>
+      <bind nodeset="/data/amount/collected" type="int" required="true()"/>
+      <bind nodeset="/data/amount/banked" type="int" required="true()"/>
+      <bind nodeset="/data/amount/banked_date" type="date" required="true()"/>
+      <bind nodeset="/data/icvp_remarks" type="string"/>
+
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <input ref="/data/general/name_of_poe">
+        <label ref="jr:itext('/data/general/name_of_poe:label')"/>
+      </input>
+      <input ref="/data/general/name_of_health_incharge">
+        <label ref="jr:itext('/data/general/name_of_health_incharge:label')"/>
+      </input>
+      <input ref="/data/general/from_date">
+        <label ref="jr:itext('/data/general/from_date:label')"/>
+      </input>
+      <input ref="/data/general/to_date">
+        <label ref="jr:itext('/data/general/to_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/yf_stock:label')"/>
+      <input ref="/data/yf_stock/yf_balance">
+        <label ref="jr:itext('/data/yf_stock/yf_balance:label')"/>
+        <hint ref="jr:itext('/data/yf_stock/yf_balance:hint')"/>
+      </input>
+      <input ref="/data/yf_stock/yf_received">
+        <label ref="jr:itext('/data/yf_stock/yf_received:label')"/>
+        <hint ref="jr:itext('/data/yf_stock/yf_received:hint')"/>
+      </input>
+      <input ref="/data/yf_stock/yf_used">
+        <label ref="jr:itext('/data/yf_stock/yf_used:label')"/>
+        <hint ref="jr:itext('/data/yf_stock/yf_used:hint')"/>
+      </input>
+      <input ref="/data/yf_stock/yf_wasted">
+        <label ref="jr:itext('/data/yf_stock/yf_wasted:label')"/>
+        <hint ref="jr:itext('/data/yf_stock/yf_wasted:hint')"/>
+      </input>
+      <input ref="/data/yf_stock/yf_remained">
+        <label ref="jr:itext('/data/yf_stock/yf_remained:label')"/>
+        <hint ref="jr:itext('/data/yf_stock/yf_remained:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/yf_screening:label')"/>
+      <input ref="/data/yf_screening/yf_screen_label">
+        <label ref="jr:itext('/data/yf_screening/yf_screen_label:label')"/>
+      </input>
+      <input ref="/data/yf_screening/Yf_screened_male">
+        <label ref="jr:itext('/data/yf_screening/Yf_screened_male:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_screened_female">
+        <label ref="jr:itext('/data/yf_screening/yf_screened_female:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_vacinated_label">
+        <label ref="jr:itext('/data/yf_screening/yf_vacinated_label:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_vaccinated_male">
+        <label ref="jr:itext('/data/yf_screening/yf_vaccinated_male:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_vaccinated_female">
+        <label ref="jr:itext('/data/yf_screening/yf_vaccinated_female:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_label">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_label:label')"/>
+        <hint ref="jr:itext('/data/yf_screening/yf_exempted_label:hint')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_male">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_male:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_female">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_female:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_reason_label">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_reason_label:label')"/>
+        <hint ref="jr:itext('/data/yf_screening/yf_exempted_reason_label:hint')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_med">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_med:label')"/>
+      </input>
+      <input ref="/data/yf_screening/Yf_exempted_age">
+        <label ref="jr:itext('/data/yf_screening/Yf_exempted_age:label')"/>
+      </input>
+      <input ref="/data/yf_screening/yf_exempted_preg">
+        <label ref="jr:itext('/data/yf_screening/yf_exempted_preg:label')"/>
+      </input>
+    </group>
+    <input ref="/data/yf_remarks">
+    </input>
+    <input ref="/data/icvp_label">
+      <label ref="jr:itext('/data/icvp_label:label')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/exemp_stock:label')"/>
+      <input ref="/data/exemp_stock/exemp_balance">
+        <label ref="jr:itext('/data/exemp_stock/exemp_balance:label')"/>
+      </input>
+      <input ref="/data/exemp_stock/exemp_received">
+        <label ref="jr:itext('/data/exemp_stock/exemp_received:label')"/>
+        <hint ref="jr:itext('/data/exemp_stock/exemp_received:hint')"/>
+      </input>
+      <input ref="/data/exemp_stock/exemp_used">
+        <label ref="jr:itext('/data/exemp_stock/exemp_used:label')"/>
+      </input>
+      <input ref="/data/exemp_stock/exemp_wastage">
+        <label ref="jr:itext('/data/exemp_stock/exemp_wastage:label')"/>
+      </input>
+      <input ref="/data/exemp_stock/exemp_remained">
+        <label ref="jr:itext('/data/exemp_stock/exemp_remained:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/icvp_stock:label')"/>
+      <input ref="/data/icvp_stock/icvp_balance">
+        <label ref="jr:itext('/data/icvp_stock/icvp_balance:label')"/>
+        <hint ref="jr:itext('/data/icvp_stock/icvp_balance:hint')"/>
+      </input>
+      <input ref="/data/icvp_stock/icvp_received">
+        <label ref="jr:itext('/data/icvp_stock/icvp_received:label')"/>
+        <hint ref="jr:itext('/data/icvp_stock/icvp_received:hint')"/>
+      </input>
+      <input ref="/data/icvp_stock/icvp_used">
+        <label ref="jr:itext('/data/icvp_stock/icvp_used:label')"/>
+        <hint ref="jr:itext('/data/icvp_stock/icvp_used:hint')"/>
+      </input>
+      <input ref="/data/icvp_stock/icvp_wastage">
+        <label ref="jr:itext('/data/icvp_stock/icvp_wastage:label')"/>
+      </input>
+      <input ref="/data/icvp_stock/icvp_remained">
+        <label ref="jr:itext('/data/icvp_stock/icvp_remained:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/amount:label')"/>
+      <input ref="/data/amount/collected">
+        <label ref="jr:itext('/data/amount/collected:label')"/>
+      </input>
+      <input ref="/data/amount/banked">
+        <label ref="jr:itext('/data/amount/banked:label')"/>
+      </input>
+      <input ref="/data/amount/banked_date">
+      </input>
+    </group>
+    <input ref="/data/icvp_remarks">
+      <label ref="jr:itext('/data/icvp_remarks:label')"/>
+    </input>
+  </h:body>
+</h:html>

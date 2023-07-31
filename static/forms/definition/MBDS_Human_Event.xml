@@ -1,0 +1,401 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>MBDS Human Event</h:title>
+    <model>
+      <instance>
+        <data id="build_MBDS-Human-Event_1517621742">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <case>
+            <date/>
+            <time/>
+          </case>
+          <pt_info>
+            <full_name/>
+            <age/>
+            <gender/>
+            <occupation/>
+            <travel_history/>
+          </pt_info>
+          <symptoms>
+            <patient_symptoms/>
+          </symptoms>
+          <diagnostic>
+            <laboratory/>
+            <diagnosis/>
+          </diagnostic>
+          <cmx>
+            <case_management/>
+            <management_detail/>
+            <consult_details/>
+          </cmx>
+          <media>
+            <photo/>
+            <location/>
+          </media>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/case:label">
+            <value>Case</value>
+          </text>
+          <text id="/data/case/date:label">
+            <value>Case Date</value>
+          </text>
+          <text id="/data/case/time:label">
+            <value>Case Time</value>
+          </text>
+          <text id="/data/pt_info:label">
+            <value>Patient Info</value>
+          </text>
+          <text id="/data/pt_info/full_name:label">
+            <value>Full Name</value>
+          </text>
+          <text id="/data/pt_info/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/pt_info/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/pt_info/gender:hint">
+            <value></value>
+          </text>
+          <text id="/data/pt_info/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/pt_info/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/pt_info/occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/pt_info/occupation:hint">
+            <value>Please select patient ocupation</value>
+          </text>
+          <text id="/data/pt_info/occupation:option0">
+            <value>Farmer</value>
+          </text>
+          <text id="/data/pt_info/occupation:option1">
+            <value>Teacher</value>
+          </text>
+          <text id="/data/pt_info/occupation:option2">
+            <value>Doctor</value>
+          </text>
+          <text id="/data/pt_info/occupation:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/pt_info/travel_history:label">
+            <value>Travel History</value>
+          </text>
+          <text id="/data/pt_info/travel_history:hint">
+            <value>Did the patient travel, where to ?</value>
+          </text>
+          <text id="/data/symptoms:label">
+            <value>Symptomps</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:label">
+            <value>Symptoms</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:hint">
+            <value>Please select all systems that you see</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option0">
+            <value>Fever</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option1">
+            <value>Headache</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option2">
+            <value>Redeye</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option3">
+            <value>Nausea</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option4">
+            <value>Vomiting</value>
+          </text>
+          <text id="/data/symptoms/patient_symptoms:option5">
+            <value>Cough</value>
+          </text>
+          <text id="/data/diagnostic:label">
+            <value>Diagnostics</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:label">
+            <value>Laboratory</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:hint">
+            <value>Results from laboratory</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:option0">
+            <value>Confirmed</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:option1">
+            <value>Suspected</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:option2">
+            <value>Lab waiting</value>
+          </text>
+          <text id="/data/diagnostic/laboratory:option3">
+            <value>Rapid Test</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:label">
+            <value>Provisional Diagnosis</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:option0">
+            <value>Meningitis</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:option1">
+            <value>Measels</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:option2">
+            <value>Malaria</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:option3">
+            <value>Typhoid</value>
+          </text>
+          <text id="/data/diagnostic/diagnosis:option4">
+            <value>Dengue</value>
+          </text>
+          <text id="/data/cmx:label">
+            <value>Case Management</value>
+          </text>
+          <text id="/data/cmx/case_management:label">
+            <value>Case Management Details</value>
+          </text>
+          <text id="/data/cmx/case_management:option0">
+            <value>Clinical Monitor</value>
+          </text>
+          <text id="/data/cmx/case_management:option1">
+            <value>Isolation</value>
+          </text>
+          <text id="/data/cmx/case_management:option2">
+            <value>Transfer</value>
+          </text>
+          <text id="/data/cmx/case_management:option3">
+            <value>Waiting for lab before treatment</value>
+          </text>
+          <text id="/data/cmx/case_management:option4">
+            <value>Consult</value>
+          </text>
+          <text id="/data/cmx/management_detail:label">
+            <value>Management Details</value>
+          </text>
+          <text id="/data/cmx/consult_details:label">
+            <value>Consult Details</value>
+          </text>
+          <text id="/data/media:label">
+            <value>Photo details</value>
+          </text>
+          <text id="/data/media/photo:label">
+            <value>Picture of symptoms</value>
+          </text>
+          <text id="/data/media/location:label">
+            <value>Hospital location</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>      
+      
+      <bind nodeset="/data/meta/instanceName" calculate="concat('MBDS',': ',/data/pt_info/full_name)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    
+      <bind nodeset="/data/case/date" type="date"/>
+      <bind nodeset="/data/case/time" type="time"/>
+      <bind nodeset="/data/pt_info/full_name" type="string" required="true()"/>
+      <bind nodeset="/data/pt_info/age" type="int" required="true()"/>
+      <bind nodeset="/data/pt_info/gender" type="select1"/>
+      <bind nodeset="/data/pt_info/occupation" type="select1"/>
+      <bind nodeset="/data/pt_info/travel_history" type="string"/>
+      <bind nodeset="/data/symptoms/patient_symptoms" type="select"/>
+      <bind nodeset="/data/diagnostic/laboratory" type="select1" required="true()"/>
+      <bind nodeset="/data/diagnostic/diagnosis" type="select"/>
+      <bind nodeset="/data/cmx/case_management" type="select"/>
+      <bind nodeset="/data/cmx/management_detail" type="string"/>
+      <bind nodeset="/data/cmx/consult_details" type="string"/>
+      <bind nodeset="/data/media/photo" type="binary"/>
+      <bind nodeset="/data/media/location" type="geopoint"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/case:label')"/>
+      <input ref="/data/case/date">
+        <label ref="jr:itext('/data/case/date:label')"/>
+      </input>
+      <input ref="/data/case/time">
+        <label ref="jr:itext('/data/case/time:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/pt_info:label')"/>
+      <input ref="/data/pt_info/full_name">
+        <label ref="jr:itext('/data/pt_info/full_name:label')"/>
+      </input>
+      <input ref="/data/pt_info/age">
+        <label ref="jr:itext('/data/pt_info/age:label')"/>
+      </input>
+      <select1 ref="/data/pt_info/gender">
+        <label ref="jr:itext('/data/pt_info/gender:label')"/>
+        <hint ref="jr:itext('/data/pt_info/gender:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/pt_info/gender:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pt_info/gender:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 ref="/data/pt_info/occupation">
+        <label ref="jr:itext('/data/pt_info/occupation:label')"/>
+        <hint ref="jr:itext('/data/pt_info/occupation:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/pt_info/occupation:option0')"/>
+          <value>farmer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pt_info/occupation:option1')"/>
+          <value>teacher</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pt_info/occupation:option2')"/>
+          <value>doctor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pt_info/occupation:option3')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/pt_info/travel_history">
+        <label ref="jr:itext('/data/pt_info/travel_history:label')"/>
+        <hint ref="jr:itext('/data/pt_info/travel_history:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/symptoms:label')"/>
+      <select ref="/data/symptoms/patient_symptoms">
+        <label ref="jr:itext('/data/symptoms/patient_symptoms:label')"/>
+        <hint ref="jr:itext('/data/symptoms/patient_symptoms:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option0')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option1')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option2')"/>
+          <value>redeye</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option3')"/>
+          <value>nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option4')"/>
+          <value>vomiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/symptoms/patient_symptoms:option5')"/>
+          <value>cough</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/diagnostic:label')"/>
+      <select1 ref="/data/diagnostic/laboratory">
+        <label ref="jr:itext('/data/diagnostic/laboratory:label')"/>
+        <hint ref="jr:itext('/data/diagnostic/laboratory:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/laboratory:option0')"/>
+          <value>confirmed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/laboratory:option1')"/>
+          <value>suspected</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/laboratory:option2')"/>
+          <value>lab_waiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/laboratory:option3')"/>
+          <value>rapid_test</value>
+        </item>
+      </select1>
+      <select ref="/data/diagnostic/diagnosis">
+        <label ref="jr:itext('/data/diagnostic/diagnosis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/diagnosis:option0')"/>
+          <value>meningitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/diagnosis:option1')"/>
+          <value>measels</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/diagnosis:option2')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/diagnosis:option3')"/>
+          <value>typhoid</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/diagnostic/diagnosis:option4')"/>
+          <value>dengue</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/cmx:label')"/>
+      <select ref="/data/cmx/case_management">
+        <label ref="jr:itext('/data/cmx/case_management:label')"/>
+        <item>
+          <label ref="jr:itext('/data/cmx/case_management:option0')"/>
+          <value>clinical_monitor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cmx/case_management:option1')"/>
+          <value>isolation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cmx/case_management:option2')"/>
+          <value>transfer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cmx/case_management:option3')"/>
+          <value>waiting_lab</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/cmx/case_management:option4')"/>
+          <value>consult</value>
+        </item>
+      </select>
+      <input ref="/data/cmx/management_detail">
+        <label ref="jr:itext('/data/cmx/management_detail:label')"/>
+      </input>
+      <input ref="/data/cmx/consult_details">
+        <label ref="jr:itext('/data/cmx/consult_details:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/media:label')"/>
+      <upload ref="/data/media/photo" mediatype="image/*">
+        <label ref="jr:itext('/data/media/photo:label')"/>
+      </upload>
+      <input ref="/data/media/location">
+        <label ref="jr:itext('/data/media/location:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

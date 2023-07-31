@@ -1,0 +1,100 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>DRC Test</h:title>
+    <model>
+      <instance>
+        <data id="build_DRC-Test_1529490074">
+          <meta>
+            <instanceID/>
+          </meta>
+          <contact>
+            <date_name/>
+            <gps/>
+            <age/>
+          </contact>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="French">
+          <text id="/data/contact:label">
+            <value>du Contact</value>
+          </text>
+          <text id="/data/contact/date_name:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/contact/date_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/contact/date_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/contact/gps:label">
+            <value>localization</value>
+          </text>
+          <text id="/data/contact/age:label">
+            <value>Age</value>
+          </text>
+        </translation>
+        <translation lang="Lingala">
+          <text id="/data/contact:label">
+            <value>Con</value>
+          </text>
+          <text id="/data/contact/date_name:label">
+            <value>Mukolo</value>
+          </text>
+          <text id="/data/contact/date_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/contact/date_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/contact/gps:label">
+            <value>esika ozali</value>
+          </text>
+          <text id="/data/contact/age:label">
+            <value>Mbula</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/contact:label">
+            <value>Mawasiliano</value>
+          </text>
+          <text id="/data/contact/date_name:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/data/contact/date_name:hint">
+            <value></value>
+          </text>
+          <text id="/data/contact/date_name:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/contact/gps:label">
+            <value>Mahali GPS</value>
+          </text>
+          <text id="/data/contact/age:label">
+            <value>Umri</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/contact/date_name" type="date" constraint="date(.) &gt;= date('2018-03-01') and date(.) &lt;= date('2018-09-22')" jr:constraintMsg="jr:itext('/data/contact/date_name:constraintMsg')"/>
+      <bind nodeset="/data/contact/gps" type="geopoint"/>
+      <bind nodeset="/data/contact/age" type="int" constraint="(. &gt; 20)"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/contact:label')"/>
+      <input ref="/data/contact/date_name">
+        <label ref="jr:itext('/data/contact/date_name:label')"/>
+        <hint ref="jr:itext('/data/contact/date_name:hint')"/>
+      </input>
+      <input ref="/data/contact/gps">
+        <label ref="jr:itext('/data/contact/gps:label')"/>
+      </input>
+      <input ref="/data/contact/age">
+        <label ref="jr:itext('/data/contact/age:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

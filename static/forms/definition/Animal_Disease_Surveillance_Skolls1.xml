@@ -1,0 +1,551 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Animal Disease Surveillance Skolls</h:title>
+    <model>
+      <instance>
+        <data id="build_Animal-Disease-Surveillance-Skolls_1467015091">
+          <meta>
+            <instanceID/>
+            <start/>
+            <end/>
+          </meta>
+          <Location>
+            <zone/>
+            <region/>
+            <District/>
+            <Village/>
+            <Work_station/>
+            <GPS/>
+          </Location>
+          <Disease_info>
+            <Disease_name/>
+            <Disease_code/>
+            <Follow_up_report/>
+            <Start_date/>
+            <Species_affected/>
+          </Disease_info>
+          <Epidemiology>
+            <At_risk>
+              0
+            </At_risk>
+            <Cases>
+              0
+            </Cases>
+            <Deaths>
+              0
+            </Deaths>
+          </Epidemiology>
+          <Disease_control>
+            <Vaccinated>
+              0
+            </Vaccinated>
+            <Treated>
+              0
+            </Treated>
+            <Destroyed>
+              0
+            </Destroyed>
+            <Other_control_measures/>
+            <Diagnosis/>
+          </Disease_control>
+          <Affected_Population>
+            <Sex/>
+            <Age/>
+            <Production_System/>
+          </Affected_Population>
+          <Main_Clinical_and_PM_Features>
+            <Clinical/>
+            <PM/>
+            <Picture/>
+          </Main_Clinical_and_PM_Features>
+          <Epidemiology_of_Disease>
+            <Source_of_infection/>
+            <Rate_of_spread/>
+            <Reservoirs/>
+            <Additional_Information/>
+          </Epidemiology_of_Disease>
+          <Person_Details>
+            <Position/>
+            <Full_name/>
+          </Person_Details>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Location:label">
+            <value>Location details</value>
+          </text>
+          <text id="/data/Location/zone:label">
+            <value>Zone</value>
+          </text>
+          <text id="/data/Location/region:label">
+            <value>Region</value>
+          </text>
+          <text id="/data/Location/District:label">
+            <value>District</value>
+          </text>
+          <text id="/data/Location/District:option0">
+            <value>Kibaha</value>
+          </text>
+          <text id="/data/Location/District:option1">
+            <value>Morogoro</value>
+          </text>
+          <text id="/data/Location/District:option2">
+            <value>Ngorongoro</value>
+          </text>
+          <text id="/data/Location/Village:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/Location/Work_station:label">
+            <value>Work station</value>
+          </text>
+          <text id="/data/Location/GPS:label">
+            <value>GPS</value>
+          </text>
+          <text id="/data/Disease_info:label">
+            <value>Disease Information</value>
+          </text>
+          <text id="/data/Disease_info/Disease_name:label">
+            <value>Disease Name</value>
+          </text>
+          <text id="/data/Disease_info/Disease_code:label">
+            <value>OIE Disease Code</value>
+          </text>
+          <text id="/data/Disease_info/Follow_up_report:label">
+            <value>Follow up report</value>
+          </text>
+          <text id="/data/Disease_info/Follow_up_report:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Disease_info/Follow_up_report:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/Disease_info/Start_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/Disease_info/Start_date:hint">
+            <value></value>
+          </text>
+          <text id="/data/Disease_info/Species_affected:label">
+            <value>Species affected</value>
+          </text>
+          <text id="/data/Epidemiology:label">
+            <value>Epidemiology (Number of Animals)</value>
+          </text>
+          <text id="/data/Epidemiology/At_risk:label">
+            <value>At risk</value>
+          </text>
+          <text id="/data/Epidemiology/At_risk:hint">
+            <value>Total in the village</value>
+          </text>
+          <text id="/data/Epidemiology/Cases:label">
+            <value>Cases</value>
+          </text>
+          <text id="/data/Epidemiology/Deaths:label">
+            <value>Deaths</value>
+          </text>
+          <text id="/data/Disease_control:label">
+            <value>Disease control (Number of Animals)</value>
+          </text>
+          <text id="/data/Disease_control/Vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/data/Disease_control/Treated:label">
+            <value>Treated</value>
+          </text>
+          <text id="/data/Disease_control/Destroyed:label">
+            <value>Destroyed</value>
+          </text>
+          <text id="/data/Disease_control/Other_control_measures:label">
+            <value>Other control measures</value>
+          </text>
+          <text id="/data/Disease_control/Other_control_measures:hint">
+            <value>Write down other control measures taken (if any)</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:label">
+            <value>Diagnosis</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:option0">
+            <value>Clinical</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:option1">
+            <value>Laboratory</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:option2">
+            <value>Post-mortem</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:option3">
+            <value>Suspected</value>
+          </text>
+          <text id="/data/Disease_control/Diagnosis:option4">
+            <value>Meat inspection</value>
+          </text>
+          <text id="/data/Affected_Population:label">
+            <value>Affected Population</value>
+          </text>
+          <text id="/data/Affected_Population/Sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/Affected_Population/Sex:option0">
+            <value>Female</value>
+          </text>
+          <text id="/data/Affected_Population/Sex:option1">
+            <value>Male</value>
+          </text>
+          <text id="/data/Affected_Population/Sex:option2">
+            <value>Castrate</value>
+          </text>
+          <text id="/data/Affected_Population/Sex:option3">
+            <value>All</value>
+          </text>
+          <text id="/data/Affected_Population/Age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/Affected_Population/Age:option0">
+            <value>&lt;6 Months</value>
+          </text>
+          <text id="/data/Affected_Population/Age:option1">
+            <value>6 Months to 1 year</value>
+          </text>
+          <text id="/data/Affected_Population/Age:option2">
+            <value>Adults</value>
+          </text>
+          <text id="/data/Affected_Population/Age:option3">
+            <value>All</value>
+          </text>
+          <text id="/data/Affected_Population/Production_System:label">
+            <value>Production System</value>
+          </text>
+          <text id="/data/Affected_Population/Production_System:option0">
+            <value>Agro-pastoral</value>
+          </text>
+          <text id="/data/Affected_Population/Production_System:option1">
+            <value>Commercial Beef</value>
+          </text>
+          <text id="/data/Affected_Population/Production_System:option2">
+            <value>Commercial Dairy</value>
+          </text>
+          <text id="/data/Affected_Population/Production_System:option3">
+            <value>Zero / Intensive</value>
+          </text>
+          <text id="/data/Main_Clinical_and_PM_Features:label">
+            <value>Main Clinical and PM Features</value>
+          </text>
+          <text id="/data/Main_Clinical_and_PM_Features/Clinical:label">
+            <value>Main Clinical</value>
+          </text>
+          <text id="/data/Main_Clinical_and_PM_Features/PM:label">
+            <value>Post-mortem</value>
+          </text>
+          <text id="/data/Main_Clinical_and_PM_Features/Picture:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/Main_Clinical_and_PM_Features/Picture:hint">
+            <value>Take picture (if any)</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease:label">
+            <value>Epidemiology of the disease</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease/Source_of_infection:label">
+            <value>Source of Infection</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease/Rate_of_spread:label">
+            <value>Rate of spread</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease/Reservoirs:label">
+            <value>Reservoirs</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease/Additional_Information:label">
+            <value>Additional Information</value>
+          </text>
+          <text id="/data/Epidemiology_of_Disease/Additional_Information:hint">
+            <value>If there is/are additional information; please provide </value>
+          </text>
+          <text id="/data/Person_Details:label">
+            <value>Personal Details</value>
+          </text>
+          <text id="/data/Person_Details/Position:label">
+            <value>Position</value>
+          </text>
+          <text id="/data/Person_Details/Position:option0">
+            <value>VET</value>
+          </text>
+          <text id="/data/Person_Details/Position:option1">
+            <value>LFO</value>
+          </text>
+          <text id="/data/Person_Details/Position:option2">
+            <value>AHA</value>
+          </text>
+          <text id="/data/Person_Details/Position:option3">
+            <value>LO</value>
+          </text>
+          <text id="/data/Person_Details/Full_name:label">
+            <value>Full Name</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Location/zone" type="string" required="true()"/>
+      <bind nodeset="/data/Location/region" type="string" required="true()"/>
+      <bind nodeset="/data/Location/District" type="select1" required="true()"/>
+      <bind nodeset="/data/Location/Village" type="string" required="true()"/>
+      <bind nodeset="/data/Location/Work_station" type="string" required="true()"/>
+      <bind nodeset="/data/Location/GPS" type="geopoint" required="true()"/>
+      <bind nodeset="/data/Disease_info/Disease_name" type="string" required="true()"/>
+      <bind nodeset="/data/Disease_info/Disease_code" type="string"/>
+      <bind nodeset="/data/Disease_info/Follow_up_report" type="select1" required="true()"/>
+      <bind nodeset="/data/Disease_info/Start_date" type="date" required="true()"/>
+      <bind nodeset="/data/Disease_info/Species_affected" type="string" required="true()"/>
+      <bind nodeset="/data/Epidemiology/At_risk" type="int"/>
+      <bind nodeset="/data/Epidemiology/Cases" type="int"/>
+      <bind nodeset="/data/Epidemiology/Deaths" type="int"/>
+      <bind nodeset="/data/Disease_control/Vaccinated" type="int"/>
+      <bind nodeset="/data/Disease_control/Treated" type="int"/>
+      <bind nodeset="/data/Disease_control/Destroyed" type="int"/>
+      <bind nodeset="/data/Disease_control/Other_control_measures" type="string"/>
+      <bind nodeset="/data/Disease_control/Diagnosis" type="select"/>
+      <bind nodeset="/data/Affected_Population/Sex" type="select" required="true()"/>
+      <bind nodeset="/data/Affected_Population/Age" type="select" required="true()"/>
+      <bind nodeset="/data/Affected_Population/Production_System" type="select" required="true()"/>
+      <bind nodeset="/data/Main_Clinical_and_PM_Features/Clinical" type="string"/>
+      <bind nodeset="/data/Main_Clinical_and_PM_Features/PM" type="string"/>
+      <bind nodeset="/data/Main_Clinical_and_PM_Features/Picture" type="binary"/>
+      <bind nodeset="/data/Epidemiology_of_Disease/Source_of_infection" type="string"/>
+      <bind nodeset="/data/Epidemiology_of_Disease/Rate_of_spread" type="string"/>
+      <bind nodeset="/data/Epidemiology_of_Disease/Reservoirs" type="string"/>
+      <bind nodeset="/data/Epidemiology_of_Disease/Additional_Information" type="string"/>
+      <bind nodeset="/data/Person_Details/Position" type="select1" required="true()"/>
+      <bind nodeset="/data/Person_Details/Full_name" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Location:label')"/>
+      <input ref="/data/Location/zone">
+        <label ref="jr:itext('/data/Location/zone:label')"/>
+      </input>
+      <input ref="/data/Location/region">
+        <label ref="jr:itext('/data/Location/region:label')"/>
+      </input>
+      <select1 ref="/data/Location/District" appearance="minimal">
+        <label ref="jr:itext('/data/Location/District:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Location/District:option0')"/>
+          <value>kibaha</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Location/District:option1')"/>
+          <value>Morogoro</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Location/District:option2')"/>
+          <value>ngorongoro</value>
+        </item>
+      </select1>
+      <input ref="/data/Location/Village">
+        <label ref="jr:itext('/data/Location/Village:label')"/>
+      </input>
+      <input ref="/data/Location/Work_station">
+        <label ref="jr:itext('/data/Location/Work_station:label')"/>
+      </input>
+      </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Disease_info:label')"/>
+      <input ref="/data/Disease_info/Disease_name">
+        <label ref="jr:itext('/data/Disease_info/Disease_name:label')"/>
+      </input>
+      <input ref="/data/Disease_info/Disease_code">
+        <label ref="jr:itext('/data/Disease_info/Disease_code:label')"/>
+      </input>
+      <select1 ref="/data/Disease_info/Follow_up_report" appearance="minimal">
+        <label ref="jr:itext('/data/Disease_info/Follow_up_report:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Disease_info/Follow_up_report:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Disease_info/Follow_up_report:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/Disease_info/Start_date" appearance="no-calendar" >
+        <label ref="jr:itext('/data/Disease_info/Start_date:label')"/>
+        <hint ref="jr:itext('/data/Disease_info/Start_date:hint')"/>
+      </input>
+      <input ref="/data/Disease_info/Species_affected">
+        <label ref="jr:itext('/data/Disease_info/Species_affected:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Epidemiology:label')"/>
+      <input ref="/data/Epidemiology/At_risk">
+        <label ref="jr:itext('/data/Epidemiology/At_risk:label')"/>
+        <hint ref="jr:itext('/data/Epidemiology/At_risk:hint')"/>
+      </input>
+      <input ref="/data/Epidemiology/Cases">
+        <label ref="jr:itext('/data/Epidemiology/Cases:label')"/>
+      </input>
+      <input ref="/data/Epidemiology/Deaths">
+        <label ref="jr:itext('/data/Epidemiology/Deaths:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Disease_control:label')"/>
+      <input ref="/data/Disease_control/Vaccinated">
+        <label ref="jr:itext('/data/Disease_control/Vaccinated:label')"/>
+      </input>
+      <input ref="/data/Disease_control/Treated">
+        <label ref="jr:itext('/data/Disease_control/Treated:label')"/>
+      </input>
+      <input ref="/data/Disease_control/Destroyed">
+        <label ref="jr:itext('/data/Disease_control/Destroyed:label')"/>
+      </input>
+      <input ref="/data/Disease_control/Other_control_measures">
+        <label ref="jr:itext('/data/Disease_control/Other_control_measures:label')"/>
+        <hint ref="jr:itext('/data/Disease_control/Other_control_measures:hint')"/>
+      </input>
+      <select ref="/data/Disease_control/Diagnosis" appearance="minimal">
+        <label ref="jr:itext('/data/Disease_control/Diagnosis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Disease_control/Diagnosis:option0')"/>
+          <value>Clinical</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Disease_control/Diagnosis:option1')"/>
+          <value>Laboratory</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Disease_control/Diagnosis:option2')"/>
+          <value>Post_mortem</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Disease_control/Diagnosis:option3')"/>
+          <value>Suspected</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Disease_control/Diagnosis:option4')"/>
+          <value>meat_inspection</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Affected_Population:label')"/>
+      <select ref="/data/Affected_Population/Sex" appearance="minimal">
+        <label ref="jr:itext('/data/Affected_Population/Sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Sex:option0')"/>
+          <value>Female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Sex:option1')"/>
+          <value>Male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Sex:option2')"/>
+          <value>Castrate</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Sex:option3')"/>
+          <value>All</value>
+        </item>
+      </select>
+      <select ref="/data/Affected_Population/Age" appearance="minimal">
+        <label ref="jr:itext('/data/Affected_Population/Age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Age:option0')"/>
+          <value>less_six_months</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Age:option1')"/>
+          <value>six_Months_to_one_year</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Age:option2')"/>
+          <value>Adults</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Age:option3')"/>
+          <value>All</value>
+        </item>
+      </select>
+      <select ref="/data/Affected_Population/Production_System" appearance="minimal">
+        <label ref="jr:itext('/data/Affected_Population/Production_System:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Production_System:option0')"/>
+          <value>Agro_pastoral</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Production_System:option1')"/>
+          <value>Commercial_Beef</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Production_System:option2')"/>
+          <value>Commercial_Dairy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Affected_Population/Production_System:option3')"/>
+          <value>Zero_Intensive</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Main_Clinical_and_PM_Features:label')"/>
+      <input ref="/data/Main_Clinical_and_PM_Features/Clinical">
+        <label ref="jr:itext('/data/Main_Clinical_and_PM_Features/Clinical:label')"/>
+      </input>
+      <input ref="/data/Main_Clinical_and_PM_Features/PM">
+        <label ref="jr:itext('/data/Main_Clinical_and_PM_Features/PM:label')"/>
+      </input>
+      <upload ref="/data/Main_Clinical_and_PM_Features/Picture" mediatype="image/*">
+        <label ref="jr:itext('/data/Main_Clinical_and_PM_Features/Picture:label')"/>
+        <hint ref="jr:itext('/data/Main_Clinical_and_PM_Features/Picture:hint')"/>
+      </upload>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Epidemiology_of_Disease:label')"/>
+      <input ref="/data/Epidemiology_of_Disease/Source_of_infection">
+        <label ref="jr:itext('/data/Epidemiology_of_Disease/Source_of_infection:label')"/>
+      </input>
+      <input ref="/data/Epidemiology_of_Disease/Rate_of_spread">
+        <label ref="jr:itext('/data/Epidemiology_of_Disease/Rate_of_spread:label')"/>
+      </input>
+      <input ref="/data/Epidemiology_of_Disease/Reservoirs">
+        <label ref="jr:itext('/data/Epidemiology_of_Disease/Reservoirs:label')"/>
+      </input>
+      <input ref="/data/Epidemiology_of_Disease/Additional_Information">
+        <label ref="jr:itext('/data/Epidemiology_of_Disease/Additional_Information:label')"/>
+        <hint ref="jr:itext('/data/Epidemiology_of_Disease/Additional_Information:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Person_Details:label')"/>
+      <select1 ref="/data/Person_Details/Position" appearance="minimal">
+        <label ref="jr:itext('/data/Person_Details/Position:label')"/>
+        <item>
+          <label ref="jr:itext('/data/Person_Details/Position:option0')"/>
+          <value>VET</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Person_Details/Position:option1')"/>
+          <value>LFO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Person_Details/Position:option2')"/>
+          <value>AHA</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/Person_Details/Position:option3')"/>
+          <value>LO</value>
+        </item>
+      </select1>
+      <input ref="/data/Person_Details/Full_name">
+        <label ref="jr:itext('/data/Person_Details/Full_name:label')"/>
+      </input>
+      <input ref="/data/Location/GPS">
+        <label ref="jr:itext('/data/Location/GPS:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

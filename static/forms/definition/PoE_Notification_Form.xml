@@ -1,0 +1,962 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>PoE Notification</h:title>
+    <model>
+      <instance>
+        <data id="PoE_Notification_1584828067">
+          <meta>
+            <instanceID/>
+            <username/>
+            <start/>
+            <end/>
+          </meta>
+          <notification>
+            <poe/>
+            <date/>
+            <time/>
+            <type/>
+            <traveller/>
+            <identified/>
+          </notification>
+          <medical_history>
+            <anti_medicine/>
+            <fever_medicine/>
+          </medical_history>
+          <exposure>
+            <village_1/>
+            <country_1/>
+            <arrival_date_1/>
+            <exposed_person_1>
+              0
+            </exposed_person_1>
+            <exposed_animal_1>
+              0
+            </exposed_animal_1>
+            <other_1>
+              0
+            </other_1>
+          </exposure>
+          <signs_symptoms/>
+          <feaver_symptoms>
+            <fever_onset/>
+            <fever_temp/>
+            <untitled41/>
+          </feaver_symptoms>
+          <persisistent_cough>
+            <cough_label/>
+            <cough_blood>
+              0
+            </cough_blood>
+            <cough_onset/>
+          </persisistent_cough>
+          <breathing_symptoms>
+            <difficulty_breathing_onset/>
+          </breathing_symptoms>
+          <diarrhea_symptoms>
+            <diarrhea_onset/>
+            <diarrhea_number/>
+          </diarrhea_symptoms>
+          <vomitting_symptoms>
+            <vomitting_onset/>
+            <vomitting_number/>
+          </vomitting_symptoms>
+          <skin_rash_symptoms>
+            <skin_rash_onset/>
+            <skin_rash_description/>
+            <skin_rash_picture/>
+          </skin_rash_symptoms>
+          <bleeding_symptoms>
+            <bleeding_onset/>
+            <confused_onset/>
+          </bleeding_symptoms>
+          <unwell_symptoms>
+            <unwell_onset/>
+          </unwell_symptoms>
+          <other_symptoms>
+            <other_symptoms_list/>
+            <other_onset/>
+          </other_symptoms>
+          <death_symptoms>
+            <death_date/>
+            <death_time/>
+            <death_cause/>
+            <body_release>
+              0
+            </body_release>
+            <medical_examiner/>
+          </death_symptoms>
+          <general>
+            <last_name/>
+            <first_name/>
+            <middle_name/>
+            <gender>
+              male
+            </gender>
+            <date_of_birth/>
+            <age/>
+            <country_of_birth/>
+            <citizenship/>
+            <country_residence/>
+            <home_address/>
+            <country/>
+            <phone_number/>
+            <emergency_contact/>
+            <emergency_contact_number/>
+          </general>
+          <conveyance_information>
+            <domestic>
+              0
+            </domestic>
+            <conveyance_operator/>
+            <registration_number/>
+            <country_of_departure/>
+            <name_of_poe/>
+            <arrival_date/>
+            <seat_number/>
+          </conveyance_information>
+          <disposition_reason>
+            <disposition/>
+            <other_details/>
+          </disposition_reason>
+          <untitled96/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/notification:label">
+            <value>General</value>
+          </text>
+          <text id="/data/notification/poe:label">
+            <value>Name of PoE</value>
+          </text>
+          <text id="/data/notification/date:label">
+            <value>Date</value>
+          </text>
+          <text id="/data/notification/time:label">
+            <value>Time</value>
+          </text>
+          <text id="/data/notification/type:label">
+            <value>Notification Type</value>
+          </text>
+          <text id="/data/notification/type:option0">
+            <value>Illness</value>
+          </text>
+          <text id="/data/notification/type:option1">
+            <value>Death</value>
+          </text>
+          <text id="/data/notification/traveller:label">
+            <value>Type of traveler</value>
+          </text>
+          <text id="/data/notification/traveller:option0">
+            <value>Passenger</value>
+          </text>
+          <text id="/data/notification/traveller:option1">
+            <value>Crew</value>
+          </text>
+          <text id="/data/notification/identified:label">
+            <value>When was person identified</value>
+          </text>
+          <text id="/data/notification/identified:option0">
+            <value>During Screening</value>
+          </text>
+          <text id="/data/notification/identified:option1">
+            <value>Prior to boarding conveyance</value>
+          </text>
+          <text id="/data/notification/identified:option2">
+            <value>After disembarking conveyance</value>
+          </text>
+          <text id="/data/notification/identified:option3">
+            <value>While traveller was on conveyance</value>
+          </text>
+          <text id="/data/notification/identified:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/medical_history:label">
+            <value>Pertinent medical history of ill or deceased</value>
+          </text>
+          <text id="/data/medical_history/anti_medicine:label">
+            <value>Traveller has taken antibiotic/antiviral/antiparasitics</value>
+          </text>
+          <text id="/data/medical_history/anti_medicine:hint">
+            <value>in the past week, list with date(s) started</value>
+          </text>
+          <text id="/data/medical_history/fever_medicine:label">
+            <value>Traveller has taken fever-reducing medication</value>
+          </text>
+          <text id="/data/medical_history/fever_medicine:hint">
+            <value>e.g. acetaminophen, ibuprofen in the past 12 hrs: list with time of last dose</value>
+          </text>
+          <text id="/data/exposure:label">
+            <value>Relevant exposures in the past 3 weeks: 1</value>
+          </text>
+          <text id="/data/exposure/village_1:label">
+            <value>Village, city or state</value>
+          </text>
+          <text id="/data/exposure/country_1:label">
+            <value>Provice of Country</value>
+          </text>
+          <text id="/data/exposure/arrival_date_1:label">
+            <value>Arrival Date</value>
+          </text>
+          <text id="/data/exposure/exposed_person_1:label">
+            <value>Exposed to ill person</value>
+          </text>
+          <text id="/data/exposure/exposed_person_1:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure/exposed_person_1:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure/exposed_animal_1:label">
+            <value>Exposed to animals</value>
+          </text>
+          <text id="/data/exposure/exposed_animal_1:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure/exposed_animal_1:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/exposure/other_1:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/exposure/other_1:hint">
+            <value>e.g. contaminated food, water, drug indigestion</value>
+          </text>
+          <text id="/data/exposure/other_1:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/exposure/other_1:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/signs_symptoms:label">
+            <value>Signs and Symptoms</value>
+          </text>
+          <text id="/data/signs_symptoms:hint">
+            <value>Please check all that apply</value>
+          </text>
+          <text id="/data/signs_symptoms:option0">
+            <value>Feaver</value>
+          </text>
+          <text id="/data/signs_symptoms:option1">
+            <value>Persistent Cough</value>
+          </text>
+          <text id="/data/signs_symptoms:option2">
+            <value>Diffculty breathing</value>
+          </text>
+          <text id="/data/signs_symptoms:option3">
+            <value>Persistent Diarrhea</value>
+          </text>
+          <text id="/data/signs_symptoms:option4">
+            <value>Persistent Vomitting</value>
+          </text>
+          <text id="/data/signs_symptoms:option5">
+            <value>Skin Rash</value>
+          </text>
+          <text id="/data/signs_symptoms:option6">
+            <value>Unusual Bleeding</value>
+          </text>
+          <text id="/data/signs_symptoms:option7">
+            <value>Obviously Unwell</value>
+          </text>
+          <text id="/data/signs_symptoms:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/feaver_symptoms:label">
+            <value>Feeling feverish/having chills in past 72 hrs</value>
+          </text>
+          <text id="/data/feaver_symptoms/fever_onset:label">
+            <value>Onset date</value>
+          </text>
+          <text id="/data/feaver_symptoms/fever_onset:hint">
+            <value></value>
+          </text>
+          <text id="/data/feaver_symptoms/fever_temp:label">
+            <value>Current temperature (C)</value>
+          </text>
+          <text id="/data/persisistent_cough:label">
+            <value>Persistent Cough</value>
+          </text>
+          <text id="/data/persisistent_cough/cough_label:label">
+            <value>Persistent Cough</value>
+          </text>
+          <text id="/data/persisistent_cough/cough_blood:label">
+            <value>Cough with blood</value>
+          </text>
+          <text id="/data/persisistent_cough/cough_blood:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/persisistent_cough/cough_blood:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/persisistent_cough/cough_onset:label">
+            <value>Onset date</value>
+          </text>
+          <text id="/data/breathing_symptoms:label">
+            <value>Difficulty breathing/shortness of breath</value>
+          </text>
+          <text id="/data/breathing_symptoms/difficulty_breathing_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/breathing_symptoms/difficulty_breathing_onset:hint">
+            <value></value>
+          </text>
+          <text id="/data/diarrhea_symptoms:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/data/diarrhea_symptoms/diarrhea_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/diarrhea_symptoms/diarrhea_number:label">
+            <value>Number of times in past 24 hrs</value>
+          </text>
+          <text id="/data/vomitting_symptoms:label">
+            <value>Persistent Vomitting</value>
+          </text>
+          <text id="/data/vomitting_symptoms/vomitting_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/vomitting_symptoms/vomitting_number:label">
+            <value>Number of times in past 24 hrs</value>
+          </text>
+          <text id="/data/skin_rash_symptoms:label">
+            <value>Skin Rash</value>
+          </text>
+          <text id="/data/skin_rash_symptoms/skin_rash_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/skin_rash_symptoms/skin_rash_description:label">
+            <value>Description</value>
+          </text>
+          <text id="/data/skin_rash_symptoms/skin_rash_picture:label">
+            <value>Picture</value>
+          </text>
+          <text id="/data/bleeding_symptoms:label">
+            <value>Unusual Bleeding</value>
+          </text>
+          <text id="/data/bleeding_symptoms/bleeding_onset:label">
+            <value>Bleeding Onset Date</value>
+          </text>
+          <text id="/data/bleeding_symptoms/bleeding_onset:hint">
+            <value></value>
+          </text>
+          <text id="/data/bleeding_symptoms/confused_onset:label">
+            <value>Decreased consiousness/confused mental state</value>
+          </text>
+          <text id="/data/unwell_symptoms:label">
+            <value>Obviously unwell</value>
+          </text>
+          <text id="/data/unwell_symptoms/unwell_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/other_symptoms:label">
+            <value>Other Symptoms</value>
+          </text>
+          <text id="/data/other_symptoms/other_symptoms_list:label">
+            <value>Please type other symptoms</value>
+          </text>
+          <text id="/data/other_symptoms/other_onset:label">
+            <value>Onset Date</value>
+          </text>
+          <text id="/data/death_symptoms:label">
+            <value></value>
+          </text>
+          <text id="/data/death_symptoms/death_date:label">
+            <value>Date of death</value>
+          </text>
+          <text id="/data/death_symptoms/death_time:label">
+            <value>Time of death</value>
+          </text>
+          <text id="/data/death_symptoms/death_cause:label">
+            <value>Presumptive cause of death</value>
+          </text>
+          <text id="/data/death_symptoms/body_release:label">
+            <value>Body released to medical examiner</value>
+          </text>
+          <text id="/data/death_symptoms/body_release:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/death_symptoms/body_release:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/death_symptoms/medical_examiner:label">
+            <value>Name of medical examiner</value>
+          </text>
+          <text id="/data/general:label">
+            <value>General Information about the ill or deceased person</value>
+          </text>
+          <text id="/data/general/last_name:label">
+            <value>Last Name</value>
+          </text>
+          <text id="/data/general/first_name:label">
+            <value>First/Given Name</value>
+          </text>
+          <text id="/data/general/middle_name:label">
+            <value>Middle Name</value>
+          </text>
+          <text id="/data/general/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/general/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/general/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/data/general/age:label">
+            <value>Age (if date of birth unknown)</value>
+          </text>
+          <text id="/data/general/country_of_birth:label">
+            <value>Country of Birth</value>
+          </text>
+          <text id="/data/general/citizenship:label">
+            <value>Passport country/Citizenship</value>
+          </text>
+          <text id="/data/general/country_residence:label">
+            <value>Country of Residence</value>
+          </text>
+          <text id="/data/general/home_address:label">
+            <value>Home Address</value>
+          </text>
+          <text id="/data/general/country:label">
+            <value>Country</value>
+          </text>
+          <text id="/data/general/phone_number:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/general/emergency_contact:label">
+            <value>Emergency Contact Name</value>
+          </text>
+          <text id="/data/general/emergency_contact_number:label">
+            <value>Emergency Contact Phone</value>
+          </text>
+          <text id="/data/conveyance_information:label">
+            <value>Conveyance Information</value>
+          </text>
+          <text id="/data/conveyance_information/domestic:label">
+            <value>Domestic Flight</value>
+          </text>
+          <text id="/data/conveyance_information/domestic:option0">
+            <value>No</value>
+          </text>
+          <text id="/data/conveyance_information/domestic:option1">
+            <value>Yes</value>
+          </text>
+          <text id="/data/conveyance_information/conveyance_operator:label">
+            <value>Operator</value>
+          </text>
+          <text id="/data/conveyance_information/registration_number:label">
+            <value>Registration Number</value>
+          </text>
+          <text id="/data/conveyance_information/country_of_departure:label">
+            <value>Country of Departure</value>
+          </text>
+          <text id="/data/conveyance_information/name_of_poe:label">
+            <value>Name of Port of Entry/Exit</value>
+          </text>
+          <text id="/data/conveyance_information/arrival_date:label">
+            <value>Arrival Date</value>
+          </text>
+          <text id="/data/conveyance_information/arrival_date:hint">
+            <value></value>
+          </text>
+          <text id="/data/conveyance_information/seat_number:label">
+            <value>Seat Number</value>
+          </text>
+          <text id="/data/disposition_reason:label">
+            <value>Disposition of ill/deceased person</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:label">
+            <value>Disposition of ill/deceased person</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:hint">
+            <value>Check all that apply</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option0">
+            <value>Release to continue travel</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option1">
+            <value>Advised to seek medical care</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option2">
+            <value>Recommended not to travel</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option3">
+            <value>Moved to holding facility</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option4">
+            <value>Transported to non hospital location</value>
+          </text>
+          <text id="/data/disposition_reason/disposition:option5">
+            <value>other</value>
+          </text>
+          <text id="/data/disposition_reason/other_details:label">
+            <value>Other details</value>
+          </text>
+        </translation>
+      </itext>
+      
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+
+      <bind nodeset="/data/notification/poe" type="string"/>
+      <bind nodeset="/data/notification/date" type="date"/>
+      <bind nodeset="/data/notification/time" type="time"/>
+      <bind nodeset="/data/notification/type" type="select1"/>
+      <bind nodeset="/data/notification/traveller" type="select1" required="true()"/>
+      <bind nodeset="/data/notification/identified" type="select1"/>
+      <bind nodeset="/data/medical_history/anti_medicine" type="string"/>
+      <bind nodeset="/data/medical_history/fever_medicine" type="string"/>
+      <bind nodeset="/data/exposure/village_1" type="string"/>
+      <bind nodeset="/data/exposure/country_1" type="string"/>
+      <bind nodeset="/data/exposure/arrival_date_1" type="date"/>
+      <bind nodeset="/data/exposure/exposed_person_1" type="select1" required="true()"/>
+      <bind nodeset="/data/exposure/exposed_animal_1" type="select1" required="true()"/>
+      <bind nodeset="/data/exposure/other_1" type="select1"/>
+      <bind nodeset="/data/signs_symptoms" type="select"/>
+      <bind nodeset="/data/feaver_symptoms/fever_onset" type="date"/>
+      <bind nodeset="/data/feaver_symptoms/fever_temp" type="int"/>
+      <bind nodeset="/data/feaver_symptoms/untitled41" type="string"/>
+      <bind nodeset="/data/persisistent_cough/cough_label" type="string" readonly="true()"/>
+      <bind nodeset="/data/persisistent_cough/cough_blood" type="select1" required="true()"/>
+      <bind nodeset="/data/persisistent_cough/cough_onset" type="date"/>
+      <bind nodeset="/data/breathing_symptoms/difficulty_breathing_onset" type="date"/>
+      <bind nodeset="/data/diarrhea_symptoms/diarrhea_onset" type="date"/>
+      <bind nodeset="/data/diarrhea_symptoms/diarrhea_number" type="int"/>
+      <bind nodeset="/data/vomitting_symptoms/vomitting_onset" type="date"/>
+      <bind nodeset="/data/vomitting_symptoms/vomitting_number" type="int"/>
+      <bind nodeset="/data/skin_rash_symptoms/skin_rash_onset" type="date"/>
+      <bind nodeset="/data/skin_rash_symptoms/skin_rash_description" type="string"/>
+      <bind nodeset="/data/skin_rash_symptoms/skin_rash_picture" type="binary"/>
+      <bind nodeset="/data/bleeding_symptoms/bleeding_onset" type="date"/>
+      <bind nodeset="/data/bleeding_symptoms/confused_onset" type="date"/>
+      <bind nodeset="/data/unwell_symptoms/unwell_onset" type="date"/>
+      <bind nodeset="/data/other_symptoms/other_symptoms_list" type="string"/>
+      <bind nodeset="/data/other_symptoms/other_onset" type="date"/>
+      <bind nodeset="/data/death_symptoms/death_date" type="date"/>
+      <bind nodeset="/data/death_symptoms/death_time" type="time"/>
+      <bind nodeset="/data/death_symptoms/death_cause" type="string"/>
+      <bind nodeset="/data/death_symptoms/body_release" type="select1"/>
+      <bind nodeset="/data/death_symptoms/medical_examiner" type="string"/>
+      <bind nodeset="/data/general/last_name" type="string"/>
+      <bind nodeset="/data/general/first_name" type="string"/>
+      <bind nodeset="/data/general/middle_name" type="string"/>
+      <bind nodeset="/data/general/gender" type="select1" required="true()"/>
+      <bind nodeset="/data/general/date_of_birth" type="date"/>
+      <bind nodeset="/data/general/age" type="int"/>
+      <bind nodeset="/data/general/country_of_birth" type="string"/>
+      <bind nodeset="/data/general/citizenship" type="string"/>
+      <bind nodeset="/data/general/country_residence" type="string"/>
+      <bind nodeset="/data/general/home_address" type="string"/>
+      <bind nodeset="/data/general/country" type="string"/>
+      <bind nodeset="/data/general/phone_number" type="int"/>
+      <bind nodeset="/data/general/emergency_contact" type="string"/>
+      <bind nodeset="/data/general/emergency_contact_number" type="int"/>
+      <bind nodeset="/data/conveyance_information/domestic" type="select1" required="true()"/>
+      <bind nodeset="/data/conveyance_information/conveyance_operator" type="string"/>
+      <bind nodeset="/data/conveyance_information/registration_number" type="string"/>
+      <bind nodeset="/data/conveyance_information/country_of_departure" type="string"/>
+      <bind nodeset="/data/conveyance_information/name_of_poe" type="string"/>
+      <bind nodeset="/data/conveyance_information/arrival_date" type="date"/>
+      <bind nodeset="/data/conveyance_information/seat_number" type="string"/>
+      <bind nodeset="/data/disposition_reason/disposition" type="select"/>
+      <bind nodeset="/data/disposition_reason/other_details" type="string"/>
+      <bind nodeset="/data/untitled96" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/notification:label')"/>
+      <input ref="/data/notification/poe">
+        <label ref="jr:itext('/data/notification/poe:label')"/>
+      </input>
+      <input ref="/data/notification/date">
+        <label ref="jr:itext('/data/notification/date:label')"/>
+      </input>
+      <input ref="/data/notification/time">
+        <label ref="jr:itext('/data/notification/time:label')"/>
+      </input>
+      <select1 ref="/data/notification/type">
+        <label ref="jr:itext('/data/notification/type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/notification/type:option0')"/>
+          <value>illness</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/type:option1')"/>
+          <value>death</value>
+        </item>
+      </select1>
+      <select1 ref="/data/notification/traveller">
+        <label ref="jr:itext('/data/notification/traveller:label')"/>
+        <item>
+          <label ref="jr:itext('/data/notification/traveller:option0')"/>
+          <value>passenger</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/traveller:option1')"/>
+          <value>crew</value>
+        </item>
+      </select1>
+      <select1 ref="/data/notification/identified">
+        <label ref="jr:itext('/data/notification/identified:label')"/>
+        <item>
+          <label ref="jr:itext('/data/notification/identified:option0')"/>
+          <value>screening</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/identified:option1')"/>
+          <value>prior_conveyance</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/identified:option2')"/>
+          <value>after_conveyance</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/identified:option3')"/>
+          <value>on_conveyance</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/notification/identified:option4')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/medical_history:label')"/>
+      <input ref="/data/medical_history/anti_medicine">
+        <label ref="jr:itext('/data/medical_history/anti_medicine:label')"/>
+        <hint ref="jr:itext('/data/medical_history/anti_medicine:hint')"/>
+      </input>
+      <input ref="/data/medical_history/fever_medicine">
+        <label ref="jr:itext('/data/medical_history/fever_medicine:label')"/>
+        <hint ref="jr:itext('/data/medical_history/fever_medicine:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/exposure:label')"/>
+      <input ref="/data/exposure/village_1">
+        <label ref="jr:itext('/data/exposure/village_1:label')"/>
+      </input>
+      <input ref="/data/exposure/country_1">
+        <label ref="jr:itext('/data/exposure/country_1:label')"/>
+      </input>
+      <input ref="/data/exposure/arrival_date_1">
+        <label ref="jr:itext('/data/exposure/arrival_date_1:label')"/>
+      </input>
+      <select1 ref="/data/exposure/exposed_person_1">
+        <label ref="jr:itext('/data/exposure/exposed_person_1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure/exposed_person_1:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure/exposed_person_1:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure/exposed_animal_1">
+        <label ref="jr:itext('/data/exposure/exposed_animal_1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure/exposed_animal_1:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure/exposed_animal_1:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+      <select1 ref="/data/exposure/other_1">
+        <label ref="jr:itext('/data/exposure/other_1:label')"/>
+        <hint ref="jr:itext('/data/exposure/other_1:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/exposure/other_1:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/exposure/other_1:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+    </group>
+    <select ref="/data/signs_symptoms">
+      <label ref="jr:itext('/data/signs_symptoms:label')"/>
+      <hint ref="jr:itext('/data/signs_symptoms:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option0')"/>
+        <value>feaver</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option1')"/>
+        <value>persistent_cough</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option2')"/>
+        <value>difficulty_breathing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option3')"/>
+        <value>persistent_diarrhea</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option4')"/>
+        <value>persistent_vomitting</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option5')"/>
+        <value>skin_rash</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option6')"/>
+        <value>unusual_bleeding</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option7')"/>
+        <value>obviously_unwell</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/signs_symptoms:option8')"/>
+        <value>other</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/feaver_symptoms:label')"/>
+      <input ref="/data/feaver_symptoms/fever_onset">
+        <label ref="jr:itext('/data/feaver_symptoms/fever_onset:label')"/>
+        <hint ref="jr:itext('/data/feaver_symptoms/fever_onset:hint')"/>
+      </input>
+      <input ref="/data/feaver_symptoms/fever_temp">
+        <label ref="jr:itext('/data/feaver_symptoms/fever_temp:label')"/>
+      </input>
+      <input ref="/data/feaver_symptoms/untitled41">
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/persisistent_cough:label')"/>
+      <input ref="/data/persisistent_cough/cough_label">
+        <label ref="jr:itext('/data/persisistent_cough/cough_label:label')"/>
+      </input>
+      <select1 ref="/data/persisistent_cough/cough_blood">
+        <label ref="jr:itext('/data/persisistent_cough/cough_blood:label')"/>
+        <item>
+          <label ref="jr:itext('/data/persisistent_cough/cough_blood:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/persisistent_cough/cough_blood:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+      <input ref="/data/persisistent_cough/cough_onset">
+        <label ref="jr:itext('/data/persisistent_cough/cough_onset:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/breathing_symptoms:label')"/>
+      <input ref="/data/breathing_symptoms/difficulty_breathing_onset">
+        <label ref="jr:itext('/data/breathing_symptoms/difficulty_breathing_onset:label')"/>
+        <hint ref="jr:itext('/data/breathing_symptoms/difficulty_breathing_onset:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/diarrhea_symptoms:label')"/>
+      <input ref="/data/diarrhea_symptoms/diarrhea_onset">
+        <label ref="jr:itext('/data/diarrhea_symptoms/diarrhea_onset:label')"/>
+      </input>
+      <input ref="/data/diarrhea_symptoms/diarrhea_number">
+        <label ref="jr:itext('/data/diarrhea_symptoms/diarrhea_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/vomitting_symptoms:label')"/>
+      <input ref="/data/vomitting_symptoms/vomitting_onset">
+        <label ref="jr:itext('/data/vomitting_symptoms/vomitting_onset:label')"/>
+      </input>
+      <input ref="/data/vomitting_symptoms/vomitting_number">
+        <label ref="jr:itext('/data/vomitting_symptoms/vomitting_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/skin_rash_symptoms:label')"/>
+      <input ref="/data/skin_rash_symptoms/skin_rash_onset">
+        <label ref="jr:itext('/data/skin_rash_symptoms/skin_rash_onset:label')"/>
+      </input>
+      <input ref="/data/skin_rash_symptoms/skin_rash_description">
+        <label ref="jr:itext('/data/skin_rash_symptoms/skin_rash_description:label')"/>
+      </input>
+      <upload ref="/data/skin_rash_symptoms/skin_rash_picture" mediatype="image/*">
+        <label ref="jr:itext('/data/skin_rash_symptoms/skin_rash_picture:label')"/>
+      </upload>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/bleeding_symptoms:label')"/>
+      <input ref="/data/bleeding_symptoms/bleeding_onset">
+        <label ref="jr:itext('/data/bleeding_symptoms/bleeding_onset:label')"/>
+        <hint ref="jr:itext('/data/bleeding_symptoms/bleeding_onset:hint')"/>
+      </input>
+      <input ref="/data/bleeding_symptoms/confused_onset">
+        <label ref="jr:itext('/data/bleeding_symptoms/confused_onset:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/unwell_symptoms:label')"/>
+      <input ref="/data/unwell_symptoms/unwell_onset">
+        <label ref="jr:itext('/data/unwell_symptoms/unwell_onset:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/other_symptoms:label')"/>
+      <input ref="/data/other_symptoms/other_symptoms_list">
+        <label ref="jr:itext('/data/other_symptoms/other_symptoms_list:label')"/>
+      </input>
+      <input ref="/data/other_symptoms/other_onset">
+        <label ref="jr:itext('/data/other_symptoms/other_onset:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/death_symptoms:label')"/>
+      <input ref="/data/death_symptoms/death_date">
+        <label ref="jr:itext('/data/death_symptoms/death_date:label')"/>
+      </input>
+      <input ref="/data/death_symptoms/death_time">
+        <label ref="jr:itext('/data/death_symptoms/death_time:label')"/>
+      </input>
+      <input ref="/data/death_symptoms/death_cause">
+        <label ref="jr:itext('/data/death_symptoms/death_cause:label')"/>
+      </input>
+      <select1 ref="/data/death_symptoms/body_release">
+        <label ref="jr:itext('/data/death_symptoms/body_release:label')"/>
+        <item>
+          <label ref="jr:itext('/data/death_symptoms/body_release:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/death_symptoms/body_release:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+      <input ref="/data/death_symptoms/medical_examiner">
+        <label ref="jr:itext('/data/death_symptoms/medical_examiner:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general:label')"/>
+      <input ref="/data/general/last_name">
+        <label ref="jr:itext('/data/general/last_name:label')"/>
+      </input>
+      <input ref="/data/general/first_name">
+        <label ref="jr:itext('/data/general/first_name:label')"/>
+      </input>
+      <input ref="/data/general/middle_name">
+        <label ref="jr:itext('/data/general/middle_name:label')"/>
+      </input>
+      <select1 ref="/data/general/gender">
+        <item>
+          <label ref="jr:itext('/data/general/gender:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general/gender:option1')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/data/general/date_of_birth">
+        <label ref="jr:itext('/data/general/date_of_birth:label')"/>
+      </input>
+      <input ref="/data/general/age">
+        <label ref="jr:itext('/data/general/age:label')"/>
+      </input>
+      <input ref="/data/general/country_of_birth">
+        <label ref="jr:itext('/data/general/country_of_birth:label')"/>
+      </input>
+      <input ref="/data/general/citizenship">
+        <label ref="jr:itext('/data/general/citizenship:label')"/>
+      </input>
+      <input ref="/data/general/country_residence">
+        <label ref="jr:itext('/data/general/country_residence:label')"/>
+      </input>
+      <input ref="/data/general/home_address">
+        <label ref="jr:itext('/data/general/home_address:label')"/>
+      </input>
+      <input ref="/data/general/country">
+        <label ref="jr:itext('/data/general/country:label')"/>
+      </input>
+      <input ref="/data/general/phone_number">
+        <label ref="jr:itext('/data/general/phone_number:label')"/>
+      </input>
+      <input ref="/data/general/emergency_contact">
+        <label ref="jr:itext('/data/general/emergency_contact:label')"/>
+      </input>
+      <input ref="/data/general/emergency_contact_number">
+        <label ref="jr:itext('/data/general/emergency_contact_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/conveyance_information:label')"/>
+      <select1 ref="/data/conveyance_information/domestic">
+        <label ref="jr:itext('/data/conveyance_information/domestic:label')"/>
+        <item>
+          <label ref="jr:itext('/data/conveyance_information/domestic:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/conveyance_information/domestic:option1')"/>
+          <value>1</value>
+        </item>
+      </select1>
+      <input ref="/data/conveyance_information/conveyance_operator">
+        <label ref="jr:itext('/data/conveyance_information/conveyance_operator:label')"/>
+      </input>
+      <input ref="/data/conveyance_information/registration_number">
+        <label ref="jr:itext('/data/conveyance_information/registration_number:label')"/>
+      </input>
+      <input ref="/data/conveyance_information/country_of_departure">
+        <label ref="jr:itext('/data/conveyance_information/country_of_departure:label')"/>
+      </input>
+      <input ref="/data/conveyance_information/name_of_poe">
+        <label ref="jr:itext('/data/conveyance_information/name_of_poe:label')"/>
+      </input>
+      <input ref="/data/conveyance_information/arrival_date">
+        <label ref="jr:itext('/data/conveyance_information/arrival_date:label')"/>
+        <hint ref="jr:itext('/data/conveyance_information/arrival_date:hint')"/>
+      </input>
+      <input ref="/data/conveyance_information/seat_number">
+        <label ref="jr:itext('/data/conveyance_information/seat_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/disposition_reason:label')"/>
+      <select ref="/data/disposition_reason/disposition">
+        <label ref="jr:itext('/data/disposition_reason/disposition:label')"/>
+        <hint ref="jr:itext('/data/disposition_reason/disposition:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option0')"/>
+          <value>release</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option1')"/>
+          <value>seek_medical_care</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option2')"/>
+          <value>not_to_travel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option3')"/>
+          <value>holding_facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option4')"/>
+          <value>non_hospital_location</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/disposition_reason/disposition:option5')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/data/disposition_reason/other_details">
+        <label ref="jr:itext('/data/disposition_reason/other_details:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

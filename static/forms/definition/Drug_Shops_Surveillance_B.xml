@@ -1,0 +1,503 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Drug Shops Surveillance</h:title>
+    <model>
+      <instance>
+        <data id="build_Drug-Shops-Surveillance_1469115844">
+          <meta>
+            <instanceID/>
+            <username/>
+            <instanceName/>
+            <start/>
+            <end/>
+          </meta>
+          <Ukurasa_wa_kwanza>
+            <ID_duka/>
+            <Jina_la_mfugaji/>
+            <Kijiji/>
+          </Ukurasa_wa_kwanza>
+          <ukurasa_pili>
+            <aina_ya_mnyama/>
+            <aina_ingine_mnyama/>
+            <Umri_wa_mnyama/>
+            <Dalili/>
+            <Dalili_zingine/>
+            <Aina_yad_dawa/>
+          </ukurasa_pili>
+          <ukurasa_tatu>
+            <Tatizo_kwa_watu_wengine/>
+            <Idadi_waliokufa/>
+            <Mda_wa_tatizo/>
+          </ukurasa_tatu>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Ukurasa_wa_kwanza:label">
+            <value>Ukurasa wa kwanza</value>
+          </text>
+          <text id="/data/Ukurasa_wa_kwanza/ID_duka:label">
+            <value>Namba ya utambulisho ya duka</value>
+          </text>
+          <text id="/data/Ukurasa_wa_kwanza/Jina_la_mfugaji:label">
+            <value>Jina la mfugaji</value>
+          </text>
+          <text id="/data/Ukurasa_wa_kwanza/Kijiji:label">
+            <value>Kijiji anachotoka mfugaji</value>
+          </text>
+          <text id="/data/ukurasa_pili:label">
+            <value>Ukurasa wa pili</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:label">
+            <value>Aina ya mnyama</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option0">
+            <value>Ng'ombe</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option1">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option2">
+            <value>Kondoo</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option3">
+            <value>Nguruwe</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option4">
+            <value>Mbwa</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option5">
+            <value>Kuku</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option6">
+            <value>Punda</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ya_mnyama:option7">
+            <value>Aina ingine</value>
+          </text>
+          <text id="/data/ukurasa_pili/aina_ingine_mnyama:label">
+            <value>Aina ingine ya mnyama</value>
+          </text>
+          <text id="/data/ukurasa_pili/Umri_wa_mnyama:label">
+            <value>Umri wa mnyama / wanyama</value>
+          </text>
+          <text id="/data/ukurasa_pili/Umri_wa_mnyama:option0">
+            <value>Mdogo / wadogo</value>
+          </text>
+          <text id="/data/ukurasa_pili/Umri_wa_mnyama:option1">
+            <value>Mkubwa /wakubwa</value>
+          </text>
+          <text id="/data/ukurasa_pili/Umri_wa_mnyama:option2">
+            <value>Wote</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:label">
+            <value>Dalili</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option0">
+            <value>Kutupa mimba</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option1">
+            <value>Kupoteza hamu ya kula</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option2">
+            <value>Kuhara damu</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option3">
+            <value>Kuharisha</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option4">
+            <value>Kutapika</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option5">
+            <value>Kushindwa kusimama/kutembea</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option6">
+            <value>Kupumua kwa shida/kukoroma</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option7">
+            <value>Kuhema kwa haraka</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option8">
+            <value>Kupiga chafya</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option9">
+            <value>Homa/kutetemeka</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option10">
+            <value>Kupunguza utoaji wa maziwa</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option11">
+            <value>Kupunguza utagaji</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option12">
+            <value>Kukohoa</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option13">
+            <value>Kuchuriza kamasi/udenda/mate</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option14">
+            <value>Kutoa mapovu puani/mdomoni</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option15">
+            <value>Damu isiyoganda kutoka puani/mdomoni/masikioni/sehemu za haja ndogo/kubwa</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option16">
+            <value>Uvimbe maungio ya miguu/kichwa/macho</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option17">
+            <value>Kuzurura au kubweka hovyo</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option18">
+            <value>Kushambulia watu au wanyama wengine</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option19">
+            <value>Ukali/ukimya wa kupitiliza</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option20">
+            <value>Kupinda shingo/kuzungukazunguka</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option21">
+            <value>Ukungu machoni</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option22">
+            <value>Kutoa machozi</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option23">
+            <value>Vidonda midomo/miguu/kwato/ulimi</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option24">
+            <value>Kunyonyoka</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option25">
+            <value>Uvimbe mgumu/vipele kwenye ngozi</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option26">
+            <value>Kubadilika rangi ya ngozi</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option27">
+            <value>Kuvimba tezi</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option28">
+            <value>Kukojoa damu</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili:option29">
+            <value>Dalili zingine</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili_zingine:label">
+            <value>Dalili zingine</value>
+          </text>
+          <text id="/data/ukurasa_pili/Dalili_zingine:hint">
+            <value>Kama kuna dalili zingine, mbali ya zilizotajwa</value>
+          </text>
+          <text id="/data/ukurasa_pili/Aina_yad_dawa:label">
+            <value>Aina ya dawa iliyotolewa</value>
+          </text>
+          <text id="/data/ukurasa_tatu:label">
+            <value>Ukurasa wa tatu</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:label">
+            <value>Je kuna watu wengine wana tatizo kama hilo?</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:option0">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:option1">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Idadi_waliokufa:label">
+            <value>Idadi ya waliokufa</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Idadi_waliokufa:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Idadi_waliokufa:option1">
+            <value>1 hadi 10</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Idadi_waliokufa:option2">
+            <value>11 hadi 20</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Idadi_waliokufa:option3">
+            <value>Zaidi ya 20</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Mda_wa_tatizo:label">
+            <value>Tatizo limeanza mda gani?</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Mda_wa_tatizo:option0">
+            <value>Ndani ya wiki</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Mda_wa_tatizo:option1">
+            <value>Wiki mbili</value>
+          </text>
+          <text id="/data/ukurasa_tatu/Mda_wa_tatizo:option2">
+            <value>Mwezi na zaidi</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Ukurasa_wa_kwanza/ID_duka" type="int" required="true()"/>
+      <bind nodeset="/data/Ukurasa_wa_kwanza/Jina_la_mfugaji" type="string"/>
+      <bind nodeset="/data/Ukurasa_wa_kwanza/Kijiji" type="string" required="true()"/>
+      <bind nodeset="/data/ukurasa_pili/aina_ya_mnyama" type="select1" required="true()"/>
+      <bind nodeset="/data/ukurasa_pili/aina_ingine_mnyama" type="string"/>
+      <bind nodeset="/data/ukurasa_pili/Umri_wa_mnyama" type="select1" required="true()"/>
+      <bind nodeset="/data/ukurasa_pili/Dalili" type="select" required="true()"/>
+      <bind nodeset="/data/ukurasa_pili/Dalili_zingine" type="string"/>
+      <bind nodeset="/data/ukurasa_pili/Aina_yad_dawa" type="string" required="true()"/>
+      <bind nodeset="/data/ukurasa_tatu/Tatizo_kwa_watu_wengine" type="select1" required="true()"/>
+      <bind nodeset="/data/ukurasa_tatu/Idadi_waliokufa" type="select1" required="true()"/>
+      <bind nodeset="/data/ukurasa_tatu/Mda_wa_tatizo" type="select1" required="true()"/>
+      <bind nodeset="/data/meta/instanceName" calculate="concat('Drug shops',': ',/data/Ukurasa_wa_kwanza/Jina_la_mfugaji)" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/meta/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/meta/end" type="dateTime"/>
+      <bind nodeset="/data/meta/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/Ukurasa_wa_kwanza:label')"/>
+      <input ref="/data/Ukurasa_wa_kwanza/ID_duka">
+        <label ref="jr:itext('/data/Ukurasa_wa_kwanza/ID_duka:label')"/>
+      </input>
+      <input ref="/data/Ukurasa_wa_kwanza/Jina_la_mfugaji">
+        <label ref="jr:itext('/data/Ukurasa_wa_kwanza/Jina_la_mfugaji:label')"/>
+      </input>
+      <input ref="/data/Ukurasa_wa_kwanza/Kijiji">
+        <label ref="jr:itext('/data/Ukurasa_wa_kwanza/Kijiji:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ukurasa_pili:label')"/>
+      <select1 ref="/data/ukurasa_pili/aina_ya_mnyama" appearance="minimal">
+        <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option0')"/>
+          <value>Ngombe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option1')"/>
+          <value>Mbuzi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option2')"/>
+          <value>Kondoo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option3')"/>
+          <value>Nguruwe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option4')"/>
+          <value>Mbwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option5')"/>
+          <value>Kuku</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option6')"/>
+          <value>Punda</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/aina_ya_mnyama:option7')"/>
+          <value>aina ingine</value>
+        </item>
+      </select1>
+      <input ref="/data/ukurasa_pili/aina_ingine_mnyama">
+        <label ref="jr:itext('/data/ukurasa_pili/aina_ingine_mnyama:label')"/>
+      </input>
+      <select1 ref="/data/ukurasa_pili/Umri_wa_mnyama" appearance="minimal">
+        <label ref="jr:itext('/data/ukurasa_pili/Umri_wa_mnyama:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Umri_wa_mnyama:option0')"/>
+          <value>Mdogo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Umri_wa_mnyama:option1')"/>
+          <value>mkubwa wakubwa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Umri_wa_mnyama:option2')"/>
+          <value>wote</value>
+        </item>
+      </select1>
+      <select ref="/data/ukurasa_pili/Dalili" appearance="minimal">
+        <label ref="jr:itext('/data/ukurasa_pili/Dalili:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option0')"/>
+          <value>B01</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option1')"/>
+          <value>B02</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option2')"/>
+          <value>B03</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option3')"/>
+          <value>B04</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option4')"/>
+          <value>B05</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option5')"/>
+          <value>B06</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option6')"/>
+          <value>B07</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option7')"/>
+          <value>B08</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option8')"/>
+          <value>B09</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option9')"/>
+          <value>B10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option10')"/>
+          <value>B11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option11')"/>
+          <value>B12</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option12')"/>
+          <value>B13</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option13')"/>
+          <value>B14</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option14')"/>
+          <value>B15</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option15')"/>
+          <value>B16</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option16')"/>
+          <value>B17</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option17')"/>
+          <value>B18</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option18')"/>
+          <value>B19</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option19')"/>
+          <value>B20</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option20')"/>
+          <value>B21</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option21')"/>
+          <value>B22</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option22')"/>
+          <value>B23</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option23')"/>
+          <value>B24</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option24')"/>
+          <value>B25</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option25')"/>
+          <value>B26</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option26')"/>
+          <value>B27</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option27')"/>
+          <value>B28</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option28')"/>
+          <value>B29</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_pili/Dalili:option29')"/>
+          <value>X01</value>
+        </item>
+      </select>
+      <input ref="/data/ukurasa_pili/Dalili_zingine">
+        <label ref="jr:itext('/data/ukurasa_pili/Dalili_zingine:label')"/>
+        <hint ref="jr:itext('/data/ukurasa_pili/Dalili_zingine:hint')"/>
+      </input>
+      <input ref="/data/ukurasa_pili/Aina_yad_dawa">
+        <label ref="jr:itext('/data/ukurasa_pili/Aina_yad_dawa:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ukurasa_tatu:label')"/>
+      <select1 ref="/data/ukurasa_tatu/Tatizo_kwa_watu_wengine">
+        <label ref="jr:itext('/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:option0')"/>
+          <value>Ndio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Tatizo_kwa_watu_wengine:option1')"/>
+          <value>Hapana</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ukurasa_tatu/Idadi_waliokufa" appearance="minimal">
+        <label ref="jr:itext('/data/ukurasa_tatu/Idadi_waliokufa:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Idadi_waliokufa:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Idadi_waliokufa:option1')"/>
+          <value>1 hadi 10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Idadi_waliokufa:option2')"/>
+          <value>11 hadi 20</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Idadi_waliokufa:option3')"/>
+          <value>Zaidi ya 20</value>
+        </item>
+      </select1>
+      <select1 ref="/data/ukurasa_tatu/Mda_wa_tatizo" appearance="minimal">
+        <label ref="jr:itext('/data/ukurasa_tatu/Mda_wa_tatizo:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Mda_wa_tatizo:option0')"/>
+          <value>Ndani ya wiki</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Mda_wa_tatizo:option1')"/>
+          <value>Wiki mbili</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ukurasa_tatu/Mda_wa_tatizo:option2')"/>
+          <value>Mwezi na zaidi</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

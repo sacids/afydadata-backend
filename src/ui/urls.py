@@ -27,7 +27,7 @@ urlpatterns = [
     path('project/list', views.list_projects.as_view(), name="list_projects"),
     
     
-    path('project/<pk>', views.project_detail.as_view(), name="project_detail"),
+    path('project/<str:pk>', views.project_detail.as_view(), name="project_detail"),
     path('project/<pk>/members', views.project_detail.as_view(), name="list_members"),
     path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"),
     

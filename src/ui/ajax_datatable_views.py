@@ -173,6 +173,8 @@ class ProjectList(AjaxDatatableView):
         #    reverse('event', args=(obj.id,)),
         #    obj.title
         #)
+
+        print(obj.pk)
         
         
         absolute_url = reverse('project_detail', kwargs=({'pk': obj.id}))

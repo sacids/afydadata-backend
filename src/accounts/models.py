@@ -40,8 +40,8 @@ def create_user_profile(sender, instance, created, **kwargs):
         # create profile
         Profile.objects.create(user=instance)
         # attach to Project general
-        ProjectGroup    = ProjectGroup.objects.get(pk=1)
-        ProjectMember.objects.create(project=ProjectGroup,member=instance)
+        #ProjectGroup    = ProjectGroup.objects.get(pk=1)
+        #ProjectMember.objects.create(project=ProjectGroup,member=instance)
 
 @receiver(post_save, sender=User)
 def save_user_profile(sender, instance, **kwargs):

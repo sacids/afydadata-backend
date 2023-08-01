@@ -1,3 +1,4 @@
+import uuid
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -5,6 +6,7 @@ from django.dispatch import receiver
 
 # Create your models here.
 class Project(models.Model):
+    id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title           = models.CharField(max_length=50)
     description     = models.TextField()
     created_on      = models.DateTimeField(auto_now=True,null=True)
@@ -24,6 +26,7 @@ class Project(models.Model):
 
 
 class ProjectGroup(models.Model):
+    id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     project         = models.ForeignKey(Project, related_name='project_groups', on_delete=models.CASCADE)
     title           = models.CharField(max_length=100)
     class Meta:
@@ -35,6 +38,7 @@ class ProjectGroup(models.Model):
         return self.project.title+' : '+self.title if self.title else self.pk
 
 class ProjectMember(models.Model):
+    id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     project         = models.ForeignKey(Project, related_name='project_member', on_delete=models.CASCADE,default=1)
     projectGroup    = models.ManyToManyField(ProjectGroup, related_name='pm_groups')
     member          = models.ForeignKey(User, on_delete=models.DO_NOTHING)
@@ -48,17 +52,7 @@ class ProjectMember(models.Model):
         return self.member.username
 
 
-
-    
-
-
-
-
-
-
-
 # create
-
 @receiver(post_save, sender=Project)
 def initiate_project(sender, instance, created, **kwargs):
     if created:

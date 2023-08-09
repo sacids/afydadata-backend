@@ -21,12 +21,7 @@ environ.Env.read_env()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-
-
 sys.path.insert(0, os.path.join(BASE_DIR, "src"))
-
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -38,7 +33,6 @@ SECRET_KEY = '7h009#6!lic!o_2o@-p*7594%z$+(jnm4av)a!o3v75q4k(fyw'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -58,7 +52,6 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_tailwind",
 
-    
     #custom apps
     #'src.accounts.apps.AccountsConfig',
     #'src.surveys.apps.SurveysConfig',
@@ -86,9 +79,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates'),
-                 os.path.join(BASE_DIR, 'templates', 'the_folder_you_created')
-        ],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,7 +94,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -117,7 +107,6 @@ DATABASES = {
             'PORT': config('DB_PORT')
         }
     }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -164,18 +153,13 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-
-
 # default content length for submission requests
 DEFAULT_CONTENT_LENGTH = 10000000
-
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = 'media/'
 
-
 DIGEST_REALM    = 'AFYADATA.SACIDS.ORG'
-
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

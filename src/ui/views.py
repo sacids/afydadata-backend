@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import login_required
 from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
@@ -15,52 +17,47 @@ import operator
 import json
 
 # Create your views here.
-
 CHEVRON     = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>'
 
 
-class start(generic.TemplateView):
-    template_name = "pages/start.html"
-    
+class DashboardView(generic.TemplateView):
+    template_name = "pages/dashboard.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(DashboardView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(start, self).get_context_data(**kwargs)
+        context = super(DashboardView, self).get_context_data(**kwargs)
         
-        context['title']    = 'Community Based One Health Security'
+        context['title']          = 'Dashboard'
+        context['breadcrumb']     = {'Dashboard': 0,}
+        context['datatable_list'] = "surveylist"
         
-        context['breadcrumb']            = {
-            'Community Based One Health Security': 0,
-        }
-        context['datatable_list']    = "surveylist"
-        
-        context['links']    = {
-            'Dashboard':        reverse('start'),
+        context['links'] = {
+            'Dashboard':        reverse('dashboard'),
             'Projects':         reverse('list_projects'),
             'Tutorial':         reverse('tutorial'),
             'Case Studies':     reverse('case_studies'),
             'Awknoledgments':   reverse('awknoledgement'),
         }
         
-        context['pg_actions']   = {
-            'Add Project': reverse('list_projects'),
-        }
-        
-        
+        #context['pg_actions']  = { 'Add Project': reverse('list_projects'),}    
         return context
     
     
-
 class list_projects(generic.TemplateView):
     template_name = "pages/start.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(list_projects, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(list_projects, self).get_context_data(**kwargs)
         
-        context['title']            = 'My Projects'
-        
-        context['breadcrumb']            = {
-            'My Projects': 0,
-        }
+        context['title'] = 'My Projects'
+        context['breadcrumb'] = {'My Projects': 0,}
         
         context['datatable_list']   = "projectList"
         #context['datatable_delete]
@@ -72,7 +69,6 @@ class list_projects(generic.TemplateView):
             'Members':      reverse('list_projects'),
         }
         
-        
         context['pg_actions']   = {
             'Add Project': reverse('create_project'),
         }
@@ -82,11 +78,14 @@ class list_projects(generic.TemplateView):
     
  
 class create_project(generic.CreateView):
- 
     model           = Project
     fields          = ['title', 'description']
     template_name   = 'forms/create_instance.html'
     success_url     = '/ui/project/create'
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(create_project, self).dispatch( *args, **kwargs)
     
     def form_valid(self, form):
         form.instance.created_by = self.request.user
@@ -100,10 +99,13 @@ class create_project(generic.CreateView):
     
 
 class create_xform(generic.CreateView):
-
     model           = Survey
     fields          = ['title', 'description', 'xform']
     template_name   = 'forms/create_instance.html'
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(start, self).dispatch( *args, **kwargs)
     
     def get_success_url(self):
         return self.request.path
@@ -151,6 +153,10 @@ class create_xform(generic.CreateView):
                                                      
 class project_detail(generic.TemplateView):
     template_name = "pages/start.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(start, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(project_detail, self).get_context_data(**kwargs)
@@ -208,6 +214,10 @@ def manage_project_member(request, pk):
                                                
 class form_data(generic.TemplateView):
     template_name = "pages/data.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(start, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(form_data, self).get_context_data(**kwargs)
@@ -242,6 +252,10 @@ class form_data(generic.TemplateView):
                                                      
 class form_mapping(generic.TemplateView):
     template_name = "pages/start.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(start, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(form_mapping, self).get_context_data(**kwargs)

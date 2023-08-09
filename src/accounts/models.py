@@ -10,7 +10,6 @@ from src.surveys.utils import calculate_digest
 from projects.models import Project, ProjectGroup, ProjectMember
 
 
-
 class Profile(models.Model):
     MALE       = 'M'
     FEMALE     = 'F'
@@ -29,6 +28,7 @@ class Profile(models.Model):
     def save(self, *args, **kwargs):
         self.digest         = calculate_digest(self.user.username, self.user.password)
         super(Profile, self).save(*args, **kwargs)
+
     class Meta:
         db_table = 'ad_profile'
         managed = True

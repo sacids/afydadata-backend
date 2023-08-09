@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Afyadata">
+    <meta name="keywords" content="Afyadata,One Health, Surveillance">
+    <title>AfyaData | {{heading}}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" />
+
+    <!-- Icons Css -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="h-screen leading-normal tracking-normal">
+    <!-- This example requires Tailwind CSS v3.0+ -->
+    <div class="isolate bg-white">
+        <section class="h-full gradient-form bg-gray-100 md:h-screen">
+            <div class="h-full lg:flex lg:flex-wrap g-0">
+                <div class="lg:w-1/2 flex items-center bg-red-900">
+                    <div class="text-white px-4 py-6 md:p-12 md:mx-6">
+                        <img class="h-8 w-auto my-4" src="{% static 'images/logo_W.png' %}" alt="Afyadata">
+                        <p class="text-base">
+                            Afyadata is a tool that analyzes all the data collected from the field and intelligently
+                            sends feedback to the data collector and sends an alert to higher authority officials if any
+                            abnormal pattern is discovered in the data collected, this tool provides a graphical user
+                            interface for involved health stakeholders to analyze and visualizing data collected via
+                            Afyadata mobile app for android.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 my-4 px-4 md:px-0">
+                    <div class="md:p-12 md:mx-6">
+                        <div class="text-center mb-8">
+                            <img class="mx-auto block h-20 w-auto lg:hidden" src="{% static 'images/logo_V.png' %}"
+                                alt="Afyadata">
+                            <img class="hidden mx-auto h-20 w-auto lg:block" src="{% static 'images/logo_V.png' %}"
+                                alt="Afyadata">
+
+                            <h3 class="text-xl font-semibold my-4">Welcome back! Sign in below</h3>
+
+                            <p class="my-4 text-sm text-gray-600">
+                                Don't have an account? Click <a href="#" class="text-blue-600">here</a> to sign up
+                            </p>
+                        </div>
+
+                        <div class="w-3/4 mx-auto">
+                            <form class="form-horizontal" method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                {% for message in messages %}
+                                <div class="alert {{ message.tags }} mb-4 text-center" role="alert">
+                                    <strong>{{ message }}</strong>
+                                </div>
+                                {% endfor %}
+
+                                <div class="mb-4">
+                                    <input type="username"
+                                        class="w-full px-3 py-2.5 text-sm font-normal text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                        id="id_username" name="username" placeholder="Write email/username ..." required/>
+                                </div>
+
+                                <div class="mb-4">
+                                    <input type="password"
+                                        class="w-full px-3 py-2.5 text-sm font-normal text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                        id="id_password" name="password" placeholder="Password..." required/>
+                                </div>
+
+                                <div class="flex items-center justify-between mb-4">
+                                    <div class="flex items-center">
+                                        <input id="remember-me" name="remember_me" type="checkbox"
+                                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                                        <label for="remember-me" class="ml-2 block text-sm text-gray-700">
+                                            Remember me
+                                        </label>
+                                    </div>
+
+                                    <div class="text-sm">
+                                        <a href="#" class="font-normal text-sm text-blue-800 hover:text-blue-900">
+                                            Forgot your password?
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="text-center py-2 mb-8">
+                                    <button
+                                        class="inline-block py-2.5 px-4 text-white font-medium text-base leading-tight rounded shadow-md hover:bg-slate-900 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3 bg-black"
+                                        type="submit">Sign In</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

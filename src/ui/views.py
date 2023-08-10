@@ -70,7 +70,7 @@ class list_projects(generic.TemplateView):
         }
         
         context['pg_actions']   = {
-            'Add Project': reverse('create_project'),
+            'Create Project': reverse('create_project'),
         }
         
         return context

@@ -104,7 +104,7 @@ class ProjectCreateView(generic.CreateView):
             created_by = self.request.user
         )
 
-        return HttpResponse("Project created")
+        return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
 
 
 class create_xform(generic.CreateView):

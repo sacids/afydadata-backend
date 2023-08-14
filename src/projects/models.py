@@ -62,6 +62,6 @@ def initiate_project(sender, instance, created, **kwargs):
         PG_Collector    = ProjectGroup.objects.create(project=instance,title="DataCollectors")
 
         # Add membership to current user
-        PG_Member       = ProjectMember.objects.create(projectGroup=PG_Viewer,member=instance.created_by)
-        PG_Member       = ProjectMember.objects.create(projectGroup=PG_Collector,member=instance.created_by)
+        #PG_Member       = ProjectMember.objects.create(projectGroup=PG_Viewer,member=instance.created_by)
+        #PG_Member       = ProjectMember.objects.create(projectGroup=PG_Collector,member=instance.created_by)
 

@@ -37,24 +37,23 @@ class DashboardView(generic.TemplateView):
         context['links'] = {
             'Dashboard':        reverse('dashboard'),
             'Projects':         reverse('list_projects'),
-            'Tutorial':         reverse('tutorial'),
-            'Case Studies':     reverse('case_studies'),
-            'Awknoledgments':   reverse('awknoledgement'),
+            # 'Tutorial':         reverse('tutorial'),
+            # 'Case Studies':     reverse('case_studies'),
         }
         
         #context['pg_actions']  = { 'Add Project': reverse('list_projects'),}    
         return context
     
     
-class list_projects(generic.TemplateView):
+class ProjectListView(generic.TemplateView):
     template_name = "pages/start.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(list_projects, self).dispatch( *args, **kwargs)
+        return super(ProjectListView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(list_projects, self).get_context_data(**kwargs)
+        context = super(ProjectListView, self).get_context_data(**kwargs)
         
         context['title'] = 'My Projects'
         context['breadcrumb'] = {'My Projects': 0,}
@@ -64,9 +63,9 @@ class list_projects(generic.TemplateView):
         #context['datatable_detail]
         
         context['links']    = {
-            'Dashboard':    reverse('list_projects'),
+            'Dashboard':    reverse('dashboard'),
             'Projects':     reverse('list_projects'),
-            'Members':      reverse('list_projects'),
+            # 'Members':      reverse('list_projects'),
         }
         
         context['pg_actions']   = {
@@ -77,26 +76,36 @@ class list_projects(generic.TemplateView):
     
     
  
-class create_project(generic.CreateView):
+class ProjectCreateView(generic.CreateView):
     model           = Project
     fields          = ['title', 'description']
-    template_name   = 'forms/create_instance.html'
-    success_url     = '/ui/project/create'
+    template_name   = 'forms/create_project.html'
+    success_url     = '/ui/projects/create'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(create_project, self).dispatch( *args, **kwargs)
+        return super(ProjectCreateView, self).dispatch( *args, **kwargs)
     
-    def form_valid(self, form):
-        form.instance.created_by = self.request.user
-        messages.success(self.request, 'Form submission successful')
-        return super().form_valid(form)
+    # def form_valid(self, form):
+    #     form.instance.created_by = self.request.user
+    #     messages.success(self.request, 'Form submission successful')
+    #     return super().form_valid(form)
     
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["btn_create"] = "Create Project"
         return context
     
+    def post(self, request, *args, **kwargs):
+        # create new project
+        project = Project.objects.create(
+            title = self.request.POST.get('title'),
+            description = self.request.POST.get('description'),
+            created_by = self.request.user
+        )
+
+        return HttpResponse("Project created")
+
 
 class create_xform(generic.CreateView):
     model           = Survey

@@ -54,12 +54,13 @@
 
     function manageTable(){
         return{
-
             sidebar_title: "",
             pg_actions_url: "",
 
             dataDetail(title,url){
                 $('#sidebar-title').html(title);
+
+                console.log(url)
 
                 fetch(url)
                     .then(response => response.text())
@@ -76,7 +77,6 @@
 
         }
     }
-
 </script>
 
 {% endblock %}

@@ -19,13 +19,14 @@ urlpatterns = [
     path('ajax_datatable/form_mapping/', ajax_datatable_views.FormMappingList.as_view(), name="FormMappingList"),
     
     #start
-    path('tutorial', views.list_projects.as_view(), name="tutorial"),
-    path('case_studies', views.list_projects.as_view(), name="case_studies"),
-    path('awknolegements', views.list_projects.as_view(), name="awknoledgement"),
+    # path('tutorial', views.list.as_view(), name="tutorial"),
+    # path('case_studies', views.list_projects.as_view(), name="case_studies"),
+    # path('awknolegements', views.list_projects.as_view(), name="awknoledgement"),
     
     #Projects
-    path('project/dashboard', views.list_projects.as_view(), name="project_dashboard"),
-    path('project/list', views.list_projects.as_view(), name="list_projects"),
+    path('project/dashboard', views.ProjectListView.as_view(), name="project_dashboard"),
+    path('projects/lists', views.ProjectListView.as_view(), name="list_projects"),
+    path('projects/create', views.ProjectCreateView.as_view(), name="create_project" ),
     
     
     path('project/<str:pk>', views.project_detail.as_view(), name="project_detail"),
@@ -33,7 +34,7 @@ urlpatterns = [
     path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"),
     
     path('project/<pk>/groups', views.project_detail.as_view(), name="list_groups"),
-    path('project/create', views.create_project.as_view(), name="create_project" ),
+    
     
     
     path('project/<pk>/form/create', views.create_xform.as_view(), name="create_xform"),

@@ -1,27 +1,29 @@
 {% load tailwind_filters %}
 
-<div id="create_project_div">
-    {% if messages %}
-    <ul class="mb-2">
-        {% for message in messages %}
-        <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-3" role="alert">
-            <p class="font-bold">{{ message.tags }}</p>
-            <p>{{message}}</p>
-        </div>
-        {% endfor %}
-    </ul>
-    {% endif %}
-
-    <form hx-post="{% url 'create_project' %}" hx-target='#create_project_div' >
+<div id="create_project_div" class="h-full overflow-y-scroll p-4 pt-2">
     
+    <form hx-post="{% url 'create_project' %}" hx-target='#create_project_div' >
         <!-- Security token -->
         {% csrf_token %}
-        {{ form|crispy }}
 
-        <div class="flex items-center justify-between">
+        <div class="my-3">
+            <label class="py-2 text-sm font-medium">Project Title <span class="text-red-600">*</span></label>
+            <input type="text"
+                class="w-full px-3 py-2.5 text-sm font-normal text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                id="id_title" name="title" placeholder="Write project title ..." required/>
+        </div>
+
+        <div class="mb-0">
+            <label class="py-2 text-sm font-medium">Description <span class="text-red-600">*</span></label>
+            <textarea id="description" name="description" class="w-full bg-white text-gray-600 border border-gray-200 rounded p-2.5 mb-3 my-1 focus:outline-none focus:border-blue-900 focus:bg-white text-sm font-normal" rows="3"
+                placeholder="Write description...." required></textarea>
+        </div>
+
+        <div class="flex items-start space-x-2">
+            <a @click="sidebar=false;" class="text-white text-sm font-normal bg-red-500 hover:bg-red-400 rounded-sm w-full sm:w-auto px-4 py-2 text-center">Cancel</a>
             <button
                 hx-post="{% url 'create_project' %}" hx-target='#create_project_div'
-                class="bg-rose-900 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                class="bg-red-900 hover:bg-red-800 text-white text-sm font-normal py-2 px-4 rounded-sm focus:outline-none focus:shadow-outline" 
                 type="button">
                 Submit
             </button>

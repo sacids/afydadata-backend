@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.views import generic
 from django.urls import reverse_lazy
 from django.contrib.auth.models import User
+from .forms import LoginForm, ChangePasswordForm
 from django.contrib import messages
 
 from django.contrib.auth import login, authenticate, logout
@@ -25,31 +26,36 @@ class LoginView(generic.View):
         if request.user.is_authenticated:
             return redirect(self.success_url)
         else:    
-            return render(request, self.template_name, {"title": "Login"})
+            form = LoginForm()
+            return render(request, self.template_name, {'form': form})
 
-    def post(self, request, *args, **kwargs):  
-        username = request.POST.get('username')
-        password = request.POST.get('password')
+    def post(self, request, *args, **kwargs):
+        form = LoginForm(data=request.POST)
+        
+        if form.is_valid():
+            username = request.POST.get('username')
+            password = request.POST.get('password')
 
-        # authenticate user
-        user = authenticate(request, username=username, password=password)
+            # authenticate user
+            user = authenticate(request, username=username, password=password)
 
-        if user is not None:
-            login(request, user)
-            #remember me
-            remember_me = request.POST.get("remember_me")
+            if user is not None:
+                login(request, user)
 
-            if remember_me is True:
-                ONE_MONTH = 30 * 24 * 60 * 60
-                expiry = getattr(settings, "KEEP_LOGGED_DURATION", ONE_MONTH)
-                request.session.set_expiry(expiry)
+                remember_me = request.POST.get("remember_me")
+                if remember_me is True:
+                    ONE_MONTH = 30 * 24 * 60 * 60
+                    expiry = getattr(
+                        settings, "KEEP_LOGGED_DURATION", ONE_MONTH)
+                    request.session.set_expiry(expiry)
 
-            # redirect
-            return redirect(self.success_url)
-        else:
-            messages.error(request, 'Wrong credentials, try again!')
-            # render view
-            return render(request, self.template_name, {})
+                # redirect
+                return redirect(self.success_url)
+            else:
+                messages.error(request, 'Wrong credentials, try again!')
+
+       # render view
+        return render(request, self.template_name, {'form': form})
 
 
 class LogoutView(generic.View):

@@ -9,21 +9,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Afyadata">
     <meta name="keywords" content="Afyadata,One Health, Surveillance">
-    <title>AfyaData | {{heading}}</title>
+    <title>AfyaData | {% block title %}{% endblock title %}</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" />
 
-    <!-- Icons Css -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
     <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Icons Css -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'roboto': ['Lato', 'sans-serif']
+                    },
+                }
+            }
+        }
+    </script>
 </head>
 
-<body class="h-screen leading-normal tracking-normal">
+<body class="h-screen leading-normal tracking-normal font-roboto">
     <!-- This example requires Tailwind CSS v3.0+ -->
     <div class="isolate bg-white">
         <section class="h-full gradient-form bg-gray-100 md:h-screen">
@@ -68,13 +79,14 @@
                                 <div class="mb-4">
                                     <input type="username"
                                         class="w-full px-3 py-2.5 text-sm font-normal text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="id_username" name="username" placeholder="Write email/username ..." required/>
+                                        id="id_username" name="username" placeholder="Write email/username ..."
+                                        required />
                                 </div>
 
                                 <div class="mb-4">
                                     <input type="password"
                                         class="w-full px-3 py-2.5 text-sm font-normal text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="id_password" name="password" placeholder="Password..." required/>
+                                        id="id_password" name="password" placeholder="Password..." required />
                                 </div>
 
                                 <div class="flex items-center justify-between mb-4">

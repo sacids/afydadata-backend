@@ -25,13 +25,11 @@ class LoginView(generic.View):
         if request.user.is_authenticated:
             return redirect(self.success_url)
         else:    
-            return render(request, self.template_name, {})
+            return render(request, self.template_name, {"title": "Login"})
 
     def post(self, request, *args, **kwargs):  
         username = request.POST.get('username')
         password = request.POST.get('password')
-
-        print(username)
 
         # authenticate user
         user = authenticate(request, username=username, password=password)

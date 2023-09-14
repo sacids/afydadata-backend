@@ -5,6 +5,7 @@ from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
 from django import forms
+from .forms import ProjectForm, SurveyForm
 
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
@@ -57,15 +58,11 @@ class ProjectListView(generic.TemplateView):
         
         context['title'] = 'My Projects'
         context['breadcrumb'] = {'My Projects': 0,}
-        
         context['datatable_list']   = "projectList"
-        #context['datatable_delete]
-        #context['datatable_detail]
         
         context['links']    = {
             'Dashboard':    reverse('dashboard'),
             'Projects':     reverse('list_projects'),
-            # 'Members':      reverse('list_projects'),
         }
         
         context['pg_actions']   = {
@@ -75,10 +72,7 @@ class ProjectListView(generic.TemplateView):
         return context
     
     
- 
 class ProjectCreateView(generic.CreateView):
-    model           = Project
-    fields          = ['title', 'description']
     template_name   = 'forms/create_project.html'
     success_url     = '/ui/projects/create'
 
@@ -86,89 +80,29 @@ class ProjectCreateView(generic.CreateView):
     def dispatch(self, *args, **kwargs):
         return super(ProjectCreateView, self).dispatch( *args, **kwargs)
     
-    # def form_valid(self, form):
-    #     form.instance.created_by = self.request.user
-    #     messages.success(self.request, 'Form submission successful')
-    #     return super().form_valid(form)
-    
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["btn_create"] = "Create Project"
-        return context
+    def get(self, request, *args, **kwargs):
+        context = {'form': ProjectForm(), 'btn_create': "Create Project"}
+        return render(request, self.template_name, context)
     
     def post(self, request, *args, **kwargs):
-        # create new project
-        project = Project.objects.create(
-            title = self.request.POST.get('title'),
-            description = self.request.POST.get('description'),
-            created_by = self.request.user
-        )
+        form = ProjectForm(request.POST)
+        if form.is_valid():
+            project = form.save(commit=False)
+            project.created_by = self.request.user
+            project.save()
 
         return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
-
-
-class create_xform(generic.CreateView):
-    model           = Survey
-    fields          = ['title', 'description', 'xform']
-    template_name   = 'forms/create_instance.html'
-
-    @method_decorator(login_required)
-    def dispatch(self, *args, **kwargs):
-        return super(start, self).dispatch( *args, **kwargs)
-    
-    def get_success_url(self):
-        return self.request.path
-
-    def form_valid(self, form):
-        
-        project_id                  = self.kwargs['pk']
-        cur_project                 = Project.objects.get(pk=project_id)
-        
-        form.instance.created_by    = self.request.user
-        form.instance.project       = cur_project
-        
-        cur_obj             = form.save() 
-        survey_cfg          = init_xform(cur_obj.xform.name)
-        cur_obj.form_id     = survey_cfg['form_id']
-        cur_obj.save()
-        #print(survey_cfg)
-        self.save_survey_qns(cur_obj, survey_cfg['qns'])
-        
-        messages.success(self.request, 'Form submission successful')
-        return super().form_valid(form)
-    
-    def save_survey_qns(self, survey, survey_qns):
-
-        for obj in survey_qns:
-            sq  = SurveyQuestions.objects.create(
-                survey=survey,
-                ref=obj['ref'],
-                col_name=obj['col_name'],
-                col_type=obj['col_type'],
-                constraints=obj['relevant'],
-                required=obj['required'],
-                hint=obj['hint'],
-                options=obj['options'],
-                page=obj['page'],
-                order=obj['order'],
-                label=obj['label'])
-    
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["btn_create"] = "Add Xform"
-        return context  
-        
     
                                                      
-class project_detail(generic.TemplateView):
+class ProjectDetailView(generic.TemplateView):
     template_name = "pages/start.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(start, self).dispatch( *args, **kwargs)
+        return super(ProjectDetailView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(project_detail, self).get_context_data(**kwargs)
+        context = super(ProjectDetailView, self).get_context_data(**kwargs)
         
         project_id                  = self.kwargs['pk']
         cur_project                 = Project.objects.get(pk=project_id)
@@ -177,40 +111,84 @@ class project_detail(generic.TemplateView):
         context['breadcrumb']       = {
             cur_project.title: 0,
         }
-        
-        
+           
         context['links']    = {
             'Dashboard':    reverse('project_dashboard'),
+            'My Project':   reverse('project_detail', kwargs={'pk':project_id}),
             'Members':      reverse('list_members', kwargs={'pk':project_id}),
-            'Groups':      reverse('list_groups', kwargs={'pk':project_id}),
+            'Groups':       reverse('list_groups', kwargs={'pk':project_id}),
         }
-        
         
         j = self.request.path.split('/')
         j.reverse()
         if(j[0] == 'members'):
-            
             context['datatable_list']    = "projectMemberslist"
-            context['pg_actions']   = {
-                'Add Member': reverse('create_xform', args=[project_id]),
-            }
-        else:
-            
+            context['pg_actions']   = {'Add Member': reverse('create_xform', args=[project_id]),}
+        else:      
             context['datatable_list']    = "surveylist"
             context['pg_actions']   = {
-                'Add XForm': reverse('create_xform', args=[project_id]),
-                'Add Form': reverse('create_xform', args=[project_id]),
+                'Upload XForm': reverse('create_xform', args=[project_id]),
+                # 'Add Form': reverse('create_xform', args=[project_id]),
                 #'Add Form': "'create_xform' pk="+project_id,
             }
             
-        
-        
-        
-        context['extra_data']   = {
-            'project_id': project_id,
-        }
+        context['extra_data']   = {'project_id': project_id,}
         
         return context
+    
+
+class create_xform(generic.CreateView):
+    template_name   = 'forms/create_instance.html'
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(create_xform, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        pk = kwargs['pk']
+        context = {'form': SurveyForm(), 'btn_create': "Upload", 'project_id': pk}
+        return render(request, self.template_name, context)
+    
+    def post(self, request, *args, **kwargs):
+        pass
+    
+    # def get_success_url(self):
+    #     return self.request.path
+
+    # def form_valid(self, form):     
+    #     project_id                  = self.kwargs['pk']
+    #     cur_project                 = Project.objects.get(pk=project_id)
+        
+    #     form.instance.created_by    = self.request.user
+    #     form.instance.project       = cur_project
+        
+    #     cur_obj             = form.save() 
+    #     survey_cfg          = init_xform(cur_obj.xform.name)
+    #     cur_obj.form_id     = survey_cfg['form_id']
+    #     cur_obj.save()
+    #     #print(survey_cfg)
+    #     self.save_survey_qns(cur_obj, survey_cfg['qns'])
+        
+    #     messages.success(self.request, 'Form submission successful')
+    #     return super().form_valid(form)
+    
+    # def save_survey_qns(self, survey, survey_qns):
+
+    #     for obj in survey_qns:
+    #         sq  = SurveyQuestions.objects.create(
+    #             survey=survey,
+    #             ref=obj['ref'],
+    #             col_name=obj['col_name'],
+    #             col_type=obj['col_type'],
+    #             constraints=obj['relevant'],
+    #             required=obj['required'],
+    #             hint=obj['hint'],
+    #             options=obj['options'],
+    #             page=obj['page'],
+    #             order=obj['order'],
+    #             label=obj['label'])
+    
+        
                                                        
 def manage_project_member(request, pk):
     

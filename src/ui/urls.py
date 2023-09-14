@@ -28,15 +28,10 @@ urlpatterns = [
     path('projects/lists', views.ProjectListView.as_view(), name="list_projects"),
     path('projects/create', views.ProjectCreateView.as_view(), name="create_project" ),
     
-    
-    path('project/<str:pk>', views.project_detail.as_view(), name="project_detail"),
-    path('project/<pk>/members', views.project_detail.as_view(), name="list_members"),
-    path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"),
-    
-    path('project/<pk>/groups', views.project_detail.as_view(), name="list_groups"),
-    
-    
-    
+    path('project/<str:pk>', views.ProjectDetailView.as_view(), name="project_detail"),
+    path('project/<pk>/groups', views.ProjectDetailView.as_view(), name="list_groups"),
+    path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
+    path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"), 
     path('project/<pk>/form/create', views.create_xform.as_view(), name="create_xform"),
     
     

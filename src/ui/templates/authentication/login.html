@@ -18,7 +18,7 @@
     <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
     <!-- Icons Css -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
@@ -27,7 +27,7 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        'roboto': ['Lato', 'sans-serif']
+                        'nunito': ['Nunito Sans', 'sans-serif']
                     },
                 }
             }
@@ -35,7 +35,7 @@
     </script>
 </head>
 
-<body class="h-screen leading-normal tracking-normal font-roboto">
+<body class="h-screen leading-normal tracking-normal font-nunito">
     <!-- This example requires Tailwind CSS v3.0+ -->
     <div class="isolate bg-white">
         <section class="h-full gradient-form bg-gray-100 md:h-screen">
@@ -71,10 +71,19 @@
                         <div class="w-3/4 mx-auto">
                             <form class="form-horizontal" method="POST" enctype="multipart/form-data">
                                 {% csrf_token %}
+                               
                                 {% for message in messages %}
-                                <div class="alert {{ message.tags }} mb-4 text-center" role="alert">
-                                    <strong>{{ message }}</strong>
-                                </div>
+                                    {% if message.tags == 'success' %}
+                                        <div
+                                            class="w-full bg-teal-100 rounded-b text-teal-900 text-sm font-normal px-4 py-3 mb-4">
+                                            {{ message }}
+                                        </div>
+                                    {% elif message.tags == 'error' %}
+                                        <div
+                                            class="w-full bg-red-100 rounded-b text-red-900 text-sm font-normal px-4 py-3 mb-4">
+                                            {{ message }}
+                                        </div>
+                                    {% endif %}
                                 {% endfor %}
 
                                 <div class="mb-4">
@@ -103,7 +112,7 @@
 
                                 <div class="text-center py-2 mb-8">
                                     <button
-                                        class="inline-block py-2.5 px-4 text-white font-medium text-base leading-tight rounded shadow-md hover:bg-slate-900 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3 bg-black"
+                                        class="inline-block py-2.5 px-4 text-white font-semibold text-base leading-tight rounded shadow-md hover:bg-slate-900 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3 bg-black"
                                         type="submit">Sign In</button>
                                 </div>
                             </form>

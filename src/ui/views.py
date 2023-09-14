@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render
 from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
@@ -15,7 +16,7 @@ from django.db.models import Q
 from .forms import *
 from functools import reduce
 import operator
-import json
+
 
 # Create your views here.
 CHEVRON     = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>'
@@ -150,43 +151,43 @@ class create_xform(generic.CreateView):
         return render(request, self.template_name, context)
     
     def post(self, request, *args, **kwargs):
-        pass
-    
-    # def get_success_url(self):
-    #     return self.request.path
+        form = SurveyForm(request.POST, request.FILES)
+        if form.is_valid():
+            project_id                  = self.kwargs['pk']
+            cur_project                 = Project.objects.get(pk=project_id)
 
-    # def form_valid(self, form):     
-    #     project_id                  = self.kwargs['pk']
-    #     cur_project                 = Project.objects.get(pk=project_id)
-        
-    #     form.instance.created_by    = self.request.user
-    #     form.instance.project       = cur_project
-        
-    #     cur_obj             = form.save() 
-    #     survey_cfg          = init_xform(cur_obj.xform.name)
-    #     cur_obj.form_id     = survey_cfg['form_id']
-    #     cur_obj.save()
-    #     #print(survey_cfg)
-    #     self.save_survey_qns(cur_obj, survey_cfg['qns'])
-        
-    #     messages.success(self.request, 'Form submission successful')
-    #     return super().form_valid(form)
-    
-    # def save_survey_qns(self, survey, survey_qns):
+            # process form
+            survey_form = form.save(commit=False)
+            survey_form.created_by = self.request.user
+            survey_form.project = cur_project
+            cur_obj             = form.save() 
 
-    #     for obj in survey_qns:
-    #         sq  = SurveyQuestions.objects.create(
-    #             survey=survey,
-    #             ref=obj['ref'],
-    #             col_name=obj['col_name'],
-    #             col_type=obj['col_type'],
-    #             constraints=obj['relevant'],
-    #             required=obj['required'],
-    #             hint=obj['hint'],
-    #             options=obj['options'],
-    #             page=obj['page'],
-    #             order=obj['order'],
-    #             label=obj['label'])
+            # initiate form
+            survey_cfg          = init_xform(cur_obj.xform.name)
+            cur_obj.form_id     = survey_cfg['form_id']
+            cur_obj.save()
+
+            self.save_survey_qns(cur_obj, survey_cfg['qns'])
+
+        return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Form uploaded</div>')
+    
+
+    
+    def save_survey_qns(self, survey, survey_qns):
+
+        for obj in survey_qns:
+            sq  = SurveyQuestions.objects.create(
+                survey=survey,
+                ref=obj['ref'],
+                col_name=obj['col_name'],
+                col_type=obj['col_type'],
+                constraints=obj['relevant'],
+                required=obj['required'],
+                hint=obj['hint'],
+                options=obj['options'],
+                page=obj['page'],
+                order=obj['order'],
+                label=obj['label'])
     
         
                                                        

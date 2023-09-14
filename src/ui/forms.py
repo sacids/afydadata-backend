@@ -7,7 +7,7 @@ from projects.models import Project
 class LoginForm(forms.Form):
     """Login form"""
     tailwind_class = """w-full bg-white text-gray-600 
-    border border-gray-200 rounded-md px-2.5 py-2.5 mb-3 focus:outline-none 
+    border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
     focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
     """
 
@@ -34,20 +34,21 @@ class ChangePasswordForm(PasswordChangeForm):
 
 
 class ProjectForm(forms.ModelForm):
-    """
-    A class to create form
-    """
-
+    """A class to create form"""
     def __init__(self, *args, **kwargs):
         super(ProjectForm, self).__init__(*args, **kwargs)
 
     class Meta:
+        tailwind_class = """w-full bg-white text-gray-600 
+        border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        """
         model = Project
         fields = ['title', 'description']
 
         widgets = {
-            'title': forms.TextInput(attrs={'class': 'w-full bg-white text-gray-600 border-1 border-gray-200 rounded-none p-2 mb-3 my-1 focus:outline-none focus:border-1 focus:border-blue-200 focus:bg-white text-sm font-normal', 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
-            'description': forms.Textarea(attrs={'class': 'w-full bg-white text-gray-600 border-1 border-gray-200 rounded-none p-2 mb-3 my-1 focus:outline-none focus:border-1  focus:border-blue-200 focus:bg-white text-sm font-normal', 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
+            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
+            'description': forms.Textarea(attrs={'class': tailwind_class, 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
         }
 
         labels = {
@@ -65,13 +66,18 @@ class SurveyForm(forms.ModelForm):
         super(SurveyForm, self).__init__(*args, **kwargs)
 
     class Meta:
+        tailwind_class = """w-full bg-white text-gray-600 
+        border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        """
+
         model = Survey
         fields = ['title', 'description', 'xform']
 
         widgets = {
-            'title': forms.TextInput(attrs={'class': 'w-full bg-white text-gray-600 border-1 border-gray-200 rounded-none p-2 mb-3 my-1 focus:outline-none focus:border-1 focus:border-blue-200 focus:bg-white text-sm font-normal', 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
-            'xform': forms.FileInput(attrs={'class': 'w-full bg-white text-gray-600 border-1 border-gray-200 rounded-none p-2 mb-3 my-1 focus:outline-none focus:border-1 focus:border-blue-200 focus:bg-white text-sm font-normal'}),
-            'description': forms.Textarea(attrs={'class': 'w-full bg-white text-gray-600 border-1 border-gray-200 rounded-none p-2 mb-3 my-1 focus:outline-none focus:border-1  focus:border-blue-200 focus:bg-white text-sm font-normal', 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
+            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
+            'xform': forms.FileInput(attrs={'class': tailwind_class}),
+            'description': forms.Textarea(attrs={'class': tailwind_class, 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
         }
 
         labels = {

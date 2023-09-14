@@ -1,8 +1,7 @@
 {% load tailwind_filters %}
 
 <div id="create_project_div" class="h-full overflow-y-scroll p-4 pt-2">
-    
-    <form hx-post="{% url 'create_project' %}" hx-target='#create_project_div' >
+    <form hx-post="{% url 'create_project' %}" hx-target='#create_project_div' enctype="multipart/form-data">
         <!-- Security token -->
         {% csrf_token %}
 

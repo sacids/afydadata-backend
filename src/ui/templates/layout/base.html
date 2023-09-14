@@ -6,13 +6,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AfyaData | {{heading}}</title>
+    <title>AfyaData | {% block title %}{% endblock title %}</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" />
 
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
     <!-- Icons Css -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'nunito': ['Nunito Sans', 'sans-serif']
+                    },
+                }
+            }
+        }
+    </script>
 
     <!--./jquery -->
     <script src="{% static 'jquery/jquery.min.js' %}"></script>
@@ -35,6 +49,9 @@
     <!-- map Css -->
     <link href="{% static 'css/map.css' %}" rel="stylesheet" type="text/css" />
 
+    <!-- custom table -->
+    <link href="{% static 'css/table.css' %}" rel="stylesheet" type="text/css" />
+
     <!-- htmx -->
     <script src="https://unpkg.com/htmx.org@1.8.5" integrity="sha384-7aHh9lqPYGYZ7sTHvzP1t3BAfLhYSTy9ArHdP3Xsr9/3TlGurYgcPBoFmXX2TX/w" crossorigin="anonymous"></script>
 
@@ -44,7 +61,7 @@
 
 <body>
     <!-- Begin page -->
-    <div class="h-screen w-screen flex flex-col text-slate-700" x-data="{sidebar: false}">
+    <div class="h-screen w-screen flex flex-col text-slate-700 font-nunito" x-data="{sidebar: false}">
         <div class="h-12 border-b px-10">
             {% include 'partials/header.html' %}
         </div>
@@ -53,35 +70,31 @@
             {% block nav %}{% endblock %}
         </div>
 
-        <div 
-            class="relative flex h-full w-full overflow-hidden px-10">
-            
+        <div class="relative flex h-full w-full overflow-hidden px-10">
+    
             {% block contents %}{% endblock %}
 
-            <div    
-                class="h-full w-0 border-l bg-white shadow-md overflow-hidden absolute top-0 right-0 transition-all duration-500" 
+            <div class="h-full w-0 border-l bg-white shadow-md overflow-hidden absolute top-0 right-0 transition-all duration-500" 
                 :class="{ 'md:w-1/2 w-11/12' : sidebar}"
                 id="sidebar">
 
                 {% block sidebar %}{% endblock %}
 
             </div>
-
         </div>
 
-        <div
-            class="h-12 bg-rose-900 w-full px-10 text-white">
-            Footer
-    </div>
-
-        
+        <div class="h-12 bg-red-900 w-full px-10 text-white text-sm py-2">
+            Copyright 
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> © AfyaData. All right reserved.
+        </div>
     </div>
 
     <!--./alpine js -->
     <script src="{% static 'alpine/alpine.min.js'%}"></script>
     {% block extrajs %}{% endblock %}
     
-
 </body>
 
 </html>

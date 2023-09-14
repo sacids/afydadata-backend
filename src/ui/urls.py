@@ -29,10 +29,11 @@ urlpatterns = [
     path('projects/create', views.ProjectCreateView.as_view(), name="create_project" ),
     
     path('project/<str:pk>', views.ProjectDetailView.as_view(), name="project_detail"),
+    path('project/delete/<str:pk>', views.ProjectDeleteView.as_view(), name="delete_project"),
     path('project/<pk>/groups', views.ProjectDetailView.as_view(), name="list_groups"),
     path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
     path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"), 
-    path('project/<pk>/form/create', views.create_xform.as_view(), name="create_xform"),
+    path('project/<pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
     
     
     # Form
@@ -41,10 +42,10 @@ urlpatterns = [
     path('form_data/<pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     
-    path('project/<int:project_id>/form/<pk>/map', views.create_xform.as_view(), name="form_map"),
+    path('project/<int:project_id>/form/<pk>/map', views.XformCreateView.as_view(), name="form_map"),
     path('project/<int:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
-    path('project/<int:project_id>/form/<pk>/chart', views.create_xform.as_view(), name="form_chart"),
-    path('project/<int:project_id>/form/<pk>/dashboard', views.create_xform.as_view(), name="form_dashboard"),
+    path('project/<int:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
+    path('project/<int:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
     
     
     

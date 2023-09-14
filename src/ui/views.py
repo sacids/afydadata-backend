@@ -1,4 +1,6 @@
 import json
+import operator
+from functools import reduce
 from django.shortcuts import render
 from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
@@ -14,8 +16,9 @@ from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
 from django.db.models import Q
 from .forms import *
-from functools import reduce
-import operator
+
+from src.surveys.utils import *
+
 
 
 # Create your views here.
@@ -57,7 +60,7 @@ class ProjectListView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super(ProjectListView, self).get_context_data(**kwargs)
         
-        context['title'] = 'My Projects'
+        context['title'] = 'Projects'
         context['breadcrumb'] = {'My Projects': 0,}
         context['datatable_list']   = "projectList"
         
@@ -92,8 +95,10 @@ class ProjectCreateView(generic.CreateView):
             project.created_by = self.request.user
             project.save()
 
-        return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
-    
+            # return response
+            return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
+        return render(request, self.template_name, {'form': form, 'btn_create': "Create Project"}) 
+            
                                                      
 class ProjectDetailView(generic.TemplateView):
     template_name = "pages/start.html"
@@ -122,36 +127,61 @@ class ProjectDetailView(generic.TemplateView):
         
         j = self.request.path.split('/')
         j.reverse()
-        if(j[0] == 'members'):
+
+        if j[0] == 'members':
             context['datatable_list']    = "projectMemberslist"
             context['pg_actions']   = {'Add Member': reverse('create_xform', args=[project_id]),}
+        elif  j[0] == 'groups':   
+            context['datatable_list']    = "projectMemberslist"
+            context['pg_actions']   = {'Add Group': reverse('create_xform', args=[project_id]),}
         else:      
             context['datatable_list']    = "surveylist"
             context['pg_actions']   = {
                 'Upload XForm': reverse('create_xform', args=[project_id]),
-                # 'Add Form': reverse('create_xform', args=[project_id]),
-                #'Add Form': "'create_xform' pk="+project_id,
             }
-            
+
         context['extra_data']   = {'project_id': project_id,}
         
         return context
     
 
-class create_xform(generic.CreateView):
+class ProjectDeleteView(generic.View):
+    """Delete Project"""
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(ProjectDeleteView, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        project_id = kwargs['pk']
+
+        print("project id == ", project_id)
+        print(project_id)
+
+        try:
+            project = Project.objects.get(pk=project_id)
+            project.delete()
+
+            """response"""
+            return JsonResponse({"error": False, "success_msg": "Project deleted"}, safe=False)
+        except:
+            """response"""
+            return JsonResponse({"error": True, "error_msg": "Failed to delete project"}, safe=False)
+
+
+class XformCreateView(generic.CreateView):
     template_name   = 'forms/create_instance.html'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(create_xform, self).dispatch( *args, **kwargs)
+        return super(XformCreateView, self).dispatch( *args, **kwargs)
     
     def get(self, request, *args, **kwargs):
-        pk = kwargs['pk']
-        context = {'form': SurveyForm(), 'btn_create': "Upload", 'project_id': pk}
+        context = {'form': SurveyForm(), 'btn_create': "Upload", 'project_id': kwargs['pk']}
         return render(request, self.template_name, context)
     
     def post(self, request, *args, **kwargs):
         form = SurveyForm(request.POST, request.FILES)
+
         if form.is_valid():
             project_id                  = self.kwargs['pk']
             cur_project                 = Project.objects.get(pk=project_id)
@@ -167,14 +197,15 @@ class create_xform(generic.CreateView):
             cur_obj.form_id     = survey_cfg['form_id']
             cur_obj.save()
 
+            # save survey questions
             self.save_survey_qns(cur_obj, survey_cfg['qns'])
 
-        return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Form uploaded</div>')
+            return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Form uploaded</div>')
+        return render(request, self.template_name, {'form': form, 'btn_create': "Upload", 'project_id': kwargs['pk']}) 
     
 
-    
     def save_survey_qns(self, survey, survey_qns):
-
+        """saving survey question to database"""
         for obj in survey_qns:
             sq  = SurveyQuestions.objects.create(
                 survey=survey,
@@ -187,10 +218,10 @@ class create_xform(generic.CreateView):
                 options=obj['options'],
                 page=obj['page'],
                 order=obj['order'],
-                label=obj['label'])
+                label=obj['label']
+            )
     
-        
-                                                       
+                                                         
 def manage_project_member(request, pk):
     
     context             = {}

@@ -14,13 +14,13 @@
         </div>
 
         <div class="flex items-start space-x-2">
-            <button @click="sidebar=false;" class="text-white text-sm font-normal bg-red-500 hover:bg-red-400 rounded-sm w-full sm:w-auto px-4 py-2 text-center">
+            <button @click="sidebar=false;" class="text-sm font-semibold text-red-500  bg-white border border-red-500 hover:bg-red-500 hover:text-white text-sm font-normal rounded-sm w-full sm:w-auto px-4 py-2 text-center">
                 Cancel
             </button>
             
             <button
                 hx-post="{% url 'create_project' %}" hx-target='#create_project_div'
-                class="bg-slate-900 hover:bg-slate-700 text-white text-sm font-normal py-2 px-4 rounded-sm focus:outline-none focus:shadow-outline" 
+                class="bg-slate-900 hover:bg-slate-700 text-white text-sm font-semibold py-2 px-4 rounded-sm focus:outline-none focus:shadow-outline" 
                 type="button">
                 Submit
             </button>

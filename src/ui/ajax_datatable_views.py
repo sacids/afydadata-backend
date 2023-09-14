@@ -167,29 +167,21 @@ class ProjectList(AjaxDatatableView):
     def get_show_column_filters(self, request):
         return False
     
-    def customize_row(self, row, obj):
-        # 'row' is a dictionary representing the current row, and 'obj' is the current object.
-        #row['title'] = '<a href="%s">%s</a>' % (
-        #    reverse('event', args=(obj.id,)),
-        #    obj.title
-        #)
-
-        print(obj.pk)
-        
-        
+    def customize_row(self, row, obj):        
         absolute_url = reverse('project_detail', kwargs=({'pk': obj.id}))
         
         arr = '''<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
                 </svg>'''
 
-        row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.title)+'\','+str(obj.id)+')" >'+arr+'</span>'
+        #row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.title)+'\','+str(obj.id)+')" >'+arr+'</span>'
+        row['qv']           = '<span class="text-sm">'+arr+'</span>'
         row['title']        = '<a class="" href="'+absolute_url+'">'+str(obj.title)+'</a>'      
-        row['created_on']   = naturalday(obj.created_on)
+        row['created_on']   = naturalday(obj.created_on)        
         row['del']          = '''<svg xmlns="http://www.w3.org/2000/svg" 
                                     class="h-4 w-4 text-slate-300 hover:text-rose-900 hover:cursor-pointer" 
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" 
-                                    @click="discardSignal('+str(obj.id)+')">
+                                    @click="deleteProject('''+str(obj.id)+''')">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                                 </svg>'''
         

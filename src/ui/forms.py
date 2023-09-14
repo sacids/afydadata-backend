@@ -40,7 +40,7 @@ class ProjectForm(forms.ModelForm):
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
-        border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
+        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
         focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
         """
         model = Project
@@ -52,8 +52,8 @@ class ProjectForm(forms.ModelForm):
         }
 
         labels = {
-            'title': 'Project Title',
-            'description': 'Description',
+            'title': 'Title ',
+            'description': 'Description ',
         }
 
 
@@ -67,8 +67,8 @@ class SurveyForm(forms.ModelForm):
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
-        border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
-        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal
         """
 
         model = Survey
@@ -81,9 +81,9 @@ class SurveyForm(forms.ModelForm):
         }
 
         labels = {
-            'title': 'Form Title',
-            'xform': 'Xform',
-            'description': 'Description',
+            'title': 'Form Title ',
+            'xform': 'Xform ',
+            'description': 'Description ',
         }
 
 

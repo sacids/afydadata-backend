@@ -13,7 +13,6 @@
     </div>
 </div>
 
-
 <!-- Datatable config -->
 <script language="javascript">
     $(document).ready(function () {
@@ -33,7 +32,7 @@
                 // extra_data
                 {% for k, v in extra_data.items %}
                     {{ k }}: '{{v}}',
-                {% endfor %}
+        {% endfor %}
             },
     );
 
@@ -42,7 +41,6 @@
         tt.search($(this).val()).draw()
     })
     });
-
 
     function manageTable() {
         return {
@@ -67,6 +65,38 @@
                 $('#data-detail').html(url);
             },
 
+            //deleting project
+            deleteProject(id) {
+                Swal.fire({
+                    title: 'Deleting Project',
+                    html: "Are sure you want to delete project?",
+                    icon: 'success',
+                    showCancelButton: true,
+                    confirmButtonColor: '#4CAF50',
+                    cancelButtonColor: '#F44336',
+                    confirmButtonText: 'Yes',
+                    cancelButtonText: 'No',
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        console.log("project-id => " + id)
+                        //fetching to URL
+                        fetch("/project/delete/" + id,
+                            { method: "GET", credentials: 'same-origin' })
+                            .then(res => res.json())
+                            .then(response => {
+                                //display message
+                                console.log(response);
+
+
+                                // Refresh the page
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 1000);
+                            });
+                    }
+                });
+            },
+
         }
     }
 </script>
@@ -75,10 +105,11 @@
 
 {% block sidebar %}
 <div class="border-b h-10 flex justify-between">
-    <p class="py-2 px-4 text-rose-900 " id="sidebar-title"></p>
+    <p class="py-2 px-4 text-red-900 text-base font-semibold" id="sidebar-title"></p>
+
     <div class="">
         <button type="button"
-            class="border-l hover:text-gray-100 hover:bg-rose-900 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center"
+            class="border-l hover:text-gray-100 hover:bg-red-900 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center"
             @click="sidebar = false">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-5 h-5">
@@ -90,4 +121,11 @@
 
 <div class="h-full overflow-hidden" id="data-detail">
 </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  
+</script>
+
 {% endblock %}

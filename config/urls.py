@@ -14,6 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from rest_framework import renderers
+from django.conf import settings
+from django.conf.urls.static import static 
 
 from django.contrib import admin
 from django.urls import include, path
@@ -64,4 +66,4 @@ urlpatterns = [
     path('formList',api_surveys.form_list, name="form_list"),
     path('formGet/<id>', api_surveys.form_get, name="form_get")
     
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

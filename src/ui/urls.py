@@ -32,20 +32,20 @@ urlpatterns = [
     path('project/delete/<str:pk>', views.ProjectDeleteView.as_view(), name="delete_project"),
     path('project/<pk>/groups', views.ProjectDetailView.as_view(), name="list_groups"),
     path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
-    path('member/manage/<int:pk>', views.manage_project_member, name="manage_members"), 
-    path('project/<pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
+    path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"), 
+    path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
     
     
     # Form
-    path('project/<int:project_id>/form/<pk>/data', views.form_data.as_view(), name="form_data"),
+    path('project/<str:project_id>/form/<str:pk>/data', views.form_data.as_view(), name="form_data"),
     
-    path('form_data/<pk>', views.form_data_list, name="form_data_list"),
+    path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     
-    path('project/<int:project_id>/form/<pk>/map', views.XformCreateView.as_view(), name="form_map"),
-    path('project/<int:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
-    path('project/<int:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
-    path('project/<int:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
+    path('project/<str:project_id>/form/<pk>/map', views.XformCreateView.as_view(), name="form_map"),
+    path('project/<str:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
+    path('project/<str:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
+    path('project/<str:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
     
     
     
@@ -60,7 +60,7 @@ urlpatterns = [
     
     
     # form mapping
-    path('form/mapping/<int:pk>',views.SurveyQuestionsUpdateView.as_view(), name="update_mapping"),
+    path('form/mapping/<str:pk>',views.SurveyQuestionsUpdateView.as_view(), name="update_mapping"),
     
     
     

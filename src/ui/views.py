@@ -236,7 +236,7 @@ class form_data(generic.TemplateView):
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(start, self).dispatch( *args, **kwargs)
+        return super(form_data, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(form_data, self).get_context_data(**kwargs)
@@ -274,7 +274,7 @@ class form_mapping(generic.TemplateView):
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(start, self).dispatch( *args, **kwargs)
+        return super(form_mapping, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
         context = super(form_mapping, self).get_context_data(**kwargs)

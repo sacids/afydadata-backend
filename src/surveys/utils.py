@@ -373,9 +373,6 @@ def calculate_digest(username,password):
 
 def do_authenticate(request):
 
-    u   = User.objects.get(pk=9)
-    return u
-
     header       = request.headers
     if 'Authorization' in header:
         authorization = header['Authorization']
@@ -395,7 +392,7 @@ def do_authenticate(request):
     A3      = hashlib.md5((A1+":"+parts['nonce']+":"+parts['nc']+":"+parts['cnonce']+":"+parts['qop']+":"+A2).encode()).hexdigest()
 
     if A3   == parts['response']:
-        #print('authentication success')
+        print('authentication success')
         return u
     else:
         return False

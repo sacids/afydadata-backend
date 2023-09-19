@@ -8,6 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
+from django.contrib.auth import authenticate, login, logout
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -79,6 +80,38 @@ class ChangePasswordView(generics.UpdateAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
     
+    
+    
+
+@csrf_exempt  
+def login_user(request):
+    
+    code        = request.POST.get('code')
+    mobile      = request.POST.get('mobile')
+    passwd1     = request.POST.get('password')
+    
+    res         = {}
+    print(code+' '+mobile+' '+passwd1)
+    if not code or not mobile or not passwd1:
+        res['error']        = 'true'
+        res['error_msg']    = 'Required parameters are missing'
+        code                = 203
+    else:
+        user = authenticate(request, username=mobile, password=passwd1)
+
+        if user is not None:
+            res['error']    = 'false'
+            res['uid']      = user.pk
+            res['user']     = {'username':user.username,'first_name':user.first_name,'last_name':user.last_name}
+            code            = 200
+        else:
+            res['error']        = 'true'
+            res['error_msg']    = 'Invalid username or password'
+            code                = 203
+            
+    return JsonResponse(res,safe=False,status=code)
+    
+        
 @csrf_exempt  
 def register_user(request):
     

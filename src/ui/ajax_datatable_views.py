@@ -69,7 +69,7 @@ class SurveyList(AjaxDatatableView):
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
                 </svg>'''
 
-        row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\','+str(obj.id)+')" >'+arr+'</span>'
+        row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\',\''+str(obj.id)+'\')" >'+arr+'</span>'
         row['title']        = '<a class="" href="'+absolute_url+'" >'+str(obj.title)+'</a>'      
         row['created_on']   = naturalday(obj.created_on)
         row['del']          = '''<svg xmlns="http://www.w3.org/2000/svg" 
@@ -174,7 +174,7 @@ class ProjectList(AjaxDatatableView):
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
                 </svg>'''
 
-        #row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.title)+'\','+str(obj.id)+')" >'+arr+'</span>'
+        #row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.title)+'\',\''+str(obj.id)+'\')" >'+arr+'</span>'
         row['qv']           = '<span class="text-sm">'+arr+'</span>'
         row['title']        = '<a class="" href="'+absolute_url+'">'+str(obj.title)+'</a>'      
         row['created_on']   = naturalday(obj.created_on)        
@@ -202,8 +202,8 @@ class FormMappingList(AjaxDatatableView):
         {'name': 'qv','title':'','visible': True, 'className':'w-3 text-left text-rose-800 cursor-pointer','placeholder':'True','searchable': False,},
         {'name': 'ref', 'visible': True,'className':'text-left cursor-pointer' },
         {'name': 'col_name', 'title': 'Column Name','visible': True,'className':'text-left ' },
+        {'name': 'col_type', 'title':'Column Type','visible': True, 'className':'text-left'  },
         {'name': 'label', 'title':'Label','visible': True, 'className':'w-[100px] text-left'  },
-        {'name': 'col_type', 'title':'Column Type','visible': True, 'className':'w-[100px] text-left'  },
         {'name': 'options', 'visible': True,'className':'text-left cursor-pointer' },
         {'name': 'hint', 'visible': True,'className':'text-left ' },
         {'name': 'constraints', 'visible': True,'className':'text-left cursor-pointer' },
@@ -228,9 +228,7 @@ class FormMappingList(AjaxDatatableView):
                 </svg>'''
 
         row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.col_name)+'\',\''+url+'\')" >'+arr+'</span>'
-        
-        
-        
+         
     def get_initial_queryset(self, request=None):
 
         # We accept either GET or POST
@@ -244,7 +242,6 @@ class FormMappingList(AjaxDatatableView):
             queryset = queryset.filter(survey__id=form_id)
 
         return queryset    
-        
         
       
 
@@ -298,7 +295,7 @@ class formData(AjaxDatatableView):
                 break
         
 
-        row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.instance_id)+'\','+str(obj.id)+')" >'+arr+'</span>'
+        row['qv']           = '<span class="text-sm" @click="sidebar = true, dataDetail(\''+str(obj.instance_id)+'\',\''+str(obj.id)+'\')" >'+arr+'</span> ddd'
         row['instance_id']  = '<span class="text-sm line-clamp-1" @click="sidebar = true, dataDetail(\''+str(obj.instance_id)+'\',\''+absolute_url+'\')">'+obj.instance_id+'</span>'      
         row['response']     = content
         #row['age']          = obj.response['age']
@@ -324,53 +321,4 @@ class formData(AjaxDatatableView):
             queryset = queryset.filter(survey__id=form_id)
 
         return queryset
-       
-'''
-class RumorList(AjaxDatatableView):
-    model                       = Surveys
-    title                       = 'Rumors'
-    show_column_filters         = False
-    initial_order               = [["created_on", "desc"], ]
-    length_menu                 = [[11, 50, 100, -1], [11, 50, 100, 'all']]
-    search_values_separator     = '+'
-    full_row_select             = False
-    
-    column_defs = [
-        {'name': 'id', 'visible': False, },
-        {'name': 'contents', 'title':'Contents','visible': True, 'className':'text-left flex-1'  },
-        #{'name': 'contents', 'title':'Contents','visible': True, 'className':' text-left'  },
-        {'name': 'css_icon', 'title':'','visible': True, 'className':'w-4 text-left','searchable': False,  },
-        {'name': 'relevance', 'title':'#','visible': True, 'className':'w-4 text-left'  },
-        {'name': 'created_on','title':'Updated','visible': True, 'className':'w-[90px] text-left'  },
-        {'name': 'd','title':'','visible': True, 'className':'w-4 text-left','placeholder':'True','searchable': False,},
-    ]
-    
-    def get_show_column_filters(self, request):
-        return False
-    
-    def customize_row(self, row, obj):
-        # 'row' is a dictionary representing the current row, and 'obj' is the current object.
-        #row['title'] = '<a href="%s">%s</a>' % (
-        #    reverse('event', args=(obj.id,)),
-        #    obj.title
-        #)
-        row['contents']     = '<span class=" line-clamp-1" @click="sidebarOpen = true, manageRumor('+str(obj.id)+')" >'+str(obj.contents['text'])+'</span>'
-        row['css_icon']     = '<i class="'+obj.css_icon+'">'
-        row['created_on']   = naturalday(obj.created_on)
-        row['d']            = '<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-slate-200 hover:text-slate-500 hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" @click="discardSignal('+str(obj.id)+')"><path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>'
-        
-    def get_initial_queryset(self, request=None):
-
-        # We accept either GET or POST
-        if not getattr(request, 'REQUEST', None):
-            request.REQUEST = request.GET if request.method=='GET' else request.POST
-
-        queryset = self.model.objects.all()
-
-        if 'status' in request.REQUEST:
-            status = request.REQUEST.get('status')
-            queryset = queryset.filter(status=status)
-
-        return queryset
-        
-'''
+ 

@@ -396,11 +396,32 @@ def instance_messages(request,pk):
 
                                              
 def instance_location(request,pk):
-    pass 
+    context     = {}
+    context['locations']     = get_loc_from_instance(pk)
+    print(context['locations'])
+    return render(request, 'pages/instance_map.html', context)
 
                                              
 def instance_media(request,pk):
     pass 
+
+
+def get_loc_from_instance(pk):
+    
+    instance        = SurveyResponses.objects.get(pk=pk)
+    questions       = SurveyQuestions.objects.filter(survey__id=instance.survey.id).values()
+    loc_arr         = []
+    for item in questions:
+        if item['col_type'] == 'geopoint':
+            tmp         = {}
+            cn          = item['col_name']
+            tmp['desc'] = cn
+            loc         = instance.response[cn]
+            loc         = " ".join(loc.split(" ", 2)[:-1])
+            tmp['gps']  = loc.replace(" ",", ")
+            loc_arr.append(tmp)
+            
+    return loc_arr
 
 def get_data_from_instance(pk):
     instance                    = SurveyResponses.objects.get(pk=pk)

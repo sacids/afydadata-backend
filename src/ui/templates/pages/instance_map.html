@@ -1,0 +1,27 @@
+{% load static %}
+
+
+
+
+<div class="h-full w-full" id="map">
+</div>
+
+<script>
+    
+    {% for location in locations %}
+        {% if forloop.counter == 1 %}
+            var map = L.map('map').setView([{{location.gps}}], 13);
+        {% endif %}
+
+        var marker_{{forloop.counter}} = L.marker([{{location.gps}}]).addTo(map);
+        marker_{{forloop.counter}}.bindPopup("{{location.desc}}");
+
+    {% endfor %}
+    
+    
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+</script>

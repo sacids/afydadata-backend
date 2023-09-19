@@ -12,4 +12,8 @@ def make_title(value):
 
 @register.filter(name='get_value')
 def get_value(value,args):
-    return value.get(args)
+    tmp     = value.get(args)
+    #if tmp is not None:
+    #    tmp = tmp.replace(" ",", ")
+    #    tmp = tmp.replace("_", " ")
+    return tmp

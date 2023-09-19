@@ -25,9 +25,9 @@ class Profile(models.Model):
     pic         = models.ImageField(upload_to="img/")
     location    = models.CharField(max_length=30, blank=True)
 
-    def save(self, *args, **kwargs):
-        self.digest         = calculate_digest(self.user.username, self.user.password)
-        super(Profile, self).save(*args, **kwargs)
+    #def save(self, *args, **kwargs):
+    #    self.digest         = calculate_digest(self.user.username, self.user.password)
+    #    super(Profile, self).save(*args, **kwargs)
 
     class Meta:
         db_table = 'ad_profile'

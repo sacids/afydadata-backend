@@ -8,7 +8,8 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate
+from src.surveys.utils import calculate_digest
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -91,7 +92,6 @@ def login_user(request):
     passwd1     = request.POST.get('password')
     
     res         = {}
-    print(code+' '+mobile+' '+passwd1)
     if not code or not mobile or not passwd1:
         res['error']        = 'true'
         res['error_msg']    = 'Required parameters are missing'
@@ -146,7 +146,12 @@ def register_user(request):
             code                = 203
             
         except User.DoesNotExist:
-            new_user    = User.objects.create_user(username=mobile,password=passwd1,first_name=fname,last_name=lname)
+            new_user        = User.objects.create_user(username=mobile,password=passwd1,first_name=fname,last_name=lname)
+            # set digest
+            profile         = Profile.objects.get(user=new_user)
+            profile.digest  = calculate_digest(new_user.username, passwd1)
+            profile.save()
+            
             res['error']    = 'false'
             res['uid']      = new_user.pk
             res['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}

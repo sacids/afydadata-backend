@@ -8,6 +8,7 @@ from django.urls import reverse
 # Create your models here.
 class Project(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     title           = models.CharField(max_length=50)
     description     = models.TextField()
     created_on      = models.DateTimeField(auto_now=True,null=True)
@@ -28,6 +29,7 @@ class Project(models.Model):
 
 class ProjectGroup(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     project         = models.ForeignKey(Project, related_name='project_groups', on_delete=models.CASCADE)
     title           = models.CharField(max_length=100)
     class Meta:
@@ -40,6 +42,7 @@ class ProjectGroup(models.Model):
 
 class ProjectMember(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     project         = models.ForeignKey(Project, related_name='project_member', on_delete=models.CASCADE,default=1)
     projectGroup    = models.ManyToManyField(ProjectGroup, related_name='pm_groups')
     member          = models.ForeignKey(User, on_delete=models.DO_NOTHING)

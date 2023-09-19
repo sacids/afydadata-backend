@@ -64,6 +64,10 @@ urlpatterns = [
     path('api/token/refresh', TokenRefreshView.as_view(), name='token_refresh'),
 
     path('formList',api_surveys.form_list, name="form_list"),
-    path('formGet/<id>', api_surveys.form_get, name="form_get")
+    path('formGet/<id>', api_surveys.form_get, name="form_get"),
+    
+    
+    
+    path('api/v3/auth/register', api_accounts.register_user, name="register_user"),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

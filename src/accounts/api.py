@@ -7,6 +7,7 @@ from rest_framework.response import Response
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
 from django.forms.models import model_to_dict
+from django.http import JsonResponse
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -76,3 +77,47 @@ class ChangePasswordView(generics.UpdateAPIView):
             return Response(response)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    
+@csrf_exempt  
+def register_user(request):
+    
+    # get phone number
+    # get code
+    # get password
+    code        = request.POST.get('code')
+    mobile      = request.POST.get('mobile')
+    passwd1     = request.POST.get('password')
+    passwd2     = request.POST.get('password_confirm')
+    fname       = request.POST.get('first_name')
+    lname       = request.POST.get('last_name')
+    
+    res         = {}
+    code        = 200
+    #print(code+' '+mobile+' '+passwd1+' '+passwd2+' '+lname)
+    if passwd1 != passwd2:
+        # return password mismatch
+        res['error']        = 'true'
+        res['error_msg']    = 'Password Mismatch'
+        code                = 203
+        
+    
+    # check mobile number validity
+  
+    # check if user exists
+    else:
+        try:
+            User.objects.get(username = mobile)
+            res['error']        = 'true'
+            res['error_msg']    = 'Mobile number already registered'
+            code                = 203
+            
+        except User.DoesNotExist:
+            new_user    = User.objects.create_user(username=mobile,password=passwd1,first_name=fname,last_name=lname)
+            res['error']    = 'false'
+            res['uid']      = new_user.pk
+            res['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}
+            code            = 200
+    
+    return JsonResponse(res,safe=False,status=code)
+    

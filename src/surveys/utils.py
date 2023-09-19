@@ -335,6 +335,7 @@ class OpenRosaResponseNotAllowed(OpenRosaResponse):
 
 class RequestAuthentication(BaseOpenRosaResponse):
     status_code = 401
+    
     def __init__(self, *args, **kwargs):
         super(RequestAuthentication, self).__init__(*args, **kwargs)
         self['WWW-Authenticate']    = DIGEST_AUTHENTICATION
@@ -367,7 +368,7 @@ def handle_response_files(xml, media_files):
 
 def calculate_digest(username,password):
     #print(password)
-    tmp         = username+":"+settings.DIGEST_REALM+":kitimoto"
+    tmp         = username+":"+settings.DIGEST_REALM+":"+password
     digest      = hashlib.md5(tmp.encode()).hexdigest()
     return digest
 
@@ -381,6 +382,9 @@ def do_authenticate(request):
 
     tmp1    = authorization[7:].replace(', ',"&").replace('"','')
     parts   = dict(urllib.parse.parse_qsl(tmp1))
+    
+    print(parts)
+    
     try:
         u   = User.objects.get(username=parts['username'])
     except User.DoesNotExist:

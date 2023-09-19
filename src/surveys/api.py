@@ -167,27 +167,18 @@ def form_submission(request):
 @csrf_exempt
 def form_list(request):
 
-    if request.method == 'HEAD':
-        header                    = request.headers
-        if 'Authorization' in header:
-            response                = OpenRosaResponse(status=204)
-            response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
-        else:
-            response                = RequestAuthentication(status=401)
-            response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
-        return response
     
-    if request.method != 'GET':
-        response                    = BadRequest(status=401)
-        response['Location']        = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
+    if 'Authorization' in request.headers:
+        # authenticate
+        current_user = do_authenticate(request)
+    else:
+        response                = RequestAuthentication(status=401)
+        response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/formList')
         return response
-    
-    # authenticate
-    current_user = do_authenticate(request)
 
     if not current_user:
         response                = OpenRosaResponse(status=401)
-        response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
+        response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/formList')
         return response
 
     # check form permissions
@@ -206,6 +197,8 @@ def form_get(request, id):
 
     survey  = get_object_or_404(Survey, pk=id)
 
+    print(survey)
+    
     if os.path.exists(survey.xform.path):
         response = HttpResponse(survey.xform.read(), content_type="text/xml; charset=utf-8")
         response['Content-Disposition'] = 'inline; filename=' + os.path.basename(survey.xform.path)

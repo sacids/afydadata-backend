@@ -12,6 +12,7 @@ from django.dispatch import receiver
 # Create your models here.
 class Survey(models.Model):
     id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     project     = models.ForeignKey('projects.Project', related_name='project',default=1, on_delete=models.CASCADE)
     title       = models.CharField(max_length=50)
     form_id     = models.CharField(max_length=250)
@@ -48,6 +49,8 @@ class SurveyQuestions(models.Model):
     )
 
     id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
+    
     survey      = models.ForeignKey('Survey', related_name='survey_questions', on_delete=models.CASCADE)
     ref         = models.CharField(max_length=100,blank=True, null=True)
     col_name    = models.CharField(max_length=50)
@@ -68,6 +71,8 @@ class SurveyQuestions(models.Model):
 
 class SurveyResponses(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
+    
     survey          = models.ForeignKey('Survey', related_name='survey_responses', on_delete=models.CASCADE)
     instance_id     = models.CharField(max_length=100,blank=False,null=False)
     response        = models.JSONField(null=False)
@@ -86,6 +91,7 @@ class SurveyResponses(models.Model):
 
 class SurveyFilter(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     survey          = models.ForeignKey('Survey', related_name='survey_filters', on_delete=models.CASCADE)
     title           = models.CharField(max_length=100,blank=False,null=False)
     data_filter     = models.TextField()
@@ -100,6 +106,7 @@ class SurveyFilter(models.Model):
 
 class SurveyPerm(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    #id              = models.TextField(primary_key=True)
     survey          = models.ForeignKey('Survey', related_name='survey_perms', on_delete=models.CASCADE)
     project_group   = models.ForeignKey('projects.ProjectGroup', related_name='project_group', on_delete=models.CASCADE)
     data_filter     = models.ForeignKey('SurveyFilter', related_name='filter', on_delete=models.DO_NOTHING)

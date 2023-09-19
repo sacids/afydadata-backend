@@ -206,7 +206,7 @@ class FormMappingList(AjaxDatatableView):
         {'name': 'col_type', 'title':'Column Type','visible': True, 'className':'w-[100px] text-left'  },
         {'name': 'options', 'visible': True,'className':'text-left cursor-pointer' },
         {'name': 'hint', 'visible': True,'className':'text-left ' },
-       {'name': 'constraints', 'visible': True,'className':'text-left cursor-pointer' },
+        {'name': 'constraints', 'visible': True,'className':'text-left cursor-pointer' },
         {'name': 'required', 'visible': True,'className':'text-left ' },
         {'name': 'order', 'title':'Order','visible': True, 'className':'w-[100px] text-left'  },
         {'name': 'page','title':'Page','visible': True, 'className':'w-4 text-left','placeholder':'True','searchable': False,},

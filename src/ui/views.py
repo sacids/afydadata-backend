@@ -291,7 +291,7 @@ class form_mapping(generic.TemplateView):
         context['datatable_list']   = 'FormMappingList'
         context['links']            = _get_form_links_context(cur_form,form_id)
         
-        print(context['links'])
+        #print(context['links'])
         
         context['pg_actions']   = {
             #'Add Form': "'create_xform' pk="+project_id,
@@ -455,10 +455,11 @@ class SurveyQuestionsUpdateView(generic.UpdateView):
     
     def get_context_data(self, **kwargs):
         context = super(SurveyQuestionsUpdateView, self).get_context_data(**kwargs)
-        context['btn_create'] = "Update"
+        context['btn_create']   = "Update"
+        context['uuid']         = self.kwargs['pk']
         
         return context
-    
+     
     def get_success_url(self):
         pk = self.kwargs['pk']
         return reverse('update_mapping', kwargs={'pk': pk})

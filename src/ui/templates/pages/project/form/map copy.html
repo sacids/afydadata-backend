@@ -1,0 +1,110 @@
+{% extends 'layout/base.html' %}
+{% load custom_tags %}
+
+{% block nav %}
+{% include "partials/nav.html" %}
+{% endblock %}
+
+{% block contents %}
+<div class="h-full w-full z-10" id="form_map">
+</div>
+
+<!-- Datatable config -->
+<script language="javascript">
+
+    $(document).ready(function () {
+    
+
+        {% for items in form_data %}
+            {% with view_point="1" %}
+                {% if forloop.counter > 1 %}
+                    view_point = "2"
+                {% endif %}
+
+                {% for point in geopoints %}
+                    {% if view_point == "1" %}
+                        var map = L.map('form_map').setView({{items|get_view:point.col_name}}, 13);
+                    {% endif %}
+
+                    L.marker({{items|get_location:point.col_name}}).addTo(map).on('click', onClick );
+
+                {% endfor %}
+            {% endwith %}
+        {% endfor %}
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        function onClick(e) {
+
+            console.log('jembe '+this.options.id);
+
+            var myVarFromJS = Alpine.store.sidebar;
+            Alpine.storesidebar = false
+            window.dispatchEvent(new CustomEvent('event-name'))
+
+            $('#sidebar-title').html("Survey "+this.options.id);
+
+            /**
+            console.log(url)
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    $('#data-detail').html(data)
+                    htmx.process('#data-detail');
+                })
+                **/
+        };
+
+
+    
+        
+
+    });
+
+    function manageTable() {
+        return {
+
+            map: null,
+            jem: 'jama',
+
+            initMap(){
+
+            },
+        }
+
+    };
+
+
+</script>
+{% endblock %}
+
+
+{% block sidebar %}
+<div class="border-b h-10 flex justify-between">
+    <p class="py-2 px-4 text-red-900 text-base font-semibold" id="sidebar-title"></p>
+
+    <div class="">
+        <button type="button"
+            class="border-l hover:text-gray-100 hover:bg-red-900 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center"
+            @click="sidebar = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div class="h-full overflow-hidden" id="data-detail">
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  
+</script>
+
+{% endblock %}

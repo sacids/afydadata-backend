@@ -42,10 +42,11 @@ urlpatterns = [
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     
-    path('project/<str:project_id>/form/<pk>/map', views.XformCreateView.as_view(), name="form_map"),
+    path('project/<str:project_id>/form/<pk>/map', views.form_map.as_view(), name="form_map"),
     path('project/<str:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
     path('project/<str:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
     path('project/<str:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
+    path('project/<str:project_id>/form/<pk>/perms', views.form_perms.as_view(), name="form_perms"),
     
     
     

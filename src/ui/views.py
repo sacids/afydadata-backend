@@ -16,6 +16,7 @@ from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
 from django.db.models import Q
 from .forms import *
+from django.contrib.humanize.templatetags.humanize import naturalday
 
 from src.surveys.utils import *
 
@@ -329,20 +330,6 @@ class form_map(generic.TemplateView):
         
         context['links']            = _get_form_links_context(cur_form,form_id)
         
-        ''' instance        = SurveyResponses.objects.get(pk=pk)
-    questions       = SurveyQuestions.objects.filter(survey__id=instance.survey.id).values()
-    loc_arr         = []
-    for item in questions:
-        if item['col_type'] == 'geopoint':
-            tmp         = {}
-            cn          = item['col_name']
-            tmp['desc'] = cn
-            loc         = instance.response[cn]
-            loc         = " ".join(loc.split(" ", 2)[:-1])
-            tmp['gps']  = loc.replace(" ",", ")
-            loc_arr.append(tmp)
-            
-    return loc_arr'''
     
         # get col_names of survey questions that are geo points
         context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
@@ -464,6 +451,7 @@ class data_instance_wrp(generic.TemplateView):
         id      = self.kwargs['pk']
         con     = get_data_from_instance(id)
         context['id']   = id
+        context['notes']    = _get_survey_notes(id)
         for k,v in con.items():
             context[k]  = v
         
@@ -477,10 +465,41 @@ def instance_data(request,pk):
 
                                              
 def instance_messages(request,pk):
-    context     = {}
-    context     = get_data_from_instance(pk)
     
-    return render(request, 'pages/instance_messages.html', context)
+    if request.method == 'POST':
+        print(pk)
+        sr = SurveyResponses.objects.get(pk=pk)
+        print(sr.id)
+        sr.notes.create(message=request.POST.get('message'), created_by=request.user)
+        return JsonResponse(1, safe=False)
+    else: 
+        context     = {}
+        
+        return render(request, 'pages/instance_messages.html', context)
+
+def _get_survey_notes(pk):
+    sr_obj      = SurveyResponses.objects.get(pk=pk)
+    all_notes   = sr_obj.notes.all().order_by('-created_at')
+    notes       = []
+
+    for n in all_notes:
+        tmp = {
+            "message":      n.message,
+            "initials":     n.created_by.first_name[0].upper()+n.created_by.last_name[0].upper(),
+            "name":         n.created_by.first_name+' '+n.created_by.last_name,
+            "created_on":   naturalday(n.created_at),
+        }
+        notes.append(tmp)
+        
+    return notes
+
+def instance_messages_add(request):
+    if request.method == 'POST':
+        sr = SurveyResponses.objects.get(pk=request.POST.get('survey_id'))
+        sr.notes.create(message=request.POST.get('message'), created_by=request.user)
+
+    return JsonResponse(1, safe=False)
+
 
                                              
 def instance_location(request,pk):

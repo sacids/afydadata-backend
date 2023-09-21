@@ -72,3 +72,74 @@
     </div>
 
 </div>
+
+<script>
+
+    htmx.process("#sidebar-detail")
+
+    function manageMessages(){
+
+        return{
+  
+           notes:            [], 
+           note_uploading:   false,
+           new_note:         "",
+  
+           fetchNotes(){
+              this.notes = [
+                 {% for note in notes %}
+                       {
+                          initials    : "{{ note.initials }}",
+                          name        : "{{ note.name }}",
+                          created_on  : "{{ note.created_on }}",
+                          message     : "{{ note.message }}",
+                       },
+                 {% endfor %}
+              ]
+           },
+  
+           addNote(){
+  
+              console.log('adding note');
+              this.note_uploading = true;
+              var url             = "{% url 'instance_messages' id %}";
+  
+              let formData    = new FormData();
+              formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+              formData.append("message", this.new_note);
+  
+              fetch(url, {
+                    method: 'POST',
+                    body: formData,
+                    credentials : 'same-origin',
+              })
+              .then(res => res.json())
+              .then(data => {
+  
+                 var tmp = {
+                    'initials': '{{user.first_name|upper|make_list|first}}{{user.last_name|upper|make_list|first}}',
+                    'name':     '{{user.first_name}} {{user.last_name}}',
+                    'message':  this.new_note,
+                    'created_on': 'Just now',
+                 };
+                 
+                 this.notes.unshift(tmp);
+                 this.new_note   = "";
+                 this.note_uploading     = false;
+              })
+              .catch(() => {
+                    console.log('upload error')
+              })
+              .finally(() => {
+                    this.note_uploading     = false;
+              })
+  
+           },
+  
+           init(){
+              this.fetchNotes();
+           },
+  
+        }
+     }
+</script>

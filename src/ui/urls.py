@@ -56,12 +56,17 @@ urlpatterns = [
     
     path('instance/data/<pk>', views.instance_data, name="instance_data"),
     path('instance/msg/<pk>', views.instance_messages, name="instance_messages"),
+    path('instance/msg/add', views.instance_messages_add, name="instance_messages_add"),
     path('instance/loc/<pk>', views.instance_location, name="instance_location"),
     path('instance/med/<pk>', views.instance_media, name="instance_media"),
     
     
     # form mapping
     path('form/mapping/<str:pk>',views.SurveyQuestionsUpdateView.as_view(), name="update_mapping"),
+    
+    
+    # ajax functions
+    
     
     
     

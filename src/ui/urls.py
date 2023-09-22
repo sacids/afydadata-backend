@@ -42,10 +42,11 @@ urlpatterns = [
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     
-    path('project/<str:project_id>/form/<pk>/map', views.XformCreateView.as_view(), name="form_map"),
+    path('project/<str:project_id>/form/<pk>/map', views.form_map.as_view(), name="form_map"),
     path('project/<str:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
     path('project/<str:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
     path('project/<str:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
+    path('project/<str:project_id>/form/<pk>/perms', views.form_perms.as_view(), name="form_perms"),
     
     
     
@@ -55,12 +56,17 @@ urlpatterns = [
     
     path('instance/data/<pk>', views.instance_data, name="instance_data"),
     path('instance/msg/<pk>', views.instance_messages, name="instance_messages"),
+    path('instance/msg/add', views.instance_messages_add, name="instance_messages_add"),
     path('instance/loc/<pk>', views.instance_location, name="instance_location"),
     path('instance/med/<pk>', views.instance_media, name="instance_media"),
     
     
     # form mapping
     path('form/mapping/<str:pk>',views.SurveyQuestionsUpdateView.as_view(), name="update_mapping"),
+    
+    
+    # ajax functions
+    
     
     
     

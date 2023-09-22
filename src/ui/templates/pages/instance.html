@@ -27,7 +27,7 @@
     <li     
         class="flex hover:text-rose-800 cursor-pointer"  
         :class="{ 'border-b-2 border-rose-900': link == 'location' }"
-        hx-get="{% url 'chat' %}" hx-target="#sidebar-detail" hx-trigger="click" 
+        hx-get="{% url 'instance_location' id %}" hx-target="#sidebar-detail" hx-trigger="click" 
         @click="link = 'location'">
         
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5">
@@ -41,7 +41,7 @@
     <li     
         class="flex hover:text-rose-800 cursor-pointer"  
         :class="{ 'border-b-2 border-rose-900': link == 'media' }"
-        hx-get="{% url 'chat' %}" hx-target="#sidebar-detail" hx-trigger="click" 
+        hx-get="{% url 'instance_media' id %}" hx-target="#sidebar-detail" hx-trigger="click" 
         @click="link = 'media'">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
@@ -59,9 +59,9 @@
             <p class="text-md text-rose-800 "> {{k|make_title}} </p>
             <div class="text-sm pb-3">
             {% for v in item %}
-                <div class="grid grid-cols-3 gap-4">
+                <div class="grid grid-cols-4 gap-4">
                     <p class="font-semibold"> {% if v.label == None %} {{ v.col_name|make_title}} {% else %} {{ v.label }}{% endif %}</p>
-                    <p class="col-span-2"> {{ data_instance|get_value:v.col_name}}</p>
+                    <p class="col-span-3"> {{ data_instance|get_value:v.col_name}}</p>
                 </div>
             {% endfor %}
             </div>
@@ -72,3 +72,74 @@
     </div>
 
 </div>
+
+<script>
+
+    htmx.process("#sidebar-detail")
+
+    function manageMessages(){
+
+        return{
+  
+           notes:            [], 
+           note_uploading:   false,
+           new_note:         "",
+  
+           fetchNotes(){
+              this.notes = [
+                 {% for note in notes %}
+                       {
+                          initials    : "{{ note.initials }}",
+                          name        : "{{ note.name }}",
+                          created_on  : "{{ note.created_on }}",
+                          message     : "{{ note.message }}",
+                       },
+                 {% endfor %}
+              ]
+           },
+  
+           addNote(){
+  
+              console.log('adding note');
+              this.note_uploading = true;
+              var url             = "{% url 'instance_messages' id %}";
+  
+              let formData    = new FormData();
+              formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+              formData.append("message", this.new_note);
+  
+              fetch(url, {
+                    method: 'POST',
+                    body: formData,
+                    credentials : 'same-origin',
+              })
+              .then(res => res.json())
+              .then(data => {
+  
+                 var tmp = {
+                    'initials': '{{user.first_name|upper|make_list|first}}{{user.last_name|upper|make_list|first}}',
+                    'name':     '{{user.first_name}} {{user.last_name}}',
+                    'message':  this.new_note,
+                    'created_on': 'Just now',
+                 };
+                 
+                 this.notes.unshift(tmp);
+                 this.new_note   = "";
+                 this.note_uploading     = false;
+              })
+              .catch(() => {
+                    console.log('upload error')
+              })
+              .finally(() => {
+                    this.note_uploading     = false;
+              })
+  
+           },
+  
+           init(){
+              this.fetchNotes();
+           },
+  
+        }
+     }
+</script>

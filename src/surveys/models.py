@@ -8,6 +8,9 @@ from django.utils.text import slugify
 from projects.models import Project, ProjectGroup
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from django.contrib.auth.models import Group
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.fields import GenericRelation
 
 # Create your models here.
 class Survey(models.Model):
@@ -79,6 +82,8 @@ class SurveyResponses(models.Model):
     created_on      = models.DateTimeField(auto_now=True)
     created_by      = models.ForeignKey(User, on_delete=models.DO_NOTHING)
 
+    notes           = GenericRelation('notes')    
+    
     class Meta:
         db_table = 'ad_surveyResponses'
         managed = True
@@ -115,3 +120,37 @@ class SurveyPerm(models.Model):
         db_table = 'ad_surveyPerms'
         managed = True
         app_label = 'surveys'
+        
+        
+
+class note(models.Model):
+    id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    message     = models.TextField(blank=True, null=True)
+    created_at  = models.DateTimeField(auto_now_add=True, null=True)
+    created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+
+    # Below the mandatory fields for generic relation
+    content_type    = models.ForeignKey(ContentType, on_delete=models.CASCADE,blank=True, null=True)
+    object_id       = models.UUIDField(blank=True, null=True)
+    content_object  = GenericForeignKey()
+
+
+    class Meta:
+        db_table = 'ad_notes'
+        verbose_name_plural = 'Notes'
+
+class notes(models.Model):
+    id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    message     = models.TextField(blank=True, null=True)
+    created_at  = models.DateTimeField(auto_now_add=True, null=True)
+    created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+
+    # Below the mandatory fields for generic relation
+    content_type    = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id       = models.UUIDField()
+    content_object  = GenericForeignKey()
+
+
+    class Meta:
+        db_table = 'ad_note'
+        verbose_name_plural = 'Notes'

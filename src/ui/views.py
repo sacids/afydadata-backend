@@ -16,6 +16,7 @@ from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
 from django.db.models import Q
 from .forms import *
+from django.contrib.humanize.templatetags.humanize import naturalday
 
 from src.surveys.utils import *
 
@@ -26,7 +27,7 @@ CHEVRON     = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 
 
 
 class DashboardView(generic.TemplateView):
-    template_name = "pages/dashboard.html"
+    template_name = "pages/project/dashboard.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -115,18 +116,20 @@ class ProjectDetailView(generic.TemplateView):
         
         context['title']            = cur_project.title   
         context['breadcrumb']       = {
+            
             cur_project.title: 0,
         }
            
         context['links']    = {
             'Dashboard':    reverse('project_dashboard'),
-            'My Project':   reverse('project_detail', kwargs={'pk':project_id}),
+            'Forms':        reverse('project_detail', kwargs={'pk':project_id}),
             'Members':      reverse('list_members', kwargs={'pk':project_id}),
             'Groups':       reverse('list_groups', kwargs={'pk':project_id}),
         }
         
         j = self.request.path.split('/')
         j.reverse()
+        print(j)
 
         if j[0] == 'members':
             context['datatable_list']    = "projectMemberslist"
@@ -232,7 +235,7 @@ def manage_project_member(request, pk):
                                     
                                                
 class form_data(generic.TemplateView):
-    template_name = "pages/data.html"
+    template_name = "pages/project/form/data.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -268,7 +271,7 @@ class form_data(generic.TemplateView):
         return context
 
    
-                                                     
+                                                   
 class form_mapping(generic.TemplateView):
     template_name = "pages/start.html"
 
@@ -278,6 +281,78 @@ class form_mapping(generic.TemplateView):
     
     def get_context_data(self, **kwargs):
         context = super(form_mapping, self).get_context_data(**kwargs)
+        
+        
+        form_id                     = self.kwargs['pk']
+        cur_form                    = Survey.objects.get(pk=form_id)
+        
+        context['breadcrumb']            = {
+            cur_form.project.title: reverse('project_detail', kwargs={'pk':cur_form.project.id}), 
+            cur_form.title: 0,
+        }
+        
+        context['datatable_list']   = 'FormMappingList'
+        context['links']            = _get_form_links_context(cur_form,form_id)
+        
+        #print(context['links'])
+        
+        context['pg_actions']   = {
+            #'Add Form': "'create_xform' pk="+project_id,
+        }
+         
+        context['extra_data']   = {
+            'project_id': cur_form.project.id,
+            'form_id': form_id,
+        }
+        
+        return context           
+     
+                                                   
+class form_map(generic.TemplateView):
+    template_name = "pages/project/form/map.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(form_map, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(form_map, self).get_context_data(**kwargs)
+        
+        
+        form_id                     = self.kwargs['pk']
+        cur_form                    = Survey.objects.get(pk=form_id)
+        
+        context['breadcrumb']            = {
+            cur_form.project.title: reverse('project_detail', kwargs={'pk':cur_form.project.id}), 
+            cur_form.title: 0,
+            "Map": 0,
+        }
+        
+        context['links']            = _get_form_links_context(cur_form,form_id)
+        
+    
+        # get col_names of survey questions that are geo points
+        context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
+        context['geopoints']    = get_geopoints(form_id)
+        return context   
+    
+
+def get_geopoints(form_id):
+        return SurveyQuestions.objects.filter(Q(survey__id=form_id) & Q(col_type='geopoint')).values('col_name')
+        
+        
+                
+     
+                                                
+class form_perms(generic.TemplateView):
+    template_name = "pages/start.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(form_perms, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(form_perms, self).get_context_data(**kwargs)
         
         
         form_id                     = self.kwargs['pk']
@@ -376,6 +451,7 @@ class data_instance_wrp(generic.TemplateView):
         id      = self.kwargs['pk']
         con     = get_data_from_instance(id)
         context['id']   = id
+        context['notes']    = _get_survey_notes(id)
         for k,v in con.items():
             context[k]  = v
         
@@ -389,18 +465,87 @@ def instance_data(request,pk):
 
                                              
 def instance_messages(request,pk):
-    context     = {}
-    context     = get_data_from_instance(pk)
     
-    return render(request, 'pages/instance_messages.html', context)
+    if request.method == 'POST':
+        print(pk)
+        sr = SurveyResponses.objects.get(pk=pk)
+        print(sr.id)
+        sr.notes.create(message=request.POST.get('message'), created_by=request.user)
+        return JsonResponse(1, safe=False)
+    else: 
+        context     = {}
+        
+        return render(request, 'pages/instance_messages.html', context)
+
+def _get_survey_notes(pk):
+    sr_obj      = SurveyResponses.objects.get(pk=pk)
+    all_notes   = sr_obj.notes.all().order_by('-created_at')
+    notes       = []
+
+    for n in all_notes:
+        tmp = {
+            "message":      n.message,
+            "initials":     n.created_by.first_name[0].upper()+n.created_by.last_name[0].upper(),
+            "name":         n.created_by.first_name+' '+n.created_by.last_name,
+            "created_on":   naturalday(n.created_at),
+        }
+        notes.append(tmp)
+        
+    return notes
+
+def instance_messages_add(request):
+    if request.method == 'POST':
+        sr = SurveyResponses.objects.get(pk=request.POST.get('survey_id'))
+        sr.notes.create(message=request.POST.get('message'), created_by=request.user)
+
+    return JsonResponse(1, safe=False)
+
 
                                              
 def instance_location(request,pk):
-    pass 
+    context     = {}
+    context['locations']     = get_loc_from_instance(pk)
+    return render(request, 'pages/instance_map.html', context)
 
-                                             
+
 def instance_media(request,pk):
-    pass 
+    context     = {}
+    context['media']     = get_media_from_instance(pk)
+    print(context['media'])
+    return render(request, 'pages/instance_media.html', context)
+
+
+def get_media_from_instance(pk):
+    
+    instance        = SurveyResponses.objects.get(pk=pk)
+    questions       = SurveyQuestions.objects.filter(survey__id=instance.survey.id).values()
+    loc_arr         = []
+    for item in questions:
+        if item['col_type'] == 'binary':
+            tmp         = {}
+            cn          = item['col_name']
+            tmp['desc'] = cn
+            tmp['media']  = instance.response[cn]
+            loc_arr.append(tmp)
+            
+    return loc_arr
+
+def get_loc_from_instance(pk):
+    
+    instance        = SurveyResponses.objects.get(pk=pk)
+    questions       = SurveyQuestions.objects.filter(survey__id=instance.survey.id).values()
+    loc_arr         = []
+    for item in questions:
+        if item['col_type'] == 'geopoint':
+            tmp         = {}
+            cn          = item['col_name']
+            tmp['desc'] = cn
+            loc         = instance.response[cn]
+            loc         = " ".join(loc.split(" ", 2)[:-1])
+            tmp['gps']  = loc.replace(" ",", ")
+            loc_arr.append(tmp)
+            
+    return loc_arr
 
 def get_data_from_instance(pk):
     instance                    = SurveyResponses.objects.get(pk=pk)
@@ -433,14 +578,17 @@ def _get_form_links_context(cur_form,form_id):
     
     links = {
                 'Dashboard':    reverse('form_dashboard', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-                'Data':         reverse('form_data', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-                'Map':          reverse('form_map', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Data':         reverse('form_data', kwargs={'project_id':cur_form.project.id,'pk':form_id}),         
+                'Map':          reverse('form_map', kwargs={'project_id':cur_form.project.id,'pk':form_id}),        
                 'Chart':        reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-                'Mapping Fields':        reverse('form_mapping', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-                'Permissions':        reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
-                'Triggers and Alerts':     reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Humanize Fields':        reverse('form_mapping', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                'Permissions':        reverse('form_perms', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
+                #'Triggers and Alerts':     reverse('form_chart', kwargs={'project_id':cur_form.project.id,'pk':form_id}),
             }
     
+    if get_geopoints(form_id).count() == 0:
+        links.pop('Map', None)
+        
     return links
 
 

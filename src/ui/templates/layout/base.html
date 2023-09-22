@@ -69,12 +69,12 @@
             {% block nav %}{% endblock %}
         </div>
 
-        <div class="relative flex h-full w-full overflow-hidden px-10">
+        <div class="relative flex h-full w-full overflow-hidden">
     
             {% block contents %}{% endblock %}
 
-            <div class="h-full w-0 border-l bg-white shadow-md overflow-hidden absolute top-0 right-0 transition-all duration-500" 
-                :class="{ 'md:w-1/2 w-11/12' : sidebar}"
+            <div class="z-50 h-full w-0 border-l bg-white shadow-md overflow-hidden absolute top-0 right-0 transition-all duration-500" 
+                :class="{ 'md:w-8/12 w-11/12' : sidebar}"
                 id="sidebar">
 
                 {% block sidebar %}{% endblock %}

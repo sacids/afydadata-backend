@@ -5,12 +5,12 @@
     
 {% for group in data_questions %}
     {% for k,item in group.items %}
-        <p class="text-md text-rose-800 "> {{k|make_title}} </p>
+        <p class="text-md text-rose-800 font-semibold"> {{k|make_title}} </p>
         <div class="text-sm pb-3">
         {% for v in item %}
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-4 gap-4">
                 <p class="font-semibold"> {% if v.label == None %} {{ v.col_name|make_title}} {% else %} {{ v.label }}{% endif %}</p>
-                <p class=""> {{ data_instance|get_value:v.col_name}}</p>
+                <p class="col-span-3"> {{ data_instance|get_value:v.col_name}}</p>
             </div>
         {% endfor %}
         </div>

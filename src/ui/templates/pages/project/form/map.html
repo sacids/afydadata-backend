@@ -1,0 +1,85 @@
+{% extends 'layout/base.html' %}
+{% load custom_tags %}
+
+{% block nav %}
+{% include "partials/nav.html" %}
+{% endblock %}
+
+{% block contents %}
+<div  class="h-full w-full z-10" x-data="manageMap()" x-init="initMap">
+    <div class="h-full w-full z-10" x-ref="mapContainer">
+    </div>
+</div>
+
+<!-- Datatable config -->
+<script language="javascript">
+
+
+    function manageMap() {
+        return {
+
+            map: null,
+
+            initMap(){
+
+                {% for items in form_data %}
+                    {% with view_point="1" %}
+                        {% if forloop.counter > 1 %}
+                            view_point = "2"
+                        {% endif %}
+
+                        {% for point in geopoints %}
+                            {% if view_point == "1" %}
+                                this.map = L.map(this.$refs.mapContainer).setView({{items|get_view:point.col_name}}, 13);
+                            {% endif %}
+
+                            L.marker({{items|get_location:point.col_name}}).addTo(this.map).on('click', this.onClick );;
+
+                        {% endfor %}
+                    {% endwith %}
+                {% endfor %}
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+            
+            },
+
+            onClick(e){
+                console.log('jembe '+this.options.id);
+                
+            },
+
+          
+        }
+
+    };
+
+
+</script>
+{% endblock %}
+
+
+{% block sidebar %}
+<div class="border-b h-10 flex justify-between">
+    <p class="py-2 px-4 text-red-900 text-base font-semibold" id="sidebar-title"></p>
+
+    <div class="">
+        <button type="button"
+            class="border-l hover:text-gray-100 hover:bg-red-900 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center"
+            @click="sidebar = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div class="h-full overflow-hidden" id="data-detail">
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  
+</script>
+
+{% endblock %}

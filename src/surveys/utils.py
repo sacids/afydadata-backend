@@ -64,10 +64,10 @@ def init_xform(filename, filetype="xform"):
     pages       = {}
     page_num    = 1
 
-    for x in group:
-        r           = x['ref']
-        pages[r]    = page_num
-        page_num    = page_num + 1
+    #for x in group:
+        #r           = x['ref']
+        #pages[r]    = page_num
+        #page_num    = page_num + 1
 
     for itext in trans:
         lang    = itext['lang']
@@ -214,7 +214,7 @@ def copy_response_files(request):
 
 
 
-def xf_dict(xf):
+def get_xf_dict(xf):
     tree    = ET.ElementTree(ET.fromstring(xf))
     root    = tree.getroot()
 

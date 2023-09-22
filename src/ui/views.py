@@ -160,9 +160,6 @@ class ProjectDeleteView(generic.View):
     def get(self, request, *args, **kwargs):
         project_id = kwargs['pk']
 
-        print("project id == ", project_id)
-        print(project_id)
-
         try:
             project = Project.objects.get(pk=project_id)
             project.delete()

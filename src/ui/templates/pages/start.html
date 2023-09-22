@@ -97,6 +97,37 @@
                 });
             },
 
+            //deleting survey
+            deleteSurvey(id) {
+                Swal.fire({
+                    title: 'Deleting Form',
+                    html: "Are sure you want to delete form?",
+                    icon: 'success',
+                    showCancelButton: true,
+                    confirmButtonColor: '#4CAF50',
+                    cancelButtonColor: '#F44336',
+                    confirmButtonText: 'Yes',
+                    cancelButtonText: 'No',
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        //fetching to URL
+                        fetch("/project/" + id + "/form/delete",
+                            { method: "GET", credentials: 'same-origin' })
+                            .then(res => res.json())
+                            .then(response => {
+                                //display message
+                                console.log(response);
+
+
+                                // Refresh the page
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 1000);
+                            });
+                    }
+                });
+            },
+
         }
     }
 </script>

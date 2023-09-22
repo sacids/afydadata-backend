@@ -46,7 +46,7 @@ urlpatterns = [
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
     path('project/<str:pk>/member/create', views.MemberCreateView.as_view(), name="create_member"),
     path('project/<str:project_id>/group/create', views.GroupCreateView.as_view(), name="create_group"),
-    path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
+    #path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
     
     
     # Form
@@ -54,6 +54,10 @@ urlpatterns = [
     
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
+    
+    path('project/<str:project_id>/form/<pk>/show', views.manage_form_summary, name="manage_form_summary"),
+    path('project/<str:project_id>/form/<pk>/map', views.form_summary_map.as_view(), name="form_summary_map"),
+    
     
     path('project/<str:project_id>/form/<pk>/map', views.form_map.as_view(), name="form_map"),
     path('project/<str:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),

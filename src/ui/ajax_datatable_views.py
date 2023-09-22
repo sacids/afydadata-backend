@@ -64,12 +64,13 @@ class SurveyList(AjaxDatatableView):
         
         #url = reverse('form_data', args=['pk':'1', 'project_id':'1'])
         absolute_url = reverse('form_data', kwargs=({'project_id':obj.project_id,'pk': obj.id}))
+        form_summary_url = reverse('manage_form_summary', kwargs=({'project_id':obj.project_id,'pk': obj.id}))
         
         arr = '''<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
                 </svg>'''
 
-        row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\',\''+str(obj.id)+'\')" >'+arr+'</span>'
+        row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\',\''+form_summary_url+'\')" >'+arr+'</span>'
         row['title']        = '<a class="" href="'+absolute_url+'" >'+str(obj.title)+'</a>'      
         row['created_on']   = naturalday(obj.created_on)
         row['del']          = '''<svg xmlns="http://www.w3.org/2000/svg" 

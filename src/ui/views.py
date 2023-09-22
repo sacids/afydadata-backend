@@ -301,6 +301,36 @@ def manage_project_group(request, pk):
     template            = 'pages/project/group/index.html'
     return TemplateResponse(request,template,context)  
 
+
+                                                      
+def manage_form_summary(request, project_id,pk):
+    
+    context             = {}
+    context['project_id']    = project_id
+    context['pk']            = pk
+    template            = 'pages/project/form_summary/index.html'
+    return TemplateResponse(request,template,context)  
+
+class form_summary_map(generic.TemplateView):
+    template_name = "pages/project/form_summary/map.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(form_summary_map, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(form_summary_map, self).get_context_data(**kwargs)
+           
+        form_id                     = self.kwargs['pk']
+        cur_form                    = Survey.objects.get(pk=form_id)
+        
+        # get col_names of survey questions that are geo points
+        context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
+        context['geopoints']    = get_geopoints(form_id)
+        return context   
+    
+
+
 class EditGroup(generic.UpdateView):
     model           = ProjectGroup
     form_class      = GroupForm
@@ -359,9 +389,7 @@ class form_data(generic.TemplateView):
             #'Add Form': reverse('create_xform', args=[project_id]),
             #'Add Form': "'create_xform' pk="+project_id,
         }
-        
-        
-        
+
         context['extra_data']   = {
             'project_id': cur_form.project.id,
             'form_id': form_id,

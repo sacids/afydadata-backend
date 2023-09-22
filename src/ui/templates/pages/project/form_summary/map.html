@@ -1,0 +1,52 @@
+
+{% load custom_tags %}
+
+<div  class="h-full w-full z-10" x-data="manageMap()" x-init="initMap" id="manageMap">
+    <div class="h-full w-full z-10" x-ref="mapContainer">
+    </div>
+</div>
+
+<!-- Datatable config -->
+<script language="javascript">
+
+    
+    htmx.process("#manageMap")
+    
+    function manageMap() {
+        return {
+
+            map: null,
+
+            initMap(){
+
+                {% for items in form_data %}
+                    {% with view_point="1" %}
+                        {% if forloop.counter > 1 %}
+                            view_point = "2"
+                        {% endif %}
+
+                        {% for point in geopoints %}
+                            {% if view_point == "1" %}
+                                this.map = L.map(this.$refs.mapContainer).setView({{items|get_view:point.col_name}}, 13);
+                            {% endif %}
+
+                            L.marker({{items|get_location:point.col_name}}).addTo(this.map).on('click', this.onClick );;
+
+                        {% endfor %}
+                    {% endwith %}
+                {% endfor %}
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+            
+            },
+
+            onClick(e){
+                console.log('jembe '+this.options.id);
+                
+            },
+
+          
+        }
+
+    };
+
+</script>

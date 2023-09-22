@@ -22,7 +22,7 @@ class Profile(models.Model):
     user        = models.OneToOneField(User, on_delete=models.CASCADE)
     digest      = models.CharField(max_length=200,null=True)
     gender      = models.CharField(choices=SEX,default=MALE,max_length=1)
-    pic         = models.ImageField(upload_to="img/")
+    pic         = models.ImageField(upload_to="img/",blank=True,null=True)
     location    = models.CharField(max_length=30, blank=True)
 
     #def save(self, *args, **kwargs):

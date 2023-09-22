@@ -141,6 +141,50 @@ class projectMemberslist(AjaxDatatableView):
         return queryset
     
 
+class projectGrouplist(AjaxDatatableView):
+    model                       = ProjectGroup
+    title                       = 'Project Groups'
+    show_column_filters         = False
+    initial_order               = [["title", "desc"], ]
+    length_menu                 = [[12, 50, 100, -1], [12, 50, 100, 'all']]
+    search_values_separator     = '+'
+    full_row_select             = False
+    
+      
+    column_defs = [
+        {'name': 'id', 'visible': False, },
+        {'name': 'qv','title':'','visible': True, 'className':'w-3 text-left text-rose-800 cursor-pointer','placeholder':'True','searchable': False,},
+        {'name': 'title', 'visible': True,'className':'text-left' },
+        {'name': 'description', 'visible': True,'className':'text-left' },
+    ]
+    
+    def get_show_column_filters(self, request):
+        return False
+    
+    def customize_row(self, row, obj):
+        arr = '''<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+                </svg>'''
+
+        url         = reverse('manage_project_group', kwargs=({'pk':obj.id}))
+        row['qv']   = '<span class="text-sm" @click="sidebar = 1, dataDetail(\''+str(obj.title)+'\',\''+url+'\')" >'+arr+'</span>'
+        
+        
+    def get_initial_queryset(self, request=None):
+
+        # We accept either GET or POST
+        if not getattr(request, 'REQUEST', None):
+            request.REQUEST = request.GET if request.method=='GET' else request.POST
+
+        queryset = self.model.objects.all()
+
+        if 'project_id' in request.REQUEST:
+            project_id = request.REQUEST.get('project_id')
+            queryset = queryset.filter(project__id=project_id)
+
+        return queryset
+    
+
 
 
 

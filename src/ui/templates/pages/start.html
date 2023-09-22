@@ -51,6 +51,7 @@
                 $('#sidebar-title').html(title);
 
                 console.log(url)
+                
                 fetch(url)
                     .then(response => response.text())
                     .then(data => {

@@ -14,6 +14,7 @@ urlpatterns = [
     path('ajax_datatable/permissions/', ajax_datatable_views.PermissionAjaxDatatableView.as_view(), name="ajax_datatable_permissions"),
     path('ajax_datatable/survey_list/', ajax_datatable_views.SurveyList.as_view(), name="surveylist"),
     path('ajax_datatable/project_member_list/', ajax_datatable_views.projectMemberslist.as_view(), name="projectMemberslist"),
+    path('ajax_datatable/project_group_list/', ajax_datatable_views.projectGrouplist.as_view(), name="projectGroupList"),
     path('ajax_datatable/project_list/', ajax_datatable_views.ProjectList.as_view(), name="projectList"),
     path('ajax_datatable/form_data/', ajax_datatable_views.formData.as_view(), name="formData"),
     path('ajax_datatable/form_mapping/', ajax_datatable_views.FormMappingList.as_view(), name="FormMappingList"),
@@ -32,8 +33,19 @@ urlpatterns = [
     path('project/delete/<str:pk>', views.ProjectDeleteView.as_view(), name="delete_project"),
     path('project/<pk>/groups', views.ProjectDetailView.as_view(), name="list_groups"),
     path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
-    path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"), 
+    
+    path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),
+    path('member/manage/<str:pk>/manage_group', views.ManagePmGroups.as_view(), name="manage_pm_groups"),
+    path('member/manage/<str:pk>/manage_profile', views.ManagePmGroups.as_view(), name="manage_pm_profile"),
+    path('member/change_password/<pk>', views.ChangePmPassword.as_view(), name="change_pm_password"),
+    
+    
+    path('project/group/manage/<str:pk>', views.manage_project_group, name="manage_project_group"),
+    path('project/group/edit/<str:pk>', views.EditGroup.as_view(), name="edit_group"),
+    
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
+    path('project/<str:pk>/member/create', views.MemberCreateView.as_view(), name="create_member"),
+    path('project/<str:project_id>/group/create', views.GroupCreateView.as_view(), name="create_group"),
     
     
     # Form

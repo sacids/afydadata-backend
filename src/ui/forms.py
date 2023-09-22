@@ -1,7 +1,8 @@
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from django import forms
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm, PasswordChangeForm
-from projects.models import Project
+from projects.models import Project, ProjectGroup, ProjectMember
+from accounts.models import Profile
 
 
 class LoginForm(forms.Form):
@@ -20,7 +21,7 @@ class LoginForm(forms.Form):
         fields = ('username', 'password')
 
 
-class ChangePasswordForm(PasswordChangeForm):
+class ChangePasswordForm(forms.Form):
     """Change password form"""
     old_password = forms.CharField(max_length=30, required=True, label="Old Password ", widget=forms.PasswordInput(
         attrs={'class': 'form-control', 'placeholder': 'Write old password...'}))
@@ -32,6 +33,17 @@ class ChangePasswordForm(PasswordChangeForm):
     class Meta:
         fields = ('old_password', 'new_password1', 'new_password2')
 
+
+class ChangePmPasswordForm(forms.Form):
+    """Change password form"""
+    
+    new_password1 = forms.CharField(max_length=30, required=True, label="New Password ", widget=forms.PasswordInput(
+        attrs={'class': 'form-control', 'placeholder': 'New password...'}))
+    new_password2 = forms.CharField(max_length=30, required=True, label="Confirm Password ", widget=forms.PasswordInput(
+        attrs={'class': 'form-control', 'placeholder': 'Confirm new password...'}))
+
+    class Meta:
+        fields = ('new_password1', 'new_password2')
 
 class ProjectForm(forms.ModelForm):
     """A class to create form"""
@@ -95,3 +107,71 @@ class UpdateMappingForm(forms.ModelForm):
     ref = forms.CharField(disabled=True)
     col_name = forms.CharField(disabled=True)
     hint = forms.Textarea(attrs={'rows': 3})
+
+
+class GroupForm(forms.ModelForm):
+    
+    """A class to create form"""
+    def __init__(self, *args, **kwargs):
+        super(GroupForm, self).__init__(*args, **kwargs)
+
+    class Meta:
+        tailwind_class = """w-full bg-white text-gray-600 
+        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        """
+        model = ProjectGroup
+        fields = ['title','description','project']
+        
+        widgets = {
+          'project': forms.HiddenInput(),
+          'description': forms.Textarea(attrs={'rows':3}),
+        }
+    
+   
+
+class MemberForm(forms.ModelForm):
+    """A class to create form"""
+    def __init__(self, *args, **kwargs):
+        super(MemberForm, self).__init__(*args, **kwargs)
+
+    class Meta:
+        tailwind_class = """w-full bg-white text-gray-600 
+        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        """
+        model = ProjectMember
+        fields = ['member', 'projectGroup','project']
+        
+        widgets = {
+            'project': forms.HiddenInput(),
+            'projectGroup': forms.CheckboxSelectMultiple,
+        }
+        
+        labels = {
+            'member': 'Member ',
+            'projectGroup': 'Group ',
+        }
+
+class ManageMemberGroupsFrom(forms.ModelForm):
+    """A class to create form"""
+    def __init__(self, *args, **kwargs):
+        super(ManageMemberGroupsFrom, self).__init__(*args, **kwargs)
+
+    class Meta:
+        tailwind_class = """w-full bg-white text-gray-600 
+        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
+        """
+        model = ProjectMember
+        fields = ['projectGroup']
+        
+        widgets = {
+            'projectGroup': forms.CheckboxSelectMultiple,
+        }
+        
+        labels = {
+            'projectGroup': 'Group ',
+        }
+
+    

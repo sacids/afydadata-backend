@@ -8,7 +8,9 @@ from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
 from django import forms
-from .forms import ProjectForm, SurveyForm
+from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
+
+
 
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
@@ -17,6 +19,8 @@ from django.template.response import TemplateResponse
 from django.db.models import Q
 from .forms import *
 from django.contrib.humanize.templatetags.humanize import naturalday
+from django.contrib import messages
+from django.contrib.auth import update_session_auth_hash
 
 from src.surveys.utils import *
 
@@ -129,14 +133,13 @@ class ProjectDetailView(generic.TemplateView):
         
         j = self.request.path.split('/')
         j.reverse()
-        print(j)
 
         if j[0] == 'members':
             context['datatable_list']    = "projectMemberslist"
-            context['pg_actions']   = {'Add Member': reverse('create_xform', args=[project_id]),}
+            context['pg_actions']   = {'Add Member': reverse('create_member', args=[project_id]),}
         elif  j[0] == 'groups':   
-            context['datatable_list']    = "projectMemberslist"
-            context['pg_actions']   = {'Add Group': reverse('create_xform', args=[project_id]),}
+            context['datatable_list']    = "projectGroupList"
+            context['pg_actions']   = {'Add Group': reverse('create_group', args=[project_id]),}
         else:      
             context['datatable_list']    = "surveylist"
             context['pg_actions']   = {
@@ -224,15 +227,114 @@ class XformCreateView(generic.CreateView):
                 label=obj['label']
             )
     
-                                                         
+
+
+
+                                                       
+class MemberCreateView(generic.TemplateView):
+    
+    template_name   = 'forms/create_member.html'
+    success_url     = '/ui/projects/create'
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(MemberCreateView, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        context = {
+            'form': MemberForm(initial={'project': Project.objects.get(pk=kwargs['pk'])}), 
+            'btn_create': "Add Member",
+            'project_id': kwargs['pk']
+        }
+        return render(request, self.template_name, context)
+    
+    def post(self, request, *args, **kwargs):
+        form = MemberForm(request.POST)
+        if form.is_valid():
+            member = form.save()
+            print(member)
+
+            # return response
+            return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Member Added</div>')
+        return render(request, self.template_name, {'form': form, 'btn_create': "Add Member"}) 
+            
+
+                                             
+class GroupCreateView(generic.TemplateView):
+    template_name   = 'forms/create_group.html'
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(GroupCreateView, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        context = {
+            'form': GroupForm(initial={'project': Project.objects.get(pk=kwargs['project_id'])}), 
+            'btn_create': "Create Group in Project",
+            'project_id': kwargs['project_id'],
+        }
+        return render(request, self.template_name, context)
+    
+    def post(self, request, *args, **kwargs):
+        form = GroupForm(request.POST)
+        print(form)
+        if form.is_valid():
+            print(form)
+            form.save()
+            # return response
+            return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Group added to Project</div>')
+        print('did not work')
+        return render(request, self.template_name, {'form': form, 'btn_create': "Create Project",'project_id': kwargs['project_id']}) 
+            
+
+                                                      
 def manage_project_member(request, pk):
     
     context             = {}
     context['member']   = ProjectMember.objects.get(pk=pk)
+    template            = 'pages/project/member/index.html'
+    return TemplateResponse(request,template,context)   
+
+
+                                                      
+def manage_project_group(request, pk):
     
-    template            = 'pages/project/manage_member.html'
-    return TemplateResponse(request,template,context)                                        
-                                    
+    context             = {}
+    context['group']    = ProjectGroup.objects.get(pk=pk)
+    template            = 'pages/project/group/index.html'
+    return TemplateResponse(request,template,context)  
+
+class EditGroup(generic.UpdateView):
+    model           = ProjectGroup
+    form_class      = GroupForm
+    template_name   = 'pages/project/group/edit_group.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(EditGroup, self).get_context_data(**kwargs)
+        context['btn_create']   = "Update Group"
+        context['pk']           = self.kwargs['pk']
+        return context
+     
+    def get_success_url(self):
+        pk = self.kwargs['pk']
+        messages.success(self.request, "Group Updated" )
+        return reverse('edit_group', kwargs={'pk': pk})   
+                                     
+             
+class ManagePmGroups(generic.UpdateView):
+    model           = ProjectMember
+    form_class      = ManageMemberGroupsFrom
+    template_name   = 'pages/project/member/manage_groups.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(ManagePmGroups, self).get_context_data(**kwargs)
+        context['btn_create']   = "Update Member Groups"
+        context['pk']           = self.kwargs['pk']
+        return context
+     
+    def get_success_url(self):
+        pk = self.kwargs['pk']
+        return reverse('manage_pm_groups', kwargs={'pk': pk})                       
                                                
 class form_data(generic.TemplateView):
     template_name = "pages/project/form/data.html"
@@ -571,7 +673,44 @@ def get_data_from_instance(pk):
 class data_chat(generic.TemplateView):
     template_name = "pages/chat.html"
     
+
+                                                  
+class ChangePmPassword(generic.TemplateView):
     
+    template_name   = 'pages/project/member/change_password.html'
+    
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(ChangePmPassword, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        context = {
+            'form': ChangePmPasswordForm(), 
+            'btn_create': "Update Password",
+            'id':   self.kwargs['pk'],
+        }
+        return render(request, self.template_name, context)
+    
+    def post(self, request, *args, **kwargs):
+        form = ChangePmPasswordForm(request.POST)
+        if form.is_valid():
+            new_password1   = form.cleaned_data["new_password1"]
+            new_password2   = form.cleaned_data["new_password2"]
+            if new_password1 == new_password2:
+                u       = User.objects.get(pk=self.kwargs['pk'])
+                u.set_password(new_password1)
+                u.save()
+                update_session_auth_hash(request, self.request.user)  # Important!
+                u.profile.digest    = calculate_digest(u.username, new_password1)
+                u.save()
+            
+                # return response
+                return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Password Updated</div>')
+            else:
+                return HttpResponse('<div class="bg-red-200 p-3 text-sm text-gray-600 rounded-sm">Password Update Failed - passwords mismatch</div>')
+            
+        return render(request, self.template_name, {'form': form, 'btn_create': "Update Password"}) 
+            
 
 
 def _get_form_links_context(cur_form,form_id):

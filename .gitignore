@@ -24,11 +24,11 @@ build
 local.env
 
 # Django stuff:
-*.mo
-*.pot
-*.jpg
-*.png
-*.jpeg
+# *.mo
+# *.pot
+# *.jpg
+# *.png
+# *.jpeg
 
 # Eclipse
 .project

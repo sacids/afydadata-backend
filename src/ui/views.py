@@ -224,7 +224,30 @@ class XformCreateView(generic.CreateView):
                 label=obj['label']
             )
     
+    
+class XformDeleteView(generic.View):
+    """Delete Xform"""
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(XformDeleteView, self).dispatch( *args, **kwargs)
+    
+    def get(self, request, *args, **kwargs):
+        xform_id = kwargs['pk']
 
+        print("xform id == ", xform_id)
+        print(xform_id)
+
+        try:
+            xform = Survey.objects.get(pk=xform_id)
+            xform.delete()
+
+            #todo: delete xml file
+
+            """response"""
+            return JsonResponse({"error": False, "success_msg": "Xform deleted"}, safe=False)
+        except:
+            """response"""
+            return JsonResponse({"error": True, "error_msg": "Failed to delete xform"}, safe=False)  
 
 
                                                        

@@ -34,6 +34,7 @@ urlpatterns = [
     path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
     path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"), 
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
+    path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
     
     
     # Form

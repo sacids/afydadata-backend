@@ -1,6 +1,6 @@
 {% load tailwind_filters %}
 
-<div id="create_form_div" class="h-full overflow-y-scroll p-4 pt-2">  
+<div id="create_form_div" class="w-8/12 h-full overflow-y-scroll p-4 pt-2">  
     <form hx-encoding='multipart/form-data' hx-post="{% url 'create_xform' project_id %}" hx-target='#create_form_div' enctype="multipart/form-data">
         <!-- Security token -->
         {% csrf_token %}

@@ -87,7 +87,7 @@ class SurveyForm(forms.ModelForm):
         fields = ['title', 'description', 'xform']
 
         widgets = {
-            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
+            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write xform title...', 'required': ''}),
             'xform': forms.FileInput(attrs={'class': tailwind_class}),
             'description': forms.Textarea(attrs={'class': tailwind_class, 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
         }
@@ -125,7 +125,8 @@ class GroupForm(forms.ModelForm):
         
         widgets = {
           'project': forms.HiddenInput(),
-          'description': forms.Textarea(attrs={'rows':3}),
+          'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write title...', 'required': ''}),
+          'description': forms.Textarea(attrs={'class': tailwind_class, 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
         }
     
    
@@ -145,6 +146,7 @@ class MemberForm(forms.ModelForm):
         
         widgets = {
             'project': forms.HiddenInput(),
+            'member': forms.Select(attrs={'class': tailwind_class, 'id': 'title', 'required': ''}),
             'projectGroup': forms.CheckboxSelectMultiple,
         }
         

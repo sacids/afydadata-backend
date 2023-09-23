@@ -224,7 +224,7 @@ class XformCreateView(generic.CreateView):
                 label=obj['label']
             )
     
-    
+
 class XformDeleteView(generic.View):
     """Delete Xform"""
     @method_decorator(login_required)
@@ -233,9 +233,6 @@ class XformDeleteView(generic.View):
     
     def get(self, request, *args, **kwargs):
         xform_id = kwargs['pk']
-
-        print("xform id == ", xform_id)
-        print(xform_id)
 
         try:
             xform = Survey.objects.get(pk=xform_id)
@@ -252,7 +249,6 @@ class XformDeleteView(generic.View):
 
                                                        
 class MemberCreateView(generic.TemplateView):
-    
     template_name   = 'forms/create_member.html'
     success_url     = '/ui/projects/create'
 
@@ -272,7 +268,6 @@ class MemberCreateView(generic.TemplateView):
         form = MemberForm(request.POST)
         if form.is_valid():
             member = form.save()
-            print(member)
 
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Member Added</div>')
@@ -297,13 +292,11 @@ class GroupCreateView(generic.TemplateView):
     
     def post(self, request, *args, **kwargs):
         form = GroupForm(request.POST)
-        print(form)
         if form.is_valid():
-            print(form)
             form.save()
+
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Group added to Project</div>')
-        print('did not work')
         return render(request, self.template_name, {'form': form, 'btn_create': "Create Project",'project_id': kwargs['project_id']}) 
             
 

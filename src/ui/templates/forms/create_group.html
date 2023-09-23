@@ -2,10 +2,10 @@
 
 <div id="create_project_div" class="w-7/12 h-full overflow-y-scroll p-4 pt-2">
     <form hx-post="{% url 'create_group' project_id %}" hx-target='#create_project_div' enctype="multipart/form-data">
-        Create Group
         <!-- Security token -->
         {% csrf_token %}
         {{ form.project|as_crispy_field }}
+
         <div class="my-3">
             {{ form.title|as_crispy_field }}
         </div>

@@ -31,7 +31,7 @@ CHEVRON     = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 
 
 
 class DashboardView(generic.TemplateView):
-    template_name = "pages/project/dashboard.html"
+    template_name = "pages/dashboard.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):

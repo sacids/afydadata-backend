@@ -33,43 +33,36 @@ urlpatterns = [
     path('project/delete/<str:pk>', views.ProjectDeleteView.as_view(), name="delete_project"),
     path('project/<pk>/groups', views.ProjectDetailView.as_view(), name="list_groups"),
     path('project/<pk>/members', views.ProjectDetailView.as_view(), name="list_members"),
-    
-    path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),
-    path('member/manage/<str:pk>/manage_group', views.ManagePmGroups.as_view(), name="manage_pm_groups"),
-    path('member/manage/<str:pk>/manage_profile', views.ManagePmGroups.as_view(), name="manage_pm_profile"),
-    path('member/change_password/<pk>', views.ChangePmPassword.as_view(), name="change_pm_password"),
-    
-    
-    path('project/group/manage/<str:pk>', views.manage_project_group, name="manage_project_group"),
 
+    #project surveys
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
-
-    path('project/<str:pk>/member/create', views.MemberCreateView.as_view(), name="create_member"),
-
-    
-    path('project/<str:project_id>/group/create', views.GroupCreateView.as_view(), name="create_group"),
-    path('project/group/edit/<str:pk>', views.EditGroupView.as_view(), name="edit_group"),
-
-
     #path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
     
-    
-    # Form
-    path('project/<str:project_id>/form/<str:pk>/data', views.form_data.as_view(), name="form_data"),
+    # project members
+    path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),
+    path('project/<str:pk>/member/create', views.MemberCreateView.as_view(), name="create_member"),
+    path('member/manage/<str:pk>/manage_profile', views.ManagePmGroups.as_view(), name="manage_pm_profile"),
+    path('member/change_password/<pk>', views.ChangePmPassword.as_view(), name="change_pm_password"),
+
+    # project groups
+    path('project/group/manage/<str:pk>', views.manage_project_group, name="manage_project_group"),
+    path('project/<str:project_id>/group/create', views.GroupCreateView.as_view(), name="create_group"),
+    path('project/group/edit/<str:pk>', views.EditGroupView.as_view(), name="edit_group"),
+    path('member/manage/<str:pk>/manage_group', views.ManagePmGroups.as_view(), name="manage_pm_groups"),
+
+    # project surveys data
+    path('project/<str:project_id>/form/<str:pk>/data', views.FormDataView.as_view(), name="form_data"),
+    path('project/<str:project_id>/form/<pk>/mapping', views.FormMappingView.as_view(), name="form_mapping"),
+    path('project/<str:project_id>/form/<pk>/perms', views.FormPermsView.as_view(), name="form_perms"),
+    path('project/<str:project_id>/form/<pk>/chart', views.FormMapView.as_view(), name="form_chart"),
+    path('project/<str:project_id>/form/<pk>/map', views.FormMapView.as_view(), name="form_map"),
+    path('project/<str:project_id>/form/<pk>/dashboard', views.FormMapView.as_view(), name="form_dashboard"),
     
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     
     path('project/<str:project_id>/form/<pk>/show', views.manage_form_summary, name="manage_form_summary"),
-    path('project/<str:project_id>/form/<pk>/map', views.form_summary_map.as_view(), name="form_summary_map"),
-    
-    
-    path('project/<str:project_id>/form/<pk>/map', views.form_map.as_view(), name="form_map"),
-    path('project/<str:project_id>/form/<pk>/mapping', views.form_mapping.as_view(), name="form_mapping"),
-    path('project/<str:project_id>/form/<pk>/chart', views.XformCreateView.as_view(), name="form_chart"),
-    path('project/<str:project_id>/form/<pk>/dashboard', views.XformCreateView.as_view(), name="form_dashboard"),
-    path('project/<str:project_id>/form/<pk>/perms', views.form_perms.as_view(), name="form_perms"),
-    
+    path('project/<str:project_id>/form/<pk>/map', views.form_summary_map.as_view(), name="form_summary_map"),    
     
     
     # Instance

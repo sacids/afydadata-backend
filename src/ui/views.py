@@ -82,7 +82,7 @@ class ProjectListView(generic.TemplateView):
     
     
 class ProjectCreateView(generic.CreateView):
-    template_name   = 'forms/create_project.html'
+    template_name   = 'pages/projects/create.html'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -171,7 +171,7 @@ class ProjectDeleteView(generic.View):
 
 
 class XformCreateView(generic.CreateView):
-    template_name   = 'forms/create_instance.html'
+    template_name   = 'pages/forms/create.html'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -248,7 +248,7 @@ class XformDeleteView(generic.View):
 
                                                        
 class MemberCreateView(generic.TemplateView):
-    template_name   = 'forms/create_member.html'
+    template_name   = 'pages/projects/members/create.html'
     success_url     = '/ui/projects/create'
 
     @method_decorator(login_required)
@@ -273,8 +273,17 @@ class MemberCreateView(generic.TemplateView):
         return render(request, self.template_name, {'form': form, 'btn_create': "Add Member"}) 
 
 
+def manage_project_member(request, pk): 
+    """Manage project members"""
+    context             = {}
+    context['member']   = ProjectMember.objects.get(pk=pk)
+    template            = 'pages/projects/members/index.html'
+    return TemplateResponse(request,template,context) 
+
+
+
 class GroupCreateView(generic.TemplateView):
-    template_name   = 'pages/project/group/create_group.html'
+    template_name   = 'pages/projects/groups/create.html'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -301,7 +310,7 @@ class GroupCreateView(generic.TemplateView):
 class EditGroupView(generic.UpdateView):
     model           = ProjectGroup
     form_class      = GroupForm
-    template_name   = 'pages/project/group/edit_group.html'
+    template_name   = 'pages/projects/groups/edit.html'
     
     def get_context_data(self, **kwargs):
         context = super(EditGroupView, self).get_context_data(**kwargs)
@@ -313,22 +322,22 @@ class EditGroupView(generic.UpdateView):
         pk = self.kwargs['pk']
         messages.success(self.request, 'Group updated')
         return reverse('edit_group', kwargs={'pk': pk})   
-                                                      
-def manage_project_member(request, pk):
-    
-    context             = {}
-    context['member']   = ProjectMember.objects.get(pk=pk)
-    template            = 'pages/project/member/index.html'
-    return TemplateResponse(request,template,context)   
 
 
-                                                      
 def manage_project_group(request, pk):
-    
+    """Manage project group"""
     context             = {}
     context['group']    = ProjectGroup.objects.get(pk=pk)
-    template            = 'pages/project/group/index.html'
+    template            = 'pages/projects/groups/index.html'
     return TemplateResponse(request,template,context)  
+
+
+
+  
+
+
+                                                      
+
 
 
                                                       
@@ -356,14 +365,10 @@ class form_summary_map(generic.TemplateView):
         # get col_names of survey questions that are geo points
         context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
         context['geopoints']    = get_geopoints(form_id)
-        return context   
-    
-
-
-
-                                     
+        return context                                    
              
 class ManagePmGroups(generic.UpdateView):
+    """Manage Member Groups"""
     model           = ProjectMember
     form_class      = ManageMemberGroupsFrom
     template_name   = 'pages/project/member/manage_groups.html'
@@ -377,16 +382,18 @@ class ManagePmGroups(generic.UpdateView):
     def get_success_url(self):
         pk = self.kwargs['pk']
         return reverse('manage_pm_groups', kwargs={'pk': pk})                       
-                                               
-class form_data(generic.TemplateView):
-    template_name = "pages/project/form/data.html"
+
+
+class FormDataView(generic.TemplateView):
+    """Form data"""
+    template_name = "pages/forms/data.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(form_data, self).dispatch( *args, **kwargs)
+        return super(FormDataView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(form_data, self).get_context_data(**kwargs)
+        context = super(FormDataView, self).get_context_data(**kwargs)
         
         form_id                     = self.kwargs['pk']
         cur_form                    = Survey.objects.get(pk=form_id)
@@ -399,11 +406,7 @@ class form_data(generic.TemplateView):
         context['datatable_list']   = reverse('form_data_list', kwargs={'pk':form_id})
         context['links']            = _get_form_links_context(cur_form,form_id)
         context['tbl_header']       = SurveyQuestions.objects.filter(survey__id=form_id)
-        context['pg_actions']       = {
-            #'Add XForm': reverse('create_xform', args=[project_id]),
-            #'Add Form': reverse('create_xform', args=[project_id]),
-            #'Add Form': "'create_xform' pk="+project_id,
-        }
+        context['pg_actions']       = {}
 
         context['extra_data']   = {
             'project_id': cur_form.project.id,
@@ -414,17 +417,15 @@ class form_data(generic.TemplateView):
 
    
                                                    
-class form_mapping(generic.TemplateView):
+class FormMappingView(generic.TemplateView):
     template_name = "pages/start.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(form_mapping, self).dispatch( *args, **kwargs)
+        return super(FormMappingView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(form_mapping, self).get_context_data(**kwargs)
-        
-        
+        context = super(FormMappingView, self).get_context_data(**kwargs)
         form_id                     = self.kwargs['pk']
         cur_form                    = Survey.objects.get(pk=form_id)
         
@@ -435,12 +436,7 @@ class form_mapping(generic.TemplateView):
         
         context['datatable_list']   = 'FormMappingList'
         context['links']            = _get_form_links_context(cur_form,form_id)
-        
-        #print(context['links'])
-        
-        context['pg_actions']   = {
-            #'Add Form': "'create_xform' pk="+project_id,
-        }
+        context['pg_actions']   = {}
          
         context['extra_data']   = {
             'project_id': cur_form.project.id,
@@ -450,17 +446,16 @@ class form_mapping(generic.TemplateView):
         return context           
      
                                                    
-class form_map(generic.TemplateView):
-    template_name = "pages/project/form/map.html"
+class FormMapView(generic.TemplateView):
+    template_name = "pages/forms/map.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(form_map, self).dispatch( *args, **kwargs)
+        return super(FormMapView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(form_map, self).get_context_data(**kwargs)
-        
-        
+        context = super(FormMapView, self).get_context_data(**kwargs)
+           
         form_id                     = self.kwargs['pk']
         cur_form                    = Survey.objects.get(pk=form_id)
         
@@ -469,11 +464,9 @@ class form_map(generic.TemplateView):
             cur_form.title: 0,
             "Map": 0,
         }
-        
+
         context['links']            = _get_form_links_context(cur_form,form_id)
         
-    
-        # get col_names of survey questions that are geo points
         context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
         context['geopoints']    = get_geopoints(form_id)
         return context   
@@ -482,21 +475,17 @@ class form_map(generic.TemplateView):
 def get_geopoints(form_id):
         return SurveyQuestions.objects.filter(Q(survey__id=form_id) & Q(col_type='geopoint')).values('col_name')
         
-        
-                
-     
-                                                
-class form_perms(generic.TemplateView):
+                                                      
+class FormPermsView(generic.TemplateView):
     template_name = "pages/start.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
-        return super(form_perms, self).dispatch( *args, **kwargs)
+        return super(FormPermsView, self).dispatch( *args, **kwargs)
     
     def get_context_data(self, **kwargs):
-        context = super(form_perms, self).get_context_data(**kwargs)
-        
-        
+        context = super(FormPermsView, self).get_context_data(**kwargs)
+               
         form_id                     = self.kwargs['pk']
         cur_form                    = Survey.objects.get(pk=form_id)
         
@@ -506,13 +495,8 @@ class form_perms(generic.TemplateView):
         }
         
         context['datatable_list']   = 'FormMappingList'
-        context['links']            = _get_form_links_context(cur_form,form_id)
-        
-        #print(context['links'])
-        
-        context['pg_actions']   = {
-            #'Add Form': "'create_xform' pk="+project_id,
-        }
+        context['links']            = _get_form_links_context(cur_form,form_id) 
+        context['pg_actions']   = {}
          
         context['extra_data']   = {
             'project_id': cur_form.project.id,

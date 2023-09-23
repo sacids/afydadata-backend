@@ -93,9 +93,6 @@ class SurveyList(AjaxDatatableView):
             queryset = queryset.filter(project__id=project_id)
 
         return queryset
-    
-    
-
 
 
 class projectMemberslist(AjaxDatatableView):
@@ -185,10 +182,6 @@ class projectGrouplist(AjaxDatatableView):
 
         return queryset
     
-
-
-
-
 
 class ProjectList(AjaxDatatableView):
     model                       = Project

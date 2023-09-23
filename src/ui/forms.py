@@ -8,7 +8,7 @@ from accounts.models import Profile
 class LoginForm(forms.Form):
     """Login form"""
     tailwind_class = """w-full bg-white text-gray-600 
-    border border-gray-200 rounded-none px-2.5 py-2.5 mb-3 focus:outline-none 
+    border border-gray-200 rounded-sm px-2.5 py-2.5 mb-3 focus:outline-none 
     focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
     """
 
@@ -52,14 +52,14 @@ class ProjectForm(forms.ModelForm):
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
-        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        border border-gray-200 rounded-sm px-2 py-2 mb-3 focus:outline-none 
         focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
         """
         model = Project
         fields = ['title', 'description']
 
         widgets = {
-            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write project title...', 'required': ''}),
+            'title': forms.TextInput(attrs={'class': tailwind_class, 'id': 'title', 'placeholder': 'Write project title...'}),
             'description': forms.Textarea(attrs={'class': tailwind_class, 'id': 'description', 'placeholder': 'Write description...', 'rows': '3'}),
         }
 
@@ -79,7 +79,7 @@ class SurveyForm(forms.ModelForm):
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
-        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        border border-gray-200 rounded-sm px-2 py-2 mb-3 focus:outline-none 
         focus:border focus:border-blue-200 focus:bg-white text-sm font-normal
         """
 
@@ -117,7 +117,7 @@ class GroupForm(forms.ModelForm):
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
-        border border-gray-200 rounded-none px-2 py-2 mb-3 focus:outline-none 
+        border border-gray-200 rounded-sm px-2 py-2 mb-3 focus:outline-none 
         focus:border focus:border-blue-200 focus:bg-white text-sm font-normal"
         """
         model = ProjectGroup

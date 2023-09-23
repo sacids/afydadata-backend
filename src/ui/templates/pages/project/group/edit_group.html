@@ -4,11 +4,15 @@
 
 
     {% if messages %}
-    <ul class="messages">
-        {% for message in messages %}
-        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-        {% endfor %}
-    </ul>
+    {% for message in messages %}
+    <div class="bg-green-100 rounded-b text-green-900 px-4 py-3 mb-2" role="alert">
+        <div class="flex">
+            <div>
+                <p class="text-sm font-normal">{{ message }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
     {% endif %}
 
     
@@ -17,7 +21,6 @@
         {% csrf_token %}
 
         <div class="mb-0">
-
             {{ form|crispy }}
         </div>
 

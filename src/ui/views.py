@@ -83,7 +83,6 @@ class ProjectListView(generic.TemplateView):
     
 class ProjectCreateView(generic.CreateView):
     template_name   = 'forms/create_project.html'
-    success_url     = '/ui/projects/create'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -272,11 +271,10 @@ class MemberCreateView(generic.TemplateView):
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Member Added</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Add Member"}) 
-            
 
-                                             
+
 class GroupCreateView(generic.TemplateView):
-    template_name   = 'forms/create_group.html'
+    template_name   = 'pages/project/group/create_group.html'
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -298,8 +296,23 @@ class GroupCreateView(generic.TemplateView):
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Group added to Project</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Create Project",'project_id': kwargs['project_id']}) 
+     
             
-
+class EditGroupView(generic.UpdateView):
+    model           = ProjectGroup
+    form_class      = GroupForm
+    template_name   = 'pages/project/group/edit_group.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(EditGroupView, self).get_context_data(**kwargs)
+        context['btn_create']   = "Update"
+        context['pk']           = self.kwargs['pk']
+        return context
+    
+    def get_success_url(self):
+        pk = self.kwargs['pk']
+        messages.success(self.request, 'Group updated')
+        return reverse('edit_group', kwargs={'pk': pk})   
                                                       
 def manage_project_member(request, pk):
     
@@ -347,21 +360,7 @@ class form_summary_map(generic.TemplateView):
     
 
 
-class EditGroup(generic.UpdateView):
-    model           = ProjectGroup
-    form_class      = GroupForm
-    template_name   = 'pages/project/group/edit_group.html'
-    
-    def get_context_data(self, **kwargs):
-        context = super(EditGroup, self).get_context_data(**kwargs)
-        context['btn_create']   = "Update Group"
-        context['pk']           = self.kwargs['pk']
-        return context
-     
-    def get_success_url(self):
-        pk = self.kwargs['pk']
-        messages.success(self.request, "Group Updated" )
-        return reverse('edit_group', kwargs={'pk': pk})   
+
                                      
              
 class ManagePmGroups(generic.UpdateView):

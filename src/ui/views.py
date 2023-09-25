@@ -371,7 +371,7 @@ class ManagePmGroups(generic.UpdateView):
     """Manage Member Groups"""
     model           = ProjectMember
     form_class      = ManageMemberGroupsFrom
-    template_name   = 'pages/project/member/manage_groups.html'
+    template_name   = 'pages/projects/members/manage_groups.html'
     
     def get_context_data(self, **kwargs):
         context = super(ManagePmGroups, self).get_context_data(**kwargs)
@@ -381,7 +381,13 @@ class ManagePmGroups(generic.UpdateView):
      
     def get_success_url(self):
         pk = self.kwargs['pk']
-        return reverse('manage_pm_groups', kwargs={'pk': pk})                       
+        return reverse('manage_pm_groups', kwargs={'pk': pk})  
+    
+    def get_form_kwargs(self):
+        kwargs = super(ManagePmGroups, self).get_form_kwargs()
+        Member     = ProjectMember.objects.get(pk=self.kwargs['pk'])
+        kwargs['project_id'] = Member.project.id
+        return kwargs                     
 
 
 class FormDataView(generic.TemplateView):
@@ -701,7 +707,7 @@ class data_chat(generic.TemplateView):
                                                   
 class ChangePmPassword(generic.TemplateView):
     
-    template_name   = 'pages/project/member/change_password.html'
+    template_name   = 'pages/projects/members/change_password.html'
     
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):

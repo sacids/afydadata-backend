@@ -158,7 +158,10 @@ class MemberForm(forms.ModelForm):
 class ManageMemberGroupsFrom(forms.ModelForm):
     """A class to create form"""
     def __init__(self, *args, **kwargs):
+        project_id = kwargs.pop('project_id')
         super(ManageMemberGroupsFrom, self).__init__(*args, **kwargs)
+        self.fields["projectGroup"].widget = forms.widgets.CheckboxSelectMultiple()
+        self.fields["projectGroup"].queryset = ProjectGroup.objects.filter(project__id=project_id)
 
     class Meta:
         tailwind_class = """w-full bg-white text-gray-600 
@@ -175,5 +178,4 @@ class ManageMemberGroupsFrom(forms.ModelForm):
         labels = {
             'projectGroup': 'Group ',
         }
-
-    
+        

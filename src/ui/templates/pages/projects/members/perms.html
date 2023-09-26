@@ -1,0 +1,27 @@
+{% load tailwind_filters custom_tags %}
+
+<div class="h-full overflow-y-scroll p-4 pt-2 text-sm">
+    <div class="h-full">
+        <form hx-post="{% url 'update_members_access' member_id %}" hx-target="#response" hx-indicator="#indicator">
+            <select id="form_access" name="perms" multiple="multiple"  >
+            {% for s in all_surveys %}
+                <option value="{{s.id}}" {{s|perm_selected:sel_surveys}}>{{s.title}}</option>
+            {% endfor %}
+            </select>
+            <div class="flex mt-4 ">
+                <input type="submit" value="Submit" class="border hover:bg-red-800 hover:cursor-pointer hover:text-white px-5 py-1 mr-4">
+                <div id="response"></div>
+                <img id="indicator" class="htmx-indicator" src="/loading.gif"/>
+            </div>
+        <form>
+    </div>
+</div>
+
+
+<!-- Datatable config -->
+<script language="javascript">
+    htmx.process("#form_access")
+    if (typeof dlb1 === 'undefined'){
+        let dlb1 = new DualListbox('#form_access');
+    }
+</script>

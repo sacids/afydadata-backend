@@ -44,6 +44,9 @@ urlpatterns = [
     path('project/<str:pk>/member/create', views.MemberCreateView.as_view(), name="create_member"),
     path('member/manage/<str:pk>/manage_profile', views.ManagePmGroups.as_view(), name="manage_pm_profile"),
     path('member/change_password/<pk>', views.ChangePmPassword.as_view(), name="change_pm_password"),
+    path('member/manage_access/<str:pk>', views.MembersPermsView.as_view(), name="manage_members_access"),
+    
+    path('update_members_access/<str:pk>', views.update_members_access, name="update_members_access"),
 
     # project groups
     path('project/group/manage/<str:pk>', views.manage_project_group, name="manage_project_group"),
@@ -58,6 +61,11 @@ urlpatterns = [
     path('project/<str:project_id>/form/<pk>/chart', views.FormMapView.as_view(), name="form_chart"),
     path('project/<str:project_id>/form/<pk>/map', views.FormMapView.as_view(), name="form_map"),
     path('project/<str:project_id>/form/<pk>/dashboard', views.FormMapView.as_view(), name="form_dashboard"),
+    
+    
+    path('update_survey_access/<str:pk>', views.update_survey_access, name="update_survey_access"),
+    
+    
     
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),

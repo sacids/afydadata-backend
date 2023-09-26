@@ -10,7 +10,8 @@ from django.urls import reverse
 from django import forms
 from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
 
-from surveys.models import Survey, SurveyQuestions, SurveyResponses
+from django.views.decorators.csrf import csrf_exempt
+from surveys.models import Survey, SurveyQuestions, SurveyResponses, perms_user
 from projects.models import Project, ProjectGroup, ProjectMember
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
@@ -484,7 +485,7 @@ def get_geopoints(form_id):
         
                                                       
 class FormPermsView(generic.TemplateView):
-    template_name = "pages/start.html"
+    template_name = "pages/forms/perms.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -502,18 +503,75 @@ class FormPermsView(generic.TemplateView):
         }
         
         context['title']            = cur_form.title
-        context['datatable_list']   = 'FormMappingList'
+        context['all_members']      = ProjectMember.objects.filter(project__id=cur_form.project.id)
+        context['sel_members']      = list(cur_form.user_access.all().values_list("user_id",flat=True))
+        
+        context['all_groups']      = ProjectGroup.objects.filter(project__id=cur_form.project.id)
+        context['sel_groups']      = list(cur_form.group_access.all().values_list("group_id",flat=True))
+        
+        context['form_id']          = form_id
         context['links']            = _get_form_links_context(cur_form,form_id) 
         context['pg_actions']   = {}
          
-        context['extra_data']   = {
-            'project_id': cur_form.project.id,
-            'form_id': form_id,
-        }
         
-        return context           
-     
-                            
+        return context        
+    
+@csrf_exempt  
+def update_survey_access(request, pk):
+    cur_form    = Survey.objects.get(pk=pk)
+    # Remove all permissions
+    cur_form.user_access.all().delete()
+    cur_form.group_access.all().delete()
+    
+    try:
+        for item in request.POST.getlist('perms'):
+            if item[:3] == 'MMM':
+                #print(ProjectMember.objects.get(pk=item[3:]))
+                cur_form.user_access.create(user=ProjectMember.objects.get(pk=item[3:]))
+            else:
+                cur_form.group_access.create(group=ProjectGroup.objects.get(pk=item[3:]))
+        
+        return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
+    except:
+        return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
+        
+
+
+class MembersPermsView(generic.TemplateView):
+    template_name = "pages/projects/members/perms.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(MembersPermsView, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(MembersPermsView, self).get_context_data(**kwargs)
+               
+        member_id               = self.kwargs['pk']
+        cur_member              = ProjectMember.objects.get(pk=member_id)
+        
+        context['all_surveys']  = Survey.objects.filter(project__id=cur_member.project.id)
+        context['sel_surveys']  = list(Survey.objects.filter(user_access__user=cur_member).values_list("id",flat=True))
+        context['member_id']    = member_id
+        return context        
+    
+@csrf_exempt  
+def update_members_access(request, pk):
+    member    = ProjectMember.objects.get(pk=pk)
+    # Remove all permissions
+    perms_user.objects.filter(survey_users__user_access__user=member).delete()
+    
+    try:
+        for item in request.POST.getlist('perms'):
+            cur_form      = Survey.objects.get(pk=item)
+            cur_form.user_access.create(user=member)
+        
+        return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
+    except:
+        return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
+        
+        
+
 def form_data_list(request, pk):
     
     # get data
@@ -601,9 +659,7 @@ def instance_data(request,pk):
 def instance_messages(request,pk):
     
     if request.method == 'POST':
-        print(pk)
         sr = SurveyResponses.objects.get(pk=pk)
-        print(sr.id)
         sr.notes.create(message=request.POST.get('message'), created_by=request.user)
         return JsonResponse(1, safe=False)
     else: 
@@ -645,7 +701,6 @@ def instance_location(request,pk):
 def instance_media(request,pk):
     context     = {}
     context['media']     = get_media_from_instance(pk)
-    print(context['media'])
     return render(request, 'pages/instance_media.html', context)
 
 

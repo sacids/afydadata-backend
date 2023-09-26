@@ -5,7 +5,7 @@ from django.contrib.contenttypes.models import ContentType
 from _datetime import timedelta
 from django.urls import reverse
 from django.utils.text import slugify
-from projects.models import Project, ProjectGroup
+from projects.models import Project, ProjectGroup, ProjectMember
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.contrib.auth.models import Group
@@ -23,6 +23,10 @@ class Survey(models.Model):
     description = models.TextField()
     created_on  = models.DateTimeField(auto_now=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+    
+    user_access   = GenericRelation('perms_user')   
+    group_access  = GenericRelation('perms_group')   
+    
 
     class Meta:
         db_table = 'ad_surveys'
@@ -82,7 +86,7 @@ class SurveyResponses(models.Model):
     created_on      = models.DateTimeField(auto_now=True)
     created_by      = models.ForeignKey(User, on_delete=models.DO_NOTHING)
 
-    notes           = GenericRelation('notes')    
+    notes           = GenericRelation('notes')   
     
     class Meta:
         db_table = 'ad_surveyResponses'
@@ -123,21 +127,6 @@ class SurveyPerm(models.Model):
         
         
 
-class note(models.Model):
-    id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    message     = models.TextField(blank=True, null=True)
-    created_at  = models.DateTimeField(auto_now_add=True, null=True)
-    created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
-
-    # Below the mandatory fields for generic relation
-    content_type    = models.ForeignKey(ContentType, on_delete=models.CASCADE,blank=True, null=True)
-    object_id       = models.UUIDField(blank=True, null=True)
-    content_object  = GenericForeignKey()
-
-
-    class Meta:
-        db_table = 'ad_notes'
-        verbose_name_plural = 'Notes'
 
 class notes(models.Model):
     id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -154,3 +143,37 @@ class notes(models.Model):
     class Meta:
         db_table = 'ad_note'
         verbose_name_plural = 'Notes'
+        
+        
+
+class perms_group(models.Model):
+    group        = models.ForeignKey(ProjectGroup, on_delete=models.CASCADE) 
+
+    # Below the mandatory fields for generic relation
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id    = models.UUIDField()
+    content_object = GenericForeignKey()
+
+    def __str__(self):
+        return self.group.title
+
+    class Meta:
+        db_table = 'ad_perms_group'
+        verbose_name_plural = 'Group Perms'
+
+
+class perms_user(models.Model):
+    user        = models.ForeignKey(ProjectMember, on_delete=models.CASCADE) 
+
+    # Below the mandatory fields for generic relation
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id    = models.UUIDField()
+    content_object = GenericForeignKey()
+
+    def __str__(self):
+        return self.user.member.user.username
+
+    class Meta:
+        db_table = 'ad_perms_users'
+        verbose_name_plural = 'User Perms'
+

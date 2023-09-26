@@ -11,6 +11,7 @@ from django import forms
 from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
 
 
+from django.views.decorators.csrf import csrf_exempt
 
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
@@ -483,7 +484,7 @@ def get_geopoints(form_id):
         
                                                       
 class FormPermsView(generic.TemplateView):
-    template_name = "pages/start.html"
+    template_name = "pages/forms/perms.html"
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
@@ -500,17 +501,38 @@ class FormPermsView(generic.TemplateView):
             cur_form.title: 0,
         }
         
-        context['datatable_list']   = 'FormMappingList'
+        context['all_members']      = ProjectMember.objects.filter(project__id=cur_form.project.id)
+        context['sel_members']      = list(cur_form.user_access.all().values_list("user_id",flat=True))
+        
+        context['all_groups']      = ProjectGroup.objects.filter(project__id=cur_form.project.id)
+        context['sel_groups']      = list(cur_form.group_access.all().values_list("group_id",flat=True))
+        
+        context['form_id']          = form_id
         context['links']            = _get_form_links_context(cur_form,form_id) 
         context['pg_actions']   = {}
          
-        context['extra_data']   = {
-            'project_id': cur_form.project.id,
-            'form_id': form_id,
-        }
         
-        return context           
-     
+        return context        
+    
+@csrf_exempt  
+def update_survey_access(request, pk):
+    cur_form    = Survey.objects.get(pk=pk)
+    # Remove all permissions
+    cur_form.user_access.all().delete()
+    cur_form.group_access.all().delete()
+    
+    try:
+        for item in request.POST.getlist('perms'):
+            if item[:3] == 'MMM':
+                print(ProjectMember.objects.get(pk=item[3:]))
+                cur_form.user_access.create(user=ProjectMember.objects.get(pk=item[3:]))
+            else:
+                cur_form.group_access.create(group=ProjectGroup.objects.get(pk=item[3:]))
+        
+        return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
+    except:
+        return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
+        
                             
 def form_data_list(request, pk):
     

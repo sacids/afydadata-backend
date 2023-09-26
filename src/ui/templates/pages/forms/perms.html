@@ -1,0 +1,51 @@
+{% extends 'layout/base.html' %}
+{% load static custom_tags %}
+{% block title %} {{title}} {% endblock %}
+
+{% block nav %}
+{% include "partials/nav.html" %}
+{% endblock %}
+
+{% block contents %}
+<div class="h-full w-full px-10 my-3 pt-7">
+    <div class="h-full">
+        <form hx-post="{% url 'update_survey_access' form_id %}" hx-target="#response" hx-indicator="#indicator">
+            <select id="form_access" name="perms" multiple="multiple"  >
+            {% for m in all_members %}
+                <option value="MMM{{m.id}}" {{m|perm_selected:sel_members}}>{{m.member.first_name}} {{m.member.last_name}}</option>
+            {% endfor %}
+            {% for g in all_groups %}
+                <option value="GGG{{g.id}}" {{g|perm_selected:sel_groups}}>GRP: {{g.title}}</option>
+            {% endfor %}
+            </select>
+            <div class="flex mt-4 ">
+                <input type="submit" value="Submit" class="border hover:bg-red-800 hover:cursor-pointer hover:text-white px-5 py-1 mr-4">
+                <div id="response"></div>
+                <img id="indicator" class="htmx-indicator" src="/loading.gif"/>
+            </div>
+        <form>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/dual-listbox/dist/dual-listbox.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/dual-listbox/dist/dual-listbox.css" rel="stylesheet" />
+<!-- Datatable config -->
+<script language="javascript">
+    
+    let dlb1 = new DualListbox('#form_access');
+
+</script>
+
+{% endblock %}
+
+
+
+{% block extrajs %}
+
+<script>
+
+</script>
+
+{% endblock %}

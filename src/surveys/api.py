@@ -182,7 +182,10 @@ def form_list(request):
         return response
 
     # check form permissions
-    surveys     = Survey.objects.all()
+    #surveys     = Survey.objects.all()
+    surveys     = Survey.objects.filter(user_access__user__member=current_user)
+    print(surveys)
+    print(current_user)
     context     = {
         'surveys': surveys,
     }

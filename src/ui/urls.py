@@ -58,6 +58,11 @@ urlpatterns = [
     path('project/<str:project_id>/form/<pk>/map', views.FormMapView.as_view(), name="form_map"),
     path('project/<str:project_id>/form/<pk>/dashboard', views.FormMapView.as_view(), name="form_dashboard"),
     
+    
+    path('update_survey_access/<str:pk>', views.update_survey_access, name="update_survey_access"),
+    
+    
+    
     path('form_data/<str:pk>', views.form_data_list, name="form_data_list"),
    #path('form_instance/<pk>', views.data_instance_wrp.as_view(), name="data_instance"),
     

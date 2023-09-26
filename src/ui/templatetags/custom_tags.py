@@ -59,3 +59,10 @@ def get_location(value,col_name):
     gps     = "["+loc.replace(" ",", ")+"],{ id: \'"+str(value.id)+"\'}"
     print(gps)
     return mark_safe(gps)
+
+
+@register.filter(name='perm_selected')
+def perm_selected(value,arr):
+    print(arr)
+    if value.id in arr:  
+        return 'selected'

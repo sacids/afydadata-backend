@@ -367,7 +367,8 @@ class form_summary_map(generic.TemplateView):
         context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
         context['geopoints']    = get_geopoints(form_id)
         return context                                    
-             
+
+
 class ManagePmGroups(generic.UpdateView):
     """Manage Member Groups"""
     model           = ProjectMember
@@ -410,6 +411,7 @@ class FormDataView(generic.TemplateView):
             cur_form.title: 0,
         }
         
+        context['title']            = cur_form.title
         context['datatable_list']   = reverse('form_data_list', kwargs={'pk':form_id})
         context['links']            = _get_form_links_context(cur_form,form_id)
         context['tbl_header']       = SurveyQuestions.objects.filter(survey__id=form_id)
@@ -441,6 +443,7 @@ class FormMappingView(generic.TemplateView):
             cur_form.title: 0,
         }
         
+        context['title']            = cur_form.title
         context['datatable_list']   = 'FormMappingList'
         context['links']            = _get_form_links_context(cur_form,form_id)
         context['pg_actions']   = {}
@@ -472,10 +475,10 @@ class FormMapView(generic.TemplateView):
             "Map": 0,
         }
 
-        context['links']            = _get_form_links_context(cur_form,form_id)
-        
-        context['form_data']    = SurveyResponses.objects.filter(Q(survey__id=form_id))
-        context['geopoints']    = get_geopoints(form_id)
+        context['title']            = cur_form.title
+        context['links']            = _get_form_links_context(cur_form,form_id) 
+        context['form_data']        = SurveyResponses.objects.filter(Q(survey__id=form_id))
+        context['geopoints']        = get_geopoints(form_id)
         return context   
     
 
@@ -501,6 +504,7 @@ class FormPermsView(generic.TemplateView):
             cur_form.title: 0,
         }
         
+        context['title']            = cur_form.title
         context['all_members']      = ProjectMember.objects.filter(project__id=cur_form.project.id)
         context['sel_members']      = list(cur_form.user_access.all().values_list("user_id",flat=True))
         

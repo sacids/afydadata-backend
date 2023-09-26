@@ -528,7 +528,7 @@ def update_survey_access(request, pk):
     try:
         for item in request.POST.getlist('perms'):
             if item[:3] == 'MMM':
-                print(ProjectMember.objects.get(pk=item[3:]))
+                #print(ProjectMember.objects.get(pk=item[3:]))
                 cur_form.user_access.create(user=ProjectMember.objects.get(pk=item[3:]))
             else:
                 cur_form.group_access.create(group=ProjectGroup.objects.get(pk=item[3:]))
@@ -661,9 +661,7 @@ def instance_data(request,pk):
 def instance_messages(request,pk):
     
     if request.method == 'POST':
-        print(pk)
         sr = SurveyResponses.objects.get(pk=pk)
-        print(sr.id)
         sr.notes.create(message=request.POST.get('message'), created_by=request.user)
         return JsonResponse(1, safe=False)
     else: 
@@ -705,7 +703,6 @@ def instance_location(request,pk):
 def instance_media(request,pk):
     context     = {}
     context['media']     = get_media_from_instance(pk)
-    print(context['media'])
     return render(request, 'pages/instance_media.html', context)
 
 

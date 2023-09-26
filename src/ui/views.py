@@ -10,8 +10,6 @@ from django.urls import reverse
 from django import forms
 from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
 
-
-
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
@@ -784,5 +782,6 @@ class SurveyQuestionsUpdateView(generic.UpdateView):
     def get_success_url(self):
         pk = self.kwargs['pk']
         return reverse('update_mapping', kwargs={'pk': pk})
+        
         
         

@@ -5,7 +5,13 @@
         <img class="h-8" src="{% static 'images/logo_C.png' %}" alt="Afyadata">
     </div>
 
-    <div>
+    <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+        <div class="my-auto mx-2">
+            <a href="{% url 'list_users' %}">
+                <i class="fa-solid fa-users"></i>
+            </a>
+        </div>
+
         <!-- Profile dropdown -->
         <div class="relative ml-3">
             <div>

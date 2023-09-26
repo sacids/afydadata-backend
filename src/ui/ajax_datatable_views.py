@@ -1,13 +1,64 @@
+import json
 from ajax_datatable.views import AjaxDatatableView
 from django.contrib.auth.models import Permission
 from django.urls import reverse
 from django.contrib.humanize.templatetags.humanize import naturalday
 
+from django.contrib.auth.models import User, Group
 from surveys.models import Survey, SurveyQuestions, SurveyResponses
 from projects.models import Project, ProjectGroup, ProjectMember
 
-import json
 from django.forms.models import model_to_dict
+
+class UserList(AjaxDatatableView):
+    model = User
+    title = 'Manage Users'
+    show_column_filters = False
+    initial_order = [["first_name", "asc"], ]
+    length_menu = [[10, 50, 100, -1], [10, 50, 100, 'all']]
+    search_values_separator = '+'
+    full_row_select = False
+
+    column_defs = [
+        {'name': 'id', 'visible': False, },
+        {'name': 'first_name', 'title': 'Fullname', 'visible': True, 'className': 'w-36 text-left border-r'},
+        {'name': 'username', 'visible': 'Username', 'className': 'w-20 text-left border-r'},
+        {'name': 'roles', 'title': 'Roles','className': 'w-48 text-left border-r', 'searchable': False,},
+        {'name': 'date_joined', 'title': 'Created On', 'visible': True,'className': 'w-[100px] text-left border-r'},
+        {'name': 'last_login', 'title': 'Last Login', 'visible': True,'className': 'w-[100px] text-left border-r'},
+        {'name': 'is_active', 'title': 'Status', 'visible': True, 'className': 'w-12 text-left border-r'},
+        {'name': 'actions', 'title': '', 'visible': True, 'className': 'w-12 text-left', 'placeholder': 'True', 'searchable': False, },
+    ]
+
+    def get_show_column_filters(self, request):
+        return False
+
+    def customize_row(self, row, obj):
+        # 'row' is a dictionary representing the current row, and 'obj' is the current object.
+        row['first_name'] = obj.first_name + " " + obj.last_name
+        row['date_joined'] = naturalday(obj.date_joined)
+        row['last_login'] = naturalday(obj.last_login)
+
+        arr_roles = []
+
+        if obj.groups.all():
+            for val in obj.groups.all():
+                arr_roles.append(val.name)
+        row['roles'] = arr_roles
+
+        if obj.is_active == True:
+            row['is_active'] = '<span class="bg-green-600 text-white px-1 py-0.5 text-xs font-normal rounded-sm ">Active</span>' 
+        elif obj.is_active == False:
+            row['is_active'] = '<span class="bg-red-600 text-white px-1 py-0.5 text-xs font-normal rounded-sm ">Inactive</span>'
+
+        row['actions'] = '<div class="flex">'\
+                '<a href="#" class="btn btn-xss px-1">'\
+                '<i class="fa-regular fa-eye text-blue-600"></i>'\
+                '</a>&nbsp;&nbsp;'\
+                '<a class="btn btn-xss cursor-pointer" @click="deleteUser(\'' + str(obj.id) + '\')">'\
+                '<i class="fa-regular fa-trash-can text-red-600"></i>' \
+                '</a>'\
+            '</div>'
 
 class PermissionAjaxDatatableView(AjaxDatatableView):
 
@@ -71,7 +122,7 @@ class SurveyList(AjaxDatatableView):
                 </svg>'''
 
         row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\',\''+form_summary_url+'\')" >'+arr+'</span>'
-        row['title']        = '<a class="" href="'+absolute_url+'" >'+str(obj.title)+'</a>'      
+        row['title']        = '<a class="" href="' + absolute_url+'" >'+str(obj.title) + '</a>'      
         row['created_on']   = naturalday(obj.created_on)
         row['del']          = '''<svg xmlns="http://www.w3.org/2000/svg" 
                                     class="h-4 w-4 text-slate-300 hover:text-rose-900 hover:cursor-pointer" 

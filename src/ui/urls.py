@@ -1,7 +1,7 @@
 from django.urls import path
 from django.conf.urls import url
 
-from . import views, authentication
+from . import views, authentication, users
 from . import ajax_datatable_views
 
 #app_name = "ui"
@@ -11,6 +11,7 @@ urlpatterns = [
     path("logout", authentication.LogoutView.as_view(), name="logout"),
     path("dashboard", views.DashboardView.as_view(), name="dashboard"),
 
+    path('ajax_datatable/user_list/', ajax_datatable_views.UserList.as_view(), name="userList"),
     path('ajax_datatable/permissions/', ajax_datatable_views.PermissionAjaxDatatableView.as_view(), name="ajax_datatable_permissions"),
     path('ajax_datatable/survey_list/', ajax_datatable_views.SurveyList.as_view(), name="surveylist"),
     path('ajax_datatable/project_member_list/', ajax_datatable_views.projectMemberslist.as_view(), name="projectMemberslist"),
@@ -75,12 +76,14 @@ urlpatterns = [
     path('instance/loc/<pk>', views.instance_location, name="instance_location"),
     path('instance/med/<pk>', views.instance_media, name="instance_media"),
     
-    
     # form mapping
     path('form/mapping/<str:pk>',views.SurveyQuestionsUpdateView.as_view(), name="update_mapping"),
     
-    
-    # ajax functions
+    # users
+    path('users/lists', users.UserListView.as_view(), name="list_users"),
+    path('users/create', users.UserCreateView.as_view(), name="create_user" ),  
+    # path('project/<str:pk>', views.ProjectDetailView.as_view(), name="project_detail"),
+    path('users/delete/<str:pk>', users.UserDeleteView.as_view(), name="delete_user"),
     
     
     

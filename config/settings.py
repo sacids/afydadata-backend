@@ -35,7 +35,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -43,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
 
     #libraries
     "rest_framework",
@@ -53,9 +51,6 @@ INSTALLED_APPS = [
     "crispy_tailwind",
 
     #custom apps
-    #'src.accounts.apps.AccountsConfig',
-    #'src.surveys.apps.SurveysConfig',
-    #'src.projects.apps.ProjectsConfig',
     'accounts',
     'projects',
     'surveys',
@@ -70,8 +65,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',   
 ]
 
 ROOT_URLCONF = 'config.urls'

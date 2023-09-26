@@ -13,7 +13,7 @@ from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPass
 
 from django.views.decorators.csrf import csrf_exempt
 
-from surveys.models import Survey, SurveyQuestions, SurveyResponses
+from surveys.models import Survey, SurveyQuestions, SurveyResponses, perms_user
 from projects.models import Project, ProjectGroup, ProjectMember
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
@@ -537,7 +537,43 @@ def update_survey_access(request, pk):
     except:
         return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
         
-                            
+
+
+class MembersPermsView(generic.TemplateView):
+    template_name = "pages/projects/members/perms.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(MembersPermsView, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(MembersPermsView, self).get_context_data(**kwargs)
+               
+        member_id               = self.kwargs['pk']
+        cur_member              = ProjectMember.objects.get(pk=member_id)
+        
+        context['all_surveys']  = Survey.objects.filter(project__id=cur_member.project.id)
+        context['sel_surveys']  = list(Survey.objects.filter(user_access__user=cur_member).values_list("id",flat=True))
+        context['member_id']    = member_id
+        return context        
+    
+@csrf_exempt  
+def update_members_access(request, pk):
+    member    = ProjectMember.objects.get(pk=pk)
+    # Remove all permissions
+    perms_user.objects.filter(survey_users__user_access__user=member).delete()
+    
+    try:
+        for item in request.POST.getlist('perms'):
+            cur_form      = Survey.objects.get(pk=item)
+            cur_form.user_access.create(user=member)
+        
+        return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
+    except:
+        return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
+        
+        
+
 def form_data_list(request, pk):
     
     # get data

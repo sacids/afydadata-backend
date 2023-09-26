@@ -24,8 +24,8 @@ class Survey(models.Model):
     created_on  = models.DateTimeField(auto_now=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
     
-    user_access   = GenericRelation('perms_user')   
-    group_access  = GenericRelation('perms_group')   
+    user_access   = GenericRelation('perms_user', related_query_name='survey_users')   
+    group_access  = GenericRelation('perms_group', related_query_name='survey_groups')   
     
 
     class Meta:

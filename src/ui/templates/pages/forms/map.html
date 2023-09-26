@@ -1,4 +1,5 @@
 {% extends 'layout/base.html' %}
+{% block title %} {{title}} {% endblock %}
 {% load custom_tags %}
 
 {% block nav %}
@@ -13,8 +14,6 @@
 
 <!-- Datatable config -->
 <script language="javascript">
-
-
     function manageMap() {
         return {
 

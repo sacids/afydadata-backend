@@ -1,3 +1,4 @@
+import re
 from django.contrib.auth.models import User, Group
 from accounts.models import Profile
 from rest_framework import viewsets
@@ -86,76 +87,92 @@ class ChangePasswordView(generics.UpdateAPIView):
 
 @csrf_exempt  
 def login_user(request):
-    
+    """User login"""
     code        = request.POST.get('code')
     mobile      = request.POST.get('mobile')
     passwd1     = request.POST.get('password')
     
-    res         = {}
+    response           = {}
+    status_code        = 200
+
     if not code or not mobile or not passwd1:
-        res['error']        = 'true'
-        res['error_msg']    = 'Required parameters are missing'
-        code                = 203
+        response['error']        = 'true'
+        response['error_msg']    = 'Required parameters are missing'
+        status_code              = 203
     else:
-        user = authenticate(request, username=mobile, password=passwd1)
+        # format mobile number
+        username = code[1:] + cast_mobile(mobile)
+
+        # authenticate user
+        user = authenticate(request, username=username, password=passwd1)
 
         if user is not None:
-            res['error']    = 'false'
-            res['uid']      = user.pk
-            res['user']     = {'username':user.username,'first_name':user.first_name,'last_name':user.last_name}
-            code            = 200
+            response['error']    = 'false'
+            response['uid']      = user.pk
+            response['user']     = {'username':user.username,'first_name':user.first_name,'last_name':user.last_name}
+            status_code          = 200
         else:
-            res['error']        = 'true'
-            res['error_msg']    = 'Invalid username or password'
-            code                = 203
+            response['error']        = 'true'
+            response['error_msg']    = 'Invalid username or password'
+            status_code              = 203
             
-    return JsonResponse(res,safe=False,status=code)
+    return JsonResponse(response, safe=False, status=status_code)
     
         
 @csrf_exempt  
 def register_user(request):
-    
-    # get phone number
-    # get code
-    # get password
+    """User registration"""
     code        = request.POST.get('code')
     mobile      = request.POST.get('mobile')
     passwd1     = request.POST.get('password')
     passwd2     = request.POST.get('password_confirm')
     fname       = request.POST.get('first_name')
     lname       = request.POST.get('last_name')
-    
-    res         = {}
-    code        = 200
-    #print(code+' '+mobile+' '+passwd1+' '+passwd2+' '+lname)
+
+    response           = {}
+    status_code        = 200
+
+    # format mobile number
+    username = code[1:] + cast_mobile(mobile)
+
     if passwd1 != passwd2:
         # return password mismatch
-        res['error']        = 'true'
-        res['error_msg']    = 'Password Mismatch'
-        code                = 203
-        
-    
-    # check mobile number validity
-  
-    # check if user exists
+        response['error']        = 'true'
+        response['error_msg']    = 'Password Mismatch'
+        status_code              = 203
     else:
         try:
-            User.objects.get(username = mobile)
-            res['error']        = 'true'
-            res['error_msg']    = 'Mobile number already registered'
-            code                = 203
+            User.objects.get(username = username)
+            response['error']        = 'true'
+            response['error_msg']    = 'Mobile number already registered'
+            status_code              = 203
             
         except User.DoesNotExist:
-            new_user        = User.objects.create_user(username=mobile,password=passwd1,first_name=fname,last_name=lname)
+            new_user = User.objects.create_user(username=username,password=passwd1,first_name=fname,last_name=lname)
+
             # set digest
             profile         = Profile.objects.get(user=new_user)
             profile.digest  = calculate_digest(new_user.username, passwd1)
             profile.save()
             
-            res['error']    = 'false'
-            res['uid']      = new_user.pk
-            res['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}
-            code            = 200
+            response['error']    = 'false'
+            response['uid']      = new_user.pk
+            response['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}
+            status_code     = 200
     
-    return JsonResponse(res,safe=False,status=code)
+    return JsonResponse(response,safe=False, status=status_code)
+
+
+def cast_mobile(mobile):
+    """Cast mobile number"""
+    pattern = "^0[6-7]{1}[0-9]{8}$"
+
+    #remove space
+    mobile = mobile.replace(' ', '')
+
+    if re.match(pattern, mobile):
+      mobile = mobile[1:]
+      return mobile
+    else:
+        return mobile
     

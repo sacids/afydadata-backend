@@ -204,8 +204,8 @@ def process_odk_submission(request):
 
 
 def copy_response_files(request):
-
-    dest_folder     = 'media/xform/data/'
+    app_root        = os.path.dirname(os.path.realpath(__name__))
+    dest_folder     = app_root+'/media/xform/data/'
     xml             = request.FILES['xml_submission_file']
 
     try:
@@ -222,7 +222,8 @@ def copy_response_files(request):
             destination.close()
         
         return True
-    except:
+    except Exception as e:
+        print
         return False
 
 

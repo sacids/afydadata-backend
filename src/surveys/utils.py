@@ -72,6 +72,8 @@ def init_xform(filename, filetype="xform"):
     for itext in trans:
         lang    = itext['lang']
         text    = itext['text']
+    
+    
         for item in text:
             tmp     = item['id'].split(":")
             ref     = tmp[0]
@@ -79,9 +81,11 @@ def init_xform(filename, filetype="xform"):
 
             if ref not in holder:
                 holder[ref] = {
-                    'option'    :{},
-                    'label'     :{},
-                    'hint'      :{},
+                    'option'        :{},
+                    'label'         :{},
+                    'hint'          :{},
+                    'requiredMsg'   :{},
+                    'constraintMsg' :{},
                 }
             
             if anchor[0:6] == 'option':

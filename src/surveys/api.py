@@ -154,9 +154,7 @@ def form_submission(request):
         response    = attach_openRosaHeader(response)
         response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
         
-        return response 
-        
-        
+        return response      
     
     else:
         resp = BadRequest("Submission Error.")

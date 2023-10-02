@@ -138,13 +138,17 @@ def init_xform(filename, filetype="xform"):
         qns_dict['order']       = order
 
         if nodeset in holder:
-            qns_dict['hint']        = holder[nodeset]['hint']
-            qns_dict['options']     = holder[nodeset]['option']
-            qns_dict['label']       = holder[nodeset]['label']
+            qns_dict['hint']            = holder[nodeset]['hint']
+            qns_dict['options']         = holder[nodeset]['option']
+            qns_dict['label']           = holder[nodeset]['label']
+            qns_dict['requiredMsg']     = holder[nodeset]['requiredMsg']
+            qns_dict['constraintMsg']   = holder[nodeset]['constraintMsg']
         else:
-            qns_dict['hint']        = ''
-            qns_dict['options']     = ''
-            qns_dict['label']       = ''
+            qns_dict['hint']            = ''
+            qns_dict['options']         = ''
+            qns_dict['label']           = ''
+            qns_dict['requiredMsg']     = ''
+            qns_dict['constraintMsg']   = ''
 
         survey_cfg['qns'].append(qns_dict)
 

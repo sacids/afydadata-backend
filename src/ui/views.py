@@ -825,7 +825,7 @@ def _get_form_links_context(cur_form,form_id):
 class SurveyQuestionsUpdateView(generic.UpdateView):
     model           = SurveyQuestions
     form_class      = UpdateMappingForm
-    template_name   = 'forms/update_mapping.html'
+    template_name   = 'pages/forms/update_mapping.html'
     
     def get_context_data(self, **kwargs):
         context = super(SurveyQuestionsUpdateView, self).get_context_data(**kwargs)

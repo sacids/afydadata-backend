@@ -207,8 +207,6 @@ CRISPY_TEMPLATE_PACK = "tailwind"
 # Logging errors in django
 import logging
 
-logging.basicConfig(
-    level = logging.INFO,
-    format = '%(asctime)s %(levelname)s %(message)s',
-    filename = 'info.log',
-)
+logging.basicConfig(level = logging.INFO,format = '%(asctime)s %(levelname)s %(message)s',filename = 'info.log')
+logging.basicConfig(level = logging.DEBUG,format = '%(asctime)s %(levelname)s %(message)s',filename = 'debug.log')
+logging.basicConfig(level = logging.ERROR,format = '%(asctime)s %(levelname)s %(message)s',filename = 'error.log')

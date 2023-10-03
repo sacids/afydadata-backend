@@ -1,4 +1,5 @@
 import json
+import logging
 import operator
 from functools import reduce
 from django.shortcuts import render
@@ -46,11 +47,8 @@ class DashboardView(generic.TemplateView):
         context['links'] = {
             'Dashboard':        reverse('dashboard'),
             'Projects':         reverse('list_projects'),
-            # 'Tutorial':         reverse('tutorial'),
-            # 'Case Studies':     reverse('case_studies'),
         }
-        
-        #context['pg_actions']  = { 'Add Project': reverse('list_projects'),}    
+           
         return context
     
     
@@ -98,6 +96,9 @@ class ProjectCreateView(generic.CreateView):
             project.created_by = self.request.user
             project.save()
 
+            #log action
+            logging.info("Project created => " + project.pk)
+
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Create Project"}) 
@@ -118,7 +119,6 @@ class ProjectDetailView(generic.TemplateView):
         
         context['title']            = cur_project.title   
         context['breadcrumb']       = {
-            
             cur_project.title: 0,
         }
            
@@ -162,9 +162,15 @@ class ProjectDeleteView(generic.View):
             project = Project.objects.get(pk=project_id)
             project.delete()
 
+            #log action
+            logging.info("project deleted => " + project.pk)
+
             """response"""
             return JsonResponse({"error": False, "success_msg": "Project deleted"}, safe=False)
         except:
+            #log action
+            logging.error("Project does not exists")
+
             """response"""
             return JsonResponse({"error": True, "error_msg": "Failed to delete project"}, safe=False)
 
@@ -192,6 +198,9 @@ class XformCreateView(generic.CreateView):
             survey_form.created_by = self.request.user
             survey_form.project = cur_project
             cur_obj             = form.save() 
+
+            #log action
+            logging.info("Survey created => " + cur_obj.pk)
 
             # initiate form
             survey_cfg          = init_xform(cur_obj.xform.name)
@@ -221,6 +230,9 @@ class XformCreateView(generic.CreateView):
                 order=obj['order'],
                 label=obj['label']
             )
+            #log action
+            logging.info("save survey questions")
+            logging.info(survey)
     
 
 class XformDeleteView(generic.View):
@@ -235,6 +247,9 @@ class XformDeleteView(generic.View):
         try:
             xform = Survey.objects.get(pk=xform_id)
             xform.delete()
+
+            #log action
+            logging.info("survey deleted")
 
             #todo: delete xml file
 
@@ -266,6 +281,9 @@ class MemberCreateView(generic.TemplateView):
         form = MemberForm(request.POST)
         if form.is_valid():
             member = form.save()
+
+            #log action
+            logging.info("Project member created/assigned")
 
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Member Added</div>')
@@ -300,6 +318,9 @@ class GroupCreateView(generic.TemplateView):
         form = GroupForm(request.POST)
         if form.is_valid():
             form.save()
+
+            #log action
+            logging.info("Project group assigned/created")
 
             # return response
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Group added to Project</div>')

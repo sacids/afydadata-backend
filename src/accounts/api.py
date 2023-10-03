@@ -1,4 +1,5 @@
 import re
+import logging
 from django.contrib.auth.models import User, Group
 from accounts.models import Profile
 from rest_framework import viewsets
@@ -96,12 +97,18 @@ def login_user(request):
     status_code        = 200
 
     if not code or not mobile or not passwd1:
+        #log action
+        logging.info("Required parameter missing")
+
         response['error']        = 'true'
         response['error_msg']    = 'Required parameters are missing'
         status_code              = 203
     else:
         # format mobile number
         username = code[1:] + cast_mobile(mobile)
+
+        #log action
+        logging.info("Casting phone and mobile code => " + username)
 
         # authenticate user
         user = authenticate(request, username=username, password=passwd1)
@@ -111,10 +118,16 @@ def login_user(request):
             response['uid']      = user.pk
             response['user']     = {'username':user.username,'first_name':user.first_name,'last_name':user.last_name}
             status_code          = 200
+
+            #log action
+            logging.info("User authenticated")
         else:
             response['error']        = 'true'
             response['error_msg']    = 'Invalid username or password'
             status_code              = 203
+
+            #log action
+            logging.info("Invalid username and password")
             
     return JsonResponse(response, safe=False, status=status_code)
     
@@ -135,17 +148,26 @@ def register_user(request):
     # format mobile number
     username = code[1:] + cast_mobile(mobile)
 
+    #log action
+    logging.info("Casting phone and mobile code => " + username)
+
     if passwd1 != passwd2:
         # return password mismatch
         response['error']        = 'true'
         response['error_msg']    = 'Password Mismatch'
         status_code              = 203
+
+        #log action
+        logging.info("Password mismatch")
     else:
         try:
             User.objects.get(username = username)
             response['error']        = 'true'
             response['error_msg']    = 'Mobile number already registered'
             status_code              = 203
+
+            #log action
+            logging.info("Mobile number already registered")
             
         except User.DoesNotExist:
             new_user = User.objects.create_user(username=username,password=passwd1,first_name=fname,last_name=lname)
@@ -154,11 +176,17 @@ def register_user(request):
             profile         = Profile.objects.get(user=new_user)
             profile.digest  = calculate_digest(new_user.username, passwd1)
             profile.save()
+
+            #log action
+            logging.info("Digested password => " + profile.digest)
             
             response['error']    = 'false'
             response['uid']      = new_user.pk
             response['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}
             status_code     = 200
+
+            #log action
+            logging.info("User registered")
     
     return JsonResponse(response,safe=False, status=status_code)
 

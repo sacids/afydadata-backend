@@ -9,9 +9,9 @@ from django.conf import settings
 import urllib.parse
 
 
-
 import os
 import pyxform
+import logging
 from pyxform import xform2json
 import json
 from django.urls import reverse
@@ -24,15 +24,6 @@ from hashlib import md5
 import hashlib
 
 
-
-
-
-
-
-
-
-
-
 OPEN_ROSA_VERSION_HEADER = 'X-OpenRosa-Version'
 HTTP_OPEN_ROSA_VERSION_HEADER = 'HTTP_X_OPENROSA_VERSION'
 OPEN_ROSA_VERSION = '1.0'
@@ -43,17 +34,11 @@ nonce                   = hashlib.md5(get_random_string(length=32).encode()).hex
 DIGEST_AUTHENTICATION   = 'Digest realm="'+settings.DIGEST_REALM+'",qop="auth",nonce="'+nonce+'",opaque="'+nonce+'"'
 
 
-
-
-
-
-
-
-
-
 def init_xform(filename, filetype="xform"):
-
+    """Initialize xform"""
     file_path   = os.path.join(settings.MEDIA_ROOT, filename)
+    logging.info("File path => " + file_path)
+
     xf          = readFile(file_path)
     contents    = xform2json.XFormToDictBuilder(xf)
     trans       = contents.translations
@@ -63,11 +48,6 @@ def init_xform(filename, filetype="xform"):
     holder      = {}
     pages       = {}
     page_num    = 1
-
-    #for x in group:
-        #r           = x['ref']
-        #pages[r]    = page_num
-        #page_num    = page_num + 1
 
     for itext in trans:
         lang    = itext['lang']
@@ -159,19 +139,21 @@ def readFile(filename):
     f = open(filename, 'r')
     if f.mode == 'r':
        contents =f.read()
-       #print (contents)
+
+    logging.info("Reading file contents")
+    logging.info(contents)
     return contents 
 
 
-
 def process_odk_submission(request):
-
+    """Process odk submission"""
     xml     = request.FILES['xml_submission_file']
     xf_dict = get_xf_dict(xml.file.read())
 
     # check if form is available
     
     s  = Survey.objects.filter(form_id=xf_dict['ad_form_id'])
+    
     #print(xf_dict)
     if s.count() == 0:
         # survey not found

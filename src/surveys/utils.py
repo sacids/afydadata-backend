@@ -72,6 +72,8 @@ def init_xform(filename, filetype="xform"):
     for itext in trans:
         lang    = itext['lang']
         text    = itext['text']
+    
+    
         for item in text:
             tmp     = item['id'].split(":")
             ref     = tmp[0]
@@ -79,9 +81,11 @@ def init_xform(filename, filetype="xform"):
 
             if ref not in holder:
                 holder[ref] = {
-                    'option'    :{},
-                    'label'     :{},
-                    'hint'      :{},
+                    'option'        :{},
+                    'label'         :{},
+                    'hint'          :{},
+                    'requiredMsg'   :{},
+                    'constraintMsg' :{},
                 }
             
             if anchor[0:6] == 'option':
@@ -134,13 +138,17 @@ def init_xform(filename, filetype="xform"):
         qns_dict['order']       = order
 
         if nodeset in holder:
-            qns_dict['hint']        = holder[nodeset]['hint']
-            qns_dict['options']     = holder[nodeset]['option']
-            qns_dict['label']       = holder[nodeset]['label']
+            qns_dict['hint']            = holder[nodeset]['hint']
+            qns_dict['options']         = holder[nodeset]['option']
+            qns_dict['label']           = holder[nodeset]['label']
+            qns_dict['requiredMsg']     = holder[nodeset]['requiredMsg']
+            qns_dict['constraintMsg']   = holder[nodeset]['constraintMsg']
         else:
-            qns_dict['hint']        = ''
-            qns_dict['options']     = ''
-            qns_dict['label']       = ''
+            qns_dict['hint']            = ''
+            qns_dict['options']         = ''
+            qns_dict['label']           = ''
+            qns_dict['requiredMsg']     = ''
+            qns_dict['constraintMsg']   = ''
 
         survey_cfg['qns'].append(qns_dict)
 
@@ -162,10 +170,12 @@ def process_odk_submission(request):
     xf_dict = get_xf_dict(xml.file.read())
 
     # check if form is available
-    s  = Survey.objects.filter(form_id=xf_dict['id'])
+    
+    s  = Survey.objects.filter(form_id=xf_dict['ad_form_id'])
+    #print(xf_dict)
     if s.count() == 0:
         # survey not found
-        #print('survey not found')
+        print('survey not found')
         return False
     
     # check if user has permission to submit
@@ -174,14 +184,18 @@ def process_odk_submission(request):
     # copy files and images
     if not copy_response_files(request):
         return False
+    
+    
 
     # insert survey response
+    
     try:
         sr  = SurveyResponses.objects.create(
                     survey=s[0],
                     instance_id=xf_dict['instanceID'],
                     response=xf_dict,
                     created_by=request.user)
+        
         return 1
     except Exception as e:
         #print(type(e))
@@ -190,8 +204,8 @@ def process_odk_submission(request):
 
 
 def copy_response_files(request):
-
-    dest_folder     = 'media/xform/data/'
+    app_root        = os.path.dirname(os.path.realpath(__name__))
+    dest_folder     = app_root+'/media/xform/data/'
     xml             = request.FILES['xml_submission_file']
 
     try:
@@ -208,7 +222,8 @@ def copy_response_files(request):
             destination.close()
         
         return True
-    except:
+    except Exception as e:
+        print
         return False
 
 
@@ -217,13 +232,12 @@ def copy_response_files(request):
 def get_xf_dict(xf):
     tree    = ET.ElementTree(ET.fromstring(xf))
     root    = tree.getroot()
-
     tmp         = {}
     for elem in root.iter():
         #print(elem)
         if elem.tag == 'data':
             #print('id '+str(elem.attrib['id']))
-            tmp['id']   = elem.attrib['id']
+            tmp['ad_form_id']   = elem.attrib['id']
         elif elem.text != None and elem.text.strip() != '':
             #print(elem.tag+' '+elem.text.strip())
             tmp[elem.tag]   = elem.text.strip()
@@ -382,8 +396,6 @@ def do_authenticate(request):
 
     tmp1    = authorization[7:].replace(', ',"&").replace('"','')
     parts   = dict(urllib.parse.parse_qsl(tmp1))
-    
-    print(parts)
     
     try:
         u   = User.objects.get(username=parts['username'])

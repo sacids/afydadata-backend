@@ -636,7 +636,7 @@ def form_data_list(request, pk):
                                               
 class data_instance_wrp(generic.TemplateView):
     
-    template_name = "pages/instance.html"
+    template_name = "pages/instances/instance.html"
     
     def get_context_data(self, **kwargs):
         context = super(data_instance_wrp, self).get_context_data(**kwargs)
@@ -653,7 +653,7 @@ def instance_data(request,pk):
     context     = {}
     context     = get_data_from_instance(pk)
     
-    return render(request, 'pages/instance_data.html', context)
+    return render(request, 'pages/instances/instance_data.html', context)
 
                                              
 def instance_messages(request,pk):
@@ -665,7 +665,7 @@ def instance_messages(request,pk):
     else: 
         context     = {}
         
-        return render(request, 'pages/instance_messages.html', context)
+        return render(request, 'pages/instances/instance_messages.html', context)
 
 def _get_survey_notes(pk):
     sr_obj      = SurveyResponses.objects.get(pk=pk)
@@ -695,13 +695,13 @@ def instance_messages_add(request):
 def instance_location(request,pk):
     context     = {}
     context['locations']     = get_loc_from_instance(pk)
-    return render(request, 'pages/instance_map.html', context)
+    return render(request, 'pages/instances/instance_map.html', context)
 
 
 def instance_media(request,pk):
     context     = {}
     context['media']     = get_media_from_instance(pk)
-    return render(request, 'pages/instance_media.html', context)
+    return render(request, 'pages/instances/instance_media.html', context)
 
 
 def get_media_from_instance(pk):
@@ -825,7 +825,7 @@ def _get_form_links_context(cur_form,form_id):
 class SurveyQuestionsUpdateView(generic.UpdateView):
     model           = SurveyQuestions
     form_class      = UpdateMappingForm
-    template_name   = 'forms/update_mapping.html'
+    template_name   = 'pages/forms/update_mapping.html'
     
     def get_context_data(self, **kwargs):
         context = super(SurveyQuestionsUpdateView, self).get_context_data(**kwargs)

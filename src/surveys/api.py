@@ -59,6 +59,8 @@ class SurveyViewSet(viewsets.ModelViewSet):
                 required=obj['required'],
                 hint=obj['hint'],
                 options=obj['options'],
+                requiredMsg=obj['requiredMsg'],
+                constraintMsg=obj['constraintMsg'],
                 page=obj['page'],
                 order=obj['order'],
                 label=obj['label'])
@@ -152,9 +154,7 @@ def form_submission(request):
         response    = attach_openRosaHeader(response)
         response['Location']    = request.build_absolute_uri().replace(request.get_full_path(), '/submission')
         
-        return response 
-        
-        
+        return response      
     
     else:
         resp = BadRequest("Submission Error.")
@@ -185,8 +185,8 @@ def form_list(request):
     #surveys     = Survey.objects.all()
     
     surveys     = Survey.objects.filter(user_access__user__member=current_user)
-    print(surveys)
-    print(current_user)
+    #print(surveys)
+    #print(current_user)
     context     = {
         'surveys': surveys,
     }

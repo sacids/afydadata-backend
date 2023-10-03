@@ -18,6 +18,31 @@
             <!-- Security token -->
             {% csrf_token %}
 
+            <div class="my-3">
+                {{ form.ref|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.col_name|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.label|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.hint|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.order|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.page|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.requiredMsg|as_crispy_field }}
+            </div>
+            <div class="my-3">
+                {{ form.constraintMsg|as_crispy_field }}
+            </div>
+
             <div class="flex items-center justify-between">
                 <button
                     hx-post="{% url 'update_mapping' uuid %}" hx-target='#create_project_div'

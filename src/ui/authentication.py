@@ -1,3 +1,4 @@
+import logging
 from django.shortcuts import render, redirect
 from django.views import generic
 from django.urls import reverse_lazy
@@ -23,6 +24,7 @@ class LoginView(generic.View):
     success_url = '/ui/dashboard'
 
     def get(self, request, *args, **kwargs):
+        logging.info("Check if user already logged in")
         if request.user.is_authenticated:
             return redirect(self.success_url)
         else:    
@@ -36,6 +38,7 @@ class LoginView(generic.View):
             username = request.POST.get('username')
             password = request.POST.get('password')
 
+            logging.info("Authenticate user")
             # authenticate user
             user = authenticate(request, username=username, password=password)
 
@@ -52,8 +55,8 @@ class LoginView(generic.View):
                 # redirect
                 return redirect(self.success_url)
             else:
+                logging.info("Failed to login => wrong credentials")
                 messages.error(request, 'Wrong credentials, try again!')
-
        # render view
         return render(request, self.template_name, {'form': form})
 
@@ -63,4 +66,6 @@ class LogoutView(generic.View):
     def get(self, request):
         logout(request)
         messages.error(request, 'Log out successfully')
+        logging.info("User logout")
+        # redirect
         return redirect('login')

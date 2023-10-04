@@ -59,6 +59,11 @@ def init_xform(filename, filetype="xform"):
             ref     = tmp[0]
             anchor  = tmp[1]
 
+            # try:
+            #     pass
+            # except AssertionError:
+            #     pass
+
             if ref not in holder:
                 holder[ref] = {
                     'option'        :{},

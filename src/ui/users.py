@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime
 from django.http import HttpResponseRedirect
 from django.urls import reverse
@@ -78,8 +79,9 @@ class UserCreateView(generic.CreateView):
             for role_id in role_ids:
                 role = Group.objects.get(pk=role_id)
                 user.groups.add(role)
-
+ 
             # return response
+            logging.info("User registered")   
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">User registered</div>')
         return render(request, self.template_name, {'user_form': user_form, 'profile_form': profile_form, 'btn_create': "Register"}) 
 
@@ -139,6 +141,7 @@ class UserUpdateView(generic.UpdateView):
                 user.groups.add(role)
 
             # return response
+            logging.info("User updated")   
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">User updated</div>')
         return render(request, self.template_name, {'user_form': user_form, 'profile_form': profile_form, 'btn_create': "Update"})         
             
@@ -155,6 +158,8 @@ class UserDeleteView(generic.View):
         try:
             user = User.objects.get(pk=user_id)
             user.delete()
+
+            logging.info("User deleted")   
 
             """response"""
             return JsonResponse({"error": False, "success_msg": "User deleted"}, safe=False)

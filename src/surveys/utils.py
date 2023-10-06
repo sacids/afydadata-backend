@@ -181,6 +181,7 @@ def process_odk_submission(request):
         return 1
     except Exception as e:
         #print(type(e))
+        logging.info("Failed to insert survey => " + e)
         return False
     
 
@@ -205,7 +206,7 @@ def copy_response_files(request):
         
         return True
     except Exception as e:
-        print
+        
         return False
 
 

@@ -241,7 +241,6 @@ class XformDeleteView(generic.View):
         try:
             xform = Survey.objects.get(pk=xform_id)
             xform.delete()
-
             logging.info("survey deleted")
 
             #todo: delete xml file

@@ -37,7 +37,7 @@ urlpatterns = [
 
     #project surveys
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
-    #path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
+    path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
     
     # project members
     path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),

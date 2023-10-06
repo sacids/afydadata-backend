@@ -96,10 +96,8 @@ class ProjectCreateView(generic.CreateView):
             project.created_by = self.request.user
             project.save()
 
-            #log action
-            logging.info("Project created => " + project.pk)
-
             # return response
+            logging.info("Project created => " + project.pk)
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Project created</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Create Project"}) 
             
@@ -161,14 +159,11 @@ class ProjectDeleteView(generic.View):
         try:
             project = Project.objects.get(pk=project_id)
             project.delete()
-
-            #log action
             logging.info("project deleted => " + project.pk)
 
             """response"""
             return JsonResponse({"error": False, "success_msg": "Project deleted"}, safe=False)
         except:
-            #log action
             logging.error("Project does not exists")
 
             """response"""
@@ -199,7 +194,6 @@ class XformCreateView(generic.CreateView):
             survey_form.project = cur_project
             cur_obj             = form.save() 
 
-            #log action
             logging.info("Survey created => " + cur_obj.pk)
 
             # initiate form
@@ -247,8 +241,6 @@ class XformDeleteView(generic.View):
         try:
             xform = Survey.objects.get(pk=xform_id)
             xform.delete()
-
-            #log action
             logging.info("survey deleted")
 
             #todo: delete xml file
@@ -282,10 +274,8 @@ class MemberCreateView(generic.TemplateView):
         if form.is_valid():
             member = form.save()
 
-            #log action
-            logging.info("Project member created/assigned")
-
             # return response
+            logging.info("Project member created/assigned")
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Member Added</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Add Member"}) 
 
@@ -296,7 +286,6 @@ def manage_project_member(request, pk):
     context['member']   = ProjectMember.objects.get(pk=pk)
     template            = 'pages/projects/members/index.html'
     return TemplateResponse(request,template,context) 
-
 
 
 class GroupCreateView(generic.TemplateView):
@@ -319,10 +308,8 @@ class GroupCreateView(generic.TemplateView):
         if form.is_valid():
             form.save()
 
-            #log action
-            logging.info("Project group assigned/created")
-
             # return response
+            logging.info("Project group assigned/created")
             return HttpResponse('<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Group added to Project</div>')
         return render(request, self.template_name, {'form': form, 'btn_create': "Create Project",'project_id': kwargs['project_id']}) 
      
@@ -350,15 +337,6 @@ def manage_project_group(request, pk):
     context['group']    = ProjectGroup.objects.get(pk=pk)
     template            = 'pages/projects/groups/index.html'
     return TemplateResponse(request,template,context)  
-
-
-
-  
-
-
-                                                      
-
-
 
                                                       
 def manage_form_summary(request, project_id,pk):
@@ -502,6 +480,8 @@ class FormMapView(generic.TemplateView):
     
 
 def get_geopoints(form_id):
+        # return data
+        logging.info("Filtering geopoints data")
         return SurveyQuestions.objects.filter(Q(survey__id=form_id) & Q(col_type='geopoint')).values('col_name')
         
                                                       
@@ -547,13 +527,15 @@ def update_survey_access(request, pk):
     try:
         for item in request.POST.getlist('perms'):
             if item[:3] == 'MMM':
-                #print(ProjectMember.objects.get(pk=item[3:]))
                 cur_form.user_access.create(user=ProjectMember.objects.get(pk=item[3:]))
             else:
                 cur_form.group_access.create(group=ProjectGroup.objects.get(pk=item[3:]))
         
+        # return response
+        logging.info("Update survey access to user/group")
         return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
     except:
+        logging.error("Failed to update survey access to user/group")
         return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
         
 
@@ -587,27 +569,21 @@ def update_members_access(request, pk):
             cur_form      = Survey.objects.get(pk=item)
             cur_form.user_access.create(user=member)
         
+        # return response
+        logging.info("Update survey access to member")
         return HttpResponse('<span class="bg-green-300 px-4 py-1 rounded-md">Successfully Updated</span>')
     except:
+        logging.error("Failed to update survey access to member")
         return HttpResponse('<span class="bg-red-300 px-4 py-1" rounded-md>Failed to Update</span>')
         
         
 
 def form_data_list(request, pk):
-    
-    # get data
-    
+    """Show form data"""
     start               = int(request.GET.get('start',0))
     length              = int(request.GET.get('length',5))
     draw                = int(request.GET.get('draw',1))
     search              = request.GET.get('search[value]')
-    
-    
-    
-    #req_val             = request.GET   
-    #for i,j in req_val.items():
-    #    print(i,' - ',j)
-        
     sort_col            = int(request.GET.get('order[0][column]',-1))
     sort_dir            = request.GET.get('order[0][dir]',-1)
     
@@ -632,8 +608,6 @@ def form_data_list(request, pk):
             
         adata   = adata.order_by(sd)
     
-    
-    
     recordsFiltered     = adata.count()
     data                = adata[start:start+length]
     
@@ -656,7 +630,7 @@ def form_data_list(request, pk):
 
                                               
 class data_instance_wrp(generic.TemplateView):
-    
+    """show single data instance"""
     template_name = "pages/instances/instance.html"
     
     def get_context_data(self, **kwargs):
@@ -677,16 +651,15 @@ def instance_data(request,pk):
     return render(request, 'pages/instances/instance_data.html', context)
 
                                              
-def instance_messages(request,pk):
-    
+def instance_messages(request,pk):  
     if request.method == 'POST':
         sr = SurveyResponses.objects.get(pk=pk)
         sr.notes.create(message=request.POST.get('message'), created_by=request.user)
         return JsonResponse(1, safe=False)
     else: 
         context     = {}
-        
         return render(request, 'pages/instances/instance_messages.html', context)
+
 
 def _get_survey_notes(pk):
     sr_obj      = SurveyResponses.objects.get(pk=pk)

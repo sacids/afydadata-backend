@@ -47,8 +47,22 @@ def init_xform(filename, filetype="xform"):
     
     holder      = {}
     pages       = {}
+    opt_holder  = {}
     page_num    = 1
 
+    for items in group:
+        if 'select' in items:
+            for option in items['select']['item']:
+                k = option['label']['ref'].split("('")[1].split("')")[0]
+                opt_holder[k] = option['value']
+        
+        if 'select1' in items:
+            for option in items['select1']['item']:
+                k = option['label']['ref'].split("('")[1].split("')")[0]
+                opt_holder[k] = option['value']
+     
+    
+    
     for itext in trans:
         lang    = itext['lang']
         text    = itext['text']
@@ -75,8 +89,18 @@ def init_xform(filename, filetype="xform"):
             
             if anchor[0:6] == 'option':
                 if lang not in holder[ref]['option']:
-                    holder[ref]['option'][lang] = []
+                    holder[ref]['option'][lang]     = []
+                    holder[ref]['option']['pair']   = []
+                    
+                
                 holder[ref]['option'][lang].append(item['value'])
+                
+                # store value label pair for select items
+                tmp     = {}
+                item_id = item['id']
+                k       = opt_holder[item_id]
+                tmp[k]  = item['value']
+                holder[ref]['option']['pair'].append(tmp)
             else:
                 if lang not in holder[ref][anchor]:
                     holder[ref][anchor][lang] = ''

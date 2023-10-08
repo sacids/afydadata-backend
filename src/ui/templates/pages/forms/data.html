@@ -1,4 +1,5 @@
 {% extends 'layout/base.html' %}
+{% load custom_tags %}
 {% block title %} {{title}} {% endblock %}
 
 {% block nav %}
@@ -17,7 +18,8 @@
                     <tr>
                         <th>ID</th>
                         {% for col in tbl_header %}
-                            <th> {% if col.label %} {{col.label}} {% else %} {{ col.col_name }} {% endif %}</th>
+                        <!--<th> {% if col.label %} {{col|data_header}} {% else %} {{ col.col_name }} {% endif %}</th>-->
+                        {{col|data_header}} 
                         {% endfor %}
                     </tr>
                 </thead>

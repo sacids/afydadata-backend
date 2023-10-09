@@ -39,6 +39,23 @@ class DashboardView(generic.TemplateView):
     
     def get_context_data(self, **kwargs):
         context = super(DashboardView, self).get_context_data(**kwargs)
+
+        # data collectors
+        data_collectors = User.objects.filter(groups__name="DataCollectors").count()
+        context['data_collectors'] = data_collectors
+
+        # published forms
+        published_forms = Survey.objects.count()
+        context['published_forms'] = published_forms
+
+        # data collected
+        data_collected = SurveyResponses.objects.count()
+        context['data_collected'] = data_collected
+
+        # messages
+        messages = 0
+        context['messages'] = messages
+
         
         context['title']          = 'Dashboard'
         context['breadcrumb']     = {'Dashboard': 0,}

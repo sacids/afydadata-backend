@@ -27,7 +27,11 @@
                 full_row_select: false,
                 scrollX: false,
                 dom: 'rtip',
-                responsive: true,
+                {% if responsive is None %}
+                    responsive: true,
+                {% else %}
+                    responsive: {{responsive}},
+                {% endif %}
                 "pageLength": 12,
             }, {
                 // extra_data

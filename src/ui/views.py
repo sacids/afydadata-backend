@@ -1,5 +1,5 @@
 import json
-import logging
+import logging, ast
 import operator
 from functools import reduce
 from django.shortcuts import render
@@ -211,7 +211,7 @@ class XformCreateView(generic.CreateView):
             survey_form.project = cur_project
             cur_obj             = form.save() 
 
-            logging.info("Survey created => " + cur_obj.pk)
+            logging.info("Survey created => ")
 
             # initiate form
             survey_cfg          = init_xform(cur_obj.xform.name)
@@ -461,6 +461,7 @@ class FormMappingView(generic.TemplateView):
         context['datatable_list']   = 'FormMappingList'
         context['links']            = _get_form_links_context(cur_form,form_id)
         context['pg_actions']   = {}
+        context['responsive']   = 'false'
          
         context['extra_data']   = {
             'project_id': cur_form.project.id,
@@ -604,7 +605,9 @@ def form_data_list(request, pk):
     sort_col            = int(request.GET.get('order[0][column]',-1))
     sort_dir            = request.GET.get('order[0][dir]',-1)
     
-    cols            = SurveyQuestions.objects.filter(survey__id=pk).values("col_name")  
+    print(request.GET.get)
+    
+    cols            = SurveyQuestions.objects.filter(survey__id=pk).values() 
     adata           = SurveyResponses.objects.filter(survey__id=pk)
     recordsTotal    = adata.count()
     
@@ -628,18 +631,29 @@ def form_data_list(request, pk):
     recordsFiltered     = adata.count()
     data                = adata[start:start+length]
     
-    bb      = []
+    final_data      = []
     for r in data:
         jj      = [r.id]
         for k in cols:
             jj.append(r.response.get(k['col_name'],""))
-        bb.append(jj)
+            if k['col_type'] == 'select':
+                selected_options     = r.response.get(k['col_name'],"").split(" ")
+                avail_options       = ast.literal_eval(k['options'])
+                if 'pair' in avail_options:
+                    for opt in avail_options['pair']:
+                        for i in opt:
+                            if i in selected_options:
+                                jj.append('1')
+                            else:
+                                jj.append('0')
+                            
+        final_data.append(jj)
     
     jan = {
         "draw": draw,
         "recordsTotal": recordsTotal,
         "recordsFiltered": recordsFiltered,
-        "data": bb
+        "data": final_data
         }
     
     return JsonResponse(jan,safe=False)

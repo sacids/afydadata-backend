@@ -85,10 +85,13 @@
                     className: "fixed bg-white hover:bg-rose-100",
                     targets: 0,
                 },
+                {
+                    render: function (data, type, row) {
+                        return '<span @click="dataDetail(\''+row[0]+'\')" class="cursor-pointer">'+data+'<span>';
+                    },
+                    targets: '_all',
+                },
             ],
-            "createdRow": function( row, data, dataIndex ) {
-                var url     = window.location.origin + '/ui/form_instance/' + data[0]
-            }
 
         });
 

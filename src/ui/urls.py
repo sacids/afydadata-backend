@@ -1,7 +1,7 @@
 from django.urls import path
 from django.conf.urls import url
 
-from . import views, authentication, users
+from . import views, authentication, users, charts
 from . import ajax_datatable_views
 
 #app_name = "ui"
@@ -91,10 +91,10 @@ urlpatterns = [
     path('users/lists', users.UserListView.as_view(), name="list_users"),
     path('users/create', users.UserCreateView.as_view(), name="create_user" ),  
     # path('project/<str:pk>', views.ProjectDetailView.as_view(), name="project_detail"),
-    path('users/delete/<str:pk>', users.UserDeleteView.as_view(), name="delete_user"),
+    path('users/delete/<str:pk>', users.UserDeleteView.as_view(), name="delete_user"), 
     
-    
-    
+    # charts
+    path("charts/surveys", charts.SurveyChartView.as_view(), name="survey-charts")
     
     
 ]

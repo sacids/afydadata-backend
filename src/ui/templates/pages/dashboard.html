@@ -27,7 +27,7 @@
                         </div>
                         <div class="flex-1 text-right md:text-center">
                             <h5 class="font-semibold text-gray-600">Data Collectors</h5>
-                            <h3 class="font-bold text-2xl">0</h3>
+                            <h3 class="font-bold text-2xl">{{ data_collectors }}</h3>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="flex-1 text-right md:text-center">
                             <h5 class="font-semibold text-gray-600">Published Forms</h5>
-                            <h3 class="font-bold text-2xl">0</h3>
+                            <h3 class="font-bold text-2xl">{{ published_forms }}</h3>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="flex-1 text-right md:text-center">
                             <h5 class="font-semibold text-gray-600">Data Collected</h5>
-                            <h3 class="font-bold text-2xl">0</h3>
+                            <h3 class="font-bold text-2xl">{{ data_collected }}</h3>
                         </div>
                     </div>
                 </div>
@@ -90,9 +90,7 @@
                         </div>
                         <div class="flex-1 text-right md:text-center">
                             <h5 class="font-semibold text-gray-600">No. of Feedback</h5>
-                            <h3 class="font-bold text-xl">
-                                0
-                            </h3>
+                            <h3 class="font-bold text-xl">{{ messages }}</h3>
                         </div>
                     </div>
                 </div>
@@ -102,13 +100,27 @@
         <div class="flex flex-row flex-wrap mb-2">
             <div class="w-full md:w-3/4 pr-2">
                 <div class="bg-slate-200 border rounded-sm">
-                    <div class="p-2">
-                        <h5 class="font-bold text-gray-600 text-left">
-                            Form Submission - Monthly Trends
-                        </h5>
+                    <div class="flex justify-between p-2">
+                        <div>
+                            <h5 class="font-bold text-gray-600 text-left py-1">
+                                Survey Data Collected - Trends
+                            </h5>
+                        </div>
+
+                        <div>
+                            <select id="select-period" class="bg-white text-gray-600 border border-gray-200 rounded-sm py-1 focus:border focus:border-blue-200 focus:bg-white text-sm font-normal">
+                                <option value="All">-- Period --</option>
+                                <option value="All">All</option>
+                                <option value="Monthly">Monthly</option>
+                                <option value="Weekly">Weekly</option>
+                                <option value="Daily">Daily</option>
+                            </select>
+                        </div>
                     </div>
 
-
+                    <div class="p-2">
+                        <div id="collected-data-chart" style="height: 360px;"></div>
+                    </div>
                 </div>
             </div>
 
@@ -116,7 +128,7 @@
                 <div class="bg-slate-200 border rounded-sm">
                     <div class="p-2">
                         <h5 class="font-bold text-gray-600 text-left">
-                            Attended Feedback
+                            Available Feedback
                         </h5>
                     </div>
                 </div>
@@ -128,8 +140,6 @@
     </div>
 </div>
 
-
-
 <!-- Datatable config -->
 <script language="javascript">
 
@@ -137,3 +147,7 @@
 </script>
 
 {% endblock %}
+
+{% block extrajs %}
+{% include 'pages/charts.html' %}
+{% endblock extrajs %}

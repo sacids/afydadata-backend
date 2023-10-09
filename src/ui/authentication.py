@@ -25,6 +25,7 @@ class LoginView(generic.View):
 
     def get(self, request, *args, **kwargs):
         logging.info("Check if user already logged in")
+        
         if request.user.is_authenticated:
             return redirect(self.success_url)
         else:    

@@ -674,7 +674,8 @@ def form_data_list(request, pk):
              
         dt  = DateFormat(r.created_on)               
         jj.append(dt.format('Y-m-d H:i:s'))
-        jj.append(r.created_by.first_name+' '+r.created_by.last_name+' : '+r.created_by.username)
+        jj.append(r.created_by.first_name+' '+r.created_by.last_name)
+        jj.append(r.created_by.username)
         final_data.append(jj)
     
     

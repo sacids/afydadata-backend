@@ -40,15 +40,22 @@
     $(document).ready(function() {
 
         var table = $('#datatable').DataTable({
-            dom: '<t<"dt_dom"ip>>',
+            dom: '<Bt<"dt_dom"ip>>',
             processing: true,
             serverSide: true,
             ajax: "{{datatable_list}}",
+            type: 'POST',
             rowId: [0],
             search: {
                 return: true,
             },
             "pageLength": 13,
+            buttons: [
+                {
+                    extend: 'csv',
+                    text: 'Export as .csv'
+                }
+            ],
             columnDefs: [
                 {
                     render: function (data, type, row) {

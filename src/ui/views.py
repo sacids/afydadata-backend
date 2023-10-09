@@ -444,6 +444,7 @@ class FormMappingView(generic.TemplateView):
         context['datatable_list']   = 'FormMappingList'
         context['links']            = _get_form_links_context(cur_form,form_id)
         context['pg_actions']   = {}
+        context['responsive']   = 'false'
          
         context['extra_data']   = {
             'project_id': cur_form.project.id,
@@ -587,6 +588,8 @@ def form_data_list(request, pk):
     sort_col            = int(request.GET.get('order[0][column]',-1))
     sort_dir            = request.GET.get('order[0][dir]',-1)
     
+    print(request.GET.get)
+    
     cols            = SurveyQuestions.objects.filter(survey__id=pk).values() 
     adata           = SurveyResponses.objects.filter(survey__id=pk)
     recordsTotal    = adata.count()
@@ -616,16 +619,16 @@ def form_data_list(request, pk):
         jj      = [r.id]
         for k in cols:
             jj.append(r.response.get(k['col_name'],""))
-            if k['col_type'][0:6] == 'select':
+            if k['col_type'] == 'select':
                 selected_options     = r.response.get(k['col_name'],"").split(" ")
                 avail_options       = ast.literal_eval(k['options'])
-                for opt in avail_options['pair']:
-                    print(opt)
-                    for i in opt:
-                        if i in selected_options:
-                            jj.append('1')
-                        else:
-                            jj.append('0')
+                if 'pair' in avail_options:
+                    for opt in avail_options['pair']:
+                        for i in opt:
+                            if i in selected_options:
+                                jj.append('1')
+                            else:
+                                jj.append('0')
                             
         final_data.append(jj)
     

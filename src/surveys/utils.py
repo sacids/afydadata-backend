@@ -49,6 +49,7 @@ def init_xform(filename, filetype="xform"):
     pages       = {}
     opt_holder  = {}
     page_num    = 1
+    lang        = ''
 
     for items in group:
         if 'select' in items:
@@ -101,6 +102,7 @@ def init_xform(filename, filetype="xform"):
                 k       = opt_holder[item_id]
                 tmp[k]  = item['value']
                 holder[ref]['option']['pair'].append(tmp)
+                
             else:
                 if lang not in holder[ref][anchor]:
                     holder[ref][anchor][lang] = ''

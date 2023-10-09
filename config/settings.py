@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'projects',
     'surveys',
     'ui',
+    'ohkr',
 ]
 
 MIDDLEWARE = [

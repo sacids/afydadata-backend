@@ -9,6 +9,7 @@ from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
 from django import forms
+from django.utils.dateformat import DateFormat
 from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
 
 from django.views.decorators.csrf import csrf_exempt
@@ -588,7 +589,7 @@ def form_data_list(request, pk):
     sort_col            = int(request.GET.get('order[0][column]',-1))
     sort_dir            = request.GET.get('order[0][dir]',-1)
     
-    print(request.GET.get)
+    #print(request.GET.get)
     
     cols            = SurveyQuestions.objects.filter(survey__id=pk).values() 
     adata           = SurveyResponses.objects.filter(survey__id=pk)
@@ -629,8 +630,12 @@ def form_data_list(request, pk):
                                 jj.append('1')
                             else:
                                 jj.append('0')
-                            
+             
+        dt  = DateFormat(r.created_on)               
+        jj.append(dt.format('Y-m-d H:i:s'))
+        jj.append(r.created_by.first_name+' '+r.created_by.last_name+' : '+r.created_by.username)
         final_data.append(jj)
+    
     
     jan = {
         "draw": draw,

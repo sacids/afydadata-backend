@@ -10,7 +10,26 @@
 {% block contents %}
 
 <div class="h-full w-full px-10 py-3">
+    <div class="flex text-sm space-x-2 pb-3">
+        <input type="text" class="py-1 px-3 rounded-sm" id="datatable-search2" />
+        <input type="date" class="py-1 px-3 rounded-sm " id="min"  name="min"/>
+        <input type="date" class="py-1 px-3 rounded-sm" id="max"  name="max"/>
+        <div class="space-x-2 py-1 px-3 rounded-sm bg-gray-500 flex items-center hover:bg-gray-800 text-white cursor-pointer">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z" />
+            </svg> 
+            <p class="" id="filter"> Filter </p>
 
+        </div>
+        <div class="space-x-2 py-1 px-3 rounded-sm bg-red-800 flex items-center hover:bg-red-900 text-white cursor-pointer">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>              
+            <p class=""> Export </p>
+        </div>
+    </div>
     <div class="flex h-full overflow-hidden" id="manageTable" x-data="manageTable()">
         <div class="flex-1 table-responsive h-full w-full overflow-x-scroll">
             <table id="datatable" class="table border=1 w-full table-striped table-bordered compact nowrap text-sm">
@@ -42,7 +61,7 @@
     $(document).ready(function() {
 
         var table = $('#datatable').DataTable({
-            dom: '<Bt<"dt_dom"ip>>',
+            dom: '<t<"dt_dom"ip>>',
             processing: true,
             serverSide: true,
             ajax: "{{datatable_list}}",
@@ -51,13 +70,7 @@
             search: {
                 return: true,
             },
-            "pageLength": 13,
-            buttons: [
-                {
-                    extend: 'csv',
-                    text: 'Export as .csv'
-                }
-            ],
+            "pageLength": 130,
             columnDefs: [
                 {
                     render: function (data, type, row) {
@@ -75,12 +88,21 @@
 
         });
 
-        $('#datatable-search').keyup(function(){
-            tt = $('#datatable').DataTable();
-            tt.search($(this).val()).draw()
+        $('#filter').click(function(){
+            let search_val  = $('#datatable-search2').val()
+            let min_date    = $('#min').val()
+            let max_date    = $('#max').val()
+
+            var obj         = new Object()
+            obj.search_val  = search_val
+            obj.min_date    = min_date
+            obj.max_date    = max_date
+            var jsonString  = JSON.stringify(obj);
+            
+
+            table.search(jsonString).draw()
             htmx.process('#manageTable')
         })
-
 
         htmx.process('#manageTable')
 

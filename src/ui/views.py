@@ -9,6 +9,8 @@ from django.views import generic
 from django.contrib import messages
 from django.urls import reverse
 from django import forms
+
+from django.utils.timezone import make_aware
 from django.utils.dateformat import DateFormat
 from .forms import ProjectForm, SurveyForm, ManageMemberGroupsFrom, ChangePmPasswordForm, GroupForm
 
@@ -603,23 +605,45 @@ def form_data_list(request, pk):
     length              = int(request.GET.get('length',5))
     draw                = int(request.GET.get('draw',1))
     search              = request.GET.get('search[value]')
+    search_from         = request.GET.get('search_from')
+    search_to           = request.GET.get('search_to')
     sort_col            = int(request.GET.get('order[0][column]',-1))
     sort_dir            = request.GET.get('order[0][dir]',-1)
     
+    
+    #print(search_from+' '+search_to)
     #print(request.GET.get)
+    
+    if search:
+        search_str          = json.loads(search)
+    else:
+        search_str = {}
+    print(search_str)
+    
+    search_val  = search_str.get('search_val')
+    min_date    = search_str.get('min_date')
+    max_date    = search_str.get('max_date')
     
     cols            = SurveyQuestions.objects.filter(survey__id=pk).values() 
     adata           = SurveyResponses.objects.filter(survey__id=pk)
     recordsTotal    = adata.count()
     
     
-    if search:
+    if search_val:
         or_filter   = []
         for k in cols:
-            or_filter.append(("response__"+k['col_name']+"__icontains",search))
+            or_filter.append(("response__"+k['col_name']+"__icontains",search_val))
         
         q_list  = [Q(x) for x in or_filter]
         adata    = adata.filter(reduce(operator.or_, q_list))
+    
+    if min_date:
+        adata   = adata.filter(created_on__gte=datetime.strptime(min_date, "%Y-%m-%d").date())
+        
+        
+    if max_date:
+        adata   = adata.filter(created_on__lte=datetime.strptime(max_date, "%Y-%m-%d").date())
+    
     
     if sort_col > -1:
         if sort_dir == 'desc':

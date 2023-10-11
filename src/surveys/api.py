@@ -293,11 +293,10 @@ class getFeedback(APIView):
             all_feedback    = notes.objects.filter(Q(survey_notes__created_by=user))
             holder          = []
             print(all_feedback)
-            i = 0
             for feedback in all_feedback:
-                i = i + 1
+                
                 tmp = {
-                    'id':           i,
+                    'id':           feedback.id,
                     'form_id':      feedback.survey_notes.all()[0].survey.form_id,
                     'instance_id':  feedback.survey_notes.all()[0].instance_id,
                     'title':        feedback.survey_notes.all()[0].survey.title,

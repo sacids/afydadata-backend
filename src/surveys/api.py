@@ -16,9 +16,11 @@ from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.mixins import CreateModelMixin
 from rest_framework import renderers
 from rest_framework.parsers import JSONParser
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
 from .serializers import SurveyQuestionsSerializer, SurveySerializer, SurveyResponsesSerializer, SurveyFilterSerializer
-from surveys.models import Survey, SurveyQuestions, SurveyResponses, SurveyFilter
+from surveys.models import Survey, SurveyQuestions, SurveyResponses, SurveyFilter, notes
 from surveys.utils import * 
 from django.template import RequestContext, loader
 from django.contrib.auth import login
@@ -27,6 +29,9 @@ from src.surveys.utils import do_authenticate, process_odk_submission
 from django.utils.decorators import decorator_from_middleware
 from django.conf import settings
 from django.middleware.common import CommonMiddleware
+
+
+from django.db.models import Q
 
 
 
@@ -254,3 +259,109 @@ class SurveyConfig(generics.ListAPIView):
         """
         survey_id = self.kwargs['survey_id']
         return SurveyQuestions.objects.filter(survey=survey_id)
+    
+    
+    
+    
+class getFeedback(APIView):
+    
+    def get(self, request):
+        
+        username    = request.GET.get('username',0)
+        #last_id     = request.GET.get('lastId','')
+        
+        if  not username:
+            response    = {
+                'status':   'failed',
+                'message':  'Username is required',
+            }
+            logging.info('Feedback: Username not supplied')
+            return Response(response,status=202);
+        
+        if not User.objects.filter(username=username).exists():
+            
+            response    = {
+                'status':   'failed',
+                'message':  'Invalid Username',
+            }
+            logging.info('Feedback: Invalid Username')
+            return Response(response,status=202);
+            
+        # retrieve feedback
+        try: 
+            user            = User.objects.get(username=username)
+            all_feedback    = notes.objects.filter(Q(survey_notes__created_by=user))
+            holder          = []
+            print(all_feedback)
+            i = 0
+            for feedback in all_feedback:
+                i = i + 1
+                tmp = {
+                    'id':           i,
+                    'form_id':      feedback.survey_notes.all()[0].survey.form_id,
+                    'instance_id':  feedback.survey_notes.all()[0].instance_id,
+                    'title':        feedback.survey_notes.all()[0].survey.title,
+                    'message':      feedback.message,
+                    'sender':       feedback.created_by.username,
+                    'chr_name':     feedback.survey_notes.all()[0].created_by.first_name+ ' '+feedback.survey_notes.all()[0].created_by.last_name,
+                    'date_created': feedback.created_on.strftime('%Y-%m-%d'),
+                    'status':       "pending",
+                    'reply_by':     feedback.created_by.first_name+' '+feedback.created_by.last_name
+                }
+                holder.append(tmp)
+            response    = {
+                'status':   'success',
+                'feedback': holder,
+            }
+            
+            print(response)
+            
+            return Response(response,status=200);
+        
+        except Exception as e:
+            print(e)
+            logging.error('Feedback: failed to fetch feedback '+str(e))
+            response    = {
+                'status':   'failed',
+                'message':  'Failed to receive messages',
+            }
+            return Response(response,status=200)
+            
+            
+            
+
+class sendFeedback(APIView):
+    
+    def post(self, request):
+        
+        username        = request.POST.get('username',False)
+        instance_id     = request.POST.get('instance_id',False)
+        message         = request.POST.get('message',False)
+        
+        
+        # retrieve feedback
+        try: 
+            user            = User.objects.get(username=username)
+            surv_resp_obj   = SurveyResponses.objects.get(instance_id=instance_id)
+            
+            print(surv_resp_obj)
+            
+            surv_resp_obj.notes.create(message=message,created_by=user)
+           
+            response    = {
+                'status':   'success',
+                'feedback': 'Feedback received',
+            }
+            print(response)
+            return Response(response,status=200);
+        
+        except Exception as e:
+            print(e)
+            logging.error('Feedback: failed to fetch feedback '+str(e))
+            response    = {
+                'status':   'failed',
+                'message':  'Failed to post message',
+            }
+            return Response(response,status=200)
+            
+           

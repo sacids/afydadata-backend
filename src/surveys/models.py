@@ -82,13 +82,13 @@ class SurveyResponses(models.Model):
     id              = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     #id              = models.TextField(primary_key=True)
     
-    survey          = models.ForeignKey('Survey', related_name='survey_responses', on_delete=models.CASCADE)
+    survey          = models.ForeignKey('Survey', on_delete=models.CASCADE)
     instance_id     = models.CharField(max_length=100,blank=False,null=False)
     response        = models.JSONField(null=False)
     created_on      = models.DateTimeField(auto_now=True)
     created_by      = models.ForeignKey(User, on_delete=models.DO_NOTHING)
 
-    notes           = GenericRelation('notes')   
+    notes           = GenericRelation('notes',related_query_name='survey_notes')   
     
     class Meta:
         db_table = 'ad_surveyResponses'
@@ -133,8 +133,9 @@ class SurveyPerm(models.Model):
 class notes(models.Model):
     id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     message     = models.TextField(blank=True, null=True)
-    created_at  = models.DateTimeField(auto_now_add=True, null=True)
+    created_on  = models.DateTimeField(auto_now_add=True, null=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+    status      = models.BooleanField(default=False)
 
     # Below the mandatory fields for generic relation
     content_type    = models.ForeignKey(ContentType, on_delete=models.CASCADE)

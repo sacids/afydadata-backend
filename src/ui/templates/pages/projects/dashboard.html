@@ -1,0 +1,173 @@
+{% extends 'layout/base.html' %}
+{% load custom_tags %}
+{% block title %} Dashboard {% endblock %}
+
+{% block nav %}
+{% include "partials/nav.html" %}
+{% endblock %}
+
+
+{% block contents %}
+
+<div class="w-full h-full">
+    <div class="w-full h-full py-5 px-10">
+
+        <div class="flex w-full h-full space-x-3 text-sm">
+
+
+            <div class="w-2/12 border rounded-sm h-full">
+                <p class="font-bold p-2">{{title}} Overview</p>
+                <div class="flex bg-gray-200  px-2 py-7 center-items">
+
+                    <div class="w-3/12 text-2xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-11 h-11">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                        </svg>
+                    </div>
+
+                    <div class="w-3/12 text-5xl">
+                        {{members}}
+                    </div>
+                    <div class="w-6/12 text-md font-bold">
+                        Project Members
+                    </div>
+                </div>
+
+                <div class="flex bg-blue-200  px-2 py-7 center-items">
+
+                    <div class="w-3/12 text-2xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-11 h-11">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                    </div>
+
+                    <div class="w-3/12 text-5xl">
+                        {{published_forms}}
+                    </div>
+                    <div class="w-6/12 text-md font-bold">
+                        Published Forms
+                    </div>
+                </div>
+
+
+                <div class="flex bg-rose-200  px-2 py-7  center-items">
+
+                    <div class="w-3/12 text-2xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-11 h-11">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                        </svg>
+                    </div>
+
+                    <div class="w-3/12 text-5xl">
+                        {{data_collected}}
+                    </div>
+                    <div class="w-6/12 text-md font-bold">
+                        Data Collected
+                    </div>
+                </div>
+
+
+
+                <div class="flex bg-green-200 px-2 py-7 center-items">
+
+                    <div class="w-3/12 text-2xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-11 h-11">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                        </svg>
+                    </div>
+
+                    <div class="w-3/12 text-5xl">
+                        {{messages}}
+                    </div>
+                    <div class="w-6/12 text-md font-bold">
+                        Number of Feedback
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+            <div class="w-5/12 border rounded-sm h-full">
+                <div class="flex justify-between p-2">
+                    <div>
+                        <h5 class="font-bold text-gray-600 text-left">
+                            Survey Data Collected - Trends
+                        </h5>
+                    </div>
+
+                    <div>
+                        <select id="select-period" class="bg-white text-gray-600 border border-gray-200 rounded-sm py-1 focus:border focus:border-blue-200 focus:bg-white text-sm font-normal">
+                            <option value="All">-- Period --</option>
+                            <option value="All">All</option>
+                            <option value="Monthly">Monthly</option>
+                            <option value="Weekly">Weekly</option>
+                            <option value="Daily">Daily</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="p-2 h-full w-full">
+                    <div id="collected-data-chart" class="h-full"></div>
+                </div>
+
+            </div>
+
+
+            <div class="w-5/12 border rounded-sm h-full" x-data="manageMap()" x-init="initMap">
+                <div class="h-full w-full z-10" x-ref="mapContainer">
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Datatable config -->
+<script language="javascript">
+    function manageMap() {
+        return {
+
+            map: null,
+
+            initMap(){
+
+                {% for items in form_data %}
+
+                    {% for point in geopoints %}
+                        {% if forloop.parentloop.counter == 1 and forloop.counter == 1 %}
+                            this.map = L.map(this.$refs.mapContainer).setView({{items|get_view:point.col_name}}, 6);
+                        {% endif %}
+
+                        {% if point.col_name in items.response %}
+                            L.marker({{items|get_location:point.col_name}}).addTo(this.map).on('click', this.onClick );;
+                        {% endif %}
+                        
+                    {% endfor %}
+                {% endfor %}
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+            
+            },
+
+            onClick(e){
+                console.log('jembe '+this.options.id);
+                
+            },
+
+          
+        }
+
+    };
+
+
+</script>
+
+{% endblock %}
+
+{% block extrajs %}
+{% include 'pages/projects/charts.html' %}
+{% endblock extrajs %}

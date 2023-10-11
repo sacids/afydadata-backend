@@ -71,4 +71,8 @@ urlpatterns = [
     path('api/v3/auth/register', api_accounts.register_user, name="register_user"),
     path('api/v3/auth/login', api_accounts.login_user, name="login_user"),
     
+    
+    path('api/v3/feedback', api_surveys.getFeedback.as_view(), name="getfeedback"),
+    path('api/v3/feedback/send', api_surveys.sendFeedback.as_view(), name="sendfeedback"),
+    
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

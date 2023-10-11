@@ -72,6 +72,61 @@ class DashboardView(generic.TemplateView):
         return context
     
     
+class ProjectDashboardView(generic.TemplateView):
+    template_name = "pages/projects/dashboard.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(ProjectDashboardView, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(ProjectDashboardView, self).get_context_data(**kwargs)
+        
+        project_id                  = self.kwargs['pk']
+        cur_project                 = Project.objects.get(pk=project_id)
+
+        # data collectors
+        members = ProjectMember.objects.filter(project=cur_project).count()
+        context['members'] = members
+
+        # published forms
+        published_forms = Survey.objects.filter(project=cur_project).count()
+        context['published_forms'] = published_forms
+
+        # data collected
+        survey_responses        = SurveyResponses.objects.filter(survey__project=cur_project)
+        context['form_data']    = survey_responses 
+        #context['geopoints']    = SurveyQuestions.objects.filter(Q(survey__project=cur_project) & Q(col_type='geopoint')).values('survey__project_id','col_name').distinct()
+        
+        #print(context['geopoints'])
+                                        
+        context['data_collected'] = survey_responses.count()
+
+        # messages
+        messages = 0
+        context['messages'] = messages
+
+        
+        context['title']          = 'Dashboard'
+        context['project_id']     = project_id
+        context['breadcrumb']     = {'Dashboard': 0,}
+        
+        context['title']            = cur_project.title   
+        context['breadcrumb']       = {
+            cur_project.title: 0,
+        }
+           
+        context['links']    = {
+            'Dashboard':    reverse('project_dashboard', kwargs={'pk':project_id}),
+            'Forms':        reverse('project_detail', kwargs={'pk':project_id}),
+            'Members':      reverse('list_members', kwargs={'pk':project_id}),
+            'Groups':       reverse('list_groups', kwargs={'pk':project_id}),
+        }
+        
+        return context
+    
+    
+    
 class ProjectListView(generic.TemplateView):
     template_name = "pages/start.html"
 
@@ -141,7 +196,7 @@ class ProjectDetailView(generic.TemplateView):
         }
            
         context['links']    = {
-            'Dashboard':    reverse('project_dashboard'),
+            'Dashboard':    reverse('project_dashboard', kwargs={'pk':project_id}),
             'Forms':        reverse('project_detail', kwargs={'pk':project_id}),
             'Members':      reverse('list_members', kwargs={'pk':project_id}),
             'Groups':       reverse('list_groups', kwargs={'pk':project_id}),
@@ -472,7 +527,52 @@ class FormMappingView(generic.TemplateView):
         }
         
         return context           
-     
+
+
+
+                                                   
+class FormDashboardView(generic.TemplateView):
+    template_name = "pages/forms/dashboard.html"
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(FormDashboardView, self).dispatch( *args, **kwargs)
+    
+    def get_context_data(self, **kwargs):
+        context = super(FormDashboardView, self).get_context_data(**kwargs)
+           
+        form_id                     = self.kwargs['pk']
+        cur_form                    = Survey.objects.get(pk=form_id)
+        
+        context['breadcrumb']            = {
+            cur_form.project.title: reverse('project_dashboard', kwargs={'pk':cur_form.project.id}), 
+            cur_form.title: 0,
+            "Dashboard": 0,
+        }
+
+        context['title']            = cur_form.title
+        context['links']            = _get_form_links_context(cur_form,form_id) 
+        context['geopoints']        = get_geopoints(form_id)
+        
+        
+        survey_responses            = SurveyResponses.objects
+        
+        context['form_data']        = survey_responses.filter(Q(survey__id=form_id))
+        context['data_collectors']  = survey_responses.filter(survey__id=form_id).values('created_by').count()
+        context['data_collected']   = survey_responses.count()
+        
+        # published forms
+        published_forms = Survey.objects.count()
+        context['published_forms'] = published_forms
+
+
+        # messages
+        messages = 0
+        context['messages'] = messages
+        
+        return context   
+    
+
                                                    
 class FormMapView(generic.TemplateView):
     template_name = "pages/forms/map.html"
@@ -618,7 +718,7 @@ def form_data_list(request, pk):
         search_str          = json.loads(search)
     else:
         search_str = {}
-    print(search_str)
+    #print(search_str)
     
     search_val  = search_str.get('search_val')
     min_date    = search_str.get('min_date')
@@ -724,7 +824,7 @@ def instance_messages(request,pk):
 
 def _get_survey_notes(pk):
     sr_obj      = SurveyResponses.objects.get(pk=pk)
-    all_notes   = sr_obj.notes.all().order_by('-created_at')
+    all_notes   = sr_obj.notes.all().order_by('-created_on')
     notes       = []
 
     for n in all_notes:
@@ -732,7 +832,7 @@ def _get_survey_notes(pk):
             "message":      n.message,
             "initials":     n.created_by.first_name[0].upper()+n.created_by.last_name[0].upper(),
             "name":         n.created_by.first_name+' '+n.created_by.last_name,
-            "created_on":   naturalday(n.created_at),
+            "created_on":   naturalday(n.created_on),
         }
         notes.append(tmp)
         

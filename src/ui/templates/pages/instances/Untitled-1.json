@@ -1,0 +1,14 @@
+[
+    {'nodeset': '/data/meta/instanceID', 'type': 'string', 'readonly': 'true()', 'calculate': "concat('uuid:', uuid())"}, 
+    {'nodeset': '/data/Taarifa_za_eneo/Wilaya', 'type': 'select1', 'required': 'true()'}, 
+    {'nodeset': '/data/Taarifa_za_eneo/Kata', 'type': 'string', 'required': 'true()'}, 
+    {'nodeset': '/data/Taarifa_za_eneo/Kijiji_Mtaa', 'type': 'string', 'required': 'true()'}, 
+    {'nodeset': '/data/Taarifa_za_eneo/Kitongoji', 'type': 'string', 'required': 'true()'}, 
+    {'nodeset': '/data/Viashiria/Orodha', 'type': 'select', 'required': 'true()'}, 
+    {'nodeset': '/data/Viashiria/Viashiria_vingine', 'type': 'string'}, 
+    {'nodeset': '/data/Viashiria/Picha', 'type': 'binary'}, 
+    {'nodeset': '/data/Viashiria/Gps', 'type': 'geopoint', 'required': 'true()'}, 
+    {'nodeset': '/data/meta/instanceName', 'calculate': "concat('Mazingira',': ',/data/Taarifa_za_eneo/Kitongoji)", 'readonly': 'true()', 'type': 'string'}, 
+    {'preload': 'timestamp', 'preloadParams': 'start', 'nodeset': '/data/meta/start', 'type': 'dateTime'}, 
+    {'preload': 'timestamp', 'preloadParams': 'end', 'nodeset': '/data/meta/end', 'type': 'dateTime'}, 
+    {'nodeset': '/data/meta/username', 'type': 'string', 'preload': 'property', 'preloadParams': 'username'}]

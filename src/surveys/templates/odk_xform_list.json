@@ -1,0 +1,17 @@
+
+{% load filters %}
+
+{% if surveys %}
+[
+  {% for survey in surveys %}{% if forloop.counter > 1 %},{% endif %}
+    {
+        "formID"      : "{{survey.form_id}}",
+        "name"        : "{{survey.title}}",
+        "version"     : "1.1",
+        "hash"        : "md5:{{survey|md5}}",
+        "descriptionText" : "{{survey.description}}",
+        "downloadUrl" : "{{ request.scheme }}://{{ request.get_host }}{% url 'form_get_v2' survey.id %}"
+    }
+  {% endfor %}
+]
+{% endif %}

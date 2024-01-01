@@ -830,6 +830,7 @@ def _get_survey_notes(pk):
     for n in all_notes:
         tmp = {
             "message":      n.message,
+            "created_by":   n.created_by.id,
             "initials":     n.created_by.first_name[0].upper()+n.created_by.last_name[0].upper(),
             "name":         n.created_by.first_name+' '+n.created_by.last_name,
             "created_on":   naturalday(n.created_on),

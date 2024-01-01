@@ -172,7 +172,6 @@ def form_submission(request):
 @csrf_exempt
 def form_list(request):
 
-    
     if 'Authorization' in request.headers:
         # authenticate
         current_user = do_authenticate(request)
@@ -206,8 +205,6 @@ def form_get(request, id):
 
     survey  = get_object_or_404(Survey, pk=id)
 
-    print(survey)
-    
     if os.path.exists(survey.xform.path):
         response = HttpResponse(survey.xform.read(), content_type="text/xml; charset=utf-8")
         response['Content-Disposition'] = 'inline; filename=' + os.path.basename(survey.xform.path)

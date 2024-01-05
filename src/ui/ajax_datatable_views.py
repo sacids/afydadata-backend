@@ -95,6 +95,7 @@ class SurveyList(AjaxDatatableView):
         {'name': 'id', 'visible': False, },
         {'name': 'qv','title':'','visible': True, 'className':'w-3 text-left text-rose-800 cursor-pointer','placeholder':'True','searchable': False,},
         {'name': 'title', 'visible': True,'className':'text-left font-semibold cursor-pointer' },
+        {'name': 'form_type', 'visible': True,'className':'text-left font-semibold cursor-pointer' },
         {'name': 'description', 'visible': True,'className':'text-left ' },
         {'name': 'form_id', 'visible': True,'className':'text-left  ' },
         {'name': 'xform', 'visible': True,'className':'text-left ' },
@@ -130,7 +131,8 @@ class SurveyList(AjaxDatatableView):
                                     @click="deleteSurvey(\'''' + str(obj.id) + '''\')">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                                 </svg>'''
-        
+                                
+    
     def get_initial_queryset(self, request=None):
 
         # We accept either GET or POST
@@ -142,6 +144,67 @@ class SurveyList(AjaxDatatableView):
         if 'project_id' in request.REQUEST:
             project_id = request.REQUEST.get('project_id')
             queryset = queryset.filter(project__id=project_id)
+
+        return queryset
+                                
+                                
+    
+class jFormList(AjaxDatatableView):
+    model                       = Survey
+    title                       = 'Survey'
+    show_column_filters         = False
+    initial_order               = [["created_on", "desc"], ]
+    length_menu                 = [[12, 50, 100, -1], [12, 50, 100, 'all']]
+    search_values_separator     = '+'
+    full_row_select             = False
+    
+      
+    column_defs = [
+        {'name': 'id', 'visible': False, },
+        {'name': 'qv','title':'','visible': True, 'className':'w-3 text-left text-rose-800 cursor-pointer','placeholder':'True','searchable': False,},
+        {'name': 'title', 'visible': True,'className':'text-left font-semibold cursor-pointer' },
+        {'name': 'description', 'visible': True,'className':'text-left ' },
+        {'name': 'form_id', 'visible': True,'className':'text-left  ' },
+        {'name': 'xform', 'visible': True,'className':'text-left ' },
+        {'name': 'project_id', 'foreign_field': 'project__id', 'title': '', 'visible': False,},
+        {'name': 'created_on', 'title':'Created','visible': True, 'className':'w-[100px] text-left'  },
+        {'name': 'del','title':'','visible': True, 'className':'w-4 text-left','placeholder':'True','searchable': False,},
+    ]
+    
+    def get_show_column_filters(self, request):
+        return False
+    
+    def customize_row(self, row, obj):
+        
+        absolute_url = reverse('form_data', kwargs=({'project_id':obj.project_id,'pk': obj.id}))
+        form_summary_url = reverse('manage_form_summary', kwargs=({'project_id':obj.project_id,'pk': obj.id}))
+        
+        arr = '''<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+                </svg>'''
+
+        row['qv']           = '<span class="text-sm" @click="sidebar = !sidebar, dataDetail(\''+str(obj.title)+'\',\''+form_summary_url+'\')" >'+arr+'</span>'
+        row['title']        = '<a class="" href="' + absolute_url+'" >'+str(obj.title) + '</a>'      
+        row['created_on']   = naturalday(obj.created_on)
+        row['del']          = '''<svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="h-4 w-4 text-slate-300 hover:text-rose-900 hover:cursor-pointer" 
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" 
+                                    @click="deleteSurvey(\'''' + str(obj.id) + '''\')">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>'''
+
+        
+    def get_initial_queryset(self, request=None):
+
+        # We accept either GET or POST
+        if not getattr(request, 'REQUEST', None):
+            request.REQUEST = request.GET if request.method=='GET' else request.POST
+
+        queryset = self.model.objects.all()
+
+        if 'project_id' in request.REQUEST:
+            project_id = request.REQUEST.get('project_id')
+            queryset = queryset.filter(project__id=project_id,form_type="JFORM")
 
         return queryset
 

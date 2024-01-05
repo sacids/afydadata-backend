@@ -14,12 +14,20 @@ from django.contrib.contenttypes.fields import GenericRelation
 
 # Create your models here.
 class Survey(models.Model):
+    
+    FORM_TYPE = (
+        ('JFORM','jForm'),
+        ('XFORM','xForm'),
+    )
+    
     id          = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     #id              = models.TextField(primary_key=True)
     project     = models.ForeignKey('projects.Project', related_name='project',default=1, on_delete=models.CASCADE)
     title       = models.CharField(max_length=50)
     form_id     = models.CharField(max_length=250)
-    xform       = models.FileField(upload_to='xform/defn/', max_length=100)
+    form_type   = models.CharField(max_length=6,choices=FORM_TYPE, default="XFORM")
+    xform       = models.FileField(upload_to='xform/defn/', max_length=100, blank=True, null=True)
+    jForm       = models.JSONField(blank=True, null=True)
     description = models.TextField()
     created_on  = models.DateTimeField(auto_now=True)
     created_by  = models.ForeignKey(User, on_delete=models.DO_NOTHING)

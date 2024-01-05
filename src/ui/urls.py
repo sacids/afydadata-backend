@@ -16,6 +16,7 @@ urlpatterns = [
     path('ajax_datatable/survey_list/', ajax_datatable_views.SurveyList.as_view(), name="surveylist"),
     path('ajax_datatable/project_member_list/', ajax_datatable_views.projectMemberslist.as_view(), name="projectMemberslist"),
     path('ajax_datatable/project_group_list/', ajax_datatable_views.projectGrouplist.as_view(), name="projectGroupList"),
+    path('ajax_datatable/project_jform_list/', ajax_datatable_views.jFormList.as_view(), name="jFormList"),
     path('ajax_datatable/project_list/', ajax_datatable_views.ProjectList.as_view(), name="projectList"),
     path('ajax_datatable/form_data/', ajax_datatable_views.formData.as_view(), name="formData"),
     path('ajax_datatable/form_mapping/', ajax_datatable_views.FormMappingList.as_view(), name="FormMappingList"),
@@ -39,6 +40,7 @@ urlpatterns = [
     #project surveys
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
     path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
+    path('project/<str:pk>/jform/create', views.JformCreateView.as_view(), name="create_jform"),
     
     # project members
     path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),

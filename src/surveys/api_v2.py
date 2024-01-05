@@ -34,9 +34,10 @@ def form_get(request, id):
 
     survey  = get_object_or_404(Survey, pk=id)
 
+
     if os.path.exists(survey.xform.path):
        
-        file_path   = os.path.join(settings.BASE_DIR, 'src/assets/xform/defn/test_1.json')
+        file_path   = os.path.join(settings.MEDIA_ROOT, 'jform/defn/',survey.form_id+'.json')
         text_file = open(file_path, "rb")
         data = text_file.read()
         text_file.close()

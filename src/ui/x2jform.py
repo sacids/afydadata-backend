@@ -54,6 +54,7 @@ def make_jform(survey, choice_map, settings_map):
             if in_group:
                 arr    = item['type'].split()
                 item['type']    = arr[0].strip()
+                item['val']     = ''
                 if len(arr) > 1:
                     if arr[1].strip() in choice_map:
                         key     = arr[1]
@@ -67,6 +68,7 @@ def make_jform(survey, choice_map, settings_map):
             else:
                 survey_map['pages'][page_count] = {
                     'type'  : 'group',
+                    'val'   : '',
                     'fields': [item]
                 }
                 in_group    = False
@@ -76,7 +78,6 @@ def make_jform(survey, choice_map, settings_map):
         
 def x2jform(filename): 
     
-    #xlsform         = "../../media/xlsform/shelter_material_survey.xlsx"
     xlsform             = os.path.join(settings.MEDIA_ROOT, filename)
 
     try:

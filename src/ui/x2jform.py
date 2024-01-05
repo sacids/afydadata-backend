@@ -32,7 +32,7 @@ def init_choices(choices):
 def make_jform(survey, choice_map, settings_map):
     survey_map  = {
         "meta": settings_map,
-        "pages": {},
+        "pages": [],
         "workflow": {},
     }
     page_count  = 0
@@ -42,15 +42,17 @@ def make_jform(survey, choice_map, settings_map):
         if type == None:
             continue
         elif type.strip() == 'begin group':
+            pc          = []
             in_group    = True
             tmp         = item
             tmp['type']     = 'group'
-            tmp['fields']   = []
-            survey_map['pages'][page_count] = tmp
+            tmp['fields']   = {}
+            survey_map['pages'].append(tmp)
         elif type.strip() == 'end group':
             in_group    = False,
             page_count = page_count + 1
         else:
+            name            = item['name'].strip()
             if in_group:
                 arr    = item['type'].split()
                 item['type']    = arr[0].strip()
@@ -64,19 +66,22 @@ def make_jform(survey, choice_map, settings_map):
                         item['or_other']    = '1'
                     else:
                         item['or_other']    = '0'
-                survey_map['pages'][page_count]['fields'].append(item)
+                survey_map['pages'][page_count]['fields'][name]     = item
             else:
-                survey_map['pages'][page_count] = {
+                tmp = {
                     'type'  : 'group',
                     'val'   : '',
-                    'fields': [item]
+                    'fields': {
+                        name : item,
+                    }
                 }
+                survey_map['pages'].append(tmp)
                 in_group    = False
                 page_count  = page_count + 1
             
     return survey_map
         
-def x2jform(filename): 
+def x2jform(filename, title, description): 
     
     xlsform             = os.path.join(settings.MEDIA_ROOT, filename)
 
@@ -92,12 +97,15 @@ def x2jform(filename):
         survey_df       = pandas.read_excel(xlsform, sheet_name='survey')
         survey_obj      = json.loads(survey_df.to_json(orient='records'))
         survey_map      = make_jform(survey_obj, choice_map, settings_map)
+        
+        survey_map['meta']['title']         = title
+        survey_map['meta']['description']   = description
     
         dest            = os.path.join(settings.MEDIA_ROOT, 'jform/defn/',settings_map['form_id']+'.json')
         f = open(dest, "w")
         json.dump(survey_map, f)
         f.close()
-        
+        print(survey_map)
         return survey_map
     
     except Exception as error:

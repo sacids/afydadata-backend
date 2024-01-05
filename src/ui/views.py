@@ -372,7 +372,7 @@ class JformCreateView(generic.CreateView):
             logging.info("Survey created => ")
 
             # initiate form
-            survey_cfg      = x2jform.x2jform(cur_obj.xform.name)
+            survey_cfg      = x2jform.x2jform(cur_obj.xform.name, survey_form.title, survey_form.description)
             cur_obj.form_id = survey_cfg['meta']['form_id']
             cur_obj.save()
 

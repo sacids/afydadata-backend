@@ -1,1 +1,513 @@
-{"meta": {"title": "Survey on Household Characteristics", "form_id": "shelter_material_survey"}, "pages": {"0": {"type": "group", "fields": [{"type": "start", "name": "start_time", "label": null, "hint": null, "constraint": null, "relevant": null, "appearance": null}]}, "1": {"type": "group", "fields": [{"type": "end", "name": "end_time", "label": null, "hint": null, "constraint": null, "relevant": null, "appearance": null}]}, "2": {"type": "group", "name": "section1", "label": "Section 1. Record this information before approaching the household", "hint": null, "constraint": null, "relevant": null, "appearance": null, "fields": [{"type": "integer", "name": "hhid", "label": "Please assign a unique household ID.", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "date", "name": "date", "label": "What is today's date? ", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "select_one", "name": "state", "label": "What state are you in?", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Kaduna", "value": "kad"}, {"label": "Kano", "value": "kan"}, {"label": "Katsina", "value": "kat"}, {"label": "Jigawa", "value": "jig"}, {"label": "Yobe", "value": "yob"}, {"label": "Zamfara", "value": "zam"}]}, {"type": "select_one", "name": "geo", "label": "Is this area rural, urban, peri-urban, or other?", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Urban", "value": "urban"}, {"label": "Peri-urban", "value": "peri"}, {"label": "Rural", "value": "rural"}], "or_other": "1"}, {"type": "text", "name": "address", "label": "Please enter the address or description of the home location.", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "geopoint", "name": "hhgps", "label": "Please record the GPS coordinates of this home.", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "photo", "name": "hhpicture", "label": "If available, you may want to take a photo of the front of the house.", "hint": null, "constraint": null, "relevant": null, "appearance": null}]}, "3": {"type": "group", "name": "section2", "label": "Section 2. Household information", "hint": null, "constraint": null, "relevant": null, "appearance": null, "fields": [{"type": "note", "name": "note1", "label": "Begin the interview with a short introduction about who you are, the program, and the purpose of the survey. ", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "note", "name": "note2", "label": "Ask to interview the female in charge of the household or the oldest available female. If not available, male is ok.", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "text", "name": "name", "label": "What is your name?", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "select_one", "name": "hhposition", "label": "What is your position in the household? ", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Female head of household", "value": "f_head"}, {"label": "Oldest female in household", "value": "f_oldest"}, {"label": "Other female", "value": "f_other"}, {"label": "Male head of household", "value": "m_head"}, {"label": "Oldest male in household", "value": "m_oldest"}, {"label": "Other male", "value": "m_other"}]}, {"type": "integer", "name": "hhsize", "label": "How many people live in this household most of the time?", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "integer", "name": "hhadults", "label": "How many of the people who live here are adults (age 18 or over)?", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "integer", "name": "hhboys", "label": "How many boys under age 18 live here? ", "hint": "Don't forget babies, visitors, and household help.", "constraint": null, "relevant": null, "appearance": null}, {"type": "integer", "name": "hhgirls", "label": "How many girls under age 18 live here? ", "hint": "Don't forget babies, visitors, and household help. ", "constraint": null, "relevant": null, "appearance": null}]}, "4": {"type": "group", "name": "section3", "label": "Section 3. Contact information", "hint": null, "constraint": null, "relevant": null, "appearance": null, "fields": [{"type": "note", "name": "note3", "label": "Thank you for participating in this survey. Here is my contact information if you want to reach me.", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "select_one", "name": "contact", "label": "If you're comfortable, is there any way we can get in touch with you?", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Yes", "value": "yes"}, {"label": "No", "value": "no"}]}, {"type": "text", "name": "phone", "label": "Enter phone number or other contact.", "hint": null, "constraint": null, "relevant": "${contact} = 'yes'", "appearance": null}]}, "5": {"type": "group", "name": "section4", "label": "Section 4. Interviewer observations", "hint": null, "constraint": null, "relevant": null, "appearance": null, "fields": [{"type": "select_one", "name": "hh_roof", "label": "The roof of this house is made of:", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Metal sheets", "value": "metal"}, {"label": "Brick", "value": "brick"}, {"label": "Thatch / Palm leaf", "value": "thatch"}, {"label": "Roofing tiles", "value": "tiles"}, {"label": "Other", "value": "other"}], "or_other": "1"}, {"type": "select_one", "name": "hh_wall", "label": "The walls of the house are made of:", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Tin", "value": "tin"}, {"label": "Brick", "value": "brick"}, {"label": "Mud", "value": "mud"}, {"label": "Concrete", "value": "concrete"}, {"label": "Other", "value": "other"}], "or_other": "1"}, {"type": "select_one", "name": "hh_floor", "label": "The floor of the house is made of:", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Earth / Sand", "value": "earth"}, {"label": "Ceramic tiles", "value": "tiles"}, {"label": "Cement", "value": "cement"}, {"label": "Wood", "value": "wood"}, {"label": "Other", "value": "other"}], "or_other": "1"}, {"type": "select_one", "name": "hh_toilet", "label": "Does the house appear to have access to improved toilet facilities?", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Yes", "value": "yes"}, {"label": "No", "value": "no"}]}, {"type": "select_one", "name": "hh_light", "label": "What is the main source of light in the house?", "hint": null, "constraint": null, "relevant": null, "appearance": null, "options": [{"label": "Electricity", "value": "electricity"}, {"label": "Solar", "value": "solar"}, {"label": "LPG gas", "value": "gas"}, {"label": "Oil lamp", "value": "oil"}, {"label": "Dark (only natural light)", "value": "dark"}, {"label": "Other", "value": "other"}], "or_other": "1"}, {"type": "text", "name": "hh_other", "label": "Other identifying characteristics of house:", "hint": null, "constraint": null, "relevant": null, "appearance": null}, {"type": "select_one", "name": "hh_comparison", "label": "Compared to other houses in the community, how would you say this one compares?", "hint": null, "constraint": null, "relevant": null, "appearance": "likert", "options": [{"label": "Poorer than others", "value": "poorer"}, {"label": "About the same as others", "value": "same"}, {"label": "Wealthier than others", "value": "wealthier"}]}, {"type": "text", "name": "notes", "label": "Did you see anything that should be followed up or any other notes you wish to make?", "hint": null, "constraint": null, "relevant": null, "appearance": null}]}}, "workflow": {}}
+{
+    "meta": {
+        "title": "jform v5 3",
+        "form_id": "shelter_material_survey",
+        "start": "",
+        "end": "",
+        "description": "jform v5"
+    },
+    "pages": [
+        {
+            "type": "group",
+            "name": "section1",
+            "label": "Section 1. Record this information before approaching the household",
+            "hint": null,
+            "constraint": null,
+            "relevant": null,
+            "appearance": null,
+            "fields": {
+                "hhid": {
+                    "type": "integer",
+                    "name": "hhid",
+                    "label": "Please assign a unique household ID.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "date": {
+                    "type": "date",
+                    "name": "date",
+                    "label": "What is today's date? ",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "state": {
+                    "type": "select_one",
+                    "name": "state",
+                    "label": "What state are you in?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Kaduna",
+                            "value": "kad"
+                        },
+                        {
+                            "label": "Kano",
+                            "value": "kan"
+                        },
+                        {
+                            "label": "Katsina",
+                            "value": "kat"
+                        },
+                        {
+                            "label": "Jigawa",
+                            "value": "jig"
+                        },
+                        {
+                            "label": "Yobe",
+                            "value": "yob"
+                        },
+                        {
+                            "label": "Zamfara",
+                            "value": "zam"
+                        }
+                    ]
+                },
+                "geo": {
+                    "type": "select_one",
+                    "name": "geo",
+                    "label": "Is this area rural, urban, peri-urban, or other?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Urban",
+                            "value": "urban"
+                        },
+                        {
+                            "label": "Peri-urban",
+                            "value": "peri"
+                        },
+                        {
+                            "label": "Rural",
+                            "value": "rural"
+                        }
+                    ],
+                    "or_other": "1"
+                },
+                "address": {
+                    "type": "text",
+                    "name": "address",
+                    "label": "Please enter the address or description of the home location.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhgps": {
+                    "type": "geopoint",
+                    "name": "hhgps",
+                    "label": "Please record the GPS coordinates of this home.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhpicture": {
+                    "type": "photo",
+                    "name": "hhpicture",
+                    "label": "If available, you may want to take a photo of the front of the house.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                }
+            }
+        },
+        {
+            "type": "group",
+            "name": "section2",
+            "label": "Section 2. Household information",
+            "hint": null,
+            "constraint": null,
+            "relevant": null,
+            "appearance": null,
+            "fields": {
+                "note1": {
+                    "type": "note",
+                    "name": "note1",
+                    "label": "Begin the interview with a short introduction about who you are, the program, and the purpose of the survey. ",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "note2": {
+                    "type": "note",
+                    "name": "note2",
+                    "label": "Ask to interview the female in charge of the household or the oldest available female. If not available, male is ok.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "name": {
+                    "type": "text",
+                    "name": "name",
+                    "label": "What is your name?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhposition": {
+                    "type": "select_one",
+                    "name": "hhposition",
+                    "label": "What is your position in the household? ",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Female head of household",
+                            "value": "f_head"
+                        },
+                        {
+                            "label": "Oldest female in household",
+                            "value": "f_oldest"
+                        },
+                        {
+                            "label": "Other female",
+                            "value": "f_other"
+                        },
+                        {
+                            "label": "Male head of household",
+                            "value": "m_head"
+                        },
+                        {
+                            "label": "Oldest male in household",
+                            "value": "m_oldest"
+                        },
+                        {
+                            "label": "Other male",
+                            "value": "m_other"
+                        }
+                    ]
+                },
+                "hhsize": {
+                    "type": "integer",
+                    "name": "hhsize",
+                    "label": "How many people live in this household most of the time?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhadults": {
+                    "type": "integer",
+                    "name": "hhadults",
+                    "label": "How many of the people who live here are adults (age 18 or over)?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhboys": {
+                    "type": "integer",
+                    "name": "hhboys",
+                    "label": "How many boys under age 18 live here? ",
+                    "hint": "Don't forget babies, visitors, and household help.",
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hhgirls": {
+                    "type": "integer",
+                    "name": "hhgirls",
+                    "label": "How many girls under age 18 live here? ",
+                    "hint": "Don't forget babies, visitors, and household help. ",
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                }
+            }
+        },
+        {
+            "type": "group",
+            "name": "section3",
+            "label": "Section 3. Contact information",
+            "hint": null,
+            "constraint": null,
+            "relevant": null,
+            "appearance": null,
+            "fields": {
+                "note3": {
+                    "type": "note",
+                    "name": "note3",
+                    "label": "Thank you for participating in this survey. Here is my contact information if you want to reach me.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "contact": {
+                    "type": "select_one",
+                    "name": "contact",
+                    "label": "If you're comfortable, is there any way we can get in touch with you?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "no"
+                        }
+                    ]
+                },
+                "phone": {
+                    "type": "text",
+                    "name": "phone",
+                    "label": "Enter phone number or other contact.",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": "${contact} = 'yes'",
+                    "appearance": null,
+                    "val": ""
+                }
+            }
+        },
+        {
+            "type": "group",
+            "name": "section4",
+            "label": "Section 4. Interviewer observations",
+            "hint": null,
+            "constraint": null,
+            "relevant": null,
+            "appearance": null,
+            "fields": {
+                "hh_roof": {
+                    "type": "select_one",
+                    "name": "hh_roof",
+                    "label": "The roof of this house is made of:",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Metal sheets",
+                            "value": "metal"
+                        },
+                        {
+                            "label": "Brick",
+                            "value": "brick"
+                        },
+                        {
+                            "label": "Thatch / Palm leaf",
+                            "value": "thatch"
+                        },
+                        {
+                            "label": "Roofing tiles",
+                            "value": "tiles"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "other"
+                        }
+                    ],
+                    "or_other": "1"
+                },
+                "hh_wall": {
+                    "type": "select_one",
+                    "name": "hh_wall",
+                    "label": "The walls of the house are made of:",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Tin",
+                            "value": "tin"
+                        },
+                        {
+                            "label": "Brick",
+                            "value": "brick"
+                        },
+                        {
+                            "label": "Mud",
+                            "value": "mud"
+                        },
+                        {
+                            "label": "Concrete",
+                            "value": "concrete"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "other"
+                        }
+                    ],
+                    "or_other": "1"
+                },
+                "hh_floor": {
+                    "type": "select_one",
+                    "name": "hh_floor",
+                    "label": "The floor of the house is made of:",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Earth / Sand",
+                            "value": "earth"
+                        },
+                        {
+                            "label": "Ceramic tiles",
+                            "value": "tiles"
+                        },
+                        {
+                            "label": "Cement",
+                            "value": "cement"
+                        },
+                        {
+                            "label": "Wood",
+                            "value": "wood"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "other"
+                        }
+                    ],
+                    "or_other": "1"
+                },
+                "hh_toilet": {
+                    "type": "select_one",
+                    "name": "hh_toilet",
+                    "label": "Does the house appear to have access to improved toilet facilities?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "no"
+                        }
+                    ]
+                },
+                "hh_light": {
+                    "type": "select_one",
+                    "name": "hh_light",
+                    "label": "What is the main source of light in the house?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Electricity",
+                            "value": "electricity"
+                        },
+                        {
+                            "label": "Solar",
+                            "value": "solar"
+                        },
+                        {
+                            "label": "LPG gas",
+                            "value": "gas"
+                        },
+                        {
+                            "label": "Oil lamp",
+                            "value": "oil"
+                        },
+                        {
+                            "label": "Dark (only natural light)",
+                            "value": "dark"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "other"
+                        }
+                    ],
+                    "or_other": "1"
+                },
+                "hh_other": {
+                    "type": "text",
+                    "name": "hh_other",
+                    "label": "Other identifying characteristics of house:",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                },
+                "hh_comparison": {
+                    "type": "select_one",
+                    "name": "hh_comparison",
+                    "label": "Compared to other houses in the community, how would you say this one compares?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": "likert",
+                    "val": "",
+                    "options": [
+                        {
+                            "label": "Poorer than others",
+                            "value": "poorer"
+                        },
+                        {
+                            "label": "About the same as others",
+                            "value": "same"
+                        },
+                        {
+                            "label": "Wealthier than others",
+                            "value": "wealthier"
+                        }
+                    ]
+                },
+                "notes": {
+                    "type": "text",
+                    "name": "notes",
+                    "label": "Did you see anything that should be followed up or any other notes you wish to make?",
+                    "hint": null,
+                    "constraint": null,
+                    "relevant": null,
+                    "appearance": null,
+                    "val": ""
+                }
+            }
+        }
+    ],
+    "workflow": {}
+}

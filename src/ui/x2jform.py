@@ -1,7 +1,9 @@
+
 import pandas
 import json
 
 from django.conf import settings
+from urllib.parse import parse_qs
 import os
 
 
@@ -28,6 +30,23 @@ def init_choices(choices):
             
     
     return choice_map
+
+
+def get_item(item, choice_map):
+    
+    tmp             = item['type'].split()
+    type            = tmp[0].strip().lower()
+    item['type']    = type
+    item['val']     = ''
+    
+    if type in ['select_one','select','rank']:
+        if len(tmp) > 1 and tmp[1].strip() in choice_map:
+            key     = tmp[1]
+            item['options']     = choice_map[key]
+        if len(tmp) == 3 and tmp[2].strip() == 'or_other':
+            item['or_other']    = '1'
+            
+    return item
            
 def make_jform(survey, choice_map, settings_map):
     survey_map  = {
@@ -42,7 +61,6 @@ def make_jform(survey, choice_map, settings_map):
         if type == None:
             continue
         elif type.strip() == 'begin group':
-            pc          = []
             in_group    = True
             tmp         = item
             tmp['type']     = 'group'
@@ -53,26 +71,19 @@ def make_jform(survey, choice_map, settings_map):
             page_count = page_count + 1
         else:
             name            = item['name'].strip()
-            if in_group:
-                arr    = item['type'].split()
-                item['type']    = arr[0].strip()
-                item['val']     = ''
-                if len(arr) > 1:
-                    if arr[1].strip() in choice_map:
-                        key     = arr[1]
-                        item['options'] = choice_map[key]
-                if len(arr) == 3:
-                    if arr[2].strip() == 'or_other':
-                        item['or_other']    = '1'
-                    else:
-                        item['or_other']    = '0'
-                survey_map['pages'][page_count]['fields'][name]     = item
+            uItem           = get_item(item, choice_map)   
+            type            = uItem['type']         
+            if type in ['end','start','today','deviceid','phonenumber','username','email','audit']:
+                survey_map['meta'][type]    = ''
+                pass
+            elif in_group:
+                survey_map['pages'][page_count]['fields'][name]     = uItem
             else:
                 tmp = {
                     'type'  : 'group',
                     'val'   : '',
                     'fields': {
-                        name : item,
+                        name : uItem,
                     }
                 }
                 survey_map['pages'].append(tmp)
@@ -98,6 +109,7 @@ def x2jform(filename, title, description):
         survey_obj      = json.loads(survey_df.to_json(orient='records'))
         survey_map      = make_jform(survey_obj, choice_map, settings_map)
         
+        
         survey_map['meta']['title']         = title
         survey_map['meta']['description']   = description
     
@@ -105,7 +117,7 @@ def x2jform(filename, title, description):
         f = open(dest, "w")
         json.dump(survey_map, f)
         f.close()
-        print(survey_map)
+        
         return survey_map
     
     except Exception as error:

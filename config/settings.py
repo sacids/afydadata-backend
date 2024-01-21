@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #libraries
+    "rest_framework_simplejwt",
     "rest_framework",
     'ajax_datatable',
     'corsheaders',

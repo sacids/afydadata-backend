@@ -70,5 +70,7 @@ urlpatterns = [
     
     path('api/v3/auth/register', api_accounts.register_user, name="register_user"),
     path('api/v3/auth/login', api_accounts.login_user, name="login_user"),
+
+    path('api/v1/login', api_accounts.LoginView.as_view(), name='auth-login'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,15 +1,16 @@
 import re
 import logging
+from django.http import JsonResponse
 from django.contrib.auth.models import User, Group
 from accounts.models import Profile
 from rest_framework import viewsets
 from rest_framework import permissions, status, generics
 from .serializers import UserSerializer, GroupSerializer, ChangePasswordSerializer
-from rest_framework.response import Response
-from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework_simplejwt.tokens import RefreshToken
+from django.views.decorators.csrf import csrf_exempt
 from django.forms.models import model_to_dict
-from django.http import JsonResponse
 from django.contrib.auth import authenticate
 from src.surveys.utils import calculate_digest
 
@@ -83,7 +84,28 @@ class ChangePasswordView(generics.UpdateAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
     
-    
+class LoginView(APIView):
+    def post(self, request):
+        username = request.data.get('username')
+        password = request.data.get('password')
+
+        user = authenticate(username=username, password=password)
+
+        if user is not None:
+            refresh = RefreshToken.for_user(user)
+
+            return JsonResponse({
+                'error': False,
+                'refresh': str(refresh),
+                'access': str(refresh.access_token), 
+                'user': {'first_name': user.first_name, 'surname': user.last_name, 'username': user.username, 'email': user.email}
+            })
+        else:
+            return JsonResponse({
+                'error': True,
+                'error_msg': 'Invalid username or password'
+            })
+
     
 
 @csrf_exempt  

@@ -786,6 +786,8 @@ class data_chat(generic.TemplateView):
     template_name = "pages/chat.html"
     
 
+
+
                                                   
 class ChangePmPassword(generic.TemplateView):
     

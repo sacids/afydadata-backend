@@ -1,0 +1,129 @@
+{% extends 'layout/base.html' %}
+{% block title %} {{title}} {% endblock %}
+
+{% block nav %}
+{% include "partials/nav.html" %}
+{% endblock %}
+
+{% block contents %}
+<div class="h-full w-full px-10 my-3">
+    <div class="flex-1 table-responsive h-full w-full overflow-hidden flex">
+        <div class="w-3/12 bg-gray-200">
+            form list
+            <ul>
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    TEXT
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    TEXTAREA
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    CHECKBOX
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    SELECT
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    SELECT MANY
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    LOCATION
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    IMAGE
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    VIDEO
+                </li>
+
+                <li id="draggable" class="item h-12 flex justify-between text-lg m-1 p-2 bg-gray-300 w-80">
+                    FILE
+                </li>
+            </ul>
+        </div>
+        <div class="w-5/12 bg-gray-400 p-5 overflow-y-scroll">
+            form map
+
+            <ul id="sortable1" class="connectedSortable p-2 m-2 bg-green-200">
+            </ul>
+            
+            <ul id="sortable2" class="connectedSortable p-2 m-2 bg-green-200">
+            </ul>
+        </div>
+        <div class="w-4/12 bg-blue-200">
+            form element details 
+        </div>
+    </div>
+</div>
+
+<!-- Datatable config -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script language="javascript">
+
+
+    $(document).ready(function () {
+
+        $( "#sortable1, #sortable2" ).sortable({
+            connectWith: ".connectedSortable",
+            placeholder: "ui-state-highlight h-12",
+            revert: true,
+        }).disableSelection();
+        $( ".item" ).draggable({
+            connectToSortable: ".connectedSortable",
+            helper: "clone",
+            revert: "invalid"
+        });
+    });
+
+    function manageTable() {
+        return {
+            sidebar_title: "",
+            pg_actions_url: "",
+        }
+    }
+</script>
+
+{% endblock %}
+
+
+{% block sidebar %}
+<div class="border-b h-10 flex justify-between">
+    <p class="py-2 px-4 text-red-900 text-base font-semibold" id="sidebar-title"></p>
+
+    <div class="">
+        <button type="button"
+            class="border-l hover:text-gray-100 hover:bg-red-900 text-gray-500 text-lg px-2.5 py-2.5 text-center inline-flex items-center"
+            @click="sidebar = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div class="h-full overflow-hidden" id="data-detail">
+</div>
+{% endblock %}
+
+
+{% block extrastyle %} 
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+
+{% endblock %}

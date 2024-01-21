@@ -2,26 +2,36 @@
    <div class="h-full overflow-hidden flex-1 justify-between flex flex-col h-screen">
       <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
          <template x-for="(note, index) in notes" :key="index">
-            <div class="flex text-xs">
-                <p class="mr-5 bg-emerald-600  rounded-full h-10 px-3 pt-3 text-white" x-text="note.initials"></p>
-                <ul class="flex-1">
-                    <li class="" x-text="note.name"></li>
-                    <li class="" x-text="note.message"></li>
-                    <li class="text-xs text-gray-500" x-text="note.created_on"></li>
-                </ul>
-            </div>  
+            <div class="py-1">
+               <template x-if="note.created_by!='{{request.user.id}}'">
+                  <div class="flex text-xs">
+                     <p class="mr-3 bg-emerald-600  rounded-full h-10 px-3 pt-3 text-white" x-text="note.initials"></p>
+                     <ul class="w-7/12 rounded-xl rounded-ss-none p-2 bg-blue-100">
+                        <li class="" x-text="note.name"></li>
+                        <li class="" x-text="note.message"></li>
+                        <li class="text-xs text-gray-500" x-text="note.created_on"></li>
+                     </ul>
+                  </div>
+               </template>
+               <template x-if="note.created_by=='{{request.user.id}}'">
+                  <div class="flex flex-row flex-row-reverse text-xs px-3">
+                     <p class="ml-3 bg-rose-600  rounded-full h-10 px-3 pt-3 text-white" x-text="note.initials"></p>
+                     <ul class="w-7/12 rounded-xl rounded-tr-none p-2 bg-rose-100">
+                        <li class="" x-text="note.name"></li>
+                        <li class="" x-text="note.message"></li>
+                        <li class="text-xs text-gray-500" x-text="note.created_on"></li>
+                     </ul>
+                  </div>
+               </template>
+            </div>
         </template>
       </div>
 
-      <div class="flex-none text-xs px-5 py-3 border-t flex bg-gray-100">
-            <p class="mr-5 bg-emerald-600 rounded-full h-10 px-3 pt-3 text-white">{{user.first_name|upper|make_list|first}}{{user.last_name|upper|make_list|first}}</p>
-            <div class="flex-1">
-               <textarea x-model="new_note" rows="3" class="block p-2.5 w-full text-sm rounded-sm text-gray-900 border border-gray-300 focus:ring-gray-400 focus:border-gray-400" placeholder="Your message..."></textarea>
-               <div class="flex space-x-2 mt-2">
-                  <button class="text-white text-sm font-normal bg-red-500 hover:bg-red-400  px-3 py-2 rounded-sm">Cancel</button>
-                  <button class="text-white text-sm font-normal bg-slate-700 hover:bg-slate-800 px-3 py-2 rounded-sm" :disabled="note_uploading" @click="addNote()">Save</button>  
-               </div>
-            </div>
+      <div class="flex text-xs px-5 py-3 border-t flex bg-gray-100 space-x-3">
+            <p class="bg-emerald-600 rounded-full h-10 px-3 pt-3 text-white">{{user.first_name|upper|make_list|first}}{{user.last_name|upper|make_list|first}}</p>
+            <textarea x-model="new_note" rows="2" class="block p-1 w-full text-sm rounded-sm text-gray-900 border border-gray-300 focus:ring-gray-400 focus:border-gray-400" placeholder="Your message..."></textarea>
+            <button class="text-white text-sm font-normal bg-slate-700 hover:bg-slate-800 px-3 py-2 rounded-sm" :disabled="note_uploading" @click="addNote()">Save</button>  
+               
       </div>
    </div>
 </div>

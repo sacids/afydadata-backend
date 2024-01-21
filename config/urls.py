@@ -26,6 +26,7 @@ from rest_framework import routers
 from src.accounts   import api as api_accounts
 from src.projects   import api as api_projects
 from src.surveys    import api as api_surveys
+from src.surveys    import api_v2 as api_surveys_v2
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
@@ -64,13 +65,17 @@ urlpatterns = [
     path('api/token/refresh', TokenRefreshView.as_view(), name='token_refresh'),
 
     path('formList',api_surveys.form_list, name="form_list"),
+    path('form_list',api_surveys_v2.form_list, name="form_list_v2"),
     path('formGet/<id>', api_surveys.form_get, name="form_get"),
-    
-    
+    path('form_get/<id>', api_surveys_v2.form_get, name="form_get_v2"),
     
     path('api/v3/auth/register', api_accounts.register_user, name="register_user"),
     path('api/v3/auth/login', api_accounts.login_user, name="login_user"),
 
     path('api/v1/login', api_accounts.LoginView.as_view(), name='auth-login'),
+    
+    
+    path('api/v3/feedback', api_surveys.getFeedback.as_view(), name="getfeedback"),
+    path('api/v3/feedback/send', api_surveys.sendFeedback.as_view(), name="sendfeedback"),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

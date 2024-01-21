@@ -16,6 +16,7 @@ urlpatterns = [
     path('ajax_datatable/survey_list/', ajax_datatable_views.SurveyList.as_view(), name="surveylist"),
     path('ajax_datatable/project_member_list/', ajax_datatable_views.projectMemberslist.as_view(), name="projectMemberslist"),
     path('ajax_datatable/project_group_list/', ajax_datatable_views.projectGrouplist.as_view(), name="projectGroupList"),
+    path('ajax_datatable/project_jform_list/', ajax_datatable_views.jFormList.as_view(), name="jFormList"),
     path('ajax_datatable/project_list/', ajax_datatable_views.ProjectList.as_view(), name="projectList"),
     path('ajax_datatable/form_data/', ajax_datatable_views.formData.as_view(), name="formData"),
     path('ajax_datatable/form_mapping/', ajax_datatable_views.FormMappingList.as_view(), name="FormMappingList"),
@@ -26,9 +27,10 @@ urlpatterns = [
     # path('awknolegements', views.list_projects.as_view(), name="awknoledgement"),
     
     #Projects
-    path('project/dashboard', views.ProjectListView.as_view(), name="project_dashboard"),
     path('projects/lists', views.ProjectListView.as_view(), name="list_projects"),
     path('projects/create', views.ProjectCreateView.as_view(), name="create_project" ),
+    path('project/<pk>/dashboard', views.ProjectDashboardView.as_view(), name="project_dashboard"),
+    path('project/<pk>/chart', charts.ProjectChartView.as_view(), name="project_chart"),
     
     path('project/<str:pk>', views.ProjectDetailView.as_view(), name="project_detail"),
     path('project/delete/<str:pk>', views.ProjectDeleteView.as_view(), name="delete_project"),
@@ -38,6 +40,7 @@ urlpatterns = [
     #project surveys
     path('project/<str:pk>/form/create', views.XformCreateView.as_view(), name="create_xform"),
     path('project/<str:pk>/form/delete', views.XformDeleteView.as_view(), name="delete_xform"),
+    path('project/<str:pk>/jform/create', views.JformCreateView.as_view(), name="create_jform"),
     
     # project members
     path('member/manage/<str:pk>', views.manage_project_member, name="manage_members"),
@@ -60,7 +63,7 @@ urlpatterns = [
     path('project/<str:project_id>/form/<pk>/perms', views.FormPermsView.as_view(), name="form_perms"),
     path('project/<str:project_id>/form/<pk>/chart', views.FormMapView.as_view(), name="form_chart"),
     path('project/<str:project_id>/form/<pk>/map', views.FormMapView.as_view(), name="form_map"),
-    path('project/<str:project_id>/form/<pk>/dashboard', views.FormMapView.as_view(), name="form_dashboard"),
+    path('project/<str:project_id>/form/<pk>/dashboard', views.FormDashboardView.as_view(), name="form_dashboard"),
     
     
     path('update_survey_access/<str:pk>', views.update_survey_access, name="update_survey_access"),
@@ -94,7 +97,7 @@ urlpatterns = [
     path('users/delete/<str:pk>', users.UserDeleteView.as_view(), name="delete_user"), 
     
     # charts
-    path("charts/surveys", charts.SurveyChartView.as_view(), name="survey-charts")
+    path("charts/surveys", charts.SurveyChartView.as_view(), name="survey-charts")\
     
     
 ]

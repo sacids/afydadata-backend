@@ -83,14 +83,66 @@ class ChangePasswordView(generics.UpdateAPIView):
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
-    
+
+class RegisterView(APIView):
+    def post(self, request):
+        fname       = request.data.get('first_name')
+        lname       = request.data.get('last_name')
+        phone       = request.data.get('phone')
+        email       = request.data.get('email')
+        passwd1     = request.data.get('password')
+        passwd2     = request.data.get('password_confirm')
+
+        response           = {}
+        status_code        = 200
+
+        if passwd1 != passwd2:
+            # return password mismatch
+            response['error']        = True
+            response['error_msg']    = 'Password Mismatch'
+            status_code              = 203
+        else:
+            try:
+                User.objects.get(username = email)
+                response['error']        = True
+                response['error_msg']    = 'Email already registered'
+                status_code              = 203
+            
+            except User.DoesNotExist:
+                # create new user
+                new_user = User.objects.create_user(
+                    username   = email,
+                    password   = passwd1,
+                    first_name = fname,
+                    last_name  = lname,
+                    email      = email
+                )
+
+                # set digest
+                profile         = Profile.objects.get(user=new_user)
+                profile.digest  = calculate_digest(new_user.username, passwd1)
+                profile.save()
+
+                #log action
+                logging.info("Digested password => " + profile.digest)
+                
+                response['error']    = 'false'
+                response['uid']      = new_user.pk
+                response['user']     = {'username':new_user.username,'first_name':new_user.first_name,'last_name':new_user.last_name}
+                status_code     = 200
+
+        # response for user registration
+        return JsonResponse(response,safe=False, status=status_code)
+        
+
+
+
 class LoginView(APIView):
     def post(self, request):
         username = request.data.get('username')
         password = request.data.get('password')
 
-        logging.info("username => " + username)
-
+        #autheniticate user
         user = authenticate(username=username, password=password)
 
         if user is not None:
@@ -107,8 +159,7 @@ class LoginView(APIView):
                 'error': True,
                 'error_msg': 'Invalid username or password'
             })
-
-    
+ 
 
 @csrf_exempt  
 def login_user(request):

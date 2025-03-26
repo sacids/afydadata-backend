@@ -66,6 +66,9 @@ urlpatterns = [
 
     path('formList',api_surveys.form_list, name="form_list"),
     path('form_list',api_surveys_v2.form_list, name="form_list_v2"),
+    path('form_submit',api_surveys_v2.form_submit, name="form_submit"),
+    
+    
     path('formGet/<id>', api_surveys.form_get, name="form_get"),
     path('form_get/<id>', api_surveys_v2.form_get, name="form_get_v2"),
     

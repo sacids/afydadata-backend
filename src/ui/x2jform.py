@@ -29,7 +29,7 @@ def init_choices(choices):
             choice_map[list_name].append(tmp)
             
     
-    return choice_map
+    return choice_map 
 
 
 def get_item(item, choice_map):

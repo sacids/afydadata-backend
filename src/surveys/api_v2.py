@@ -10,13 +10,16 @@ from django.conf import settings
 
 
 @csrf_exempt
-def submission(request):
+def form_submit(request):
+    
+    
+    
     pass
 
 
 @csrf_exempt
 def form_list(request):
-    surveys = Survey.objects.all()
+    surveys = Survey.objects.all().distinct('form_id')
     # print(surveys)
     # print(current_user)
     context = {

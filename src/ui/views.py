@@ -303,7 +303,7 @@ class XformCreateView(generic.CreateView):
 
             # initiate form
             survey_cfg = init_xform(cur_obj.xform.name)
-            survey_form.form_type   = 'XFORM'
+            survey_form.form_type = "XFORM"
             cur_obj.form_id = survey_cfg["form_id"]
             cur_obj.save()
 
@@ -365,19 +365,22 @@ class JformCreateView(generic.CreateView):
             # process form
             survey_form = form.save(commit=False)
             survey_form.created_by = self.request.user
-            survey_form.form_type   = 'JFORM'
+            survey_form.form_type = "JFORM"
             survey_form.project = cur_project
             cur_obj = form.save()
 
             logging.info("Survey created => ")
 
             # initiate form
-            survey_cfg      = x2jform.x2jform(cur_obj.xform.name, survey_form.title, survey_form.description)
-            cur_obj.form_id = survey_cfg['meta']['form_id']
+            survey_cfg = x2jform.x2jform(
+                cur_obj.xform.name, survey_form.title, survey_form.description
+            )
+            cur_obj.form_id = survey_cfg["meta"]["form_id"]
+            cur_obj.jForm = survey_cfg
             cur_obj.save()
 
             # save survey questions
-            #self.save_survey_qns(cur_obj, survey_cfg['pages'])
+            # self.save_survey_qns(cur_obj, survey_cfg['pages'])
 
             return HttpResponse(
                 '<div class="bg-green-200 p-3 text-sm text-gray-600 rounded-sm">Form uploaded</div>'
@@ -407,7 +410,6 @@ class JformCreateView(generic.CreateView):
             # log action
             logging.info("save survey questions")
             logging.info(survey)
-
 
 
 class XformDeleteView(generic.View):
@@ -618,7 +620,12 @@ class FormDataView(generic.TemplateView):
         context["title"] = cur_form.title
         context["datatable_list"] = reverse("form_data_list", kwargs={"pk": form_id})
         context["links"] = _get_form_links_context(cur_form, form_id)
-        context["tbl_header"] = SurveyQuestions.objects.filter(survey__id=form_id)
+
+        # get jform
+
+        context["tbl_header"] = get_table_header(cur_form.jForm)
+        #print(context["tbl_header"])
+        
         context["pg_actions"] = {}
 
         context["extra_data"] = {
@@ -627,6 +634,16 @@ class FormDataView(generic.TemplateView):
         }
 
         return context
+
+
+def get_table_header(jform):
+
+    header = {}
+    for item in jform["pages"]:
+        if item["type"] == "group":
+            for k,v in item['fields'].items():
+                header[k]   = v
+    return header
 
 
 class FormMappingView(generic.TemplateView):
@@ -888,31 +905,36 @@ def form_data_list(request, pk):
     adata = SurveyResponses.objects.filter(survey__id=pk)
     recordsTotal = adata.count()
 
-    if search_val:
-        or_filter = []
-        for k in cols:
-            or_filter.append(("response__" + k["col_name"] + "__icontains", search_val))
+    if cols.count() > 0:
 
-        q_list = [Q(x) for x in or_filter]
-        adata = adata.filter(reduce(operator.or_, q_list))
+        if search_val:
+            or_filter = []
+            for k in cols:
+                or_filter.append(
+                    ("response__" + k["col_name"] + "__icontains", search_val)
+                )
 
-    if min_date:
-        adata = adata.filter(
-            created_on__gte=datetime.strptime(min_date, "%Y-%m-%d").date()
-        )
+            q_list = [Q(x) for x in or_filter]
+            adata = adata.filter(reduce(operator.or_, q_list))
 
-    if max_date:
-        adata = adata.filter(
-            created_on__lte=datetime.strptime(max_date, "%Y-%m-%d").date()
-        )
+        if min_date:
+            adata = adata.filter(
+                created_on__gte=datetime.strptime(min_date, "%Y-%m-%d").date()
+            )
 
-    if sort_col > -1:
-        if sort_dir == "desc":
-            sd = "-" + "response__" + cols[0]["col_name"]
-        else:
-            sd = "response__" + cols[0]["col_name"]
+        if max_date:
+            adata = adata.filter(
+                created_on__lte=datetime.strptime(max_date, "%Y-%m-%d").date()
+            )
 
-        adata = adata.order_by(sd)
+        if sort_col > -1:
+            print(cols)
+            if sort_dir == "desc":
+                sd = "-" + "response__" + cols[0]["col_name"]
+            else:
+                sd = "response__" + cols[0]["col_name"]
+
+            adata = adata.order_by(sd)
 
     recordsFiltered = adata.count()
     data = adata[start : start + length]

@@ -44,9 +44,6 @@ class SurveyChartView(APIView):
             # filter based on user permissions
             summation = summation.count()
 
-            print(val.title)
-            print(summation)
-
             # create dict
             chart = {
                 'survey': val.title,

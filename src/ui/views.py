@@ -1104,7 +1104,7 @@ def get_data_from_instance(pk):
 class data_chat(generic.TemplateView):
     template_name = "pages/chat.html"
 
-
+                                                  
 class ChangePmPassword(generic.TemplateView):
     template_name = "pages/projects/members/change_password.html"
 
